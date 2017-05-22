@@ -13,11 +13,10 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+font pango: System San Francisco Display 8
 
-# This font is widely installed, provides lots of unicode glyphs, right-to-left
-# text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
+new_window pixel 7
+new_float pixel 7
 
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -35,18 +34,23 @@ bindsym $mod+Return exec i3-sensible-terminal
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+# Change title of a window
+bindsym esc+F8 exec xdotool set_window --name `zenity --entry --title=I3 --text='Change window title to:'` `xdotool getactivewindow`
+
+# launcher (rofi) 
+#bindsym $mod+d exec rofi -show run -eh 2 -width 100 -padding 100 -opacity "80" -bw 0 -hlfg "#9575cd" -font "System San Francisco Display 14"
+bindsym $mod+d exec rofi -show run -location 0 -lines 8 -bw 0 -font "System San Francisco Display 14" -padding 50  
+
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -55,10 +59,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -67,7 +71,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+semicolon split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -92,36 +96,89 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
+set $workspace1 "1:   Android Studio"
+set $workspace2 "2:   Chrome"
+set $workspace3 "3:   Slack"
+set $workspace4 "4:   Terminals"
+set $workspace5 "5:   IntelliJ"
+set $workspace6 "6: Callibre"
+set $workspace7 "7:  Git"
+set $workspace8 "8:"
+set $workspace9 "9:"
+set $workspace10 "10:"
+set $workspace11 "11:"
+set $workspace12 "12:"
+
+set $bottom "DP-0"
+set $top    "DP-2"
+set $left   "HDMI-0"
+set $right  "HDMI-1"
+
+workspace $workspace1 output $bottom
+workspace $workspace2 output $top
+workspace $workspace3 output $left
+workspace $workspace4 output $right
+workspace $workspace5 output $bottom
+workspace $workspace6 output $top
+workspace $workspace7 output $top
+workspace $workspace8 output $right
+workspace $workspace9 output $bottom
+workspace $workspace10 output $top
+workspace $workspace11 output $left
+workspace $workspace12 output $right
+
 # switch to workspace
-bindsym $mod+1 workspace 1
-bindsym $mod+2 workspace 2
-bindsym $mod+3 workspace 3
-bindsym $mod+4 workspace 4
-bindsym $mod+5 workspace 5
-bindsym $mod+6 workspace 6
-bindsym $mod+7 workspace 7
-bindsym $mod+8 workspace 8
-bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace 10
+bindsym $mod+1 workspace $workspace1
+bindsym $mod+2 workspace $workspace2
+bindsym $mod+3 workspace $workspace3
+bindsym $mod+4 workspace $workspace4
+bindsym $mod+5 workspace $workspace5
+bindsym $mod+6 workspace $workspace6
+bindsym $mod+7 workspace $workspace7
+bindsym $mod+8 workspace $workspace8
+bindsym $mod+9 workspace $workspace9
+bindsym $mod+0 workspace $workspace10
+
+# TODO: Hotkeys for workspaces 11 + 12
+# bindsym $mod+ workspace $workspace11
+# bindsym $mod+ workspace $workspace12
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1
-bindsym $mod+Shift+2 move container to workspace 2
-bindsym $mod+Shift+3 move container to workspace 3
-bindsym $mod+Shift+4 move container to workspace 4
-bindsym $mod+Shift+5 move container to workspace 5
-bindsym $mod+Shift+6 move container to workspace 6
-bindsym $mod+Shift+7 move container to workspace 7
-bindsym $mod+Shift+8 move container to workspace 8
-bindsym $mod+Shift+9 move container to workspace 9
-bindsym $mod+Shift+0 move container to workspace 10
+bindsym $mod+Shift+1 move container to workspace $workspace1
+bindsym $mod+Shift+2 move container to workspace $workspace2
+bindsym $mod+Shift+3 move container to workspace $workspace3
+bindsym $mod+Shift+4 move container to workspace $workspace4
+bindsym $mod+Shift+5 move container to workspace $workspace5
+bindsym $mod+Shift+6 move container to workspace $workspace6
+bindsym $mod+Shift+7 move container to workspace $workspace7
+bindsym $mod+Shift+8 move container to workspace $workspace8
+bindsym $mod+Shift+9 move container to workspace $workspace9
+bindsym $mod+Shift+0 move container to workspace $workspace10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+# UPDATE THIS FONT
+bindsym $mod+Shift+e exec "i3-nagbar -f System San Francisco Display 14 -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+popup_during_fullscreen leave_fullscreen
+focus_follows_mouse yes
+workspace_auto_back_and_forth yes
+
+# Make the currently focused window a scratchpad
+bindsym $mod+Shift+minus move scratchpad
+
+# Show the first scratchpad window
+bindsym $mod+minus scratchpad show
+
+show_marks yes
+bindsym $mod+Shift+F11 exec "i3-input -F 'mark %s' -P 'Mark: '"
+
+force_display_urgency_hint 1000 ms
+
+bindsym $mod+Print exec "shutter -s"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -131,10 +188,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
@@ -149,22 +206,105 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
+set $bg-color 	         #4286f4
+set $inactive-bg-color   #ffff99
+set $text-color          #f3f4f5
+set $inactive-text-color #676E7D
+set $urgent-bg-color     #E53935
+
+# window colors
+#                       border              background         text                 indicator
+client.focused          $bg-color           $bg-color          $text-color          #e53935
+client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color  #e53935
+client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color  #e53935
+client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #e53935
+
+# bar
 bar {
-        status_command i3status
+	output "DP-0"
+	output "DP-2" 
+        font pango: System San Francisco Display 8
+  	status_command i3blocks -c ~/.config/i3/i3blocks.conf
+	colors {
+		background #2f343f
+         	separator #757575
+		statusline #839496
+
+		#                  border             background         text
+		focused_workspace  $bg-color          $bg-color          $text-color
+		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+	}
 }
 
-# Pulse Audio controls
-#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
-#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
-#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+# bar
+bar {
+        output "HDMI-0"
+        output "HDMI-1"
+        font pango: System San Francisco Display 6
+        colors {
+                background #2f343f
+                separator #757575
+                statusline #839496
+                #                  border             background         text
+                focused_workspace  $bg-color          $bg-color          $text-color
+                inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+                urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+        }
+}
 
-# Media player controls
-#bindsym XF86AudioPlay exec playerctl play
-#bindsym XF86AudioPause exec playerctl pause
-#bindsym XF86AudioNext exec playerctl next
-#bindsym XF86AudioPrev exec playerctl previous
+exec_always /home/dayfun/.screenlayout/1x2x1.sh
+# exec_always nitrogen --restore
+
+assign [class="^jetbrains-studio$" instance="^sun-awt-X11-X(DialogPeer|FramePeer)$"] → $workspace1
+
+assign [class="^[G|g]nome-terminal"] → $workspace4
+
+exec --no-startup-id i3-msg 'workspace number 4; exec terminal; workspace number 1'
 
 
-exec_always "sh ~/.screenlayout/1x2x1.sh"
+######################################################################################################################
+#                                                                                                                    #
+# TODO: Purgatory                                                                                                    #
+#                                                                                                                    #
+######################################################################################################################
+
+# assign [class="^[gG]it-gui"] → $workspace2
+# for_window [class="^[gG]it-gui"] focus, fullscreen enable
+# assign [class="^Slack"] → $workspace3
+# for_window [class="Thunar"] floating enable
+# exec --no-startup-id i3-msg 'workspace number 2; exec google-chrome; workspace number 1'
+# exec --no-startup-id i3-msg 'workspace number 3; exec slack; workspace number 1'
+# exec compton -f
+# exec_always clipit -n
+# exec --no-startup-id nm-applet
+# exec --no-startup-id shutter --min_at_startup
+# exec pulseaudio --start
+
+# Switch between keyboard layouts
+# exec_always --no-startup-id setxkbmap si,ru -option 'grp:alt_shift_toggle'
+
+
+# set $lastPass [g] Generate Secure Password [Alt+g], [i] Recheck Page [Alt+i], [w] Site search [Alt+w], [Page Up] Fill In Next Login [Alt+PageUp], [PageDown] Fill in Previous Login [Alt+PageDown], [f] Sumbit Form [Ctrl+Alt+f], [d] Fill In Default Form Fill [Ctrl+Shift+i]
+#
+# mode "$lastPass" {
+#
+# 	bindsym --release g exec --no-startup-id xdotool key --clearmodifiers alt+g
+# 	bindsym --release i exec --no-startup-id xdotool key --clearmodifiers alt+i
+# 	bindsym --release w exec --no-startup-id xdotool key --clearmodifiers alt+w
+# 	bindsym --release PageUp exec --no-startup-id xdotool key --clearmodifiers alt+PageUp
+# 	bindsym --release PageDown exec --no-startup-id xdotool key --clearmodifiers alt+PageDown
+# 	bindsym --release f exec --no-startup-id xdotool key --clearmodifiers ctrl+alt+f
+# 	bindsym --release d exec --no-startup-id xdotool key --clearmodifiers ctrl+shift+i
+# 	bindsym Escape mode "default"
+# 	bindsym Return mode "default"
+#
+# }
+#
+# bindsym ctrl+shift+l mode "$lastPass"
+
+######################################################################################################################
+#                                                                                                                    #
+#                                                                                                                    #
+#                                                                                                                    #
+######################################################################################################################
