@@ -1,0 +1,67 @@
+<monitors version="1">
+  <configuration>
+      <clone>no</clone>
+      <output name="DVI-D-0">
+      </output>
+      <output name="HDMI-0">
+          <vendor>ACI</vendor>
+          <product>0x23d2</product>
+          <serial>0x000037a4</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+          <x>0</x>
+          <y>467</y>
+          <rotation>right</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+      <output name="HDMI-1">
+          <vendor>ACI</vendor>
+          <product>0x23d2</product>
+          <serial>0x000037a5</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60</rate>
+          <x>4544</x>
+          <y>351</y>
+          <rotation>left</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+      <output name="DP-0">
+          <vendor>SAM</vendor>
+          <product>0x0bfd</product>
+          <serial>0x00000000</serial>
+          <width>3440</width>
+          <height>1440</height>
+          <rate>60</rate>
+          <x>1080</x>
+          <y>1453</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+      <output name="DP-1">
+      </output>
+      <output name="DP-2">
+          <vendor>SAM</vendor>
+          <product>0x0bfd</product>
+          <serial>0x00000000</serial>
+          <width>3440</width>
+          <height>1440</height>
+          <rate>60</rate>
+          <x>1104</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>no</primary>
+      </output>
+      <output name="DP-3">
+      </output>
+  </configuration>
+</monitors>

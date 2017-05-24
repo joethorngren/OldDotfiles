@@ -108,3 +108,5 @@ fi
 
 # Then, source plugins and add commands to $PATH
 zplug load --verbose
+
+[ -s "~/.scm_breeze/scm_breeze.sh" ] && source "~/.scm_breeze/scm_breeze.sh"
