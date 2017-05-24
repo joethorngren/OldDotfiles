@@ -1,6 +1,3 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -9,68 +6,8 @@ export ZSH=$HOME/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerline"
 
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# HIST_STAMPS="mm/dd/yyyy"
-
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
-
 source $ZSH/oh-my-zsh.sh
-
-# User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+source ~/.zplug/init.zsh 
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
@@ -85,7 +22,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
-# Powerline
+####################
+# Powerline        #
+####################
 
 export TERM="xterm-256color"
 
@@ -93,7 +32,14 @@ if [[ -r ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.z
     source ~/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
 fi
 
-# History Options:
+#####################
+# History Options:  #
+#####################
+
+# Keep 100000000 lines of history within the shell and save it to ~/.zsh_history:
+HISTSIZE=1000000
+SAVEHIST=1000000
+HISTFILE=~/.zsh_history
 
 setopt EXTENDED_HISTORY
 setopt HIST_EXPIRE_DUPS_FIRST
@@ -102,10 +48,63 @@ setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_IGNORE_SPACE
 setopt HIST_FIND_NO_DUPS
 setopt HIST_SAVE_NO_DUPS
-setopt HIST_BEEP
 
-# Auto-Completion
+# Add commands as they are typed, don't wait until shell exit 
+setopt INC_APPEND_HISTORY
 
-setopt GLOB_COMPLETE		# If we have a glob, this expands it
-setopt NO_CASE_GLOB		# Case-insensitive matching
+# Share history between sessions
+setopt SHARE_HISTORY
 
+#####################
+# Auto-Completion   #
+#####################
+
+# If we have a glob, this expands it
+setopt GLOB_COMPLETE
+
+# Case-insensitive matching
+setopt NO_CASE_GLOB	
+
+# Auto-complete aliases
+setopt COMPLETE_ALIASES
+
+# Use modern completion system
+autoload -Uz compinit
+compinit
+
+zstyle ':completion:*' auto-description 'specify: %d'
+zstyle ':completion:*' menu select
+zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
+zstyle ':completion:*' list-colors ''
+zstyle ':completion:*' list-prompt %SAt %p: Hit TAB for more, or the character to insert%s
+zstyle ':completion:*' matcher-list '' 'm:{a-z}={A-Z}' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=* l:|=*'
+zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
+zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
+
+# Rehash on the fly so new files in $PATH are found for auto-completion
+zstyle ':completion:*' rehash true 
+
+
+###################
+# Zplug Plugins   #
+###################
+
+zplug 'zplug/zplug', hook-build:'zplug update --self'
+
+zplug "plugins/git",                               from:oh-my-zsh
+zplug "zsh-users/zsh-completions",                 defer:2
+zplug "zsh-users/zsh-autosuggestions",             defer:2
+zplug "zsh-users/zsh-syntax-highlighting",         defer:2
+zplug "zsh-users/zsh-history-substring-search",    defer:2
+zplug "djui/alias-tips"
+
+# Install plugins if there are plugins that have not been installed
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
+
+# Then, source plugins and add commands to $PATH
+zplug load --verbose
