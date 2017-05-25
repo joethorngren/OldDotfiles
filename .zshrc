@@ -8,7 +8,6 @@ ZSH_THEME="powerline"
 
 source $ZSH/oh-my-zsh.sh
 source ~/.zplug/init.zsh 
-
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
@@ -66,7 +65,7 @@ setopt GLOB_COMPLETE
 setopt NO_CASE_GLOB	
 
 # Auto-complete aliases
-setopt COMPLETE_ALIASES
+setopt NO_COMPLETE_ALIASES
 
 # Use modern completion system
 autoload -Uz compinit
@@ -109,4 +108,9 @@ fi
 # Then, source plugins and add commands to $PATH
 zplug load --verbose
 
-[ -s "~/.scm_breeze/scm_breeze.sh" ] && source "~/.scm_breeze/scm_breeze.sh"
+# Hub Shit
+fpath=(~/.zsh/completions /home/dayfun/.zplug/autoload /home/dayfun/.zplug/misc/completions /home/dayfun/.zplug/base/sources /home/dayfun/.zplug/base/utils /home/dayfun/.zplug/base/job /home/dayfun/.zplug/base/log /home/dayfun/.zplug/base/io /home/dayfun/.zplug/base/core /home/dayfun/.zplug/base/base /home/dayfun/.zplug/autoload/commands /home/dayfun/.zplug/autoload/options /home/dayfun/.zplug/autoload/tags /home/dayfun/.oh-my-zsh/functions /home/dayfun/.oh-my-zsh/completions /usr/local/share/zsh/site-functions /usr/share/zsh/vendor-functions /usr/share/zsh/vendor-completions /usr/share/zsh/functions/Calendar /usr/share/zsh/functions/Chpwd /usr/share/zsh/functions/Completion /usr/share/zsh/functions/Completion/AIX /usr/share/zsh/functions/Completion/BSD /usr/share/zsh/functions/Completion/Base /usr/share/zsh/functions/Completion/Cygwin /usr/share/zsh/functions/Completion/Darwin /usr/share/zsh/functions/Completion/Debian /usr/share/zsh/functions/Completion/Linux /usr/share/zsh/functions/Completion/Mandriva /usr/share/zsh/functions/Completion/Redhat /usr/share/zsh/functions/Completion/Solaris /usr/share/zsh/functions/Completion/Unix /usr/share/zsh/functions/Completion/X /usr/share/zsh/functions/Completion/Zsh /usr/share/zsh/functions/Completion/openSUSE /usr/share/zsh/functions/Exceptions /usr/share/zsh/functions/MIME /usr/share/zsh/functions/Misc /usr/share/zsh/functions/Newuser /usr/share/zsh/functions/Prompts /usr/share/zsh/functions/TCP /usr/share/zsh/functions/VCS_Info /usr/share/zsh/functions/VCS_Info/Backends /usr/share/zsh/functions/Zftp /usr/share/zsh/functions/Zle /home/dayfun/.zplug/repos/zsh-users/zsh-completions/src)
+autoload -U compinit && compinit
+eval alias git=hub
+
+eval "$(scmpuff init -s)"
