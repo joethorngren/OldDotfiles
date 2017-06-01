@@ -2,7 +2,7 @@
 	email = joethorngren@gmail.com
 	name = Joe Thorngren
 [push]
-	default = matching
+	default = simple
 [color]
 	ui = auto
 [core]
