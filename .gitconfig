@@ -8,3 +8,5 @@
 [core]
 	editor = /usr/bin/vim
 	pager = less -F -X
+[credential]
+	helper = cache --timeout=10800
