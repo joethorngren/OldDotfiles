@@ -34,17 +34,9 @@ bindsym $mod+Return exec i3-sensible-terminal
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# Change title of a window
-# bindsym esc+F8 exec xdotool set_window --name `zenity --entry --title=I3 --text='Change window title to:'` `xdotool getactivewindow`
-
 # launcher (rofi) 
 #bindsym $mod+d exec rofi -show run -eh 2 -width 100 -padding 100 -opacity "80" -bw 0 -hlfg "#9575cd" -font "System San Francisco Display 14"
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu='rofi -dmenu -m -4 -location 0 -show run -lines 8 -bw 0 -font "System San Francisco Display 14" -padding 50'
-
-# There also is the (new) i3-dmenu-desktop which only displays applications
-# shipping a .desktop file. It is a wrapper around dmenu, so you need that
-# installed.
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
 bindsym $mod+h focus left
@@ -101,7 +93,7 @@ set $workspace2 "2:   Chrome"
 set $workspace3 "3:   Slack"
 set $workspace4 "4:   Terminals"
 set $workspace5 "5:   IntelliJ"
-set $workspace6 "6: Callibre"
+set $workspace6 "6:  Calibre"
 set $workspace7 "7:  Git"
 set $workspace8 "8:"
 set $workspace9 "9:"
@@ -157,6 +149,7 @@ bindsym $mod+Shift+0 move container to workspace $workspace10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
+
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 
@@ -221,11 +214,11 @@ client.urgent               $urgent-bg-color      $urgent-bg-color      $text-co
 bar {
 	output "DP-0"
 	output "DP-2" 
-        font pango: System San Francisco Display 14
   	status_command i3status
+    font pango: System San Francisco Display 14
 	colors {
 		background #2f343f
-         	separator #757575
+        separator #757575
 		statusline #839496
 
 		#                  border             background         text
@@ -252,9 +245,36 @@ bar {
         }
 }
 
-exec_always --no-startup-id /home/dayfun/.screenlayout/1x2x1.sh
-exec --no-startup-id nm-applet
+# Powerline i3 bar
+# Note
+#
+# As the patch to include background-colors in i3bar is likely not to be merged, it is recommended to instead run bar (see above). The source for i3bgbar is however still available here.
+# Add the following to ~/.i3/config:
+#
+# bar {
+#     i3bar_command i3bgbar
+#
+#     status_command python /path/to/powerline/bindings/i3/powerline-i3.py
+#     font pango:PowerlineFont 12
+# }
+# where i3bgbar may be replaced with the path to the custom i3bar binary and PowerlineFont is any system font with powerline support.
 
+######################################################################################################################
+#                                                                                                                    #
+# Startup                                                                                                            #
+#                                                                                                                    #
+######################################################################################################################
+
+exec_always --no-startup-id /home/dayfun/.screenlayout/1x2x1.sh
+exec_always nitrogen --restore
+
+exec --no-startup-id nm-applet
+exec --no-startup-id compton -f
+
+exec i3-msg 'workspace "2:   Chrome"; exec chromium-browser;'
+exec i3-msg 'workspace "3:   Slack"; exec slack; exec hexchat'
+
+assign [class="^[sS]lack"] → $workspace3
 assign [class="^jetbrains-studio$" instance="^sun-awt-X11-X(DialogPeer|FramePeer)$"] → $workspace1
 
 
@@ -266,11 +286,9 @@ assign [class="^jetbrains-studio$" instance="^sun-awt-X11-X(DialogPeer|FramePeer
 
 # assign [class="^[gG]it-gui"] → $workspace2
 # for_window [class="^[gG]it-gui"] focus, fullscreen enable
-# assign [class="^Slack"] → $workspace3
 # for_window [class="Thunar"] floating enable
-# exec --no-startup-id i3-msg 'workspace number 2; exec google-chrome; workspace number 1'
-# exec --no-startup-id i3-msg 'workspace number 3; exec slack; workspace number 1'
-# exec compton -f
+
+
 # exec_always clipit -n
 # exec --no-startup-id nm-applet
 # exec --no-startup-id shutter --min_at_startup
@@ -307,6 +325,13 @@ assign [class="^jetbrains-studio$" instance="^sun-awt-X11-X(DialogPeer|FramePeer
 # show_marks yes
 # bindsym $mod+Shift+F11 exec "i3-input -F 'mark %s' -P 'Mark: '"
 
+# Change title of a window
+# bindsym esc+F8 exec xdotool set_window --name `zenity --entry --title=I3 --text='Change window title to:'` `xdotool getactivewindow`
+
+# There also is the (new) i3-dmenu-desktop which only displays applications
+# shipping a .desktop file. It is a wrapper around dmenu, so you need that
+# installed.
+# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 ######################################################################################################################
 #                                                                                                                    #
