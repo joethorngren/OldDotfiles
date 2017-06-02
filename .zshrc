@@ -165,6 +165,7 @@ alias pip='/usr/bin/pip3'
 alias python2='/usr/bin/python2'
 alias pip2='/usr/bin/pip2'
 
+alias cc='cd ~/Code_Complete/'
 
 
 zstyle ':completion:*' auto-description 'specify: %d'
