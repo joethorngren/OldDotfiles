@@ -1,0 +1,5 @@
+Indstil automatisk videoer til at afspille i HD. Brugere kan vælge mellem 1080p, 720p, og andre størrelser til rådighed for den enkelte video.
+
+Send venligst forslag og fejlrapporter til http://www.autohdforyoutube.com
+
+YouTube™ er et varemærke tilhørende Google™. Denne udvidelse er ikke godkendt af Google™ eller YouTube™.

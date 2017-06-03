@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Settings</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <link rel="icon" href="../../img/icon/icon16.png">
+
+    <link href="../../vendor/jquery-ui/css/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../../vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../vendor/jGrowl/jquery.jgrowl.min.css">
+    <link rel="stylesheet" href="../../vendor/colorpick/css/colpick.css">
+    <link rel="stylesheet" href="css/options.css" />
+    <!--<link rel="stylesheet" href="css/firefox.css"/>-->
+
+    <script src="../../vendor/head.min.js"></script>
+    <script src="./js/scripts/options.js"></script>
+</head>
+
+<body style="overflow-y:scroll"> 
+    <div id="tree-navi-wrap" style="opacity:0">
+        <div id="tree-navi-head"></div>
+        <div id="tree-navi-left"></div>
+        <div id="tree-navi-right">
+            <div id="tree-navi-body">
+                <center>
+                    <div id="navi-upper-sections"></div>
+                    
+                    <div class="navi-page-block" block="navi-bg-active">
+                        <div class="navi-body-header">
+                            <h1 lang="navi_active_bg_title"></h1>
+                            <p>
+                                <span lang="navi_active_bg_desc"></span>
+                                <span class="settings-tooltip-wrap" >
+                                    <span 
+                                          class="settings-tooltip lang-detect hide-ru" 
+                                          data-toggle="tooltip" 
+                                          data-placement="bottom" 
+                                          data-html="true"
+                                          data-title="<img src='./img/sample_bg.png' />"
+                                    ></span>
+                                    <span 
+                                          class="settings-tooltip lang-detect show-ru" 
+                                          data-toggle="tooltip" 
+                                          data-placement="bottom" 
+                                          data-html="true"
+                                          data-title="<img src='./img/sample_bg_ru.png' />"
+                                    ></span>
+                                </span>
+                            </p>
+                        </div>
+                        
+                        <div class="navi-block no-padding">
+                            <div id="navi-theme-play"></div>
+                        </div>
+                        
+                        <div class="navi-block navi-block-slim transparent">
+                            <h5><span class="current-bg-name"></span></h5>
+                            <p class="current-bg-author"></p>
+                            <!--
+                            <h5><span lang="navi_active_bg_name"></span> - <span class="current-bg-name"></span></h5>
+                            <p lang="navi_active_bg_desc"></p>
+                            -->
+                        </div>
+                        
+                        <div class="navi-block navi-block-gray">
+                            <div mark="navi-bg-favorites" class="navi-button navi-button-mark" lang="navi_view_all_favorites" page="favorite" nav="navi-bg-favorites"></div>
+                            <div mark="navi-bg-downloaded" class="navi-button navi-button-mark" lang="navi_view_all_downloaded" nav="navi-bg-downloaded"></div>
+                            <div mark="navi-bg-live-backgrounds" class="navi-button navi-button-mark navi-button-squeeze" lang="navi_view_live_backgrounds" nav="navi-bg-live-backgrounds"></div>
+                            <div mark="navi-bg-wallpapers" class="navi-button navi-button-mark" lang="navi_view_wallpapers" nav="navi-bg-wallpapers"></div>
+                            <div mark="navi-bg-live-themes" class="navi-button navi-button-mark" lang="navi_view_live_themes" nav="navi-bg-live-themes"></div>
+                        </div>
+                        
+                        <!--
+                        <div class="navi-block">
+                            <div id="bg-type-list" class="sort-list">
+                                <div class="sort-item split" mark="navi-bg-favorites">
+                                    <label class="navi-label" for="show-favorites" >
+                                        <span class="desc desc-dot" lang="navi_show_favorites"></span>
+                                        <input type="checkbox" option-group="navi-show" id="show-favorites" evince="show-favorites" ><pseudo></pseudo>
+                                    </label>
+                                    <div class="navi-roll" watch="show-favorites">
+                                        <h4>
+                                            <span class="h-inner" lang="navi_randomize_favorites"></span>
+                                            <div class="navi-button navi-button-right" lang="navi_view_all_favorites" page="favorite" nav="navi-bg-favorites"></div>
+                                        </h4>
+                                        <div class="radio-label">
+                                            <div class="radio-wrap radio-left">
+                                                <label for="randomize-favorites-off">
+                                                    <input type="radio" name="randomize-favorites" value="off" id="randomize-favorites-off" option-single="randomize-favorites" mirror="randomize-favorites-tab-off" /><pseudo></pseudo> 
+                                                    <span class="radio-middle" lang="vals_randomize_disabled"></span> 
+                                                </label>
+                                                <label for="randomize-favorites-both">
+                                                    <input type="radio" name="randomize-favorites" value="both" id="randomize-favorites-both" option-single="randomize-favorites" mirror="randomize-favorites-tab-both" /><pseudo></pseudo> 
+                                                    <span class="radio-middle" lang="vals_randomize_both"></span> 
+                                                </label>
+                                                <label for="randomize-favorites-video">
+                                                    <input type="radio" name="randomize-favorites" value="video" id="randomize-favorites-video" option-single="randomize-favorites" mirror="randomize-tab-favorites-video" /><pseudo></pseudo> 
+                                                    <span class="radio-middle" lang="vals_randomize_video"></span> 
+                                                </label>
+                                                <label for="randomize-favorites-images">
+                                                    <input type="radio" name="randomize-favorites" value="image" id="randomize-favorites-images" option-single="randomize-favorites" mirror="randomize-tab-favorites-images" /><pseudo></pseudo> 
+                                                    <span class="radio-middle" lang="vals_randomize_images"></span> 
+                                                </label>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="sort-item split" mark="navi-bg-downloaded">
+                                    <label class="navi-label navi-split" for="show-downloaded" >
+                                        <span class="desc desc-dot" lang="navi_show_downloaded"></span>
+                                        <input type="checkbox" option-group="navi-show" id="show-downloaded" evince="show-downloaded" ><pseudo></pseudo>
+                                    </label>
+                                    <div class="navi-roll" watch="show-downloaded">
+                                        <h4>
+                                            <span class="h-inner" lang="navi_randomize_downloaded"></span>
+                                            <div class="navi-button navi-button-right" lang="navi_view_all_downloaded" nav="navi-bg-downloaded"></div>
+                                        </h4>
+                                        <div class="radio-label">
+                                            <div class="radio-wrap radio-left">
+                                                <label for="randomize-downloaded-off">
+                                                    <input type="radio" name="randomize-downloaded" value="off" id="randomize-downloaded-off" option-single="randomize-downloaded" mirror="randomize-downloaded-tab-off" /><pseudo></pseudo> 
+                                                    <span class="radio-middle" lang="vals_randomize_disabled"></span> 
+                                                </label>
+                                                <label for="randomize-downloaded-both">
+                                                    <input type="radio" name="randomize-downloaded" value="both" id="randomize-downloaded-both" option-single="randomize-downloaded" mirror="randomize-downloaded-tab-both" /><pseudo></pseudo> 
+                                                    <span class="radio-middle" lang="vals_randomize_both"></span> 
+                                                </label>
+                                                <label for="randomize-downloaded-video">
+                                                    <input type="radio" name="randomize-downloaded" value="video" id="randomize-downloaded-video" option-single="randomize-downloaded" mirror="randomize-downloaded-tab-video" /><pseudo></pseudo> 
+                                                    <span class="radio-middle" lang="vals_randomize_video"></span> 
+                                                </label>
+                                                <label for="randomize-downloaded-images">
+                                                    <input type="radio" name="randomize-downloaded" value="image" id="randomize-downloaded-images" option-single="randomize-downloaded" mirror="randomize-downloaded-tab-images" /><pseudo></pseudo> 
+                                                    <span class="radio-middle" lang="vals_randomize_images"></span> 
+                                                </label>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="sort-item split active" mark="navi-bg-live-backgrounds">
+                                    <label class="navi-label navi-split" for="show-live-backgrounds" >
+                                        <span class="desc desc-dot" lang="navi_show_live_backgrounds"></span>
+                                        <input type="checkbox" option-group="navi-show" id="show-live-backgrounds" evince="show-live-backgrounds" ><pseudo></pseudo>
+                                    </label>
+                                    <div class="navi-roll" watch="show-live-backgrounds">
+                                        <div class="navi-button navi-button-right navi-button-squeeze" lang="navi_view_live_backgrounds" nav="navi-bg-live-backgrounds"></div>
+                                    </div>
+                                </div>
+
+                                <div class="sort-item split" mark="navi-bg-wallpapers">
+                                    <label class="navi-label navi-split" for="show-wallpapers" >
+                                        <span class="desc desc-dot" lang="navi_show_wallpapers"></span>
+                                        <input type="checkbox" option-group="navi-show" id="show-wallpapers" evince="show-wallpapers" ><pseudo></pseudo>
+                                    </label>
+                                    <div class="navi-roll" watch="show-wallpapers">
+                                        <div class="navi-button navi-button-right navi-button-squeeze" lang="navi_view_wallpapers" nav="navi-bg-wallpapers"></div>
+                                    </div>
+                                </div>
+
+                                <div class="sort-item split" mark="navi-bg-live-themes">
+                                    <label class="navi-label navi-split chrome-only hide" for="show-live-themes" >
+                                        <span class="desc desc-dot" lang="navi_show_live_themes"></span>
+                                        <input type="checkbox" option-group="navi-show" id="show-live-themes" evince="show-live-themes" ><pseudo></pseudo>
+                                    </label>
+                                    <div class="navi-roll chrome-only hide" watch="show-live-themes">
+                                        <div class="navi-button navi-button-right navi-button-squeeze" lang="navi_view_live_themes" nav="navi-bg-live-themes"></div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                    
+                    <div class="navi-page-block" block="navi-bg-favorites" mark="navi-bg-favorites">
+                        <div class="navi-body-header navi-header-full-wide">
+                            <h2><span lang="navi_favorites_title"></span><sup lang="navi_active_mode_message"></sup></h2>
+                            <!--<p lang="navi_favorites_desc"></p>-->
+                        </div>
+
+                        <div class="navi-block navi-block-full-wide">
+                            <div class="scroll-fixed">
+                                <div class="scroll-inner">
+                                    <ul class="navi-tabs-labels" memorize="favorites-tab">
+                                        <li for="favorites-live-backgrounds"><span lang="navi_tab_live_backgrounds"></span><i counter=".av-content-container"></i></li>
+                                        <li for="favorites-static-wallpapers"><span lang="navi_tab_static_wallpapers"></span><i counter=".av-content-container"></i></li>
+                                        <li for="favorites-live-themes" class="firefox-hide opera-hide"><span lang="navi_tab_live_themes"></span><i counter=".av-content-container"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="radio-label navi-pre-tabs">
+                                <span class="desc" lang="navi_randomize_favorites"></span>
+                                <div class="radio-wrap radio-inline">
+                                    <label for="randomize-favorites-off">
+                                        <input type="radio" name="randomize-favorites" value="off" id="randomize-favorites-off" option-single="randomize-favorites" mirrorOFF="randomize-favorites-off" /><pseudo></pseudo> 
+                                        <span class="radio-thin" lang="vals_randomize_disabled"></span> 
+                                    </label>
+                                    <label for="randomize-favorites-both">
+                                        <input type="radio" name="randomize-favorites" value="both" id="randomize-favorites-both" option-single="randomize-favorites" mirrorOFF="randomize-favorites-both" /><pseudo></pseudo> 
+                                        <span class="radio-thin" lang="vals_randomize_both"></span> 
+                                    </label>
+                                    <label for="randomize-favorites-video">
+                                        <input type="radio" name="randomize-favorites" value="video" id="randomize-favorites-video" option-single="randomize-favorites" mirrorOFF="randomize-favorites-video" /><pseudo></pseudo> 
+                                        <span class="radio-thin" lang="vals_randomize_video"></span> 
+                                    </label>
+                                    <label for="randomize-favorites-images">
+                                        <input type="radio" name="randomize-favorites" value="image" id="randomize-favorites-images" option-single="randomize-favorites" mirrorOFF="randomize-favorites-images" /><pseudo></pseudo> 
+                                        <span class="radio-thin" lang="vals_randomize_images"></span> 
+                                    </label>
+
+                                </div>
+                            </div>
+                            
+                            <div class="navi-tabs navi-tabs-post">
+                                <div class="navi-tab" tab="favorites-live-backgrounds">
+                                    <span class="navi-null-message" lang="options_tabs_favorite_no_live_themes"></span>
+                                    <div id="available-favorite-themes" class="available-themes-block navi-themes navi-null-hide"></div>
+                                </div>
+                                <div class="navi-tab" tab="favorites-static-wallpapers">
+                                    <span class="navi-null-message" lang="options_tabs_favorite_no_walpapers"></span>
+                                    <div id="available-favorite-images" class="available-themes-block navi-themes navi-null-hide"></div>
+                                </div>
+                                <div class="navi-tab" tab="favorites-live-themes">
+                                    <span class="navi-null-message" lang="options_tabs_favorite_no_live_themes"></span>
+                                    <div id="available-favorite-live-themes" class="available-themes-block navi-themes navi-null-hide"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="navi-page-block" block="navi-bg-downloaded" mark="navi-bg-downloaded">
+                        <div class="navi-body-header navi-header-full-wide">
+                            <h2><span lang="navi_downloaded_title"></span><sup lang="navi_active_mode_message"></sup></h2>
+                            <!--<p lang="navi_downloaded_desc"></p>-->
+                        </div>
+
+                        <div class="navi-block navi-block-full-wide">
+                            <div class="scroll-fixed">
+                                <div class="scroll-inner">
+                                    <ul class="navi-tabs-labels" memorize="downloaded-tab">
+                                        <li for="downloaded-live-backgrounds"><span lang="navi_tab_live_backgrounds"></span><i counter=".dummy"></i></li>
+                                        <li for="downloaded-static-wallpapers"><span lang="navi_tab_static_wallpapers"></span><i counter=".dummy"></i></li>
+                                        <li for="downloaded-live-themes" class="firefox-hide opera-hide"><span lang="navi_tab_live_themes"></span><i counter=".dummy"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="radio-label navi-pre-tabs">
+                                <span class="desc" lang="navi_randomize_downloaded"></span>
+                                <div class="radio-wrap radio-inline">
+                                    <label for="randomize-downloaded-off">
+                                        <input type="radio" name="randomize-downloaded" value="off" id="randomize-downloaded-off" option-single="randomize-downloaded" mirrorOFF="randomize-downloaded-off" /><pseudo></pseudo> 
+                                        <span class="radio-thin" lang="vals_randomize_disabled"></span> 
+                                    </label>
+                                    <label for="randomize-downloaded-both">
+                                        <input type="radio" name="randomize-downloaded" value="both" id="randomize-downloaded-both" option-single="randomize-downloaded" mirrorOFF="randomize-downloaded-both" /><pseudo></pseudo> 
+                                        <span class="radio-thin" lang="vals_randomize_both"></span> 
+                                    </label>
+                                    <label for="randomize-downloaded-video">
+                                        <input type="radio" name="randomize-downloaded" value="video" id="randomize-downloaded-video" option-single="randomize-downloaded" mirrorOFF="randomize-downloaded-video" /><pseudo></pseudo> 
+                                        <span class="radio-thin" lang="vals_randomize_video"></span> 
+                                    </label>
+                                    <label for="randomize-downloaded-images">
+                                        <input type="radio" name="randomize-downloaded" value="image" id="randomize-downloaded-images" option-single="randomize-downloaded" mirror="randomize-downloaded-images" /><pseudo></pseudo> 
+                                        <span class="radio-thin" lang="vals_randomize_images"></span> 
+                                    </label>
+
+                                </div>
+                            </div>
+                            
+                            <div class="navi-tabs navi-tabs-post">
+                                <div class="navi-tab" tab="downloaded-live-backgrounds">
+                                    <span class="navi-null-message" lang="options_tabs_download_no_live_backgrounds"></span>
+                                    <ol class="dummy-content"></ol>
+                                    <div setId="available-flixel-backgrounds" class="available-themes-block navi-themes navi-null-hide"></div>
+                                </div>
+                                <div class="navi-tab" tab="downloaded-static-wallpapers">
+                                    <span class="navi-null-message" lang="options_tabs_download_no_walpapers"></span>
+                                    <ol class="dummy-content"></ol>
+                                    <div setId="available-image-themes" class="available-themes-block navi-themes navi-null-hide"></div>
+                                </div>
+                                <div class="navi-tab" tab="downloaded-live-themes">
+                                    <span class="navi-null-message" lang="options_tabs_download_no_live_themes"></span>
+                                    <ol class="dummy-content"></ol>
+                                    <div setId="available-live-themes" class="available-themes-block navi-themes navi-null-hide"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="navi-page-block" block="navi-bg-live-backgrounds" mark="navi-bg-live-backgrounds">
+                        <div class="navi-body-header navi-header-full-wide">
+                            <h2><span lang="tree_bg_live"></span><sup lang="navi_active_mode_message"></sup></h2>
+                            
+                            <span class="navi-right-link flixel-link-block">
+                                <a id="add-user-flixel-btn" class="add-user-flixel-btn" data-toggle="modal" data-target="#add-user-flixel-dialog"></a>
+                                <a href="https://flixel.com/" target="_blank">
+                                    <span id="current-powered-video-text"></span>
+                                    <img src="css/img/flixel/logo.png" alt="flixel logo"/> Flixel
+                                </a>
+                            </span>
+                        </div>
+
+                        <div class="navi-block navi-block-full-wide">
+                            <div class="scroll-fixed">
+                                <div class="scroll-inner">
+                                    <ul class="navi-tabs-labels nav-settings-themes-sort" memorize="live-bg-tab">
+                                        <li for="live-bg-featured" lang="options_settings_themes_sort_featured"></li>
+                                        <li for="live-bg-new" lang="options_settings_themes_sort_new"></li>
+                                        <li for="live-bg-popular" lang="options_settings_themes_sort_popular"></li>
+                                        <li for="live-bg-search" lang="options_settings_themes_sort_search"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="navi-tabs">
+                                <div class="navi-tab" tab="live-bg-new"></div>
+                                <div class="navi-tab" tab="live-bg-popular"></div>
+                                <div class="navi-tab" tab="live-bg-featured"></div>
+                                <div class="navi-tab" tab="live-bg-search">
+                                    <div id="themes-search-form-wrap">
+                                        <form id="themes-search-form" class="form-inline" action="" method="get">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control navi-active-clean" id="themes-search-text" placeholder="" list="themesSearchList" name="q" autocomplete="off">
+                                                    <ul id="themesSearchList" class='datalist'></ul>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="themes-search-submit">
+                                                <span class="glyphicon glyphicon-search"></span><span id="themes-search-button-text" class="themes-search-button-text"></span>
+                                            </button>
+                                        </form>
+                                        <span class="search-themes-found hide navi-active-clean"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div id="available-flixel-themes-container" class="tab-pane fade in">
+
+                                <div setId="available-flixel-backgrounds" class="available-themes-block navi-themes"></div>
+                                
+                                <div id="load-more-content-container" class="text-center load-more-content-container hide">
+                                    <button id="load-more-flixel-content" class="btn btn-success load-more-flixel-content" lang="options_tabs_content_flixer_load_button"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="navi-page-block" block="navi-bg-wallpapers" mark="navi-bg-wallpapers">
+                        <div class="navi-body-header navi-header-full-wide">
+                            <h2><span lang="tree_bg_static"></span><sup lang="navi_active_mode_message"></sup></h2>
+                        </div>
+                        
+                        <div class="navi-block navi-block-full-wide">
+                            <div class="scroll-fixed">
+                                <div class="scroll-inner">
+                                    <ul class="navi-tabs-labels nav-settings-images-sort" memorize="walpapers-tab">
+                                        <li for="walpapers-gallery" lang="options_settings_images_sort_gallery"></li>
+                                        <li for="walpapers-custom" lang="options_settings_images_sort_your"></li>
+                                        <!--<li for="walpapers-search" lang="photo_gallery_tab" data-sort="2"></li>-->
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="navi-tabs">
+                                <div class="navi-tab" tab="walpapers-gallery"></div>
+                                <div class="navi-tab" tab="walpapers-custom"></div>
+                                <!--<div class="walpapers-search" tab="live-bg-featured"></div>-->
+                            </div>
+                            
+                            <div id="available-image-themes-container" class="tab-pane fade in">
+                                <button id="options-settings-images-upload" class="btn btn-warning">
+                                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><span id="options-settings-images-add"></span>
+                                </button>
+
+                                <div setId="available-image-themes" class="available-themes-block navi-themes">
+                                    
+                                    <!--
+                                    <div id="photo-search-form-wrap" class="hide">
+                                        <form id="photo-search-form" class="form-inline" action="" method="get">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" id="photo-search-input" placeholder="" list="photoSearchList" name="photoq" autocomplete="off" lang="photo_gallery_search_placeholder">
+                                                    <ul id="photoSearchList" class='datalist'></ul>
+                                                </div>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="photo-search-submit">
+                                                <span class="glyphicon glyphicon-search"></span><span id="photo-search-button-text" lang="photo_gallery_search_button"></span>
+                                            </button>
+
+                                            <label>
+                                                <input type="radio" name="hosting" value="flickr" checked > Flickr
+                                            </label>
+                                            <label>
+                                                <input type="radio" name="hosting" value="pixaby"> Pixabay
+                                            </label>
+                                        </form>
+                                        <div class="search-result"></div>
+                                    </div>                            
+                                    -->
+                                </div>
+                            </div>
+                        
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="navi-page-block" block="navi-bg-live-themes" mark="navi-bg-live-themes">
+                        <div class="navi-body-header navi-header-full-wide">
+                            <h2><span lang="tree_bg_themes"></span><sup lang="navi_active_mode_message"></sup></h2>
+                        </div>
+                        
+                        <div class="navi-block navi-block-full-wide">
+                            <div class="scroll-fixed">
+                                <div class="scroll-inner">
+                                    <ul class="navi-tabs-labels nav-settings-live-themes-sort" memorize="live-themes-tab"> 
+                                        <li for="live-themes-newest" lang="options_settings_themes_sort_new"></li>
+                                        <li for="live-themes-popular" lang="options_settings_themes_sort_popular"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="navi-tabs">
+                                <div class="navi-tab" tab="live-themes-newest"></div>
+                                <div class="navi-tab" tab="live-themes-popular"></div>
+                            </div>
+                            
+                            <div id="available-live-themes-container" class="tab-pane fade in">                                
+                                <div setId="available-live-themes" class="available-themes-block navi-themes"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="navi-additional-sections"></div>
+                </center>
+            </div>
+        </div>
+    </div>
+    
+    <img class="loader" src="img/reload.svg" style="position:fixed; top:45%; left:57%; margin:-25px 0 0 -25px" />
+    
+    
+    
+    <!--Legacy Markup-->
+    
+    
+    
+    <div class="modal fade share-subscribe-dialog" id="share-app-dialog" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center popup-share-top-block popup-share-text-block">
+                        <span id="popup-share-app-dialog-text-1" class="popup-share-app-dialog-text popup-share-app-dialog-text-1"></span>
+                        <span id="popup-share-app-dialog-text-2" class="popup-share-app-dialog-text popup-share-app-dialog-text-2"></span>
+                        <span id="popup-share-app-dialog-text-3" class="popup-share-app-dialog-text popup-share-app-dialog-text-3"></span>
+                        <span id="popup-share-app-dialog-text-4" class="popup-share-app-dialog-text popup-share-app-dialog-text-4 text-right"></span>
+                    </div>
+                    <div class="text-center popup-share-middle-block">
+                        <span id="popup-share-app-dialog-title" class="popup-share-app-dialog-title modal-title"></span>
+                    </div>
+                    <div class="share42init"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade share-subscribe-dialog" id="subscribe-app-dialog" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center popup-share-top-block popup-share-text-block">
+                        <span class="popup-share-app-dialog-text popup-share-app-dialog-text-1" lang="options_share_social_popup_text_1"></span>
+                        <span class="popup-share-app-dialog-text popup-share-app-dialog-text-2" lang="subscribe_text"></span>
+                    </div>
+                    <div class="subscribe-buttons lang-detect">
+                        <span id="share42-big" class="share42-big">
+                            <div class="subscribe-big share-button-big-instance share-button-big-instance-sm-column share-fb-big" big-img="fb.png" data-count="fb">
+                                <img class="share-button-image-big-instance" src="/vendor/share42/fb.png"><br />
+                                <span class="iframe-wrap">
+                                    <iframe src="" widthOFF="138" height="21" scrolling="no" frameborder="0" allowTransparency="true" id="fbiframe"></iframe>
+                                </span>
+                            </div>
+                            
+                            <div class="subscribe-big share-button-big-instance share-button-big-instance-sm-column share-twi-big" big-img="twi.png" data-count="twi">
+                                <img class="share-button-image-big-instance" src="/vendor/share42/twi.png"><br />
+                                
+                                <div class="custom-follow-button">
+                                  <a hrefout="https://twitter.com/intent/user?screen_name=livestartpage" target="_blank" alt="Follow livestartpage">
+                                    <i class="btn-icon"></i>
+                                    <span class="btn-text"><span lang="subscribe_follow"></span> @livestartpage</span>
+                                  </a>
+                                </div>
+                                
+                                <!--
+                                <a href="https://twitter.com/livestartpage" class="twitter-follow-button" data-show-count="true">Follow @livestartpage</a>
+                                <script async src="/vendor/widgets.js" charset="utf-8"></script>
+                                -->
+                            </div>
+                            
+                            <div class="subscribe-big share-button-big-instance share-button-big-instance-sm-column share-vk-big only-ru" big-img="vk.png" data-count="vk">
+                                <img class="share-button-image-big-instance" src="/vendor/share42/vk.png"><br />
+                                <div class="custom-vk-button">
+                                  <a hrefout="https://vk.com/livestartpage" target="_blank" alt="Подписаться на livestartpage">
+                                    <i class="btn-icon"></i>
+                                    <span class="btn-text">Подписаться на LSP</span>
+                                  </a>
+                                </div>
+                                
+                                <!--
+                                <script type="text/javascript" src="//vk.com/js/api/openapi.js?142"></script>
+                                <div id="vk_subscribe"></div>
+                                <script type="text/javascript">
+                                VK.Widgets.Subscribe("vk_subscribe", {soft: 1}, -101198639);
+                                </script>
+                                -->
+                            </div>
+                            
+                            <div class="subscribe-big share-button-big-instance share-button-big-instance-sm-column share-odn-big only-ru" big-img="odn.png" data-count="odn">
+                                <img class="share-button-image-big-instance" src="/vendor/share42/odn.png">
+                                
+                                <div class="custom-ok-button">
+                                  <a hrefout="https://ok.ru/group/53314773909685" target="_blank" alt="Присоединиться к livestartpage">
+                                    <i class="btn-icon"></i>
+                                    <span class="btn-text">Присоединиться</span>
+                                  </a>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <span class="dont-show-it-anymore" lang="subscribe_disable"></span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="add-user-flixel-dialog" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-title popup-add-user-flixel-title"><span id="popup-add-user-flixel-title"></span></div>
+                    <div class="popup-add-user-flixel-body">
+                        <p id="popup-add-user-flixel-body-text" class="popup-add-user-flixel-body-text"></p>
+                    </div>
+                    <div class="popup-add-user-flixel-body-links-container">
+                        <div id="popup-add-user-flixel-body-links-text" class="popup-add-user-flixel-body-links-text"></div>
+                        <div class="popup-add-user-flixel-body-links">
+                            <p>
+                                <a id="popup-add-user-flixel-body-link-how-create" href="http://blog.flixel.com/cinemagraphs-for-marketers" target="_blank"></a>
+                            </p>
+                            <p>
+                                <a id="popup-add-user-flixel-body-link-how-create-fb" href="http://blog.flixel.com/new-facebook-profile-videos" target="_blank"></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-center popup-add-user-flixel-body-code-container">
+                        <p class="popup-add-user-flixel-body-code">
+                            <a href="https://flixel.com" target="_blank"><img src="css/img/flixel/logo.png" alt="flixel logo"></a>
+                            <span id="popup-add-user-flixel-body-code"></span>
+                        </p>
+                    </div>
+                    <div class="text-center popup-add-user-flixel-body-footer">
+                        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+                            <div class="btn-group" role="group">
+                                <a target="_blank" id="popup-add-user-flixel-link-iphone" class="btn popup-add-user-flixel-link-iphone" href="https://flixel.com/products/ios/cinemagraph-pro/?coupon=LiveStart"></a>
+                            </div>
+                            <div class="btn-group" role="group">
+                                <a target="_blank" id="popup-add-user-flixel-link-mac" class="btn popup-add-user-flixel-link-mac" href="https://flixel.com/products/mac/cinemagraph-pro/?coupon=LiveStart"></a>
+                            </div>
+                            <div class="btn-group" role="group">
+                                <a target="_blank" id="popup-add-user-flixel-link-cloud" class="btn popup-add-user-flixel-link-cloud" href="https://flixel.com/products/flixel-cloud/?coupon=LiveStart"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="restore-default-theme-dialog" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 id="popup-restore-default-theme-title" class="modal-title"></h4>
+                </div>
+                <div class="modal-body popup-restore-default-theme-body">
+                    <p class="text-center"><span id="popup-restore-default-theme-open-settings"></span>
+                        <button id="open-chrome-settings-url" class="btn-link">chrome://settings/</button>
+                        <br><span id="popup-restore-default-theme-open-settings-text2"></span></p>
+                    <div id="options-restore-theme-popup-body-load" class="options-restore-theme-popup-body-load">
+                        <img id="options-restore-theme-popup-body-load-img" src="css/img/buttons/popup/loading-restore-theme.gif">
+                    </div>
+                    <div id="restore-default-theme-dialog-body" class="restore-default-theme-dialog-body"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="welcome-options-dialog" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 id="popup-welcome-options-title" class="modal-title"></h4>
+                </div>
+                <div class="modal-body">
+                    <p id="popup-welcome-options-body-text1" class="text-center welcome-settings-body"></p>
+                    <p id="popup-welcome-options-body-text2" class="text-center welcome-options-feedback"></p>
+                    <p class="text-center welcome-options-close">
+                        <button class="btn btn-primary welcome-options-close-button" id="welcome-options-close"></button>
+                        <br>
+                        <label for="welcome-options-not-show" class="welcome-options-not-show-label">
+                            <input type="checkbox" id="welcome-options-not-show"><span id="popup-welcome-options-not-show"></span></label>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade delete-from-favorite-dialog" id="delete-from-favorite-dialog" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <p id="delete-from-favorite-dialog-text" class="delete-from-favorite-dialog-text"></p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="delete-from-favorite-dialog-close" type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+                    <button id="delete-from-favorite-dialog-confirm" type="button" class="btn btn-primary">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade add-to-favorite-dialog" id="add-to-favorite-dialog" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <p class="add-to-favorite-dialog-text" lang="options_add_to_favorite_dialog"></p>
+                    </div>
+                </div>
+                <div class="modal-footer text-center">
+                    <button id="delete-from-favorite-dialog-close" type="button" class="btn btn-success" data-dismiss="modal" lang="good">Ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade delete-theme-dialog" id="delete-theme-dialog" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <p id="delete-theme-dialog-text" class="delete-theme-dialog-text"></p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="delete-theme-dialog-close" type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+                    <button id="delete-theme-dialog-confirm" type="button" class="btn btn-primary" data-dismiss="modal">Yes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade queue-over-dialog" id="queue-over-dialog" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <p id="queue-over-dialog-text" class="queue-over-dialog-text"></p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="queue-over-dialog-ok" type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="modal-share-content" class="modal fade modal-share-content" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 id="options-share-popup-title" class="modal-title" lang="options_share_modal_title"></h2>
+                    <br/>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-container">
+                        <div id="options-relax-popup-body" class="options-relax-popup-body">
+                        
+                            <div class="modal-video">
+                                <div class="options-share-video">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <h5 lang="options_share_hint"></h5>
+                            <ul class="options-share-buttons">
+                                <li class="options-share-fb" social="shareFb"><a href="#"><img src="./css/img/social/fb.png"></a></li>
+                                <li class="options-share-twitter" social="shareTw"><a href="#"><img src="./css/img/social/twitter.png"></a></li>
+                                <li class="options-share-vk" social="shareVk"><a href="#"><img src="./css/img/social/vk.png"></a></li>
+                                <li class="options-share-ok" social="shareOd"><a href="#"><img src="./css/img/social/ok.png"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--
+                <div class="modal-footer">
+                    <button id="options-relax-popup-close" type="button" class="btn btn-warning options-relax-popup-btn options-relax-popup-close"></button>
+                    <button id="options-relax-popup-hide" type="button" class="btn btn-primary options-relax-popup-btn options-relax-popup-hide" data-dismiss="modal"></button>
+                </div>
+                -->
+            </div>
+        </div>
+    </div>
+
+    <div id="upload-image-dialog" class="modal fade upload-image-dialog" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <form id="upload-image-form" action="#" method="get">
+                    <div class="modal-header">
+                        <h4 id="upload-image-dialog-title" class="modal-title"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-body-container">
+                            <div class="form-group has-feedback">
+                                <div class="input-group">
+                                    <span id="upload-image-name" class="input-group-addon"></span>
+                                    <input type="text" class="form-control" id="newImageTitle" aria-describedby="uploadImageName" autocomplete="off" touched="no" maxlength="45">
+                                </div>
+                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                <span id="uploadImageName" class="sr-only"></span>
+                                <span class="form-control-error"></span>
+                            </div>
+
+                            <div class="form-inline row">
+                                <div class="col-md-4">
+                                    <a href="#" type="file" class='btn btn-warning width-100 btn-relative'>
+                                        <span id="upload-image-dialog-choise"></span>
+                                        <input type="file" id="upload-image-file" accept="image/jpeg,image/jpg,image/png,image/gif" />
+                                    </a>
+                                </div>
+
+                                <div id="upload-image-dialog-or" class="col-md-1 line-30 lang-detect"></div>
+
+                                <div class="form-group has-feedback col-md-7">
+                                    <div class="input-group width-100">
+                                        <span id="upload-image-url" class="input-group-addon"></span>
+                                        <input type="text" class="form-control" id="newImageUrl" aria-describedby="uploadImageUrl" autocomplete="off" placeholder="http://example.com/image.jpeg">
+                                    </div>
+                                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                    <span id="uploadImageUrl" class="sr-only"></span>
+                                    <span class="form-control-error"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <span id="upload-image-dialog-error-title" class="upload-image-dialog-error"></span>
+                        <span id="upload-image-dialog-error-file" class="upload-image-dialog-error"></span>
+                        <span id="upload-image-dialog-error-url" class="upload-image-dialog-error"></span>
+                        <div id="upload-image-dialog-progress" class="progress">
+                            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                                <span class="upload-image-progress-text">Loading...</span>
+                            </div>
+                        </div>
+                        <button id="upload-image-dialog-close" type="button" class="btn btn-primary" data-dismiss="modal"></button>
+                        <button id="upload-image-dialog-apply" type="submit" class="btn btn-success"></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="video-popover-block" class="video-popover-block">
+        <div id="video-popover" class="popover video-popover" role="tooltip">
+            <div class="arrow"></div>
+            <h3 class="popover-title text-center"></h3>
+            <div class="popover-content"></div>
+        </div>
+    </div>
+
+    <div class="selectedTxt">(Selected)</div>
+    
+    <div id="backup-options-container" class="hide"></div>
+</body>
+
+</html>

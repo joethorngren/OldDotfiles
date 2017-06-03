@@ -1,0 +1,45 @@
+{
+   "extDescription": {
+      "description": "The description of the extension. HD is short for High Definition.",
+      "message": "YouTube videolarını otomatik olarak HD oynatmaya ayarlayın."
+   },
+   "extName": {
+      "description": "The name of the extension. Please translate it to whatever is most similar to 'Auto HD'. HD is short for High Definition.",
+      "message": "YouTube™ için otomatik HD"
+   },
+   "extSettings": {
+      "description": "When you translate 'Auto HD', please ensure that it is translated the same as in the extension name (above). HD is short for High Definition.",
+      "message": "Oto HD Ayarları"
+   },
+   "hd": {
+      "message": "HD"
+   },
+   "large": {
+      "message": "Büyük"
+   },
+   "max": {
+      "message": "Maksimum"
+   },
+   "medium": {
+      "message": "Orta"
+   },
+   "playQuality": {
+      "description": "The headline of a setting which allows the user to choose the default quality of their YouTube player",
+      "message": "Oynatma Kalitesi"
+   },
+   "playerSize": {
+      "description": "The headline of a setting which allows the user to choose the default size of their YouTube player",
+      "message": "Oynatıcı Boyutu"
+   },
+   "rateUs": {
+      "description": "The label on a button that encourages users to rate the app",
+      "message": "Bize 5 yıldız verin"
+   },
+   "reportBug": {
+      "description": "The label on a button that lets users report a problem",
+      "message": "Hata Bildir"
+   },
+   "small": {
+      "message": "Küçük"
+   }
+}

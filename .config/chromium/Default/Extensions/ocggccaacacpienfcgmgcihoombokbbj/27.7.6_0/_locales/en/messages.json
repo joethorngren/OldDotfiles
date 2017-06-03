@@ -1,0 +1,2796 @@
+{
+   "add_new_dial_dialog_apply": {
+      "message": "Save"
+   },
+   "add_new_dial_dialog_close": {
+      "message": "Cancel"
+   },
+   "add_new_dial_dialog_group_name_require": {
+      "message": "Group name required"
+   },
+   "add_new_dial_dialog_name_require": {
+      "message": "Name required"
+   },
+   "add_new_dial_dialog_preview_title": {
+      "message": "Select Image"
+   },
+   "add_new_dial_dialog_title": {
+      "message": "Add new dial"
+   },
+   "add_new_dial_dialog_url_require": {
+      "message": "Url required"
+   },
+   "add_new_dial_field_group": {
+      "message": "Group"
+   },
+   "add_new_dial_field_groupName": {
+      "message": "Name"
+   },
+   "add_new_dial_field_name": {
+      "message": "Name"
+   },
+   "add_new_dial_field_url": {
+      "message": "URL"
+   },
+   "add_new_dial_text_groupName": {
+      "message": "New group"
+   },
+   "add_new_group_dialog_apply": {
+      "message": "Save"
+   },
+   "add_new_group_dialog_close": {
+      "message": "Cancel"
+   },
+   "add_new_group_dialog_name_require": {
+      "message": "Name required"
+   },
+   "add_new_group_dialog_title": {
+      "message": "Add new group"
+   },
+   "add_new_group_field_name": {
+      "message": "Name"
+   },
+   "add_user_flixel_btn": {
+      "message": "Create your own Living Photos"
+   },
+   "appDesc": {
+      "message": "Live new tab page: customize clocks, to-do list, hundreds of living photos in your browser."
+   },
+   "appName": {
+      "message": "Live Start Page - Living Wallpapers"
+   },
+   "appShort": {
+      "message": "New tab page"
+   },
+   "auth_already_have_an_account": {
+      "message": "Already Have an Account?"
+   },
+   "auth_banner_passcode_head": {
+      "message": "Protect your data"
+   },
+   "auth_banner_passcode_text": {
+      "message": "with a Passcode from unwanted viewers!"
+   },
+   "auth_billing": {
+      "message": "Billing"
+   },
+   "auth_bottom_text": {
+      "message": "Get LiveStartPage Premium account to unlock great features. Early access to new Premium Features and new custom Live Wallpapers!"
+   },
+   "auth_cancel": {
+      "message": "Go Back"
+   },
+   "auth_change_default_search_engine": {
+      "message": "Change default search engine"
+   },
+   "auth_change_default_search_engine_help": {
+      "message": "We have a variety of the most popular search engines. Pick the one that you like best."
+   },
+   "auth_change_default_search_engine_short": {
+      "message": "Search with: "
+   },
+   "auth_customize_clocks_size": {
+      "message": "Customize size of your Clocks"
+   },
+   "auth_d_all_features": {
+      "message": "View All Features"
+   },
+   "auth_d_close": {
+      "message": "Close"
+   },
+   "auth_d_come_back": {
+      "message": "Then come back and try again"
+   },
+   "auth_d_get_premium": {
+      "message": "Get Premium!"
+   },
+   "auth_d_not_now": {
+      "message": "Not Now"
+   },
+   "auth_d_sign_in": {
+      "message": "Please, Log In first"
+   },
+   "auth_detailed_relax": {
+      "message": "Meditation Guides and Sounds"
+   },
+   "auth_detailed_relax_help": {
+      "message": "Meditation guides and Sounds"
+   },
+   "auth_detailed_weather": {
+      "message": "Detailed Weather Forecast"
+   },
+   "auth_detailed_weather_help": {
+      "message": "Get the advanced forecast for the next few days, including the chances of precipitation and wind."
+   },
+   "auth_discovered_1": {
+      "message": "You discovered a Premium"
+   },
+   "auth_discovered_2": {
+      "message": "feature!"
+   },
+   "auth_discovered_3": {
+      "message": "Upgrading to LiveStartPage Premium"
+   },
+   "auth_discovered_4": {
+      "message": "will unlock it."
+   },
+   "auth_dont_have_an_account": {
+      "message": "Don't Have an Account?"
+   },
+   "auth_email": {
+      "message": "Email"
+   },
+   "auth_email_is_required": {
+      "message": "Email is required. Type correct email."
+   },
+   "auth_high_priority_support": {
+      "message": "High Priority Support"
+   },
+   "auth_high_priority_support_help": {
+      "message": "Premium users will receive a quicker response from our support team."
+   },
+   "auth_high_priority_weather": {
+      "message": "Detailed Weather Forecast"
+   },
+   "auth_incredible_start_page": {
+      "message": "Incredible Start page with live wallpapers"
+   },
+   "auth_login": {
+      "message": "Log In"
+   },
+   "auth_login_is_required": {
+      "message": "ERROR: Login is required"
+   },
+   "auth_login_or_email": {
+      "message": "Login or Email"
+   },
+   "auth_logout": {
+      "message": "Log Out"
+   },
+   "auth_more_features_coming": {
+      "message": "More features coming!"
+   },
+   "auth_more_features_coming_help": {
+      "message": "Be one of the first who unlocks new Premium features."
+   },
+   "auth_or": {
+      "message": "OR"
+   },
+   "auth_password": {
+      "message": "Password"
+   },
+   "auth_password_is_required": {
+      "message": "Password is required"
+   },
+   "auth_password_is_required_min_8": {
+      "message": "Password must be at least 8 characters"
+   },
+   "auth_passwords_isnt_same": {
+      "message": "Password doesn't match"
+   },
+   "auth_plan_choice": {
+      "message": "choose your plan:"
+   },
+   "auth_plan_month_en": {
+      "message": "DOLLAR1.99 / month"
+   },
+   "auth_plan_month_ru": {
+      "message": "50 ROUBLE / month"
+   },
+   "auth_plan_year_en": {
+      "message": "DOLLAR14.99 / year"
+   },
+   "auth_plan_year_ru": {
+      "message": "500 ROUBLE / year"
+   },
+   "auth_premium_pricing_en": {
+      "message": "DOLLAR1.99 per month OR DOLLAR14.99 per year"
+   },
+   "auth_premium_pricing_ru": {
+      "message": "50 ROUBLE per month OR 500 ROUBLE per year"
+   },
+   "auth_pro_feature": {
+      "message": "Premium feature"
+   },
+   "auth_pro_message": {
+      "message": "Your account has premium status!"
+   },
+   "auth_protect": {
+      "message": "Protect your data with a Passcode from unwanted viewers!"
+   },
+   "auth_protect_help": {
+      "message": "Bookmark tiles, tasks, and other information should belong only to you. No one should have access to your data. Set a password for your Live Start Page (LSP) and LOCK your extension. Nobody will be able to access besides you."
+   },
+   "auth_register": {
+      "message": "Register"
+   },
+   "auth_register_trial_1": {
+      "message": "Register an Account",
+      "message2": "Register to get 14 days"
+   },
+   "auth_register_trial_2": {
+      "message": "FREE Trial"
+   },
+   "auth_register_trial_3": {
+      "message": " "
+   },
+   "auth_restore_password": {
+      "message": "Restore password"
+   },
+   "auth_retype_password": {
+      "message": "Retype password"
+   },
+   "auth_sign_in": {
+      "message": "Sign In"
+   },
+   "auth_sign_up": {
+      "message": "Sign UP"
+   },
+   "auth_synchronize_dials": {
+      "message": "Synchronize Dials (Bookmark Tiles) and Groups"
+   },
+   "auth_synchronize_dials_help": {
+      "message": "Don't lose your Bookmarks! You can synchronize groups and dials (bookmark tiles) between browsers and computers. For example, when you add a new dial in Chrome, you will get it on Firefox or a different computer."
+   },
+   "auth_synchronize_tasks": {
+      "message": "Synchronize Tasks"
+   },
+   "auth_synchronize_tasks_help": {
+      "message": "Achieve your goals with the task lists. By using synchronization, you can access your tasks any time from any computer that has LSP installed."
+   },
+   "auth_terms_and_conditions": {
+      "message": "Terms and Conditions"
+   },
+   "auth_to_enter_your_login": {
+      "message": "to enter your Login Email"
+   },
+   "auth_to_restore_password": {
+      "message": "To restore password you need"
+   },
+   "auth_trial_activate_btn": {
+      "message": "Activate Free Trial (14 days)"
+   },
+   "auth_trial_activate_failed": {
+      "message": "Free Trial activation failed"
+   },
+   "auth_trial_activated": {
+      "message": "Your 14 days of Free Trial are activated"
+   },
+   "auth_trial_will_expire": {
+      "message": "Trial will expire in N days"
+   },
+   "auth_trial_will_expire_title": {
+      "message": "Click to buy Premium"
+   },
+   "auth_username_float_title": {
+      "message": "Manage your billing"
+   },
+   "auth_using_facebook": {
+      "message": "Using Facebook"
+   },
+   "auth_using_google": {
+      "message": "Using Google"
+   },
+   "auth_you_agree": {
+      "message": "By clicking “Sign up”, you agree to our"
+   },
+   "auth_your_login": {
+      "message": "Your login"
+   },
+   "auto_download_videos": {
+      "message": "Auto-Download videos"
+   },
+   "backup_confirm_create_btn_db": {
+      "message": "Use extension DB"
+   },
+   "backup_confirm_create_btn_file": {
+      "message": "Export in file"
+   },
+   "backup_confirm_create_note": {
+      "message": "* Note: Extension DB is not always safe, but faster. For example if you reinstall Browser or extension you will lose the DB. You can use both backup options!"
+   },
+   "backup_confirm_create_title": {
+      "message": "How do you want to backup?"
+   },
+   "backup_confirm_line_1": {
+      "message": "As a result of unidentified factors/actions of other programs some speed dials were damaged. This may take some time."
+   },
+   "backup_confirm_line_2": {
+      "message": "No need to worry! Everything will be up and running in no time!"
+   },
+   "backup_confirm_recovery_attention": {
+      "message": "This action can not be revoke!"
+   },
+   "backup_confirm_recovery_btn_db": {
+      "message": "From the Extension DB"
+   },
+   "backup_confirm_recovery_btn_file": {
+      "message": "From the File (*.lsp)"
+   },
+   "backup_confirm_recovery_file_parse_error": {
+      "message": "Can not parse the data from the file"
+   },
+   "backup_confirm_recovery_text": {
+      "message": "Please confirm the data recovery from backup."
+   },
+   "backup_confirm_recovery_title": {
+      "message": "How do you want to restore?"
+   },
+   "backup_confirm_title": {
+      "message": "Speed dials being restored…"
+   },
+   "backup_enable": {
+      "message": "Enable Backup"
+   },
+   "backup_modal_description": {
+      "message": "It seems that the database is corrupted. You can restore data from a backup now. Or do it at any time on the"
+   },
+   "backup_modal_settings_link": {
+      "message": "Settings Page"
+   },
+   "backup_restore_file_error": {
+      "message": "Restore error"
+   },
+   "backup_settings_create": {
+      "message": "Create new Backup"
+   },
+   "backup_settings_done": {
+      "message": "DONE! Reload all addon pages"
+   },
+   "backup_settings_item": {
+      "message": "Items"
+   },
+   "backup_settings_last_date": {
+      "message": "Backup"
+   },
+   "backup_settings_last_never": {
+      "message": "Never"
+   },
+   "backup_settings_last_restored": {
+      "message": "(Restored)"
+   },
+   "backup_settings_navi": {
+      "message": "Backup"
+   },
+   "backup_settings_restore": {
+      "message": "Restore Backup"
+   },
+   "backup_settings_title": {
+      "message": "Backup and Restore"
+   },
+   "backup_table_dials": {
+      "message": "Speed Dials"
+   },
+   "backup_table_groups": {
+      "message": "Groups"
+   },
+   "backup_table_images": {
+      "message": "Images"
+   },
+   "backup_table_settings": {
+      "message": "Settings"
+   },
+   "backup_table_storage": {
+      "message": "Options"
+   },
+   "backup_table_todo_items": {
+      "message": "Todo Tasks"
+   },
+   "backup_why": {
+      "message": "Why do I need it?"
+   },
+   "bba_addons": {
+      "message": "Addons"
+   },
+   "bba_bookmarks": {
+      "message": "Bookmarks"
+   },
+   "bba_downloads": {
+      "message": "Downloads"
+   },
+   "bba_history": {
+      "message": "History"
+   },
+   "bba_hystory": {
+      "message": "History"
+   },
+   "bba_restore": {
+      "message": "Previous session. Number of tabs"
+   },
+   "bba_session": {
+      "message": "Previous session"
+   },
+   "bba_settings": {
+      "message": "Settings"
+   },
+   "bba_sync": {
+      "message": "Synchronization"
+   },
+   "become_premium": {
+      "message": "Become Premium"
+   },
+   "bg_video_pause": {
+      "message": "Pause Livining background"
+   },
+   "bg_video_play": {
+      "message": "Play Livining background"
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "cant_add_new_group_with_no_dials": {
+      "message": "You can not create a group with no sites"
+   },
+   "choose_color_scheme": {
+      "message": "Choose Color Scheme"
+   },
+   "clock_date_format": {
+      "message": "Date Format"
+   },
+   "clock_date_separator": {
+      "message": "Date Separator"
+   },
+   "confirm": {
+      "message": "Confirm"
+   },
+   "context_menu_add": {
+      "message": "Add to Speed Dial"
+   },
+   "context_menu_all": {
+      "message": "Save all opened tabs"
+   },
+   "dash": {
+      "message": "dash (-)"
+   },
+   "date": {
+      "message": "Date"
+   },
+   "delete_group_dialog_apply": {
+      "message": "Delete"
+   },
+   "delete_group_dialog_body_1": {
+      "message": "There are speed dials in this group."
+   },
+   "delete_group_dialog_body_2": {
+      "message": "Are you sure you want to delete this group?"
+   },
+   "delete_group_dialog_close": {
+      "message": "Cancel"
+   },
+   "delete_group_dialog_title": {
+      "message": "Confirm your action"
+   },
+   "dial_saved_to_folder": {
+      "message": "Saved to [name] folder"
+   },
+   "dialog_pick_user_pics_not_found_enter_in": {
+      "message": "When you find image you like, copy URL and Paste into this form:"
+   },
+   "dialog_pick_user_pics_not_found_title": {
+      "message": "You can search for {host} logo on these great resources and add them to our gallery."
+   },
+   "dlg_confirm_disable_quick_preview_text": {
+      "message": "Do you really want to disable Quick Preview Widget?"
+   },
+   "dlg_confirm_disable_quick_preview_title": {
+      "message": "Please confirm your action"
+   },
+   "dot": {
+      "message": "dot (.)"
+   },
+   "edit_dial_dialog_title": {
+      "message": "Edit dial"
+   },
+   "engine_modal_close": {
+      "message": "Close"
+   },
+   "engine_modal_save": {
+      "message": "Save"
+   },
+   "engine_modal_title": {
+      "message": "Select default search engine"
+   },
+   "error_auth_network": {
+      "message": "Auth Error. No server connection."
+   },
+   "error_sync_network": {
+      "message": "Unable to run sync. No internet connection."
+   },
+   "extrime": {
+      "message": "Extreme"
+   },
+   "favorites_need_download_html": {
+      "message": "Note: You need to \u003Cb>Download\u003C/b> some of your favorite backgrounds. Otherwise, they won't be shown."
+   },
+   "focus_background_opacity": {
+      "message": "Background Opacity"
+   },
+   "focus_font_size": {
+      "message": "Font Size"
+   },
+   "focus_header": {
+      "message": "Today"
+   },
+   "focus_hint_add": {
+      "message": "Add new Focus"
+   },
+   "focus_hint_done": {
+      "message": "Done"
+   },
+   "focus_hint_move": {
+      "message": "Move"
+   },
+   "focus_hint_not_done": {
+      "message": "Not done"
+   },
+   "focus_hint_remove": {
+      "message": "Remove"
+   },
+   "focus_hint_settings": {
+      "message": "Settings"
+   },
+   "focus_message": {
+      "message": "Message"
+   },
+   "focus_question": {
+      "message": "What is your main focus for today?"
+   },
+   "focus_select_color": {
+      "message": "Font Color"
+   },
+   "focus_show": {
+      "message": "Show Focus"
+   },
+   "focus_show_background": {
+      "message": "Show Background"
+   },
+   "focus_status_done": {
+      "message": "Great work! | Nice! | Good job!"
+   },
+   "focus_status_load": {
+      "message": "Loading..."
+   },
+   "focus_status_new": {
+      "message": "New Focus"
+   },
+   "focus_status_save": {
+      "message": "Saving..."
+   },
+   "focus_title": {
+      "message": "Focus"
+   },
+   "good": {
+      "message": "Ok"
+   },
+   "group_sponsoredst": {
+      "message": "Shop & Travel"
+   },
+   "label_new": {
+      "message": "(New!)"
+   },
+   "language": {
+      "message": "en"
+   },
+   "large": {
+      "message": "Large"
+   },
+   "login_error": {
+      "message": "Login error!"
+   },
+   "login_success": {
+      "message": "You have successfully logged in"
+   },
+   "medium": {
+      "message": "Medium"
+   },
+   "menu_float_contact_us": {
+      "message": "Contact Us"
+   },
+   "menu_float_get_pro": {
+      "message": "Get Premium Features"
+   },
+   "menu_float_get_pro_buy": {
+      "message": "Buy Premium"
+   },
+   "menu_float_login": {
+      "message": "Login"
+   },
+   "menu_float_logout": {
+      "message": "Logout"
+   },
+   "menu_float_passcode": {
+      "message": "Protect with Passcode"
+   },
+   "menu_float_pause": {
+      "message": "Pause Video"
+   },
+   "menu_float_play": {
+      "message": "Resume Video"
+   },
+   "menu_float_settings": {
+      "message": "Menu"
+   },
+   "menu_float_settings_link": {
+      "message": "Configure Settings"
+   },
+   "menu_float_sync": {
+      "message": "Start Synchronization"
+   },
+   "menu_float_themes_link": {
+      "message": "Select Themes"
+   },
+   "menu_float_weather_forecast": {
+      "message": "Show 7 Day Forecast"
+   },
+   "more_themes_button": {
+      "message": "Get More Backgrounds"
+   },
+   "move_clock": {
+      "message": "Move clock"
+   },
+   "navi_active_bg_desc": {
+      "message": "LiveStartPage has several modes. You can select the one you like."
+   },
+   "navi_active_bg_description": {
+      "message": "In this section, you can select the type of the background that you want to be shown in your LiveStartPage"
+   },
+   "navi_active_bg_name": {
+      "message": "Configure Active Background"
+   },
+   "navi_active_bg_title": {
+      "message": "Your Currently Active Background"
+   },
+   "navi_active_mode_message": {
+      "message": "(This mode is currently active)"
+   },
+   "navi_cant_disable_active": {
+      "message": "You can't disable it because it is active."
+   },
+   "navi_downloaded_desc": {
+      "message": "All your Downloaded Backgrounds"
+   },
+   "navi_downloaded_disabled": {
+      "message": "First, you need to download at least one [name]"
+   },
+   "navi_downloaded_title": {
+      "message": "Downloaded Backgrounds"
+   },
+   "navi_exit": {
+      "message": "Exit Settings"
+   },
+   "navi_favorites_desc": {
+      "message": "All your Favorite Backgrounds"
+   },
+   "navi_favorites_disabled": {
+      "message": "First, you need to mark as favorite at least one [name]"
+   },
+   "navi_favorites_title": {
+      "message": "Favorite Backgrounds"
+   },
+   "navi_randomize_downloaded": {
+      "message": "Randomize Downloaded"
+   },
+   "navi_randomize_favorites": {
+      "message": "Randomize Favorites"
+   },
+   "navi_show_downloaded": {
+      "message": "Show Downloaded"
+   },
+   "navi_show_favorites": {
+      "message": "Show Favorites"
+   },
+   "navi_show_live_backgrounds": {
+      "message": "Show Live Backgrounds"
+   },
+   "navi_show_live_themes": {
+      "message": "Show Live Themes"
+   },
+   "navi_show_wallpapers": {
+      "message": "Show Static Wallpapers"
+   },
+   "navi_singular_bg_any": {
+      "message": "Live Theme or Static Walpaper"
+   },
+   "navi_singular_bg_live": {
+      "message": "Live Background"
+   },
+   "navi_singular_bg_static": {
+      "message": "Static Walpaper"
+   },
+   "navi_singular_bg_theme": {
+      "message": "Live Theme"
+   },
+   "navi_tab_live_backgrounds": {
+      "message": "Live Backgrounds"
+   },
+   "navi_tab_live_themes": {
+      "message": "Live Themes"
+   },
+   "navi_tab_static_wallpapers": {
+      "message": "Static Wallpapers"
+   },
+   "navi_view_all_downloaded": {
+      "message": "View all Downloaded"
+   },
+   "navi_view_all_favorites": {
+      "message": "View all Favorites"
+   },
+   "navi_view_live_backgrounds": {
+      "message": "View all Live Backgrounds"
+   },
+   "navi_view_live_themes": {
+      "message": "View all Live Themes"
+   },
+   "navi_view_wallpapers": {
+      "message": "View all Wallpapers"
+   },
+   "newtab_auto_title": {
+      "message": "Auto"
+   },
+   "newtab_disable_page_mod": {
+      "message": "Disable this widget"
+   },
+   "newtab_getting_title": {
+      "message": "Getting title..."
+   },
+   "off": {
+      "message": "Off"
+   },
+   "ok": {
+      "message": "Ok"
+   },
+   "old_options_relax_popup_body_bottom_text_1": {
+      "message": "Get your daily dose of mindfulness."
+   },
+   "old_options_relax_popup_body_bottom_text_2": {
+      "message": "Relax your mind and regain your focus."
+   },
+   "old_options_relax_popup_body_bottom_text_3": {
+      "message": "Enjoy beautiful scenes."
+   },
+   "on": {
+      "message": "On"
+   },
+   "open_groups_dials_current": {
+      "message": "Open all in Current window"
+   },
+   "open_groups_dials_new": {
+      "message": "Open all in New window"
+   },
+   "open_player": {
+      "message": "Open Audio Player"
+   },
+   "option_auto": {
+      "message": "Auto detect"
+   },
+   "option_ddmmyyyy": {
+      "message": "dd/mm/yyyy"
+   },
+   "option_mmddyyyy": {
+      "message": "mm/dd/yyyy"
+   },
+   "options_add_to_favorite_dialog": {
+      "message": "First you need to Download theme before you mark it as Favorite"
+   },
+   "options_application_rating_popup_item_already": {
+      "message": "Already did"
+   },
+   "options_application_rating_popup_item_awesome": {
+      "message": "Awesome!"
+   },
+   "options_application_rating_popup_item_bad": {
+      "message": "Bad"
+   },
+   "options_application_rating_popup_item_better": {
+      "message": "Might be better"
+   },
+   "options_application_rating_popup_title_mark": {
+      "message": "Love Live Start Page? Please Rate It!"
+   },
+   "options_application_rating_popup_title_thanks": {
+      "message": "Please, write your review. It is very important for us. Thanks!"
+   },
+   "options_application_weather_city": {
+      "message": "Double click to change"
+   },
+   "options_application_weather_error_text_location": {
+      "message": "Please, enable tracking your location or "
+   },
+   "options_application_weather_error_text_location_placeholder": {
+      "message": "Enter your city here"
+   },
+   "options_application_weather_intro_text": {
+      "message": "Show my Weather"
+   },
+   "options_application_weather_location_current": {
+      "message": "Get current location"
+   },
+   "options_bookmarks_popup_close": {
+      "message": "Don't show it again"
+   },
+   "options_bookmarks_popup_hide": {
+      "message": "Close"
+   },
+   "options_bookmarks_popup_title": {
+      "message": "How to enable Bookmarks Bar:"
+   },
+   "options_clock_size": {
+      "message": "Clock Size"
+   },
+   "options_clock_size_large": {
+      "message": "Large"
+   },
+   "options_clock_size_medium": {
+      "message": "Medium"
+   },
+   "options_clock_size_small": {
+      "message": "Small"
+   },
+   "options_header_buttons_close_settings": {
+      "description": "#fixed",
+      "message": "Close settings"
+   },
+   "options_header_buttons_control_settings": {
+      "description": "#fixed",
+      "message": "Configure Settings"
+   },
+   "options_header_buttons_feedback": {
+      "description": "#fixed",
+      "message": "Feedback"
+   },
+   "options_header_buttons_help": {
+      "description": "#fixed",
+      "message": "FAQ"
+   },
+   "options_header_buttons_select_favorite_bg": {
+      "description": "#fixed",
+      "message": "Favorites"
+   },
+   "options_header_buttons_select_live_bg": {
+      "description": "#fixed",
+      "message": "Select Background"
+   },
+   "options_header_title": {
+      "description": "#fixed",
+      "message": "Live Start Page - Settings"
+   },
+   "options_meta_title": {
+      "message": "Settings"
+   },
+   "options_quick_preview": {
+      "message": "Quick Preview Widget"
+   },
+   "options_random_mode_is_active_notice": {
+      "message": "Note: random mode for favorites is turned on"
+   },
+   "options_random_mode_is_active_notice_downloaded": {
+      "message": "Note: random mode for downloaded is turned on"
+   },
+   "options_random_mode_is_active_notice_favorites": {
+      "message": "Note: random mode for favorites is turned on"
+   },
+   "options_refresh_themes_list_error": {
+      "message": "Error, can't get list of available backgrounds. Try to Refresh page. "
+   },
+   "options_relax_popup_body_bottom_text_1": {
+      "message": "Get your daily dose of mindfulness. Relax your mind and regain focus. "
+   },
+   "options_relax_popup_body_bottom_text_2": {
+      "message": "To achieve best results, we recommend meditating twice a day. In the morning and in the evening for 15-20 minutes.You can choose simple meditation like sounds of nature or use meditation sessions recorded by professionals."
+   },
+   "options_relax_popup_body_bottom_text_3": {
+      "message": "We also recommend you to read our article regarding meditation:"
+   },
+   "options_relax_popup_body_bottom_text_4": {
+      "message": "Click to read how meditation can improve your day"
+   },
+   "options_relax_popup_body_bottom_text_5": {
+      "message": "We recommend using headphones."
+   },
+   "options_relax_popup_body_bottom_tip": {
+      "message": "Tip: Press F11 to enter or exit from Full Screen Mode."
+   },
+   "options_relax_popup_body_top_text": {
+      "message": "Meditation mode helps you to be productive through the day."
+   },
+   "options_relax_popup_close": {
+      "message": "Don't show it again"
+   },
+   "options_relax_popup_hide": {
+      "message": "Let's get started"
+   },
+   "options_relax_popup_title": {
+      "message": "Let's get started"
+   },
+   "options_settings_apps_link_display": {
+      "message": "Show Apps link"
+   },
+   "options_settings_bottom_panel": {
+      "message": "Bottom panel"
+   },
+   "options_settings_clock_advanced_href": {
+      "message": "Advanced"
+   },
+   "options_settings_clock_background": {
+      "message": "Background"
+   },
+   "options_settings_clock_background_dark": {
+      "message": "Dark"
+   },
+   "options_settings_clock_background_dark_long": {
+      "message": "Dark long"
+   },
+   "options_settings_clock_background_light": {
+      "message": "Light"
+   },
+   "options_settings_clock_background_light_long": {
+      "message": "Light long"
+   },
+   "options_settings_clock_background_none": {
+      "message": "None"
+   },
+   "options_settings_clock_background_opacity": {
+      "message": "Background opacity"
+   },
+   "options_settings_clock_basic_href": {
+      "message": "Basic"
+   },
+   "options_settings_clock_color_text_ampm_label": {
+      "message": "AM/PM:"
+   },
+   "options_settings_clock_color_text_border_line": {
+      "message": "Border line:"
+   },
+   "options_settings_clock_color_text_digit_bg": {
+      "message": "Digit background:"
+   },
+   "options_settings_clock_color_text_done_line": {
+      "message": "Circle done line:"
+   },
+   "options_settings_clock_color_text_h": {
+      "message": "Clock colors:"
+   },
+   "options_settings_clock_color_text_label": {
+      "message": "Labels:"
+   },
+   "options_settings_clock_color_text_time": {
+      "message": "Digits:"
+   },
+   "options_settings_clock_color_text_total_line": {
+      "message": "Circle total line:"
+   },
+   "options_settings_clock_date": {
+      "message": "Show date"
+   },
+   "options_settings_clock_font_bold": {
+      "message": "Bold Clock Didits"
+   },
+   "options_settings_clock_format": {
+      "message": "Time format"
+   },
+   "options_settings_clock_format_label": {
+      "message": "Show AM/PM label"
+   },
+   "options_settings_clock_opacity": {
+      "message": "Clock opacity"
+   },
+   "options_settings_clock_scheme_dark": {
+      "message": "Dark"
+   },
+   "options_settings_clock_scheme_default": {
+      "message": "Default"
+   },
+   "options_settings_clock_scheme_light": {
+      "message": "Light"
+   },
+   "options_settings_clock_seconds_show": {
+      "message": "Show Seconds"
+   },
+   "options_settings_clock_show": {
+      "message": "Show Clock"
+   },
+   "options_settings_clock_title": {
+      "message": "Clock"
+   },
+   "options_settings_clock_type": {
+      "message": "Clock type"
+   },
+   "options_settings_clock_type_0": {
+      "message": "Simple"
+   },
+   "options_settings_clock_type_10": {
+      "message": "Board"
+   },
+   "options_settings_clock_type_3": {
+      "message": "Digital"
+   },
+   "options_settings_clock_type_5": {
+      "message": "Style"
+   },
+   "options_settings_clock_type_6": {
+      "message": "Flip"
+   },
+   "options_settings_clock_type_7": {
+      "message": "Slide Up"
+   },
+   "options_settings_clock_type_9": {
+      "message": "Circles"
+   },
+   "options_settings_clock_visible_label": {
+      "message": "Label clock digits"
+   },
+   "options_settings_dials_advanced_href": {
+      "message": "Advanced"
+   },
+   "options_settings_dials_basic_href": {
+      "message": "Basic"
+   },
+   "options_settings_dials_columns_count": {
+      "message": "Dials columns"
+   },
+   "options_settings_dials_display_background": {
+      "message": "Display default dials background"
+   },
+   "options_settings_dials_display_borders": {
+      "message": "Display dial borders"
+   },
+   "options_settings_dials_size_slider": {
+      "message": "Dials Size"
+   },
+   "options_settings_images_add": {
+      "message": "Upload new background"
+   },
+   "options_settings_images_sort_gallery": {
+      "message": "Gallery"
+   },
+   "options_settings_images_sort_your": {
+      "message": "Your uploads"
+   },
+   "options_settings_page_bottom_panel_opacity": {
+      "message": "Bottom panel opacity"
+   },
+   "options_settings_page_common": {
+      "message": "Miscellaneous"
+   },
+   "options_settings_page_common_hint": {
+      "message": "If you installed one of our Themes (Chrome) or visited some of our pages on livestartpage.com (example: \u003Ca href=https://goo.gl/8c3b25 target=_blank>https://goo.gl/8c3b25\u003C/a> ) We auto download video to make it easier for you."
+   },
+   "options_settings_page_top_panel": {
+      "message": "Top panel"
+   },
+   "options_settings_parallax_enable": {
+      "message": "Enable parallax effect"
+   },
+   "options_settings_parallax_enable_notice": {
+      "message": "(If turned ON, will slow down performance)"
+   },
+   "options_settings_parallax_navi": {
+      "message": "Parallax"
+   },
+   "options_settings_parallax_strength": {
+      "message": "Parallax effect strength"
+   },
+   "options_settings_parallax_subtitle": {
+      "message": "(Dynamic Background)"
+   },
+   "options_settings_parallax_title": {
+      "message": "Background parallax"
+   },
+   "options_settings_popular_group_show": {
+      "message": "Show group"
+   },
+   "options_settings_random_button_text": {
+      "message": "Randomize Backgrounds"
+   },
+   "options_settings_random_themes_enable_notice": {
+      "message": "Show backgrounds randomly (for downloaded only)"
+   },
+   "options_settings_random_themes_enable_notice_downloaded": {
+      "message": "Downloaded"
+   },
+   "options_settings_random_themes_enable_notice_favorites": {
+      "message": "Favorites"
+   },
+   "options_settings_random_themes_enable_notice_short": {
+      "message": "Randomly backgrounds"
+   },
+   "options_settings_random_themes_enable_notice_short_OLD": {
+      "message": "Show backgrounds randomly"
+   },
+   "options_settings_relax_enable": {
+      "message": "Display meditation button"
+   },
+   "options_settings_relax_title": {
+      "message": "Meditation"
+   },
+   "options_settings_search_form_display": {
+      "message": "Enable Search"
+   },
+   "options_settings_search_form_navi": {
+      "message": "Search"
+   },
+   "options_settings_search_form_provider": {
+      "message": "Search with"
+   },
+   "options_settings_search_form_provider_more": {
+      "message": "More"
+   },
+   "options_settings_search_open_type": {
+      "message": "Open Search in"
+   },
+   "options_settings_speed_dial_count": {
+      "message": "Number of Dials"
+   },
+   "options_settings_speed_dial_count_max": {
+      "message": "max."
+   },
+   "options_settings_speed_dial_count_max_description": {
+      "message": "For group"
+   },
+   "options_settings_speed_dial_customs": {
+      "message": "Custom previews"
+   },
+   "options_settings_speed_dial_generate_type": {
+      "message": "How to generate dials"
+   },
+   "options_settings_speed_dial_navi": {
+      "message": "Speed Dial"
+   },
+   "options_settings_speed_dial_opacity": {
+      "message": "Speed Dials opacity"
+   },
+   "options_settings_speed_dial_open_type": {
+      "message": "Open Dial in"
+   },
+   "options_settings_speed_dial_open_type_background": {
+      "message": "Background tab"
+   },
+   "options_settings_speed_dial_open_type_current": {
+      "message": "Current tab"
+   },
+   "options_settings_speed_dial_open_type_incognito": {
+      "message": "Incognito window"
+   },
+   "options_settings_speed_dial_open_type_new": {
+      "message": "New tab"
+   },
+   "options_settings_speed_dial_show": {
+      "message": "Show Speed Dials"
+   },
+   "options_settings_speed_dial_title": {
+      "message": "Speed Dial"
+   },
+   "options_settings_speed_search_opacity": {
+      "message": "Search form opacity"
+   },
+   "options_settings_speed_search_title": {
+      "message": "Search form"
+   },
+   "options_settings_themes_sort_downloaded": {
+      "message": "Downloaded"
+   },
+   "options_settings_themes_sort_featured": {
+      "message": "Featured"
+   },
+   "options_settings_themes_sort_new": {
+      "message": "Newest"
+   },
+   "options_settings_themes_sort_popular": {
+      "message": "Popular"
+   },
+   "options_settings_themes_sort_search": {
+      "message": "Search themes"
+   },
+   "options_settings_todo_opacity": {
+      "message": "Panel opacity"
+   },
+   "options_settings_todo_position": {
+      "message": "Reset default size and position"
+   },
+   "options_settings_todo_position_btn": {
+      "message": "Reset"
+   },
+   "options_settings_todo_show": {
+      "message": "Show Tasks"
+   },
+   "options_settings_todo_title": {
+      "message": "Tasks"
+   },
+   "options_settings_weather_background_opacity": {
+      "message": "Background opacity"
+   },
+   "options_settings_weather_background_show": {
+      "message": "Show background"
+   },
+   "options_settings_weather_location": {
+      "message": "Current location"
+   },
+   "options_settings_weather_location_block": {
+      "message": "Please, enable tracking your location in your browser"
+   },
+   "options_settings_weather_location_block_text": {
+      "message": "Sorry, we could not detect your location. Please, enable tracking location in your browser."
+   },
+   "options_settings_weather_location_cancel": {
+      "message": "Cancel"
+   },
+   "options_settings_weather_location_change": {
+      "message": "Change"
+   },
+   "options_settings_weather_location_img_title": {
+      "message": "Get current location"
+   },
+   "options_settings_weather_location_placeholder": {
+      "message": "Enter your city"
+   },
+   "options_settings_weather_location_set": {
+      "message": "Apply"
+   },
+   "options_settings_weather_location_unknown": {
+      "message": "Unknown"
+   },
+   "options_settings_weather_opacity": {
+      "message": "Weather opacity"
+   },
+   "options_settings_weather_reset_position": {
+      "message": "Reset default position"
+   },
+   "options_settings_weather_reset_position_btn": {
+      "message": "Reset"
+   },
+   "options_settings_weather_show": {
+      "message": "Show weather"
+   },
+   "options_settings_weather_title": {
+      "message": "Weather"
+   },
+   "options_settings_weather_unit": {
+      "message": "Temperature unit"
+   },
+   "options_settings_weather_unit_show": {
+      "message": "Show temperature unit"
+   },
+   "options_share_desc": {
+      "message": "Awesome video!"
+   },
+   "options_share_desc_1": {
+      "message": "No way! [Theme_Name] right in my Browser [LINK] #LiveWallpapers #LiveStartPage #ThemeName"
+   },
+   "options_share_desc_2": {
+      "message": "Just got [Theme_Name] in my browser [LINK] #LiveWallpapers #LiveStartPage #ThemeName"
+   },
+   "options_share_desc_3": {
+      "message": "Hard to believe but [Theme_Name] in my browser [LINK] #LiveWallpapers #LiveStartPage #ThemeName"
+   },
+   "options_share_desc_4": {
+      "message": "Finally! [Theme_Name] in my browser [LINK] #LiveWallpapers  #ThemeName"
+   },
+   "options_share_hint": {
+      "message": "Select one of the following options:"
+   },
+   "options_share_modal_title": {
+      "message": "Show your friends this awesome Video!"
+   },
+   "options_share_social_description": {
+      "message": "Get access to 1000+ themes from our gallery\u003Cbr>and tell your friends about Live Start Page!"
+   },
+   "options_share_social_popup_btn_unlock": {
+      "description": "#fixed",
+      "message": "Unlock with"
+   },
+   "options_share_social_popup_text_1": {
+      "message": "Hi! Thanks for using Live Start Page."
+   },
+   "options_share_social_popup_text_2": {
+      "message": "We ask you for a small favor to support our project.\u003Cbr>Please, share Live Start Page with your friends at one of the following social networks."
+   },
+   "options_share_social_popup_text_3": {
+      "message": "Once you share, we will unlock the rest 1000+ live backgrounds for you."
+   },
+   "options_share_social_popup_text_4": {
+      "message": "Sincerely, Live Start Page Team."
+   },
+   "options_share_social_popup_title": {
+      "message": "Live Start Page - Living wallpapers for Chrome"
+   },
+   "options_share_social_text_1": {
+      "message": "I made my Browser come to life with this new product: [LINK] #LiveWallpapers"
+   },
+   "options_share_social_text_2": {
+      "message": "This product made my Browser Tab alive! [LINK] #LiveWallpapers #LiveStartPage"
+   },
+   "options_share_social_text_3": {
+      "message": "I have Living wallpapers in my Browser. How is that possible? [LINK] #LiveWallpapers #LiveStartPage"
+   },
+   "options_share_social_text_4": {
+      "message": "These live wallpapers help me to regain my focus during the day [LINK] #LiveWallpapers #RegainFocus"
+   },
+   "options_share_social_text_5": {
+      "message": "When I feel tired or border I enjoy using this browser product [LINK] #LiveWallpapers #RegainFocus"
+   },
+   "options_share_social_title": {
+      "message": "Live Start Page"
+   },
+   "options_share_social_url": {
+      "message": "en"
+   },
+   "options_share_this_video": {
+      "message": "Share this Video with friends"
+   },
+   "options_share_title": {
+      "message": "Awesome video!"
+   },
+   "options_speed_dial_generate_type_autopreview_text": {
+      "message": "Auto-Preview + Text"
+   },
+   "options_speed_dial_generate_type_gallery_autopreview_text": {
+      "message": "Gallery + Auto-Preview + Text"
+   },
+   "options_speed_dial_generate_type_gallery_text": {
+      "message": "Gallery + Text"
+   },
+   "options_speed_dial_generate_type_text": {
+      "message": "Text"
+   },
+   "options_tabs_content_flixel_bg_notice": {
+      "message": "Gallery Powered by"
+   },
+   "options_tabs_content_flixer_load_button": {
+      "message": "LOAD MORE"
+   },
+   "options_tabs_content_live_bg_notice": {
+      "message": "Note: Live background may slowdown your computer. Activate lower quality Live background to enhance performance"
+   },
+   "options_tabs_content_live_theme_notice": {
+      "message": "Coming soon..."
+   },
+   "options_tabs_content_loader_text": {
+      "message": "LOADING..."
+   },
+   "options_tabs_delete_from_favorite": {
+      "message": "Do you want to remove from your favorites?"
+   },
+   "options_tabs_delete_from_favorite_close": {
+      "message": "No"
+   },
+   "options_tabs_delete_from_favorite_confirm": {
+      "message": "Yes"
+   },
+   "options_tabs_delete_image": {
+      "message": "Do you want to remove this image?"
+   },
+   "options_tabs_delete_theme": {
+      "message": "Do you want to remove this video?"
+   },
+   "options_tabs_delete_theme_close": {
+      "message": "No"
+   },
+   "options_tabs_delete_theme_confirm": {
+      "message": "Yes"
+   },
+   "options_tabs_download_flixer_bg_error": {
+      "message": "Downloading motion background problem. Please, try again later."
+   },
+   "options_tabs_download_live_bg_error": {
+      "message": "Downloading live background problem. Please, try again later."
+   },
+   "options_tabs_download_no_live_backgrounds": {
+      "message": "First you need to download Live Backgrounds that you like"
+   },
+   "options_tabs_download_no_live_themes": {
+      "message": "First you need to download Live Themes that you like"
+   },
+   "options_tabs_download_no_walpapers": {
+      "message": "First you need to download Static Walpapers that you like"
+   },
+   "options_tabs_download_static_bg_error": {
+      "message": "Downloading static background problem. Please, try again later."
+   },
+   "options_tabs_favorite_no_bg": {
+      "message": "First you need to mark backgrounds that you like as Favorite"
+   },
+   "options_tabs_favorite_no_live_backgrounds": {
+      "message": "First you need to mark Live Backgrounds that you like as Favorite"
+   },
+   "options_tabs_favorite_no_live_themes": {
+      "message": "First you need to mark Live Themes that you like as Favorite"
+   },
+   "options_tabs_favorite_no_walpapers": {
+      "message": "First you need to mark Static Walpapers that you like as Favorite"
+   },
+   "options_tabs_item_buttons_active": {
+      "description": "#fixed",
+      "message": "ACTIVE"
+   },
+   "options_tabs_item_buttons_active_resolution_1080p_live_bg": {
+      "message": "Best quality, slower\n(some lags possible)"
+   },
+   "options_tabs_item_buttons_active_resolution_480p_live_bg": {
+      "message": "Best performance,\nlow quality"
+   },
+   "options_tabs_item_buttons_active_resolution_720p_live_bg": {
+      "message": "Recommended.\nGood Performance,\ngood quality"
+   },
+   "options_tabs_item_buttons_active_theme": {
+      "description": "#fixed",
+      "message": "ACTIVE"
+   },
+   "options_tabs_item_buttons_active_title_flixer_bg": {
+      "message": "Active motion photo background"
+   },
+   "options_tabs_item_buttons_active_title_live_bg": {
+      "message": "Active live background"
+   },
+   "options_tabs_item_buttons_active_title_static_bg": {
+      "message": "Active static background"
+   },
+   "options_tabs_item_buttons_active_title_theme": {
+      "message": "Active live theme"
+   },
+   "options_tabs_item_buttons_control_delete": {
+      "description": "#fixed",
+      "message": "Delete theme"
+   },
+   "options_tabs_item_buttons_control_settings": {
+      "description": "#fixed",
+      "message": "Configure Settings"
+   },
+   "options_tabs_item_buttons_disable": {
+      "description": "#fixed",
+      "message": "DISABLE"
+   },
+   "options_tabs_item_buttons_disable_title_flixel_bg": {
+      "message": "Disable motion photo"
+   },
+   "options_tabs_item_buttons_disable_title_live_bg": {
+      "message": "Disable live background"
+   },
+   "options_tabs_item_buttons_disable_title_static_bg": {
+      "message": "Disable static background"
+   },
+   "options_tabs_item_buttons_download": {
+      "description": "#fixed",
+      "message": "Downloading"
+   },
+   "options_tabs_item_buttons_download_content": {
+      "description": "#fixed",
+      "message": "Downloading content"
+   },
+   "options_tabs_item_buttons_download_flixel": {
+      "description": "#fixed",
+      "message": "Installing"
+   },
+   "options_tabs_item_buttons_download_flixel_content": {
+      "description": "#fixed",
+      "message": "Installing content"
+   },
+   "options_tabs_item_buttons_enable": {
+      "description": "#fixed",
+      "message": "ENABLE"
+   },
+   "options_tabs_item_buttons_enable_title_flixer_bg": {
+      "message": "Turn On motion photo background"
+   },
+   "options_tabs_item_buttons_enable_title_live_bg": {
+      "message": "Turn On live background"
+   },
+   "options_tabs_item_buttons_enable_title_static_bg": {
+      "message": "Turn On static background"
+   },
+   "options_tabs_item_buttons_favorite": {
+      "message": "Add to favorites"
+   },
+   "options_tabs_item_buttons_favorite_remove": {
+      "message": "Remove from favorites"
+   },
+   "options_tabs_item_buttons_install": {
+      "description": "#fixed",
+      "message": "INSTALL"
+   },
+   "options_tabs_item_buttons_install_flixer": {
+      "description": "#fixed",
+      "message": "INSTALL"
+   },
+   "options_tabs_item_buttons_install_select_quality": {
+      "description": "#fixed",
+      "message": "Please Select Quality"
+   },
+   "options_tabs_item_buttons_install_title_flixer_bg": {
+      "message": "First, you need to install it"
+   },
+   "options_tabs_item_buttons_install_title_live_bg": {
+      "message": "First, you need to install it"
+   },
+   "options_tabs_item_buttons_install_title_static_bg": {
+      "message": "First, you need to install it"
+   },
+   "options_tabs_item_buttons_install_title_theme": {
+      "message": "First, you need to Download this theme from Chrome Webstore"
+   },
+   "options_tabs_item_buttons_more_flixel_content_title": {
+      "message": "Load more backgrounds from http://flixel.com"
+   },
+   "options_tabs_item_buttons_restore": {
+      "description": "#fixed",
+      "message": "RESTORE THEME"
+   },
+   "options_tabs_item_buttons_restore_title": {
+      "message": "Restore Chrome default theme"
+   },
+   "options_tabs_item_buttons_view_live_bg": {
+      "description": "#fixed",
+      "message": "VIEW THEME"
+   },
+   "options_tabs_item_buttons_view_title_flixel_bg": {
+      "message": "Show active motion background on New tab page"
+   },
+   "options_tabs_item_buttons_view_title_live_bg": {
+      "message": "Show active live background on New tab page"
+   },
+   "options_tabs_item_chanel_description_text_flixel_bg": {
+      "message": "Created by"
+   },
+   "options_tabs_item_chanel_description_text_flixel_bg_handmade": {
+      "message": "Animated by"
+   },
+   "options_tabs_item_chanel_description_title_flixel_bg": {
+      "message": "Go to channel"
+   },
+   "options_tabs_item_disable": {
+      "description": "#fixed",
+      "message": "DISABLE BACKGROUND"
+   },
+   "options_tabs_item_note_random_background_on_options_page": {
+      "message": "Note: Only backgrounds marked as Favorite will be shown randomly"
+   },
+   "options_tabs_item_note_random_background_on_options_page_downloaded": {
+      "message": "Note: All downloaded backgrounds will be shown randomly"
+   },
+   "options_tabs_item_restore": {
+      "description": "#fixed",
+      "message": "Default Theme"
+   },
+   "options_tabs_item_tiles_theme_title_live_bg": {
+      "message": "This live background is already downloaded"
+   },
+   "options_tabs_item_tiles_theme_title_live_bg_button": {
+      "message": "video"
+   },
+   "options_tabs_item_tiles_theme_title_static_bg": {
+      "message": "This static background is already downloaded"
+   },
+   "options_tabs_item_tiles_theme_title_static_bg_button": {
+      "message": "image"
+   },
+   "options_tabs_title_flixel_bg": {
+      "message": "Live Backgrounds"
+   },
+   "options_tabs_title_live_bg": {
+      "message": "Live Backgrounds (OLD)"
+   },
+   "options_tabs_title_live_theme": {
+      "message": "Live Themes"
+   },
+   "options_tabs_title_static_bg": {
+      "message": "Static Backgrounds"
+   },
+   "or": {
+      "message": "Or"
+   },
+   "other_browser_chrome": {
+      "message": "Install LiveStartPapge on Google Chrome"
+   },
+   "other_browser_firefox": {
+      "message": "Install LiveStartPapge on Firefox"
+   },
+   "other_browser_opera": {
+      "message": "Install LiveStartPapge on Opera"
+   },
+   "page_bottom_notice_settings": {
+      "description": "#fixed",
+      "message": "Click \u003Cb>settings\u003C/b> to change live background"
+   },
+   "page_clock_hour_label": {
+      "description": "#fixed",
+      "message": "Hour"
+   },
+   "page_clock_hours_label": {
+      "description": "#fixed",
+      "message": "Hours"
+   },
+   "page_clock_minute_label": {
+      "description": "#fixed",
+      "message": "Minute"
+   },
+   "page_clock_minutes_label": {
+      "description": "#fixed",
+      "message": "Minutes"
+   },
+   "page_clock_second_label": {
+      "description": "#fixed",
+      "message": "Second"
+   },
+   "page_clock_seconds_label": {
+      "description": "#fixed",
+      "message": "Seconds"
+   },
+   "page_created_link": {
+      "message": "Created by"
+   },
+   "page_created_link_handmade": {
+      "message": "Animated by"
+   },
+   "page_dial_context_menu_copy_url_dial": {
+      "message": "Copy URL"
+   },
+   "page_dial_context_menu_delete_dial": {
+      "message": "Hide Dial"
+   },
+   "page_dial_context_menu_dials_size": {
+      "message": "Change Size"
+   },
+   "page_dial_context_menu_edit_dial": {
+      "message": "Edit dial"
+   },
+   "page_dial_context_menu_gallery_thumb": {
+      "message": "Gallery Thumbnail"
+   },
+   "page_dial_context_menu_open_background_thumb": {
+      "message": "Open in background tab"
+   },
+   "page_dial_context_menu_open_current_thumb": {
+      "message": "Open in current tab"
+   },
+   "page_dial_context_menu_open_incognito_thumb": {
+      "message": "Open in incognito window"
+   },
+   "page_dial_context_menu_open_new_thumb": {
+      "message": "Open in new tab"
+   },
+   "page_dial_context_menu_refresh_dial": {
+      "message": "Refresh"
+   },
+   "page_dial_context_menu_screen_thumb": {
+      "message": "Screen Thumbnail"
+   },
+   "page_dial_context_menu_text_thumb": {
+      "message": "Text Thumbnail"
+   },
+   "page_dial_thumb_load_gallery_problem": {
+      "message": "No image for this website"
+   },
+   "page_dials_default_group_title": {
+      "message": "Default"
+   },
+   "page_dials_new_group_title": {
+      "message": "Add new group"
+   },
+   "page_dials_notification_message": {
+      "message": "\u003Cb>Double click\u003C/b> to display Speed Dial"
+   },
+   "page_dials_popular_group_title": {
+      "message": "Most Visited"
+   },
+   "page_done_todo_list_description": {
+      "message": "Good job!"
+   },
+   "page_done_todo_list_title": {
+      "message": "All done"
+   },
+   "page_empty_todo_list_description": {
+      "message": "Add a task to get started"
+   },
+   "page_empty_todo_list_title": {
+      "message": "Nothing to do"
+   },
+   "page_error_flixer_bg_not_found": {
+      "message": "Motion background not found"
+   },
+   "page_error_live_bg_load_problem": {
+      "message": "Load Live background problem"
+   },
+   "page_error_live_bg_not_found": {
+      "message": "Live background not found"
+   },
+   "page_error_static_bg_load_problem": {
+      "message": "Load Static background problem"
+   },
+   "page_error_static_bg_not_found": {
+      "message": "Static background not found"
+   },
+   "page_error_theme_config_not_found": {
+      "message": "Theme config not found"
+   },
+   "page_footer_description_close": {
+      "message": "Don't show this message again"
+   },
+   "page_footer_rate_us": {
+      "message": "Rate us!"
+   },
+   "page_footer_settings_link": {
+      "message": "Settings"
+   },
+   "page_footer_themes_link": {
+      "message": "Themes"
+   },
+   "page_footer_toggle_display_links_title_hide": {
+      "message": "Hide panel"
+   },
+   "page_footer_toggle_display_links_title_show": {
+      "message": "Show panel"
+   },
+   "page_footer_visible_dials_link_off": {
+      "message": "Hide speed dials or Double click on free space"
+   },
+   "page_footer_visible_dials_link_on": {
+      "message": "Show speed dials or Double click on free space"
+   },
+   "page_group_context_menu_add_dial": {
+      "message": "Add dial"
+   },
+   "page_group_context_menu_delete": {
+      "message": "Delete Group"
+   },
+   "page_group_context_menu_rename": {
+      "message": "Rename"
+   },
+   "page_header_bookmarks": {
+      "message": "Show bookmarks bar"
+   },
+   "page_header_bookmarks_help_img": {
+      "message": "en"
+   },
+   "page_header_links_apps": {
+      "message": "Apps"
+   },
+   "page_header_links_apps_img": {
+      "message": "Chrome Apps Page"
+   },
+   "page_meta_description": {
+      "message": "Live Start Page - My everyday inspiring experience ..."
+   },
+   "page_meta_keywords": {
+      "message": "Application, live, start, page, browser"
+   },
+   "page_meta_title": {
+      "message": "New tab"
+   },
+   "page_new_dial_tooltip": {
+      "message": "Add new dial"
+   },
+   "page_privacy_link": {
+      "message": "Privacy Policy"
+   },
+   "page_relax_done_btn": {
+      "message": "Done (ESC)"
+   },
+   "page_relax_start_btn": {
+      "message": "Start meditation"
+   },
+   "page_relax_start_title": {
+      "message": "Relax and regain your focus! Enjoy living photos"
+   },
+   "page_search_form_button_text": {
+      "description": "#fixed",
+      "message": "Search"
+   },
+   "page_search_placeholder": {
+      "message": "Enter your search..."
+   },
+   "page_sidebar_add_group": {
+      "message": "Add group"
+   },
+   "page_sidebar_title": {
+      "message": "Groups"
+   },
+   "page_sidebar_toggle_button_title_off": {
+      "message": "Hide sidebar"
+   },
+   "page_sidebar_toggle_button_title_on": {
+      "message": "Show sidebar"
+   },
+   "page_speed_dials_close_title": {
+      "message": "Do not show it on this page"
+   },
+   "page_speed_dials_search_title": {
+      "message": "Search on"
+   },
+   "page_speed_dials_settings_title": {
+      "message": "Settings"
+   },
+   "page_terms_link": {
+      "message": "Terms of Use"
+   },
+   "page_tiles_remove_text": {
+      "message": "Thumbnail removed"
+   },
+   "page_tiles_restore_text": {
+      "message": "Undo"
+   },
+   "page_todo_footer_input": {
+      "description": "#fixed",
+      "message": "Please, enter new Task"
+   },
+   "page_todo_footer_input_submit": {
+      "description": "#fixed",
+      "message": "Add New"
+   },
+   "page_todo_header_counter_text": {
+      "description": "#fixed",
+      "message": "done"
+   },
+   "page_todo_header_toggle": {
+      "description": "#fixed",
+      "message": "Completed tasks"
+   },
+   "page_todo_link": {
+      "message": "Tasks"
+   },
+   "page_voice_search_form_button_text": {
+      "message": "Voice Search"
+   },
+   "panel_back": {
+      "message": "\u003C Back"
+   },
+   "panel_contact_us": {
+      "message": "Contact us"
+   },
+   "panel_group_name": {
+      "message": "Group Name:"
+   },
+   "panel_login": {
+      "message": "Login"
+   },
+   "panel_logout": {
+      "message": "Logout"
+   },
+   "panel_new_tab": {
+      "message": "Open LSP"
+   },
+   "panel_save_all_opened_tabs": {
+      "message": "Save all opened tabs"
+   },
+   "panel_save_current_tab": {
+      "message": "Save current tab"
+   },
+   "panel_save_done": {
+      "message": "DONE!"
+   },
+   "panel_save_some_opened_tabs": {
+      "message": "Select and Save tabs"
+   },
+   "panel_save_tabs": {
+      "message": "Save Tabs"
+   },
+   "panel_select_theme": {
+      "message": "Select Theme"
+   },
+   "panel_select_unselect": {
+      "message": "Select / unselect all"
+   },
+   "panel_set_as_new_tab": {
+      "message": "set as New Tab"
+   },
+   "panel_settings": {
+      "message": "Settings"
+   },
+   "passcode_email_body": {
+      "message": "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\u003C/head>\u003Cbody>\u003Cp style='font-size:30px;'>Live Start Page!\u003C/p>\u003Cp>You can reset your Passcode by entering this code into the Passcode field on your browser start page: \u003Cmark style='padding:2px 4px; border:1px dashed gray'>\u003Cstrong>[code]\u003C/strong>\u003C/mark>\u003C/p>\u003Cp>Or Copy and Paste the link in browser with Live Start Page addon:\u003C/p>\u003C/td>\u003C/tr>\u003C/table>\u003C/body>\u003C/html>"
+   },
+   "passcode_email_subject": {
+      "message": "Live Start Page restore code"
+   },
+   "passcode_newtab_forgot": {
+      "message": "Forgot Passcode?"
+   },
+   "passcode_newtab_head": {
+      "message": "Enter Passcode to Unlock"
+   },
+   "passcode_newtab_question": {
+      "message": "Do you want to reset yout Passcode on your email"
+   },
+   "passcode_newtab_unlock": {
+      "message": "Unlock"
+   },
+   "passcode_settings_navi": {
+      "message": "Passcode"
+   },
+   "passcode_settings_pass_btn_cancel": {
+      "message": "Cancel"
+   },
+   "passcode_settings_pass_btn_change": {
+      "message": "Change Passcode"
+   },
+   "passcode_settings_pass_btn_changed": {
+      "message": "Changed"
+   },
+   "passcode_settings_pass_btn_delete": {
+      "message": "Delete Passcode"
+   },
+   "passcode_settings_pass_btn_deleted": {
+      "message": "Deleted"
+   },
+   "passcode_settings_pass_btn_done": {
+      "message": "DONE!"
+   },
+   "passcode_settings_pass_btn_restore": {
+      "message": "Reset the Passcode"
+   },
+   "passcode_settings_pass_btn_set": {
+      "message": "Set Passcode"
+   },
+   "passcode_settings_pass_current": {
+      "message": "Current Passcode"
+   },
+   "passcode_settings_pass_current_wrong": {
+      "message": "Wrong Passcode!"
+   },
+   "passcode_settings_pass_doesnt_match": {
+      "message": "Passcode doesn't match"
+   },
+   "passcode_settings_pass_email": {
+      "message": "Recovery email:"
+   },
+   "passcode_settings_pass_email_input": {
+      "message": "Email"
+   },
+   "passcode_settings_pass_have_set": {
+      "message": "You have set the Passcode!"
+   },
+   "passcode_settings_pass_new": {
+      "message": "New Passcode"
+   },
+   "passcode_settings_pass_please": {
+      "message": "Please, fill in"
+   },
+   "passcode_settings_pass_repeat": {
+      "message": "Repeat Passcode:"
+   },
+   "passcode_settings_pass_repeat_input": {
+      "message": "Repeat"
+   },
+   "passcode_settings_pass_restore_success": {
+      "message": "Follow the instructions in the email."
+   },
+   "passcode_settings_pass_restore_text": {
+      "message": "If you have forgotten your Passcode, you can restore it via email: "
+   },
+   "passcode_settings_pass_set": {
+      "message": "Set Passcode:"
+   },
+   "passcode_settings_pass_set_input": {
+      "message": "Passcode"
+   },
+   "passcode_settings_pass_wrong_email": {
+      "message": "Please, fill in correct email"
+   },
+   "passcode_settings_promo_btn": {
+      "message": "Enable Protection"
+   },
+   "passcode_settings_tab_basic_h": {
+      "message": "Passcode"
+   },
+   "passcode_settings_tab_change_h": {
+      "message": "Change"
+   },
+   "passcode_settings_tab_restore_h": {
+      "message": "Restore"
+   },
+   "passcode_settings_title": {
+      "message": "Protect with Passcode"
+   },
+   "passcode_successfully_cleared": {
+      "message": "Passcode successfully cleared via reset code"
+   },
+   "photo_gallery_search_button": {
+      "message": "Search"
+   },
+   "photo_gallery_search_placeholder": {
+      "message": "Type tags for search"
+   },
+   "photo_gallery_tab": {
+      "message": "Photo Hosting"
+   },
+   "pick_url_from": {
+      "message": "Pick URL From"
+   },
+   "pick_url_opened": {
+      "message": "Opened Tabs"
+   },
+   "pick_url_popular": {
+      "message": "Most Popular"
+   },
+   "pick_url_visited": {
+      "message": "Most Visited"
+   },
+   "popup_add_user_flixel_body_code": {
+      "message": "Use coupon code \u003Cspan class='popup-add-user-flixel-body-app-name'>LiveStart\u003C/span> to get \u003Cspan class='popup-add-user-flixel-body-app-discount'>10%\u003C/span> discount!"
+   },
+   "popup_add_user_flixel_body_link_how_create": {
+      "message": "How to Create Cinemagraph Video"
+   },
+   "popup_add_user_flixel_body_link_how_create_fb": {
+      "message": "How to Create Cinemagraph Video Profiles for Facebook"
+   },
+   "popup_add_user_flixel_body_links_text": {
+      "message": "Quick Links:"
+   },
+   "popup_add_user_flixel_body_text": {
+      "message": "Cinemagraphs are an exciting new visual medium that lives between still photography and videography. Flixel Cinemagraph Pro is the world’s easiest way to create them."
+   },
+   "popup_add_user_flixel_link_cloud": {
+      "message": "Flixel Cloud"
+   },
+   "popup_add_user_flixel_link_iphone": {
+      "message": "Flixel for iPhone"
+   },
+   "popup_add_user_flixel_link_mac": {
+      "message": "Flixel for Mac"
+   },
+   "popup_add_user_flixel_title": {
+      "message": "Create your own Living Photos with Flixel"
+   },
+   "popup_feedback_dialog_button_submit": {
+      "message": "SEND EMAIL"
+   },
+   "popup_feedback_dialog_field_error_format_email_text": {
+      "message": "Invalid email format"
+   },
+   "popup_feedback_dialog_field_error_required_email_text": {
+      "message": "Email is required"
+   },
+   "popup_feedback_dialog_field_error_required_subject_text": {
+      "message": "Subject is required"
+   },
+   "popup_feedback_dialog_field_error_too_low_subject_text": {
+      "message": "Subject is too short. Minimum 6 characters"
+   },
+   "popup_feedback_dialog_field_required_text": {
+      "message": "(required)"
+   },
+   "popup_feedback_dialog_label_description": {
+      "message": "Description"
+   },
+   "popup_feedback_dialog_label_email": {
+      "message": "Your email"
+   },
+   "popup_feedback_dialog_label_subject": {
+      "message": "Subject"
+   },
+   "popup_feedback_dialog_success_button_text": {
+      "message": "CLOSE"
+   },
+   "popup_feedback_dialog_success_text": {
+      "message": "Thanks for you feedback!"
+   },
+   "popup_feedback_dialog_title": {
+      "message": "Send us bug or your suggestion"
+   },
+   "popup_live_bg_apply": {
+      "description": "#fixed",
+      "message": "ENABLE"
+   },
+   "popup_live_bg_cancel": {
+      "description": "#fixed",
+      "message": "DON'T SHOW"
+   },
+   "popup_live_bg_text": {
+      "description": "#fixed",
+      "message": "Download Live background..."
+   },
+   "popup_live_bg_title": {
+      "description": "#fixed",
+      "message": "DOWNLOAD LIVE BACKGROUND"
+   },
+   "popup_restore_default_theme_open_settings": {
+      "message": "Open Chrome settings or follow this link"
+   },
+   "popup_restore_default_theme_open_settings_text2": {
+      "message": "and click \"Restore to default theme\" button."
+   },
+   "popup_restore_default_theme_title": {
+      "message": "Restore chrome default theme"
+   },
+   "popup_static_bg_updating": {
+      "description": "#fixed",
+      "message": "Downloading Background..."
+   },
+   "popup_welcome_options_body_text1": {
+      "message": "Looks like you don't have any live backgrounds yet. Please, select one of the hundreds available and enjoy!"
+   },
+   "popup_welcome_options_body_text2": {
+      "message": "Feel free to contact us any time, using feedback button."
+   },
+   "popup_welcome_options_not_show": {
+      "message": "Don't show this message again"
+   },
+   "popup_welcome_options_title": {
+      "message": "Welcome to Live Start Page"
+   },
+   "preload_modal_break": {
+      "message": "Cancel Download"
+   },
+   "preload_modal_button": {
+      "message": "Close and Download in Background"
+   },
+   "preload_modal_done": {
+      "message": "DONE!"
+   },
+   "preload_modal_note": {
+      "message": "Note: You can download hundreads of other wallpapers from our gallery!"
+   },
+   "preload_modal_status": {
+      "message": "We are downloading your Wallpaper. Please Wait.."
+   },
+   "preload_modal_text": {
+      "message": "Welcome to LiveStartPage"
+   },
+   "preload_modal_title": {
+      "message": "Let's get started"
+   },
+   "preview_back": {
+      "message": "\u003C Back"
+   },
+   "preview_best": {
+      "message": "Popular"
+   },
+   "preview_local_image": {
+      "message": "Local Image"
+   },
+   "preview_maxsize_text": {
+      "message": "Maximum image size is 512KB"
+   },
+   "preview_maxsize_title": {
+      "message": "Notice"
+   },
+   "preview_mode_auto": {
+      "message": "Auto"
+   },
+   "preview_mode_custom": {
+      "message": "Custom Image"
+   },
+   "preview_mode_text": {
+      "message": "Text Dial"
+   },
+   "preview_mode_title": {
+      "message": "Dial Preview"
+   },
+   "preview_new": {
+      "message": "Newest"
+   },
+   "preview_no_image": {
+      "message": "No images for this domain"
+   },
+   "preview_order": {
+      "message": "Order"
+   },
+   "preview_show_more": {
+      "message": "Show More"
+   },
+   "preview_url_image": {
+      "message": "URL"
+   },
+   "preview_violation_button": {
+      "message": "Inappropriate"
+   },
+   "preview_violation_status": {
+      "message": "Thank You!"
+   },
+   "preview_violation_title": {
+      "message": "Report picture"
+   },
+   "queue_over_dialog_ok": {
+      "message": "Close"
+   },
+   "queue_over_dialog_text": {
+      "message": "# themes is downloading now. Please wait for completion."
+   },
+   "read_faq": {
+      "message": "Read FAQ"
+   },
+   "register_error": {
+      "message": "Registration error!"
+   },
+   "register_success": {
+      "message": "You have successfully signed up"
+   },
+   "relax_auto_shuffle": {
+      "message": "Auto Shuffle"
+   },
+   "relax_auto_shuffle_video": {
+      "message": "Auto Shuffle Video"
+   },
+   "relax_exit_and_keep_playing": {
+      "message": "Exit and Keep Playing"
+   },
+   "relax_sounds": {
+      "message": "Sounds"
+   },
+   "relax_space_bar_hint": {
+      "message": "Press Space Bar to Pause or Play"
+   },
+   "rename_group_dialog_title": {
+      "message": "Rename group"
+   },
+   "restore_email": {
+      "message": "Login Email"
+   },
+   "restore_error": {
+      "message": "Restore password error!"
+   },
+   "restore_success": {
+      "message": "Restore instructions have been sent to your email"
+   },
+   "search_no_themes_found": {
+      "message": "No themes found"
+   },
+   "search_settings_button": {
+      "message": "Configure search settings"
+   },
+   "search_themes_found": {
+      "message": "Found [N] themes"
+   },
+   "selected_txt": {
+      "message": "(Selected)"
+   },
+   "server_code_24": {
+      "message": "User already exists"
+   },
+   "server_code_4": {
+      "message": "This account already exists. Try Login Page."
+   },
+   "server_code_6": {
+      "message": "Wrong password"
+   },
+   "server_code_7": {
+      "message": "User doesn't exist"
+   },
+   "server_code_9": {
+      "message": "Server error"
+   },
+   "settings_block_main_header": {
+      "message": "Main settings"
+   },
+   "settings_search_engine_label": {
+      "message": "Show Search Engine Label"
+   },
+   "settings_show_lsp_as_new_tab": {
+      "message": "Show LiveStartPage in the New Tab"
+   },
+   "slash": {
+      "message": "slash (/)"
+   },
+   "small": {
+      "message": "Small"
+   },
+   "social_group_fb": {
+      "message": "Facebook"
+   },
+   "social_group_ok": {
+      "message": "OK Group"
+   },
+   "social_group_twitter": {
+      "message": "Twitter"
+   },
+   "social_group_vk": {
+      "message": "VK Group"
+   },
+   "social_share_fb": {
+      "message": "Share on Facebook"
+   },
+   "social_share_ok": {
+      "message": "Share on Odnoklassniki"
+   },
+   "social_share_twitter": {
+      "message": "Share on Twitter"
+   },
+   "social_share_vk": {
+      "message": "Share on Vkontakte"
+   },
+   "space": {
+      "message": "space"
+   },
+   "subscribe_disable": {
+      "message": "Don't show it anymore"
+   },
+   "subscribe_follow": {
+      "message": "Follow"
+   },
+   "subscribe_text": {
+      "message": "Please, like us and subscribe to get the latest news and updates about new cool features!"
+   },
+   "subscribe_title": {
+      "message": "Subscribe"
+   },
+   "sync_button_footer": {
+      "message": "Synchronize your data"
+   },
+   "sync_decide_btn_client": {
+      "message": "Upload"
+   },
+   "sync_decide_btn_client_hint": {
+      "message": "Use data from Computer (Note: Data from server will be overwritten)"
+   },
+   "sync_decide_btn_merge": {
+      "message": "Merge"
+   },
+   "sync_decide_btn_merge_hint": {
+      "message": "Data from Server and Computer will be merged (Note: Server has higher priority)"
+   },
+   "sync_decide_btn_recomended": {
+      "message": "(Recommended)"
+   },
+   "sync_decide_btn_server": {
+      "message": "Download"
+   },
+   "sync_decide_btn_server_hint": {
+      "message": "Use data from Server (Note: Data from computer will be overwritten)"
+   },
+   "sync_decide_clean": {
+      "message": "Before to start synchronization,"
+   },
+   "sync_decide_confirm_cancel": {
+      "message": "Cancel"
+   },
+   "sync_decide_confirm_client": {
+      "message": "Data on the LiveStartPage Server will be overwritten with Data from this Browser"
+   },
+   "sync_decide_confirm_merge": {
+      "message": "Data from the LiveStartPage Server will be Merged with Data on this Browser"
+   },
+   "sync_decide_confirm_server": {
+      "message": "Data on this browser will be overwritten with Data from Server"
+   },
+   "sync_decide_confirm_start": {
+      "message": "Start Sync"
+   },
+   "sync_decide_confirm_title": {
+      "message": "Please confirm your action!"
+   },
+   "sync_decide_data": {
+      "message": "Looks like you were logged in under different account"
+   },
+   "sync_decide_footer_text": {
+      "message": "Data is your settings, tasks, bookmark tiles etc..."
+   },
+   "sync_decide_title": {
+      "message": "Sync options"
+   },
+   "sync_decide_variant": {
+      "message": "please select one of the following actions:"
+   },
+   "sync_link_text": {
+      "message": "Sync"
+   },
+   "sync_login_button": {
+      "message": "Log In"
+   },
+   "sync_login_email": {
+      "message": "Your email"
+   },
+   "sync_login_login": {
+      "message": "Login in existing account"
+   },
+   "sync_login_pass": {
+      "message": "Your password"
+   },
+   "sync_login_register": {
+      "message": "Register new Account"
+   },
+   "sync_login_restore": {
+      "message": "Restore password"
+   },
+   "sync_manual": {
+      "message": "Manual Sync"
+   },
+   "sync_modal_close": {
+      "message": "Close"
+   },
+   "sync_reg_email": {
+      "message": "Email"
+   },
+   "sync_reg_pass": {
+      "message": "Password"
+   },
+   "sync_reg_subscribe": {
+      "message": "Subscribe to service updates"
+   },
+   "sync_reg_terms": {
+      "message": "Terms and Conditions"
+   },
+   "sync_reg_txt": {
+      "message": "By clicking Register, you agree to our"
+   },
+   "sync_register_button": {
+      "message": "Register"
+   },
+   "sync_restore_button": {
+      "message": "Restore Password"
+   },
+   "sync_status_err": {
+      "message": "Synchronization failed"
+   },
+   "sync_status_ok": {
+      "message": "Synchronization completed"
+   },
+   "terms_of_service": {
+      "message": "Terms of Service"
+   },
+   "themes_search_button_text": {
+      "message": "Search"
+   },
+   "themes_search_text": {
+      "message": "Type theme title..."
+   },
+   "time_min": {
+      "message": "Min"
+   },
+   "time_sec": {
+      "message": "Sec"
+   },
+   "tour_start_back": {
+      "message": "Back"
+   },
+   "tour_start_button": {
+      "message": "Ok, I got it!"
+   },
+   "tour_start_close": {
+      "message": "Close"
+   },
+   "tour_start_head": {
+      "message": "Quick Tips"
+   },
+   "tour_start_next": {
+      "message": "Next"
+   },
+   "tour_start_relax": {
+      "message": "Use this button to access Meditation Mode"
+   },
+   "tour_start_tip_dials": {
+      "message": "Show/Hide Bookmark Tiles"
+   },
+   "tour_start_tip_group_click": {
+      "message": "Click to Show/Hide this panel"
+   },
+   "tour_start_tip_group_organize": {
+      "message": "Organize Bookmark tiles (Speed Dials) in the Groups"
+   },
+   "tour_start_tip_settings": {
+      "message": "Click to access settings or install new theme"
+   },
+   "tour_start_tip_tasks": {
+      "message": "Show/Hide Tasks"
+   },
+   "tree_also_available": {
+      "message": "LSP also available"
+   },
+   "tree_backgrounds": {
+      "message": "Backgrounds"
+   },
+   "tree_bg_active": {
+      "message": "Active Background"
+   },
+   "tree_bg_downloaded": {
+      "message": "Downloaded"
+   },
+   "tree_bg_favorites": {
+      "message": "Favorites"
+   },
+   "tree_bg_live": {
+      "message": "Live Backgrounds"
+   },
+   "tree_bg_static": {
+      "message": "Static Wallpapers"
+   },
+   "tree_bg_themes": {
+      "message": "Live Themes"
+   },
+   "tree_faq": {
+      "message": "FAQ Feedback"
+   },
+   "tree_follow_us": {
+      "message": "Join us"
+   },
+   "tree_for_chrome": {
+      "message": "LSP for Chrome"
+   },
+   "tree_for_firefox": {
+      "message": "LSP for Firefox"
+   },
+   "tree_for_opera": {
+      "message": "LSP for Opera"
+   },
+   "tree_greeting": {
+      "message": "Remember, you are Awesome!"
+   },
+   "tree_settings": {
+      "message": "Settings"
+   },
+   "tree_tell": {
+      "message": "Share your experience"
+   },
+   "upload_image_dialog_apply": {
+      "message": "Apply"
+   },
+   "upload_image_dialog_choise": {
+      "message": "Select file"
+   },
+   "upload_image_dialog_close": {
+      "message": "Cancel"
+   },
+   "upload_image_dialog_error_file": {
+      "message": "Please, select a local file or enter URL!"
+   },
+   "upload_image_dialog_error_title": {
+      "message": "Please, fill in the theme title!"
+   },
+   "upload_image_dialog_error_url": {
+      "message": "Please, enter correct image URL!"
+   },
+   "upload_image_dialog_or": {
+      "message": "OR"
+   },
+   "upload_image_dialog_placeholder": {
+      "message": "Title of your image"
+   },
+   "upload_image_dialog_title": {
+      "message": "Upload your image"
+   },
+   "upload_image_name": {
+      "message": "Title"
+   },
+   "upload_image_progress_text": {
+      "message": "Loading..."
+   },
+   "upload_image_url": {
+      "message": "URL"
+   },
+   "vals_randomize_both": {
+      "message": "Live and Static Backgrounds"
+   },
+   "vals_randomize_disabled": {
+      "message": "Disabled"
+   },
+   "vals_randomize_images": {
+      "message": "Static Wallpapers"
+   },
+   "vals_randomize_video": {
+      "message": "Live Backgrounds"
+   },
+   "vk_our_group": {
+      "message": "VK Group"
+   },
+   "volume": {
+      "message": "Volume"
+   },
+   "weather": {
+      "message": "Weather"
+   },
+   "weather_advanced": {
+      "message": "Advanced"
+   },
+   "weather_cant_load": {
+      "message": "Can not update weather data. Please, try again later."
+   },
+   "weather_close": {
+      "message": "Close forecast"
+   },
+   "weather_forecast_cooming_soon": {
+      "message": "Cooming Soon - Detailed Weather Forecast"
+   },
+   "weather_humidity": {
+      "message": "Humidity"
+   },
+   "weather_km_h": {
+      "message": "km/h"
+   },
+   "weather_kmh": {
+      "message": "km/h"
+   },
+   "weather_loading": {
+      "message": "Loading"
+   },
+   "weather_max": {
+      "message": "Max"
+   },
+   "weather_min": {
+      "message": "Min"
+   },
+   "weather_mp_h": {
+      "message": "mph"
+   },
+   "weather_mph": {
+      "message": "mph"
+   },
+   "weather_not_found": {
+      "message": "Can't find"
+   },
+   "weather_pp": {
+      "message": "Precipitation probability"
+   },
+   "weather_pp_mini": {
+      "message": "Precip"
+   },
+   "weather_pp_short": {
+      "message": "Precipitation"
+   },
+   "weather_precipitation_probability": {
+      "message": "Precipitation probability"
+   },
+   "weather_settings": {
+      "message": "Weather settings"
+   },
+   "weather_sun": {
+      "message": "Sun"
+   },
+   "weather_sunrise": {
+      "message": "Sunrise"
+   },
+   "weather_sunset": {
+      "message": "Sunset"
+   },
+   "weather_temperature": {
+      "message": "Temperature"
+   },
+   "weather_wind": {
+      "message": "Wind"
+   },
+   "week_0": {
+      "message": "Sunday"
+   },
+   "week_1": {
+      "message": "Monday"
+   },
+   "week_2": {
+      "message": "Tuesday"
+   },
+   "week_3": {
+      "message": "Wednesday"
+   },
+   "week_4": {
+      "message": "Thursday"
+   },
+   "week_5": {
+      "message": "Friday"
+   },
+   "week_6": {
+      "message": "Saturday"
+   },
+   "week_7": {
+      "message": "Sunday"
+   },
+   "week_today": {
+      "message": "Today"
+   },
+   "welcome_clock": {
+      "message": "Custom Clock"
+   },
+   "welcome_enable_speed_dial": {
+      "message": "Enable Speed Dial"
+   },
+   "welcome_focus": {
+      "message": "Daily Focus Topic"
+   },
+   "welcome_options_close": {
+      "message": "Close"
+   },
+   "welcome_skip": {
+      "message": "Skip this tour"
+   },
+   "welcome_slide_1_1": {
+      "message": "Welcome to"
+   },
+   "welcome_slide_1_2": {
+      "message": "Place where you become productive, meditate to regain focus or just enjoy beautiful backgrounds"
+   },
+   "welcome_slide_2_1": {
+      "message": "Meditate to Relax and Regain Focus"
+   },
+   "welcome_slide_2_2": {
+      "message": "Professional meditation sessions"
+   },
+   "welcome_slide_2_3": {
+      "message": "Sounds of Nature (Ambient)"
+   },
+   "welcome_slide_2_4": {
+      "message": "Special Meditation Music"
+   },
+   "welcome_slide_2_5": {
+      "message": "Inspiration Music"
+   },
+   "welcome_slide_2_6": {
+      "message": "Live Backgrounds"
+   },
+   "welcome_slide_2_7": {
+      "message": "and more..."
+   },
+   "welcome_slide_3_1": {
+      "message": "Bookmark Tiles"
+   },
+   "welcome_slide_3_2": {
+      "message": "Quickly access your favorite websites with the Speed Dial."
+   },
+   "welcome_slide_3_3": {
+      "message": "Organize in beautiful tiles and groups."
+   },
+   "welcome_slide_3_hint_1": {
+      "message": "Widget with visual bookmarks (your most favorite and frequently visited sites)."
+   },
+   "welcome_slide_3_hint_2": {
+      "message": "You can categorize websites by theme into groups like Recipes, Cinema, Health etc. Every site is a separate tile containing a site name, a link and a special preview picture that will help you locate the needed site amongst others."
+   },
+   "welcome_slide_3_hint_3": {
+      "message": "You can also add your own background to such sites or select a nice theme from the ones available."
+   },
+   "welcome_slide_4_1": {
+      "message": "Extra to be Productive and Focused"
+   },
+   "welcome_slide_4_1_0": {
+      "message": "...and some extra to be productive and focused"
+   },
+   "welcome_slide_4_1_1": {
+      "message": "Please note, you can configure all these options later in the LiveStartPage settings"
+   },
+   "welcome_slide_5_1_1": {
+      "message": "Hundreds of Live and Static Wallpapers for you!"
+   },
+   "welcome_slide_clock_hint_1": {
+      "message": "CLOCKS"
+   },
+   "welcome_slide_clock_hint_2": {
+      "message": "Choose from the big variety of digital clocks. Set color, style, time format etc."
+   },
+   "welcome_slide_focus_hint_1": {
+      "message": "Daily Focus"
+   },
+   "welcome_slide_focus_hint_2": {
+      "message": "Set your priorities right! Focus on your highest priorities during the day."
+   },
+   "welcome_slide_relax_hint_1": {
+      "message": "MEDITATION MODE"
+   },
+   "welcome_slide_relax_hint_2": {
+      "message": "Meditation mode will let you forget about everything happening around and truly relax. Let your mind wander. Relax and restore your concentration power."
+   },
+   "welcome_slide_todo_hint_1": {
+      "message": "TO-DO LIST"
+   },
+   "welcome_slide_todo_hint_2": {
+      "message": "With our to-do list you will never miss a single event. Stay on top of everything!"
+   },
+   "welcome_slide_weather_hint_1": {
+      "message": "WEATHER"
+   },
+   "welcome_slide_weather_hint_2": {
+      "message": "Weather forecast for your city and any location in the world. Auto search for your location, view temperature in Celsius and Fahrenheit."
+   },
+   "welcome_start": {
+      "message": "Let's start!"
+   },
+   "welcome_todo": {
+      "message": "To-Do list"
+   },
+   "welcome_weather": {
+      "message": "7 Day Weather Forecast"
+   }
+}

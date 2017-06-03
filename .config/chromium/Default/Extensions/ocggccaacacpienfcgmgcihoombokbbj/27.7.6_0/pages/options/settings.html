@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Settings</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="icon" href="../../img/icon/icon16.png">
+    <link href="../../vendor/jquery-ui/css/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../../vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../vendor/jGrowl/jquery.jgrowl.min.css">
+    <link rel="stylesheet" href="../../vendor/colorpick/css/colpick.css">
+    <link rel="stylesheet" href="css/options.css" />
+    <!--<link rel="stylesheet" href="css/firefox.css"/>-->
+    <script src="../../vendor/head.min.js"></script>
+    <script src="./js/scripts/settings.js"></script>
+</head>
+
+<body style="overflow-y:scroll"> 
+    <div id="tree-navi-wrap" style="opacity:0">
+        <div id="tree-navi-head"></div>
+        <div id="tree-navi-left"></div>
+        <div id="tree-navi-right">
+            <div id="tree-navi-body">
+                <center>
+                    <div id="navi-upper-sections"></div>
+                    
+                    <div class="navi-page-block" block="navi-settings-dials">
+                        <div class="navi-body-header">
+                            <h1>
+                                <span lang="options_settings_speed_dial_title"></span>
+                                <i class="nquestion"><span class="whint whint-text whint-wide">
+                                    <p>
+                                        <img src="../common/welcome/img/full-feature-bookmark.png" />
+                                        <span class="h6" lang="welcome_slide_3_hint_1"></span>
+                                        <span lang="welcome_slide_3_hint_2"></span><br/><br/>
+                                        <span lang="welcome_slide_3_hint_3"></span>
+                                    </p>
+                                </span></i>
+                            </h1>
+                        </div>
+
+                        <div class="navi-block">
+                            <ul class="navi-tabs-labels">
+                                <li for="dials-main"><span class="navi-tabs-text" lang="settings_block_main_header"></span></li>
+                                <li for="dials-advanced" watch="dials-enabled"><span class="navi-tabs-text" lang="options_settings_dials_advanced_href"></span></li> 
+                            </ul>
+                        
+                            <div class="navi-tabs">
+                                <div class="navi-tab" tab="dials-main">
+                                    <!--
+                                    <label class="navi-label" for="check-1">
+                                        <span class="desc">Checkbox number #1</span>
+                                        <input type="checkbox" checked id="check-1" /><pseudo></pseudo>
+                                    </label>
+                                    -->
+                                    
+                                    <label class="navi-label" for="dials-display">
+                                        <span class="desc" id="options-settings-speed-dial-show"></span>
+                                        <input type="checkbox" name="dials-display" id="dials-display" evince="dials-enabled" /><pseudo></pseudo>
+                                    </label>
+                                    
+                                    <div class="navi-roll" watch="dials-enabled">
+                                        
+                                        <div id="dials-columns-count" class="main-label">
+                                            <span class="desc" id="options-settings-speed-dial-dials-columns-count"></span>
+                                            <select id="dials-columns-count-select"><option value="auto" lang="option_auto"></option></select>
+                                        </div>
+                                        
+                                        <div id="dials-size" class="main-label dials-size">
+                                            <label class="desc" for="dials-size-slider-value">
+                                                <span lang="options_settings_dials_size_slider"></span>:
+                                                <span id="dials-size-slider-value"></span>
+                                            </label>
+                                            <div class="navi-slider" id="dials-size-slider"></div>
+                                        </div>
+                                        
+                                        <div id="popular-dials-settings" class="main-label">
+                                            <span class="desc">
+                                                <span id="options-settings-speed-dial-count"></span>
+                                                
+                                                <span class="desc-mini">
+                                                    <span id="options-settings-speed-dial-count-description" class="options-settings-speed-dial-count-description">(<span id="options-settings-speed-dial-count-max-description"></span> <span id="options-settings-speed-dial-count-max-group-name">Most Visited</span>. 40 <span id="options-settings-speed-dial-count-max"></span>)</span>
+                                                </span>
+                                            </span>
+                                            
+                                            <input type="number" min="1" max="40" name="dials-count" id="dials-count">
+                                        </div>
+                                        
+                                        <div id="dials-open-type" class="main-label">
+                                            <span class="desc" id="options-settings-speed-dial-open-type"></span>
+                                            <select name="dials-open" id="dials-open">
+                                                <option value="0" id="options-settings-speed-dial-open-type-current"></option>
+                                                <option value="1" id="options-settings-speed-dial-open-type-new"></option>
+                                                <option value="2" id="options-settings-speed-dial-open-type-background"></option>
+                                            </select>
+                                        </div>
+                                        
+                                        <label class="navi-label" for="custom-previews">
+                                            <span class="desc" lang="options_settings_speed_dial_customs"></span>
+                                            <input type="checkbox" id="custom-previews"><pseudo></pseudo>
+                                        </label>
+                                        
+                                        <span class="radio-label">
+                                            <span class="desc" id="options-settings-speed-dial-generate-type"></span>
+                                            <div class="radio-wrap radio-vertical">
+                                                <label for="speed-dial-generate-type-text">
+                                                    <input type="radio" name="speed-dial-generate-type" id="speed-dial-generate-type-text" data-new-dial-thumb-generate-type="1" class="speed-dial-generate-type-item"><pseudo></pseudo>
+                                                    <span class="radio-thin" id="speed-dial-generate-type-text-label"></span> 
+                                                </label>
+                                                <label for="speed-dial-generate-type-gallery-text">
+                                                    <input type="radio" name="speed-dial-generate-type" id="speed-dial-generate-type-gallery-text" data-new-dial-thumb-generate-type="2" class="speed-dial-generate-type-item"><pseudo></pseudo>
+                                                    <span class="radio-thin" id="speed-dial-generate-type-gallery-text-label"></span> 
+                                                </label>
+                                                <label for="speed-dial-generate-type-autopreview-text">
+                                                    <input type="radio" name="speed-dial-generate-type" id="speed-dial-generate-type-autopreview-text" data-new-dial-thumb-generate-type="3" class="speed-dial-generate-type-item"><pseudo></pseudo>
+                                                    <span class="radio-thin" id="speed-dial-generate-type-autopreview-text-label"></span> 
+                                                </label>
+                                                <label for="speed-dial-generate-type-gallery-autopreview-text">
+                                                    <input type="radio" name="speed-dial-generate-type" id="speed-dial-generate-type-gallery-autopreview-text" data-new-dial-thumb-generate-type="4" class="speed-dial-generate-type-item"><pseudo></pseudo>
+                                                    <span class="radio-thin" id="speed-dial-generate-type-gallery-autopreview-text-label"></span> 
+                                                </label>
+                                            </div>
+                                        </span>
+                                        
+                                        <div class="main-label dials-size">
+                                            <label class="desc" for="dials-form-min-opacity">
+                                                <span id="options-settings-speed-dial-opacity"></span>:
+                                                <span id="dials-form-min-opacity"></span>
+                                            </label>
+                                            <div class="navi-slider" id="dials-form-min-opacity-slider"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="navi-tab" tab="dials-advanced">
+                                    <div class="navi-button navi-button-right">
+                                        <span class="manual-sync">
+                                            <span class="sync-manual" lang="sync_manual"></span>
+                                            <span class="inline-block-me">
+                                                <a id="sync-link" class="sync-link" tabindex="-1">
+                                                    <div class="animation">
+                                                        <div id="loadFacebookG">
+                                                            <div id="blockG_1" class="facebook_blockG"></div>
+                                                            <div id="blockG_2" class="facebook_blockG"></div>
+                                                            <div id="blockG_3" class="facebook_blockG"></div>
+                                                        </div>
+                                                    </div>
+                                                    <span class="footer-link-ico"><img src="/pages/newtab/css/footer/sync_w.png" default="/pages/newtab/css/footer/sync_w.png" lang="sync_button_footer" /></span>
+                                                </a>
+                                            </span>
+                                        </span>
+                                    </div>
+                                    
+                                    <label class="navi-label" for="popular-group-display">
+                                        <span class="desc" id="options-settings-popular-group-show-name"></span>
+                                        <input type="checkbox" name="popular-group-display" id="popular-group-display"><pseudo></pseudo>
+                                    </label>
+                                    
+                                    <label class="navi-label" for="show-dials-background">
+                                        <span class="desc">
+                                            <span lang="options_settings_dials_display_background"></span>
+                                            <span class="settings-tooltip-wrap" >
+                                                <span 
+                                                      class="settings-tooltip" 
+                                                      data-toggle="tooltip" 
+                                                      data-placement="bottom" 
+                                                      data-html="true"
+                                                      data-title="<img src='./img/sample_background.png' />"
+                                                ></span>
+                                            </span>
+                                        </span>
+                                        <input type="checkbox" id="show-dials-background" evince="dials-background"><pseudo></pseudo>
+                                    </label>
+
+                                    <label class="navi-label watch-invert" for="show-dials-borders" watch="dials-background">
+                                        <span class="desc">
+                                            <span lang="options_settings_dials_display_borders"></span>
+                                            <span class="settings-tooltip-wrap" >
+                                                <span 
+                                                      class="settings-tooltip" 
+                                                      data-toggle="tooltip" 
+                                                      data-placement="bottom" 
+                                                      data-html="true"
+                                                      data-title="<img src='./img/sample_borders.png' />"
+                                                ></span>
+                                            </span>
+                                        </span>
+                                        <input type="checkbox" id="show-dials-borders"><pseudo></pseudo>
+                                    </label>
+                                    <!--
+                                    <label class="navi-label" for="show-dials-widget">
+                                        <span class="desc" lang="options_quick_preview"></span>
+                                        <input type="checkbox" id="show-dials-widget"><pseudo></pseudo>
+                                    </label>
+                                    -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        
+                    <div class="navi-page-block" block="navi-settings-weather">
+                        <div class="navi-body-header">
+                            <h2>
+                                <span lang="options_settings_weather_title"></span>
+                                <span class="sup-icon pro-icon weather-show-pro hide"></span>
+                                <!--<span class="weather-advanced navi-right-link hide" lang="weather_advanced"></span>-->
+                            </h2>
+                        </div>
+                        
+                        <div class="navi-block">
+                            <!--<div class="navi-button navi-button-right weather-advanced" lang="weather_advanced"></div>-->
+                            
+                            <ul class="navi-tabs-labels weather-advanced-sattelite hide">
+                                <li for="weather-main" lang="settings_block_main_header"></li>
+                                <li for="weather-advanced" class="weather-advanced">
+                                    <span lang="weather_advanced"></span>
+                                    <span class="sup-icon pro-icon"></span>
+                                </li> 
+                            </ul>
+                            
+                            <div class="navi-tabs weather-advanced-sattelite hide">
+                                <div class="navi-tab" tab="weather-main"></div>
+                                <div class="navi-tab" tab="weather-advanced"></div>
+                            </div>
+                            
+                            <label class="navi-label" for="weather-display">
+                                <span class="desc" id="options-settings-weather-show"></span>
+                                <input type="checkbox" name="weather-display" id="weather-display" evince="weather-enabled" ><pseudo></pseudo>
+                            </label>
+                            
+                            <div class="navi-roll" watch="weather-enabled">
+                                
+                                <div class="main-label" id="weather-block-wrap">
+                                    <span class="desc" id="options-settings-weather-location"></span>
+                                    
+                                    <span class="navi-control">
+                                        <span id="options-settings-weather-location-text" class="options-settings-weather-location-text">
+                                            <span id="options-settings-weather-location-description" class="options-settings-weather-location-description"></span>
+                                            <button id="options-settings-weather-location-change" class="btn btn-sm btn-primary options-settings-weather-location-change">
+                                                <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                                            </button>
+                                        </span>
+                                        <span id="options-settings-weather-location-input" class="options-settings-weather-location-input">
+                                            <form id="options-settings-weather-location-form" class="options-settings-weather-location-form">
+                                                <input type="text" name="weather-location" id="weather-location" autocomplete="off" />
+                                                <button type="submit" id="options-settings-weather-location-set" class="btn btn-sm btn-success options-settings-weather-location-set">
+                                                    <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                                                </button>
+                                                <button id="options-settings-weather-location-cancel" class="btn btn-sm btn-danger options-settings-weather-location-cancel">
+                                                    <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                                                </button>
+                                                <button id="weather-location-current-img" class="btn btn-sm btn-info weather-location-current-img">
+                                                    <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                                                </button>
+                                                <ul id="weather-suggestions-list" class="hide"></ul>
+                                            </form>
+                                        </span>
+                                    </span>
+                                    
+                                    <div id="weather-location-current-block-text" class="weather-location-current-block-text"></div>
+                                </div>
+                                
+                                <div class="radio-label">
+                                    <span class="desc" id="options-settings-weather-unit"></span>
+                                    <div class="radio-wrap">
+                                        <label for="weather-unit-c">
+                                            <input type="radio" name="weather-unit" id="weather-unit-c" data-weather-unit="c" class="weather-unit-item"><pseudo></pseudo> 
+                                            <span class="radio-thin">C</span> 
+                                        </label>
+                                        <label for="weather-unit-f">
+                                            <input type="radio" name="weather-unit" id="weather-unit-f" data-weather-unit="f" class="weather-unit-item"><pseudo></pseudo> 
+                                            <span class="radio-thin">F</span> 
+                                        </label>
+                                    </div>
+                                </div>
+                                
+                                <label class="navi-label" for="weather-unit-display">
+                                    <span class="desc" id="options-settings-weather-unit-show"></span>
+                                    <input type="checkbox" name="weather-unit-display" id="weather-unit-display"><pseudo></pseudo>
+                                </label>
+                                                                
+                                <div class="main-label">
+                                    <label class="desc" for="dials-form-min-opacity">
+                                        <span id="options-settings-weather-opacity"></span>:
+                                        <span id="weather-opacity-value" class="weather-opacity-value"></span>
+                                    </label>
+                                    <div class="navi-slider" id="weather-opacity-slider"></div>
+                                </div>
+                                
+                                <label class="navi-label" for="weather-background-display">
+                                    <span class="desc" id="options-settings-weather-background-show"></span>
+                                    <input type="checkbox" name="weather-background-display" id="weather-background-display" evince="weather-background"><pseudo></pseudo>
+                                </label>
+                                
+                                <div class="main-label" watch="weather-background">
+                                    <label class="desc" for="weather-background-opacity-value">
+                                        <span id="options-settings-weather-background-opacity"></span>:
+                                        <span id="weather-background-opacity-value" class="weather-background-opacity-value"></span>
+                                    </label>
+                                    <div class="navi-slider" id="weather-background-opacity-slider"></div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                                        
+                    <div class="navi-page-block" block="navi-settings-focus" id="focus-settings-wrap">
+                        <div class="navi-body-header">
+                            <h1 lang="focus_title"></h1>
+                        </div>
+                        
+                        <div class="navi-block">
+                            <label class="navi-label" for="focus-show">
+                                <span class="desc" lang="focus_show"></span>
+                                <input type="checkbox" name="focus-show" id="focus-show" evince="focus-enabled" /><pseudo></pseudo>
+                            </label>
+                            
+                            <div class="navi-roll" id="focus-param" watch="focus-enabled">
+                                <div class="main-label">
+                                    <span class="desc" lang="focus_message"></span>
+                                    <input type="text" id="focus-message" lang="focus_question" class="input-wide"/>
+                                </div>
+                                
+                                <div class="main-label">
+                                    <span class="desc" lang="focus_font_size"></span>
+                                    <select name="focus-font">
+                                        <option value="small"  lang="small"></option>
+                                        <option value="medium" lang="medium"></option>
+                                        <option value="large"  lang="large"></option>
+                                        <option value="extrime"  lang="extrime"></option>
+                                    </select>
+                                </div>
+                                
+                                <div class="main-label">
+                                    <span class="desc" lang="focus_select_color"></span>
+                                    
+                                    <span class="navi-control navi-colors">
+                                        <input type="text" name="focus-color" class="mini-colors" />
+                                    </span>
+                                </div>
+                                
+                                <label class="navi-label" for="focus-bg-show">
+                                    <span class="desc" lang="focus_show_background"></span>
+                                    <input type="checkbox" name="focus-bg-show" id="focus-bg-show" evince="focus-background" /><pseudo></pseudo>
+                                </label>
+                                
+                                <div class="main-label" id="focus-bg-opacity-wrap" watch="focus-background">
+                                    <label class="desc" for="focus-bg-opacity-value">
+                                        <span lang="focus_background_opacity"></span>:
+                                        <span id="focus-bg-opacity-value"></span>
+                                    </label>
+                                    <div class="navi-slider" id="focus-bg-opacity"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="navi-page-block" block="navi-settings-todo">
+                        <div class="navi-body-header">
+                            <h1 lang="options_settings_todo_title"></h1>
+                        </div>
+                        
+                        <div class="navi-block">
+                            <label class="navi-label" for="todo-display">
+                                <span class="desc" id="options-settings-todo-show"></span>
+                                <input type="checkbox" name="todo-display" id="todo-display" evince="todo-enabled" ><pseudo></pseudo>
+                            </label>
+                            
+                            <div class="navi-roll" watch="todo-enabled">
+                                <div class="main-label">
+                                    <label class="desc" for="page-todo-panel-opacity-value">
+                                        <span id="options-settings-page-todo-panel-opacity" lang="options_settings_todo_opacity"></span>:
+                                        <span id="page-todo-panel-opacity-value" class="page-todo-panel-opacity-value"></span>
+                                    </label>
+                                    <div class="navi-slider" id="page-todo-panel-opacity-slider"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="navi-page-block" block="navi-settings-misc">
+                        <div class="navi-body-header">
+                            <h1 lang="options_settings_page_common"></h1>
+                        </div>
+                        
+                        <div class="navi-block">
+                            <label class="navi-label opera-only hide set-as-new-tab" for="setAsNewTabCheckbox">
+                                <span class="desc" lang="settings_show_lsp_as_new_tab"></span>
+                                <input type="checkbox" id="setAsNewTabCheckbox"><pseudo></pseudo>
+                            </label>
+                            
+                            <label class="navi-label chrome-only hide" for="auto-download-videos">
+                                <span class="desc">
+                                    <span lang="auto_download_videos"></span>
+                                    <span class="settings-tooltip-wrap settings-tooltip-text-wrap" >
+                                        <span 
+                                              class="settings-tooltip tooltip-hover" 
+                                              data-container="body" 
+                                              data-toggle="popover" 
+                                              data-placement="right" 
+                                              lang="options_settings_page_common_hint"
+                                        ></span>
+                                    </span>
+                                </span>
+                                <input type="checkbox" id="auto-download-videos" /><pseudo></pseudo>
+                            </label>
+                            
+                            <label class="navi-label chrome-only hide" for="apps-link-display">
+                                <span class="desc" id="options-settings-apps-link-display"></span>
+                                <input type="checkbox" name="apps-link-display" id="apps-link-display"><pseudo></pseudo>
+                            </label>
+                            
+                            <div class="main-label">
+                                <label class="desc" for="page-bottom-panel-opacity-slider">
+                                    <span id="options-settings-page-bottom-panel-opacity"></span>:
+                                    <span id="page-bottom-panel-opacity-value" class="page-bottom-panel-opacity-value"></span>
+                                </label>
+                                <div class="navi-slider" id="page-bottom-panel-opacity-slider"></div>
+                            </div>
+                        </div>                        
+                    </div>
+                    
+                    <div class="navi-page-block" block="navi-settings-clock">
+                        <div class="navi-body-header">
+                            <h1 lang="options_settings_clock_title"></h1>
+                        </div>
+                        
+                        <div class="navi-block">
+                            <ul class="navi-tabs-labels">
+                                <li for="clock-main" lang="settings_block_main_header"></li>
+                                <li for="clock-advanced" lang="options_settings_dials_advanced_href" watch="clock-enabled"></li> 
+                            </ul>
+                        
+                            <div class="navi-tabs">
+                                <div class="navi-tab" tab="clock-main">
+                                    <label class="navi-label" for="clock-display">
+                                        <span class="desc" id="options-settings-clock-show"></span>
+                                        <input type="checkbox" name="clock-display" id="clock-display" evince="clock-enabled" ><pseudo></pseudo>
+                                    </label>
+                                    
+                                    <div class="navi-roll" watch="clock-enabled">
+                                        <div class="main-label">
+                                            <span class="desc">
+                                                <span lang="options_clock_size"></span>
+                                                <span class="sup-icon pro-icon weather-advanced-sattelite hide"></span>
+                                            </span>
+                                            <select name="clock-size" id="clock-size">
+                                                <option value="small" lang="options_clock_size_small"></option>
+                                                <option value="medium" lang="options_clock_size_medium"></option>
+                                                <option value="large" lang="options_clock_size_large"></option>
+                                            </select>
+                                        </div>
+                                        
+                                        <label class="navi-label" for="clock-date">
+                                            <span class="desc" id="options-settings-clock-date"></span>
+                                            <input type="checkbox" name="clock-date" id="clock-date" evince="clock-date" ><pseudo></pseudo>
+                                        </label>
+                                        
+                                        <div class="radio-label" id="clock-date-format" watch="clock-date">
+                                            <span class="desc" lang="clock_date_format"></span>
+                                            <div class="radio-wrap">
+                                                <label for="date-format-0">
+                                                    <input type="radio" name="date-format" id="date-format-0" value="auto" class="date-format-item"><pseudo></pseudo> 
+                                                    <span class="radio-thin" lang="option_auto"></span>
+                                                </label>
+
+                                                <label for="date-format-1">
+                                                    <input type="radio" name="date-format" id="date-format-1" value="mm/dd/yyyy" class="date-format-item"><pseudo></pseudo> 
+                                                    <span class="radio-thin" lang="option_mmddyyyy"></span>
+                                                </label>
+
+                                                <label for="date-format-2">
+                                                    <input type="radio" name="date-format" id="date-format-2" value="dd/mm/yyyy" class="date-format-item"><pseudo></pseudo> 
+                                                    <span class="radio-thin" lang="option_ddmmyyyy"></span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="radio-label">
+                                            <span class="desc" id="options-settings-clock-format"></span>
+                                            <div class="radio-wrap">
+                                                <label for="clock-format-1">
+                                                    <input type="radio" name="clock-format" id="clock-format-1" data-clock-format="1" class="clock-format-item"><pseudo></pseudo> 
+                                                    <span class="radio-thin">12H</span>
+                                                </label>
+                                                <label for="clock-format-0">
+                                                    <input type="radio" name="clock-format" id="clock-format-0" data-clock-format="0" class="clock-format-item"><pseudo></pseudo>
+                                                    <span class="radio-thin">24H</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <label id="clock-format-label-block" class="navi-label" for="clock-format-label">
+                                            <span class="desc" id="options-settings-clock-format-label"></span>
+                                            <input type="checkbox" name="clock-format-label" id="clock-format-label" ><pseudo></pseudo>
+                                        </label>
+                                        
+                                        <div id="clock-type-block" class="main-label">
+                                            <span class="desc" id="options-settings-clock-type"></span>
+                                            <select name="clock-type" id="clock-type" evince="clock-type">
+                                                <option value="3" id="options-settings-clock-type-3"></option>
+                                                <option value="0" id="options-settings-clock-type-0"></option>
+                                                <option value="5" id="options-settings-clock-type-5"></option>
+                                                <option value="6" id="options-settings-clock-type-6"></option>
+                                                <option value="7" id="options-settings-clock-type-7"></option>
+                                                <option value="9" id="options-settings-clock-type-9"></option>
+                                                <option value="10" id="options-settings-clock-type-10"></option>
+                                            </select>
+                                        </div>
+                                        
+                                        <label class="navi-label w_3 w_6 w_9 w_10" for="clock-visible-label"  watch="clock-type">
+                                            <span class="desc" id="options-settings-clock-visible-label"></span>
+                                            <input type="checkbox" name="clock-visible-label" id="clock-visible-label" evince="clock-label" ><pseudo></pseudo>
+                                        </label>
+                                        
+                                        <div id="clock-colors-block">
+                                            <div class="main-label">
+                                                <span class="desc" id="clock-color-text-h"></span>
+
+                                                <span class="navi-control">
+                                                    <span class="clock-color-scheme">
+                                                        <button id="clock-color-scheme-default" class="btn btn-sm btn-info clock-color-scheme-btn clock-color-scheme-default"></button>
+                                                        <button id="clock-color-scheme-light" class="btn btn-sm clock-color-scheme-btn clock-color-scheme-light"></button>
+                                                        <button id="clock-color-scheme-dark" class="btn btn-sm clock-color-scheme-btn clock-color-scheme-dark"></button>
+                                                    </span>
+                                                </span>
+                                            </div>
+
+                                            <div id="clock-colors-block-items" class="navi-slim">
+                                                <div class="main-label clock-color-block" id="clock-time-color-block">
+                                                    <span class="desc desc-right" id="clock-time-color-text"></span>
+
+                                                    <span class="navi-control navi-colors">
+                                                        <input type="text" id="clock-time-color" class="mini-colors" />
+                                                    </span>
+                                                </div>
+
+                                                <div class="main-label clock-color-block" id="clock-label-color-block">
+                                                    <span class="desc desc-right" id="clock-label-color-text"></span>
+
+                                                    <span class="navi-control navi-colors">
+                                                        <input type="text" id="clock-label-color" class="mini-colors" />
+                                                    </span>
+                                                </div>
+
+                                                <div class="main-label clock-color-block" id="clock-ampm-label-color-block">
+                                                    <span class="desc desc-right" id="clock-ampm-label-color-text"></span>
+
+                                                    <span class="navi-control navi-colors">
+                                                        <input type="text" id="clock-ampm-label-color" class="mini-colors" />
+                                                    </span>
+                                                </div>
+
+                                                <div class="main-label clock-color-block" id="clock-digit-bg-color-block">
+                                                    <span class="desc desc-right" id="clock-digit-bg-color-text"></span>
+
+                                                    <span class="navi-control navi-colors">
+                                                        <input type="text" id="clock-digit-bg-color" class="mini-colors" />
+                                                    </span>
+                                                </div>
+
+                                                <div class="main-label clock-color-block" id="clock-circle-done-line-color-block">
+                                                    <span class="desc desc-right" id="clock-circle-done-line-color-text"></span>
+
+                                                    <span class="navi-control navi-colors">
+                                                        <input type="text" id="clock-circle-done-line-color" class="mini-colors" />
+                                                    </span>
+                                                </div>
+
+                                                <div class="main-label clock-color-block" id="clock-circle-total-line-color-block">
+                                                    <span class="desc desc-right" id="clock-circle-total-line-color-text"></span>
+
+                                                    <span class="navi-control navi-colors">
+                                                        <input type="text" id="clock-circle-total-line-color" class="mini-colors" />
+                                                    </span>
+                                                </div>
+
+                                                <div class="main-label clock-color-block" id="clock-border-line-color-block">
+                                                    <span class="desc desc-right" id="clock-border-line-color-text"></span>
+
+                                                    <span class="navi-control navi-colors">
+                                                        <input type="text" id="clock-border-line-color" class="mini-colors" />
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="navi-tab" tab="clock-advanced">
+                                    <div id="clock-date-separator" class="main-label">
+                                        <span class="desc" lang="clock_date_separator"></span>
+                                        <select name="clock-date-separator">
+                                            <option value="/" lang="slash"> / </option>
+                                            <option value="space" lang="space"></option>
+                                            <option value="-" lang="dash"> - </option>
+                                            <option value="." lang="dot"> . </option>
+                                        </select>
+                                    </div>
+                                    
+                                    <label class="navi-label" for="clock-seconds">
+                                        <span lass="desc" id="options-settings-clock-seconds-show"></span>
+                                        <input type="checkbox" name="clock-seconds" id="clock-seconds"><pseudo></pseudo>
+                                    </label>
+                                    
+                                    <div class="main-label">
+                                        <span class="desc" id="options-settings-clock-background"></span>
+                                        <select name="clock-type" id="clock-background">
+                                            <option value="0" id="options-settings-clock-background-none"></option>
+                                            <option value="1" id="options-settings-clock-background-light"></option>
+                                            <option value="2" id="options-settings-clock-background-dark"></option>
+                                            <option value="3" id="options-settings-clock-background-light-long"></option>
+                                            <option value="4" id="options-settings-clock-background-dark-long"></option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="main-label">
+                                        <label class="desc" for="clock-opacity-value">
+                                            <span id="options-settings-clock-opacity"></span>:
+                                            <span id="clock-opacity-value" class="clock-opacity-value"></span>
+                                        </label>
+                                        <div class="navi-slider" id="clock-opacity-slider"></div>
+                                    </div>
+                                    
+                                    <div class="main-label disabled" id="clock-background-opacity">
+                                        <label class="desc" for="clock-background-opacity-value">
+                                            <span id="options-settings-clock-background-opacity"></span>:
+                                            <span id="clock-background-opacity-value" class="clock-background-opacity-value"></span>
+                                        </label>
+                                        <div class="navi-slider" id="clock-background-opacity-slider"></div>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="navi-page-block" block="navi-settings-search">
+                        <div class="navi-body-header">
+                            <h1 id="options-settings-speed-search-title"></h1>
+                        </div>
+                        
+                        <div class="navi-block">
+                            <label class="navi-label" for="search-form-display">
+                                <span class="desc" id="options-settings-search-form-display"></span>
+                                <input type="checkbox" name="search-form-display" id="search-form-display" evince="search-enabled" /><pseudo></pseudo>
+                            </label>
+                            
+                            <div class="navi-roll" watch="search-enabled">
+                                <label class="navi-label" for="show-search-engine-label">
+                                    <span class="desc settings-tooltip-text-wrap">
+                                        <span lang="settings_search_engine_label"></span>
+                                        <span class="settings-tooltip-wrap" >
+                                            <span 
+                                                  class="settings-tooltip settings-tooltip-mini" 
+                                                  data-toggle="tooltip" 
+                                                  data-placement="bottom" 
+                                                  data-html="true"
+                                                  data-title="<img src='./img/sample_search_logo.png' />"
+                                            ></span>
+                                        </span>
+                                    </span>
+                                    <input type="checkbox" id="show-search-engine-label" /><pseudo></pseudo>
+                                </label>
+                                
+                                <span class="radio-label">
+                                    <span class="desc" id="options-settings-search-form-provider"></span>
+                                    <div class="radio-wrap radio-vertical">
+                                        <div class="navi-columns">
+                                            <label for="search-form-provider-1" class="search-form-provider-label">
+                                                <input type="radio" name="search-form-provider" id="search-form-provider-1" data-search-provider="1" class="search-form-provider-item"><pseudo></pseudo> 
+                                                <span class="radio-thin">LiveStartPage</span> 
+                                            </label>
+
+                                            <label for="search-form-provider-2" class="search-form-provider-label ru-item premium-item">
+                                                <input disabled="disabled" type="radio" name="search-form-provider" id="search-form-provider-2" data-search-provider="2" class="search-form-provider-item"><pseudo></pseudo>
+                                                <span class="radio-thin">Yandex</span> 
+                                                <span class="premium-click"></span>
+                                            </label>
+
+                                            <label for="search-form-provider-3" class="search-form-provider-label premium-item">
+                                                <input disabled="disabled" type="radio" name="search-form-provider" id="search-form-provider-3" data-search-provider="3" class="search-form-provider-item"><pseudo></pseudo>
+                                                <span class="radio-thin">Google</span> 
+                                                <span class="premium-click"></span>
+                                            </label>
+                                        </div>
+                                        
+                                        <div class="navi-columns">
+                                            <label for="search-form-provider-4" class="search-form-provider-label premium-item">
+                                                <input disabled="disabled" type="radio" name="search-form-provider" id="search-form-provider-4" data-search-provider="4" class="search-form-provider-item"><pseudo></pseudo>
+                                                <span class="radio-thin">Bing</span> 
+                                                <span class="premium-click"></span>
+                                            </label>
+
+                                            <label for="search-form-provider-5" class="search-form-provider-label premium-item">
+                                                <input disabled="disabled" type="radio" name="search-form-provider" id="search-form-provider-5" data-search-provider="5" class="search-form-provider-item"><pseudo></pseudo>
+                                                <span class="radio-thin">Yahoo</span> 
+                                                <span class="premium-click"></span>
+                                            </label>
+
+                                            <label for="search-form-provider-6" class="search-form-provider-label premium-item">
+                                                <input disabled="disabled" type="radio" name="search-form-provider" id="search-form-provider-6" data-search-provider="6" class="search-form-provider-item"><pseudo></pseudo>
+                                                <span class="radio-thin">DuckDuckGo</span> 
+                                                <span class="premium-click"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </span>
+                                
+                                <div class="main-label">
+                                    <label class="desc" for="dials-size-slider-value">
+                                        <span id="options-settings-speed-search-opacity"></span>:
+                                        <span id="search-form-min-opacity" class="search-form-min-opacity"></span>
+                                    </label>
+                                    <div class="navi-slider" id="search-form-min-opacity-slider"></div>
+                                </div>
+                                
+                                <div id="search-open-type" class="main-label">
+                                    <span class="desc" id="options-settings-search-open-type"></span>
+                                    <select name="search-open" id="search-open">
+                                        <option value="0" id="options-settings-search-open-type-current"></option>
+                                        <option value="1" id="options-settings-search-open-type-new"></option>
+                                        <option value="2" id="options-settings-search-open-type-background"></option>
+                                    </select>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="navi-page-block" block="navi-settings-relax">
+                        <div class="navi-body-header">
+                            <h1>
+                                <span lang="options_settings_relax_title"></span>
+                                <span class="settings-tooltip-wrap settings-tooltip-big" >
+                                    <span 
+                                          class="settings-tooltip" 
+                                          data-toggle="tooltip" 
+                                          data-placement="bottom" 
+                                          data-html="true"
+                                          data-title="<img src='./img/sample_meditation.jpg' />"
+                                    ></span>
+                                </span>
+                            </h1>
+                        </div>
+                        
+                        <div class="navi-block">
+                            <label class="navi-label" for="relax-display">
+                                <span class="desc" id="options-settings-relax-enable"></span>
+                                <input type="checkbox" name="relax-display" id="relax-display" evince="relax-enabled" /><pseudo></pseudo>
+                            </label>
+                            
+                            <div class="navi-roll" watch="relax-enabled">
+                                <div class="main-label">
+                                    <span class="desc" lang="relax_auto_shuffle"></span>
+                                    <select id="relax-auto-shuffle-select"></select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="navi-page-block" block="navi-settings-parallax">
+                        <div class="navi-body-header">
+                            <h1 id="options-settings-parallax-title"></h1>
+                            <p id="options-settings-parallax-subtitle"></p>
+                        </div>
+                        
+                        <div class="navi-block">
+                            <label class="navi-label" name="parallax-display">
+                                <span class="desc">
+                                    <span id="options-settings-parallax-enable"></span>
+                                    <span id="options-settings-parallax-enable-notice" class="navi-notice options-settings-parallax-enable-notice"></span>
+                                </span>
+                                <input type="checkbox" name="parallax-display" id="parallax-display" ><pseudo></pseudo>
+                            </label>
+                        </div>
+                    </div>
+                                        
+                    <div class="navi-page-block" block="navi-settings-passcode" id="passcode-block">
+                        <div class="navi-body-header">
+                            <h1 lang="passcode_settings_title"></h1>
+                        </div>
+                        
+                        <div class="navi-block" class="passcode-func">
+                            <div class="passcode-promo none">
+                                <button id="passcode-enable" class="btn btn-success" lang="passcode_settings_promo_btn"></button>
+                            </div>
+                            
+                            <ul class="navi-tabs-labels">
+                                <li for="passcode-main"><span class="navi-tabs-text" lang="passcode_settings_tab_basic_h"></span></li>
+                                <li for="passcode-change" class="ifPassSet disabled"><span class="navi-tabs-text" lang="passcode_settings_tab_change_h"></span></li> 
+                            </ul>
+                        
+                            <div class="navi-tabs">
+                                <div class="navi-tab" tab="passcode-main">
+                                    <div id="pass-welcome" class="none">
+                                        <div class="main-label">
+                                            <span class="desc" lang="passcode_settings_pass_set"></span>
+                                            <input type="password" id="password-set" lang="passcode_settings_pass_set_input" class="input-wide" />
+                                            <span class="err-hint">
+                                                <span lang="passcode_settings_pass_please"></span>
+                                                <span lang="passcode_settings_pass_set_input"></span>
+                                            </span>
+                                        </div>
+                                        
+                                        <div class="main-label">
+                                            <span class="desc" lang="passcode_settings_pass_repeat"></span>
+                                            <input type="password" id="password-rpt" lang="passcode_settings_pass_repeat_input" class="input-wide" />
+                                            <span class="err-hint" lang="passcode_settings_pass_doesnt_match"></span>
+                                        </div>
+                                        
+                                        <div class="main-label">
+                                            <span class="desc" lang="passcode_settings_pass_email"></span>
+                                            <input type="text" id="recovery-email" lang="passcode_settings_pass_email_input" class="input-wide" />
+                                            <span class="err-hint" lang="passcode_settings_pass_wrong_email"></span>
+                                        </div>
+                                        
+                                        <div class="main-label labels-center">
+                                            <button id="passcode-btn-set" class="btn btn-primary" lang="passcode_settings_pass_btn_set"></button>
+                                        </div>
+                                    </div>
+
+                                    <div id="pass-is-set" class="none">
+                                        <h3 lang="passcode_settings_pass_have_set"></h3>
+                                        <p>
+                                            <span class="p" lang="passcode_settings_pass_restore_text"></span> <span class="p text-primary restore-email"></span>
+                                        </p>
+                                        
+                                        <div class="main-label labels-center">
+                                            <button id="passcode-btn-restore" class="btn btn-warning" lang="passcode_settings_pass_btn_restore"></button>
+                                        </div>
+                                        
+                                        <p class="p restore-hint button-bottom" lang="passcode_settings_pass_restore_success"></p>
+                                    </div>
+                                </div>
+                                <div class="navi-tab" tab="passcode-change">
+                                        <div class="main-label">
+                                            <span class="desc" lang="passcode_settings_pass_current"></span>
+                                            <input type="password" id="password-cur" lang="passcode_settings_pass_current" class="input-wide" />
+                                            <span class="err-hint" lang="passcode_settings_pass_current_wrong"></span>
+                                        </div>
+                                        
+                                        <div class="main-label">
+                                            <span class="desc" lang="passcode_settings_pass_new"></span>
+                                            <input type="password" id="password-new" lang="passcode_settings_pass_new" class="input-wide" />
+                                            <span class="err-hint">
+                                                <span lang="passcode_settings_pass_please"></span>
+                                                <span lang="passcode_settings_pass_new"></span>
+                                            </span>
+                                        </div>
+                                        
+                                        <div class="main-label">
+                                            <span class="desc" lang="passcode_settings_pass_repeat"></span>
+                                            <input type="password" id="password-new-rpt" lang="passcode_settings_pass_repeat_input" class="input-wide" />
+                                            <span class="err-hint" lang="passcode_settings_pass_doesnt_match"></span>
+                                        </div>
+                                        
+                                        <div class="main-label labels-center">
+                                            <button id="passcode-btn-change" class="btn btn-info" lang="passcode_settings_pass_btn_change"></button>
+                                            <button id="passcode-btn-delete" class="btn btn-danger" lang="passcode_settings_pass_btn_delete"></button>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                        
+                    <div class="navi-page-block" block="navi-settings-backup">
+                        <div class="navi-body-header">
+                            <h1>
+                                <span lang="backup_settings_title"></span>
+                                <span class="hint-link backup-why navi-right-link" lang="backup_why"></span>
+                            </h1>
+                        </div>
+                        
+                        <div class="navi-block">
+                            <label class="navi-label" for="backup-enable">
+                                <span class="desc" lang="backup_enable"></span>
+                                <input type="checkbox" name="backup-enable" id="backup-enable" evince="backup-enabled" ><pseudo></pseudo>
+                            </label>
+
+                            <div class="navi-roll" watch="backup-enabled">
+                                <div id="backup-settings-container" class="hide"></div>
+                                        
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div id="navi-additional-sections"></div>
+                </center>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!--Legacy markup code-->
+    
+    <div class="modal fade" id="feedback-dialog" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 id="popup-feedback-dialog-title" class="modal-title"></h4>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <form id="feedback-form" class="feedback-form">
+                            <div class="form-group">
+                                <label id="popup-feedback-dialog-label-email" for="exampleInputEmail"></label><span class="feedback-form-field-required form-field-required-text"></span>
+                                <input type="email" class="form-control" id="exampleInputEmail" maxlength="255">
+                                <div class="form-error-text"></div>
+                            </div>
+                            <div class="form-group">
+                                <label id="popup-feedback-dialog-label-subject" for="exampleInputSubject"></label><span class="feedback-form-field-required form-field-required-text"></span>
+                                <input type="text" class="form-control" id="exampleInputSubject" maxlength="255">
+                                <div class="form-error-text"></div>
+                            </div>
+                            <div class="form-group">
+                                <label id="popup-feedback-dialog-label-description" for="exampleTextArea"></label>
+                                <textarea class="form-control exampleTextArea" id="exampleTextArea" maxlength="10000"></textarea>
+                                <div class="form-error-text"></div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-success" id="feedBackConfirm"></button>
+                            </div>
+                        </form>
+                        <div id="feedback-success" class="feedback-success">
+                            <p id="popup-feedback-dialog-success-text" class="text-center"></p>
+                            <div class="text-center feedback-success-glyphicon">
+                                <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+                            </div>
+                            <div class="text-center">
+                                <button id="feedback-close-btn" class="btn btn-primary"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade share-subscribe-dialog" id="share-app-dialog" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center popup-share-top-block popup-share-text-block">
+                        <span id="popup-share-app-dialog-text-1" class="popup-share-app-dialog-text popup-share-app-dialog-text-1"></span>
+                        <span id="popup-share-app-dialog-text-2" class="popup-share-app-dialog-text popup-share-app-dialog-text-2"></span>
+                        <span id="popup-share-app-dialog-text-3" class="popup-share-app-dialog-text popup-share-app-dialog-text-3"></span>
+                        <span id="popup-share-app-dialog-text-4" class="popup-share-app-dialog-text popup-share-app-dialog-text-4 text-right"></span>
+                    </div>
+                    <div class="text-center popup-share-middle-block">
+                        <span id="popup-share-app-dialog-title" class="popup-share-app-dialog-title modal-title"></span>
+                    </div>
+                    <div class="share42init"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   <div class="modal fade share-subscribe-dialog" id="subscribe-app-dialog" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center popup-share-top-block popup-share-text-block">
+                        <span class="popup-share-app-dialog-text popup-share-app-dialog-text-1" lang="options_share_social_popup_text_1"></span>
+                        <span class="popup-share-app-dialog-text popup-share-app-dialog-text-2" lang="subscribe_text"></span>
+                    </div>
+                    <div class="subscribe-buttons lang-detect">
+                        <span id="share42-big" class="share42-big">
+                            <div class="subscribe-big share-button-big-instance share-button-big-instance-sm-column share-fb-big" big-img="fb.png" data-count="fb">
+                                <img class="share-button-image-big-instance" src="/vendor/share42/fb.png"><br />
+                                <span class="iframe-wrap">
+                                    <iframe src="" widthOFF="138" height="21" scrolling="no" frameborder="0" allowTransparency="true" id="fbiframe"></iframe>
+                                </span>
+                            </div>
+                            
+                            <div class="subscribe-big share-button-big-instance share-button-big-instance-sm-column share-twi-big" big-img="twi.png" data-count="twi">
+                                <img class="share-button-image-big-instance" src="/vendor/share42/twi.png"><br />
+                                
+                                <div class="custom-follow-button">
+                                  <a hrefout="https://twitter.com/intent/user?screen_name=livestartpage" target="_blank" alt="Follow livestartpage">
+                                    <i class="btn-icon"></i>
+                                    <span class="btn-text"><span lang="subscribe_follow"></span> @livestartpage</span>
+                                  </a>
+                                </div>
+                                
+                                <!--
+                                <a href="https://twitter.com/livestartpage" class="twitter-follow-button" data-show-count="true">Follow @livestartpage</a>
+                                <script async src="/vendor/widgets.js" charset="utf-8"></script>
+                                -->
+                            </div>
+                            
+                            <div class="subscribe-big share-button-big-instance share-button-big-instance-sm-column share-vk-big only-ru" big-img="vk.png" data-count="vk">
+                                <img class="share-button-image-big-instance" src="/vendor/share42/vk.png"><br />
+                                <div class="custom-vk-button">
+                                  <a hrefout="https://vk.com/livestartpage" target="_blank" alt="Подписаться на livestartpage">
+                                    <i class="btn-icon"></i>
+                                    <span class="btn-text">Подписаться на LSP</span>
+                                  </a>
+                                </div>
+                                
+                                <!--
+                                <script type="text/javascript" src="//vk.com/js/api/openapi.js?142"></script>
+                                <div id="vk_subscribe"></div>
+                                <script type="text/javascript">
+                                VK.Widgets.Subscribe("vk_subscribe", {soft: 1}, -101198639);
+                                </script>
+                                -->
+                            </div>
+                            
+                            <div class="subscribe-big share-button-big-instance share-button-big-instance-sm-column share-odn-big only-ru" big-img="odn.png" data-count="odn">
+                                <img class="share-button-image-big-instance" src="/vendor/share42/odn.png">
+                                
+                                <div class="custom-ok-button">
+                                  <a hrefout="https://ok.ru/group/53314773909685" target="_blank" alt="Присоединиться к livestartpage">
+                                    <i class="btn-icon"></i>
+                                    <span class="btn-text">Присоединиться</span>
+                                  </a>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <span class="dont-show-it-anymore" lang="subscribe_disable"></span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="confirm-dialog" class="modal fade common-modal-content modal-narrow" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                
+                <div class="modal-body">
+                    <p class="dialog-message px18"></p>
+                </div>
+                <div class="modal-footer">
+                    <button id="dialog-cancel" type="button" class="btn btn-primary options-common-popup-btn options-common-popup-hide" data-dismiss="modal" lang="cancel"></button>
+                    <button id="dialog-confirm" type="button" class="btn btn-success options-common-popup-btn options-common-popup-hide" data-dismiss="modal" lang="confirm"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="sync-decide-modal" class="modal fade common-modal-content" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 id="options-common-popup-title" class="modal-title" lang="sync_decide_title"></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-container">
+                        <div id="options-common-popup-body" class="options-common-popup-body">
+                            <div id="options-common-popup-body-top-text" class="options-common-popup-body-top-text">
+                                <span class="modal-message decide-line-1" lang="sync_decide_data"></span>
+                                <span class="modal-message OFF-modal-text-mini" lang="sync_decide_variant"></span> <span class="sync-decide-login"></span>
+                                <br />
+                            </div>
+
+                            <div class="common-modal-body-buttons">
+                                <button id="sync-decide-merge" type="button" class="btn btn-info options-common-popup-btn options-common-popup-hide relative min-w96" action="merge" data-dismiss="modal">
+                                    <span lang="sync_decide_btn_merge"></span><span class="under-button" lang="sync_decide_btn_recomended"></span>
+                                </button>
+                                <button id="sync-decide-server" type="button" class="btn btn-info options-common-popup-btn options-common-popup-hide btn-margin-wide" action="server" data-dismiss="modal"  lang="sync_decide_btn_server"></button>
+                                <button id="sync-decide-client" type="button" class="btn btn-info options-common-popup-btn options-common-popup-hide" action="client" data-dismiss="modal" lang="sync_decide_btn_client"></button>
+                            </div>
+
+                            <div id="sync-decide-hint" class="options-common-popup-body-bottom-text modal-common-hints sync-decide-hints">
+                                <div class="sync-decide-merge-hint" lang="sync_decide_btn_merge_hint"></div>
+                                <div class="sync-decide-server-hint" lang="sync_decide_btn_server_hint"></div>
+                                <div class="sync-decide-client-hint" lang="sync_decide_btn_client_hint"></div>
+                            </div>
+                            
+                            <span class="modal-absolute-bottom"><!--<sup>*</sup>-->* <span lang="sync_decide_footer_text"></span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sync-decide-confirm" class="modal fade common-modal-content" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" lang="sync_decide_confirm_title"></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body-container">
+                        <div id="options-common-popup-body" class="options-common-popup-body">
+                            <div id="options-common-popup-body-top-text" class="options-common-popup-body-top-text">
+                                <span class="modal-message decide-line-1"></span>
+                                <br />
+                            </div>
+
+                            <div class="common-modal-buttons">
+                                <button id="sync-confirm-cancel" type="button" class="btn btn-primary options-common-popup-btn options-common-popup-hide" action="merge" data-dismiss="modal" lang="sync_decide_confirm_cancel"></button>
+                                <button id="sync-confirm-start" type="button" class="btn btn-success options-common-popup-btn options-common-popup-hide" action="server" data-dismiss="modal" lang="sync_decide_confirm_start"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <img class="loader" src="img/reload.svg" style="position:fixed; top:45%; left:57%; margin:-25px 0 0 -25px" />
+</body>
+
+</html>

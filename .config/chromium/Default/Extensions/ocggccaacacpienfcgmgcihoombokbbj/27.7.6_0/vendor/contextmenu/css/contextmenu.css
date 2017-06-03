@@ -1,0 +1,52 @@
+﻿.b-m-mpanel {
+	background: #FFF;
+	position: absolute;
+	z-index: 99997;
+	left:0px;
+	top:0px;
+	border: 1px solid rgba(0,0,0,.2);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	outline: none;
+}
+.b-m-split {
+	font-size: 0;
+	margin: 0 2px;
+	border-top: 1px solid rgba(0,0,0,.2);
+}
+.b-m-item, .b-m-idisable {
+	padding: 8px 10px;
+    cursor: pointer;
+    line-height:100%;
+	font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+	font-size: 13px;
+}
+.b-m-idisable
+{
+    color:#808080;
+}
+.b-m-ibody, .b-m-arrow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+.b-m-arrow {
+	background: url(images/contextmenu/m_arrow.gif) right  no-repeat;	
+}
+.b-m-idisable .b-m-arrow
+{
+    background:none;
+}
+.b-m-item img, .b-m-ifocus img, .b-m-idisable img {
+	margin-right: 8px;
+}
+.b-m-ifocus {
+	background-color: #eee;
+	padding: 8px 10px;
+	cursor: pointer;
+    line-height:100%;
+	font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+	font-size: 13px;
+}
+.b-m-idisable img {
+	visibility:hidden;
+}

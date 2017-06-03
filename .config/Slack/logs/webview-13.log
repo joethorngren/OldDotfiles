@@ -1,0 +1,67 @@
+[06/02/17, 13:51:28:633] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 13:51:28:634] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 13:51:28:628      ║
+[06/02/17, 13:51:28:635] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 13:51:28:846] info: updateSuspendResume: true
+[06/02/17, 13:51:29:559] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T12AS2C06' }
+[06/02/17, 13:51:29:883] info: Store: SELECT_CHANNEL C12AZEZPH
+[06/02/17, 13:51:29:889] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T12AS2C06' }
+[06/02/17, 13:51:30:618] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_132.png' },
+  teamId: 'T12AS2C06' }
+[06/02/17, 13:51:31:192] info: Raw Locale list: ["C","C.UTF-8","en_AG","en_AG.utf8","en_AU.utf8","en_BW.utf8","en_CA.utf8","en_DK.utf8","en_GB.utf8","en_HK.utf8","en_IE.utf8","en_IN","en_IN.utf8","en_NG","en_NG.utf8","en_NZ.utf8","en_PH.utf8","en_SG.utf8","en_US.utf8","en_ZA.utf8","en_ZM","en_ZM.utf8","en_ZW.utf8","POSIX",""]
+[06/02/17, 13:51:31:193] info: Filtered Locale list: ["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"]
+[06/02/17, 13:51:31:194] info: Counts: {"en":["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"]}
+[06/02/17, 13:51:31:196] info: Result: {"en":"en-US"}
+[06/02/17, 13:51:31:199] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[06/02/17, 13:51:31:201] info: Loading dictionary for language en-US
+[06/02/17, 13:51:31:202] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:51:31:572] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:51:31:573] info: Creating node-spellchecker instance
+[06/02/17, 13:51:31:575] info: Actually installing spell check provider to Electron
+[06/02/17, 13:51:31:577] info: Loading dictionary for language en-US
+[06/02/17, 13:51:31:577] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:51:31:579] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:51:35:691] info: Unloading spellchecker
+[06/02/17, 13:51:39:238] info: Restoring spellchecker
+[06/02/17, 13:51:39:239] info: Loading dictionary for language en-US
+[06/02/17, 13:51:39:239] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:51:39:249] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:51:39:250] info: Creating node-spellchecker instance
+[06/02/17, 13:51:39:611] info: Unloading spellchecker
+[06/02/17, 13:51:40:008] info: Restoring spellchecker
+[06/02/17, 13:51:40:010] info: Loading dictionary for language en-US
+[06/02/17, 13:51:40:010] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:51:40:014] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:51:40:015] info: Creating node-spellchecker instance
+[06/02/17, 13:52:29:944] info: Unloading spellchecker
+[06/02/17, 13:52:30:450] info: Restoring spellchecker
+[06/02/17, 13:52:30:451] info: Loading dictionary for language en-US
+[06/02/17, 13:52:30:452] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:52:30:455] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:52:30:456] info: Creating node-spellchecker instance
+[06/02/17, 13:52:55:518] info: Unloading spellchecker
+[06/02/17, 13:52:55:769] info: Restoring spellchecker
+[06/02/17, 13:52:55:771] info: Loading dictionary for language en-US
+[06/02/17, 13:52:55:773] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:52:55:777] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:52:55:778] info: Creating node-spellchecker instance
+[06/02/17, 13:52:55:780] info: Unloading spellchecker

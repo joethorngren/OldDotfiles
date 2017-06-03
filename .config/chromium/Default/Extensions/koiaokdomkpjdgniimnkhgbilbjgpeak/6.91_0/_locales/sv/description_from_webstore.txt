@@ -1,0 +1,5 @@
+Ställer automatiskt in videor till att spelas upp i HD. Användare kan välja mellan 1080p, 720p och andra storlekar som finns tillgängliga för varje enskild video.
+
+Vänligen skicka förslag och felrapporter till http://www.autohdforyoutube.com
+
+YouTube™ är ett varumärke som tillhör Google™. Denna förlängning är inte godkänd av Google™ eller YouTube™.

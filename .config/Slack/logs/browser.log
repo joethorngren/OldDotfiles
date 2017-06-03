@@ -1,0 +1,2259 @@
+[05/30/17, 11:12:54:041] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/30/17, 11:12:54:042] info: ║      Slack 2.6.2, linux 4.8.0-52-generic on x64 at 05/30/17, 11:12:54:034      ║
+[05/30/17, 11:12:54:042] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/30/17, 11:12:54:202] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/30/17, 11:12:54:209] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/30/17, 11:12:54:445] info: Store: persist/REHYDRATE
+[05/30/17, 11:12:54:447] info: BrowserStore: Let's migrate Redux state
+[05/30/17, 11:12:54:447] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/redux-state.json
+[05/30/17, 11:12:54:448] info: BrowserStore: Finished migration, make a note of it
+[05/30/17, 11:12:54:449] info: Store: COMPLETED
+{ redux: true, macgap: false }
+[05/30/17, 11:12:54:655] info: Tray Handler: Showing a tray balloon with title: Welcome to Slack!
+[05/30/17, 11:12:54:662] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/30/17, 11:12:54:667] info: Store: UPDATE_SETTINGS
+{ hasRunApp: true }
+[05/30/17, 11:12:54:682] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/30/17, 11:12:54:685] info: Loading windowMetrics
+[05/30/17, 11:12:54:687] info: Store: SAVE_WINDOW_SETTINGS
+{ position: [ 1768, 1584 ], size: [ 2064, 1152 ] }
+[05/30/17, 11:12:54:717] info: Store: UPDATE_SETTINGS
+{ PrefSSBFileDownloadPath: '/home/dayfun/Downloads' }
+[05/30/17, 11:12:54:720] info: App: Welcome to Slack 2.6.2 x64
+[05/30/17, 11:12:54:721] info: App load time: 741ms
+[05/30/17, 11:12:54:723] info: Store: SET_FULL_SCREEN
+[05/30/17, 11:12:55:846] info: Store: SET_NETWORK_STATUS online
+[05/30/17, 11:12:55:860] info: Main window finished load. Launched on login: false
+[05/30/17, 11:12:56:869] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1133, 1402 ],
+  position: [ 2234, 7 ],
+  isMaximized: false }
+[05/30/17, 11:13:01:151] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 1885 ],
+  position: [ 7, 815 ],
+  isMaximized: false }
+[05/30/17, 11:13:02:940] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 936 ], position: [ 7, 815 ], isMaximized: false }
+[05/30/17, 11:13:07:869] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 936 ], position: [ 7, 815 ], isMaximized: false }
+[05/30/17, 11:13:13:137] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 1856 ],
+  position: [ 7, 844 ],
+  isMaximized: false }
+[05/30/17, 11:17:07:384] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/30/17, 11:17:07:385] info: ║      Slack 2.6.2, linux 4.8.0-52-generic on x64 at 05/30/17, 11:17:07:380      ║
+[05/30/17, 11:17:07:386] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/30/17, 11:17:07:531] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/30/17, 11:17:07:538] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/30/17, 11:17:07:711] info: Store: persist/REHYDRATE
+[05/30/17, 11:17:07:865] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/30/17, 11:17:07:873] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/30/17, 11:17:07:877] info: Loading windowMetrics
+{ size: [ 1066, 1856 ],
+  position: [ 7, 844 ],
+  isMaximized: false }
+[05/30/17, 11:17:07:891] info: App: Welcome to Slack 2.6.2 x64
+[05/30/17, 11:17:07:892] info: App load time: 562ms
+[05/30/17, 11:17:07:895] info: Store: SET_FULL_SCREEN
+[05/30/17, 11:17:08:936] info: Store: SET_NETWORK_STATUS online
+[05/30/17, 11:17:08:954] info: Main window finished load. Launched on login: false
+[05/30/17, 11:17:09:961] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1706, 1402 ],
+  position: [ 2807, 7 ],
+  isMaximized: false }
+[05/30/17, 11:17:17:284] info: Attempted to close the window, hiding due to run from tray
+[05/30/17, 11:17:17:289] info: Store: UPDATE_SETTINGS
+{ hasRunFromTray: true }
+[05/30/17, 11:17:17:296] info: Store: SHOW_TRAY_BALLOON
+{ title: 'Why didn\'t Slack quit?',
+  content: 'Slack\'s set to stay running in the notification area. To change this, visit Preferences > Linux App.' }
+[05/30/17, 11:17:17:302] info: Tray Handler: Showing a tray balloon with title: Why didn't Slack quit?
+[05/30/17, 11:17:17:330] info: Store: SET_FULL_SCREEN
+[05/30/17, 11:24:41:625] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/30/17, 11:24:41:626] info: ║      Slack 2.6.2, linux 4.8.0-52-generic on x64 at 05/30/17, 11:24:41:621      ║
+[05/30/17, 11:24:41:626] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/30/17, 11:24:41:773] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/30/17, 11:24:41:780] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/30/17, 11:24:41:945] info: Store: persist/REHYDRATE
+[05/30/17, 11:24:42:097] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/30/17, 11:24:42:104] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/30/17, 11:24:42:108] info: Loading windowMetrics
+{ size: [ 1706, 1402 ],
+  position: [ 2807, 7 ],
+  isMaximized: false }
+[05/30/17, 11:24:42:109] info: RepositionWindowBehavior: Window too far top for display (287.40000000000003 < 808)
+[05/30/17, 11:24:42:109] info: RepositionWindowBehavior: Window too far left for display (3148.2 < 4520)
+[05/30/17, 11:24:42:125] info: App: Welcome to Slack 2.6.2 x64
+[05/30/17, 11:24:42:125] info: App load time: 556ms
+[05/30/17, 11:24:42:127] info: Store: SET_FULL_SCREEN
+[05/30/17, 11:24:43:126] info: Store: SET_NETWORK_STATUS online
+[05/30/17, 11:24:43:144] info: Main window finished load. Launched on login: false
+[05/30/17, 11:24:44:157] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 1885 ],
+  position: [ 7, 815 ],
+  isMaximized: false }
+[05/30/17, 11:26:31:498] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/30/17, 11:26:31:499] info: ║      Slack 2.6.2, linux 4.8.0-52-generic on x64 at 05/30/17, 11:26:31:493      ║
+[05/30/17, 11:26:31:499] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/30/17, 11:26:31:646] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/30/17, 11:26:31:652] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/30/17, 11:26:32:275] info: Store: persist/REHYDRATE
+[05/30/17, 11:26:32:430] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/30/17, 11:26:32:440] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/30/17, 11:26:32:444] info: Loading windowMetrics
+{ size: [ 1066, 1885 ],
+  position: [ 7, 815 ],
+  isMaximized: false }
+[05/30/17, 11:26:32:461] info: App: Welcome to Slack 2.6.2 x64
+[05/30/17, 11:26:32:462] info: App load time: 1018ms
+[05/30/17, 11:26:32:464] info: Store: SET_FULL_SCREEN
+[05/30/17, 11:26:33:348] info: Store: SET_NETWORK_STATUS online
+[05/30/17, 11:26:33:359] info: Main window finished load. Launched on login: false
+[05/30/17, 11:26:58:614] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 936 ], position: [ 7, 815 ], isMaximized: false }
+[05/30/17, 11:30:23:816] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 619 ], position: [ 7, 815 ], isMaximized: false }
+[05/30/17, 11:30:26:297] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 936 ], position: [ 7, 815 ], isMaximized: false }
+[05/30/17, 11:41:32:470] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/30/17, 11:41:32:471] info: ║      Slack 2.6.2, linux 4.8.0-52-generic on x64 at 05/30/17, 11:41:32:465      ║
+[05/30/17, 11:41:32:471] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/30/17, 11:41:32:617] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/30/17, 11:41:32:623] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/30/17, 11:41:32:790] info: Store: persist/REHYDRATE
+[05/30/17, 11:41:32:944] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/30/17, 11:41:32:954] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/30/17, 11:41:32:957] info: Loading windowMetrics
+{ size: [ 1066, 936 ], position: [ 7, 815 ], isMaximized: false }
+[05/30/17, 11:41:32:970] info: App: Welcome to Slack 2.6.2 x64
+[05/30/17, 11:41:32:971] info: App load time: 555ms
+[05/30/17, 11:41:32:972] info: Store: SET_FULL_SCREEN
+[05/30/17, 11:41:33:956] info: Store: SET_NETWORK_STATUS online
+[05/30/17, 11:41:33:967] info: Main window finished load. Launched on login: false
+[05/30/17, 11:41:34:971] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/30/17, 11:42:45:941] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/30/17, 11:42:45:942] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 05/30/17, 11:42:45:934      ║
+[05/30/17, 11:42:45:943] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/30/17, 11:42:46:171] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/30/17, 11:42:46:182] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/30/17, 11:42:46:465] info: Store: persist/REHYDRATE
+[05/30/17, 11:42:46:678] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/30/17, 11:42:46:691] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/30/17, 11:42:46:694] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/30/17, 11:42:46:711] info: App: Welcome to Slack 2.6.2 x64
+[05/30/17, 11:42:46:712] info: App load time: 833ms
+[05/30/17, 11:42:46:713] info: Store: SET_FULL_SCREEN
+[05/30/17, 11:42:47:719] info: Store: SET_NETWORK_STATUS online
+[05/30/17, 11:42:47:735] info: Main window finished load. Launched on login: false
+[05/30/17, 11:59:33:104] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 619 ],
+  position: [ 7, 1448 ],
+  isMaximized: false }
+[05/30/17, 11:59:37:809] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/30/17, 12:22:51:824] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 619 ],
+  position: [ 7, 1448 ],
+  isMaximized: false }
+[05/30/17, 12:22:53:133] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 346, 1885 ],
+  position: [ 367, 815 ],
+  isMaximized: false }
+[05/30/17, 12:22:54:571] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 1838 ],
+  position: [ 7, 862 ],
+  isMaximized: false }
+[05/30/17, 12:59:51:798] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 1838 ],
+  position: [ 7, 862 ],
+  isMaximized: false }
+[05/30/17, 15:34:59:320] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 1856 ],
+  position: [ 7, 844 ],
+  isMaximized: false }
+[05/30/17, 15:43:40:313] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 1856 ],
+  position: [ 7, 844 ],
+  isMaximized: false }
+[05/30/17, 15:43:50:631] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 1856 ],
+  position: [ 7, 844 ],
+  isMaximized: false }
+[05/30/17, 15:46:57:218] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/30/17, 15:46:57:219] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 05/30/17, 15:46:57:211      ║
+[05/30/17, 15:46:57:220] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/30/17, 15:46:57:448] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/30/17, 15:46:57:461] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/30/17, 15:46:57:751] info: Store: persist/REHYDRATE
+[05/30/17, 15:46:57:961] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/30/17, 15:46:57:979] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/30/17, 15:46:57:983] info: Loading windowMetrics
+{ size: [ 1066, 1856 ],
+  position: [ 7, 844 ],
+  isMaximized: false }
+[05/30/17, 15:46:58:007] info: App: Welcome to Slack 2.6.2 x64
+[05/30/17, 15:46:58:008] info: App load time: 858ms
+[05/30/17, 15:46:58:010] info: Store: SET_FULL_SCREEN
+[05/30/17, 15:46:58:893] info: Store: SET_NETWORK_STATUS online
+[05/30/17, 15:46:58:906] info: Main window finished load. Launched on login: false
+[05/30/17, 15:46:59:918] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/30/17, 15:47:19:773] info: Attempted to close the window, hiding due to run from tray
+[05/30/17, 15:47:19:778] info: Store: SET_FULL_SCREEN
+[05/30/17, 20:14:34:167] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/30/17, 20:14:34:168] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 05/30/17, 20:14:34:159      ║
+[05/30/17, 20:14:34:169] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/30/17, 20:14:34:406] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/30/17, 20:14:34:418] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/30/17, 20:14:34:782] info: Store: persist/REHYDRATE
+[05/30/17, 20:14:35:000] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/30/17, 20:14:35:012] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/30/17, 20:14:35:016] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/30/17, 20:14:35:045] info: App: Welcome to Slack 2.6.2 x64
+[05/30/17, 20:14:35:046] info: App load time: 954ms
+[05/30/17, 20:14:35:048] info: Store: SET_FULL_SCREEN
+[05/30/17, 20:14:35:926] info: Store: SET_NETWORK_STATUS online
+[05/30/17, 20:14:35:940] info: Main window finished load. Launched on login: false
+[05/30/17, 20:14:36:958] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 619 ],
+  position: [ 7, 2081 ],
+  isMaximized: false }
+[05/30/17, 20:14:48:468] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/30/17, 20:31:47:415] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/30/17, 20:31:47:416] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 05/30/17, 20:31:47:411      ║
+[05/30/17, 20:31:47:416] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/30/17, 20:31:47:563] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/30/17, 20:31:47:569] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/30/17, 20:31:47:748] info: Store: persist/REHYDRATE
+[05/30/17, 20:31:47:906] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/30/17, 20:31:47:914] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/30/17, 20:31:47:918] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/30/17, 20:31:47:932] info: App: Welcome to Slack 2.6.2 x64
+[05/30/17, 20:31:47:933] info: App load time: 574ms
+[05/30/17, 20:31:47:935] info: Store: SET_FULL_SCREEN
+[05/30/17, 20:31:48:971] info: Store: SET_NETWORK_STATUS online
+[05/30/17, 20:31:48:985] info: Main window finished load. Launched on login: false
+[05/30/17, 20:32:00:684] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 1856 ],
+  position: [ 7, 844 ],
+  isMaximized: false }
+[05/30/17, 20:38:16:348] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/30/17, 20:38:16:349] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 05/30/17, 20:38:16:338      ║
+[05/30/17, 20:38:16:350] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/30/17, 20:38:16:586] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/30/17, 20:38:16:595] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/30/17, 20:38:16:905] info: Store: persist/REHYDRATE
+[05/30/17, 20:38:17:121] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/30/17, 20:38:17:141] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/30/17, 20:38:17:146] info: Loading windowMetrics
+{ size: [ 1066, 1856 ],
+  position: [ 7, 844 ],
+  isMaximized: false }
+[05/30/17, 20:38:17:170] info: App: Welcome to Slack 2.6.2 x64
+[05/30/17, 20:38:17:171] info: App load time: 893ms
+[05/30/17, 20:38:17:174] info: Store: SET_FULL_SCREEN
+[05/30/17, 20:38:18:023] info: Store: SET_NETWORK_STATUS online
+[05/30/17, 20:38:18:034] info: Main window finished load. Launched on login: false
+[05/30/17, 20:38:19:039] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/30/17, 22:04:20:343] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/30/17, 22:04:20:344] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 05/30/17, 22:04:20:333      ║
+[05/30/17, 22:04:20:345] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/30/17, 22:04:20:553] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/30/17, 22:04:20:567] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/30/17, 22:04:20:882] info: Store: persist/REHYDRATE
+[05/30/17, 22:04:21:092] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/30/17, 22:04:21:110] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/30/17, 22:04:21:115] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/30/17, 22:04:21:139] info: App: Welcome to Slack 2.6.2 x64
+[05/30/17, 22:04:21:140] info: App load time: 886ms
+[05/30/17, 22:04:21:143] info: Store: SET_FULL_SCREEN
+[05/30/17, 22:04:22:425] info: Store: SET_NETWORK_STATUS online
+[05/30/17, 22:04:22:457] info: Main window finished load. Launched on login: false
+[05/30/17, 22:19:31:697] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/30/17, 22:19:31:698] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 05/30/17, 22:19:31:690      ║
+[05/30/17, 22:19:31:699] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/30/17, 22:19:31:937] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/30/17, 22:19:31:947] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/30/17, 22:19:32:211] info: Store: persist/REHYDRATE
+[05/30/17, 22:19:32:453] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/30/17, 22:19:32:468] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/30/17, 22:19:32:473] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/30/17, 22:19:32:493] info: App: Welcome to Slack 2.6.2 x64
+[05/30/17, 22:19:32:494] info: App load time: 863ms
+[05/30/17, 22:19:32:496] info: Store: SET_FULL_SCREEN
+[05/30/17, 22:19:33:680] info: Store: SET_NETWORK_STATUS online
+[05/30/17, 22:19:33:704] info: Main window finished load. Launched on login: false
+[05/30/17, 22:19:37:276] info: Attempted to close the window, hiding due to run from tray
+[05/30/17, 22:19:37:295] info: Store: SET_FULL_SCREEN
+[05/31/17, 01:24:57:444] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/31/17, 01:24:57:445] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 05/31/17, 01:24:57:439      ║
+[05/31/17, 01:24:57:446] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/31/17, 01:24:57:594] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/31/17, 01:24:57:600] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/31/17, 01:24:57:769] info: Store: persist/REHYDRATE
+[05/31/17, 01:24:57:927] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/31/17, 01:24:57:935] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/31/17, 01:24:57:938] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/31/17, 01:24:57:951] info: App: Welcome to Slack 2.6.2 x64
+[05/31/17, 01:24:57:952] info: App load time: 563ms
+[05/31/17, 01:24:57:953] info: Store: SET_FULL_SCREEN
+[05/31/17, 01:24:58:933] info: Store: SET_NETWORK_STATUS online
+[05/31/17, 01:24:58:950] info: Main window finished load. Launched on login: false
+[05/31/17, 01:24:59:965] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 619 ],
+  position: [ 7, 2081 ],
+  isMaximized: false }
+[05/31/17, 01:25:02:042] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/31/17, 11:12:41:254] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/31/17, 11:12:41:256] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 05/31/17, 11:12:41:245      ║
+[05/31/17, 11:12:41:256] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/31/17, 11:12:41:465] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/31/17, 11:12:41:479] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/31/17, 11:12:41:732] info: Store: persist/REHYDRATE
+[05/31/17, 11:12:41:907] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/31/17, 11:12:41:926] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/31/17, 11:12:41:929] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/31/17, 11:12:41:954] info: App: Welcome to Slack 2.6.2 x64
+[05/31/17, 11:12:41:954] info: App load time: 768ms
+[05/31/17, 11:12:41:956] info: Store: SET_FULL_SCREEN
+[05/31/17, 11:12:43:234] info: Store: SET_NETWORK_STATUS online
+[05/31/17, 11:12:43:251] info: Main window finished load. Launched on login: false
+[05/31/17, 14:17:57:143] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/31/17, 14:17:57:144] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 05/31/17, 14:17:57:136      ║
+[05/31/17, 14:17:57:144] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/31/17, 14:17:57:345] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/31/17, 14:17:57:358] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/31/17, 14:17:57:621] info: Store: persist/REHYDRATE
+[05/31/17, 14:17:57:850] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/31/17, 14:17:57:866] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/31/17, 14:17:57:870] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/31/17, 14:17:57:888] info: App: Welcome to Slack 2.6.2 x64
+[05/31/17, 14:17:57:888] info: App load time: 808ms
+[05/31/17, 14:17:57:890] info: Store: SET_FULL_SCREEN
+[05/31/17, 14:17:58:742] info: Store: SET_NETWORK_STATUS online
+[05/31/17, 14:17:58:754] info: Main window finished load. Launched on login: false
+[05/31/17, 14:58:27:380] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/31/17, 14:58:27:382] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 05/31/17, 14:58:27:375      ║
+[05/31/17, 14:58:27:382] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/31/17, 14:58:27:558] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/31/17, 14:58:27:566] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/31/17, 14:58:27:879] info: Store: persist/REHYDRATE
+[05/31/17, 14:58:28:109] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/31/17, 14:58:28:122] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/31/17, 14:58:28:127] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/31/17, 14:58:28:150] info: App: Welcome to Slack 2.6.2 x64
+[05/31/17, 14:58:28:151] info: App load time: 834ms
+[05/31/17, 14:58:28:154] info: Store: SET_FULL_SCREEN
+[05/31/17, 14:58:29:061] info: Store: SET_NETWORK_STATUS online
+[05/31/17, 14:58:29:071] info: Main window finished load. Launched on login: false
+[05/31/17, 14:58:30:077] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 619 ],
+  position: [ 7, 2081 ],
+  isMaximized: false }
+[05/31/17, 14:58:51:080] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/31/17, 15:00:37:704] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/31/17, 15:00:37:705] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 05/31/17, 15:00:37:699      ║
+[05/31/17, 15:00:37:705] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/31/17, 15:00:37:853] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/31/17, 15:00:37:859] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/31/17, 15:00:38:308] info: Store: persist/REHYDRATE
+[05/31/17, 15:00:38:454] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/31/17, 15:00:38:466] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/31/17, 15:00:38:470] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/31/17, 15:00:38:485] info: App: Welcome to Slack 2.6.2 x64
+[05/31/17, 15:00:38:486] info: App load time: 837ms
+[05/31/17, 15:00:38:488] info: Store: SET_FULL_SCREEN
+[05/31/17, 15:00:39:497] info: Store: SET_NETWORK_STATUS online
+[05/31/17, 15:00:39:511] info: Main window finished load. Launched on login: false
+[05/31/17, 15:06:08:731] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/31/17, 15:06:08:732] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 05/31/17, 15:06:08:727      ║
+[05/31/17, 15:06:08:733] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/31/17, 15:06:08:884] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/31/17, 15:06:08:891] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/31/17, 15:06:09:058] info: Store: persist/REHYDRATE
+[05/31/17, 15:06:09:227] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/31/17, 15:06:09:235] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/31/17, 15:06:09:239] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/31/17, 15:06:09:254] info: App: Welcome to Slack 2.6.2 x64
+[05/31/17, 15:06:09:255] info: App load time: 581ms
+[05/31/17, 15:06:09:256] info: Store: SET_FULL_SCREEN
+[05/31/17, 15:06:10:305] info: Store: SET_NETWORK_STATUS online
+[05/31/17, 15:06:10:326] info: Main window finished load. Launched on login: false
+[05/31/17, 15:06:11:335] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 619 ],
+  position: [ 7, 1448 ],
+  isMaximized: false }
+[05/31/17, 15:06:59:643] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/31/17, 17:29:39:355] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 619 ],
+  position: [ 7, 1448 ],
+  isMaximized: false }
+[05/31/17, 17:29:55:227] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/31/17, 19:08:52:752] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[05/31/17, 19:08:52:753] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 05/31/17, 19:08:52:746      ║
+[05/31/17, 19:08:52:753] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[05/31/17, 19:08:52:941] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[05/31/17, 19:08:52:949] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[05/31/17, 19:08:53:208] info: Store: persist/REHYDRATE
+[05/31/17, 19:08:53:423] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[05/31/17, 19:08:53:440] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[05/31/17, 19:08:53:445] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[05/31/17, 19:08:53:480] info: App: Welcome to Slack 2.6.2 x64
+[05/31/17, 19:08:53:481] info: App load time: 790ms
+[05/31/17, 19:08:53:483] info: Store: SET_FULL_SCREEN
+[05/31/17, 19:08:54:629] info: Store: SET_NETWORK_STATUS online
+[05/31/17, 19:08:54:646] info: Main window finished load. Launched on login: false
+[06/01/17, 10:05:31:208] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 619 ],
+  position: [ 7, 2081 ],
+  isMaximized: false }
+[06/01/17, 10:05:34:093] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 1838 ],
+  position: [ 7, 862 ],
+  isMaximized: false }
+[06/01/17, 14:26:36:686] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/01/17, 14:26:36:687] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/01/17, 14:26:36:679      ║
+[06/01/17, 14:26:36:688] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/01/17, 14:26:36:875] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[06/01/17, 14:26:36:885] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[06/01/17, 14:26:37:229] info: Store: persist/REHYDRATE
+[06/01/17, 14:26:37:477] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[06/01/17, 14:26:37:493] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[06/01/17, 14:26:37:497] info: Loading windowMetrics
+{ size: [ 1066, 1838 ],
+  position: [ 7, 862 ],
+  isMaximized: false }
+[06/01/17, 14:26:37:521] info: App: Welcome to Slack 2.6.2 x64
+[06/01/17, 14:26:37:522] info: App load time: 903ms
+[06/01/17, 14:26:37:525] info: Store: SET_FULL_SCREEN
+[06/01/17, 14:26:38:530] info: Store: SET_NETWORK_STATUS online
+[06/01/17, 14:26:38:541] info: Main window finished load. Launched on login: false
+[06/01/17, 14:26:39:571] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 619 ],
+  position: [ 7, 2081 ],
+  isMaximized: false }
+[06/01/17, 16:07:19:200] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/01/17, 16:07:19:225] info: Attempted to close the window, hiding due to run from tray
+[06/01/17, 16:07:19:247] info: Store: SET_FULL_SCREEN
+[06/02/17, 06:45:30:894] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 06:45:30:895] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 06:45:30:887      ║
+[06/02/17, 06:45:30:896] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 06:45:31:103] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[06/02/17, 06:45:31:111] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[06/02/17, 06:45:31:388] info: Store: persist/REHYDRATE
+[06/02/17, 06:45:31:630] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[06/02/17, 06:45:31:648] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[06/02/17, 06:45:31:653] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 06:45:31:678] info: App: Welcome to Slack 2.6.2 x64
+[06/02/17, 06:45:31:679] info: App load time: 849ms
+[06/02/17, 06:45:31:681] info: Store: SET_FULL_SCREEN
+[06/02/17, 06:45:32:690] info: Store: SET_NETWORK_STATUS online
+[06/02/17, 06:45:32:709] info: Main window finished load. Launched on login: false
+[06/02/17, 08:34:00:727] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 09:11:45:724] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 1885 ],
+  position: [ 7, 815 ],
+  isMaximized: false }
+[06/02/17, 10:58:52:779] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 936 ], position: [ 7, 815 ], isMaximized: false }
+[06/02/17, 11:01:47:067] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 11:01:47:068] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 11:01:47:061      ║
+[06/02/17, 11:01:47:069] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 11:01:47:246] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[06/02/17, 11:01:47:256] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[06/02/17, 11:01:47:522] info: Store: persist/REHYDRATE
+[06/02/17, 11:01:47:758] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[06/02/17, 11:01:47:773] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[06/02/17, 11:01:47:779] info: Loading windowMetrics
+{ size: [ 1066, 936 ], position: [ 7, 815 ], isMaximized: false }
+[06/02/17, 11:01:47:803] info: App: Welcome to Slack 2.6.2 x64
+[06/02/17, 11:01:47:803] info: App load time: 799ms
+[06/02/17, 11:01:47:805] info: Store: SET_FULL_SCREEN
+[06/02/17, 11:01:48:732] info: Store: SET_NETWORK_STATUS online
+[06/02/17, 11:01:48:749] info: Main window finished load. Launched on login: false
+[06/02/17, 11:01:49:761] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 11:14:17:732] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 619 ],
+  position: [ 7, 1448 ],
+  isMaximized: false }
+[06/02/17, 11:14:17:912] info: Attempted to close the window, hiding due to run from tray
+[06/02/17, 11:14:17:930] info: Store: SET_FULL_SCREEN
+[06/02/17, 13:37:42:293] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 13:37:42:294] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 13:37:42:286      ║
+[06/02/17, 13:37:42:294] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 13:37:42:535] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[06/02/17, 13:37:42:543] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[06/02/17, 13:37:42:918] info: Store: persist/REHYDRATE
+[06/02/17, 13:37:43:127] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[06/02/17, 13:37:43:146] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[06/02/17, 13:37:43:155] info: Loading windowMetrics
+{ size: [ 1066, 619 ],
+  position: [ 7, 1448 ],
+  isMaximized: false }
+[06/02/17, 13:37:43:177] info: App: Welcome to Slack 2.6.2 x64
+[06/02/17, 13:37:43:178] info: App load time: 946ms
+[06/02/17, 13:37:43:180] info: Store: SET_FULL_SCREEN
+[06/02/17, 13:37:44:167] info: Store: SET_NETWORK_STATUS online
+[06/02/17, 13:37:44:182] info: Main window finished load. Launched on login: false
+[06/02/17, 13:37:45:203] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 13:45:30:343] info: Store: SHOW_WEBAPP_DIALOG
+{ dialogType: 'prefs' }
+[06/02/17, 13:45:41:812] info: Attempted to close the window, hiding due to run from tray
+[06/02/17, 13:45:41:844] info: Store: SET_FULL_SCREEN
+[06/02/17, 13:45:45:043] info: App: Otherwise signaled, foregrounding.
+[06/02/17, 13:45:45:043] info: Store: FOREGROUND_APP
+[06/02/17, 13:46:04:949] info: Store: SHOW_WEBAPP_DIALOG
+{ dialogType: 'prefs' }
+[06/02/17, 13:46:08:183] info: Store: SET_LOGIN_DIALOG true
+[06/02/17, 13:46:10:041] info: Store: UPDATE_SETTINGS
+{ autoHideMenuBar: true }
+[06/02/17, 13:46:11:810] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 930 ],
+  position: [ 7, 1770 ],
+  isMaximized: false }
+[06/02/17, 13:46:14:522] info: Attempted to close the window, hiding due to run from tray
+[06/02/17, 13:46:17:634] info: App: Otherwise signaled, foregrounding.
+[06/02/17, 13:46:17:635] info: Store: FOREGROUND_APP
+[06/02/17, 13:46:18:640] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 13:46:20:984] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 461 ],
+  position: [ 7, 1290 ],
+  isMaximized: false }
+[06/02/17, 13:46:22:057] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 619 ],
+  position: [ 7, 1448 ],
+  isMaximized: false }
+[06/02/17, 13:46:24:147] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 13:47:00:346] info: Attempted to close the window, hiding due to run from tray
+[06/02/17, 13:47:32:754] info: Store: SHOW_WEBAPP_DIALOG
+{ dialogType: 'prefs' }
+[06/02/17, 13:47:39:593] info: Store: QUIT_APP
+[06/02/17, 13:47:39:596] info: Allowing window close because user chose to quit
+[06/02/17, 13:47:39:598] info: App: Disposing application
+[06/02/17, 13:47:39:599] info: Store: REMOVE_WINDOW 1
+[06/02/17, 13:47:39:612] info: Store: UPDATE_TEAM_USAGE
+[06/02/17, 13:48:34:164] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 13:48:34:165] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 13:48:34:160      ║
+[06/02/17, 13:48:34:166] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 13:48:34:311] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[06/02/17, 13:48:34:317] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[06/02/17, 13:48:34:477] info: Store: persist/REHYDRATE
+[06/02/17, 13:48:34:611] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[06/02/17, 13:48:34:619] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[06/02/17, 13:48:34:622] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 13:48:34:634] info: App: Welcome to Slack 2.6.2 x64
+[06/02/17, 13:48:34:634] info: App load time: 522ms
+[06/02/17, 13:48:34:636] info: Store: SET_FULL_SCREEN
+[06/02/17, 13:48:35:319] info: Store: SET_NETWORK_STATUS online
+[06/02/17, 13:48:35:330] info: Main window finished load. Launched on login: false
+[06/02/17, 13:48:50:593] info: App: Received deep link protocol activation.
+[06/02/17, 13:48:50:594] info: Store: HANDLE_DEEP_LINK
+{ url: 'slack://T09229ZC6/magic-login/191410406736-uB4PRqRYZR' }
+[06/02/17, 13:48:50:604] info: Making loginMagic request: https://slack.com/api/auth.loginMagic?team=T09229ZC6&magic_token=191410406736-uB4PRqRYZR&ssb=1
+[06/02/17, 13:48:50:960] info: Store: ADD_NEW_TEAM
+{ team_id: 'T09229ZC6',
+  team_name: '[REDACTED]',
+  id: 'U2MA294CD',
+  name: '[REDACTED]',
+  team_url: '[REDACTED]' }
+[06/02/17, 13:48:50:965] info: Store: SET_LOGIN_DIALOG
+[06/02/17, 13:48:53:109] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T09229ZC6' }
+[06/02/17, 13:48:54:575] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T09229ZC6' }
+[06/02/17, 13:48:55:026] info: Store: SELECT_CHANNEL C0922A726
+[06/02/17, 13:48:55:032] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T09229ZC6' }
+[06/02/17, 13:48:55:552] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_230.png' },
+  teamId: 'T09229ZC6' }
+[06/02/17, 13:49:01:728] info: Store: SET_LOGIN_DIALOG true
+[06/02/17, 13:49:36:213] info: Store: SET_LOGIN_DIALOG
+[06/02/17, 13:49:41:517] info: Store: SET_LOGIN_DIALOG true
+[06/02/17, 13:50:51:831] info: App: Received deep link protocol activation.
+[06/02/17, 13:50:51:833] info: Store: HANDLE_DEEP_LINK
+{ url: 'slack://T04067NNM/magic-login/191411544800-DQlkA4iwKx' }
+[06/02/17, 13:50:51:852] info: Making loginMagic request: https://slack.com/api/auth.loginMagic?team=T04067NNM&magic_token=191411544800-DQlkA4iwKx&ssb=1
+[06/02/17, 13:50:52:189] info: Store: ADD_NEW_TEAM
+{ team_id: 'T04067NNM',
+  team_name: '[REDACTED]',
+  id: 'U49PF9CAU',
+  name: '[REDACTED]',
+  team_url: '[REDACTED]' }
+[06/02/17, 13:50:52:195] info: Store: SET_LOGIN_DIALOG
+[06/02/17, 13:50:53:653] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T04067NNM' }
+[06/02/17, 13:50:54:979] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T04067NNM' }
+[06/02/17, 13:50:55:418] info: Store: SELECT_CHANNEL C04067NR5
+[06/02/17, 13:50:55:423] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T04067NNM' }
+[06/02/17, 13:50:55:902] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_132.jpg' },
+  teamId: 'T04067NNM' }
+[06/02/17, 13:51:06:552] info: App: Received deep link protocol activation.
+[06/02/17, 13:51:06:553] info: Store: HANDLE_DEEP_LINK
+{ url: 'slack://T040F1EUX/magic-login/192884611766-4a29CbfBXV' }
+[06/02/17, 13:51:06:555] info: Making loginMagic request: https://slack.com/api/auth.loginMagic?team=T040F1EUX&magic_token=192884611766-4a29CbfBXV&ssb=1
+[06/02/17, 13:51:06:822] info: Store: ADD_NEW_TEAM
+{ team_id: 'T040F1EUX',
+  team_name: '[REDACTED]',
+  id: 'U51TE6GTU',
+  name: '[REDACTED]',
+  team_url: '[REDACTED]' }
+[06/02/17, 13:51:06:826] info: Store: SET_LOGIN_DIALOG
+[06/02/17, 13:51:08:393] info: Store: SET_TEAMS_BY_INDEX
+{ '0': 'T09229ZC6', '1': 'T04067NNM', '2': 'T040F1EUX' }
+[06/02/17, 13:51:08:820] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T040F1EUX' }
+[06/02/17, 13:51:10:821] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T040F1EUX' }
+[06/02/17, 13:51:10:952] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_230.png' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 13:51:11:284] info: Store: SELECT_CHANNEL C040F1EV5
+[06/02/17, 13:51:11:293] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 13:51:11:467] info: Store: SELECT_CHANNEL D51TE6UKC
+[06/02/17, 13:51:16:233] info: App: Received deep link protocol activation.
+[06/02/17, 13:51:16:234] info: Store: HANDLE_DEEP_LINK
+{ url: 'slack://T02AG6QJM/magic-login/191411846592-G5EGmxVURU' }
+[06/02/17, 13:51:16:243] info: Making loginMagic request: https://slack.com/api/auth.loginMagic?team=T02AG6QJM&magic_token=191411846592-G5EGmxVURU&ssb=1
+[06/02/17, 13:51:16:517] info: Store: ADD_NEW_TEAM
+{ team_id: 'T02AG6QJM',
+  team_name: '[REDACTED]',
+  id: 'U4BPH9196',
+  name: '[REDACTED]',
+  team_url: '[REDACTED]' }
+[06/02/17, 13:51:16:522] info: Store: SET_LOGIN_DIALOG
+[06/02/17, 13:51:17:872] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T02AG6QJM' }
+[06/02/17, 13:51:18:082] info: Store: SET_TEAMS_BY_INDEX
+{ '0': 'T09229ZC6',
+  '1': 'T04067NNM',
+  '2': 'T040F1EUX',
+  '3': 'T02AG6QJM' }
+[06/02/17, 13:51:19:435] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T02AG6QJM' }
+[06/02/17, 13:51:20:041] info: Store: SELECT_CHANNEL C02AG6QJV
+[06/02/17, 13:51:20:046] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 13:51:20:357] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 13:51:26:376] info: App: Received deep link protocol activation.
+[06/02/17, 13:51:26:377] info: Store: HANDLE_DEEP_LINK
+{ url: 'slack://T12AS2C06/magic-login/192128583380-ZnxxlmCnGn' }
+[06/02/17, 13:51:26:386] info: Making loginMagic request: https://slack.com/api/auth.loginMagic?team=T12AS2C06&magic_token=192128583380-ZnxxlmCnGn&ssb=1
+[06/02/17, 13:51:26:653] info: Store: ADD_NEW_TEAM
+{ team_id: 'T12AS2C06',
+  team_name: '[REDACTED]',
+  id: 'U4AS4G031',
+  name: '[REDACTED]',
+  team_url: '[REDACTED]' }
+[06/02/17, 13:51:26:658] info: Store: SET_LOGIN_DIALOG
+[06/02/17, 13:51:28:173] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T12AS2C06' }
+[06/02/17, 13:51:28:249] info: Store: SET_TEAMS_BY_INDEX
+{ '0': 'T09229ZC6',
+  '1': 'T04067NNM',
+  '2': 'T040F1EUX',
+  '3': 'T02AG6QJM',
+  '4': 'T12AS2C06' }
+[06/02/17, 13:51:29:560] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T12AS2C06' }
+[06/02/17, 13:51:29:884] info: Store: SELECT_CHANNEL C12AZEZPH
+[06/02/17, 13:51:29:890] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T12AS2C06' }
+[06/02/17, 13:51:30:619] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_132.png' },
+  teamId: 'T12AS2C06' }
+[06/02/17, 13:51:39:112] info: Store: SHOW_WEBAPP_DIALOG
+{ dialogType: 'prefs' }
+[06/02/17, 13:52:28:698] info: Store: EDITING_COMMAND
+{ windowId: undefined, command: 'find' }
+[06/02/17, 13:52:55:744] info: Store: SELECT_TEAM T09229ZC6
+[06/02/17, 13:53:40:206] info: Store: UPDATE_SETTINGS
+{ autoHideMenuBar: false }
+[06/02/17, 13:53:44:130] info: Store: SET_LOGIN_DIALOG true
+[06/02/17, 13:54:02:618] info: App: Received deep link protocol activation.
+[06/02/17, 13:54:02:619] info: Store: HANDLE_DEEP_LINK
+{ url: 'slack://T4QFBHCVD/magic-login/192175764453-a8PrdAOdiH' }
+[06/02/17, 13:54:02:631] info: Making loginMagic request: https://slack.com/api/auth.loginMagic?team=T4QFBHCVD&magic_token=192175764453-a8PrdAOdiH&ssb=1
+[06/02/17, 13:54:02:872] info: Store: ADD_NEW_TEAM
+{ team_id: 'T4QFBHCVD',
+  team_name: '[REDACTED]',
+  id: 'U4QFBHD0F',
+  name: '[REDACTED]',
+  team_url: '[REDACTED]' }
+[06/02/17, 13:54:02:879] info: Store: SET_LOGIN_DIALOG
+[06/02/17, 13:54:04:411] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T4QFBHCVD' }
+[06/02/17, 13:54:04:488] info: Store: SET_TEAMS_BY_INDEX
+{ '0': 'T09229ZC6',
+  '1': 'T04067NNM',
+  '2': 'T040F1EUX',
+  '3': 'T02AG6QJM',
+  '4': 'T12AS2C06',
+  '5': 'T4QFBHCVD' }
+[06/02/17, 13:54:05:752] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T4QFBHCVD' }
+[06/02/17, 13:54:06:174] info: Store: SELECT_CHANNEL C4QEZK9FY
+[06/02/17, 13:54:06:180] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T4QFBHCVD' }
+[06/02/17, 13:54:06:765] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T4QFBHCVD' }
+[06/02/17, 13:54:06:880] info: Store: SET_TEAMS_BY_INDEX
+{ '0': 'T4QFBHCVD',
+  '1': 'T09229ZC6',
+  '2': 'T04067NNM',
+  '3': 'T040F1EUX',
+  '4': 'T02AG6QJM',
+  '5': 'T12AS2C06' }
+[06/02/17, 13:54:06:996] info: Store: SET_TEAMS_BY_INDEX
+{ '0': 'T4QFBHCVD',
+  '1': 'T09229ZC6',
+  '2': 'T04067NNM',
+  '3': 'T040F1EUX',
+  '4': 'T02AG6QJM',
+  '5': 'T12AS2C06' }
+[06/02/17, 13:54:07:579] info: Store: SET_TEAMS_BY_INDEX
+{ '0': 'T4QFBHCVD',
+  '1': 'T09229ZC6',
+  '2': 'T04067NNM',
+  '3': 'T040F1EUX',
+  '4': 'T02AG6QJM',
+  '5': 'T12AS2C06' }
+[06/02/17, 13:54:10:256] info: Store: SET_TEAMS_BY_INDEX
+{ '0': 'T4QFBHCVD',
+  '1': 'T04067NNM',
+  '2': 'T09229ZC6',
+  '3': 'T040F1EUX',
+  '4': 'T02AG6QJM',
+  '5': 'T12AS2C06' }
+[06/02/17, 13:57:48:913] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 13:58:07:904] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 13:58:44:212] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 13:58:44:213] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 13:58:44:207      ║
+[06/02/17, 13:58:44:213] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 13:58:44:364] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[06/02/17, 13:58:44:370] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[06/02/17, 13:58:44:559] info: Store: persist/REHYDRATE
+[06/02/17, 13:58:44:734] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[06/02/17, 13:58:44:745] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[06/02/17, 13:58:44:750] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 13:58:44:770] info: App: Welcome to Slack 2.6.2 x64
+[06/02/17, 13:58:44:771] info: App load time: 616ms
+[06/02/17, 13:58:44:773] info: Store: SET_FULL_SCREEN
+[06/02/17, 13:58:45:956] info: Store: SET_NETWORK_STATUS online
+[06/02/17, 13:58:45:978] info: Main window finished load. Launched on login: false
+[06/02/17, 13:58:46:991] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 619 ],
+  position: [ 7, 2081 ],
+  isMaximized: false }
+[06/02/17, 13:58:49:386] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T04067NNM' }
+[06/02/17, 13:58:49:441] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T12AS2C06' }
+[06/02/17, 13:58:49:776] info: Store: SELECT_CHANNEL C04067NR5
+[06/02/17, 13:58:49:786] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T04067NNM' }
+[06/02/17, 13:58:49:835] info: Store: SELECT_CHANNEL C12AZEZPH
+[06/02/17, 13:58:49:841] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T02AG6QJM' }
+[06/02/17, 13:58:49:860] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T12AS2C06' }
+[06/02/17, 13:58:49:870] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T4QFBHCVD' }
+[06/02/17, 13:58:49:996] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T040F1EUX' }
+[06/02/17, 13:58:50:009] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T09229ZC6' }
+[06/02/17, 13:58:50:243] info: Store: SELECT_CHANNEL C02AG6QJV
+[06/02/17, 13:58:50:259] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 13:58:50:328] info: Store: SELECT_CHANNEL C4QEZK9FY
+[06/02/17, 13:58:50:343] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T4QFBHCVD' }
+[06/02/17, 13:58:50:459] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_230.png' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 13:58:50:507] info: Store: SELECT_CHANNEL C0922A726
+[06/02/17, 13:58:50:517] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T09229ZC6' }
+[06/02/17, 13:58:50:691] info: Store: SELECT_CHANNEL D51TE6UKC
+[06/02/17, 13:58:50:740] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 13:58:51:275] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 13:58:51:669] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_132.jpg' },
+  teamId: 'T04067NNM' }
+[06/02/17, 13:58:52:365] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T4QFBHCVD' }
+[06/02/17, 13:58:52:473] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_132.png' },
+  teamId: 'T12AS2C06' }
+[06/02/17, 13:58:53:208] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_230.png' },
+  teamId: 'T09229ZC6' }
+[06/02/17, 13:58:56:957] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 14:06:38:907] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 14:31:26:377] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 14:31:55:440] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 14:31:55:441] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 14:31:55:435      ║
+[06/02/17, 14:31:55:442] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 14:31:55:602] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[06/02/17, 14:31:55:609] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[06/02/17, 14:31:55:792] info: Store: persist/REHYDRATE
+[06/02/17, 14:31:55:957] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[06/02/17, 14:31:55:965] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[06/02/17, 14:31:55:969] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 14:31:55:984] info: App: Welcome to Slack 2.6.2 x64
+[06/02/17, 14:31:55:985] info: App load time: 613ms
+[06/02/17, 14:31:55:986] info: Store: SET_FULL_SCREEN
+[06/02/17, 14:31:57:170] info: Store: SET_NETWORK_STATUS online
+[06/02/17, 14:31:57:193] info: Main window finished load. Launched on login: false
+[06/02/17, 14:32:01:019] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T04067NNM' }
+[06/02/17, 14:32:01:423] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200 }
+[06/02/17, 14:32:01:549] info: Store: SELECT_CHANNEL C04067NR5
+[06/02/17, 14:32:01:556] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T04067NNM' }
+[06/02/17, 14:32:01:748] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T12AS2C06' }
+[06/02/17, 14:32:01:845] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T09229ZC6' }
+[06/02/17, 14:32:01:892] info: Store: SELECT_CHANNEL C02AG6QJV
+[06/02/17, 14:32:01:895] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T040F1EUX' }
+[06/02/17, 14:32:02:220] info: Store: SELECT_CHANNEL C0922A726
+[06/02/17, 14:32:02:232] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T09229ZC6' }
+[06/02/17, 14:32:02:253] info: Store: SELECT_CHANNEL C12AZEZPH
+[06/02/17, 14:32:02:283] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T12AS2C06' }
+[06/02/17, 14:32:02:436] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_230.png' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 14:32:02:529] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T4QFBHCVD' }
+[06/02/17, 14:32:02:673] info: Store: SELECT_CHANNEL D51TE6UKC
+[06/02/17, 14:32:02:684] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 14:32:03:087] info: Store: SELECT_CHANNEL C4QEZK9FY
+[06/02/17, 14:32:03:095] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T4QFBHCVD' }
+[06/02/17, 14:32:03:427] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 14:32:03:502] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 14:32:03:747] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_132.jpg' },
+  teamId: 'T04067NNM' }
+[06/02/17, 14:32:05:165] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_230.png' },
+  teamId: 'T09229ZC6' }
+[06/02/17, 14:32:05:722] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_132.png' },
+  teamId: 'T12AS2C06' }
+[06/02/17, 14:32:05:804] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T4QFBHCVD' }
+[06/02/17, 14:33:50:369] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 14:33:50:370] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 14:33:50:364      ║
+[06/02/17, 14:33:50:370] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 14:33:50:527] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[06/02/17, 14:33:50:534] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[06/02/17, 14:33:50:732] info: Store: persist/REHYDRATE
+[06/02/17, 14:33:50:902] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[06/02/17, 14:33:50:912] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[06/02/17, 14:33:50:916] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 14:33:50:933] info: App: Welcome to Slack 2.6.2 x64
+[06/02/17, 14:33:50:933] info: App load time: 626ms
+[06/02/17, 14:33:50:935] info: Store: SET_FULL_SCREEN
+[06/02/17, 14:33:52:123] info: Store: SET_NETWORK_STATUS online
+[06/02/17, 14:33:52:148] info: Main window finished load. Launched on login: false
+[06/02/17, 14:33:53:161] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 619 ],
+  position: [ 7, 2081 ],
+  isMaximized: false }
+[06/02/17, 14:33:56:532] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T12AS2C06' }
+[06/02/17, 14:33:56:546] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T040F1EUX' }
+[06/02/17, 14:33:56:567] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T04067NNM' }
+[06/02/17, 14:33:56:716] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T09229ZC6' }
+[06/02/17, 14:33:56:903] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_230.png' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 14:33:56:991] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200 }
+[06/02/17, 14:33:57:112] info: Store: SELECT_CHANNEL C12AZEZPH
+[06/02/17, 14:33:57:119] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T12AS2C06' }
+[06/02/17, 14:33:57:145] info: Store: SELECT_CHANNEL C04067NR5
+[06/02/17, 14:33:57:173] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T04067NNM' }
+[06/02/17, 14:33:57:248] info: Store: SELECT_CHANNEL D51TE6UKC
+[06/02/17, 14:33:57:273] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 14:33:57:339] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200 }
+[06/02/17, 14:33:57:503] info: Store: SELECT_CHANNEL C0922A726
+[06/02/17, 14:33:57:532] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T09229ZC6' }
+[06/02/17, 14:33:57:593] info: Store: SELECT_CHANNEL C02AG6QJV
+[06/02/17, 14:33:58:173] info: Store: SELECT_CHANNEL C4QEZK9FY
+[06/02/17, 14:33:59:451] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 14:33:59:504] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 14:33:59:700] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_132.jpg' },
+  teamId: 'T04067NNM' }
+[06/02/17, 14:33:59:906] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_132.png' },
+  teamId: 'T12AS2C06' }
+[06/02/17, 14:34:00:180] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T4QFBHCVD' }
+[06/02/17, 14:34:00:214] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_230.png' },
+  teamId: 'T09229ZC6' }
+[06/02/17, 14:34:00:383] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T4QFBHCVD' }
+[06/02/17, 14:34:06:289] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 16:48:52:413] info: Store: FOREGROUND_APP
+[06/02/17, 16:48:52:798] info: Store: FOREGROUND_APP
+[06/02/17, 16:48:57:411] info: Store: FOREGROUND_APP
+[06/02/17, 22:31:32:161] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 22:31:32:164] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 22:31:32:154      ║
+[06/02/17, 22:31:32:164] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 22:31:32:390] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[06/02/17, 22:31:32:397] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[06/02/17, 22:31:32:691] info: Store: persist/REHYDRATE
+[06/02/17, 22:31:32:890] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[06/02/17, 22:31:32:901] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[06/02/17, 22:31:32:905] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/02/17, 22:31:32:929] info: App: Welcome to Slack 2.6.2 x64
+[06/02/17, 22:31:32:930] info: App load time: 836ms
+[06/02/17, 22:31:32:931] info: Store: SET_FULL_SCREEN
+[06/02/17, 22:31:34:127] info: Store: SET_NETWORK_STATUS online
+[06/02/17, 22:31:34:149] info: Main window finished load. Launched on login: false
+[06/02/17, 22:31:38:509] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T09229ZC6' }
+[06/02/17, 22:31:38:644] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T04067NNM' }
+[06/02/17, 22:31:38:702] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T02AG6QJM' }
+[06/02/17, 22:31:38:780] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T040F1EUX' }
+[06/02/17, 22:31:38:830] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T4QFBHCVD' }
+[06/02/17, 22:31:38:921] info: Store: SELECT_CHANNEL C0922A726
+[06/02/17, 22:31:38:932] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T09229ZC6' }
+[06/02/17, 22:31:38:941] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T12AS2C06' }
+[06/02/17, 22:31:39:110] info: Store: SELECT_CHANNEL C04067NR5
+[06/02/17, 22:31:39:118] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T04067NNM' }
+[06/02/17, 22:31:39:150] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_230.png' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 22:31:39:239] info: Store: SELECT_CHANNEL C02AG6QJV
+[06/02/17, 22:31:39:257] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 22:31:39:327] info: Store: SELECT_CHANNEL C4QEZK9FY
+[06/02/17, 22:31:39:345] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T4QFBHCVD' }
+[06/02/17, 22:31:39:373] info: Store: SELECT_CHANNEL D51TE6UKC
+[06/02/17, 22:31:39:377] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 22:31:39:386] info: Store: SELECT_CHANNEL C12AZEZPH
+[06/02/17, 22:31:39:422] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T12AS2C06' }
+[06/02/17, 22:31:40:672] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 22:31:40:759] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_132.jpg' },
+  teamId: 'T04067NNM' }
+[06/02/17, 22:31:41:173] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_230.png' },
+  teamId: 'T09229ZC6' }
+[06/02/17, 22:31:41:309] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T4QFBHCVD' }
+[06/02/17, 22:31:41:505] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_132.png' },
+  teamId: 'T12AS2C06' }
+[06/03/17, 16:48:01:352] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/03/17, 16:48:01:354] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/03/17, 16:48:01:344      ║
+[06/03/17, 16:48:01:354] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/03/17, 16:48:01:569] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/dayfun/.config/Slack/logs/recorded-trace
+[06/03/17, 16:48:01:577] info: Initializing local storage instance at path: /home/dayfun/.config/Slack/local-settings.json
+[06/03/17, 16:48:01:864] info: Store: persist/REHYDRATE
+[06/03/17, 16:48:02:078] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.2',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 8, build: 0 },
+  isTitleBarHidden: false,
+  linux: { os: 'Ubuntu', release: '16.04', desktopEnvironment: undefined } }
+[06/03/17, 16:48:02:111] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[06/03/17, 16:48:02:116] info: Loading windowMetrics
+{ size: [ 1066, 935 ],
+  position: [ 7, 1765 ],
+  isMaximized: false }
+[06/03/17, 16:48:02:138] info: App: Welcome to Slack 2.6.2 x64
+[06/03/17, 16:48:02:140] info: App load time: 871ms
+[06/03/17, 16:48:02:142] info: Store: SET_FULL_SCREEN
+[06/03/17, 16:48:03:198] info: Store: SET_NETWORK_STATUS online
+[06/03/17, 16:48:03:217] info: Main window finished load. Launched on login: false
+[06/03/17, 16:48:06:416] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T02AG6QJM' }
+[06/03/17, 16:48:06:661] info: Store: SELECT_CHANNEL C02AG6QJV
+[06/03/17, 16:48:06:666] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T02AG6QJM' }
+[06/03/17, 16:48:06:682] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T09229ZC6' }
+[06/03/17, 16:48:06:740] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T04067NNM' }
+[06/03/17, 16:48:06:872] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T12AS2C06' }
+[06/03/17, 16:48:06:912] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T4QFBHCVD' }
+[06/03/17, 16:48:06:926] info: Store: SELECT_CHANNEL C0922A726
+[06/03/17, 16:48:06:930] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T09229ZC6' }
+[06/03/17, 16:48:07:020] info: Store: SELECT_CHANNEL C04067NR5
+[06/03/17, 16:48:07:022] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T040F1EUX' }
+[06/03/17, 16:48:07:031] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T04067NNM' }
+[06/03/17, 16:48:07:268] info: Store: SELECT_CHANNEL C4QEZK9FY
+[06/03/17, 16:48:07:274] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T4QFBHCVD' }
+[06/03/17, 16:48:07:332] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_230.png' },
+  teamId: 'T040F1EUX' }
+[06/03/17, 16:48:07:354] info: Store: SELECT_CHANNEL C12AZEZPH
+[06/03/17, 16:48:07:362] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T12AS2C06' }
+[06/03/17, 16:48:07:392] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg' },
+  teamId: 'T02AG6QJM' }
+[06/03/17, 16:48:07:533] info: Store: SELECT_CHANNEL D51TE6UKC
+[06/03/17, 16:48:07:547] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T040F1EUX' }
+[06/03/17, 16:48:08:095] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_132.jpg' },
+  teamId: 'T04067NNM' }
+[06/03/17, 16:48:08:549] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_230.png' },
+  teamId: 'T09229ZC6' }
+[06/03/17, 16:48:09:020] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2016-04-20/36374454420_dd01858569cfde9111dd_132.png' },
+  teamId: 'T12AS2C06' }
+[06/03/17, 16:48:09:218] info: Store: UPDATE_TEAM_ICONS
+{ icons: false, teamId: 'T4QFBHCVD' }

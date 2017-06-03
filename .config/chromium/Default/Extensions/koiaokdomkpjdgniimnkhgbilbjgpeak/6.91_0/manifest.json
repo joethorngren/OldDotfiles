@@ -1,0 +1,33 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "/libs/jquery.js", "/libs/utils.js", "/libs/ga.js", "/background/background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "libs/jquery.js", "libs/utils.js", "content/youtube.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "homepage_url": "http://www.autohdforyoutube.com/",
+   "icons": {
+      "128": "icons/hd128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDWs8g1r5oRSUc28SV4FCXEzfdiksqcwcsg88jZvxLagdaRydjVZrHwll3gKx8eNWGg/I1IWmX1R5BvNSFBasTcm9tR85BRQLllpCForrw6gcpeivK7DxN3IkV/Fe0grmfLEzkhZH8j0MIwgnamw2JV8cUm6SMFVj0O7rcaQvEFnwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "options_page": "settings/settings.htm",
+   "page_action": {
+      "default_icon": {
+         "19": "icons/hd128.png",
+         "38": "icons/hd128.png"
+      },
+      "default_popup": "settings/settings.htm",
+      "default_title": "__MSG_extSettings__"
+   },
+   "permissions": [ "tabs", "webNavigation", "notifications", "webRequest", "webRequestBlocking", "storage", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.91"
+}

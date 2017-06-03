@@ -1,0 +1,320 @@
+{
+   "AccountSettingsText": {
+      "message": "アカウント設定"
+   },
+   "AdobeFlashTooltip": {
+      "message": "Adobe Flashはブラウザープロキシ設定に従うとは限らないため、安全性を低下させる可能性があります。ブロックすることが奨励されています。"
+   },
+   "AdsTrackersProtection": {
+      "message": "広告、トラッカー＆マルウェア保護"
+   },
+   "AuthFailMessage": {
+      "message": "PIA Chrome拡張機能を使用中にPIAウェブサイトでパスワードを変更したことにより、この問題が発生する場合があります。"
+   },
+   "AuthFailTitle": {
+      "message": "認証エラーが発生しました。"
+   },
+   "AutoLoginURL": {
+      "message": "https://jpn.privateinternetaccess.com/xpages/sign-in"
+   },
+   "BadResponseError": {
+      "message": "予期せぬサーバー応答によりログインに失敗しました。後でもう一度お試しください。"
+   },
+   "BlockAdobeFlash": {
+      "message": "Adobe Flashをブロック"
+   },
+   "BlockBatteryAccess": {
+      "message": "バッテリーアクセスをブロック"
+   },
+   "BlockBatteryAccessTooltip": {
+      "message": "お使いのコンピューターのバッテリーに関する情報にアクセスしているウェブサイトをブロックします。"
+   },
+   "BlockCameraAccess": {
+      "message": "カメラへのアクセスをブロック"
+   },
+   "BlockCameraAccessTooltip": {
+      "message": "ウェブサイトがコンピューターのカメラにアクセスするのをブロックします。"
+   },
+   "BlockLocationAccess": {
+      "message": "位置情報アクセスをブロック"
+   },
+   "BlockLocationAccessTooltip": {
+      "message": "ウェブサイトがあなたの物理的な位置情報にアクセスするのをブロックします。"
+   },
+   "BlockMicrophoneAccess": {
+      "message": "マイクへのアクセスをブロック"
+   },
+   "BlockMicrophoneAccessTooltip": {
+      "message": "ウェブサイトがコンピューターのマイクにアクセスするのをブロックします。"
+   },
+   "CannotUsePIAMessage": {
+      "message": "別の拡張機能がブラウザーのプロキシ設定をコントロールしているため、Private Internet Accessがご利用いただけなくなっています。"
+   },
+   "ChangeExtensionSettings": {
+      "message": "拡張機能設定"
+   },
+   "CloseText": {
+      "message": "閉じる"
+   },
+   "ConnectionFailMessage": {
+      "message": "インターネット接続が失われたか、接続が一時的に中断された可能性があります。"
+   },
+   "ConnectionFailTitle": {
+      "message": "Private Internet Accessプロキシと交信中に接続エラーが発生しました。"
+   },
+   "CopiedToClipboard": {
+      "message": "デバッグログがコピーされました"
+   },
+   "CopyToClipboard": {
+      "message": "デバッグログをコピー"
+   },
+   "CurrentRegionText": {
+      "message": "現在の地域"
+   },
+   "DebugLog": {
+      "message": "デバッグログ"
+   },
+   "DebugLogIsEmpty": {
+      "message": "デバッグログが空です。"
+   },
+   "DebugMode": {
+      "message": "デバッグモード"
+   },
+   "DebugModeTooltip": {
+      "message": "デバッグログにメッセージを入力します。「Ctrl」キーを押しながら「d」キーを押してデバッグログを表示します。"
+   },
+   "Developer": {
+      "message": "開発者"
+   },
+   "JoinText": {
+      "message": "VPNアカウントにサインアップ"
+   },
+   "JoinURL": {
+      "message": "https://jpn.privateinternetaccess.com/pages/buy-vpn/"
+   },
+   "LoadingText": {
+      "message": "読み込み中"
+   },
+   "LoginText": {
+      "message": "ログイン"
+   },
+   "LogoutText": {
+      "message": "ログアウト"
+   },
+   "MaceProtection": {
+      "message": "PIA MACE™"
+   },
+   "MaceTooltip": {
+      "message": "PIA MACE™ は悪意のあるコンテンツ、トラッカー、および広告をブロックすることにより、あなたのプライバシーとセキュリティーを保護します。"
+   },
+   "ManageExtensions": {
+      "message": "拡張機能を管理"
+   },
+   "NoAccountQuestion": {
+      "message": "アカウントをお持ちでありませんか？"
+   },
+   "OffText": {
+      "message": "オフ"
+   },
+   "OfflineText": {
+      "message": "オフライン"
+   },
+   "OnText": {
+      "message": "オン"
+   },
+   "PasswordPlaceholder": {
+      "message": "パスワード"
+   },
+   "PleaseWait": {
+      "message": "読み込み中。お待ちください。"
+   },
+   "PluginLeakProtection": {
+      "message": "ネイティブ プラグインをブロック"
+   },
+   "Privacy": {
+      "message": "プライバシー"
+   },
+   "ProxyBypassList": {
+      "message": "バイパスリスト"
+   },
+   "RegionLatency": {
+      "message": "待ち時間"
+   },
+   "RegionName": {
+      "message": "名前"
+   },
+   "RememberMe": {
+      "message": "記憶させる"
+   },
+   "SaveProxyBypassList": {
+      "message": "保存"
+   },
+   "Security": {
+      "message": "安全性"
+   },
+   "SelectRegionText": {
+      "message": "地域を選択"
+   },
+   "ServerError": {
+      "message": "サーバーエラーによりログインに失敗しました。後でもう一度お試しください。"
+   },
+   "SortBy": {
+      "message": "並び替え順:"
+   },
+   "StatusText": {
+      "message": "状態"
+   },
+   "SupportText": {
+      "message": "ヘルプ＆サポート"
+   },
+   "SupportURL": {
+      "message": "https://jpn.privateinternetaccess.com/pages/client-support/"
+   },
+   "TimeoutError": {
+      "message": "接続の時間切れによりログインに失敗しました。インターネットに接続していることを確認してください。"
+   },
+   "TooManyRequestsError": {
+      "message": "ログイン最大試行回数を超えました。後でもう一度お試しください。"
+   },
+   "UnknownError": {
+      "message": "不明なエラーによりログインに失敗しました。"
+   },
+   "UpgradeChromeMessage": {
+      "message": "お使いのChromeのバージョンが古くなっているためPrivate Internet Accessがご利用いただけなくなっています。ブラウザーをChrome v48以降にアップグレードしてください。"
+   },
+   "UseRegionLocale": {
+      "message": "位置設定と言語設定をプライベートに"
+   },
+   "UseRegionLocaleTooltip": {
+      "message": "デフォルトの位置設定と言語設定を現在の地域の位置と言語設定で置き換えることにより、ブラウザのデフォルトの位置設定と言語設定をプライベートに保ちます。"
+   },
+   "UsernamePlaceholder": {
+      "message": "ユーザー名"
+   },
+   "WebRTCLeakProtection": {
+      "message": "WebRTCをブロック"
+   },
+   "WebRTCTooltip": {
+      "message": "WebRTCはブラウザープロキシ設定に従うとは限らないため、安全性を低下させる可能性があります。ブロックすることが奨励されています。"
+   },
+   "WrongUsernameAndPassword": {
+      "message": "ユーザー名および/またはパスワードが正しくありません。"
+   },
+   "aus": {
+      "message": "オーストラリア シドニー"
+   },
+   "aus_melbourne": {
+      "message": "オーストラリア メルボルン"
+   },
+   "brazil": {
+      "message": "ブラジル"
+   },
+   "ca": {
+      "message": "カナダ モントリオール"
+   },
+   "ca_toronto": {
+      "message": "カナダ トロント"
+   },
+   "denmark": {
+      "message": "デンマーク"
+   },
+   "disabled": {
+      "message": "無効にされました"
+   },
+   "enabled": {
+      "message": "有効にされました"
+   },
+   "fi": {
+      "message": "フィンランド"
+   },
+   "france": {
+      "message": "フランス"
+   },
+   "germany": {
+      "message": "ドイツ"
+   },
+   "hk": {
+      "message": "香港"
+   },
+   "in": {
+      "message": "インド"
+   },
+   "ireland": {
+      "message": "アイルランド"
+   },
+   "israel": {
+      "message": "イスラエル"
+   },
+   "italy": {
+      "message": "イタリア"
+   },
+   "japan": {
+      "message": "日本"
+   },
+   "kr": {
+      "message": "韓国"
+   },
+   "mexico": {
+      "message": "メキシコ"
+   },
+   "nl": {
+      "message": "オランダ"
+   },
+   "no": {
+      "message": "ノルウェー"
+   },
+   "nz": {
+      "message": "ニュージーランド"
+   },
+   "ro": {
+      "message": "ルーマニア"
+   },
+   "sg": {
+      "message": "シンガポール"
+   },
+   "sweden": {
+      "message": "スウェーデン"
+   },
+   "swiss": {
+      "message": "スイス"
+   },
+   "turkey": {
+      "message": "トルコ"
+   },
+   "uk": {
+      "message": "英国 ロンドン"
+   },
+   "uk_southampton": {
+      "message": "英国 サウザンプトン"
+   },
+   "us1": {
+      "message": "米国中西部"
+   },
+   "us2": {
+      "message": "米国東部"
+   },
+   "us3": {
+      "message": "米国西部"
+   },
+   "us_california": {
+      "message": "米国 カリフォルニア"
+   },
+   "us_chicago": {
+      "message": "米国 シカゴ"
+   },
+   "us_florida": {
+      "message": "米国 フロリダ"
+   },
+   "us_new_york_city": {
+      "message": "米国 ニューヨーク市"
+   },
+   "us_seattle": {
+      "message": "米国 シアトル"
+   },
+   "us_silicon_valley": {
+      "message": "米国 シリコンバレー"
+   },
+   "us_south_west": {
+      "message": "米国 テキサス"
+   }
+}

@@ -1,0 +1,323 @@
+{
+   "AccountSettingsText": {
+      "message": "Account Settings"
+   },
+   "AdobeFlashTooltip": {
+      "message": "Adobe Flash can reduce your security, as it is not guaranteed to respect your browser's proxy settings. It is recommended to block it."
+   },
+   "AdsTrackersProtection": {
+      "message": "Ads, Trackers & Malware Protection"
+   },
+   "AuthFailMessage": {
+      "message": "One reason this could happen is if you changed your password on the PIA website while using the PIA chrome extension."
+   },
+   "AuthFailTitle": {
+      "message": "An authentication error occurred."
+   },
+   "AutoLoginURL": {
+      "message": "https://www.privateinternetaccess.com/xpages/sign-in"
+   },
+   "BadResponseError": {
+      "message": "Login failed due to an unexpected server response. Please try again later."
+   },
+   "BlockAdobeFlash": {
+      "message": "Block Adobe Flash"
+   },
+   "BlockBatteryAccess": {
+      "message": "Block battery access"
+   },
+   "BlockBatteryAccessTooltip": {
+      "message": "Block websites from accessing information about your computer's battery."
+   },
+   "BlockCameraAccess": {
+      "message": "Block camera access"
+   },
+   "BlockCameraAccessTooltip": {
+      "message": "Block websites from accessing your computer's camera."
+   },
+   "BlockLocationAccess": {
+      "message": "Block location access"
+   },
+   "BlockLocationAccessTooltip": {
+      "message": "Block websites from accessing information about your physical location."
+   },
+   "BlockMicrophoneAccess": {
+      "message": "Block microphone access"
+   },
+   "BlockMicrophoneAccessTooltip": {
+      "message": "Block websites from accessing your computer's microphone."
+   },
+   "CannotUsePIAMessage": {
+      "message": "Private Internet Access cannot be used because another extension is controlling your browsers proxy settings."
+   },
+   "ChangeExtensionSettings": {
+      "message": "Extension Settings"
+   },
+   "CloseText": {
+      "message": "Close"
+   },
+   "ConnectionFailMessage": {
+      "message": "You might have lost connectivity to the internet, or your connection might have been temporarily interrupted."
+   },
+   "ConnectionFailTitle": {
+      "message": "A connection error occurred while communicating with a Private Internet Access proxy."
+   },
+   "CopiedToClipboard": {
+      "message": "Debug log copied"
+   },
+   "CopyToClipboard": {
+      "message": "Copy debug log"
+   },
+   "CurrentRegionText": {
+      "message": "Current Region"
+   },
+   "DebugLog": {
+      "message": "Debug Log"
+   },
+   "DebugLogIsEmpty": {
+      "message": "The debug log is empty."
+   },
+   "DebugMode": {
+      "message": "Debug mode"
+   },
+   "DebugModeTooltip": {
+      "message": "Write messages to the debug log. Press the 'ctrl' key followed by the 'd' key to show the debug log."
+   },
+   "Developer": {
+      "message": "Developer"
+   },
+   "JoinText": {
+      "message": "SIGN UP FOR A VPN ACCOUNT"
+   },
+   "JoinURL": {
+      "message": "https://www.privateinternetaccess.com/pages/buy-vpn/"
+   },
+   "LoadingText": {
+      "message": "Loading"
+   },
+   "LoginText": {
+      "message": "Login"
+   },
+   "LogoutText": {
+      "message": "Logout"
+   },
+   "MaceProtection": {
+      "message": "PIA MACE™"
+   },
+   "MaceTooltip": {
+      "message": "PIA MACE™ helps protect your privacy and security by blocking malicious content, trackers and ads."
+   },
+   "ManageExtensions": {
+      "message": "Manage Extensions"
+   },
+   "NoAccountQuestion": {
+      "message": "Don't have an account?"
+   },
+   "OffText": {
+      "message": "Off"
+   },
+   "OfflineText": {
+      "message": "OFFLINE"
+   },
+   "OnText": {
+      "message": "On"
+   },
+   "PasswordPlaceholder": {
+      "message": "Password"
+   },
+   "PleaseWait": {
+      "message": "Loading. Please wait."
+   },
+   "PluginLeakProtection": {
+      "message": "Block native plugins"
+   },
+   "Privacy": {
+      "message": "Privacy"
+   },
+   "ProxyBypassList": {
+      "message": "Bypass List"
+   },
+   "RegionLatency": {
+      "message": "Latency"
+   },
+   "RegionName": {
+      "message": "Name"
+   },
+   "RememberMe": {
+      "message": "Remember me"
+   },
+   "SaveProxyBypassList": {
+      "message": "Save"
+   },
+   "Security": {
+      "message": "Security"
+   },
+   "SelectRegionText": {
+      "message": "Select a region"
+   },
+   "ServerError": {
+      "message": "Login failed due to a server error. Please try again later."
+   },
+   "SettingsWarning": {
+      "message": "These settings take effect when you are connected to a region."
+   },
+   "SortBy": {
+      "message": "Sort by:"
+   },
+   "StatusText": {
+      "message": "Status"
+   },
+   "SupportText": {
+      "message": "Help & Support"
+   },
+   "SupportURL": {
+      "message": "https://www.privateinternetaccess.com/pages/client-support/"
+   },
+   "TimeoutError": {
+      "message": "Login failed due to a connection timeout. Please check if you are connected to the internet."
+   },
+   "TooManyRequestsError": {
+      "message": "Too many failed login attempts. Please try again later."
+   },
+   "UnknownError": {
+      "message": "Login failed due to an unknown error."
+   },
+   "UpgradeChromeMessage": {
+      "message": "Private Internet Access cannot be used because your version of chrome is outdated. Please upgrade your browser to Chrome v48 or later."
+   },
+   "UseRegionLocale": {
+      "message": "Private locale and language settings"
+   },
+   "UseRegionLocaleTooltip": {
+      "message": "The default locale and language settings of your browser are kept private by replacing them with the locale and language settings of the current region."
+   },
+   "UsernamePlaceholder": {
+      "message": "Username"
+   },
+   "WebRTCLeakProtection": {
+      "message": "Block WebRTC"
+   },
+   "WebRTCTooltip": {
+      "message": "WebRTC can reduce your security, as it is not guaranteed to respect your browser's proxy settings. It is recommended to block it."
+   },
+   "WrongUsernameAndPassword": {
+      "message": "Username and/or password is incorrect."
+   },
+   "aus": {
+      "message": "AU Sydney"
+   },
+   "aus_melbourne": {
+      "message": "AU Melbourne"
+   },
+   "brazil": {
+      "message": "Brazil"
+   },
+   "ca": {
+      "message": "CA Montreal"
+   },
+   "ca_toronto": {
+      "message": "CA Toronto"
+   },
+   "denmark": {
+      "message": "Denmark"
+   },
+   "disabled": {
+      "message": "disabled"
+   },
+   "enabled": {
+      "message": "enabled"
+   },
+   "fi": {
+      "message": "Finland"
+   },
+   "france": {
+      "message": "France"
+   },
+   "germany": {
+      "message": "Germany"
+   },
+   "hk": {
+      "message": "Hong Kong"
+   },
+   "in": {
+      "message": "India"
+   },
+   "ireland": {
+      "message": "Ireland"
+   },
+   "israel": {
+      "message": "Israel"
+   },
+   "italy": {
+      "message": "Italy"
+   },
+   "japan": {
+      "message": "Japan"
+   },
+   "kr": {
+      "message": "South Korea"
+   },
+   "mexico": {
+      "message": "Mexico"
+   },
+   "nl": {
+      "message": "Netherlands"
+   },
+   "no": {
+      "message": "Norway"
+   },
+   "nz": {
+      "message": "New Zealand"
+   },
+   "ro": {
+      "message": "Romania"
+   },
+   "sg": {
+      "message": "Singapore"
+   },
+   "sweden": {
+      "message": "Sweden"
+   },
+   "swiss": {
+      "message": "Switzerland"
+   },
+   "turkey": {
+      "message": "Turkey"
+   },
+   "uk": {
+      "message": "UK London"
+   },
+   "uk_southampton": {
+      "message": "UK Southampton"
+   },
+   "us1": {
+      "message": "US Midwest"
+   },
+   "us2": {
+      "message": "US East"
+   },
+   "us3": {
+      "message": "US West"
+   },
+   "us_california": {
+      "message": "US California"
+   },
+   "us_chicago": {
+      "message": "US Chicago"
+   },
+   "us_florida": {
+      "message": "US Florida"
+   },
+   "us_new_york_city": {
+      "message": "US New York City"
+   },
+   "us_seattle": {
+      "message": "US Seattle"
+   },
+   "us_silicon_valley": {
+      "message": "US Silicon Valley"
+   },
+   "us_south_west": {
+      "message": "US Texas"
+   }
+}

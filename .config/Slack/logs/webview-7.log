@@ -1,0 +1,43 @@
+[06/02/17, 13:50:54:067] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 13:50:54:068] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 13:50:54:061      ║
+[06/02/17, 13:50:54:068] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 13:50:54:276] info: updateSuspendResume: true
+[06/02/17, 13:50:54:977] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T04067NNM' }
+[06/02/17, 13:50:55:417] info: Store: SELECT_CHANNEL C04067NR5
+[06/02/17, 13:50:55:422] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T04067NNM' }
+[06/02/17, 13:50:55:901] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2015-03-11/4008826306_ccdc66a0990bcdbbd421_132.jpg' },
+  teamId: 'T04067NNM' }
+[06/02/17, 13:50:56:253] info: Raw Locale list: ["C","C.UTF-8","en_AG","en_AG.utf8","en_AU.utf8","en_BW.utf8","en_CA.utf8","en_DK.utf8","en_GB.utf8","en_HK.utf8","en_IE.utf8","en_IN","en_IN.utf8","en_NG","en_NG.utf8","en_NZ.utf8","en_PH.utf8","en_SG.utf8","en_US.utf8","en_ZA.utf8","en_ZM","en_ZM.utf8","en_ZW.utf8","POSIX",""]
+[06/02/17, 13:50:56:254] info: Filtered Locale list: ["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"]
+[06/02/17, 13:50:56:255] info: Counts: {"en":["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"]}
+[06/02/17, 13:50:56:256] info: Result: {"en":"en-US"}
+[06/02/17, 13:50:56:257] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[06/02/17, 13:50:56:258] info: Loading dictionary for language en-US
+[06/02/17, 13:50:56:259] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:50:56:264] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:50:56:264] info: Creating node-spellchecker instance
+[06/02/17, 13:50:56:266] info: Actually installing spell check provider to Electron
+[06/02/17, 13:50:56:380] info: Loading dictionary for language en-US
+[06/02/17, 13:50:56:380] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:50:56:382] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:51:07:675] info: Unloading spellchecker

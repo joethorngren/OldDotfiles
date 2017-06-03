@@ -1,0 +1,300 @@
+<html>
+    <head>
+        <title>Manage your web apps & extensions</title>
+        <script type="text/javascript" src="/lib/jquery.min.js"></script>
+        <script type="text/javascript" src="options.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'>
+        <style>
+            body {
+                overflow: hidden;
+                background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(242,246,246)), to(rgb(208,210,210)));
+                font-family: 'Molengo', arial, serif;
+
+            }
+            .disabled{
+                color: gray;
+            }
+
+            .control_button{
+                padding:5px;
+            }
+            #header {
+                background-image: url(/header.png);
+                width:240px;
+                height:44px;
+            }
+
+
+            #selectGroup{
+                position:absolute;
+                display:none;
+                width: 200px;
+                right: 18px;
+                top: 3px;
+            }
+            #leftPanel {
+                position: absolute;
+                width:24%;
+                height:85%;
+                margin:2%;
+                padding:2%;
+
+
+                text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
+            }
+            #leftPanel h2 {
+                padding-left:20px;
+                margin-top:30px;
+                margin-bottom:10px;
+                font-size: 28px;
+                color: rgba(0,0,0,0.66);
+
+                font-family: 'Molengo', arial, serif;
+            }
+            #leftPanel p {
+                padding-left:20px;
+                margin-top:20px;
+                margin-bottom:10px;
+                font-size: 16px;
+                width:90%;
+            }
+            #groupList {
+                margin-left:20px;
+                font-size: 18px;
+
+            }
+            .groupLabel {
+                position:relative;
+                width:90%;
+                cursor: pointer;
+                padding: 5px 10px 5px 10px;
+                margin-bottom:3px;
+                -webkit-border-radius: 5px;
+                background-color: rgba(255,255,255,0.3);
+            }
+            .groupLabel:hover {
+                background-color: rgba(255,255,255,0.7);
+            }
+            #rightPanel {
+
+                width:60%;
+                height:85%;
+                padding:2%;
+                margin:2%;
+                margin-left:30%;
+
+
+
+                overflow: hidden;
+
+                border: 1px solid #999999;
+
+                -webkit-border-radius: 5px;
+                -webkit-box-shadow: inset 0px 2px 5px rgba(0,0,0,0.3);
+
+                background-color: white;
+
+            }
+            #rightPanel h1,h2 {
+                font-family: 'Molengo', arial, serif;
+            }
+            #rightPanelContent {
+                position:relative;
+                padding-left:5%;
+                height:100%;
+                overflow-y: scroll;
+            }
+            #appListIcon {
+                position: absolute;
+                top:15px;
+                left:5%;
+            }
+            #appListTitle {
+                padding-left: 54px;
+            }
+            .appItem, .extItem{
+                position: relative;
+                margin-top: 4px;
+                border-bottom: 1px solid rgba(0,0,0,0.1);
+                min-height: 68px;
+                clear:both;
+
+            }
+            .appItem img, .extItem img {
+                padding-right:10px;
+            }
+            .appItemLabel {
+                font-size: 18px;
+            }
+
+            .appInfoDiv{
+                padding:5px;
+            }
+            .appItemVersion {
+                font-size: 12px;
+            }
+            .appItemOptions {
+                font-size: 12px;
+                font-weight:bold;
+                color: #778833;
+                cursor: pointer;
+                width: 150px;
+                padding-left: 10px;
+            }
+            .appItemOptions:hover{
+                color: #99bb55;
+            }
+            .appItemControls {
+                position:absolute;
+                right:5px;
+                bottom:8px;
+            }
+            .controlButton {
+                cursor: pointer;
+
+                margin-right: 15px;
+                padding: 3px 5px;
+                -webkit-border-radius: 5px;
+
+                background-color: #eeeeee;
+                -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+                text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
+            }
+            .controlButton:hover {
+                background-color: #f8f8f8;
+            }
+
+            .editGroup {
+                font-size: 14px;
+                font-weight: bold;
+                position: absolute;
+                cursor:pointer;
+                right:10%;
+                bottom: 8px;
+                color: rgba(255,255,255,0.8);
+
+                background: #999999;
+                padding: 1px 5px;
+
+                -webkit-border-radius: 2px;
+
+                text-shadow: 0px 1px 1px rgba(0,0,0,0.6);
+            }
+            .createGroup {
+                position: absolute;
+                top: 5px;
+                right: 20px;
+                cursor: pointer;
+            }
+            .groupLabel:hover .editGroup{
+                display: block;
+            }
+
+            .groupLabel .editGroup{
+                display: none;
+            }
+
+            #editPopup{
+                position: fixed;
+                background: white;
+
+                -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+                -webkit-border-radius: 5px;
+
+                padding: 10px 0px;
+
+                left:25%;
+                display:none;
+            }
+            .editPopupItem {
+                cursor: pointer;
+                padding: 2px 20px;
+            }
+            .editPopupItem:hover {
+                background: #f0f0f0;
+            }            
+
+            #groupListBg{
+                position: fixed;
+                top: 0;
+                display:none;
+                width:100%;
+                height:100%;
+                background: rgba(0,0,0,0.33);
+            }
+            #groupListPopup{
+                position: fixed;
+                top: 100px;
+                height: 400px;
+                left: 30%;
+                right:30%;
+                background: #f0f0f0;
+                padding: 20px 20px 20px 40px;
+                border-radius: 20px;
+            }
+           
+            #copyright a {
+                color:#000066;
+                text-decoration: none;
+            }
+            #copyright a:hover {
+                color: white;
+            }
+            
+            img.desaturate { 
+                -webkit-filter: grayscale(100%);
+            }
+            
+            #visitUs {
+                border-radius: 10px;
+                padding: 10px 10px 10px 13px;
+                background: white;
+            }
+            #visitLink {
+                
+                color: black;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="leftPanel">
+            <div id="header"></div>
+            <h2>My App Groups</h2>
+            <div id='groupList'>
+
+            </div>
+            <p>Here you can manage your Apps and Extensions and organize them into easy-to-manage groups. To group your app/extension, click "Add to Group" and choose any existing group or "Add to New Group".</p>
+            
+            <p><small>* For app order, please open the popup and use 'drag and drop' for arrangement.</small></p>
+
+            <p>For more details, please manage via <span id="openSettings" class="groupLabel">Chrome Settings</span></p>
+            <br>
+            <hr>
+            <div id="visitUs">
+                <a href='https://chrome.google.com/webstore/search-extensions/visibotech' id="visitLink" target="_blank">View our collection of extensions on Chrome Web Store!</a> </div>
+             <p id="copyright">
+                Version 0.9.3 | <a href='http://www.visibotech.com/'>Home</a> | <a href='http://blog.visibotech.com/'>Blog</a> | Copyright 2010 Visibo Ltd. All rights reserved.</p>
+        </div>
+        </div>
+        <div id="rightPanel">
+            <div id="rightPanelContent">
+                <img src="/icon48.png" id="appListIcon"/>
+
+                <h1 id="appListTitle">All Apps and Extensions</h1>
+                <h2>Web Apps</h2>
+                <div id='appList'></div>
+                <h2>Extensions</h2>
+                <div id='extList'></div>
+            </div>
+        </div>
+        <div id="editPopup">
+            <div id="removeGroup" class="editPopupItem">Remove</div>
+            <div id="renameGroup" class="editPopupItem">Rename</div>
+            <div id="cancelEdit" class="editPopupItem">Cancel</div>
+        </div>
+        <div id="groupListBg">
+            <div id="groupListPopup"></div>
+        </div>
+    </body>
+</html>

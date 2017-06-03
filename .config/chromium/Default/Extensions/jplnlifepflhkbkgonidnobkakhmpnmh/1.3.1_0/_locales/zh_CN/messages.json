@@ -1,0 +1,320 @@
+{
+   "AccountSettingsText": {
+      "message": "帐户设置"
+   },
+   "AdobeFlashTooltip": {
+      "message": "Adobe Flash 可能会降低您的安全性，因为它不能保证遵守浏览器的代理设置。建议加以阻止。"
+   },
+   "AdsTrackersProtection": {
+      "message": "广告、跟踪程序和恶意软件防护"
+   },
+   "AuthFailMessage": {
+      "message": "这可能是因为您在使用 PIA Chrome 扩展程序时更改了 PIA 网站上的密码。"
+   },
+   "AuthFailTitle": {
+      "message": "发生身份验证错误。"
+   },
+   "AutoLoginURL": {
+      "message": "https://chi.privateinternetaccess.com/xpages/sign-in"
+   },
+   "BadResponseError": {
+      "message": "由于意外的服务器响应，登录失败。请稍后重试。"
+   },
+   "BlockAdobeFlash": {
+      "message": "阻止 Adobe Flash"
+   },
+   "BlockBatteryAccess": {
+      "message": "阻止访问电池"
+   },
+   "BlockBatteryAccessTooltip": {
+      "message": "阻止网站访问有关计算机电池的信息。"
+   },
+   "BlockCameraAccess": {
+      "message": "阻止访问相机"
+   },
+   "BlockCameraAccessTooltip": {
+      "message": "阻止网站访问计算机的相机。"
+   },
+   "BlockLocationAccess": {
+      "message": "阻止访问位置"
+   },
+   "BlockLocationAccessTooltip": {
+      "message": "阻止网站访问与您的实际位置有关的信息。"
+   },
+   "BlockMicrophoneAccess": {
+      "message": "阻止访问麦克风"
+   },
+   "BlockMicrophoneAccessTooltip": {
+      "message": "阻止网站访问计算机的麦克风。"
+   },
+   "CannotUsePIAMessage": {
+      "message": "其他扩展程序正在控制您的浏览器代理设置，因此无法使用 Private Internet Access。"
+   },
+   "ChangeExtensionSettings": {
+      "message": "扩展程序设置"
+   },
+   "CloseText": {
+      "message": "关闭"
+   },
+   "ConnectionFailMessage": {
+      "message": "您可能未连接互联网或者连接暂时中断。"
+   },
+   "ConnectionFailTitle": {
+      "message": "与 Private Internet Access 代理通信时发生连接错误。"
+   },
+   "CopiedToClipboard": {
+      "message": "调试日志已复制"
+   },
+   "CopyToClipboard": {
+      "message": "复制调试日志"
+   },
+   "CurrentRegionText": {
+      "message": "当前区域"
+   },
+   "DebugLog": {
+      "message": "调试日志"
+   },
+   "DebugLogIsEmpty": {
+      "message": "调试日志为空。"
+   },
+   "DebugMode": {
+      "message": "调试模式"
+   },
+   "DebugModeTooltip": {
+      "message": "将消息写入调试日志。按“ctrl”键，然后按“d”键以显示调试日志。"
+   },
+   "Developer": {
+      "message": "开发人员"
+   },
+   "JoinText": {
+      "message": "注册 VPN 帐户"
+   },
+   "JoinURL": {
+      "message": "https://chi.privateinternetaccess.com/pages/buy-vpn/"
+   },
+   "LoadingText": {
+      "message": "正在加载"
+   },
+   "LoginText": {
+      "message": "登录"
+   },
+   "LogoutText": {
+      "message": "注销"
+   },
+   "MaceProtection": {
+      "message": "PIA Mace™"
+   },
+   "MaceTooltip": {
+      "message": "PIA MACE™ 通过阻止恶意内容、跟踪程序和广告来保护您的隐私和安全。"
+   },
+   "ManageExtensions": {
+      "message": "管理扩展程序"
+   },
+   "NoAccountQuestion": {
+      "message": "还没有帐户？"
+   },
+   "OffText": {
+      "message": "关"
+   },
+   "OfflineText": {
+      "message": "离线"
+   },
+   "OnText": {
+      "message": "开"
+   },
+   "PasswordPlaceholder": {
+      "message": "密码"
+   },
+   "PleaseWait": {
+      "message": "正在加载。请稍候。"
+   },
+   "PluginLeakProtection": {
+      "message": "拦截原生插件"
+   },
+   "Privacy": {
+      "message": "隐私"
+   },
+   "ProxyBypassList": {
+      "message": "绕过清单"
+   },
+   "RegionLatency": {
+      "message": "延迟时间"
+   },
+   "RegionName": {
+      "message": "名称"
+   },
+   "RememberMe": {
+      "message": "记住我"
+   },
+   "SaveProxyBypassList": {
+      "message": "保存"
+   },
+   "Security": {
+      "message": "安全"
+   },
+   "SelectRegionText": {
+      "message": "选择区域"
+   },
+   "ServerError": {
+      "message": "由于服务器错误，登录失败。请稍后重试。"
+   },
+   "SortBy": {
+      "message": "排序方式："
+   },
+   "StatusText": {
+      "message": "状态"
+   },
+   "SupportText": {
+      "message": "帮助和支持"
+   },
+   "SupportURL": {
+      "message": "https://chi.privateinternetaccess.com/pages/client-support/"
+   },
+   "TimeoutError": {
+      "message": "由于连接超时，登录失败。请检查您是否已连接到互联网。"
+   },
+   "TooManyRequestsError": {
+      "message": "登录尝试失败次数过多。请稍后重试。"
+   },
+   "UnknownError": {
+      "message": "由于未知错误，登录失败。"
+   },
+   "UpgradeChromeMessage": {
+      "message": "您的 Chrome 版本已过时，因此无法使用 Private Internet Access。请将浏览器升级到 Chrome v48 或更高版本。"
+   },
+   "UseRegionLocale": {
+      "message": "专用区域设置和语言设置"
+   },
+   "UseRegionLocaleTooltip": {
+      "message": "将浏览器的默认区域设置和语言设置替换为当前区域的区域设置和语言设置，从而使其保持为专用。"
+   },
+   "UsernamePlaceholder": {
+      "message": "用户名"
+   },
+   "WebRTCLeakProtection": {
+      "message": "拦截 WebRTC"
+   },
+   "WebRTCTooltip": {
+      "message": "WebRTC 可能会降低您的安全性，因为它不能保证遵守浏览器的代理设置。建议加以阻止。"
+   },
+   "WrongUsernameAndPassword": {
+      "message": "用户名和/或密码错误。"
+   },
+   "aus": {
+      "message": "澳大利亚悉尼"
+   },
+   "aus_melbourne": {
+      "message": "澳大利亚墨尔本"
+   },
+   "brazil": {
+      "message": "巴西"
+   },
+   "ca": {
+      "message": "加拿大蒙特利尔"
+   },
+   "ca_toronto": {
+      "message": "加拿大多伦多"
+   },
+   "denmark": {
+      "message": "丹麦"
+   },
+   "disabled": {
+      "message": "已禁用"
+   },
+   "enabled": {
+      "message": "已启用"
+   },
+   "fi": {
+      "message": "芬兰"
+   },
+   "france": {
+      "message": "法国"
+   },
+   "germany": {
+      "message": "德国"
+   },
+   "hk": {
+      "message": "中国香港"
+   },
+   "in": {
+      "message": "印度"
+   },
+   "ireland": {
+      "message": "爱尔兰"
+   },
+   "israel": {
+      "message": "以色列"
+   },
+   "italy": {
+      "message": "意大利"
+   },
+   "japan": {
+      "message": "日本"
+   },
+   "kr": {
+      "message": "韩国"
+   },
+   "mexico": {
+      "message": "墨西哥"
+   },
+   "nl": {
+      "message": "荷兰"
+   },
+   "no": {
+      "message": "挪威"
+   },
+   "nz": {
+      "message": "新西兰"
+   },
+   "ro": {
+      "message": "罗马尼亚"
+   },
+   "sg": {
+      "message": "新加坡"
+   },
+   "sweden": {
+      "message": "瑞典"
+   },
+   "swiss": {
+      "message": "瑞士"
+   },
+   "turkey": {
+      "message": "土耳其"
+   },
+   "uk": {
+      "message": "英国伦敦"
+   },
+   "uk_southampton": {
+      "message": "英国南安普敦"
+   },
+   "us1": {
+      "message": "美国中西部"
+   },
+   "us2": {
+      "message": "美国东部"
+   },
+   "us3": {
+      "message": "美国西部"
+   },
+   "us_california": {
+      "message": "美国加利福尼亚"
+   },
+   "us_chicago": {
+      "message": "美国芝加哥"
+   },
+   "us_florida": {
+      "message": "美国佛罗里达"
+   },
+   "us_new_york_city": {
+      "message": "美国纽约"
+   },
+   "us_seattle": {
+      "message": "美国西雅图"
+   },
+   "us_silicon_valley": {
+      "message": "美国硅谷"
+   },
+   "us_south_west": {
+      "message": "美国德克萨斯"
+   }
+}

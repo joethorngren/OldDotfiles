@@ -1,0 +1,5 @@
+Videoları otomatik olarak HD oynatacak şekilde ayarlayın. Kullanıcılar herbir video için 1080p, 720p, ve mevcut olan diğer boyutları seçebilirler.
+
+Lütfen önerilerinizi ve hata raporlarınızı gönderiniz: http://www.autohdforyoutube.com 
+
+YouTube™ bir Google™ ticari markasıdır. Bu eklenti Google™ veya YouTube™ tarafından desteklenmez.

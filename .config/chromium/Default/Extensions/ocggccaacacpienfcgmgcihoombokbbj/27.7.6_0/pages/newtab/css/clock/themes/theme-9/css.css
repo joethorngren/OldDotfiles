@@ -1,0 +1,59 @@
+#clock-container{
+    margin-top: 0px!important;
+}
+
+.ce-countdown--theme-9 {
+    background: none;
+}
+
+.ce-countdown{ min-width: 650px; }
+.ce-countdown.ce-add-date{ min-width: 650px; }
+.ce-countdown.ce-add-seconds{ min-width: 950px; }
+.ce-countdown.ce-add-date.ce-add-seconds{ min-width: 950px; }
+
+.ce-countdown--theme-9.clock-font-bold .ce-digit {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.ce-countdown--theme-9.clock-font-bold .ce-circle__values {
+    margin-top: -42px;
+    font-weight: 800;
+}
+
+.ce-countdown--theme-9.clock-font-bold .ce-circle__values.clock-label-hidden {
+    margin-top: -30px;
+}
+
+.ce-countdown--theme-9.clock-font-bold .clock-format-label {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.ce-countdown--theme-9.clock-format-label-padding {
+    /*padding: 80px 50px 80px 20px;*/
+}
+
+.ce-countdown--theme-9 .ce-circle {
+    margin: 20px;
+}
+
+.ce-countdown--theme-9 .clock-format-label {
+    font-size: 24px;
+    letter-spacing: 1px;
+    position: absolute;
+    display: inline-block;
+    top: 24px;
+}
+
+@media (max-width: 700px) {
+    .ce-countdown--theme-9 .clock-format-label {
+        display: none !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .ce-countdown--theme-9 .clock-format-label {
+        display: none !important;
+    }
+}

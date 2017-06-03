@@ -1,0 +1,15 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://trello.com/"
+      }
+   },
+   "description": "Trello is a collaboration tool that organizes your projects into boards.",
+   "icons": {
+      "128": "trello.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDxmY0puDVu7Q1T4NMPKYQ0TtSkYC8hmp1NmL2zrPT7HEa7WCWZj24KkRlB7T6Z5Uy1FgdStvIvHXCtV8JSjKBsQA0guxfxghkyxY44aNzknwev13AsfdUihZb1H7/d8OWHmM63+z1dL16t8+0o4VCd3YEG8hSlaH9bBS6/WsSYDQIDAQAB",
+   "name": "Trello",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

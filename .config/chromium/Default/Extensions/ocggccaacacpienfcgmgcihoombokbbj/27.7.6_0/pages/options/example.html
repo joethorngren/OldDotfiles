@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Settings</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <link rel="icon" href="../../img/icon/icon16.png">
+
+    <link href="../../vendor/jquery-ui/css/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../../vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../vendor/jGrowl/jquery.jgrowl.min.css">
+    <link rel="stylesheet" href="../../vendor/colorpick/css/colpick.css">
+    <link rel="stylesheet" href="css/options.css" />
+    <!--<link rel="stylesheet" href="css/firefox.css"/>-->
+
+    <script src="../../vendor/head.min.js"></script>
+    <script src="./js/scripts/options_new.js"></script>
+</head>
+
+<body>
+    <div id="tree-navi-wrap">
+        <div id="tree-navi-head"></div>
+        <div id="tree-navi-left"></div>
+        <div id="tree-navi-right">
+            <div id="tree-navi-body">
+                <center>
+                    <div class="navi-page-block" block="navi-bg-active">
+                        <div class="navi-body-header">
+                            <h1>Header</h1>
+                            <p>Some text. Some text. Some text. Some text. Some text. Some text. Some text. Some text. Some text. Some text. Some text. Some text. Some text. Some text. Some text. </p>
+                        </div>
+
+
+                        <div class="navi-block">
+                            <ul class="navi-tabs-labels">
+                                <li for="main">Typical</li>
+                                <li for="advanced">Advanced</li>
+                                <li for="tab3">Tab 3 button</li>                        
+                            </ul>
+
+                            <div class="navi-tabs">
+                                <div class="navi-tab" tab="main">
+                                    <label class="navi-label" for="check-1">
+                                        <span class="desc">Checkbox number #1</span>
+                                        <input type="checkbox" checked id="check-1" />
+                                    </label>
+
+                                    <div slide="check-1">
+                                        <p>Slide for checkbox #1 change</p><br/>
+                                        <p>Slide for checkbox #1 change</p><br/>
+                                        <p>Slide for checkbox #1 change</p><br/>
+                                        <p>Slide for checkbox #1 change</p><br/>
+                                    </div>
+                                </div>
+
+                                <div class="navi-tab" tab="advanced">
+                                    <label class="navi-label" for="check-11">
+                                        <span class="desc">Advanced #1</span>
+                                        <input type="checkbox" checked id="check-11" />
+                                    </label>
+                                </div>
+                                
+                                <div class="navi-tab" tab="tab3">
+                                    <p>
+                                        Tab #3
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="navi-block">
+                            <ul class="navi-tabs-labels">
+                                <li for="num1">In tab 1</li>                      
+                                <li for="num2">In tab 2</li>                      
+                            </ul>
+
+                            <div class="navi-tabs">
+                                <div class="navi-tab" tab="num1">
+                                    <h3>Block title</h3>
+                                    <p>Text about. Text about. Text about. Text about. Text about. Text about. Text about. Text about. Text about. Text about. Text about. Text about. </p>
+
+                                    <label class="navi-label" for="check-2">
+                                        <span class="desc">Checkbox number #1</span>
+                                        <input type="checkbox" id="check-2" />
+                                    </label>
+                                </div>
+                                
+                                <div class="navi-tab" tab="num2">
+                                    <h3>Block title 2</h3>
+                                    <p>Text about 2, text about 2, text about 2, text about 2, text about 2, text about 2, text about 2, text about 2, text about 2, text about 2, text about 2</p>
+                                    <br/>
+                                    <p>Text about 2, text about 2, text about 2, text about 2, text about 2, text about 2, text about 2, text about 2, text about 2, text about 2, text about 2</p>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="navi-page-block" block="navi-bg-live">
+                        <div class="navi-block">
+                            <h3>Radio title</h3>
+                            <p>Text about. Text about. Text about. Text about. Text about. Text about. Text about. Text about. Text about. Text about. Text about. Text about. </p>
+
+                            <label class="radio-label" for="speed-dial-generate-type-text">
+                                <input type="radio" name="speed-dial-generate-type" checked id="speed-dial-generate-type-text" data-new-dial-thumb-generate-type="1" class="speed-dial-generate-type-item"> <span class="desc" id="speed-dial-generate-type-text-label"></span>
+                            </label>
+                            <label class="radio-label" for="speed-dial-generate-type-gallery-text">
+                                <input type="radio" name="speed-dial-generate-type" id="speed-dial-generate-type-gallery-text" data-new-dial-thumb-generate-type="2" class="speed-dial-generate-type-item"> <span class="desc" id="speed-dial-generate-type-gallery-text-label"></span>
+                            </label>
+                            <label class="radio-label" for="speed-dial-generate-type-gallery-text1">
+                                <input type="radio" name="speed-dial-generate-type" id="speed-dial-generate-type-gallery-text1" data-new-dial-thumb-generate-type="3" class="speed-dial-generate-type-item" disabled> <span class="desc" lang="speed_dial_generate_type_gallery_text_label"></span>
+                            </label>
+                        </div>
+
+                        <div class="navi-block">
+                            <div class="main-label">
+                                <select>
+                                    <option>Option 1</option>
+                                    <option>Option 2</option>
+                                    <option>Option 3</option>
+                                    <option>Option 4</option>
+                                    <option>Option 5</option>
+                                </select>
+
+                            </div>
+
+                            <div class="main-label">
+                                <input type="text" value="Some text" />
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                
+                
+                </center>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="backup-options-container" class="hide"></div>
+</body>
+
+</html>

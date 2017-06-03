@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon19.png",
+      "default_popup": "popup.html",
+      "default_title": "AppJump App Launcher"
+   },
+   "description": "Quickly launch Apps from browser toolbar. Organize Apps and Extensions into Groups. Manage Apps and Extensions with ease.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+DTJ9VvNy5bcoR3kcsUbURNleo543vZs4sQcBCbqPWIXyI4jC9xnhSt3vxiTygJeb0S+gMTwGSCaKzt0ACcqQbPhH9Aw5IZF2++tkIB/i4Jla1A6gYc0kGPMEg2GNGrgeV+cBhn3KZro/Qtox/9lQ8jUfs2mn9+zZUN0jY89umwIDAQAB",
+   "manifest_version": 2,
+   "name": "AppJump App Launcher and Organizer",
+   "options_page": "options.html",
+   "permissions": [ "management" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.9.3"
+}

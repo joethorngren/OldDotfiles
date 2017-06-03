@@ -1,0 +1,12 @@
+2017/06/02-22:31:33.493 2046 Reusing MANIFEST /home/dayfun/.config/chromium/Default/Session Storage/MANIFEST-000001
+2017/06/02-22:31:33.494 2046 Recovering log #1568
+2017/06/02-22:31:33.494 2046 Reusing old log /home/dayfun/.config/chromium/Default/Session Storage/001568.log 
+2017/06/02-22:33:23.617 4972 Level-0 table #1575: started
+2017/06/02-22:33:23.622 4972 Level-0 table #1575: 71890 bytes OK
+2017/06/02-22:33:23.631 4972 Delete type=0 #1568
+2017/06/02-22:34:32.440 4972 Level-0 table #1577: started
+2017/06/02-22:34:32.451 4972 Level-0 table #1577: 104549 bytes OK
+2017/06/02-22:34:32.460 4972 Delete type=0 #1574
+2017/06/02-22:36:24.130 4972 Level-0 table #1579: started
+2017/06/02-22:36:24.146 4972 Level-0 table #1579: 201960 bytes OK
+2017/06/02-22:36:24.151 4972 Delete type=0 #1576

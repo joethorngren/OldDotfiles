@@ -1,0 +1,320 @@
+{
+   "AccountSettingsText": {
+      "message": "계정 설정"
+   },
+   "AdobeFlashTooltip": {
+      "message": "Adobe Flash는 브라우저의 프록시 설정을 반드시 존중하는 것은 아니므로 보안을 훼손할 수 있습니다. 차단할 것을 권장합니다."
+   },
+   "AdsTrackersProtection": {
+      "message": "광고, 트래커, 맬웨어 방지"
+   },
+   "AuthFailMessage": {
+      "message": "PIA Chrome 확장 프로그램을 사용하는 동안 PIA 웹 사이트에서 비밀번호를 변경할 경우 이 문제가 발생할 수 있습니다."
+   },
+   "AuthFailTitle": {
+      "message": "인증 오류가 발생했습니다."
+   },
+   "AutoLoginURL": {
+      "message": "https://kor.privateinternetaccess.com/xpages/sign-in"
+   },
+   "BadResponseError": {
+      "message": "예기치 않은 서버 응답으로 로그인에 실패했습니다. 나중에 다시 시도해주십시오."
+   },
+   "BlockAdobeFlash": {
+      "message": "Adobe Flash 차단"
+   },
+   "BlockBatteryAccess": {
+      "message": "배터리 접근 차단"
+   },
+   "BlockBatteryAccessTooltip": {
+      "message": "웹사이트가 컴퓨터의 배터리 정보에 접근하는 것을 차단합니다."
+   },
+   "BlockCameraAccess": {
+      "message": "카메라 접근 차단"
+   },
+   "BlockCameraAccessTooltip": {
+      "message": "웹사이트가 컴퓨터의 카메라에 접근하는 것을 차단합니다."
+   },
+   "BlockLocationAccess": {
+      "message": "위치 접근 차단"
+   },
+   "BlockLocationAccessTooltip": {
+      "message": "웹사이트가 사용자의 물리적 위치 정보에 접근하는 것을 차단합니다."
+   },
+   "BlockMicrophoneAccess": {
+      "message": "마이크 접근 차단"
+   },
+   "BlockMicrophoneAccessTooltip": {
+      "message": "웹사이트가 컴퓨터의 마이크에 접근하는 것을 차단합니다."
+   },
+   "CannotUsePIAMessage": {
+      "message": "다른 확장 프로그램이 현재 브라우저의 프록시 설정을 제어하고 있어서 Private Internet Access를 사용할 수 없습니다."
+   },
+   "ChangeExtensionSettings": {
+      "message": "확장 프로그램 설정"
+   },
+   "CloseText": {
+      "message": "닫기"
+   },
+   "ConnectionFailMessage": {
+      "message": "인터넷에 연결이 끊겼거나 연결이 잠시 중단되었을 수 있습니다."
+   },
+   "ConnectionFailTitle": {
+      "message": "Private Internet Access 프록시와 통신하는 중 연결 오류가 발생했습니다."
+   },
+   "CopiedToClipboard": {
+      "message": "디버그 로그 복사 완료"
+   },
+   "CopyToClipboard": {
+      "message": "디버그 로그 복사"
+   },
+   "CurrentRegionText": {
+      "message": "현재 지역"
+   },
+   "DebugLog": {
+      "message": "디버그 로그"
+   },
+   "DebugLogIsEmpty": {
+      "message": "디버그 로그가 비어 있습니다."
+   },
+   "DebugMode": {
+      "message": "디버그 모드"
+   },
+   "DebugModeTooltip": {
+      "message": "디버그 로그에 메시지를 기록합니다. 'ctrl' 키를 누르고 'd' 키를 누르면 디버그 로그가 표시됩니다."
+   },
+   "Developer": {
+      "message": "개발자"
+   },
+   "JoinText": {
+      "message": "VPN 계정 가입"
+   },
+   "JoinURL": {
+      "message": "https://kor.privateinternetaccess.com/pages/buy-vpn/"
+   },
+   "LoadingText": {
+      "message": "불러오는 중"
+   },
+   "LoginText": {
+      "message": "로그인"
+   },
+   "LogoutText": {
+      "message": "로그아웃"
+   },
+   "MaceProtection": {
+      "message": "PIA MACE™"
+   },
+   "MaceTooltip": {
+      "message": "PIA MACE™는 악성 콘텐츠, 트래커 및 광고를 차단해서 사용자의 개인정보와 보안을 보호합니다."
+   },
+   "ManageExtensions": {
+      "message": "확장 프로그램 관리"
+   },
+   "NoAccountQuestion": {
+      "message": "계정이 없으세요?"
+   },
+   "OffText": {
+      "message": "끔"
+   },
+   "OfflineText": {
+      "message": "오프라인"
+   },
+   "OnText": {
+      "message": "켬"
+   },
+   "PasswordPlaceholder": {
+      "message": "비밀번호"
+   },
+   "PleaseWait": {
+      "message": "로드 중. 잠시만 기다려주십시오."
+   },
+   "PluginLeakProtection": {
+      "message": "네이티브 플러그인 차단"
+   },
+   "Privacy": {
+      "message": "개인정보"
+   },
+   "ProxyBypassList": {
+      "message": "우회 목록"
+   },
+   "RegionLatency": {
+      "message": "지연 시간"
+   },
+   "RegionName": {
+      "message": "이름"
+   },
+   "RememberMe": {
+      "message": "ID 기억하기"
+   },
+   "SaveProxyBypassList": {
+      "message": "저장"
+   },
+   "Security": {
+      "message": "보안"
+   },
+   "SelectRegionText": {
+      "message": "지역 선택"
+   },
+   "ServerError": {
+      "message": "서버 오류로 로그인에 실패했습니다. 나중에 다시 시도해주십시오."
+   },
+   "SortBy": {
+      "message": "정렬 기준:"
+   },
+   "StatusText": {
+      "message": "상태"
+   },
+   "SupportText": {
+      "message": "도움말 및 지원"
+   },
+   "SupportURL": {
+      "message": "https://kor.privateinternetaccess.com/pages/client-support/"
+   },
+   "TimeoutError": {
+      "message": "연결 시간 초과로 로그인이 실패했습니다. 인터넷에 연결되어 있는지 확인해주십시오."
+   },
+   "TooManyRequestsError": {
+      "message": "로그인 실패가 너무 많았습니다. 나중에 다시 시도하십시오."
+   },
+   "UnknownError": {
+      "message": "알 수 없는 오류로 로그인에 실패했습니다."
+   },
+   "UpgradeChromeMessage": {
+      "message": "현재 Chrome 버전이 오래되어서 Private Internet Access를 사용할 수 없습니다. 브라우저를 Chrome v48 이상 버전으로 업그레이드해주십시오."
+   },
+   "UseRegionLocale": {
+      "message": "비공개 로캘 및 언어 설정"
+   },
+   "UseRegionLocaleTooltip": {
+      "message": "브라우저의 기본 로캘 및 언어 설정을 현재 지역의 로캘 및 언어 설정으로 교체해서 비공개로 유지합니다."
+   },
+   "UsernamePlaceholder": {
+      "message": "사용자 이름"
+   },
+   "WebRTCLeakProtection": {
+      "message": "WebRTC 차단"
+   },
+   "WebRTCTooltip": {
+      "message": "WebRTC는 브라우저의 프록시 설정을 반드시 존중하는 것은 아니므로 보안을 훼손할 수 있습니다. 차단할 것을 권장합니다."
+   },
+   "WrongUsernameAndPassword": {
+      "message": "사용자 이름 및/또는 비밀번호가 잘못되었습니다."
+   },
+   "aus": {
+      "message": "호주 시드니"
+   },
+   "aus_melbourne": {
+      "message": "호주 멜버른"
+   },
+   "brazil": {
+      "message": "브라질"
+   },
+   "ca": {
+      "message": "캐나다 몬트리올"
+   },
+   "ca_toronto": {
+      "message": "캐나다 토론토"
+   },
+   "denmark": {
+      "message": "덴마크"
+   },
+   "disabled": {
+      "message": "비활성화됨"
+   },
+   "enabled": {
+      "message": "활성화됨"
+   },
+   "fi": {
+      "message": "핀란드"
+   },
+   "france": {
+      "message": "프랑스"
+   },
+   "germany": {
+      "message": "독일"
+   },
+   "hk": {
+      "message": "홍콩"
+   },
+   "in": {
+      "message": "인도"
+   },
+   "ireland": {
+      "message": "아일랜드"
+   },
+   "israel": {
+      "message": "이스라엘"
+   },
+   "italy": {
+      "message": "이탈리아"
+   },
+   "japan": {
+      "message": "일본"
+   },
+   "kr": {
+      "message": "대한민국"
+   },
+   "mexico": {
+      "message": "멕시코"
+   },
+   "nl": {
+      "message": "네덜란드"
+   },
+   "no": {
+      "message": "노르웨이"
+   },
+   "nz": {
+      "message": "뉴질랜드"
+   },
+   "ro": {
+      "message": "루마니아"
+   },
+   "sg": {
+      "message": "싱가포르"
+   },
+   "sweden": {
+      "message": "스웨덴"
+   },
+   "swiss": {
+      "message": "스위스"
+   },
+   "turkey": {
+      "message": "터키"
+   },
+   "uk": {
+      "message": "영국 런던"
+   },
+   "uk_southampton": {
+      "message": "영국 사우샘프턴"
+   },
+   "us1": {
+      "message": "미국 중서부"
+   },
+   "us2": {
+      "message": "미국 동부"
+   },
+   "us3": {
+      "message": "미국 서부"
+   },
+   "us_california": {
+      "message": "미국 캘리포니아"
+   },
+   "us_chicago": {
+      "message": "미국 시카고"
+   },
+   "us_florida": {
+      "message": "미국 플로리다"
+   },
+   "us_new_york_city": {
+      "message": "미국 뉴욕 시"
+   },
+   "us_seattle": {
+      "message": "미국 시애틀"
+   },
+   "us_silicon_valley": {
+      "message": "미국 실리콘밸리"
+   },
+   "us_south_west": {
+      "message": "미국 텍사스"
+   }
+}

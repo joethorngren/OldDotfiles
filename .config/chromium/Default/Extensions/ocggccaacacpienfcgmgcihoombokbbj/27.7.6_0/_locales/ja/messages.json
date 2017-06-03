@@ -1,0 +1,1033 @@
+{
+   "add_new_dial_dialog_apply": {
+      "message": "保存する"
+   },
+   "add_new_dial_dialog_close": {
+      "message": "キャンセル"
+   },
+   "add_new_dial_dialog_group_name_require": {
+      "message": "グループ名は必須です"
+   },
+   "add_new_dial_dialog_name_require": {
+      "message": "名称は必須です"
+   },
+   "add_new_dial_dialog_title": {
+      "message": "新しいダイヤルを追加する"
+   },
+   "add_new_dial_dialog_url_require": {
+      "message": "URLは必須です"
+   },
+   "add_new_dial_field_group": {
+      "message": "グループ"
+   },
+   "add_new_dial_field_groupName": {
+      "message": "名称"
+   },
+   "add_new_dial_field_name": {
+      "message": "名称"
+   },
+   "add_new_dial_field_url": {
+      "message": "URL"
+   },
+   "add_new_dial_text_groupName": {
+      "message": "新しいグループ"
+   },
+   "add_new_group_dialog_apply": {
+      "message": "保存する"
+   },
+   "add_new_group_dialog_close": {
+      "message": "キャンセルする"
+   },
+   "add_new_group_dialog_name_require": {
+      "message": "名称は必須です"
+   },
+   "add_new_group_dialog_title": {
+      "message": "新しいグループを追加する"
+   },
+   "add_new_group_field_name": {
+      "message": "名称"
+   },
+   "add_user_flixel_btn": {
+      "message": "オリジナルのライブ写真も作成できます"
+   },
+   "appDesc": {
+      "message": "新しいライブのタブページ：お使いのブラウザで時計、To Doリスト、数百種類の実物のような写真をカスタマイズしましょう。"
+   },
+   "appName": {
+      "message": "Live Start Page - まるで実物のような壁紙"
+   },
+   "appShort": {
+      "message": "新規タブページ"
+   },
+   "delete_group_dialog_apply": {
+      "message": "削除する"
+   },
+   "delete_group_dialog_body_1": {
+      "message": "このグループの短縮ダイヤルが存在します。"
+   },
+   "delete_group_dialog_body_2": {
+      "message": "ほんとうにこのグループを削除してもよろしいですか？"
+   },
+   "delete_group_dialog_close": {
+      "message": "キャンセル"
+   },
+   "delete_group_dialog_title": {
+      "message": "アクションを承認する"
+   },
+   "edit_dial_dialog_title": {
+      "message": "ダイヤルを編集する"
+   },
+   "options_application_rating_popup_item_already": {
+      "message": "完了済み"
+   },
+   "options_application_rating_popup_item_awesome": {
+      "message": "最高！"
+   },
+   "options_application_rating_popup_item_bad": {
+      "message": "悪い"
+   },
+   "options_application_rating_popup_item_better": {
+      "message": "まあまあ"
+   },
+   "options_application_rating_popup_title_mark": {
+      "message": "ラブ　リブ　スタート　ページ？　評価して下さい！"
+   },
+   "options_application_rating_popup_title_thanks": {
+      "message": "レビューをお書きください。お客様のレビューは当社にとって大変重要です。宜しくお願いいたします！"
+   },
+   "options_application_weather_city": {
+      "message": "ダブルクリックで変更"
+   },
+   "options_application_weather_error_text_location": {
+      "message": "位置情報を取得できるように設定して下さい又は、"
+   },
+   "options_application_weather_error_text_location_placeholder": {
+      "message": "地名を入力"
+   },
+   "options_application_weather_intro_text": {
+      "message": "マイ・ウェザーを表示"
+   },
+   "options_application_weather_location_current": {
+      "message": "現在地を入手"
+   },
+   "options_bookmarks_popup_close": {
+      "message": "二度と表示しない"
+   },
+   "options_bookmarks_popup_hide": {
+      "message": "閉じる"
+   },
+   "options_bookmarks_popup_title": {
+      "message": "ブックマーク バーの使用方法："
+   },
+   "options_header_buttons_close_settings": {
+      "description": "#fixed",
+      "message": "設定を閉じる"
+   },
+   "options_header_buttons_control_settings": {
+      "description": "#fixed",
+      "message": "設定を行う"
+   },
+   "options_header_buttons_feedback": {
+      "description": "#fixed",
+      "message": "フィードバック"
+   },
+   "options_header_buttons_help": {
+      "description": "#fixed",
+      "message": "よくある質問"
+   },
+   "options_header_buttons_select_favorite_bg": {
+      "description": "#fixed",
+      "message": "お気に入り"
+   },
+   "options_header_buttons_select_live_bg": {
+      "description": "#fixed",
+      "message": "背景を選択"
+   },
+   "options_header_title": {
+      "description": "#fixed",
+      "message": "Live Start Page - 設定"
+   },
+   "options_meta_title": {
+      "message": "設定"
+   },
+   "options_random_mode_is_active_notice": {
+      "message": "注：お気に入りのランダムモードがオンになっています"
+   },
+   "options_refresh_themes_list_error": {
+      "message": "エラーが発生しました。利用可能な背景のリストを取得できません。ページを更新してみてください。"
+   },
+   "options_relax_popup_body_bottom_text_1": {
+      "message": "毎日の集中力量をゲットしましょう。"
+   },
+   "options_relax_popup_body_bottom_text_2": {
+      "message": "心をリラックスして、集中力を取り戻しましょう。"
+   },
+   "options_relax_popup_body_bottom_text_3": {
+      "message": "美しいシーンをお楽しみください。"
+   },
+   "options_relax_popup_body_bottom_tip": {
+      "message": "ヒント：F11キーを押して、入力またはフルスクリーンモードを終了してください。"
+   },
+   "options_relax_popup_body_top_text": {
+      "message": "瞑想モードは、一日を通じて生産性を高めるために役立ちます。"
+   },
+   "options_relax_popup_close": {
+      "message": "二度と表示しない"
+   },
+   "options_relax_popup_hide": {
+      "message": "さあ、はじめましょう"
+   },
+   "options_relax_popup_title": {
+      "message": "さあ、はじめましょう"
+   },
+   "options_settings_apps_link_display": {
+      "message": "アプリのリンクを表示する"
+   },
+   "options_settings_bottom_panel": {
+      "message": "ボトム パネル"
+   },
+   "options_settings_clock_advanced_href": {
+      "message": "高度"
+   },
+   "options_settings_clock_background": {
+      "message": "背景"
+   },
+   "options_settings_clock_background_dark": {
+      "message": "暗い"
+   },
+   "options_settings_clock_background_dark_long": {
+      "message": "暗い 長い"
+   },
+   "options_settings_clock_background_light": {
+      "message": "明るい"
+   },
+   "options_settings_clock_background_light_long": {
+      "message": "明るい 長い"
+   },
+   "options_settings_clock_background_none": {
+      "message": "なし"
+   },
+   "options_settings_clock_background_opacity": {
+      "message": "背景の不透明度"
+   },
+   "options_settings_clock_basic_href": {
+      "message": "基本"
+   },
+   "options_settings_clock_color_text_ampm_label": {
+      "message": "AM/PM："
+   },
+   "options_settings_clock_color_text_border_line": {
+      "message": "境界線："
+   },
+   "options_settings_clock_color_text_digit_bg": {
+      "message": "数字の背景："
+   },
+   "options_settings_clock_color_text_done_line": {
+      "message": "円の完了線："
+   },
+   "options_settings_clock_color_text_h": {
+      "message": "時計の色："
+   },
+   "options_settings_clock_color_text_label": {
+      "message": "ラベル："
+   },
+   "options_settings_clock_color_text_time": {
+      "message": "数字："
+   },
+   "options_settings_clock_color_text_total_line": {
+      "message": "円の全ての線："
+   },
+   "options_settings_clock_font_bold": {
+      "message": "数字のフォント 太字"
+   },
+   "options_settings_clock_format": {
+      "message": "時刻の形式"
+   },
+   "options_settings_clock_format_label": {
+      "message": "AM/PMを表示"
+   },
+   "options_settings_clock_opacity": {
+      "message": "時計の不透明度"
+   },
+   "options_settings_clock_scheme_dark": {
+      "message": "暗い"
+   },
+   "options_settings_clock_scheme_default": {
+      "message": "デフォルト"
+   },
+   "options_settings_clock_scheme_light": {
+      "message": "明るい"
+   },
+   "options_settings_clock_seconds_show": {
+      "message": "秒を表示"
+   },
+   "options_settings_clock_show": {
+      "message": "時計を表示"
+   },
+   "options_settings_clock_title": {
+      "message": "時計"
+   },
+   "options_settings_clock_type": {
+      "message": "時計の種類"
+   },
+   "options_settings_clock_type_0": {
+      "message": "シンプル"
+   },
+   "options_settings_clock_type_10": {
+      "message": "ボード"
+   },
+   "options_settings_clock_type_3": {
+      "message": "デジタル"
+   },
+   "options_settings_clock_type_5": {
+      "message": "スタイル"
+   },
+   "options_settings_clock_type_6": {
+      "message": "フリップ"
+   },
+   "options_settings_clock_type_7": {
+      "message": "上にスライド"
+   },
+   "options_settings_clock_type_9": {
+      "message": "円"
+   },
+   "options_settings_clock_visible_label": {
+      "message": "単位のラベルを表示"
+   },
+   "options_settings_dials_columns_count": {
+      "message": "ダイヤル文字列の最大数"
+   },
+   "options_settings_page_bottom_panel_opacity": {
+      "message": "パネルの不透明度"
+   },
+   "options_settings_page_top_panel": {
+      "message": "トップ パネル"
+   },
+   "options_settings_parallax_enable": {
+      "message": "視差効果を有効にする"
+   },
+   "options_settings_parallax_enable_notice": {
+      "message": "（注：性能を向上させるためには、消して下さい）"
+   },
+   "options_settings_parallax_strength": {
+      "message": "視差効果の強さ"
+   },
+   "options_settings_parallax_subtitle": {
+      "message": "(ダイナミック バックグラウンド)"
+   },
+   "options_settings_parallax_title": {
+      "message": "背景の視差"
+   },
+   "options_settings_popular_group_show": {
+      "message": "グループを表示する"
+   },
+   "options_settings_random_themes_enable_notice": {
+      "message": "バックグラウンドをランダムに表示する(ダウンロードのみ)"
+   },
+   "options_settings_relax_enable": {
+      "message": "瞑想ボタンを表示する"
+   },
+   "options_settings_relax_title": {
+      "message": "瞑想"
+   },
+   "options_settings_search_form_display": {
+      "message": "検索を許可する"
+   },
+   "options_settings_search_form_provider": {
+      "message": "で検索"
+   },
+   "options_settings_search_open_type": {
+      "message": "で検索を開く"
+   },
+   "options_settings_speed_dial_count": {
+      "message": "ダイヤル数"
+   },
+   "options_settings_speed_dial_count_max": {
+      "message": "最大"
+   },
+   "options_settings_speed_dial_count_max_description": {
+      "message": "グループ向け"
+   },
+   "options_settings_speed_dial_generate_type": {
+      "message": "ダイヤル生成のしかた"
+   },
+   "options_settings_speed_dial_opacity": {
+      "message": "短縮ダイヤルの不透明度"
+   },
+   "options_settings_speed_dial_open_type": {
+      "message": "でダイヤルを開く"
+   },
+   "options_settings_speed_dial_open_type_background": {
+      "message": "背景タブ"
+   },
+   "options_settings_speed_dial_open_type_current": {
+      "message": "現在のタブ"
+   },
+   "options_settings_speed_dial_open_type_new": {
+      "message": "新規タブ"
+   },
+   "options_settings_speed_dial_show": {
+      "message": "短縮ダイヤルを表示"
+   },
+   "options_settings_speed_dial_title": {
+      "message": "短縮ダイヤル"
+   },
+   "options_settings_speed_search_opacity": {
+      "message": "検索フォームの不透明度"
+   },
+   "options_settings_speed_search_title": {
+      "message": "検索フォーム"
+   },
+   "options_settings_themes_sort_new": {
+      "message": "最新"
+   },
+   "options_settings_themes_sort_popular": {
+      "message": "人気があるアイテム"
+   },
+   "options_settings_todo_position": {
+      "message": "サイズと位置をリセット"
+   },
+   "options_settings_todo_position_btn": {
+      "message": "リセット"
+   },
+   "options_settings_todo_show": {
+      "message": "タスクを表示"
+   },
+   "options_settings_todo_title": {
+      "message": "タスク"
+   },
+   "options_settings_weather_background_opacity": {
+      "message": "天気の不透明度"
+   },
+   "options_settings_weather_background_show": {
+      "message": "背景を表示"
+   },
+   "options_settings_weather_location": {
+      "message": "現在地"
+   },
+   "options_settings_weather_location_block": {
+      "message": "お使いのブラウザーで、位置情報を取得できるように設定して下さい"
+   },
+   "options_settings_weather_location_block_text": {
+      "message": "現在地を見つけれません。お使いのブラウザーで、位置情報を取得できるように設定して下さい。"
+   },
+   "options_settings_weather_location_cancel": {
+      "message": "キャンセル"
+   },
+   "options_settings_weather_location_change": {
+      "message": "変更"
+   },
+   "options_settings_weather_location_img_title": {
+      "message": "現在地を入手"
+   },
+   "options_settings_weather_location_placeholder": {
+      "message": "あなたの所在地を入力"
+   },
+   "options_settings_weather_location_set": {
+      "message": "適用する"
+   },
+   "options_settings_weather_location_unknown": {
+      "message": "不明"
+   },
+   "options_settings_weather_opacity": {
+      "message": "天気の不透明度"
+   },
+   "options_settings_weather_reset_position": {
+      "message": "位置情報をリセット"
+   },
+   "options_settings_weather_reset_position_btn": {
+      "message": "リセット"
+   },
+   "options_settings_weather_show": {
+      "message": "天気を表示"
+   },
+   "options_settings_weather_title": {
+      "message": "天気"
+   },
+   "options_settings_weather_unit": {
+      "message": "温度単位"
+   },
+   "options_settings_weather_unit_show": {
+      "message": "温度単位を表示"
+   },
+   "options_share_social_description": {
+      "message": "ギャラリーから1000種類以上のテーマにアクセスしていただけます。\u003Cbr>また、Live Start Pageについてご紹介いただければ幸いです！"
+   },
+   "options_share_social_popup_btn_unlock": {
+      "description": "#fixed",
+      "message": "次の項目でアンロックする"
+   },
+   "options_share_social_popup_text_1": {
+      "message": "こんにちは！Live Start Pageを使用していただきありがとうございます。"
+   },
+   "options_share_social_popup_text_2": {
+      "message": "私どものプロジェクトをご支援いただけますと幸いです。\u003Cbr> 各ソーシャルネットワークで、Live Start Pageをお友達とシェアしていただけますと幸いです。"
+   },
+   "options_share_social_popup_text_3": {
+      "message": "一度シェアしていただけますと、さらに1000種類以上の壁紙をご利用いただけます。"
+   },
+   "options_share_social_popup_text_4": {
+      "message": "敬具、Live Start Pageチームより。"
+   },
+   "options_share_social_popup_title": {
+      "message": "Live Start Page - Chrome向けライブ壁紙"
+   },
+   "options_share_social_title": {
+      "message": "Live Start Page"
+   },
+   "options_share_social_url": {
+      "message": "英語"
+   },
+   "options_speed_dial_generate_type_autopreview_text": {
+      "message": "自動プレビュー+テキスト"
+   },
+   "options_speed_dial_generate_type_gallery_autopreview_text": {
+      "message": "ギャラリー+自動プレビュー+テキスト"
+   },
+   "options_speed_dial_generate_type_gallery_text": {
+      "message": "ギャラリー+テキスト"
+   },
+   "options_speed_dial_generate_type_text": {
+      "message": "テキスト"
+   },
+   "options_tabs_content_flixel_bg_notice": {
+      "message": "ギャラリー提供元："
+   },
+   "options_tabs_content_flixer_load_button": {
+      "message": "さらに読み込む"
+   },
+   "options_tabs_content_live_bg_notice": {
+      "message": "注：ライブ背景はコンピュータの動きが遅くなる場合があります。パフォーマンスを向上させるには、低品質のライブ背景を有効にしてください"
+   },
+   "options_tabs_content_live_theme_notice": {
+      "message": "近日公開..."
+   },
+   "options_tabs_content_loader_text": {
+      "message": "読み込み中…"
+   },
+   "options_tabs_delete_from_favorite": {
+      "message": "本当にお気に入りから削除しますか？"
+   },
+   "options_tabs_delete_from_favorite_close": {
+      "message": "いいえ"
+   },
+   "options_tabs_delete_from_favorite_confirm": {
+      "message": "はい"
+   },
+   "options_tabs_download_flixer_bg_error": {
+      "message": "モーション背景のダウンロード中に問題が発生しました。後ほどもう一度お試しください。"
+   },
+   "options_tabs_download_live_bg_error": {
+      "message": "ライブ背景のダウンロード中に問題が発生しました。後ほどもう一度お試しください。"
+   },
+   "options_tabs_download_static_bg_error": {
+      "message": "静的背景のダウンロード中に問題が発生しました。後ほどもう一度お試しください。"
+   },
+   "options_tabs_favorite_no_bg": {
+      "message": "お気に入りに追加するには、最初に好きなバックグラウンドに印をつけてください"
+   },
+   "options_tabs_item_buttons_active": {
+      "description": "#fixed",
+      "message": "アクティブ"
+   },
+   "options_tabs_item_buttons_active_resolution_1080p_live_bg": {
+      "message": "最高品質、動きは遅い\n（ラグが発生する可能性あり）"
+   },
+   "options_tabs_item_buttons_active_resolution_480p_live_bg": {
+      "message": "最高のパフォーマンス、\n低品質"
+   },
+   "options_tabs_item_buttons_active_resolution_720p_live_bg": {
+      "message": "推奨。\n優れたパフォーマンス、\n良質"
+   },
+   "options_tabs_item_buttons_active_theme": {
+      "description": "#fixed",
+      "message": "アクティブ"
+   },
+   "options_tabs_item_buttons_active_title_flixer_bg": {
+      "message": "アクティブなモーション写真の背景"
+   },
+   "options_tabs_item_buttons_active_title_live_bg": {
+      "message": "アクティブなライブ背景"
+   },
+   "options_tabs_item_buttons_active_title_static_bg": {
+      "message": "アクティブな静的背景"
+   },
+   "options_tabs_item_buttons_active_title_theme": {
+      "message": "アクティブなライブテーマ"
+   },
+   "options_tabs_item_buttons_control_settings": {
+      "description": "#fixed",
+      "message": "設定を行う"
+   },
+   "options_tabs_item_buttons_disable": {
+      "description": "#fixed",
+      "message": "無効にする"
+   },
+   "options_tabs_item_buttons_disable_title_flixel_bg": {
+      "message": "モーション写真を無効にする"
+   },
+   "options_tabs_item_buttons_disable_title_live_bg": {
+      "message": "ライブ背景を無効にする"
+   },
+   "options_tabs_item_buttons_disable_title_static_bg": {
+      "message": "静的背景を無効にする"
+   },
+   "options_tabs_item_buttons_download": {
+      "description": "#fixed",
+      "message": "ダウンロード中"
+   },
+   "options_tabs_item_buttons_download_content": {
+      "description": "#fixed",
+      "message": "コンテンツをダウンロード中"
+   },
+   "options_tabs_item_buttons_download_flixel": {
+      "description": "#fixed",
+      "message": "インストール中"
+   },
+   "options_tabs_item_buttons_download_flixel_content": {
+      "description": "#fixed",
+      "message": "コンテンツをインストール中"
+   },
+   "options_tabs_item_buttons_enable": {
+      "description": "#fixed",
+      "message": "有効にする"
+   },
+   "options_tabs_item_buttons_enable_title_flixer_bg": {
+      "message": "モーション写真の背景をオンにする"
+   },
+   "options_tabs_item_buttons_enable_title_live_bg": {
+      "message": "ライブ背景をオンにする"
+   },
+   "options_tabs_item_buttons_enable_title_static_bg": {
+      "message": "静的背景をオンにする"
+   },
+   "options_tabs_item_buttons_favorite": {
+      "message": "お気に入りに追加する"
+   },
+   "options_tabs_item_buttons_favorite_remove": {
+      "message": "お気に入りから削除する"
+   },
+   "options_tabs_item_buttons_install": {
+      "description": "#fixed",
+      "message": "インストール"
+   },
+   "options_tabs_item_buttons_install_flixer": {
+      "description": "#fixed",
+      "message": "インストール"
+   },
+   "options_tabs_item_buttons_install_select_quality": {
+      "description": "#fixed",
+      "message": "品質を選択してください"
+   },
+   "options_tabs_item_buttons_install_title_flixer_bg": {
+      "message": "まずはインストールする必要があります"
+   },
+   "options_tabs_item_buttons_install_title_live_bg": {
+      "message": "まずはインストールする必要があります"
+   },
+   "options_tabs_item_buttons_install_title_static_bg": {
+      "message": "まずはインストールする必要があります"
+   },
+   "options_tabs_item_buttons_install_title_theme": {
+      "message": "まずはChromeウェブストアからこのテーマをダウンロードする必要があります"
+   },
+   "options_tabs_item_buttons_more_flixel_content_title": {
+      "message": "http://flixel.comからさらに背景を読み込む"
+   },
+   "options_tabs_item_buttons_restore": {
+      "description": "#fixed",
+      "message": "テーマを復元"
+   },
+   "options_tabs_item_buttons_restore_title": {
+      "message": "Chromeのデフォルトのテーマを復元"
+   },
+   "options_tabs_item_buttons_view_live_bg": {
+      "description": "#fixed",
+      "message": "テーマを表示"
+   },
+   "options_tabs_item_buttons_view_title_flixel_bg": {
+      "message": "新規タブページ上のアクティブなモーション背景を表示"
+   },
+   "options_tabs_item_buttons_view_title_live_bg": {
+      "message": "新規タブページ上のアクティブなライブ背景を表示"
+   },
+   "options_tabs_item_chanel_description_text_flixel_bg": {
+      "message": "作成者："
+   },
+   "options_tabs_item_chanel_description_title_flixel_bg": {
+      "message": "チャンネルに移動"
+   },
+   "options_tabs_item_disable": {
+      "description": "#fixed",
+      "message": "背景を無効にする"
+   },
+   "options_tabs_item_note_random_background_on_options_page": {
+      "message": "注：お気に入りとしてマークされたバックグラウンドのみ、ランダムに表示されます"
+   },
+   "options_tabs_item_restore": {
+      "description": "#fixed",
+      "message": "デフォルトのテーマ"
+   },
+   "options_tabs_item_tiles_theme_title_live_bg": {
+      "message": "このライブ背景は、既にダウンロード済みです"
+   },
+   "options_tabs_item_tiles_theme_title_live_bg_button": {
+      "message": "ビデオ"
+   },
+   "options_tabs_item_tiles_theme_title_static_bg": {
+      "message": "この静的背景は、既にダウンロード済みです"
+   },
+   "options_tabs_item_tiles_theme_title_static_bg_button": {
+      "message": "画像"
+   },
+   "options_tabs_title_flixel_bg": {
+      "message": "実物のようなモーション写真"
+   },
+   "options_tabs_title_live_bg": {
+      "message": "ライブ背景"
+   },
+   "options_tabs_title_live_theme": {
+      "message": "ライブテーマ"
+   },
+   "options_tabs_title_static_bg": {
+      "message": "静的背景"
+   },
+   "page_bottom_notice_settings": {
+      "description": "#fixed",
+      "message": "\u003Cb>設定\u003C/b>をクリックしてライブ背景を変更します"
+   },
+   "page_clock_hour_label": {
+      "description": "#fixed",
+      "message": "時間"
+   },
+   "page_clock_hours_label": {
+      "description": "#fixed",
+      "message": "時間"
+   },
+   "page_clock_minute_label": {
+      "description": "#fixed",
+      "message": "分"
+   },
+   "page_clock_minutes_label": {
+      "description": "#fixed",
+      "message": "分"
+   },
+   "page_clock_second_label": {
+      "description": "#fixed",
+      "message": "秒"
+   },
+   "page_clock_seconds_label": {
+      "description": "#fixed",
+      "message": "秒"
+   },
+   "page_created_link": {
+      "message": "作成者："
+   },
+   "page_dial_context_menu_copy_url_dial": {
+      "message": "URLをコピーする"
+   },
+   "page_dial_context_menu_delete_dial": {
+      "message": "ダイヤルを非表示にする"
+   },
+   "page_dial_context_menu_edit_dial": {
+      "message": "ダイヤルを編集する"
+   },
+   "page_dial_context_menu_gallery_thumb": {
+      "message": "ギャラリー サムネイル"
+   },
+   "page_dial_context_menu_open_background_thumb": {
+      "message": "バックグラウンドタブで開く"
+   },
+   "page_dial_context_menu_open_current_thumb": {
+      "message": "現在のタブで開く"
+   },
+   "page_dial_context_menu_open_new_thumb": {
+      "message": "新しいタブで開く"
+   },
+   "page_dial_context_menu_refresh_dial": {
+      "message": "リフレッシュする"
+   },
+   "page_dial_context_menu_screen_thumb": {
+      "message": "画面 サムネイル"
+   },
+   "page_dial_context_menu_text_thumb": {
+      "message": "テキスト サムネイル"
+   },
+   "page_dial_thumb_load_gallery_problem": {
+      "message": "このウェブサイト向けの画像はありません"
+   },
+   "page_dials_default_group_title": {
+      "message": "デフォルト"
+   },
+   "page_dials_new_group_title": {
+      "message": "新しいグループを追加する"
+   },
+   "page_dials_notification_message": {
+      "message": "\u003Cb>ダブルクリック\u003C/b>して短縮ダイヤルを表示します"
+   },
+   "page_dials_popular_group_title": {
+      "message": "最もアクセス数の多い項目"
+   },
+   "page_done_todo_list_description": {
+      "message": "お疲れ様でした！"
+   },
+   "page_done_todo_list_title": {
+      "message": "すべて完了"
+   },
+   "page_empty_todo_list_description": {
+      "message": "タスクを追加して始めます"
+   },
+   "page_empty_todo_list_title": {
+      "message": "タスクがありません"
+   },
+   "page_error_flixer_bg_not_found": {
+      "message": "モーション背景が見つかりません"
+   },
+   "page_error_live_bg_load_problem": {
+      "message": "ライブ背景の読み込み中に問題が発生しました"
+   },
+   "page_error_live_bg_not_found": {
+      "message": "ライブ背景が見つかりません"
+   },
+   "page_error_static_bg_load_problem": {
+      "message": "静的背景の読み込み中に問題が発生しました"
+   },
+   "page_error_static_bg_not_found": {
+      "message": "静的背景が見つかりません"
+   },
+   "page_error_theme_config_not_found": {
+      "message": "テーマ設定が見つかりません"
+   },
+   "page_footer_description_close": {
+      "message": "今後このメッセージを表示しない"
+   },
+   "page_footer_rate_us": {
+      "message": "評価して下さい！"
+   },
+   "page_footer_settings_link": {
+      "message": "設定"
+   },
+   "page_footer_themes_link": {
+      "message": "テーマ"
+   },
+   "page_footer_toggle_display_links_title_hide": {
+      "message": "パネルを非表示にする"
+   },
+   "page_footer_toggle_display_links_title_show": {
+      "message": "パネルを表示する"
+   },
+   "page_footer_visible_dials_link_off": {
+      "message": "短縮ダイヤルを隠す"
+   },
+   "page_footer_visible_dials_link_on": {
+      "message": "短縮ダイヤルを表示"
+   },
+   "page_group_context_menu_delete": {
+      "message": "グループを削除する"
+   },
+   "page_group_context_menu_rename": {
+      "message": "名称を変更する"
+   },
+   "page_header_bookmarks": {
+      "message": "ブックマーク バーを表示"
+   },
+   "page_header_bookmarks_help_img": {
+      "message": "英語"
+   },
+   "page_header_links_apps": {
+      "message": "アプリ"
+   },
+   "page_header_links_apps_img": {
+      "message": "Chromeのアプリページ"
+   },
+   "page_meta_description": {
+      "message": "Live Start Page - 感動的な毎日を体験…"
+   },
+   "page_meta_keywords": {
+      "message": "アプリケーション、ライブ、スタート、ページ、ブラウザ"
+   },
+   "page_meta_title": {
+      "message": "新規タブ"
+   },
+   "page_new_dial_tooltip": {
+      "message": "新しいダイヤルを追加する"
+   },
+   "page_privacy_link": {
+      "message": "個人情報保護方針"
+   },
+   "page_relax_done_btn": {
+      "message": "完了 (ESC)"
+   },
+   "page_relax_start_btn": {
+      "message": "瞑想を開始する"
+   },
+   "page_relax_start_title": {
+      "message": "リラックスして集中力を取り戻しましょう！どうぞ、ライブ写真をお楽しみください"
+   },
+   "page_search_form_button_text": {
+      "description": "#fixed",
+      "message": "検索"
+   },
+   "page_search_placeholder": {
+      "message": "検索内容を入力してください…"
+   },
+   "page_sidebar_add_group": {
+      "message": "グループを追加する"
+   },
+   "page_sidebar_title": {
+      "message": "ダイヤルグループ"
+   },
+   "page_sidebar_toggle_button_title_off": {
+      "message": "サイドバーを非表示にする"
+   },
+   "page_sidebar_toggle_button_title_on": {
+      "message": "サイドバーを表示する"
+   },
+   "page_speed_dials_close_title": {
+      "message": "このページでは表示しない"
+   },
+   "page_speed_dials_settings_title": {
+      "message": "設定"
+   },
+   "page_terms_link": {
+      "message": "利用規約"
+   },
+   "page_tiles_remove_text": {
+      "message": "サムネイルが削除されました"
+   },
+   "page_tiles_restore_text": {
+      "message": "元に戻す"
+   },
+   "page_todo_footer_input": {
+      "description": "#fixed",
+      "message": "新規タスクを入力してください"
+   },
+   "page_todo_footer_input_submit": {
+      "description": "#fixed",
+      "message": "新規追加"
+   },
+   "page_todo_header_counter_text": {
+      "description": "#fixed",
+      "message": "完了"
+   },
+   "page_todo_header_toggle": {
+      "description": "#fixed",
+      "message": "完了したタスク"
+   },
+   "page_todo_link": {
+      "message": "タスク"
+   },
+   "page_voice_search_form_button_text": {
+      "message": "音声検索"
+   },
+   "popup_add_user_flixel_body_code": {
+      "message": "クーポンコードを使用する \u003Cspan class='popup-add-user-flixel-body-app-name'>LiveStart\u003C/span>を使って\u003Cspan class='popup-add-user-flixel-body-app-discount'>10%\u003C/span>割引をゲットしましょう！"
+   },
+   "popup_add_user_flixel_body_link_how_create": {
+      "message": "Cinemagraphビデオを作成する方法"
+   },
+   "popup_add_user_flixel_body_link_how_create_fb": {
+      "message": "Facebook向けCinemagraphビデオプロフィールを作成する方法"
+   },
+   "popup_add_user_flixel_body_links_text": {
+      "message": "クイックリンク："
+   },
+   "popup_add_user_flixel_body_text": {
+      "message": "Cinemagraphsは、静止画撮影とビデオ撮影の中間に位置する、エキサイティングな新視覚媒体です。 Flixel Cinemagraph Proを使えば、簡単に作品を制作していただけます。"
+   },
+   "popup_add_user_flixel_link_cloud": {
+      "message": "Flixelクラウド"
+   },
+   "popup_add_user_flixel_link_iphone": {
+      "message": "iPhone用Flixel"
+   },
+   "popup_add_user_flixel_link_mac": {
+      "message": "Mac用Flixel"
+   },
+   "popup_add_user_flixel_title": {
+      "message": "Flixelを使用して、オリジナルのライブ写真を作成しましょう"
+   },
+   "popup_feedback_dialog_button_submit": {
+      "message": "Eメールを送信"
+   },
+   "popup_feedback_dialog_field_error_format_email_text": {
+      "message": "無効なメール形式です"
+   },
+   "popup_feedback_dialog_field_error_required_email_text": {
+      "message": "Eメールアドレスは必須です"
+   },
+   "popup_feedback_dialog_field_error_required_subject_text": {
+      "message": "件名は必須です"
+   },
+   "popup_feedback_dialog_field_error_too_low_subject_text": {
+      "message": "件名が短すぎます。最低6文字入力してください"
+   },
+   "popup_feedback_dialog_field_required_text": {
+      "message": "（必須）"
+   },
+   "popup_feedback_dialog_label_description": {
+      "message": "内容"
+   },
+   "popup_feedback_dialog_label_email": {
+      "message": "Eメールアドレス"
+   },
+   "popup_feedback_dialog_label_subject": {
+      "message": "件名"
+   },
+   "popup_feedback_dialog_success_button_text": {
+      "message": "閉じる"
+   },
+   "popup_feedback_dialog_success_text": {
+      "message": "フィードバックをお寄せいただきありがとうございます！"
+   },
+   "popup_feedback_dialog_title": {
+      "message": "当社にバグやご提案をお送りください"
+   },
+   "popup_live_bg_apply": {
+      "description": "#fixed",
+      "message": "有効にする"
+   },
+   "popup_live_bg_cancel": {
+      "description": "#fixed",
+      "message": "表示しない"
+   },
+   "popup_live_bg_text": {
+      "description": "#fixed",
+      "message": "ライブ背景をダウンロード中…"
+   },
+   "popup_live_bg_title": {
+      "description": "#fixed",
+      "message": "ライブ背景をダウンロード"
+   },
+   "popup_restore_default_theme_open_settings": {
+      "message": "Chromeの設定を開くか、このリンクにアクセスし、"
+   },
+   "popup_restore_default_theme_open_settings_text2": {
+      "message": "「デフォルトのテーマを復元」ボタンをクリックします。"
+   },
+   "popup_restore_default_theme_title": {
+      "message": "Chromeのデフォルトのテーマを復元"
+   },
+   "popup_static_bg_updating": {
+      "description": "#fixed",
+      "message": "背景を更新中…"
+   },
+   "popup_welcome_options_body_text1": {
+      "message": "まだライブ背景をお持ちでないようです。数百種類ある背景から選んでお楽しみください！"
+   },
+   "popup_welcome_options_body_text2": {
+      "message": "フィードバックボタンを使用して、いつでもお気軽に当社までご連絡ください。"
+   },
+   "popup_welcome_options_not_show": {
+      "message": "今後このメッセージを表示しない"
+   },
+   "popup_welcome_options_title": {
+      "message": "Live Start Pageへようこそ"
+   },
+   "rename_group_dialog_title": {
+      "message": "グループの名前を変更する"
+   },
+   "welcome_options_close": {
+      "message": "閉じる"
+   }
+}

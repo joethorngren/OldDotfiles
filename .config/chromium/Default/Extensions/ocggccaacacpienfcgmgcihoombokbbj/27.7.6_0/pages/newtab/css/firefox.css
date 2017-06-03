@@ -1,0 +1,109 @@
+.notloaded *{
+    display: none!important;
+}
+
+.notloaded #loading{
+    display: block!important;
+}
+
+.mv-settings {
+    background-image: url(img/buttons/tiles/settings.png);
+    background-color: transparent!important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 15px;
+}
+
+.mv-close {
+    background-image: url(img/buttons/tiles/close.png);
+    background-color: transparent!important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 10px;
+}
+
+.mv-restore-close {
+    background-image: url(img/buttons/tiles/close.png);
+    background-color: transparent!important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 10px;
+}
+
+.mv-title {
+    //background: linear-gradient(to right, #000, #000, 156px, transparent);
+}
+
+.mv-right-buttons {
+    //background: linear-gradient(to left, #000, #000, 57px, transparent);
+}
+
+.mv-host-name span {
+    //background: linear-gradient(to right, #000, #000, 192px, transparent);
+}
+
+.mv-host-domain {
+    //background: linear-gradient(to right, #000, #000, 188px, transparent);
+}
+
+.search-button {
+    background: linear-gradient(to top, #4d90fe, #4787ed);
+}
+
+#header-settings-link,
+#header-bookmarks {
+    display: none!important;
+}
+
+#search-input {
+    margin-top: -1px;
+}
+
+.work-todo-list-item-remove {
+    line-height: 8px;
+}
+
+.mv-host-domain {
+    overflow: visible!important;
+}
+
+.ce-countdown--theme-7 {
+    width: 610px;
+    margin-top: 50px;
+    padding-top: 0!important;
+}
+
+.sidebar-container ul:not(.default-tab) {
+    margin-top: 5px!important;
+}
+
+.b-m-ibody {
+    overflow: visible!important;
+}
+
+#searchChoiseButton {
+    right: 10px!important;
+}
+
+.dials-no-background .mv-thumb.mv-thumb-image .thumbnail{
+    /*background-size: auto 100% !important;*/
+    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    margin-top: 0;
+}
+
+.dials-no-background .mv-thumb.mv-thumb-screen .thumbnail{
+    background-size: auto 100% !important;
+    
+}
+
+
+#weather-intro .intro-icon, #weather-intro #weather-intro-text{
+    display: inline-block;
+    vertical-align: super;
+}
+
+#focus-newtab .focus-check .focus-icon {
+    top: 55%!important;
+}

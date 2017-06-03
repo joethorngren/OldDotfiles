@@ -1,0 +1,22 @@
+{
+   "author": "Handsome.is",
+   "content_scripts": [ {
+      "css": [ "css/style.css" ],
+      "js": [ "js/libs/jquery.min.js", "js/libs/jquery-ui.min.js", "js/config.js", "js/settings.js", "js/helpers.js", "js/pop-over.js", "js/notification.js", "js/api.js", "js/plugins/inheritance.js", "js/init.js" ],
+      "matches": [ "https://trello.com/*" ]
+   } ],
+   "description": "Add support of Parent/Child dependencies in Trello projects.",
+   "homepage_url": "http://labs.handsome.is/trello/",
+   "icons": {
+      "128": "icons/icon_128.png",
+      "16": "icons/icon_16.png",
+      "48": "icons/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlr2I7wxymRLLjegnFCsy0Q/HK1f6t6db8++gpZNic3c9oR5IaZZDblt1LGKMjUpqRtIZ9CHUxDec2bYjDcP1Vvu2mTN9blj7po87yxRrSJd1K/MXTU6b7baf9LGDpG9hg2z24ITrfn21aia1xWHG0j7HDs4Frtuiq7XL1DQVUHJ0L9Iue5D7mos8jHF4VhJbiWhMNRUhCpvxXX+RPesCMjky3kAeRhWiqsGssx/KMRGqbVZA5DPeQdubLKHaF408SytS8vdPEUvB1h99dJ1xi3nt5f1WWRrmqFsvlBBYiXiMEPREUAHMQl2Js8clXf7+n26Vfd7KE8+hmXylTbSykwIDAQAB",
+   "manifest_version": 2,
+   "name": "Parent/Child Management for Trello",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "storage", "https://trello.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.8.0"
+}

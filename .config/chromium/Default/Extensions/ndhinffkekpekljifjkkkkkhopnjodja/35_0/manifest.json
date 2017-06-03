@@ -1,0 +1,38 @@
+{
+   "background": {
+      "scripts": [ "gc-background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "gc-feedly.png",
+         "38": "gc-feedly@2x.png"
+      },
+      "default_title": "feedly",
+      "name": "feedly"
+   },
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "js/10101_gc-enricher_5642.js" ],
+      "matches": [ "http://feedly.com/*", "http://sandbox.feedly.com/*", "http://cloud.feedly.com/*", "https://feedly.com/*", "https://cloud.feedly.com/*", "https://sandbox.feedly.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "extension/chromeMini.css" ],
+      "js": [ "extension/chromeMini.js" ],
+      "matches": [ "http://*/*" ]
+   } ],
+   "description": "The easiest way to add content to your feedly.",
+   "icons": {
+      "128": "feedly-128.png",
+      "16": "feedly-16.png",
+      "32": "feedly-32.png",
+      "48": "feedly-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+NvNN2i26wtX/a5soQkoDLTNcuQy2pe++2JzlY9D9gdmkcnXr6RvVd3VswtJg6hlkf6Gfl96VPEwuN5jO1XUWEhUzn98PLz1fvffb0aOWdw5FWsitp6STLLYPNchiwZ+tsJhLS9fWu4nggeQnEgdgqh3pmgUjxAXu0kKQeOKk7QIDAQAB",
+   "manifest_version": 2,
+   "name": "feedly Mini",
+   "options_page": "gc-options.htm",
+   "permissions": [ "background", "https://*.google.com/", "https://*.twitter.com/", "https://graph.facebook.com/", "https://www.google.com/reader/*", "https://www.google.com/accounts/ClientLogin", "https://www.googleapis.com/oauth2/*", "https://www.facebook.com/plugins/like.php*", "http://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "35",
+   "web_accessible_resources": [ "feedly-icon-48.png", "feedly-icon-black-48.png", "gc-options.htm", "extension/feedly-mini-add@2x.png", "extension/feedly-mini-twitter@2x.png", "extension/feedly-mini-facebook@2x.png", "extension/feedly-mini-email@2x.png", "extension/feedly-mini-evernote@2x.png", "extension/feedly-mini-save@2x.png", "extension/feedly-mini-tag@2x.png", "extension/feedly-mini-prefs@2x.png" ]
+}

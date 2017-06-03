@@ -1,0 +1,320 @@
+{
+   "AccountSettingsText": {
+      "message": "Paramètres du compte"
+   },
+   "AdobeFlashTooltip": {
+      "message": "Adobe Flash peut diminuer votre sécurité. Il n'est en effet pas garanti que les paramètres de proxy de votre navigateur soient respectés. Il est recommandé de bloquer Adobe Flash."
+   },
+   "AdsTrackersProtection": {
+      "message": "Protection contre les publicités, les traqueurs et logiciels malveillants"
+   },
+   "AuthFailMessage": {
+      "message": "Une possible raison pour cela est un changement de votre mot de passe sur le site web PIA pendant votre utilisation de l'extension Chrome de PIA."
+   },
+   "AuthFailTitle": {
+      "message": "Une erreur d'authentification s'est produite."
+   },
+   "AutoLoginURL": {
+      "message": "https://fra.privateinternetaccess.com/xpages/sign-in"
+   },
+   "BadResponseError": {
+      "message": "Échec de l'authentification à cause d'une erreur serveur inattendue. Veuillez réessayer ultérieurement."
+   },
+   "BlockAdobeFlash": {
+      "message": "Bloquer Adobe Flash"
+   },
+   "BlockBatteryAccess": {
+      "message": "Bloquer l'accès à la batterie"
+   },
+   "BlockBatteryAccessTooltip": {
+      "message": "Empêcher les sites web d'accéder aux informations relatives à la batterie de votre ordinateur."
+   },
+   "BlockCameraAccess": {
+      "message": "Bloquer l'accès à la caméra"
+   },
+   "BlockCameraAccessTooltip": {
+      "message": "Empêcher les sites web d'accéder à la caméra de votre ordinateur."
+   },
+   "BlockLocationAccess": {
+      "message": "Bloquer l'accès à l'emplacement"
+   },
+   "BlockLocationAccessTooltip": {
+      "message": "Empêchez les sites web d'accéder à vos informations d'emplacement physique."
+   },
+   "BlockMicrophoneAccess": {
+      "message": "Bloquer l'accès au micro"
+   },
+   "BlockMicrophoneAccessTooltip": {
+      "message": "Empêcher les sites web d'accéder au micro de votre ordinateur."
+   },
+   "CannotUsePIAMessage": {
+      "message": "Private Internet Access ne peut pas être utilisé, car une autre extension contrôle les paramètres de proxy de vos navigateurs."
+   },
+   "ChangeExtensionSettings": {
+      "message": "Paramètres de l'extension"
+   },
+   "CloseText": {
+      "message": "Fermer"
+   },
+   "ConnectionFailMessage": {
+      "message": "Vous avez peut-être perdu votre connexion à Internet, ou votre connexion s'est peut-être interrompue temporairement."
+   },
+   "ConnectionFailTitle": {
+      "message": "Une erreur de connexion s'est produite pendant la communication avec un proxy de Private Internet Access."
+   },
+   "CopiedToClipboard": {
+      "message": "Journal de débogage copié"
+   },
+   "CopyToClipboard": {
+      "message": "Copier le journal de débogage"
+   },
+   "CurrentRegionText": {
+      "message": "Région actuelle"
+   },
+   "DebugLog": {
+      "message": "Journal de débogage"
+   },
+   "DebugLogIsEmpty": {
+      "message": "Le journal de débogage est vide."
+   },
+   "DebugMode": {
+      "message": "Mode débogage"
+   },
+   "DebugModeTooltip": {
+      "message": "Afficher les messages de débogage dans le journal de débogage. Appuyez sur la touche « Ctrl », puis sur la touche « d » pour afficher la console de débogage."
+   },
+   "Developer": {
+      "message": "Développeur"
+   },
+   "JoinText": {
+      "message": "INSCRIVEZ-VOUS POUR OBTENIR UN COMPTE VPN"
+   },
+   "JoinURL": {
+      "message": "https://fra.privateinternetaccess.com/pages/buy-vpn/"
+   },
+   "LoadingText": {
+      "message": "Chargement"
+   },
+   "LoginText": {
+      "message": "Authentification"
+   },
+   "LogoutText": {
+      "message": "Déconnexion"
+   },
+   "MaceProtection": {
+      "message": "PIA MACE™"
+   },
+   "MaceTooltip": {
+      "message": "PIA MACE™ protège votre vie privée et votre sécurité en bloquant le contenu malveillant, les espions et les publicités."
+   },
+   "ManageExtensions": {
+      "message": "Gérer les extensions"
+   },
+   "NoAccountQuestion": {
+      "message": "Vous n'avez pas de compte ?"
+   },
+   "OffText": {
+      "message": "OFF"
+   },
+   "OfflineText": {
+      "message": "HORS-LIGNE"
+   },
+   "OnText": {
+      "message": "ON"
+   },
+   "PasswordPlaceholder": {
+      "message": "Mot de passe"
+   },
+   "PleaseWait": {
+      "message": "Chargement. Veuillez patienter."
+   },
+   "PluginLeakProtection": {
+      "message": "Bloquer les plugins natifs"
+   },
+   "Privacy": {
+      "message": "Confidentialité"
+   },
+   "ProxyBypassList": {
+      "message": "Liste de contournement"
+   },
+   "RegionLatency": {
+      "message": "Latence"
+   },
+   "RegionName": {
+      "message": "Nom"
+   },
+   "RememberMe": {
+      "message": "Se souvenir de moi"
+   },
+   "SaveProxyBypassList": {
+      "message": "Enregistrer"
+   },
+   "Security": {
+      "message": "Sécurité"
+   },
+   "SelectRegionText": {
+      "message": "Sélectionner une région"
+   },
+   "ServerError": {
+      "message": "Échec de l'authentification à cause d'une erreur serveur. Veuillez réessayer ultérieurement."
+   },
+   "SortBy": {
+      "message": "Trier par :"
+   },
+   "StatusText": {
+      "message": "État"
+   },
+   "SupportText": {
+      "message": "Aide et assistance"
+   },
+   "SupportURL": {
+      "message": "https://fra.privateinternetaccess.com/pages/client-support/"
+   },
+   "TimeoutError": {
+      "message": "Échec de l'identification en raison de l'expiration de la connexion. Veuillez vérifier votre connexion Internet."
+   },
+   "TooManyRequestsError": {
+      "message": "Trop de tentatives échouées de connexion. Veuillez réessayer plus tard."
+   },
+   "UnknownError": {
+      "message": "Échec de l'authentification à cause d'une erreur inconnue."
+   },
+   "UpgradeChromeMessage": {
+      "message": "Private Internet Access ne peut pas être utilisé car votre version de Chrome est obsolète. Veuillez passer à la version 48 de Chrome (ou une version plus récente.)"
+   },
+   "UseRegionLocale": {
+      "message": "Paramètres linguistiques et régionaux privés"
+   },
+   "UseRegionLocaleTooltip": {
+      "message": "Les paramètres linguistiques et régionaux par défaut de votre navigateur sont gardés confidentiels en étant remplacés par les paramètres linguistiques et régionaux de la région actuelle."
+   },
+   "UsernamePlaceholder": {
+      "message": "Nom d'utilisateur"
+   },
+   "WebRTCLeakProtection": {
+      "message": "Bloquer WebRTC"
+   },
+   "WebRTCTooltip": {
+      "message": "WebRTC peut diminuer votre sécurité. Il n'est en effet pas garanti que les paramètres de proxy de votre navigateur soient respectés. Il est recommandé de bloquer WebRTC."
+   },
+   "WrongUsernameAndPassword": {
+      "message": "Nom d'utilisateur et/ou mot de passe erronés."
+   },
+   "aus": {
+      "message": "AU Sydney"
+   },
+   "aus_melbourne": {
+      "message": "AU Melbourne"
+   },
+   "brazil": {
+      "message": "Brésil"
+   },
+   "ca": {
+      "message": "CA Montréal"
+   },
+   "ca_toronto": {
+      "message": "CA Toronto"
+   },
+   "denmark": {
+      "message": "Danemark"
+   },
+   "disabled": {
+      "message": "désactivé"
+   },
+   "enabled": {
+      "message": "activé"
+   },
+   "fi": {
+      "message": "Finlande"
+   },
+   "france": {
+      "message": "France"
+   },
+   "germany": {
+      "message": "Allemagne"
+   },
+   "hk": {
+      "message": "Hong Kong"
+   },
+   "in": {
+      "message": "Inde"
+   },
+   "ireland": {
+      "message": "Irlande"
+   },
+   "israel": {
+      "message": "Israël"
+   },
+   "italy": {
+      "message": "Italie"
+   },
+   "japan": {
+      "message": "Japon"
+   },
+   "kr": {
+      "message": "Corée du Sud"
+   },
+   "mexico": {
+      "message": "Mexique"
+   },
+   "nl": {
+      "message": "Pays-Bas"
+   },
+   "no": {
+      "message": "Norvège"
+   },
+   "nz": {
+      "message": "Nouvelle-Zélande"
+   },
+   "ro": {
+      "message": "Roumanie"
+   },
+   "sg": {
+      "message": "Singapour"
+   },
+   "sweden": {
+      "message": "Suède"
+   },
+   "swiss": {
+      "message": "Suisse"
+   },
+   "turkey": {
+      "message": "Turquie"
+   },
+   "uk": {
+      "message": "UK Londres"
+   },
+   "uk_southampton": {
+      "message": "UK Southampton"
+   },
+   "us1": {
+      "message": "US Midwest"
+   },
+   "us2": {
+      "message": "US Est"
+   },
+   "us3": {
+      "message": "US Ouest"
+   },
+   "us_california": {
+      "message": "US Californie"
+   },
+   "us_chicago": {
+      "message": "US Chicago"
+   },
+   "us_florida": {
+      "message": "US Floride"
+   },
+   "us_new_york_city": {
+      "message": "US (New York)"
+   },
+   "us_seattle": {
+      "message": "US Seattle"
+   },
+   "us_silicon_valley": {
+      "message": "US Silicon Valley"
+   },
+   "us_south_west": {
+      "message": "US Texas"
+   }
+}

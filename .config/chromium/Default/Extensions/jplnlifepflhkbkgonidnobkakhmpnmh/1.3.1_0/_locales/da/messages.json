@@ -1,0 +1,320 @@
+{
+   "AccountSettingsText": {
+      "message": "Kontoindstillinger"
+   },
+   "AdobeFlashTooltip": {
+      "message": "Adobe Flash kan reducere din sikkerhed, da det ikke er garanteret at din browsers proxyindstillinger respekteres. Det anbefales at blokere den."
+   },
+   "AdsTrackersProtection": {
+      "message": "Beskyttelse fra reklamer, trackers og malware"
+   },
+   "AuthFailMessage": {
+      "message": "En grund til at dette sker, kan være hvis du har ændret din adgangskode på PIA-hjemmesiden, mens du brugte PIAs Chrome-udvidelse."
+   },
+   "AuthFailTitle": {
+      "message": "Der opstod en godkendelsesfejl."
+   },
+   "AutoLoginURL": {
+      "message": "https://dnk.privateinternetaccess.com/xpages/sign-in"
+   },
+   "BadResponseError": {
+      "message": "Kunne ikke logge ind grundet uventet serversvar. Prøv venligst igen senere."
+   },
+   "BlockAdobeFlash": {
+      "message": "Bloker Adobe Flash"
+   },
+   "BlockBatteryAccess": {
+      "message": "Bloker adgang til battteri"
+   },
+   "BlockBatteryAccessTooltip": {
+      "message": "Bloker websider fra at få adgang til oplysninger om din computers batteri."
+   },
+   "BlockCameraAccess": {
+      "message": "Bloker adgang til kamera"
+   },
+   "BlockCameraAccessTooltip": {
+      "message": "Bloker websider fra at få adgang til din computers kamera."
+   },
+   "BlockLocationAccess": {
+      "message": "Bloker adgang til placering"
+   },
+   "BlockLocationAccessTooltip": {
+      "message": "Bloker websider fra at få adgang til oplysninger om din fysiske placering."
+   },
+   "BlockMicrophoneAccess": {
+      "message": "Bloker adgang til mikrofon"
+   },
+   "BlockMicrophoneAccessTooltip": {
+      "message": "Bloker websider fra at få adgang til din computers mikrofon."
+   },
+   "CannotUsePIAMessage": {
+      "message": "Private Internet Access kan ikke bruges, fordi en anden udvidelse styrer din browsers proxyindstillinger."
+   },
+   "ChangeExtensionSettings": {
+      "message": "Udvidelsesindstillinger"
+   },
+   "CloseText": {
+      "message": "Luk"
+   },
+   "ConnectionFailMessage": {
+      "message": "Du har måske mistet forbindelse til internettet, eller din forbindelse kan være blevet midlertidigt afbrudt."
+   },
+   "ConnectionFailTitle": {
+      "message": "Der opstod en forbindelsesfejl under kommunikation med en Private Internet Access proxy."
+   },
+   "CopiedToClipboard": {
+      "message": "Fejlretningslogfil kopieret"
+   },
+   "CopyToClipboard": {
+      "message": "Kopier fejlretningslogfil"
+   },
+   "CurrentRegionText": {
+      "message": "Aktuelle region"
+   },
+   "DebugLog": {
+      "message": "Fejlretningslogfil"
+   },
+   "DebugLogIsEmpty": {
+      "message": "Denne fejlretningslogfil er tom."
+   },
+   "DebugMode": {
+      "message": "Fejlretningstilstand"
+   },
+   "DebugModeTooltip": {
+      "message": "Skriv beskeder til fejlretningslogfilen. Tryk på tasten 'ctrl', og derefter tasten 'd', for at vise fejlretningslogfilen."
+   },
+   "Developer": {
+      "message": "Udvikler"
+   },
+   "JoinText": {
+      "message": "TILMELD DIG EN VPN-KONTO"
+   },
+   "JoinURL": {
+      "message": "https://dnk.privateinternetaccess.com/pages/buy-vpn/"
+   },
+   "LoadingText": {
+      "message": "Loader"
+   },
+   "LoginText": {
+      "message": "Log ind"
+   },
+   "LogoutText": {
+      "message": "Log ud"
+   },
+   "MaceProtection": {
+      "message": "PIA MACE™"
+   },
+   "MaceTooltip": {
+      "message": "PIA MACE™ hjælper med at beskytte dit privatliv og din sikkerhed ved at blokere ondsindet indhold, trackers og annoncer."
+   },
+   "ManageExtensions": {
+      "message": "Håndter udvidelser"
+   },
+   "NoAccountQuestion": {
+      "message": "Har du ikke en konto?"
+   },
+   "OffText": {
+      "message": "Fra"
+   },
+   "OfflineText": {
+      "message": "OFFLINE"
+   },
+   "OnText": {
+      "message": "Til"
+   },
+   "PasswordPlaceholder": {
+      "message": "Adgangskode"
+   },
+   "PleaseWait": {
+      "message": "Loader. Vent venligst."
+   },
+   "PluginLeakProtection": {
+      "message": "Bloker indbyggede plugins"
+   },
+   "Privacy": {
+      "message": "Fortrolighed"
+   },
+   "ProxyBypassList": {
+      "message": "Bypass-liste"
+   },
+   "RegionLatency": {
+      "message": "Latenstid"
+   },
+   "RegionName": {
+      "message": "Navn"
+   },
+   "RememberMe": {
+      "message": "Husk mig"
+   },
+   "SaveProxyBypassList": {
+      "message": "Gem"
+   },
+   "Security": {
+      "message": "Sikkerhed"
+   },
+   "SelectRegionText": {
+      "message": "Vælg en region"
+   },
+   "ServerError": {
+      "message": "Kunne ikke logge ind grundet serverfejl. Prøv venligst igen senere."
+   },
+   "SortBy": {
+      "message": "Sorter efter:"
+   },
+   "StatusText": {
+      "message": "Status"
+   },
+   "SupportText": {
+      "message": "Hjælp og support"
+   },
+   "SupportURL": {
+      "message": "https://dnk.privateinternetaccess.com/pages/client-support/"
+   },
+   "TimeoutError": {
+      "message": "Kunne ikke logge ind på grund af en forbindelses-timeout. Kontroller, om du er forbundet til internettet."
+   },
+   "TooManyRequestsError": {
+      "message": "For mange mislykkede forsøg på at logge ind. Prøv igen senere."
+   },
+   "UnknownError": {
+      "message": "Kunne ikke logge ind grundet ukendt fejl."
+   },
+   "UpgradeChromeMessage": {
+      "message": "Private Internet Access kan ikke bruges, fordi din version af Chrome er forældet. Opgrader din browser til Chrome v48 eller senere."
+   },
+   "UseRegionLocale": {
+      "message": "Private lokale og sprogindstillinger"
+   },
+   "UseRegionLocaleTooltip": {
+      "message": "Standard lokale og sprogindstillinger i din browser holdes private, ved at erstatte dem med indstillingerne for det aktuelle områdes lokale og sprog."
+   },
+   "UsernamePlaceholder": {
+      "message": "Brugernavn"
+   },
+   "WebRTCLeakProtection": {
+      "message": "Bloker WebRTC"
+   },
+   "WebRTCTooltip": {
+      "message": "WebRTC kan reducere din sikkerhed, da det ikke er garanteret at din browsers proxyindstillinger respekteres. Det anbefales at blokere den."
+   },
+   "WrongUsernameAndPassword": {
+      "message": "Brugernavn og/eller adgangskode er forkert."
+   },
+   "aus": {
+      "message": "AU, Sydney"
+   },
+   "aus_melbourne": {
+      "message": "AU, Melbourne"
+   },
+   "brazil": {
+      "message": "Brasilien"
+   },
+   "ca": {
+      "message": "CA, Montreal"
+   },
+   "ca_toronto": {
+      "message": "CA, Toronto"
+   },
+   "denmark": {
+      "message": "Denmark"
+   },
+   "disabled": {
+      "message": "deaktiveret"
+   },
+   "enabled": {
+      "message": "aktiveret"
+   },
+   "fi": {
+      "message": "Finland"
+   },
+   "france": {
+      "message": "Frankrig"
+   },
+   "germany": {
+      "message": "Tyskland"
+   },
+   "hk": {
+      "message": "Hong Kong"
+   },
+   "in": {
+      "message": "Indien"
+   },
+   "ireland": {
+      "message": "Irland"
+   },
+   "israel": {
+      "message": "Israel"
+   },
+   "italy": {
+      "message": "Italien"
+   },
+   "japan": {
+      "message": "Japan"
+   },
+   "kr": {
+      "message": "Sydkorea"
+   },
+   "mexico": {
+      "message": "Mexico"
+   },
+   "nl": {
+      "message": "Holland"
+   },
+   "no": {
+      "message": "Norge"
+   },
+   "nz": {
+      "message": "New Zealand"
+   },
+   "ro": {
+      "message": "Rumænien"
+   },
+   "sg": {
+      "message": "Singapore"
+   },
+   "sweden": {
+      "message": "Sverige"
+   },
+   "swiss": {
+      "message": "Schweiz"
+   },
+   "turkey": {
+      "message": "Tyrkiet"
+   },
+   "uk": {
+      "message": "England, London"
+   },
+   "uk_southampton": {
+      "message": "England, Southampton"
+   },
+   "us1": {
+      "message": "USA, midtvest"
+   },
+   "us2": {
+      "message": "USA, østkyst"
+   },
+   "us3": {
+      "message": "USA, vestkyst"
+   },
+   "us_california": {
+      "message": "USA, Californien"
+   },
+   "us_chicago": {
+      "message": "USA, Chicago"
+   },
+   "us_florida": {
+      "message": "USA, Florida"
+   },
+   "us_new_york_city": {
+      "message": "USA, New York"
+   },
+   "us_seattle": {
+      "message": "USA, Seattle"
+   },
+   "us_silicon_valley": {
+      "message": "USA, Silicon Valley"
+   },
+   "us_south_west": {
+      "message": "USA, Texas"
+   }
+}

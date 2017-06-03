@@ -1,0 +1,17 @@
+{
+	"toggleMenu": "m",
+	"routeHome": "home",
+	"createTask": "meta+shift+n",
+	"routeProductivity": "meta+.",
+	"routeSettings": "meta+,",
+	"openInBrowser": "meta+o",
+	"startTimer": "space",
+	"pauseTimer": "meta+shift+space",
+	"addNote": "meta+n",
+	"internalDistraction": "meta+'",
+	"externalDistraction": "esc",
+	"continueTask": "c",
+	"moveTask": "d",
+	"completeTaskEarly": "meta+shift+d",
+	"skipBreak": "meta+k"
+}

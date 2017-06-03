@@ -1,0 +1,19 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "scripts/background.js" ]
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDescription__",
+   "icons": {
+      "128": "images/icon-128.png",
+      "16": "images/icon-16.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtLXSlVUqLfaCJSuKaNmysGxmmhYwlAuBPeSdRvPPva3Lh4wHF6dj7N1S3T8RdUz5n9qrTtImmbf8+a233syk7WmULfUha28qmptalHkS0cfR9SYAvsGQIujMCPIRDWibnM+MKjr60JYoSJDO5DaOc9UFPtYqTMN7PtWGbQW6QzuFmJKCP9vwaRLaHipB/f1izpSW1wel16/JMiM5dlVW4JfZiqDxZ6O5/6BPrOIGf7PAoKmL6iEMa6ij/aBFNeDgvvUMwA+REaqChrFi8wGnhnZ6RVIRG/b3Ue+wRDEUm8MvmVOVlY3f3PcAi1hOHZbE45f015SI/OwysOWpAcQ+YwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "permissions": [ "alwaysOnTopWindows", "notifications", "storage", "webview", "https://trello.com/*", "http://api.tinynudge.co/*", "http://tinynudge.dev/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.6.4"
+}

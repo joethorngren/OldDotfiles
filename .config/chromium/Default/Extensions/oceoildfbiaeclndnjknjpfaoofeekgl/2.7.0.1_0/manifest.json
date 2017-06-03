@@ -1,0 +1,39 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "commands": {
+      "gtt_keyboard_shortcut": {
+         "description": "Show the Gmail-to-Trello popup",
+         "suggested_key": {
+            "default": "Alt+Shift+G"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "css": [ "style.css" ],
+      "js": [ "lib/jquery-3.1.1.min.js", "lib/jquery-ui-1.12.1.min.js", "lib/trello.js", "lib/date.js", "lib/google-analytics-bundle.js", "lib/eventTarget.js", "lib/menuControl.js", "lib/waitCounter.js", "views/gmailView.js", "views/popupView.js", "model.js", "app.js", "content-script.js" ],
+      "matches": [ "https://mail.google.com/*" ]
+   } ],
+   "description": "Gmail to Trello integration. Create new Trello cards from Google mail threads with backlinks.",
+   "homepage_url": "https://trello.com/b/CGU9BYgd/gmail-to-trello-development",
+   "icons": {
+      "16": "images/icon-16.png",
+      "48": "images/icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSKvOxXxWClngSSo4m8YtTrvqzH1HP5T5n7GAD6iqRXtO9Rjkgbz1ETKYRVYsM8QoLm6HwH5gr5p0pWIa9FP9QsbY2HhLfuLi2QDLvtEd4wGg3QVfK9Z+jLMjKauJuPrfTHGgy+1hqdw1vUNkhD33cFVG8Pr3tMX7Nf7oC649qDwIDAQAB",
+   "manifest_version": 2,
+   "name": "Gmail-to-Trello",
+   "offline_enabled": false,
+   "options_page": "options.html",
+   "page_action": {
+      "default_icon": "images/icon-16.png",
+      "default_popup": "options.html",
+      "default_title": "Gmail-to-Trello"
+   },
+   "permissions": [ "tabs", "https://*.google.com/*", "https://*.trello.com/*", "https://www.google-analytics.com/", "https://*.googleusercontent.com/*", "storage" ],
+   "short_name": "GtT",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.7.0.1",
+   "web_accessible_resources": [ "images/icon-13.jpg", "images/icon-16.jpg", "images/new_icon.gif", "images/ui-icons_444444_256x240.png", "images/doc-question-mark-512.png", "views/popupView.html", "views/signOut.html", "views/error.html", "lib/jquery-3.1.1.min.map", "lib/jquery-ui-1.12.1.min.css", "inject.js" ]
+}

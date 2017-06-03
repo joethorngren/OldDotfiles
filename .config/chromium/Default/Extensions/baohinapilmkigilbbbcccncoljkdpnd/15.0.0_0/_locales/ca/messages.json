@@ -1,0 +1,551 @@
+{
+   "cj_i18n_00004": {
+      "message": "Destacats"
+   },
+   "cj_i18n_00061": {
+      "message": "Explora"
+   },
+   "cj_i18n_00065": {
+      "message": "Portafolis"
+   },
+   "cj_i18n_00081": {
+      "message": "Recordatoris"
+   },
+   "cj_i18n_00153": {
+      "message": "Tendència"
+   },
+   "cj_i18n_00161": {
+      "message": "Sobre mi"
+   },
+   "cj_i18n_00177": {
+      "message": "Administrador"
+   },
+   "cj_i18n_00181": {
+      "message": "Arxiu d'àlbums"
+   },
+   "cj_i18n_00183": {
+      "message": "Alertes"
+   },
+   "cj_i18n_00190": {
+      "message": "Favorits"
+   },
+   "cj_i18n_00192": {
+      "message": "Tendències actuals"
+   },
+   "cj_i18n_00195": {
+      "message": "Tendències de cerca"
+   },
+   "cj_i18n_00216": {
+      "message": "Aplicacions"
+   },
+   "cj_i18n_00218": {
+      "message": "Llibres"
+   },
+   "cj_i18n_00219": {
+      "message": "Música"
+   },
+   "cj_i18n_00221": {
+      "message": "Quiosc"
+   },
+   "cj_i18n_00240": {
+      "message": "Usuaris"
+   },
+   "cj_i18n_00241": {
+      "message": "Aplicacions"
+   },
+   "cj_i18n_00243": {
+      "message": "Migració de dades"
+   },
+   "cj_i18n_00244": {
+      "message": "Dominis"
+   },
+   "cj_i18n_00247": {
+      "message": "Suport"
+   },
+   "cj_i18n_00248": {
+      "message": "Grups"
+   },
+   "cj_i18n_00249": {
+      "message": "Perfil d'organització"
+   },
+   "cj_i18n_00250": {
+      "message": "Seguretat"
+   },
+   "cj_i18n_00268": {
+      "message": "Nou event"
+   },
+   "cj_i18n_00270": {
+      "message": "Eina de proves de dades estructurades"
+   },
+   "cj_i18n_00271": {
+      "message": "Assistent per a l'etiquetatge de dades estructurades"
+   },
+   "cj_i18n_00272": {
+      "message": "Comprovador d'etiquetatge de correu electrònic"
+   },
+   "cj_i18n_00276": {
+      "message": "Cerca personalitzada"
+   },
+   "cj_i18n_00285": {
+      "message": "Llibres"
+   },
+   "cj_i18n_00287": {
+      "message": "Prova d'optimització per a mòbils"
+   },
+   "cj_i18n_00288": {
+      "message": "Prova d'AMP"
+   },
+   "cj_i18n_00292": {
+      "message": "Col·leccions"
+   },
+   "cj_i18n_00293": {
+      "message": "Comunitats"
+   },
+   "cj_i18n_00294": {
+      "message": "Perfil"
+   },
+   "cj_i18n_00295": {
+      "message": "Persones"
+   },
+   "cj_i18n_00298": {
+      "message": "Configuració"
+   },
+   "cj_i18n_00300": {
+      "message": "Posposats"
+   },
+   "cj_i18n_00301": {
+      "message": "Fet"
+   },
+   "cj_i18n_00307": {
+      "message": "Viatges"
+   },
+   "cj_i18n_00309": {
+      "message": "S'ha desat"
+   },
+   "cj_i18n_00314": {
+      "message": "Contactes"
+   },
+   "cj_i18n_00343": {
+      "message": "Desenvolupadors"
+   },
+   "cj_i18n_00391": {
+      "message": "Documents"
+   },
+   "cj_i18n_00393": {
+      "message": "Fulls de càlcul"
+   },
+   "cj_i18n_00400": {
+      "message": "Àlbums"
+   },
+   "cj_i18n_00405": {
+      "message": "Galeria de plantilles"
+   },
+   "cj_i18n_00406": {
+      "message": "Cerca avançada"
+   },
+   "cj_i18n_00407": {
+      "message": "Presentacions"
+   },
+   "cj_i18n_00408": {
+      "message": "Formularis"
+   },
+   "cj_i18n_00409": {
+      "message": "Dibuixos"
+   },
+   "cj_i18n_00410": {
+      "message": "Els meus mapes"
+   },
+   "cj_i18n_00412": {
+      "message": "Finances"
+   },
+   "cj_i18n_00414": {
+      "message": "Vols"
+   },
+   "cj_i18n_00418": {
+      "message": "Grups"
+   },
+   "cj_i18n_00419": {
+      "message": "El meu compte"
+   },
+   "cj_i18n_00424": {
+      "message": "Películes"
+   },
+   "cj_i18n_00425": {
+      "message": "Notícies"
+   },
+   "cj_i18n_00426": {
+      "message": "Quiosc"
+   },
+   "cj_i18n_00428": {
+      "message": "Centre de pagaments"
+   },
+   "cj_i18n_00429": {
+      "message": "Fotos"
+   },
+   "cj_i18n_00431": {
+      "message": "Play Música"
+   },
+   "cj_i18n_00432": {
+      "message": "Adreces d'interès desades"
+   },
+   "cj_i18n_00433": {
+      "message": "Acadèmic"
+   },
+   "cj_i18n_00434": {
+      "message": "Cerca"
+   },
+   "cj_i18n_00435": {
+      "message": "Compres"
+   },
+   "cj_i18n_00436": {
+      "message": "Llistes de Google Shopping"
+   },
+   "cj_i18n_00438": {
+      "message": "Ajuda"
+   },
+   "cj_i18n_00439": {
+      "message": "Tasques"
+   },
+   "cj_i18n_00440": {
+      "message": "Traductor"
+   },
+   "cj_i18n_00441": {
+      "message": "Tendències"
+   },
+   "cj_i18n_00442": {
+      "message": "Escurçador d'URL's"
+   },
+   "cj_i18n_00443": {
+      "message": "Veu"
+   },
+   "cj_i18n_00444": {
+      "message": "Consola de cerca"
+   },
+   "cj_i18n_00450": {
+      "message": "Sobre Google"
+   },
+   "cj_i18n_00452": {
+      "message": "Planificador de la Xarxa de Display"
+   },
+   "cj_i18n_00453": {
+      "message": "El centre del meu client"
+   },
+   "cj_i18n_00454": {
+      "message": "Explorador d'API"
+   },
+   "cj_i18n_00460": {
+      "message": "Llibres"
+   },
+   "cj_i18n_00461": {
+      "message": "Experiments de Chrome"
+   },
+   "cj_i18n_00463": {
+      "message": "Tauler per a desenvolupadors"
+   },
+   "cj_i18n_00465": {
+      "message": "Temes"
+   },
+   "cj_i18n_00468": {
+      "message": "Nova enquesta"
+   },
+   "cj_i18n_00470": {
+      "message": "Tauler de control"
+   },
+   "cj_i18n_00476": {
+      "message": "Missatge nou"
+   },
+   "cj_i18n_00477": {
+      "message": "Mètodes d'entrada"
+   },
+   "cj_i18n_00480": {
+      "message": "Películes"
+   },
+   "cj_i18n_00481": {
+      "message": "Compte"
+   },
+   "cj_i18n_00484": {
+      "message": "Esdeveniments"
+   },
+   "cj_i18n_00485": {
+      "message": "Temes interessants"
+   },
+   "cj_i18n_00486": {
+      "message": "Solicituds de governs"
+   },
+   "cj_i18n_00488": {
+      "message": "Imatges"
+   },
+   "cj_i18n_00491": {
+      "message": "Mapes d'interior"
+   },
+   "cj_i18n_00492": {
+      "message": "Mart"
+   },
+   "cj_i18n_00494": {
+      "message": "Lluna"
+   },
+   "cj_i18n_00495": {
+      "message": "Els meus dispositius"
+   },
+   "cj_i18n_00496": {
+      "message": "Arxiu de notícies"
+   },
+   "cj_i18n_00498": {
+      "message": "Alertes públiques"
+   },
+   "cj_i18n_00499": {
+      "message": "Explorador Public Data"
+   },
+   "cj_i18n_00500": {
+      "message": "Configuració de la cerca"
+   },
+   "cj_i18n_00501": {
+      "message": "Cel"
+   },
+   "cj_i18n_00502": {
+      "message": "Fòrums de productes"
+   },
+   "cj_i18n_00504": {
+      "message": "Trànsit"
+   },
+   "cj_i18n_00506": {
+      "message": "Informe de transparència"
+   },
+   "cj_i18n_00508": {
+      "message": "Verificador de confiança"
+   },
+   "cj_i18n_00509": {
+      "message": "Vídeos"
+   },
+   "cj_i18n_00511": {
+      "message": "Youtube TV"
+   },
+   "cj_i18n_00512": {
+      "message": "L'any en cerques"
+   },
+   "cj_i18n_00514": {
+      "message": "Cercador de taules"
+   },
+   "cj_i18n_00517": {
+      "message": "Redacta aixó"
+   },
+   "cj_i18n_00519": {
+      "message": "Escurça una URL"
+   },
+   "cj_i18n_00520": {
+      "message": "Gestor dispositius Android"
+   },
+   "cj_i18n_00521": {
+      "message": "Les meves subscripcions"
+   },
+   "cj_i18n_00523": {
+      "message": "Planificador de paraules clau"
+   },
+   "cj_i18n_00525": {
+      "message": "Rutes"
+   },
+   "cj_i18n_00528": {
+      "message": "Les meves sol·licituds d'eliminació"
+   },
+   "cj_i18n_00530": {
+      "message": "Cercador de persones"
+   },
+   "cj_i18n_00533": {
+      "message": "Administrador d'APIs"
+   },
+   "cj_i18n_00539": {
+      "message": "Play Book - Centre de socis"
+   },
+   "cj_i18n_00546": {
+      "message": "Contacte nou"
+   },
+   "cj_i18n_00547": {
+      "message": "Creació d'un motor de cerca personalitzada"
+   },
+   "cj_i18n_00550": {
+      "message": "La meva llista de desitjos"
+   },
+   "cj_i18n_00555": {
+      "message": "Afegeix una empresa"
+   },
+   "cj_i18n_00559": {
+      "message": "Editor de vídeo"
+   },
+   "cj_i18n_00561": {
+      "message": "Emmagatzematge de Drive"
+   },
+   "cj_i18n_00565": {
+      "message": "Administradors web"
+   },
+   "cj_i18n_00566": {
+      "message": "Verificació en dos pasos"
+   },
+   "cj_i18n_00572": {
+      "message": "Publicitat"
+   },
+   "cj_i18n_00575": {
+      "message": "Solucions per a empreses"
+   },
+   "cj_i18n_00578": {
+      "message": "Centre de seguretat"
+   },
+   "cj_i18n_00585": {
+      "message": "Producció"
+   },
+   "cj_i18n_00588": {
+      "message": "Dominis"
+   },
+   "cj_i18n_00589": {
+      "message": "Calculadora"
+   },
+   "cj_i18n_00595": {
+      "message": "Nova conversa de Hangout"
+   },
+   "cj_i18n_00596": {
+      "message": "Contacta amb Google"
+   },
+   "cj_i18n_00598": {
+      "message": "Gestió de campanyes"
+   },
+   "cj_i18n_00607": {
+      "message": "Nou document"
+   },
+   "cj_i18n_00608": {
+      "message": "Nou full de càlcul"
+   },
+   "cj_i18n_00609": {
+      "message": "Nova presentació"
+   },
+   "cj_i18n_00613": {
+      "message": "Tauletes Android"
+   },
+   "cj_i18n_00614": {
+      "message": "Telèfons Android"
+   },
+   "cj_i18n_00618": {
+      "message": "Aplicacions d'Android Wear"
+   },
+   "cj_i18n_00621": {
+      "message": "Tendències de Youtube"
+   },
+   "cj_i18n_00623": {
+      "message": "Reproducció en directe"
+   },
+   "cj_i18n_00624": {
+      "message": "Comunitat"
+   },
+   "cj_i18n_00625": {
+      "message": "Estat i funcions"
+   },
+   "cj_i18n_00626": {
+      "message": "Biblioteca d'àudio"
+   },
+   "cj_i18n_00627": {
+      "message": "Excursions de Google Maps"
+   },
+   "cj_i18n_00628": {
+      "message": "Àrea social"
+   },
+   "cj_i18n_00631": {
+      "message": "Nou formulari"
+   },
+   "cj_i18n_00633": {
+      "message": "Com arribar-hi"
+   },
+   "cj_i18n_00634": {
+      "message": "Les meves contribucions"
+   },
+   "cj_i18n_00636": {
+      "message": "Segueix el Pare Noel"
+   },
+   "cj_i18n_00640": {
+      "message": "Moments històrics"
+   },
+   "cj_i18n_00641": {
+      "message": "Projectes"
+   },
+   "cj_i18n_00650": {
+      "message": "Comunitat del Traductor"
+   },
+   "cj_i18n_00651": {
+      "message": "Traductor de llocs web"
+   },
+   "cj_i18n_00673": {
+      "message": "Eina de previsualització de la cerca"
+   },
+   "cj_i18n_00688": {
+      "message": "Crea un lloc"
+   },
+   "cj_i18n_00689": {
+      "message": "La meva activitat"
+   },
+   "cj_i18n_00691": {
+      "message": "Organitzacions sense ànim de lucre"
+   },
+   "cj_i18n_00692": {
+      "message": "Els meus llocs"
+   },
+   "cj_i18n_00711": {
+      "message": "Google Cast"
+   },
+   "cj_i18n_00719": {
+      "message": "Registre"
+   },
+   "cj_i18n_00731": {
+      "message": "Col·laboradors Principals"
+   },
+   "cj_i18n_00736": {
+      "message": "Guies locals"
+   },
+   "cj_i18n_00743": {
+      "message": "Temps"
+   },
+   "cj_i18n_00744": {
+      "message": "Comptes de marca"
+   },
+   "cj_i18n_00745": {
+      "message": "Configuració d'anuncis"
+   },
+   "cj_i18n_00749": {
+      "message": "Inici de sessió i seguretat"
+   },
+   "cj_i18n_00754": {
+      "message": "Dades personals i privadesa"
+   },
+   "cj_i18n_00755": {
+      "message": "Preferències del compte"
+   },
+   "cj_i18n_00758": {
+      "message": "Explora"
+   },
+   "cj_i18n_00800": {
+      "message": "Contrasenyes desades"
+   },
+   "cj_i18n_00801": {
+      "message": "Ressenyes"
+   },
+   "cj_i18n_00802": {
+      "message": "Ubicacions geogràfiques"
+   },
+   "cj_i18n_00803": {
+      "message": "Google+ per a la teva marca"
+   },
+   "cj_i18n_00807": {
+      "message": "La meva biblioteca"
+   },
+   "cj_i18n_00808": {
+      "message": "Xats"
+   },
+   "cj_i18n_00818": {
+      "message": "Els meus llocs"
+   },
+   "cj_i18n_00819": {
+      "message": "Xat"
+   },
+   "cj_i18n_00821": {
+      "message": "Arxiu"
+   },
+   "cj_i18n_00822": {
+      "message": "Configura"
+   }
+}

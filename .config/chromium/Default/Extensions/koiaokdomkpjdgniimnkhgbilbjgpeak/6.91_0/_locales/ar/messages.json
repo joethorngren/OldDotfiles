@@ -1,0 +1,45 @@
+{
+   "extDescription": {
+      "description": "The description of the extension. HD is short for High Definition.",
+      "message": "اجعل فيديوهات YouTube تعمل بدقة عالية تلقائيًا."
+   },
+   "extName": {
+      "description": "The name of the extension. Please translate it to whatever is most similar to 'Auto HD'. HD is short for High Definition.",
+      "message": "دقة عالية تلقائية لـ YouTube™"
+   },
+   "extSettings": {
+      "description": "When you translate 'Auto HD', please ensure that it is translated the same as in the extension name (above). HD is short for High Definition.",
+      "message": "إعدادات الدقة العالية التلقائية"
+   },
+   "hd": {
+      "message": "دقة عالية"
+   },
+   "large": {
+      "message": "كبير"
+   },
+   "max": {
+      "message": "الأقصى"
+   },
+   "medium": {
+      "message": "متوسط"
+   },
+   "playQuality": {
+      "description": "The headline of a setting which allows the user to choose the default quality of their YouTube player",
+      "message": "جودة التشغيل"
+   },
+   "playerSize": {
+      "description": "The headline of a setting which allows the user to choose the default size of their YouTube player",
+      "message": "حجم المشغّل"
+   },
+   "rateUs": {
+      "description": "The label on a button that encourages users to rate the app",
+      "message": "أعطنا تقييم 5 نجوم"
+   },
+   "reportBug": {
+      "description": "The label on a button that lets users report a problem",
+      "message": "أبلغ عن خطأ"
+   },
+   "small": {
+      "message": "صغير"
+   }
+}

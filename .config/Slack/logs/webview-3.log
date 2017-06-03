@@ -1,0 +1,313 @@
+[06/02/17, 13:48:53:533] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 13:48:53:534] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 13:48:53:528      ║
+[06/02/17, 13:48:53:535] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 13:48:53:740] info: updateSuspendResume: true
+[06/02/17, 13:48:54:571] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T09229ZC6' }
+[06/02/17, 13:48:55:025] info: Store: SELECT_CHANNEL C0922A726
+[06/02/17, 13:48:55:031] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T09229ZC6' }
+[06/02/17, 13:48:55:551] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-02-17/142892972867_19dc16bf07401bccd929_230.png' },
+  teamId: 'T09229ZC6' }
+[06/02/17, 13:48:56:104] info: Raw Locale list: ["C","C.UTF-8","en_AG","en_AG.utf8","en_AU.utf8","en_BW.utf8","en_CA.utf8","en_DK.utf8","en_GB.utf8","en_HK.utf8","en_IE.utf8","en_IN","en_IN.utf8","en_NG","en_NG.utf8","en_NZ.utf8","en_PH.utf8","en_SG.utf8","en_US.utf8","en_ZA.utf8","en_ZM","en_ZM.utf8","en_ZW.utf8","POSIX",""]
+[06/02/17, 13:48:56:105] info: Filtered Locale list: ["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"]
+[06/02/17, 13:48:56:106] info: Counts: {"en":["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"]}
+[06/02/17, 13:48:56:107] info: Result: {"en":"en-US"}
+[06/02/17, 13:48:56:109] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[06/02/17, 13:48:56:110] info: Loading dictionary for language en-US
+[06/02/17, 13:48:56:111] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/en-us-7-1.bdic
+[06/02/17, 13:48:56:175] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[06/02/17, 13:48:56:176] info: Loading dictionary for language en-US
+[06/02/17, 13:48:56:177] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/en-us-7-1.bdic
+[06/02/17, 13:48:56:785] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:48:56:785] info: Creating node-spellchecker instance
+[06/02/17, 13:48:56:787] info: Actually installing spell check provider to Electron
+[06/02/17, 13:48:56:788] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:49:01:724] info: Store: SET_LOGIN_DIALOG true
+[06/02/17, 13:49:02:407] info: Unloading spellchecker
+[06/02/17, 13:49:19:416] info: Restoring spellchecker
+[06/02/17, 13:49:19:421] info: Loading dictionary for language en-US
+[06/02/17, 13:49:19:424] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:49:19:430] info: Unloading spellchecker
+[06/02/17, 13:49:19:435] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:49:19:438] info: Creating node-spellchecker instance
+[06/02/17, 13:49:19:792] info: Restoring spellchecker
+[06/02/17, 13:49:19:797] info: Loading dictionary for language en-US
+[06/02/17, 13:49:19:800] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:49:19:804] info: Unloading spellchecker
+[06/02/17, 13:49:19:809] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:49:19:813] info: Creating node-spellchecker instance
+[06/02/17, 13:49:36:224] info: Restoring spellchecker
+[06/02/17, 13:49:36:226] info: Loading dictionary for language en-US
+[06/02/17, 13:49:36:227] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:49:36:230] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:49:41:515] info: Store: SET_LOGIN_DIALOG true
+[06/02/17, 13:49:42:155] info: Unloading spellchecker
+[06/02/17, 13:49:53:469] info: Restoring spellchecker
+[06/02/17, 13:49:53:474] info: Loading dictionary for language en-US
+[06/02/17, 13:49:53:477] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:49:53:482] info: Unloading spellchecker
+[06/02/17, 13:49:53:487] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:49:53:489] info: Creating node-spellchecker instance
+[06/02/17, 13:49:57:507] info: Restoring spellchecker
+[06/02/17, 13:49:57:511] info: Loading dictionary for language en-US
+[06/02/17, 13:49:57:514] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:49:57:518] info: Unloading spellchecker
+[06/02/17, 13:49:57:524] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:49:57:527] info: Creating node-spellchecker instance
+[06/02/17, 13:50:08:599] info: Restoring spellchecker
+[06/02/17, 13:50:08:605] info: Loading dictionary for language en-US
+[06/02/17, 13:50:08:609] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:50:08:614] info: Unloading spellchecker
+[06/02/17, 13:50:08:619] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:50:08:623] info: Creating node-spellchecker instance
+[06/02/17, 13:50:10:858] info: Restoring spellchecker
+[06/02/17, 13:50:10:863] info: Loading dictionary for language en-US
+[06/02/17, 13:50:10:868] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:50:10:872] info: Unloading spellchecker
+[06/02/17, 13:50:10:882] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:50:10:886] info: Creating node-spellchecker instance
+[06/02/17, 13:50:26:734] info: Restoring spellchecker
+[06/02/17, 13:50:26:740] info: Loading dictionary for language en-US
+[06/02/17, 13:50:26:743] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:50:26:748] info: Unloading spellchecker
+[06/02/17, 13:50:26:753] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:50:26:756] info: Creating node-spellchecker instance
+[06/02/17, 13:50:28:737] info: Restoring spellchecker
+[06/02/17, 13:50:28:740] info: Loading dictionary for language en-US
+[06/02/17, 13:50:28:745] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:50:28:750] info: Unloading spellchecker
+[06/02/17, 13:50:28:755] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:50:28:757] info: Creating node-spellchecker instance
+[06/02/17, 13:50:36:703] info: Restoring spellchecker
+[06/02/17, 13:50:36:707] info: Loading dictionary for language en-US
+[06/02/17, 13:50:36:709] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:50:36:715] info: Unloading spellchecker
+[06/02/17, 13:50:36:720] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:50:36:722] info: Creating node-spellchecker instance
+[06/02/17, 13:50:39:523] info: Restoring spellchecker
+[06/02/17, 13:50:39:526] info: Loading dictionary for language en-US
+[06/02/17, 13:50:39:527] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:50:39:528] info: Unloading spellchecker
+[06/02/17, 13:50:39:529] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:50:39:530] info: Creating node-spellchecker instance
+[06/02/17, 13:52:55:779] info: Restoring spellchecker
+[06/02/17, 13:52:55:780] info: Loading dictionary for language en-US
+[06/02/17, 13:52:55:781] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:52:55:783] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:52:56:305] info: Unloading spellchecker
+[06/02/17, 13:52:56:458] info: Restoring spellchecker
+[06/02/17, 13:52:56:461] info: Loading dictionary for language en-US
+[06/02/17, 13:52:56:466] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:52:56:475] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:52:56:478] info: Creating node-spellchecker instance
+[06/02/17, 13:52:56:593] info: Unloading spellchecker
+[06/02/17, 13:52:57:087] info: Restoring spellchecker
+[06/02/17, 13:52:57:090] info: Loading dictionary for language en-US
+[06/02/17, 13:52:57:093] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:52:57:101] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:52:57:104] info: Creating node-spellchecker instance
+[06/02/17, 13:52:57:163] info: Unloading spellchecker
+[06/02/17, 13:52:58:975] info: Restoring spellchecker
+[06/02/17, 13:52:58:978] info: Loading dictionary for language en-US
+[06/02/17, 13:52:58:981] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:52:58:991] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:52:58:994] info: Creating node-spellchecker instance
+[06/02/17, 13:52:59:743] info: Unloading spellchecker
+[06/02/17, 13:53:00:005] info: Restoring spellchecker
+[06/02/17, 13:53:00:006] info: Loading dictionary for language en-US
+[06/02/17, 13:53:00:006] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:53:00:011] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:53:00:011] info: Creating node-spellchecker instance
+[06/02/17, 13:53:04:303] info: Unloading spellchecker
+[06/02/17, 13:53:32:373] info: Restoring spellchecker
+[06/02/17, 13:53:32:374] info: Loading dictionary for language en-US
+[06/02/17, 13:53:32:375] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:53:32:380] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:53:32:380] info: Creating node-spellchecker instance
+[06/02/17, 13:53:44:031] info: Unloading spellchecker
+[06/02/17, 13:53:44:153] info: Restoring spellchecker
+[06/02/17, 13:53:44:156] info: Loading dictionary for language en-US
+[06/02/17, 13:53:44:159] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:53:44:167] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:53:44:169] info: Creating node-spellchecker instance
+[06/02/17, 13:53:44:807] info: Unloading spellchecker
+[06/02/17, 13:53:52:551] info: Restoring spellchecker
+[06/02/17, 13:53:52:560] info: Loading dictionary for language en-US
+[06/02/17, 13:53:52:563] info: Returning local copy: /home/dayfun/.config/Slack/dictionaries/en-US.bdic
+[06/02/17, 13:53:52:574] info: Unloading spellchecker
+[06/02/17, 13:53:52:578] info: Setting current spellchecker to en-US, requested language was en-US
+[06/02/17, 13:53:52:580] info: Creating node-spellchecker instance
+[06/02/17, 13:58:46:902] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 13:58:46:904] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 13:58:46:890      ║
+[06/02/17, 13:58:46:909] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 13:58:47:457] info: updateSuspendResume: true
+[06/02/17, 13:58:49:990] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T040F1EUX' }
+[06/02/17, 13:58:50:452] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_230.png' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 13:58:50:682] info: Store: SELECT_CHANNEL D51TE6UKC
+[06/02/17, 13:58:50:704] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 13:58:56:687] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/02/17, 13:59:03:474] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/02/17, 14:31:58:109] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 14:31:58:112] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 14:31:58:093      ║
+[06/02/17, 14:31:58:113] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 14:31:58:756] info: updateSuspendResume: true
+[06/02/17, 14:32:01:888] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T040F1EUX' }
+[06/02/17, 14:32:02:429] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_230.png' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 14:32:02:663] info: Store: SELECT_CHANNEL D51TE6UKC
+[06/02/17, 14:32:02:680] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 14:32:08:775] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/02/17, 14:32:15:465] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/02/17, 14:33:52:955] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 14:33:52:956] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 14:33:52:938      ║
+[06/02/17, 14:33:52:957] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 14:33:53:774] info: updateSuspendResume: true
+[06/02/17, 14:33:56:533] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T040F1EUX' }
+[06/02/17, 14:33:56:900] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_230.png' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 14:33:57:247] info: Store: SELECT_CHANNEL D51TE6UKC
+[06/02/17, 14:33:57:268] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 14:34:03:250] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/02/17, 14:34:10:141] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/02/17, 22:31:35:116] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 22:31:35:118] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 22:31:35:100      ║
+[06/02/17, 22:31:35:122] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 22:31:35:756] info: updateSuspendResume: true
+[06/02/17, 22:31:38:776] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T040F1EUX' }
+[06/02/17, 22:31:39:148] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_230.png' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 22:31:39:352] info: Store: SELECT_CHANNEL D51TE6UKC
+[06/02/17, 22:31:39:365] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T040F1EUX' }
+[06/02/17, 22:31:45:354] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/02/17, 22:31:52:015] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/03/17, 16:48:04:120] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/03/17, 16:48:04:122] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/03/17, 16:48:04:114      ║
+[06/03/17, 16:48:04:123] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/03/17, 16:48:04:730] info: updateSuspendResume: true
+[06/03/17, 16:48:07:020] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T040F1EUX' }
+[06/03/17, 16:48:07:331] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_34.png',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_44.png',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_68.png',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_88.png',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_102.png',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_132.png',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_original.png',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2017-03-24/159705176197_a222f2e08e909c668221_230.png' },
+  teamId: 'T040F1EUX' }
+[06/03/17, 16:48:07:524] info: Store: SELECT_CHANNEL D51TE6UKC
+[06/03/17, 16:48:07:535] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T040F1EUX' }
+[06/03/17, 16:48:13:526] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/03/17, 16:48:20:070] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages

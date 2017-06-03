@@ -1,0 +1,487 @@
+<div id="auth-screens" class="hide">
+    <div id="acurtain" class="acurtain"></div>
+
+    <section id="auth-login" class="content">
+        <div class="wrapper">
+            <div class="auth-form auth-body">
+                <form method="" name="auth-login" action="">
+                    <div class="auth-form-layout aside-container" flex="flex" layout="row" layout-align="start stretch">
+                        <!-- auth form -->
+                        <lsp-auth-form flex="none">
+                            <div class="lsp-auth-form-layout" flex="flex" layout="column" layout-align="center center">
+
+                                <!-- heading -->
+                                <div class="lsp-auth-form-heading">
+                                    <h2 class="lsp-auth-form-heading-title" lang="auth_sign_in"></h2>
+                                    <!--<div class="lsp-auth-form-heading-subtext" flex="flex" layout="row" layout-align="start center"> -->
+                                    <div class="lsp-auth-form-heading-subtext"><span lang="auth_dont_have_an_account"></span>
+                                        <lsp-form-switch-button class="margin-top-5-OFF">
+                                            <button type="button" target="signup" class="switch-screen trial-impossible"> <span lang="auth_register"></span> &gt; </button>
+                                            <button type="button" target="signup" class="switch-screen trial-possible"> 
+                                                <span lang="auth_register_trial_1"></span><br />
+                                                <b lang="auth_register_trial_2"></b> <span lang="auth_register_trial_3"></span> &gt;
+                                            </button>
+                                        </lsp-form-switch-button>
+                                    </div>
+                                </div>
+                                <!-- /heading -->
+
+                                <!-- input -->
+                                <lsp-input>
+                                    <input class="animated" type="email" name="login" require="required" lang="auth_login_or_email" placeholder="Login or Email" />
+                                    <div class="lsp-input-error-text lang-detect animated" lang="auth_email_is_required"></div>
+                                </lsp-input>
+                                <!-- /input -->
+
+                                <!-- input -->
+                                <lsp-input>
+                                    <input class="animated" type="password" name="password" require="required" lang="auth_password" placeholder="Password" />
+                                    <div class="lsp-input-error-text lang-detect animated" lang="auth_password_is_required">Password is required</div>
+                                </lsp-input>
+                                <!-- /input -->
+
+                                <!-- switch alone -->
+                                <lsp-form-switch-button class="lsp-form-switch-button-alone">
+                                    <button name="" type="button" target="restore" class="switch-screen"> <span lang="auth_restore_password"></span> &gt; </button>
+                                </lsp-form-switch-button>
+                                <!-- /switch alone -->
+
+                                <!-- submit -->
+                                <div class="lsp-auth-form-submit">
+                                    <button class="button non-animated auth-login button-submit" type="submit" name="">
+                                        <span class="button-content animated" lang="auth_sign_in"></span>
+                                    </button>
+                                    <div class="lsp-input-error-text lang-detect lsp-main-error-text animated"></div>
+                                </div>
+                                <!-- /submit -->
+
+                                <!-- or -->
+                                <div class="lsp-auth-form-or">
+                                    <span class="lsp-auth-form-or-content" lang="auth_or"></span>
+                                </div>
+                                <!-- /or -->
+
+                                <!-- social auth -->
+                                <div class="lsp-social-auth">
+                                    <div class="lsp-social-auth-layout social-buttons" layout-align="start center">
+                                        <a class="lsp-social-auth-link auth-service btn-google" service="google" href="#" title="#">
+                                            <i class="fa fa-google-plus fa-2x"></i> <!--<span lang="auth_using_google"></span>-->
+                                        </a>
+                                        <a class="lsp-social-auth-link auth-service btn-facebook" service="facebook" href="#" title="#">
+                                            <i class="fa fa-facebook fa-2x"></i> <!--<span lang="auth_using_facebook"></span>-->
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- /social auth -->
+                                
+                                <div class="lsp-get-premium-button">
+                                    <button class="lsp-banner-button"><span class="lsp-banner-button-wrapper animated" lang="menu_float_get_pro"></span></button>
+                                </div>
+                            </div>
+                        </lsp-auth-form>
+                        <!-- /auth form -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- signup form -->
+    <section id="auth-signup" class="content">
+        <div class="wrapper">
+            <div class="auth-form auth-body">
+                <form method="" name="auth-signup" action="">
+                    <div class="auth-form-layout aside-container" flex="flex" layout="row" layout-align="start stretch">
+                        <!-- auth form -->
+                        <lsp-auth-form flex="none">
+                            <div class="lsp-auth-form-layout" flex="flex" layout="column" layout-align="center center">
+
+                                <!-- heading -->
+                                <div class="lsp-auth-form-heading">
+                                    <h2 class="lsp-auth-form-heading-title" lang="auth_register"></h2>
+                                    <div class="lsp-auth-form-heading-subtext" flex="flex" layout="row" layout-align="start center"><span  lang="auth_already_have_an_account" class="lang-detect"></span>
+                                        <lsp-form-switch-button>
+                                            <button name="" type="button" target="login" class="switch-screen lang-detect"> <span lang="auth_sign_in"></span> &gt; </button>
+                                        </lsp-form-switch-button>
+                                    </div>
+                                </div>
+                                <!-- /heading -->
+
+                                <!-- input -->
+                                <lsp-input>
+                                    <input class="animated" type="email" name="email" require="required" lang="auth_email" placeholder="Email" />
+                                    <div class="lsp-input-error-text lang-detect animated" lang="auth_email_is_required"></div>
+                                </lsp-input>
+                                <!-- /input -->
+
+                                <!-- input -->
+                                <!--
+                                <lsp-input>
+                                    <input class="animated" type="text" name="username" require="required" placeholder="Username" />
+                                    <div class="lsp-input-error-text lang-detect animated">Username is required</div>
+                                </lsp-input>
+                                -->
+                                <!-- /input -->
+
+                                <!-- input -->
+                                <lsp-input>
+                                    <input class="animated" type="password" name="password" require="required" min="8" lang="auth_password" placeholder="Password" />
+                                    <div class="lsp-input-error-text lang-detect animated" lang="auth_password_is_required_min_8">Password is required. Minimum 8 characters.</div>
+                                </lsp-input>
+                                <!-- /input -->
+
+                                <!-- input -->
+                                <lsp-input>
+                                    <input class="animated" type="password" name="re-password" require="required" same="password" lang="auth_retype_password" placeholder="Retype password" />
+                                    <div class="lsp-input-error-text lang-detect animated" lang="auth_passwords_isnt_same"></div>
+                                </lsp-input>
+                                <!-- /input -->
+                                
+                                <p class="trial-possible allure-message">
+                                    <span lang="auth_register_trial_1"></span> <b lang="auth_register_trial_2"></b> <span lang="auth_register_trial_3"></span>
+                                </p>
+                                
+                                
+                                <!-- box -->
+                                <!--
+                                <lsp-form-box class="lsp-checkbox">
+                                    <label flex="flex" layout="row" layout-align="start center">
+                                        <input type="checkbox" name="" />
+                                        <span flex="none" class="lsp-form-box-emulation animated">
+                                            <i class="lsp-form-box-emulation-icon animated"></i>
+                                        </span>
+                                        <span flex="flex" class="lsp-form-box-text noselect">Subscribe to service updates</span>
+                                    </label>
+                                </lsp-form-box>
+                                -->
+                                <!-- /box -->
+
+                                <!-- submit -->
+                                <div class="lsp-auth-form-submit">
+                                    <button class="button non-animated button-submit" type="submit" name="">
+                                        <span class="button-content animated" lang="auth_sign_up">Sign UP</span>
+                                    </button>
+                                    <div class="lsp-input-error-text lang-detect lsp-main-error-text animated"></div>
+                                </div>
+                                <!-- /submit -->
+                                
+                                <!-- or -->
+                                <div class="lsp-auth-form-or">
+                                    <span class="lsp-auth-form-or-content" lang="auth_or"></span>
+                                </div>
+                                <!-- /or -->
+
+                                <!-- social auth -->
+                                <div class="lsp-social-auth">
+                                    <div class="lsp-social-auth-layout social-buttons" layout-align="start center">
+                                        <a class="lsp-social-auth-link auth-service btn-google" service="google" href="#" title="#">
+                                            <i class="fa fa-google-plus fa-2x"></i> <!--<span lang="auth_using_google"></span>-->
+                                        </a>
+                                        <a class="lsp-social-auth-link auth-service btn-facebook" service="facebook" href="#" title="#">
+                                            <i class="fa fa-facebook fa-2x"></i> <!--<span lang="auth_using_facebook"></span>-->
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- /social auth -->
+                                
+                                <!-- small desc -->
+                                <div class="lsp-auth-form-small-desc"> <span lang="auth_you_agree"></span>
+                                    <br />
+                                    <a href="http://livestartpage.com/terms/" target="_blank" lang="auth_terms_and_conditions"></a> </div>
+                                <!-- /small desc -->
+
+                            </div>
+                            
+                                
+                            <div class="lsp-get-premium-button lang-detect">
+                                <button class="lsp-banner-button"><span class="lsp-banner-button-wrapper animated" lang="menu_float_get_pro"></span></button>
+                            </div>
+                        </lsp-auth-form>
+                        <!-- /auth form -->
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- /signup form -->
+
+    <!--auth-restore-->
+
+    <!-- restore form -->
+    <section id="auth-restore" class="content">
+        <div class="wrapper">
+            <div class="auth-form auth-body">
+                <form method="" name="auth-restore" action="">
+                    <div class="auth-form-layout aside-container" flex="flex" layout="row" layout-align="start stretch">
+                        <!-- auth form -->
+                        <lsp-auth-form flex="none">
+                            <div class="lsp-auth-form-layout" flex="flex" layout="column" layout-align="center center">
+
+                                    <!-- top -->
+                                    <div class="lsp-password-restore-top">
+                                        <div class="lsp-password-restor-icon">
+                                            <span class="icon-logo"></span>
+                                        </div>
+                                        <h2 class="lsp-password-restore-title" lang="auth_restore_password"></h2>
+                                        <div class="lsp-password-restore-text"> <span lang="auth_to_restore_password"></span>
+                                            <br /> <span lang="auth_to_enter_your_login"></span> </div>
+                                    </div>
+                                    <!-- /top -->
+
+                                    <!-- input -->
+                                    <lsp-input>
+                                        <input class="animated" type="email" name="email" lang="auth_your_login" placeholder="Your login" />
+                                        <div class="lsp-input-error-text lang-detect animated" lang="auth_login_is_required"></div>
+                                    </lsp-input>
+                                    <!-- /input -->
+
+                                    <!-- submit -->
+                                    <div class="lsp-password-restore-submit">
+                                        <button class="button non-animated button-submit" type="submit" name="">
+                                            <span class="button-content animated" lang="auth_restore_password"></span>
+                                        </button>
+                                        <div class="lsp-input-error-text lang-detect lsp-main-error-text animated"></div>
+                                        <lsp-form-switch-button class="lsp-block">
+                                            <button type="button" name="" target="login" class="switch-screen">
+                                                &lt; <span lang="auth_cancel"></span>
+                                            </button>
+                                        </lsp-form-switch-button>
+                                    </div>
+                                    <!-- /submit -->
+                                </div>
+                                
+                                <div class="lsp-get-premium-button">
+                                    <button class="lsp-banner-button"><span class="lsp-banner-button-wrapper animated" lang="menu_float_get_pro"></span></button>
+                                </div>
+                            
+                            </lsp-auth-form>
+                        </div>
+                    </form>
+
+            </div>
+        </div>
+    </section>
+    <!-- /restore form -->
+
+    <aside class="lsp-auth-aside" flex="flex">
+        <span class="modal-close close-img"><img src="/pages/common/auth/site_images/close-gray.png" /></span>
+        
+        <!-- logo -->
+        <lsp-logo class="lsp-logo-medium">
+            <div class="lsp-logo-layout" flex="flex" layout="row" layout-align="start center">
+                <span class="logo-icon-holder" flex="none">
+                                    <span class="logo-icon"></span>
+                </span>
+                <span class="logo-content" flex="flex">
+                                    <span class="logo-title-layout" flex="flex" layout="row" layout-align="start center">
+                                        <span class="logo-title"> Live
+                                            <span class="logo-title-color1">Start</span>
+                <span class="logo-title-color2">Page</span>
+                </span>
+                <span class="logo-title-caption">Pro</span>
+                </span>
+                <span class="logo-title-desc" lang="auth_incredible_start_page"></span>
+                </span>
+            </div>
+        </lsp-logo>
+        <!-- /logo -->
+
+        <!-- features -->
+        <lsp-auth-features>
+            <lsp-auth-feature class="lang-detect">
+                <div class="lsp-auth-feature-layout" flex="flex" layout="row" layout-align="start center">
+                    <div class="lsp-auth-feature-img" flex="none">
+                        <span class="icon-auth-feature-search"></span>
+                    </div>
+                    <span class="banner-hide">
+                        <div class="lsp-auth-feature-text" flex="flex"> 
+                        <span class="lsp-auth-feature-inner">
+                            <strong lang="auth_change_default_search_engine"></strong> (Google, Bing, Yahoo, Yandex, DuckDuckGo) 
+                            <span class="auth-feauture-help" data-toggle="tooltip" data-placement="top" lang="auth_change_default_search_engine_help"></span>
+                        </span>
+                        </div>
+                    </span>
+                    <span class="banner-show">
+                        <div class="lsp-auth-feature-text" flex="flex"> 
+                        <span class="lsp-auth-feature-inner">
+                            <span class="auth-search-engine">
+                                <strong lang="auth_change_default_search_engine_short"></strong> Google, Bing, Yahoo, Yandex, DuckDuckGo
+                            </span>
+                            <span class="auth-feauture-help" data-toggle="tooltip" data-placement="top" lang="auth_change_default_search_engine_help"></span>
+                        </span>
+                        </div>
+                    </span>
+                </div>
+            </lsp-auth-feature>
+            
+            <lsp-auth-feature class="lang-detect">
+                <div class="lsp-auth-feature-layout" flex="flex" layout="row" layout-align="start center">
+                    <div class="lsp-auth-feature-img" flex="none">
+                        <span class="icon-auth-feature-plate"></span>
+                    </div>
+                    <div class="lsp-auth-feature-text" flex="flex">
+                        <span class="lsp-auth-feature-inner">
+                            <strong lang="auth_synchronize_dials" class="auth-synchronize-dials lang-detect"></strong> 
+                            <span class="auth-feauture-help" data-toggle="tooltip" data-placement="top" lang="auth_synchronize_dials_help"></span>
+                        </span>
+                    </div>
+                </div>
+            </lsp-auth-feature>
+            <lsp-auth-feature class="lang-detect">
+                <div class="lsp-auth-feature-layout" flex="flex" layout="row" layout-align="start center">
+                    <div class="lsp-auth-feature-img" flex="none">
+                        <span class="icon-auth-feature-task"></span>
+                    </div>
+                    <div class="lsp-auth-feature-text" flex="flex">
+                        <span class="lsp-auth-feature-inner">
+                            <strong lang="auth_synchronize_tasks"></strong> 
+                            <span class="auth-feauture-help" data-toggle="tooltip" data-placement="top" lang="auth_synchronize_tasks_help"></span>
+                        </span>
+                    </div>
+                </div>
+            </lsp-auth-feature>
+            
+            <lsp-auth-feature class="lang-detect">
+                <div class="lsp-auth-feature-layout" flex="flex" layout="row" layout-align="start center">
+                    <div class="lsp-auth-feature-img" flex="none">
+                        <span class="icon-auth-protect"></span>
+                    </div>
+                    <div class="lsp-auth-feature-text" flex="flex">
+                        <span class="lsp-auth-feature-inner">
+                            <strong lang="auth_protect"></strong> 
+                            <span class="auth-feauture-help auth-feauture-protect lang-detect" data-toggle="tooltip" data-placement="top" lang="auth_protect_help"></span>
+                        </span>
+                    </div>
+                </div>
+            </lsp-auth-feature>
+            
+            <lsp-auth-feature class="lang-detect">
+                <div class="lsp-auth-feature-layout" flex="flex" layout="row" layout-align="start center">
+                    <div class="lsp-auth-feature-img" flex="none">
+                        <span class="icon-auth-feature-weather"></span>
+                    </div>
+                    <div class="lsp-auth-feature-text" flex="flex">
+                        <span class="lsp-auth-feature-inner">
+                            <strong lang="auth_detailed_weather"></strong> 
+                            <span class="auth-feauture-help" data-toggle="tooltip" data-placement="top" lang="auth_detailed_weather_help"></span>
+                        </span>
+                    </div>
+                </div>
+            </lsp-auth-feature>
+            
+            <lsp-auth-feature class="lang-detect">
+                <div class="lsp-auth-feature-layout" flex="flex" layout="row" layout-align="start center">
+                    <div class="lsp-auth-feature-img" flex="none">
+                        <span class="icon-auth-feature-relax"></span>
+                    </div>
+                    <div class="lsp-auth-feature-text" flex="flex">
+                        <span class="lsp-auth-feature-inner">
+                            <strong lang="auth_detailed_relax"></strong> 
+                            <span class="auth-feauture-help auth-feauture-relax lang-detect" data-toggle="tooltip" data-placement="top" lang="auth_detailed_relax_help"></span>
+                        </span>
+                    </div>
+                </div>
+            </lsp-auth-feature>
+            
+            <lsp-auth-feature class="lang-detect">
+                <div class="lsp-auth-feature-layout" flex="flex" layout="row" layout-align="start center">
+                    <div class="lsp-auth-feature-img" flex="none">
+                        <span class="icon-auth-feature-support"></span>
+                    </div>
+                    <div class="lsp-auth-feature-text" flex="flex">
+                        <span class="lsp-auth-feature-inner">
+                            <strong lang="auth_high_priority_support"></strong> 
+                            <span class="auth-feauture-help" data-toggle="tooltip" data-placement="top" lang="auth_high_priority_support_help"></span>
+                        </span>
+                    </div>
+                </div>
+            </lsp-auth-feature>
+            
+            <lsp-auth-feature class="lang-detect">
+                <div class="lsp-auth-feature-layout" flex="flex" layout="row" layout-align="start center">
+                    <div class="lsp-auth-feature-img" flex="none">
+                        <span class="icon-auth-feature-more"></span>
+                    </div>
+                    <div class="lsp-auth-feature-text" flex="flex">
+                        <span class="lsp-auth-feature-inner">
+                            <strong lang="auth_more_features_coming"></strong> 
+                            <span class="auth-feauture-help" data-toggle="tooltip" data-placement="top" lang="auth_more_features_coming_help"></span>
+                        </span>
+                    </div>
+                </div>
+            </lsp-auth-feature>
+            
+            <span class="premium-pricing currency lang-detect" currency="auth_premium_pricing_lang">...</span>
+        </lsp-auth-features>
+        <!-- /features -->
+
+        <!-- desc -->
+        <div class="lsp-auth-aside-desc lang-detect" lang="auth_bottom_text"></div>
+        <!-- /desc -->
+    </aside>
+    
+    
+    <lsp-banner id="auth-discovered">
+        <div class="lsp-banner-content">
+            <lsp-banner-logo></lsp-banner-logo>
+            <lsp-banner-text>
+                <div class="lsp-banner-text-cloud">
+                    <span class="lsp-banner-text-cloud-content lang-detect" lang="auth_pro_feature"></span>
+                </div>
+                <div class="lsp-banner-text-title"> <span lang="auth_discovered_1"></span><br /> <span lang="auth_discovered_2"></span> </div>
+                <span lang="auth_discovered_3"></span><br /> <span lang="auth_discovered_4"></span> </lsp-banner-text>
+            
+            <lsp-banner-actions>
+                <div class="choise-plan">
+                    <div class="trial-possible">
+                        <button id="get-trial" class="lsp-banner-button lsp-banner-button-wide"><span class="lsp-banner-button-wrapper animated" lang="auth_trial_activate_btn"></span></button>
+                        <span class="capitalize allure" lang="or"> </span> <span class="lowercase allure" lang="auth_plan_choice"></span>
+                    </div>
+                    <span class="choise-plan-text trial-impossible" lang="auth_plan_choice"></span><br />
+                    <div class="plan-buttons">
+                        <button id="buy-month" period="month" class="lsp-banner-button"><span class="lsp-banner-button-wrapper animated currency" currency="auth_plan_month_lang">...</span></button>
+                        <button id="buy-year"  period="year"  class="lsp-banner-button"><span class="lsp-banner-button-wrapper animated currency" currency="auth_plan_year_lang">...</span></button>
+                    </div>
+                </div>
+                
+                <div class="behind-message" lang="auth_trial_activated"></div>
+                
+                <div class="discovered-buttons">
+                    <button class="lsp-banner-button" type="button" name="discovered-site">
+                        <span class="lsp-banner-button-wrapper animated" lang="auth_d_get_premium"></span>
+                    </button>
+
+                    <button class="lsp-banner-button" type="button" name="discovered-login">
+                        <span class="lsp-banner-button-wrapper animated" lang="auth_d_sign_in"></span>
+                    </button>
+                </div>
+
+                <!--<span class="0lsp-banner-button-wrapper animated button-text-line-2 lsp-banner-button-wrapper-line" lang="auth_d_come_back"></span>-->
+                <br/>
+
+                <button class="lsp-banner-button lsp-banner-button-cancel modal-close lsp-banner-text-button">
+                    <span class="lsp-banner-button-wrapper animated button-text-line-1 not-now" lang="auth_d_not_now"></span>
+                </button>
+            </lsp-banner-actions>
+        </div>
+        
+        <div class="lsp-side-content">
+            <span class="lsp-side-head"></span>
+            <span class="lsp-side-text"></span>
+            <span class="lsp-side-inner"></span>
+            <span class="lsp-side-all-features" lang="auth_d_all_features"></span>
+            <span class="lsp-side-clocks">
+                <span class="clarge" lang="options_clock_size_large"></span>
+                <span class="cmedium" lang="options_clock_size_medium"></span>
+                <span class="csmall" lang="options_clock_size_small"></span>
+            </span>
+            <img class="lsp-side-img" />
+        </div>
+        
+        <span class="modal-close close-img"><img src="/pages/common/auth/site_images/close.png" /></span>
+    </lsp-banner>
+</div>

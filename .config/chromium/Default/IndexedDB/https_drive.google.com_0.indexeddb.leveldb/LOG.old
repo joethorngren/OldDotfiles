@@ -1,0 +1,23 @@
+2017/06/02-22:53:08.900 2042 Reusing MANIFEST /home/dayfun/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/06/02-22:53:08.901 2042 Recovering log #18
+2017/06/02-22:53:08.901 2042 Reusing old log /home/dayfun/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000018.log 
+2017/06/02-22:53:10.737 6001 Level-0 table #22: started
+2017/06/02-22:53:10.777 6001 Level-0 table #22: 4095097 bytes OK
+2017/06/02-22:53:10.781 6001 Delete type=0 #18
+2017/06/02-22:53:11.487 6001 Level-0 table #24: started
+2017/06/02-22:53:11.529 6001 Level-0 table #24: 4130557 bytes OK
+2017/06/02-22:53:11.533 6001 Delete type=0 #21
+2017/06/02-22:53:12.210 6001 Level-0 table #26: started
+2017/06/02-22:53:12.262 6001 Level-0 table #26: 4128049 bytes OK
+2017/06/02-22:53:12.266 6001 Delete type=0 #23
+2017/06/02-22:53:12.270 6001 Compacting 4@0 + 2@1 files
+2017/06/02-22:53:12.348 6001 Generated table #27@0: 3 keys, 4093156 bytes
+2017/06/02-22:53:12.354 6001 Generated table #28@0: 10 keys, 35023 bytes
+2017/06/02-22:53:12.354 6001 Compacted 4@0 + 2@1 files => 4128179 bytes
+2017/06/02-22:53:12.358 6001 compacted to: files[ 0 2 1 0 0 0 0 ]
+2017/06/02-22:53:12.358 6001 Delete type=2 #22
+2017/06/02-22:53:12.359 6001 Delete type=2 #24
+2017/06/02-22:53:12.359 6001 Delete type=2 #17
+2017/06/02-22:53:12.359 6001 Delete type=2 #16
+2017/06/02-22:53:12.359 6001 Delete type=2 #19
+2017/06/02-22:53:12.359 6001 Delete type=2 #26

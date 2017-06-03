@@ -1,0 +1,10 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Turn your Trello® cards into Pomodoro® tasks. Stay focused, accomplish more."
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Pomello"
+   }
+}

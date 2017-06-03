@@ -1,0 +1,22 @@
+{
+   "content_scripts": [ {
+      "js": [ "trello-card-numbers.js" ],
+      "matches": [ "https://trello.com/*" ]
+   } ],
+   "description": "Adds card numbers to a variety of places when using Trello.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo+Ff3iuDEXo+CjkYsQeKd769veF7U7ZfEGO0w8KrV3BgyeQUlJH20OXOzQ1CHrCzkdy9R1N79dC/6ZO9WdCNKWMuNxM/YHGQpQxj5n4pPBPgiOTTYoLzJuzgSG8+uJx0gA2mq4tY26XUSfds4QLp0o0UFwMmhyHPCPxjNVCv8e63aB5lwlzqpeTiib4OvnULnDEiSw6pLy130EZLNJDXk3FjzLRVmVri1ogRHwaO5gUdJhbwFvJpUyKPmMsZhnXw7U46pCDdP9cjdNn4GR0X6fJh9x1CJ/f2GiOL6G8ljoCuPXCxL8m2kcPy2U3vG0Ka7l0Kgv0ClLGdM4x34Qr2BwIDAQAB",
+   "manifest_version": 2,
+   "name": "Trello Card Numbers",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "options.html"
+   },
+   "permissions": [ "https://trello.com/*", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2.6"
+}

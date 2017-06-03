@@ -1,0 +1,1403 @@
+**** BEGIN LOGGING AT Tue May 30 10:19:34 2017
+
+May 30 10:19:34 *	*** Looking up your hostname...
+May 30 10:19:34 *	*** Checking Ident
+May 30 10:19:35 *	*** Found your hostname
+May 30 10:19:41 *	*** No Ident response
+May 30 10:19:41 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 30 10:19:41 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 30 10:19:41 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Tue May 30 10:19:41 2017
+
+**** BEGIN LOGGING AT Tue May 30 10:19:41 2017
+
+May 30 10:19:41 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 30 10:19:41 *	Your host is barjavel.freenode.net[195.154.200.232/6697], running version ircd-seven-1.1.4
+May 30 10:19:41 *	This server was created Sat Jan 7 2017 at 03:00:47 CET
+May 30 10:19:41 *	barjavel.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+**** BEGIN LOGGING AT Tue May 30 10:50:42 2017
+
+May 30 10:50:42 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 30 10:50:42 *	Your host is moon.freenode.net[173.230.128.213/6697], running version ircd-seven-1.1.4
+May 30 10:50:42 *	This server was created Wed Jan 4 2017 at 21:44:53 UTC
+May 30 10:50:42 *	moon.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 30 10:50:42 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 30 10:50:42 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU CPRIVMSG :are supported by this server
+May 30 10:50:42 *	CNOTICE WHOX ETRACE KNOCK :are supported by this server
+May 30 10:50:42 *	There are 127 users and 95052 invisible on 27 servers
+May 30 10:50:42 *	30 :IRC Operators online
+May 30 10:50:42 *	57 :unknown connection(s)
+May 30 10:50:42 *	60753 :channels formed
+May 30 10:50:42 *	I have 5737 clients and 1 servers
+May 30 10:50:42 *	5737 10979 :Current local users 5737, max 10979
+May 30 10:50:42 *	95179 96566 :Current global users 95179, max 96566
+May 30 10:50:42 *	Highest connection count: 10980 (10979 clients) (887907 connections received)
+May 30 10:50:42 *	- moon.freenode.net Message of the Day - 
+May 30 10:50:42 *	- Welcome to freenode - supporting the free and open source
+May 30 10:50:42 *	- software communities since 1998.
+May 30 10:50:42 *	-  
+May 30 10:50:42 *	- By connecting to freenode you indicate that you have read and
+May 30 10:50:42 *	- accept our policies as set out on http://www.freenode.net
+May 30 10:50:42 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 30 10:50:42 *	- any network-related questions or queries, where a number of
+May 30 10:50:42 *	- volunteer staff and helpful users will be happy to assist you.
+May 30 10:50:42 *	-  
+May 30 10:50:42 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 30 10:50:42 *	- together with like-minded FOSS enthusiasts for talks and
+May 30 10:50:42 *	- real-life collaboration.
+May 30 10:50:42 *	-  
+May 30 10:50:42 *	- We would like to thank Private Internet Access
+May 30 10:50:42 *	- (https://www.privateinternetaccess.com/) and the other
+May 30 10:50:42 *	- organisations that help keep freenode and our other projects
+May 30 10:50:42 *	- running for their sustained support.
+May 30 10:50:42 *	-  
+May 30 10:50:42 *	- In particular we would like to thank the sponsor
+May 30 10:50:42 *	- of this server, details of which can be found above.
+May 30 10:50:42 *	-  
+May 30 10:50:42 *	End of /MOTD command.
+May 30 10:50:42 *	dayFun sets mode +Z on dayFun
+May 30 10:50:42 *	dayFun sets mode +i on dayFun
+May 30 11:01:24 *	WHOIS :This command could not be completed because it has been used recently, and is rate-limited.
+**** BEGIN LOGGING AT Tue May 30 11:13:15 2017
+
+May 30 11:13:15 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 30 11:13:15 *	Your host is cherryh.freenode.net[149.56.134.238/6697], running version ircd-seven-1.1.4
+May 30 11:13:15 *	This server was created Wed Jan 4 2017 at 16:45:00 EST
+May 30 11:13:15 *	cherryh.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 30 11:13:15 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 30 11:13:15 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE SAFELIST :are supported by this server
+May 30 11:13:15 *	ELIST=CTU WHOX ETRACE KNOCK :are supported by this server
+May 30 11:13:15 *	There are 128 users and 95022 invisible on 27 servers
+May 30 11:13:15 *	30 :IRC Operators online
+May 30 11:13:15 *	43 :unknown connection(s)
+May 30 11:13:15 *	60734 :channels formed
+May 30 11:13:15 *	I have 5661 clients and 1 servers
+May 30 11:13:15 *	5661 6857 :Current local users 5661, max 6857
+May 30 11:13:15 *	95150 96566 :Current global users 95150, max 96566
+May 30 11:13:15 *	Highest connection count: 6858 (6857 clients) (1034521 connections received)
+May 30 11:13:15 *	- cherryh.freenode.net Message of the Day - 
+May 30 11:13:15 *	- Welcome to freenode - supporting the free and open source
+May 30 11:13:15 *	- software communities since 1998.
+May 30 11:13:15 *	-  
+May 30 11:13:15 *	- By connecting to freenode you indicate that you have read and
+May 30 11:13:15 *	- accept our policies as set out on http://www.freenode.net
+May 30 11:13:15 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 30 11:13:15 *	- any network-related questions or queries, where a number of
+May 30 11:13:15 *	- volunteer staff and helpful users will be happy to assist you.
+May 30 11:13:15 *	-  
+May 30 11:13:15 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 30 11:13:15 *	- together with like-minded FOSS enthusiasts for talks and
+May 30 11:13:15 *	- real-life collaboration.
+May 30 11:13:15 *	-  
+May 30 11:13:15 *	- We would like to thank Private Internet Access
+May 30 11:13:15 *	- (https://www.privateinternetaccess.com/) and the other
+May 30 11:13:15 *	- organisations that help keep freenode and our other projects
+May 30 11:13:15 *	- running for their sustained support.
+May 30 11:13:15 *	-  
+May 30 11:13:15 *	- In particular we would like to thank the sponsor
+May 30 11:13:15 *	- of this server, details of which can be found above.
+May 30 11:13:15 *	-  
+May 30 11:13:15 *	End of /MOTD command.
+May 30 11:13:15 *	dayFun sets mode +Z on dayFun
+May 30 11:13:15 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Tue May 30 11:27:00 2017
+
+May 30 11:27:00 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 30 11:27:00 *	Your host is niven.freenode.net[139.162.227.51/6697], running version ircd-seven-1.1.4
+May 30 11:27:00 *	This server was created Thu Jan 5 2017 at 04:18:05 UTC
+May 30 11:27:00 *	niven.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 30 11:27:00 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 30 11:27:00 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU CPRIVMSG :are supported by this server
+May 30 11:27:00 *	CNOTICE WHOX ETRACE KNOCK :are supported by this server
+May 30 11:27:00 *	There are 129 users and 95063 invisible on 27 servers
+May 30 11:27:00 *	30 :IRC Operators online
+May 30 11:27:00 *	63 :unknown connection(s)
+May 30 11:27:00 *	60658 :channels formed
+May 30 11:27:00 *	I have 5775 clients and 1 servers
+May 30 11:27:00 *	5775 10443 :Current local users 5775, max 10443
+May 30 11:27:00 *	95192 96566 :Current global users 95192, max 96566
+May 30 11:27:00 *	Highest connection count: 10444 (10443 clients) (1399945 connections received)
+May 30 11:27:00 *	- niven.freenode.net Message of the Day - 
+May 30 11:27:00 *	- Welcome to niven.freenode.net in London, United Kingdom, EU.
+May 30 11:27:00 *	- thanks to Linode for sponsoring this server!
+May 30 11:27:00 *	-  
+May 30 11:27:00 *	- NIVEN, LAWRENCE VAN COTT [1938-].  Architect of Known Space,
+May 30 11:27:00 *	- the setting of Protector, World of Ptaavs and the
+May 30 11:27:00 *	- Ringworld series.  Author of "Flash Crowd", a canonical
+May 30 11:27:00 *	- sociological hard science fiction short story dealing with
+May 30 11:27:00 *	- effects of near instantaneous transportation on a modern
+May 30 11:27:00 *	- technological society.  In addition, he is well known for his
+May 30 11:27:00 *	- collaborations with Jerry Pournelle, including The Mote in
+May 30 11:27:00 *	- God's Eye and Lucifer's Hammer.
+May 30 11:27:00 *	-  
+May 30 11:27:00 *	- Welcome to freenode - supporting the free and open source
+May 30 11:27:00 *	- software communities since 1998.
+May 30 11:27:00 *	-  
+May 30 11:27:00 *	- By connecting to freenode you indicate that you have read and
+May 30 11:27:00 *	- accept our policies as set out on http://www.freenode.net
+May 30 11:27:00 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 30 11:27:00 *	- any network-related questions or queries, where a number of
+May 30 11:27:00 *	- volunteer staff and helpful users will be happy to assist you.
+May 30 11:27:00 *	-  
+May 30 11:27:00 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 30 11:27:00 *	- together with like-minded FOSS enthusiasts for talks and
+May 30 11:27:00 *	- real-life collaboration.
+May 30 11:27:00 *	-  
+May 30 11:27:00 *	- We would like to thank Private Internet Access
+May 30 11:27:00 *	- (https://www.privateinternetaccess.com/) and the other
+May 30 11:27:00 *	- organisations that help keep freenode and our other projects
+May 30 11:27:00 *	- running for their sustained support.
+May 30 11:27:00 *	-  
+May 30 11:27:00 *	- In particular we would like to thank the sponsor
+May 30 11:27:00 *	- of this server, details of which can be found above.
+May 30 11:27:00 *	-  
+May 30 11:27:00 *	End of /MOTD command.
+May 30 11:27:00 *	dayFun sets mode +Z on dayFun
+May 30 11:27:00 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Tue May 30 15:35:15 2017
+
+May 30 15:35:15 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 30 15:35:15 *	Your host is hobana.freenode.net[81.18.73.123/6697], running version ircd-seven-1.1.4
+May 30 15:35:15 *	This server was created Fri Jan 13 2017 at 00:03:11 UTC
+May 30 15:35:15 *	hobana.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 30 15:35:15 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 30 15:35:15 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX SAFELIST :are supported by this server
+May 30 15:35:15 *	ELIST=CTU KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 30 15:35:15 *	There are 124 users and 93121 invisible on 27 servers
+May 30 15:35:15 *	30 :IRC Operators online
+May 30 15:35:15 *	77 :unknown connection(s)
+May 30 15:35:15 *	60529 :channels formed
+May 30 15:35:15 *	I have 5634 clients and 1 servers
+May 30 15:35:15 *	5634 12000 :Current local users 5634, max 12000
+May 30 15:35:15 *	93245 96566 :Current global users 93245, max 96566
+May 30 15:35:15 *	Highest connection count: 12001 (12000 clients) (950289 connections received)
+May 30 15:35:15 *	- hobana.freenode.net Message of the Day - 
+May 30 15:35:15 *	- Welcome to hobana.freenode.net in Bucharest, Romania! Thank
+May 30 15:35:15 *	- you to RCS-RDS for sponsoring this server!
+May 30 15:35:15 *	-  
+May 30 15:35:15 *	- Ion Hobana (1931-2011) was a Romanian science fiction writer,
+May 30 15:35:15 *	- literary critic and ufologist. Ion Hobana is a literary
+May 30 15:35:15 *	- pseudonym, the writer's real name being Aurelian Manta Rosie.
+May 30 15:35:15 *	-  
+May 30 15:35:15 *	- Welcome to freenode - supporting the free and open source
+May 30 15:35:15 *	- software communities since 1998.
+May 30 15:35:15 *	-  
+May 30 15:35:15 *	- By connecting to freenode you indicate that you have read and
+May 30 15:35:15 *	- accept our policies as set out on http://www.freenode.net
+May 30 15:35:15 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 30 15:35:15 *	- any network-related questions or queries, where a number of
+May 30 15:35:15 *	- volunteer staff and helpful users will be happy to assist you.
+May 30 15:35:15 *	-  
+May 30 15:35:15 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 30 15:35:15 *	- together with like-minded FOSS enthusiasts for talks and
+May 30 15:35:15 *	- real-life collaboration.
+May 30 15:35:15 *	-  
+May 30 15:35:15 *	- We would like to thank Private Internet Access
+May 30 15:35:15 *	- (https://www.privateinternetaccess.com/) and the other
+May 30 15:35:15 *	- organisations that help keep freenode and our other projects
+May 30 15:35:15 *	- running for their sustained support.
+May 30 15:35:15 *	-  
+May 30 15:35:15 *	- In particular we would like to thank the sponsor
+May 30 15:35:15 *	- of this server, details of which can be found above.
+May 30 15:35:15 *	-  
+May 30 15:35:15 *	End of /MOTD command.
+May 30 15:35:15 *	dayFun sets mode +Z on dayFun
+May 30 15:35:15 *	dayFun sets mode +i on dayFun
+**** ENDING LOGGING AT Tue May 30 15:36:57 2017
+
+**** BEGIN LOGGING AT Tue May 30 15:47:07 2017
+
+May 30 15:47:07 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 30 15:47:07 *	Your host is card.freenode.net[38.229.70.22/6697], running version ircd-seven-1.1.4
+May 30 15:47:07 *	This server was created Tue Feb 7 2017 at 17:41:14 UTC
+May 30 15:47:07 *	card.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 30 15:47:07 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 30 15:47:07 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 30 15:47:07 *	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+May 30 15:47:07 *	There are 124 users and 92809 invisible on 27 servers
+May 30 15:47:07 *	30 :IRC Operators online
+May 30 15:47:07 *	46 :unknown connection(s)
+May 30 15:47:07 *	60481 :channels formed
+May 30 15:47:07 *	I have 5527 clients and 1 servers
+May 30 15:47:07 *	5527 7467 :Current local users 5527, max 7467
+May 30 15:47:07 *	92933 96566 :Current global users 92933, max 96566
+May 30 15:47:07 *	Highest connection count: 7468 (7467 clients) (1287124 connections received)
+May 30 15:47:07 *	- card.freenode.net Message of the Day - 
+May 30 15:47:07 *	-  
+May 30 15:47:07 *	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+May 30 15:47:07 *	- Team Cymru (http://www.team-cymru.org).
+May 30 15:47:07 *	-  
+May 30 15:47:07 *	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+May 30 15:47:07 *	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+May 30 15:47:07 *	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+May 30 15:47:07 *	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+May 30 15:47:07 *	- cultural background. The first author to win the Hugo and Nebula novel awards
+May 30 15:47:07 *	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+May 30 15:47:07 *	-  
+May 30 15:47:07 *	-  
+May 30 15:47:07 *	- Welcome to freenode - supporting the free and open source
+May 30 15:47:07 *	- software communities since 1998.
+May 30 15:47:07 *	-  
+May 30 15:47:07 *	- By connecting to freenode you indicate that you have read and
+May 30 15:47:07 *	- accept our policies as set out on http://www.freenode.net
+May 30 15:47:07 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 30 15:47:07 *	- any network-related questions or queries, where a number of
+May 30 15:47:07 *	- volunteer staff and helpful users will be happy to assist you.
+May 30 15:47:07 *	-  
+May 30 15:47:07 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 30 15:47:07 *	- together with like-minded FOSS enthusiasts for talks and
+May 30 15:47:07 *	- real-life collaboration.
+May 30 15:47:07 *	-  
+May 30 15:47:07 *	- We would like to thank Private Internet Access
+May 30 15:47:07 *	- (https://www.privateinternetaccess.com/) and the other
+May 30 15:47:07 *	- organisations that help keep freenode and our other projects
+May 30 15:47:07 *	- running for their sustained support.
+May 30 15:47:07 *	-  
+May 30 15:47:07 *	- In particular we would like to thank the sponsor
+May 30 15:47:07 *	- of this server, details of which can be found above.
+May 30 15:47:07 *	-  
+May 30 15:47:07 *	End of /MOTD command.
+May 30 15:47:07 *	dayFun sets mode +Z on dayFun
+May 30 15:47:07 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Tue May 30 20:14:41 2017
+
+May 30 20:14:41 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 30 20:14:41 *	Your host is orwell.freenode.net[185.30.166.38/6697], running version ircd-seven-1.1.4
+May 30 20:14:41 *	This server was created Sat Jan 7 2017 at 12:04:42 EST
+May 30 20:14:41 *	orwell.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 30 20:14:41 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 30 20:14:41 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 30 20:14:41 *	SAFELIST ELIST=CTU ETRACE WHOX :are supported by this server
+May 30 20:14:41 *	There are 122 users and 89090 invisible on 27 servers
+May 30 20:14:41 *	30 :IRC Operators online
+May 30 20:14:41 *	44 :unknown connection(s)
+May 30 20:14:41 *	60124 :channels formed
+May 30 20:14:41 *	I have 5277 clients and 1 servers
+May 30 20:14:41 *	5277 6943 :Current local users 5277, max 6943
+May 30 20:14:41 *	89212 96566 :Current global users 89212, max 96566
+May 30 20:14:41 *	Highest connection count: 6944 (6943 clients) (1481101 connections received)
+May 30 20:14:41 *	- orwell.freenode.net Message of the Day - 
+May 30 20:14:41 *	- Welcome to orwell.freenode.net in Amsterdam, NL.
+May 30 20:14:41 *	- Thanks to http://www.hyperfilter.com/ for sponsoring
+May 30 20:14:41 *	- this server!
+May 30 20:14:41 *	-  
+May 30 20:14:41 *	- ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+May 30 20:14:41 *	- moved him to England when he was one year old, and it
+May 30 20:14:41 *	- was in England where he was educated and spent most of
+May 30 20:14:41 *	- his life.  Orwell is perhaps best known for his novels
+May 30 20:14:41 *	- Nineteen Eighty-Four and Animal Farm.
+May 30 20:14:41 *	-  
+May 30 20:14:41 *	-  
+May 30 20:14:41 *	- Welcome to freenode - supporting the free and open source
+May 30 20:14:41 *	- software communities since 1998.
+May 30 20:14:41 *	-  
+May 30 20:14:41 *	- By connecting to freenode you indicate that you have read and
+May 30 20:14:41 *	- accept our policies as set out on http://www.freenode.net
+May 30 20:14:41 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 30 20:14:41 *	- any network-related questions or queries, where a number of
+May 30 20:14:41 *	- volunteer staff and helpful users will be happy to assist you.
+May 30 20:14:41 *	-  
+May 30 20:14:41 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 30 20:14:41 *	- together with like-minded FOSS enthusiasts for talks and
+May 30 20:14:41 *	- real-life collaboration.
+May 30 20:14:41 *	-  
+May 30 20:14:41 *	- We would like to thank Private Internet Access
+May 30 20:14:41 *	- (https://www.privateinternetaccess.com/) and the other
+May 30 20:14:41 *	- organisations that help keep freenode and our other projects
+May 30 20:14:41 *	- running for their sustained support.
+May 30 20:14:41 *	-  
+May 30 20:14:41 *	- In particular we would like to thank the sponsor
+May 30 20:14:41 *	- of this server, details of which can be found above.
+May 30 20:14:41 *	-  
+May 30 20:14:41 *	End of /MOTD command.
+May 30 20:14:41 *	dayFun sets mode +Z on dayFun
+May 30 20:14:41 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Tue May 30 20:31:54 2017
+
+May 30 20:31:54 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 30 20:31:54 *	Your host is card.freenode.net[38.229.70.22/6697], running version ircd-seven-1.1.4
+May 30 20:31:54 *	This server was created Tue Feb 7 2017 at 17:41:14 UTC
+May 30 20:31:54 *	card.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 30 20:31:54 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 30 20:31:54 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 30 20:31:54 *	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+May 30 20:31:54 *	There are 122 users and 89079 invisible on 27 servers
+May 30 20:31:54 *	30 :IRC Operators online
+May 30 20:31:54 *	49 :unknown connection(s)
+May 30 20:31:54 *	60122 :channels formed
+May 30 20:31:54 *	I have 5294 clients and 1 servers
+May 30 20:31:54 *	5294 7467 :Current local users 5294, max 7467
+May 30 20:31:54 *	89201 96566 :Current global users 89201, max 96566
+May 30 20:31:54 *	Highest connection count: 7468 (7467 clients) (1289188 connections received)
+May 30 20:31:54 *	- card.freenode.net Message of the Day - 
+May 30 20:31:54 *	-  
+May 30 20:31:54 *	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+May 30 20:31:54 *	- Team Cymru (http://www.team-cymru.org).
+May 30 20:31:54 *	-  
+May 30 20:31:54 *	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+May 30 20:31:54 *	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+May 30 20:31:54 *	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+May 30 20:31:54 *	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+May 30 20:31:54 *	- cultural background. The first author to win the Hugo and Nebula novel awards
+May 30 20:31:54 *	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+May 30 20:31:54 *	-  
+May 30 20:31:54 *	-  
+May 30 20:31:54 *	- Welcome to freenode - supporting the free and open source
+May 30 20:31:54 *	- software communities since 1998.
+May 30 20:31:54 *	-  
+May 30 20:31:54 *	- By connecting to freenode you indicate that you have read and
+May 30 20:31:54 *	- accept our policies as set out on http://www.freenode.net
+May 30 20:31:54 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 30 20:31:54 *	- any network-related questions or queries, where a number of
+May 30 20:31:54 *	- volunteer staff and helpful users will be happy to assist you.
+May 30 20:31:54 *	-  
+May 30 20:31:54 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 30 20:31:54 *	- together with like-minded FOSS enthusiasts for talks and
+May 30 20:31:54 *	- real-life collaboration.
+May 30 20:31:54 *	-  
+May 30 20:31:54 *	- We would like to thank Private Internet Access
+May 30 20:31:54 *	- (https://www.privateinternetaccess.com/) and the other
+May 30 20:31:54 *	- organisations that help keep freenode and our other projects
+May 30 20:31:54 *	- running for their sustained support.
+May 30 20:31:54 *	-  
+May 30 20:31:54 *	- In particular we would like to thank the sponsor
+May 30 20:31:54 *	- of this server, details of which can be found above.
+May 30 20:31:54 *	-  
+May 30 20:31:54 *	End of /MOTD command.
+May 30 20:31:54 *	dayFun sets mode +Z on dayFun
+May 30 20:31:54 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Tue May 30 20:38:25 2017
+
+May 30 20:38:25 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 30 20:38:25 *	Your host is hobana.freenode.net[81.18.73.123/6697], running version ircd-seven-1.1.4
+May 30 20:38:25 *	This server was created Fri Jan 13 2017 at 00:03:11 UTC
+May 30 20:38:25 *	hobana.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 30 20:38:25 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 30 20:38:25 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX SAFELIST :are supported by this server
+May 30 20:38:25 *	ELIST=CTU KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 30 20:38:25 *	There are 123 users and 89086 invisible on 27 servers
+May 30 20:38:25 *	30 :IRC Operators online
+May 30 20:38:25 *	46 :unknown connection(s)
+May 30 20:38:25 *	60131 :channels formed
+May 30 20:38:25 *	I have 5331 clients and 1 servers
+May 30 20:38:25 *	5331 12000 :Current local users 5331, max 12000
+May 30 20:38:25 *	89209 96566 :Current global users 89209, max 96566
+May 30 20:38:25 *	Highest connection count: 12001 (12000 clients) (950962 connections received)
+May 30 20:38:25 *	- hobana.freenode.net Message of the Day - 
+May 30 20:38:25 *	- Welcome to hobana.freenode.net in Bucharest, Romania! Thank
+May 30 20:38:25 *	- you to RCS-RDS for sponsoring this server!
+May 30 20:38:25 *	-  
+May 30 20:38:25 *	- Ion Hobana (1931-2011) was a Romanian science fiction writer,
+May 30 20:38:25 *	- literary critic and ufologist. Ion Hobana is a literary
+May 30 20:38:25 *	- pseudonym, the writer's real name being Aurelian Manta Rosie.
+May 30 20:38:25 *	-  
+May 30 20:38:25 *	- Welcome to freenode - supporting the free and open source
+May 30 20:38:25 *	- software communities since 1998.
+May 30 20:38:25 *	-  
+May 30 20:38:25 *	- By connecting to freenode you indicate that you have read and
+May 30 20:38:25 *	- accept our policies as set out on http://www.freenode.net
+May 30 20:38:25 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 30 20:38:25 *	- any network-related questions or queries, where a number of
+May 30 20:38:25 *	- volunteer staff and helpful users will be happy to assist you.
+May 30 20:38:25 *	-  
+May 30 20:38:25 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 30 20:38:25 *	- together with like-minded FOSS enthusiasts for talks and
+May 30 20:38:25 *	- real-life collaboration.
+May 30 20:38:25 *	-  
+May 30 20:38:25 *	- We would like to thank Private Internet Access
+May 30 20:38:25 *	- (https://www.privateinternetaccess.com/) and the other
+May 30 20:38:25 *	- organisations that help keep freenode and our other projects
+May 30 20:38:25 *	- running for their sustained support.
+May 30 20:38:25 *	-  
+May 30 20:38:25 *	- In particular we would like to thank the sponsor
+May 30 20:38:25 *	- of this server, details of which can be found above.
+May 30 20:38:25 *	-  
+May 30 20:38:25 *	End of /MOTD command.
+May 30 20:38:25 *	dayFun sets mode +Z on dayFun
+May 30 20:38:25 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Tue May 30 22:04:28 2017
+
+May 30 22:04:28 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 30 22:04:28 *	Your host is verne.freenode.net[185.30.166.37/6697], running version ircd-seven-1.1.4
+May 30 22:04:28 *	This server was created Sat Jan 7 2017 at 11:53:54 EST
+May 30 22:04:28 *	verne.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 30 22:04:28 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 30 22:04:28 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX KNOCK :are supported by this server
+May 30 22:04:28 *	SAFELIST ELIST=CTU CPRIVMSG CNOTICE :are supported by this server
+May 30 22:04:28 *	There are 123 users and 88729 invisible on 27 servers
+May 30 22:04:28 *	30 :IRC Operators online
+May 30 22:04:28 *	59 :unknown connection(s)
+May 30 22:04:28 *	60079 :channels formed
+May 30 22:04:28 *	I have 5252 clients and 2 servers
+May 30 22:04:28 *	5252 6861 :Current local users 5252, max 6861
+May 30 22:04:28 *	88852 96566 :Current global users 88852, max 96566
+May 30 22:04:28 *	Highest connection count: 6863 (6861 clients) (1503635 connections received)
+May 30 22:04:28 *	- verne.freenode.net Message of the Day - 
+May 30 22:04:28 *	- Welcome to verne.freenode.net in Amsterdam, NL.
+May 30 22:04:28 *	- Thanks to http://www.hyperfilter.com/ for sponsoring
+May 30 22:04:28 *	- this server!
+May 30 22:04:28 *	-  
+May 30 22:04:28 *	-  
+May 30 22:04:28 *	- VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+May 30 22:04:28 *	- a pioneering french author known for novels such as Twenty
+May 30 22:04:28 *	- Thousand Leagues Under the Sea, A Journey to the Center of the
+May 30 22:04:28 *	- Earth, and Around the World in Eighty Days. Often lauded as the
+May 30 22:04:28 *	- Father of science fiction, Verne wrote about concepts such as
+May 30 22:04:28 *	- space travel, skyscrapers, and worldwide communications
+May 30 22:04:28 *	- networks long before these ideas became popularised or realised.
+May 30 22:04:28 *	-  
+May 30 22:04:28 *	- Welcome to freenode - supporting the free and open source
+May 30 22:04:28 *	- software communities since 1998.
+May 30 22:04:28 *	-  
+May 30 22:04:28 *	- By connecting to freenode you indicate that you have read and
+May 30 22:04:28 *	- accept our policies as set out on http://www.freenode.net
+May 30 22:04:28 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 30 22:04:28 *	- any network-related questions or queries, where a number of
+May 30 22:04:28 *	- volunteer staff and helpful users will be happy to assist you.
+May 30 22:04:28 *	-  
+May 30 22:04:28 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 30 22:04:28 *	- together with like-minded FOSS enthusiasts for talks and
+May 30 22:04:28 *	- real-life collaboration.
+May 30 22:04:28 *	-  
+May 30 22:04:28 *	- We would like to thank Private Internet Access
+May 30 22:04:28 *	- (https://www.privateinternetaccess.com/) and the other
+May 30 22:04:28 *	- organisations that help keep freenode and our other projects
+May 30 22:04:28 *	- running for their sustained support.
+May 30 22:04:28 *	-  
+May 30 22:04:28 *	- In particular we would like to thank the sponsor
+May 30 22:04:28 *	- of this server, details of which can be found above.
+May 30 22:04:28 *	-  
+May 30 22:04:28 *	End of /MOTD command.
+May 30 22:04:28 *	dayFun sets mode +Z on dayFun
+May 30 22:04:28 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Tue May 30 22:19:39 2017
+
+May 30 22:19:39 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 30 22:19:39 *	Your host is niven.freenode.net[139.162.227.51/6697], running version ircd-seven-1.1.4
+May 30 22:19:39 *	This server was created Thu Jan 5 2017 at 04:18:05 UTC
+May 30 22:19:39 *	niven.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 30 22:19:39 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 30 22:19:39 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU CPRIVMSG :are supported by this server
+May 30 22:19:39 *	CNOTICE WHOX ETRACE KNOCK :are supported by this server
+May 30 22:19:39 *	There are 123 users and 88741 invisible on 27 servers
+May 30 22:19:39 *	30 :IRC Operators online
+May 30 22:19:39 *	56 :unknown connection(s)
+May 30 22:19:39 *	60069 :channels formed
+May 30 22:19:39 *	I have 5314 clients and 1 servers
+May 30 22:19:39 *	5314 10443 :Current local users 5314, max 10443
+May 30 22:19:39 *	88864 96566 :Current global users 88864, max 96566
+May 30 22:19:39 *	Highest connection count: 10444 (10443 clients) (1402181 connections received)
+May 30 22:19:39 *	- niven.freenode.net Message of the Day - 
+May 30 22:19:39 *	- Welcome to niven.freenode.net in London, United Kingdom, EU.
+May 30 22:19:39 *	- thanks to Linode for sponsoring this server!
+May 30 22:19:39 *	-  
+May 30 22:19:39 *	- NIVEN, LAWRENCE VAN COTT [1938-].  Architect of Known Space,
+May 30 22:19:39 *	- the setting of Protector, World of Ptaavs and the
+May 30 22:19:39 *	- Ringworld series.  Author of "Flash Crowd", a canonical
+May 30 22:19:39 *	- sociological hard science fiction short story dealing with
+May 30 22:19:39 *	- effects of near instantaneous transportation on a modern
+May 30 22:19:39 *	- technological society.  In addition, he is well known for his
+May 30 22:19:39 *	- collaborations with Jerry Pournelle, including The Mote in
+May 30 22:19:39 *	- God's Eye and Lucifer's Hammer.
+May 30 22:19:39 *	-  
+May 30 22:19:39 *	- Welcome to freenode - supporting the free and open source
+May 30 22:19:39 *	- software communities since 1998.
+May 30 22:19:39 *	-  
+May 30 22:19:39 *	- By connecting to freenode you indicate that you have read and
+May 30 22:19:39 *	- accept our policies as set out on http://www.freenode.net
+May 30 22:19:39 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 30 22:19:39 *	- any network-related questions or queries, where a number of
+May 30 22:19:39 *	- volunteer staff and helpful users will be happy to assist you.
+May 30 22:19:39 *	-  
+May 30 22:19:39 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 30 22:19:39 *	- together with like-minded FOSS enthusiasts for talks and
+May 30 22:19:39 *	- real-life collaboration.
+May 30 22:19:39 *	-  
+May 30 22:19:39 *	- We would like to thank Private Internet Access
+May 30 22:19:39 *	- (https://www.privateinternetaccess.com/) and the other
+May 30 22:19:39 *	- organisations that help keep freenode and our other projects
+May 30 22:19:39 *	- running for their sustained support.
+May 30 22:19:39 *	-  
+May 30 22:19:39 *	- In particular we would like to thank the sponsor
+May 30 22:19:39 *	- of this server, details of which can be found above.
+May 30 22:19:39 *	-  
+May 30 22:19:39 *	End of /MOTD command.
+May 30 22:19:39 *	dayFun sets mode +Z on dayFun
+May 30 22:19:39 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Wed May 31 01:25:04 2017
+
+May 31 01:25:04 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 31 01:25:04 *	Your host is karatkievich.freenode.net[64.86.243.181/6697], running version ircd-seven-1.1.4
+May 31 01:25:04 *	This server was created Sun Jan 8 2017 at 22:54:39 EST
+May 31 01:25:04 *	karatkievich.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 31 01:25:04 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 31 01:25:04 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE ETRACE :are supported by this server
+May 31 01:25:04 *	KNOCK SAFELIST ELIST=CTU WHOX :are supported by this server
+May 31 01:25:04 *	There are 124 users and 92123 invisible on 27 servers
+May 31 01:25:04 *	28 :IRC Operators online
+May 31 01:25:04 *	42 :unknown connection(s)
+May 31 01:25:04 *	60468 :channels formed
+May 31 01:25:04 *	I have 5522 clients and 1 servers
+May 31 01:25:04 *	5522 6394 :Current local users 5522, max 6394
+May 31 01:25:04 *	92247 96566 :Current global users 92247, max 96566
+May 31 01:25:04 *	Highest connection count: 6395 (6394 clients) (465751 connections received)
+May 31 01:25:04 *	- karatkievich.freenode.net Message of the Day - 
+May 31 01:25:04 *	- Welcome to karatkievich.freenode.net. Thanks to
+May 31 01:25:04 *	- http://www.tatacommunications.com/ for sponsoring
+May 31 01:25:04 *	- this server!
+May 31 01:25:04 *	-  
+May 31 01:25:04 *	- KARATKIEVICH, ULADZIMIR (1930-1984) was a Belarusian
+May 31 01:25:04 *	- romantic writer. After his first published work was a poem
+May 31 01:25:04 *	- in 1951, he followed up with novels, short stories, plays,
+May 31 01:25:04 *	- essays, articles and screenplays. His probably most popular
+May 31 01:25:04 *	- work is the novel 'King Stakh's Wild Hunt' (1964). Most his
+May 31 01:25:04 *	- novels are about Belarus's past.  He won many national
+May 31 01:25:04 *	- literary awards and influenced the Belarusian literature's
+May 31 01:25:04 *	- development of historical themes.
+May 31 01:25:04 *	-  
+May 31 01:25:04 *	-  
+May 31 01:25:04 *	- Welcome to freenode - supporting the free and open source
+May 31 01:25:04 *	- software communities since 1998.
+May 31 01:25:04 *	-  
+May 31 01:25:04 *	- By connecting to freenode you indicate that you have read and
+May 31 01:25:04 *	- accept our policies as set out on http://www.freenode.net
+May 31 01:25:04 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 31 01:25:04 *	- any network-related questions or queries, where a number of
+May 31 01:25:04 *	- volunteer staff and helpful users will be happy to assist you.
+May 31 01:25:04 *	-  
+May 31 01:25:04 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 31 01:25:04 *	- together with like-minded FOSS enthusiasts for talks and
+May 31 01:25:04 *	- real-life collaboration.
+May 31 01:25:04 *	-  
+May 31 01:25:04 *	- We would like to thank Private Internet Access
+May 31 01:25:04 *	- (https://www.privateinternetaccess.com/) and the other
+May 31 01:25:04 *	- organisations that help keep freenode and our other projects
+May 31 01:25:04 *	- running for their sustained support.
+May 31 01:25:04 *	-  
+May 31 01:25:04 *	- In particular we would like to thank the sponsor
+May 31 01:25:04 *	- of this server, details of which can be found above.
+May 31 01:25:04 *	-  
+May 31 01:25:04 *	End of /MOTD command.
+May 31 01:25:04 *	dayFun sets mode +Z on dayFun
+May 31 01:25:04 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Wed May 31 11:12:51 2017
+
+May 31 11:12:51 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 31 11:12:51 *	Your host is verne.freenode.net[185.30.166.37/6697], running version ircd-seven-1.1.4
+May 31 11:12:51 *	This server was created Sat Jan 7 2017 at 11:53:54 EST
+May 31 11:12:51 *	verne.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 31 11:12:51 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 31 11:12:51 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX KNOCK :are supported by this server
+May 31 11:12:51 *	SAFELIST ELIST=CTU CPRIVMSG CNOTICE :are supported by this server
+May 31 11:12:51 *	There are 131 users and 95199 invisible on 26 servers
+May 31 11:12:51 *	30 :IRC Operators online
+May 31 11:12:51 *	43 :unknown connection(s)
+May 31 11:12:51 *	60756 :channels formed
+May 31 11:12:51 *	I have 5951 clients and 2 servers
+May 31 11:12:51 *	5951 6861 :Current local users 5951, max 6861
+May 31 11:12:51 *	95330 97718 :Current global users 95330, max 97718
+May 31 11:12:51 *	Highest connection count: 6863 (6861 clients) (1511252 connections received)
+May 31 11:12:51 *	- verne.freenode.net Message of the Day - 
+May 31 11:12:51 *	- Welcome to verne.freenode.net in Amsterdam, NL.
+May 31 11:12:51 *	- Thanks to http://www.hyperfilter.com/ for sponsoring
+May 31 11:12:51 *	- this server!
+May 31 11:12:51 *	-  
+May 31 11:12:51 *	-  
+May 31 11:12:51 *	- VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+May 31 11:12:51 *	- a pioneering french author known for novels such as Twenty
+May 31 11:12:51 *	- Thousand Leagues Under the Sea, A Journey to the Center of the
+May 31 11:12:51 *	- Earth, and Around the World in Eighty Days. Often lauded as the
+May 31 11:12:51 *	- Father of science fiction, Verne wrote about concepts such as
+May 31 11:12:51 *	- space travel, skyscrapers, and worldwide communications
+May 31 11:12:51 *	- networks long before these ideas became popularised or realised.
+May 31 11:12:51 *	-  
+May 31 11:12:51 *	- Welcome to freenode - supporting the free and open source
+May 31 11:12:51 *	- software communities since 1998.
+May 31 11:12:51 *	-  
+May 31 11:12:51 *	- By connecting to freenode you indicate that you have read and
+May 31 11:12:51 *	- accept our policies as set out on http://www.freenode.net
+May 31 11:12:51 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 31 11:12:51 *	- any network-related questions or queries, where a number of
+May 31 11:12:51 *	- volunteer staff and helpful users will be happy to assist you.
+May 31 11:12:51 *	-  
+May 31 11:12:51 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 31 11:12:51 *	- together with like-minded FOSS enthusiasts for talks and
+May 31 11:12:51 *	- real-life collaboration.
+May 31 11:12:51 *	-  
+May 31 11:12:51 *	- We would like to thank Private Internet Access
+May 31 11:12:51 *	- (https://www.privateinternetaccess.com/) and the other
+May 31 11:12:51 *	- organisations that help keep freenode and our other projects
+May 31 11:12:51 *	- running for their sustained support.
+May 31 11:12:51 *	-  
+May 31 11:12:51 *	- In particular we would like to thank the sponsor
+May 31 11:12:51 *	- of this server, details of which can be found above.
+May 31 11:12:51 *	-  
+May 31 11:12:51 *	End of /MOTD command.
+May 31 11:12:51 *	dayFun sets mode +Z on dayFun
+May 31 11:12:51 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Wed May 31 14:18:07 2017
+
+May 31 14:18:07 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 31 14:18:07 *	Your host is verne.freenode.net[185.30.166.37/6697], running version ircd-seven-1.1.4
+May 31 14:18:07 *	This server was created Sat Jan 7 2017 at 11:53:54 EST
+May 31 14:18:07 *	verne.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 31 14:18:07 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 31 14:18:07 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX KNOCK :are supported by this server
+May 31 14:18:07 *	SAFELIST ELIST=CTU CPRIVMSG CNOTICE :are supported by this server
+May 31 14:18:07 *	There are 135 users and 95086 invisible on 26 servers
+May 31 14:18:07 *	30 :IRC Operators online
+May 31 14:18:07 *	52 :unknown connection(s)
+May 31 14:18:07 *	60802 :channels formed
+May 31 14:18:07 *	I have 5931 clients and 2 servers
+May 31 14:18:07 *	5931 6861 :Current local users 5931, max 6861
+May 31 14:18:07 *	95221 97718 :Current global users 95221, max 97718
+May 31 14:18:07 *	Highest connection count: 6863 (6861 clients) (1513433 connections received)
+May 31 14:18:07 *	- verne.freenode.net Message of the Day - 
+May 31 14:18:07 *	- Welcome to verne.freenode.net in Amsterdam, NL.
+May 31 14:18:07 *	- Thanks to http://www.hyperfilter.com/ for sponsoring
+May 31 14:18:07 *	- this server!
+May 31 14:18:07 *	-  
+May 31 14:18:07 *	-  
+May 31 14:18:07 *	- VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+May 31 14:18:07 *	- a pioneering french author known for novels such as Twenty
+May 31 14:18:07 *	- Thousand Leagues Under the Sea, A Journey to the Center of the
+May 31 14:18:07 *	- Earth, and Around the World in Eighty Days. Often lauded as the
+May 31 14:18:07 *	- Father of science fiction, Verne wrote about concepts such as
+May 31 14:18:07 *	- space travel, skyscrapers, and worldwide communications
+May 31 14:18:07 *	- networks long before these ideas became popularised or realised.
+May 31 14:18:07 *	-  
+May 31 14:18:07 *	- Welcome to freenode - supporting the free and open source
+May 31 14:18:07 *	- software communities since 1998.
+May 31 14:18:07 *	-  
+May 31 14:18:07 *	- By connecting to freenode you indicate that you have read and
+May 31 14:18:07 *	- accept our policies as set out on http://www.freenode.net
+May 31 14:18:07 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 31 14:18:07 *	- any network-related questions or queries, where a number of
+May 31 14:18:07 *	- volunteer staff and helpful users will be happy to assist you.
+May 31 14:18:07 *	-  
+May 31 14:18:07 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 31 14:18:07 *	- together with like-minded FOSS enthusiasts for talks and
+May 31 14:18:07 *	- real-life collaboration.
+May 31 14:18:07 *	-  
+May 31 14:18:07 *	- We would like to thank Private Internet Access
+May 31 14:18:07 *	- (https://www.privateinternetaccess.com/) and the other
+May 31 14:18:07 *	- organisations that help keep freenode and our other projects
+May 31 14:18:07 *	- running for their sustained support.
+May 31 14:18:07 *	-  
+May 31 14:18:07 *	- In particular we would like to thank the sponsor
+May 31 14:18:07 *	- of this server, details of which can be found above.
+May 31 14:18:07 *	-  
+May 31 14:18:07 *	End of /MOTD command.
+May 31 14:18:07 *	dayFun sets mode +Z on dayFun
+May 31 14:18:07 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Wed May 31 14:58:37 2017
+
+May 31 14:58:37 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 31 14:58:37 *	Your host is cherryh.freenode.net[149.56.134.238/6697], running version ircd-seven-1.1.4
+May 31 14:58:37 *	This server was created Wed Jan 4 2017 at 16:45:00 EST
+May 31 14:58:37 *	cherryh.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 31 14:58:37 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 31 14:58:37 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE SAFELIST :are supported by this server
+May 31 14:58:37 *	ELIST=CTU WHOX ETRACE KNOCK :are supported by this server
+May 31 14:58:37 *	There are 132 users and 94311 invisible on 26 servers
+May 31 14:58:37 *	30 :IRC Operators online
+May 31 14:58:37 *	38 :unknown connection(s)
+May 31 14:58:37 *	60746 :channels formed
+May 31 14:58:37 *	I have 5977 clients and 1 servers
+May 31 14:58:37 *	5977 6857 :Current local users 5977, max 6857
+May 31 14:58:37 *	94443 97718 :Current global users 94443, max 97718
+May 31 14:58:37 *	Highest connection count: 6858 (6857 clients) (1049629 connections received)
+May 31 14:58:37 *	- cherryh.freenode.net Message of the Day - 
+May 31 14:58:37 *	- Welcome to freenode - supporting the free and open source
+May 31 14:58:37 *	- software communities since 1998.
+May 31 14:58:37 *	-  
+May 31 14:58:37 *	- By connecting to freenode you indicate that you have read and
+May 31 14:58:37 *	- accept our policies as set out on http://www.freenode.net
+May 31 14:58:37 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 31 14:58:37 *	- any network-related questions or queries, where a number of
+May 31 14:58:37 *	- volunteer staff and helpful users will be happy to assist you.
+May 31 14:58:37 *	-  
+May 31 14:58:37 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 31 14:58:37 *	- together with like-minded FOSS enthusiasts for talks and
+May 31 14:58:37 *	- real-life collaboration.
+May 31 14:58:37 *	-  
+May 31 14:58:37 *	- We would like to thank Private Internet Access
+May 31 14:58:37 *	- (https://www.privateinternetaccess.com/) and the other
+May 31 14:58:37 *	- organisations that help keep freenode and our other projects
+May 31 14:58:37 *	- running for their sustained support.
+May 31 14:58:37 *	-  
+May 31 14:58:37 *	- In particular we would like to thank the sponsor
+May 31 14:58:37 *	- of this server, details of which can be found above.
+May 31 14:58:37 *	-  
+May 31 14:58:37 *	End of /MOTD command.
+May 31 14:58:37 *	dayFun sets mode +Z on dayFun
+May 31 14:58:37 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Wed May 31 15:00:46 2017
+
+May 31 15:00:46 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 31 15:00:46 *	Your host is orwell.freenode.net[185.30.166.38/6697], running version ircd-seven-1.1.4
+May 31 15:00:46 *	This server was created Sat Jan 7 2017 at 12:04:42 EST
+May 31 15:00:46 *	orwell.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 31 15:00:46 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 31 15:00:46 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 31 15:00:46 *	SAFELIST ELIST=CTU ETRACE WHOX :are supported by this server
+May 31 15:00:46 *	There are 130 users and 94216 invisible on 26 servers
+May 31 15:00:46 *	30 :IRC Operators online
+May 31 15:00:46 *	4 :unknown connection(s)
+May 31 15:00:46 *	60775 :channels formed
+May 31 15:00:46 *	I have 5898 clients and 1 servers
+May 31 15:00:46 *	5898 6943 :Current local users 5898, max 6943
+May 31 15:00:46 *	94346 97718 :Current global users 94346, max 97718
+May 31 15:00:46 *	Highest connection count: 6944 (6943 clients) (1492738 connections received)
+May 31 15:00:46 *	- orwell.freenode.net Message of the Day - 
+May 31 15:00:46 *	- Welcome to orwell.freenode.net in Amsterdam, NL.
+May 31 15:00:46 *	- Thanks to http://www.hyperfilter.com/ for sponsoring
+May 31 15:00:46 *	- this server!
+May 31 15:00:46 *	-  
+May 31 15:00:46 *	- ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+May 31 15:00:46 *	- moved him to England when he was one year old, and it
+May 31 15:00:46 *	- was in England where he was educated and spent most of
+May 31 15:00:46 *	- his life.  Orwell is perhaps best known for his novels
+May 31 15:00:46 *	- Nineteen Eighty-Four and Animal Farm.
+May 31 15:00:46 *	-  
+May 31 15:00:46 *	-  
+May 31 15:00:46 *	- Welcome to freenode - supporting the free and open source
+May 31 15:00:46 *	- software communities since 1998.
+May 31 15:00:46 *	-  
+May 31 15:00:46 *	- By connecting to freenode you indicate that you have read and
+May 31 15:00:46 *	- accept our policies as set out on http://www.freenode.net
+May 31 15:00:46 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 31 15:00:46 *	- any network-related questions or queries, where a number of
+May 31 15:00:46 *	- volunteer staff and helpful users will be happy to assist you.
+May 31 15:00:46 *	-  
+May 31 15:00:46 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 31 15:00:46 *	- together with like-minded FOSS enthusiasts for talks and
+May 31 15:00:46 *	- real-life collaboration.
+May 31 15:00:46 *	-  
+May 31 15:00:46 *	- We would like to thank Private Internet Access
+May 31 15:00:46 *	- (https://www.privateinternetaccess.com/) and the other
+May 31 15:00:46 *	- organisations that help keep freenode and our other projects
+May 31 15:00:46 *	- running for their sustained support.
+May 31 15:00:46 *	-  
+May 31 15:00:46 *	- In particular we would like to thank the sponsor
+May 31 15:00:46 *	- of this server, details of which can be found above.
+May 31 15:00:46 *	-  
+May 31 15:00:46 *	End of /MOTD command.
+May 31 15:00:46 *	dayFun sets mode +Z on dayFun
+May 31 15:00:46 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Wed May 31 15:06:16 2017
+
+May 31 15:06:16 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 31 15:06:16 *	Your host is orwell.freenode.net[185.30.166.38/6697], running version ircd-seven-1.1.4
+May 31 15:06:16 *	This server was created Sat Jan 7 2017 at 12:04:42 EST
+May 31 15:06:16 *	orwell.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 31 15:06:16 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 31 15:06:16 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+May 31 15:06:16 *	SAFELIST ELIST=CTU ETRACE WHOX :are supported by this server
+May 31 15:06:16 *	There are 129 users and 93980 invisible on 26 servers
+May 31 15:06:16 *	30 :IRC Operators online
+May 31 15:06:16 *	58 :unknown connection(s)
+May 31 15:06:16 *	60736 :channels formed
+May 31 15:06:16 *	I have 5887 clients and 1 servers
+May 31 15:06:16 *	5887 6943 :Current local users 5887, max 6943
+May 31 15:06:16 *	94109 97718 :Current global users 94109, max 97718
+May 31 15:06:16 *	Highest connection count: 6944 (6943 clients) (1492811 connections received)
+May 31 15:06:16 *	- orwell.freenode.net Message of the Day - 
+May 31 15:06:16 *	- Welcome to orwell.freenode.net in Amsterdam, NL.
+May 31 15:06:16 *	- Thanks to http://www.hyperfilter.com/ for sponsoring
+May 31 15:06:16 *	- this server!
+May 31 15:06:16 *	-  
+May 31 15:06:16 *	- ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+May 31 15:06:16 *	- moved him to England when he was one year old, and it
+May 31 15:06:16 *	- was in England where he was educated and spent most of
+May 31 15:06:16 *	- his life.  Orwell is perhaps best known for his novels
+May 31 15:06:16 *	- Nineteen Eighty-Four and Animal Farm.
+May 31 15:06:16 *	-  
+May 31 15:06:16 *	-  
+May 31 15:06:16 *	- Welcome to freenode - supporting the free and open source
+May 31 15:06:16 *	- software communities since 1998.
+May 31 15:06:16 *	-  
+May 31 15:06:16 *	- By connecting to freenode you indicate that you have read and
+May 31 15:06:16 *	- accept our policies as set out on http://www.freenode.net
+May 31 15:06:16 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 31 15:06:16 *	- any network-related questions or queries, where a number of
+May 31 15:06:16 *	- volunteer staff and helpful users will be happy to assist you.
+May 31 15:06:16 *	-  
+May 31 15:06:16 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 31 15:06:16 *	- together with like-minded FOSS enthusiasts for talks and
+May 31 15:06:16 *	- real-life collaboration.
+May 31 15:06:16 *	-  
+May 31 15:06:16 *	- We would like to thank Private Internet Access
+May 31 15:06:16 *	- (https://www.privateinternetaccess.com/) and the other
+May 31 15:06:16 *	- organisations that help keep freenode and our other projects
+May 31 15:06:16 *	- running for their sustained support.
+May 31 15:06:16 *	-  
+May 31 15:06:16 *	- In particular we would like to thank the sponsor
+May 31 15:06:16 *	- of this server, details of which can be found above.
+May 31 15:06:16 *	-  
+May 31 15:06:16 *	End of /MOTD command.
+May 31 15:06:16 *	dayFun sets mode +Z on dayFun
+May 31 15:06:16 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Wed May 31 19:09:02 2017
+
+May 31 19:09:02 *	Welcome to the freenode Internet Relay Chat Network dayFun
+May 31 19:09:02 *	Your host is wilhelm.freenode.net[164.132.77.237/6697], running version ircd-seven-1.1.4
+May 31 19:09:02 *	This server was created Tue Jan 3 2017 at 16:20:15 CET
+May 31 19:09:02 *	wilhelm.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+May 31 19:09:02 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+May 31 19:09:02 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE SAFELIST :are supported by this server
+May 31 19:09:02 *	ELIST=CTU WHOX ETRACE KNOCK :are supported by this server
+May 31 19:09:02 *	There are 126 users and 89332 invisible on 26 servers
+May 31 19:09:02 *	30 :IRC Operators online
+May 31 19:09:02 *	79 :unknown connection(s)
+May 31 19:09:02 *	60169 :channels formed
+May 31 19:09:02 *	I have 5654 clients and 1 servers
+May 31 19:09:02 *	5654 10018 :Current local users 5654, max 10018
+May 31 19:09:02 *	89458 97718 :Current global users 89458, max 97718
+May 31 19:09:02 *	Highest connection count: 10019 (10018 clients) (1564121 connections received)
+May 31 19:09:02 *	- wilhelm.freenode.net Message of the Day - 
+May 31 19:09:02 *	- Welcome to wilhelm.freenode.net in Strasbourg, France. 
+May 31 19:09:02 *	- Thanks to http://digitaltreemedia.co.uk/ for sponsoring
+May 31 19:09:02 *	- this server!
+May 31 19:09:02 *	-  
+May 31 19:09:02 *	- Welcome to freenode - supporting the free and open source
+May 31 19:09:02 *	- software communities since 1998.
+May 31 19:09:02 *	-  
+May 31 19:09:02 *	- By connecting to freenode you indicate that you have read and
+May 31 19:09:02 *	- accept our policies as set out on http://www.freenode.net
+May 31 19:09:02 *	- freenode runs an open proxy scanner. Please join #freenode for
+May 31 19:09:02 *	- any network-related questions or queries, where a number of
+May 31 19:09:02 *	- volunteer staff and helpful users will be happy to assist you.
+May 31 19:09:02 *	-  
+May 31 19:09:02 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+May 31 19:09:02 *	- together with like-minded FOSS enthusiasts for talks and
+May 31 19:09:02 *	- real-life collaboration.
+May 31 19:09:02 *	-  
+May 31 19:09:02 *	- We would like to thank Private Internet Access
+May 31 19:09:02 *	- (https://www.privateinternetaccess.com/) and the other
+May 31 19:09:02 *	- organisations that help keep freenode and our other projects
+May 31 19:09:02 *	- running for their sustained support.
+May 31 19:09:02 *	-  
+May 31 19:09:02 *	- In particular we would like to thank the sponsor
+May 31 19:09:02 *	- of this server, details of which can be found above.
+May 31 19:09:02 *	-  
+May 31 19:09:02 *	End of /MOTD command.
+May 31 19:09:02 *	dayFun sets mode +Z on dayFun
+May 31 19:09:02 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Thu Jun  1 14:26:44 2017
+
+Jun 01 14:26:44 *	Welcome to the freenode Internet Relay Chat Network dayFun
+Jun 01 14:26:44 *	Your host is card.freenode.net[38.229.70.22/6697], running version ircd-seven-1.1.4
+Jun 01 14:26:44 *	This server was created Tue Feb 7 2017 at 17:41:14 UTC
+Jun 01 14:26:44 *	card.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+Jun 01 14:26:44 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+Jun 01 14:26:44 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+Jun 01 14:26:44 *	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+Jun 01 14:26:44 *	There are 142 users and 94859 invisible on 26 servers
+Jun 01 14:26:44 *	30 :IRC Operators online
+Jun 01 14:26:44 *	53 :unknown connection(s)
+Jun 01 14:26:44 *	60693 :channels formed
+Jun 01 14:26:44 *	I have 5937 clients and 1 servers
+Jun 01 14:26:44 *	5937 7467 :Current local users 5937, max 7467
+Jun 01 14:26:44 *	95001 97718 :Current global users 95001, max 97718
+Jun 01 14:26:44 *	Highest connection count: 7468 (7467 clients) (1317348 connections received)
+Jun 01 14:26:44 *	- card.freenode.net Message of the Day - 
+Jun 01 14:26:44 *	-  
+Jun 01 14:26:44 *	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+Jun 01 14:26:44 *	- Team Cymru (http://www.team-cymru.org).
+Jun 01 14:26:44 *	-  
+Jun 01 14:26:44 *	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+Jun 01 14:26:44 *	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+Jun 01 14:26:44 *	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+Jun 01 14:26:44 *	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+Jun 01 14:26:44 *	- cultural background. The first author to win the Hugo and Nebula novel awards
+Jun 01 14:26:44 *	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+Jun 01 14:26:44 *	-  
+Jun 01 14:26:44 *	-  
+Jun 01 14:26:44 *	- Welcome to freenode - supporting the free and open source
+Jun 01 14:26:44 *	- software communities since 1998.
+Jun 01 14:26:44 *	-  
+Jun 01 14:26:44 *	- By connecting to freenode you indicate that you have read and
+Jun 01 14:26:44 *	- accept our policies as set out on http://www.freenode.net
+Jun 01 14:26:44 *	- freenode runs an open proxy scanner. Please join #freenode for
+Jun 01 14:26:44 *	- any network-related questions or queries, where a number of
+Jun 01 14:26:44 *	- volunteer staff and helpful users will be happy to assist you.
+Jun 01 14:26:44 *	-  
+Jun 01 14:26:44 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+Jun 01 14:26:44 *	- together with like-minded FOSS enthusiasts for talks and
+Jun 01 14:26:44 *	- real-life collaboration.
+Jun 01 14:26:44 *	-  
+Jun 01 14:26:44 *	- We would like to thank Private Internet Access
+Jun 01 14:26:44 *	- (https://www.privateinternetaccess.com/) and the other
+Jun 01 14:26:44 *	- organisations that help keep freenode and our other projects
+Jun 01 14:26:44 *	- running for their sustained support.
+Jun 01 14:26:44 *	-  
+Jun 01 14:26:44 *	- In particular we would like to thank the sponsor
+Jun 01 14:26:44 *	- of this server, details of which can be found above.
+Jun 01 14:26:44 *	-  
+Jun 01 14:26:44 *	End of /MOTD command.
+Jun 01 14:26:44 *	dayFun sets mode +Z on dayFun
+Jun 01 14:26:44 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Thu Jun  1 17:31:13 2017
+
+Jun 01 17:31:13 *	Welcome to the freenode Internet Relay Chat Network dayFun
+Jun 01 17:31:13 *	Your host is orwell.freenode.net[185.30.166.38/6697], running version ircd-seven-1.1.4
+Jun 01 17:31:13 *	This server was created Sat Jan 7 2017 at 12:04:42 EST
+Jun 01 17:31:13 *	orwell.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+Jun 01 17:31:13 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+Jun 01 17:31:13 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+Jun 01 17:31:13 *	SAFELIST ELIST=CTU ETRACE WHOX :are supported by this server
+Jun 01 17:31:13 *	There are 133 users and 90378 invisible on 26 servers
+Jun 01 17:31:13 *	30 :IRC Operators online
+Jun 01 17:31:13 *	41 :unknown connection(s)
+Jun 01 17:31:13 *	60371 :channels formed
+Jun 01 17:31:13 *	I have 5707 clients and 1 servers
+Jun 01 17:31:13 *	5707 6943 :Current local users 5707, max 6943
+Jun 01 17:31:13 *	90511 97718 :Current global users 90511, max 97718
+Jun 01 17:31:13 *	Highest connection count: 6944 (6943 clients) (1510205 connections received)
+Jun 01 17:31:13 *	- orwell.freenode.net Message of the Day - 
+Jun 01 17:31:13 *	- Welcome to orwell.freenode.net in Amsterdam, NL.
+Jun 01 17:31:13 *	- Thanks to http://www.hyperfilter.com/ for sponsoring
+Jun 01 17:31:13 *	- this server!
+Jun 01 17:31:13 *	-  
+Jun 01 17:31:13 *	- ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+Jun 01 17:31:13 *	- moved him to England when he was one year old, and it
+Jun 01 17:31:13 *	- was in England where he was educated and spent most of
+Jun 01 17:31:13 *	- his life.  Orwell is perhaps best known for his novels
+Jun 01 17:31:13 *	- Nineteen Eighty-Four and Animal Farm.
+Jun 01 17:31:13 *	-  
+Jun 01 17:31:13 *	-  
+Jun 01 17:31:13 *	- Welcome to freenode - supporting the free and open source
+Jun 01 17:31:13 *	- software communities since 1998.
+Jun 01 17:31:13 *	-  
+Jun 01 17:31:13 *	- By connecting to freenode you indicate that you have read and
+Jun 01 17:31:13 *	- accept our policies as set out on http://www.freenode.net
+Jun 01 17:31:13 *	- freenode runs an open proxy scanner. Please join #freenode for
+Jun 01 17:31:13 *	- any network-related questions or queries, where a number of
+Jun 01 17:31:13 *	- volunteer staff and helpful users will be happy to assist you.
+Jun 01 17:31:13 *	-  
+Jun 01 17:31:13 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+Jun 01 17:31:13 *	- together with like-minded FOSS enthusiasts for talks and
+Jun 01 17:31:13 *	- real-life collaboration.
+Jun 01 17:31:13 *	-  
+Jun 01 17:31:13 *	- We would like to thank Private Internet Access
+Jun 01 17:31:13 *	- (https://www.privateinternetaccess.com/) and the other
+Jun 01 17:31:13 *	- organisations that help keep freenode and our other projects
+Jun 01 17:31:13 *	- running for their sustained support.
+Jun 01 17:31:13 *	-  
+Jun 01 17:31:13 *	- In particular we would like to thank the sponsor
+Jun 01 17:31:13 *	- of this server, details of which can be found above.
+Jun 01 17:31:13 *	-  
+Jun 01 17:31:13 *	End of /MOTD command.
+Jun 01 17:31:13 *	dayFun sets mode +Z on dayFun
+Jun 01 17:31:13 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Fri Jun  2 06:45:38 2017
+
+Jun 02 06:45:38 *	Welcome to the freenode Internet Relay Chat Network dayFun
+Jun 02 06:45:38 *	Your host is hobana.freenode.net[81.18.73.123/6697], running version ircd-seven-1.1.4
+Jun 02 06:45:38 *	This server was created Fri Jan 13 2017 at 00:03:11 UTC
+Jun 02 06:45:38 *	hobana.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+Jun 02 06:45:38 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+Jun 02 06:45:38 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX SAFELIST :are supported by this server
+Jun 02 06:45:38 *	ELIST=CTU KNOCK CPRIVMSG CNOTICE :are supported by this server
+Jun 02 06:45:38 *	There are 133 users and 94832 invisible on 27 servers
+Jun 02 06:45:38 *	30 :IRC Operators online
+Jun 02 06:45:38 *	80 :unknown connection(s)
+Jun 02 06:45:38 *	60701 :channels formed
+Jun 02 06:45:38 *	I have 5937 clients and 1 servers
+Jun 02 06:45:38 *	5937 12000 :Current local users 5937, max 12000
+Jun 02 06:45:38 *	94965 97718 :Current global users 94965, max 97718
+Jun 02 06:45:38 *	Highest connection count: 12001 (12000 clients) (966491 connections received)
+Jun 02 06:45:38 *	- hobana.freenode.net Message of the Day - 
+Jun 02 06:45:38 *	- Welcome to hobana.freenode.net in Bucharest, Romania! Thank
+Jun 02 06:45:38 *	- you to RCS-RDS for sponsoring this server!
+Jun 02 06:45:38 *	-  
+Jun 02 06:45:38 *	- Ion Hobana (1931-2011) was a Romanian science fiction writer,
+Jun 02 06:45:38 *	- literary critic and ufologist. Ion Hobana is a literary
+Jun 02 06:45:38 *	- pseudonym, the writer's real name being Aurelian Manta Rosie.
+Jun 02 06:45:38 *	-  
+Jun 02 06:45:38 *	- Welcome to freenode - supporting the free and open source
+Jun 02 06:45:38 *	- software communities since 1998.
+Jun 02 06:45:38 *	-  
+Jun 02 06:45:38 *	- By connecting to freenode you indicate that you have read and
+Jun 02 06:45:38 *	- accept our policies as set out on http://www.freenode.net
+Jun 02 06:45:38 *	- freenode runs an open proxy scanner. Please join #freenode for
+Jun 02 06:45:38 *	- any network-related questions or queries, where a number of
+Jun 02 06:45:38 *	- volunteer staff and helpful users will be happy to assist you.
+Jun 02 06:45:38 *	-  
+Jun 02 06:45:38 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+Jun 02 06:45:38 *	- together with like-minded FOSS enthusiasts for talks and
+Jun 02 06:45:38 *	- real-life collaboration.
+Jun 02 06:45:38 *	-  
+Jun 02 06:45:38 *	- We would like to thank Private Internet Access
+Jun 02 06:45:38 *	- (https://www.privateinternetaccess.com/) and the other
+Jun 02 06:45:38 *	- organisations that help keep freenode and our other projects
+Jun 02 06:45:38 *	- running for their sustained support.
+Jun 02 06:45:38 *	-  
+Jun 02 06:45:38 *	- In particular we would like to thank the sponsor
+Jun 02 06:45:38 *	- of this server, details of which can be found above.
+Jun 02 06:45:38 *	-  
+Jun 02 06:45:38 *	End of /MOTD command.
+Jun 02 06:45:38 *	dayFun sets mode +Z on dayFun
+Jun 02 06:45:38 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Fri Jun  2 11:01:53 2017
+
+Jun 02 11:01:53 *	Welcome to the freenode Internet Relay Chat Network dayFun
+Jun 02 11:01:53 *	Your host is karatkievich.freenode.net[64.86.243.181/6697], running version ircd-seven-1.1.4
+Jun 02 11:01:53 *	This server was created Sun Jan 8 2017 at 22:54:39 EST
+Jun 02 11:01:53 *	karatkievich.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+Jun 02 11:01:53 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+Jun 02 11:01:53 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE ETRACE :are supported by this server
+Jun 02 11:01:53 *	KNOCK SAFELIST ELIST=CTU WHOX :are supported by this server
+Jun 02 11:01:53 *	There are 131 users and 94297 invisible on 27 servers
+Jun 02 11:01:53 *	30 :IRC Operators online
+Jun 02 11:01:53 *	78 :unknown connection(s)
+Jun 02 11:01:53 *	60672 :channels formed
+Jun 02 11:01:53 *	I have 5977 clients and 1 servers
+Jun 02 11:01:53 *	5977 6394 :Current local users 5977, max 6394
+Jun 02 11:01:53 *	94428 97718 :Current global users 94428, max 97718
+Jun 02 11:01:53 *	Highest connection count: 6395 (6394 clients) (478717 connections received)
+Jun 02 11:01:53 *	- karatkievich.freenode.net Message of the Day - 
+Jun 02 11:01:53 *	- Welcome to karatkievich.freenode.net. Thanks to
+Jun 02 11:01:53 *	- http://www.tatacommunications.com/ for sponsoring
+Jun 02 11:01:53 *	- this server!
+Jun 02 11:01:53 *	-  
+Jun 02 11:01:53 *	- KARATKIEVICH, ULADZIMIR (1930-1984) was a Belarusian
+Jun 02 11:01:53 *	- romantic writer. After his first published work was a poem
+Jun 02 11:01:53 *	- in 1951, he followed up with novels, short stories, plays,
+Jun 02 11:01:53 *	- essays, articles and screenplays. His probably most popular
+Jun 02 11:01:53 *	- work is the novel 'King Stakh's Wild Hunt' (1964). Most his
+Jun 02 11:01:53 *	- novels are about Belarus's past.  He won many national
+Jun 02 11:01:53 *	- literary awards and influenced the Belarusian literature's
+Jun 02 11:01:53 *	- development of historical themes.
+Jun 02 11:01:53 *	-  
+Jun 02 11:01:53 *	-  
+Jun 02 11:01:53 *	- Welcome to freenode - supporting the free and open source
+Jun 02 11:01:53 *	- software communities since 1998.
+Jun 02 11:01:53 *	-  
+Jun 02 11:01:53 *	- By connecting to freenode you indicate that you have read and
+Jun 02 11:01:53 *	- accept our policies as set out on http://www.freenode.net
+Jun 02 11:01:53 *	- freenode runs an open proxy scanner. Please join #freenode for
+Jun 02 11:01:53 *	- any network-related questions or queries, where a number of
+Jun 02 11:01:53 *	- volunteer staff and helpful users will be happy to assist you.
+Jun 02 11:01:53 *	-  
+Jun 02 11:01:53 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+Jun 02 11:01:53 *	- together with like-minded FOSS enthusiasts for talks and
+Jun 02 11:01:53 *	- real-life collaboration.
+Jun 02 11:01:53 *	-  
+Jun 02 11:01:53 *	- We would like to thank Private Internet Access
+Jun 02 11:01:53 *	- (https://www.privateinternetaccess.com/) and the other
+Jun 02 11:01:53 *	- organisations that help keep freenode and our other projects
+Jun 02 11:01:53 *	- running for their sustained support.
+Jun 02 11:01:53 *	-  
+Jun 02 11:01:53 *	- In particular we would like to thank the sponsor
+Jun 02 11:01:53 *	- of this server, details of which can be found above.
+Jun 02 11:01:53 *	-  
+Jun 02 11:01:53 *	End of /MOTD command.
+Jun 02 11:01:53 *	dayFun sets mode +Z on dayFun
+Jun 02 11:01:53 *	dayFun sets mode +i on dayFun
+Jun 02 12:24:46 Perl interface unloaded
+Jun 02 12:24:46 Sysinfo plugin unloaded
+Jun 02 12:24:46 Checksum plugin unloaded
+Jun 02 12:24:46 Do At plugin unloaded
+**** ENDING LOGGING AT Fri Jun  2 12:24:46 2017
+
+**** BEGIN LOGGING AT Fri Jun  2 13:37:50 2017
+
+Jun 02 13:37:50 *	Welcome to the freenode Internet Relay Chat Network dayFun
+Jun 02 13:37:50 *	Your host is wilhelm.freenode.net[164.132.77.237/6697], running version ircd-seven-1.1.4
+Jun 02 13:37:50 *	This server was created Tue Jan 3 2017 at 16:20:15 CET
+Jun 02 13:37:50 *	wilhelm.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+Jun 02 13:37:50 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+Jun 02 13:37:50 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE SAFELIST :are supported by this server
+Jun 02 13:37:50 *	ELIST=CTU WHOX ETRACE KNOCK :are supported by this server
+Jun 02 13:37:50 *	There are 137 users and 94260 invisible on 27 servers
+Jun 02 13:37:50 *	30 :IRC Operators online
+Jun 02 13:37:50 *	41 :unknown connection(s)
+Jun 02 13:37:50 *	60712 :channels formed
+Jun 02 13:37:50 *	I have 5817 clients and 1 servers
+Jun 02 13:37:50 *	5817 10018 :Current local users 5817, max 10018
+Jun 02 13:37:50 *	94397 97718 :Current global users 94397, max 97718
+Jun 02 13:37:50 *	Highest connection count: 10019 (10018 clients) (1583965 connections received)
+Jun 02 13:37:50 *	- wilhelm.freenode.net Message of the Day - 
+Jun 02 13:37:50 *	- Welcome to wilhelm.freenode.net in Strasbourg, France. 
+Jun 02 13:37:50 *	- Thanks to http://digitaltreemedia.co.uk/ for sponsoring
+Jun 02 13:37:50 *	- this server!
+Jun 02 13:37:50 *	-  
+Jun 02 13:37:50 *	- Welcome to freenode - supporting the free and open source
+Jun 02 13:37:50 *	- software communities since 1998.
+Jun 02 13:37:50 *	-  
+Jun 02 13:37:50 *	- By connecting to freenode you indicate that you have read and
+Jun 02 13:37:50 *	- accept our policies as set out on http://www.freenode.net
+Jun 02 13:37:50 *	- freenode runs an open proxy scanner. Please join #freenode for
+Jun 02 13:37:50 *	- any network-related questions or queries, where a number of
+Jun 02 13:37:50 *	- volunteer staff and helpful users will be happy to assist you.
+Jun 02 13:37:50 *	-  
+Jun 02 13:37:50 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+Jun 02 13:37:50 *	- together with like-minded FOSS enthusiasts for talks and
+Jun 02 13:37:50 *	- real-life collaboration.
+Jun 02 13:37:50 *	-  
+Jun 02 13:37:50 *	- We would like to thank Private Internet Access
+Jun 02 13:37:50 *	- (https://www.privateinternetaccess.com/) and the other
+Jun 02 13:37:51 *	- organisations that help keep freenode and our other projects
+Jun 02 13:37:51 *	- running for their sustained support.
+Jun 02 13:37:51 *	-  
+Jun 02 13:37:51 *	- In particular we would like to thank the sponsor
+Jun 02 13:37:51 *	- of this server, details of which can be found above.
+Jun 02 13:37:51 *	-  
+Jun 02 13:37:51 *	End of /MOTD command.
+Jun 02 13:37:51 *	dayFun sets mode +Z on dayFun
+Jun 02 13:37:51 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Fri Jun  2 13:58:52 2017
+
+Jun 02 13:58:52 *	Welcome to the freenode Internet Relay Chat Network dayFun
+Jun 02 13:58:52 *	Your host is cherryh.freenode.net[149.56.134.238/6697], running version ircd-seven-1.1.4
+Jun 02 13:58:52 *	This server was created Wed Jan 4 2017 at 16:45:00 EST
+Jun 02 13:58:52 *	cherryh.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+Jun 02 13:58:52 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+Jun 02 13:58:52 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE SAFELIST :are supported by this server
+Jun 02 13:58:52 *	ELIST=CTU WHOX ETRACE KNOCK :are supported by this server
+Jun 02 13:58:52 *	There are 138 users and 94128 invisible on 27 servers
+Jun 02 13:58:52 *	30 :IRC Operators online
+Jun 02 13:58:52 *	63 :unknown connection(s)
+Jun 02 13:58:52 *	60726 :channels formed
+Jun 02 13:58:52 *	I have 5808 clients and 1 servers
+Jun 02 13:58:52 *	5808 6857 :Current local users 5808, max 6857
+Jun 02 13:58:52 *	94266 97718 :Current global users 94266, max 97718
+Jun 02 13:58:52 *	Highest connection count: 6858 (6857 clients) (1073459 connections received)
+Jun 02 13:58:52 *	- cherryh.freenode.net Message of the Day - 
+Jun 02 13:58:52 *	- Welcome to freenode - supporting the free and open source
+Jun 02 13:58:52 *	- software communities since 1998.
+Jun 02 13:58:52 *	-  
+Jun 02 13:58:52 *	- By connecting to freenode you indicate that you have read and
+Jun 02 13:58:52 *	- accept our policies as set out on http://www.freenode.net
+Jun 02 13:58:52 *	- freenode runs an open proxy scanner. Please join #freenode for
+Jun 02 13:58:52 *	- any network-related questions or queries, where a number of
+Jun 02 13:58:52 *	- volunteer staff and helpful users will be happy to assist you.
+Jun 02 13:58:52 *	-  
+Jun 02 13:58:52 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+Jun 02 13:58:52 *	- together with like-minded FOSS enthusiasts for talks and
+Jun 02 13:58:52 *	- real-life collaboration.
+Jun 02 13:58:52 *	-  
+Jun 02 13:58:52 *	- We would like to thank Private Internet Access
+Jun 02 13:58:52 *	- (https://www.privateinternetaccess.com/) and the other
+Jun 02 13:58:52 *	- organisations that help keep freenode and our other projects
+Jun 02 13:58:52 *	- running for their sustained support.
+Jun 02 13:58:52 *	-  
+Jun 02 13:58:52 *	- In particular we would like to thank the sponsor
+Jun 02 13:58:52 *	- of this server, details of which can be found above.
+Jun 02 13:58:52 *	-  
+Jun 02 13:58:52 *	End of /MOTD command.
+Jun 02 13:58:52 *	dayFun sets mode +Z on dayFun
+Jun 02 13:58:52 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Fri Jun  2 14:32:03 2017
+
+Jun 02 14:32:03 *	Welcome to the freenode Internet Relay Chat Network dayFun
+Jun 02 14:32:03 *	Your host is card.freenode.net[38.229.70.22/6697], running version ircd-seven-1.1.4
+Jun 02 14:32:03 *	This server was created Tue Feb 7 2017 at 17:41:14 UTC
+Jun 02 14:32:03 *	card.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+Jun 02 14:32:03 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+Jun 02 14:32:03 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+Jun 02 14:32:03 *	WHOX SAFELIST ELIST=CTU ETRACE :are supported by this server
+Jun 02 14:32:03 *	There are 139 users and 93734 invisible on 27 servers
+Jun 02 14:32:03 *	30 :IRC Operators online
+Jun 02 14:32:03 *	63 :unknown connection(s)
+Jun 02 14:32:03 *	60661 :channels formed
+Jun 02 14:32:03 *	I have 5787 clients and 1 servers
+Jun 02 14:32:03 *	5787 7467 :Current local users 5787, max 7467
+Jun 02 14:32:03 *	93873 97718 :Current global users 93873, max 97718
+Jun 02 14:32:03 *	Highest connection count: 7468 (7467 clients) (1331952 connections received)
+Jun 02 14:32:03 *	- card.freenode.net Message of the Day - 
+Jun 02 14:32:03 *	-  
+Jun 02 14:32:03 *	- Welcome to card.freenode.net in Washington, DC, US, kindly sponsored by
+Jun 02 14:32:03 *	- Team Cymru (http://www.team-cymru.org).
+Jun 02 14:32:03 *	-  
+Jun 02 14:32:03 *	- CARD, ORSON SCOTT [1951-]. Born in Richland, Washington, Card grew up in
+Jun 02 14:32:03 *	- California, Arizona, and Utah. He lived in Brazil for two years as an unpaid
+Jun 02 14:32:03 *	- missionary for the Mormon Church. Author of the Ender and Alvin Maker books,
+Jun 02 14:32:03 *	- Card's science fiction and fantasy work is strongly influenced by his Mormon
+Jun 02 14:32:03 *	- cultural background. The first author to win the Hugo and Nebula novel awards
+Jun 02 14:32:03 *	- two years in a row, Card currently lives in Greensboro, North Carolina, US.
+Jun 02 14:32:03 *	-  
+Jun 02 14:32:03 *	-  
+Jun 02 14:32:03 *	- Welcome to freenode - supporting the free and open source
+Jun 02 14:32:03 *	- software communities since 1998.
+Jun 02 14:32:03 *	-  
+Jun 02 14:32:03 *	- By connecting to freenode you indicate that you have read and
+Jun 02 14:32:03 *	- accept our policies as set out on http://www.freenode.net
+Jun 02 14:32:03 *	- freenode runs an open proxy scanner. Please join #freenode for
+Jun 02 14:32:03 *	- any network-related questions or queries, where a number of
+Jun 02 14:32:03 *	- volunteer staff and helpful users will be happy to assist you.
+Jun 02 14:32:03 *	-  
+Jun 02 14:32:03 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+Jun 02 14:32:03 *	- together with like-minded FOSS enthusiasts for talks and
+Jun 02 14:32:03 *	- real-life collaboration.
+Jun 02 14:32:03 *	-  
+Jun 02 14:32:03 *	- We would like to thank Private Internet Access
+Jun 02 14:32:03 *	- (https://www.privateinternetaccess.com/) and the other
+Jun 02 14:32:03 *	- organisations that help keep freenode and our other projects
+Jun 02 14:32:03 *	- running for their sustained support.
+Jun 02 14:32:03 *	-  
+Jun 02 14:32:03 *	- In particular we would like to thank the sponsor
+Jun 02 14:32:03 *	- of this server, details of which can be found above.
+Jun 02 14:32:03 *	-  
+Jun 02 14:32:03 *	End of /MOTD command.
+Jun 02 14:32:03 *	dayFun sets mode +Z on dayFun
+Jun 02 14:32:03 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Fri Jun  2 14:34:01 2017
+
+Jun 02 14:34:01 *	Welcome to the freenode Internet Relay Chat Network dayFun
+Jun 02 14:34:01 *	Your host is adams.freenode.net[94.125.182.252/6697], running version ircd-seven-1.1.4
+Jun 02 14:34:01 *	This server was created Mon Jan 9 2017 at 14:25:49 CET
+Jun 02 14:34:01 *	adams.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+Jun 02 14:34:01 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+Jun 02 14:34:01 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 CPRIVMSG CNOTICE ETRACE :are supported by this server
+Jun 02 14:34:01 *	KNOCK SAFELIST ELIST=CTU MONITOR=100 WHOX :are supported by this server
+Jun 02 14:34:01 *	There are 139 users and 93733 invisible on 27 servers
+Jun 02 14:34:01 *	30 :IRC Operators online
+Jun 02 14:34:01 *	51 :unknown connection(s)
+Jun 02 14:34:01 *	60660 :channels formed
+Jun 02 14:34:01 *	I have 2596 clients and 1 servers
+Jun 02 14:34:01 *	2596 2616 :Current local users 2596, max 2616
+Jun 02 14:34:01 *	93872 95702 :Current global users 93872, max 95702
+Jun 02 14:34:01 *	Highest connection count: 2617 (2616 clients) (12930 connections received)
+Jun 02 14:34:01 *	- adams.freenode.net Message of the Day - 
+Jun 02 14:34:01 *	- Welcome to adams.freenode.net. Thanks to ATW Internet Kft 
+Jun 02 14:34:01 *	- (http://www.atw.hu) for sponsoring this server!
+Jun 02 14:34:01 *	-  
+Jun 02 14:34:01 *	- ADAMS, DOUGLAS (1952-2001).  Author of The Hitch Hikers Guide
+Jun 02 14:34:01 *	- to the Galaxy and many other witty and humourous books,
+Jun 02 14:34:01 *	- portrayed in his uniquely British irony. He is sorely missed
+Jun 02 14:34:01 *	- by many millions of devoted fans. "So long and thanks for all
+Jun 02 14:34:01 *	- the books!"
+Jun 02 14:34:01 *	-  
+Jun 02 14:34:01 *	- Welcome to freenode - supporting the free and open source
+Jun 02 14:34:01 *	- software communities since 1998.
+Jun 02 14:34:01 *	-  
+Jun 02 14:34:01 *	- By connecting to freenode you indicate that you have read and
+Jun 02 14:34:01 *	- accept our policies as set out on http://www.freenode.net
+Jun 02 14:34:01 *	- freenode runs an open proxy scanner. Please join #freenode for
+Jun 02 14:34:01 *	- any network-related questions or queries, where a number of
+Jun 02 14:34:01 *	- volunteer staff and helpful users will be happy to assist you.
+Jun 02 14:34:01 *	-  
+Jun 02 14:34:01 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+Jun 02 14:34:01 *	- together with like-minded FOSS enthusiasts for talks and
+Jun 02 14:34:01 *	- real-life collaboration.
+Jun 02 14:34:01 *	-  
+Jun 02 14:34:01 *	- We would like to thank Private Internet Access
+Jun 02 14:34:01 *	- (https://www.privateinternetaccess.com/) and the other
+Jun 02 14:34:01 *	- organisations that help keep freenode and our other projects
+Jun 02 14:34:01 *	- running for their sustained support.
+Jun 02 14:34:01 *	-  
+Jun 02 14:34:01 *	- In particular we would like to thank the sponsor
+Jun 02 14:34:01 *	- of this server, details of which can be found above.
+Jun 02 14:34:01 *	-  
+Jun 02 14:34:01 *	End of /MOTD command.
+Jun 02 14:34:01 *	dayFun sets mode +Z on dayFun
+Jun 02 14:34:01 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Fri Jun  2 22:31:43 2017
+
+Jun 02 22:31:43 *	Welcome to the freenode Internet Relay Chat Network dayFun
+Jun 02 22:31:43 *	Your host is orwell.freenode.net[185.30.166.38/6697], running version ircd-seven-1.1.4
+Jun 02 22:31:43 *	This server was created Sat Jan 7 2017 at 12:04:42 EST
+Jun 02 22:31:43 *	orwell.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+Jun 02 22:31:43 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+Jun 02 22:31:43 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK CPRIVMSG CNOTICE :are supported by this server
+Jun 02 22:31:43 *	SAFELIST ELIST=CTU ETRACE WHOX :are supported by this server
+Jun 02 22:31:43 *	There are 130 users and 87513 invisible on 27 servers
+Jun 02 22:31:43 *	30 :IRC Operators online
+Jun 02 22:31:43 *	33 :unknown connection(s)
+Jun 02 22:31:43 *	60076 :channels formed
+Jun 02 22:31:43 *	I have 5439 clients and 1 servers
+Jun 02 22:31:43 *	5439 6943 :Current local users 5439, max 6943
+Jun 02 22:31:43 *	87643 97718 :Current global users 87643, max 97718
+Jun 02 22:31:43 *	Highest connection count: 6944 (6943 clients) (1523618 connections received)
+Jun 02 22:31:43 *	- orwell.freenode.net Message of the Day - 
+Jun 02 22:31:43 *	- Welcome to orwell.freenode.net in Amsterdam, NL.
+Jun 02 22:31:43 *	- Thanks to http://www.hyperfilter.com/ for sponsoring
+Jun 02 22:31:43 *	- this server!
+Jun 02 22:31:43 *	-  
+Jun 02 22:31:43 *	- ORWELL, GEORGE [1903 - 1950] Born in India, his mother
+Jun 02 22:31:43 *	- moved him to England when he was one year old, and it
+Jun 02 22:31:43 *	- was in England where he was educated and spent most of
+Jun 02 22:31:43 *	- his life.  Orwell is perhaps best known for his novels
+Jun 02 22:31:43 *	- Nineteen Eighty-Four and Animal Farm.
+Jun 02 22:31:43 *	-  
+Jun 02 22:31:43 *	-  
+Jun 02 22:31:43 *	- Welcome to freenode - supporting the free and open source
+Jun 02 22:31:43 *	- software communities since 1998.
+Jun 02 22:31:43 *	-  
+Jun 02 22:31:43 *	- By connecting to freenode you indicate that you have read and
+Jun 02 22:31:43 *	- accept our policies as set out on http://www.freenode.net
+Jun 02 22:31:43 *	- freenode runs an open proxy scanner. Please join #freenode for
+Jun 02 22:31:43 *	- any network-related questions or queries, where a number of
+Jun 02 22:31:43 *	- volunteer staff and helpful users will be happy to assist you.
+Jun 02 22:31:43 *	-  
+Jun 02 22:31:43 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+Jun 02 22:31:43 *	- together with like-minded FOSS enthusiasts for talks and
+Jun 02 22:31:43 *	- real-life collaboration.
+Jun 02 22:31:43 *	-  
+Jun 02 22:31:43 *	- We would like to thank Private Internet Access
+Jun 02 22:31:43 *	- (https://www.privateinternetaccess.com/) and the other
+Jun 02 22:31:43 *	- organisations that help keep freenode and our other projects
+Jun 02 22:31:43 *	- running for their sustained support.
+Jun 02 22:31:43 *	-  
+Jun 02 22:31:43 *	- In particular we would like to thank the sponsor
+Jun 02 22:31:43 *	- of this server, details of which can be found above.
+Jun 02 22:31:43 *	-  
+Jun 02 22:31:43 *	End of /MOTD command.
+Jun 02 22:31:43 *	dayFun sets mode +Z on dayFun
+Jun 02 22:31:43 *	dayFun sets mode +i on dayFun
+**** BEGIN LOGGING AT Sat Jun  3 16:48:08 2017
+
+Jun 03 16:48:08 *	Welcome to the freenode Internet Relay Chat Network dayFun
+Jun 03 16:48:08 *	Your host is wolfe.freenode.net[193.10.255.100/6697], running version ircd-seven-1.1.4
+Jun 03 16:48:08 *	This server was created Wed Jan 18 2017 at 02:26:17 CET
+Jun 03 16:48:08 *	wolfe.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+Jun 03 16:48:08 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+Jun 03 16:48:08 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK SAFELIST ELIST=CTU :are supported by this server
+Jun 03 16:48:08 *	WHOX CPRIVMSG CNOTICE ETRACE :are supported by this server
+Jun 03 16:48:08 *	There are 137 users and 89282 invisible on 27 servers
+Jun 03 16:48:08 *	30 :IRC Operators online
+Jun 03 16:48:08 *	36 :unknown connection(s)
+Jun 03 16:48:08 *	60274 :channels formed
+Jun 03 16:48:08 *	I have 5408 clients and 1 servers
+Jun 03 16:48:08 *	5408 6407 :Current local users 5408, max 6407
+Jun 03 16:48:08 *	89419 97718 :Current global users 89419, max 97718
+Jun 03 16:48:08 *	Highest connection count: 6408 (6407 clients) (615077 connections received)
+Jun 03 16:48:08 *	- wolfe.freenode.net Message of the Day - 
+Jun 03 16:48:08 *	- Welcome to wolfe.freenode.net in Stockholm, SE.
+Jun 03 16:48:08 *	- Thanks to http://nordu.net/ for sponsoring
+Jun 03 16:48:08 *	- this server!
+Jun 03 16:48:08 *	-  
+Jun 03 16:48:08 *	- WOLFE, GENE [1931-].  Prolific writer of short stories and
+Jun 03 16:48:08 *	- novels. His best-known work is the multi-volume novel The
+Jun 03 16:48:08 *	- Book of the New Sun. He has won multiple awards including
+Jun 03 16:48:08 *	- the Nebula Award, the World Fantasy Award, The Campell
+Jun 03 16:48:08 *	- Memorial Award and the Locus Award. He was awarded the World
+Jun 03 16:48:08 *	- Fantasy Award for lifetime achievement in 1996.
+Jun 03 16:48:08 *	-  
+Jun 03 16:48:08 *	- Welcome to freenode - supporting the free and open source
+Jun 03 16:48:08 *	- software communities since 1998.
+Jun 03 16:48:08 *	-  
+Jun 03 16:48:08 *	- By connecting to freenode you indicate that you have read and
+Jun 03 16:48:08 *	- accept our policies as set out on http://www.freenode.net
+Jun 03 16:48:08 *	- freenode runs an open proxy scanner. Please join #freenode for
+Jun 03 16:48:08 *	- any network-related questions or queries, where a number of
+Jun 03 16:48:08 *	- volunteer staff and helpful users will be happy to assist you.
+Jun 03 16:48:08 *	-  
+Jun 03 16:48:08 *	- You can meet us at FOSSCON (http://www.fosscon.org) where we get
+Jun 03 16:48:08 *	- together with like-minded FOSS enthusiasts for talks and
+Jun 03 16:48:08 *	- real-life collaboration.
+Jun 03 16:48:08 *	-  
+Jun 03 16:48:08 *	- We would like to thank Private Internet Access
+Jun 03 16:48:08 *	- (https://www.privateinternetaccess.com/) and the other
+Jun 03 16:48:08 *	- organisations that help keep freenode and our other projects
+Jun 03 16:48:08 *	- running for their sustained support.
+Jun 03 16:48:08 *	-  
+Jun 03 16:48:08 *	- In particular we would like to thank the sponsor
+Jun 03 16:48:08 *	- of this server, details of which can be found above.
+Jun 03 16:48:08 *	-  
+Jun 03 16:48:08 *	End of /MOTD command.
+Jun 03 16:48:08 *	dayFun sets mode +Z on dayFun
+Jun 03 16:48:08 *	dayFun sets mode +i on dayFun

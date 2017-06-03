@@ -1,0 +1,5 @@
+Velg at videoene skal spilles i HD automatisk. Brukere kan velge mellom 1080p, 720p og andre størrelser for hver eneste video.
+
+Send gjerne forslag og feilrapporter til http://www.autohdforyoutube.com
+
+YouTube™ er et varemerke tilhørende Google™. Denne filtypen støttes ikke av Google™ eller YouTube™.

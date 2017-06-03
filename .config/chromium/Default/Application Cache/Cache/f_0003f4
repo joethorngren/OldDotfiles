@@ -1,0 +1,399 @@
+CACHE MANIFEST
+# v 1164.695584069
+# 0
+
+CACHE:
+/static/comments/client/js/3910818882-docos_binary_i18n.js
+https://ssl.gstatic.com/docs/common/d-icons26.png
+https://ssl.gstatic.com/images/icons/material/system/2x/arrow_drop_down_black_24dp.png
+https://ssl.gstatic.com/s2/profiles/images/silhouette96.png
+//ssl.gstatic.com/inputtools/images/ita_sprite2.png
+//ssl.gstatic.com/inputtools/js/kbd/2/ar.js
+//ssl.gstatic.com/inputtools/js/kbd/2/be.js
+//ssl.gstatic.com/inputtools/js/kbd/2/bn_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/2/bn_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/ethi.js
+//ssl.gstatic.com/inputtools/js/kbd/2/bg.js
+//ssl.gstatic.com/inputtools/js/kbd/2/bg_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/el.js
+//ssl.gstatic.com/inputtools/js/kbd/2/fa.js
+//ssl.gstatic.com/inputtools/js/kbd/2/gu_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/2/gu_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/he.js
+//ssl.gstatic.com/inputtools/js/kbd/2/hi.js
+//ssl.gstatic.com/inputtools/js/kbd/2/deva_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/iw.js
+//ssl.gstatic.com/inputtools/js/kbd/2/kn_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/2/kn_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/ml_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/2/ml_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/or_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/2/or_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/guru_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/2/guru_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/ru.js
+//ssl.gstatic.com/inputtools/js/kbd/2/sa_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/si.js
+//ssl.gstatic.com/inputtools/js/kbd/2/sr_cyrl.js
+//ssl.gstatic.com/inputtools/js/kbd/2/sr_latn.js
+//ssl.gstatic.com/inputtools/js/kbd/2/ta_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/2/ta_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/te_inscript.js
+//ssl.gstatic.com/inputtools/js/kbd/2/te_phone.js
+//ssl.gstatic.com/inputtools/js/kbd/2/uk_101.js
+//ssl.gstatic.com/inputtools/js/kbd/2/ur.js
+//ssl.gstatic.com/inputtools/js/kbd/2/vi_telex.js
+//ssl.gstatic.com/inputtools/js/kbd/2/vi_viqr.js
+//ssl.gstatic.com/inputtools/js/kbd/2/vi_tcvn.js
+https://docs.google.com/spreadsheets/offline/hs?ouid=u99b19a3c299b8cfb&uc=en&jobset=prod&docosJobset=prod
+# d4e9808ce11ad56780ab737fba317a636dc1ddf6
+/static/spreadsheets2/client/js/798392548-ritz_waffle_i18n_core.js
+# 87b2f96705012362df4f9abf87e401103d0f3b52
+/static/spreadsheets2/client/js/4212742629-ritz_waffle_i18n_impressions.js
+# f415839829ec33fa06587a1c10a9c8b543fe5939
+/static/spreadsheets2/client/js/1079987412-ritz_waffle_i18n_shell.js
+# 1f5db46071e1acdb9c8b4e6762e5440228b8ceee
+/static/spreadsheets2/client/js/4125587935-ritz_waffle_i18n_inputtools.js
+# 0fe10adfa794a7d84555cd1c432c98ee0e698c63
+/static/spreadsheets2/client/js/1785062385-ritz_waffle_i18n_postshellbase.js
+# d85604bd75910da51a42b6e992b8c7380fea55e5
+/static/spreadsheets2/client/js/1430250344-ritz_waffle_i18n_analytics.js
+# f4d8813888af1bc90656e4452b4607ca5d224c9b
+/static/spreadsheets2/client/js/3369926328-ritz_waffle_i18n_assistant.js
+# a6f3964768c147d01a6df75cbee38122451ae18e
+/static/spreadsheets2/client/js/3129610136-ritz_waffle_i18n_banding.js
+# a75a698277d34035de386a93e4f6fa89dfbcb2e5
+/static/spreadsheets2/client/js/4182740691-ritz_waffle_i18n_charteditor.js
+# c31af389e7215409a89387f9a9c15b103fc9da26
+/static/spreadsheets2/client/js/3602672141-ritz_waffle_i18n_conditionalformat.js
+# 2f3abc04510e0c0c72a44193df8bd355136e629d
+/static/spreadsheets2/client/js/2573578295-ritz_waffle_i18n_dataconnector.js
+# 7c2af64a9a36a0f07d7c3844545cb00549ae3c27
+/static/spreadsheets2/client/js/794302265-ritz_waffle_i18n_datepicker.js
+# 3e2f860617edc8ba4a9f3f6c193d44e69dba11cb
+/static/spreadsheets2/client/js/2319659792-ritz_waffle_i18n_dialogs.js
+# 4b82bf8da03ef3bd49f03efa7e04a0caa155f74e
+/static/spreadsheets2/client/js/4272685343-ritz_waffle_i18n_docos.js
+# f910667e90b9f9f427ee87d5a45ecff1282a9535
+/static/spreadsheets2/client/js/1272400015-ritz_waffle_i18n_drawings.js
+# 9005ba52e3d18458c875798b9ec2d123792f910b
+/static/spreadsheets2/client/js/3341846210-ritz_waffle_i18n_filterbar.js
+# 7b5c84d9f36ad407e0866078fef000d488c2ccd7
+/static/spreadsheets2/client/js/4004787422-ritz_waffle_i18n_findreplace.js
+# 22726b2889a1e67c17e3299d49897bd48de3e679
+/static/spreadsheets2/client/js/1316190731-ritz_waffle_i18n_formbar.js
+# 002eeb498dfe9326d13620a6056950a6f2d2ee11
+/static/spreadsheets2/client/js/4012794271-ritz_waffle_i18n_functionhelpcontent.js
+# 5368e9d9c22231433ba2ea692bd5c250f0fb9228
+/static/spreadsheets2/client/js/3210458834-ritz_waffle_i18n_goto.js
+# d94a47afa1b5ac2a88dea65788166acbfed578c7
+/static/spreadsheets2/client/js/3764227409-ritz_waffle_i18n_gvizcharts.js
+# 3f64c94a195d7e3b1692ca04c411572d1f71cbbd
+/static/spreadsheets2/client/js/3920744966-ritz_waffle_i18n_hats.js
+# 7da5e29e7d7b480af1dcd7bae23a2013a3c887a9
+/static/spreadsheets2/client/js/432734756-ritz_waffle_i18n_links.js
+# 2402e78f886d5ddf8e92a06f9c42efe5bf69d382
+/static/spreadsheets2/client/js/1122879304-ritz_waffle_i18n_namedrangespane.js
+# 9374ed8fe7e4e53ef3beed9f4c4696570ef7716f
+/static/spreadsheets2/client/js/1500300154-ritz_waffle_i18n_offline.js
+# b4922b0372c88ced753fda03018369b3f50e6ea7
+/static/spreadsheets2/client/js/639404927-ritz_waffle_i18n_organize.js
+# 7fb4b53cb201ddbbbfb8d6e3e9f767ff14686b00
+/static/spreadsheets2/client/js/1663698832-ritz_waffle_i18n_pickerbase.js
+# 847a335567ed6321254bd0fa599f0a96872ede47
+/static/spreadsheets2/client/js/3911811520-ritz_waffle_i18n_printing.js
+# 65af240cab7a90b099f7e70c9eae85de6cbb644d
+/static/spreadsheets2/client/js/4143644221-ritz_waffle_i18n_rangeprotection.js
+# 10ea965009a27d4c592222e8f703c3b263a2f976
+/static/spreadsheets2/client/js/4242214490-ritz_waffle_i18n_revisions.js
+# 9107153ed8885ad010730b734a0be95fd99ac8c8
+/static/spreadsheets2/client/js/2171182239-ritz_waffle_i18n_ritzfilter.js
+# f4aeaeb0fa69c38d8550c2e365ead68fbb491a9f
+/static/spreadsheets2/client/js/1812405355-ritz_waffle_i18n_ritzmaestro.js
+# 68dc7886bab4dee9f4d49d7541afd9ca987e1e5d
+/static/spreadsheets2/client/js/133921921-ritz_waffle_i18n_ritzprotectionpane.js
+# 600f7c12611b5943955f01320f20613f736b4e4d
+/static/spreadsheets2/client/js/340782720-ritz_waffle_i18n_screenreader.js
+# 85502e3a2147d95c5a3a0ebc79af1e35a7d8ace9
+/static/spreadsheets2/client/js/2828587119-ritz_waffle_i18n_shareclient.js
+# c597bbcee403c4daa34cecffdc1df08967954b02
+/static/spreadsheets2/client/js/4168678579-ritz_waffle_i18n_spellcheck.js
+# bb2945b98ef77fc8cc6e9a075a7ff7dbe72d5549
+/static/spreadsheets2/client/js/3020792239-ritz_waffle_i18n_tableannotator.js
+# 41cb94be52cbcbb2d6aafc4444c238373a82180d
+/static/spreadsheets2/client/js/1235334695-ritz_waffle_i18n_braille.js
+# 048e543ae38654345a54303f953461667302d4c1
+/static/spreadsheets2/client/js/3933152800-ritz_waffle_i18n_images.js
+# 375b3969280f995e37468150241b734ba4ae2b06
+/static/spreadsheets2/client/js/3850059287-ritz_waffle_i18n_onepick.js
+# 794775c19b1e60b80ecb1fc37aa98595f5614d05
+/static/spreadsheets2/client/js/915021227-ritz_waffle_i18n_ritzpivottables.js
+# d2e7b4e8f8117022941ecaaaf1d5a43d8a942b5a
+/static/spreadsheets2/client/js/1384246034-ritz_waffle_i18n_viewer.js
+# 9b7e75449266f5c7766d0877e8287c4c4f9b4509
+/static/spreadsheets2/client/css/534431407-waffle_k_ltr.css
+//ssl.gstatic.com/docs/common/addon_docs_promo.svg
+//ssl.gstatic.com/docs/common/addon_forms_promo.svg
+//ssl.gstatic.com/docs/common/addon_sheets_promo.svg
+//ssl.gstatic.com/docs/common/analytics_sprite3.svg
+//ssl.gstatic.com/docs/common/arrow_spinner.svg
+//ssl.gstatic.com/docs/common/charts_paste_icon_1x.png
+//ssl.gstatic.com/docs/common/charts_paste_icon_2x.png
+//ssl.gstatic.com/docs/common/columnpreset_sprite1.svg
+//ssl.gstatic.com/docs/common/explore_sprite13.svg
+//ssl.gstatic.com/docs/common/h_sprite31.svg
+//ssl.gstatic.com/docs/common/suggest_delete.svg
+//ssl.gstatic.com/docs/common/jfk_sprite169.png
+//ssl.gstatic.com/docs/common/jfk_sprite_hdpi107.png
+//ssl.gstatic.com/docs/common/listpreset_sprite3.svg
+//ssl.gstatic.com/docs/common/loading-spinner.gif
+//ssl.gstatic.com/docs/common/loading_animation.gif
+//ssl.gstatic.com/docs/common/material_common_sprite14.svg
+//ssl.gstatic.com/docs/common/mobileweb_sprite1.png
+//ssl.gstatic.com/docs/common/mobileweb_sprite_hdpi1.png
+//ssl.gstatic.com/docs/common/pagenumberpreset_sprite3.svg
+//ssl.gstatic.com/docs/common/tableofcontents_sprite3.svg
+//ssl.gstatic.com/docs/common/product/documents1.svg
+//ssl.gstatic.com/docs/common/product/drawings1.svg
+//ssl.gstatic.com/docs/common/product/drive2.svg
+//ssl.gstatic.com/docs/common/product/forms1.svg
+//ssl.gstatic.com/docs/common/product/presentations1.svg
+//ssl.gstatic.com/docs/common/product/scripts2.svg
+//ssl.gstatic.com/docs/common/product/spreadsheets1.svg
+//ssl.gstatic.com/docs/common/promo_arrows-0.png
+//ssl.gstatic.com/docs/common/promo_close-0.png
+//ssl.gstatic.com/docs/common/revisions_sprite1.svg
+//ssl.gstatic.com/docs/clipboard/icons3.png
+//ssl.gstatic.com/docs/picker/images/loading_spinner.svg
+//ssl.gstatic.com/docs/picker/images/loading_spinner_small.svg
+//ssl.gstatic.com/docs/picker/images/no_search.png
+//ssl.gstatic.com/docs/presentations/images/punch_viewer_sprite3.png
+//ssl.gstatic.com/docs/presentations/images/punch_viewer_sprite_hdpi3.png
+//ssl.gstatic.com/docs/script/images/spin-wait.gif
+//ssl.gstatic.com/docs/spreadsheets/insert_range_indicator.png
+//ssl.gstatic.com/docs/templates/ill_empty_gallery_1x_web_160dp.png
+//ssl.gstatic.com/docs/templates/ill_empty_gallery_2x_web_160dp.png
+//ssl.gstatic.com/editor/button-bg.png
+//ssl.gstatic.com/editor/editortoolbar.png
+//ssl.gstatic.com/gb/images/i1_61143e6d.png
+//ssl.gstatic.com/images/icons/material/system/1x/keyboard_arrow_left_black_18dp.png
+//ssl.gstatic.com/images/icons/material/system/1x/keyboard_arrow_right_black_18dp.png
+//ssl.gstatic.com/images/icons/material/system/1x/keyboard_arrow_down_black_18dp.png
+//ssl.gstatic.com/images/icons/material/system/1x/help_black_18dp.png
+//ssl.gstatic.com/images/icons/material/system/1x/arrow_left_black_24dp.png
+//ssl.gstatic.com/images/icons/material/system/2x/arrow_left_black_24dp.png
+//ssl.gstatic.com/images/icons/material/system/1x/arrow_right_black_24dp.png
+//ssl.gstatic.com/images/icons/material/system/2x/arrow_right_black_24dp.png
+//ssl.gstatic.com/images/icons/material/system/1x/arrow_drop_down_black_24dp.png
+//ssl.gstatic.com/images/icons/material/system/2x/arrow_drop_down_black_24dp.png
+//ssl.gstatic.com/images/icons/material/system/1x/arrow_drop_down_white_24dp.png
+//ssl.gstatic.com/images/icons/material/system/2x/arrow_drop_down_white_24dp.png
+//ssl.gstatic.com/images/icons/material/system/1x/close_white_24dp.png
+//ssl.gstatic.com/images/icons/material/system/2x/close_white_24dp.png
+//ssl.gstatic.com/images/icons/material/system/2x/mic_black_48dp.png
+//ssl.gstatic.com/images/icons/material/system/1x/more_vert_black_24dp.png
+//ssl.gstatic.com/images/icons/material/system/2x/more_vert_black_24dp.png
+//ssl.gstatic.com/images/icons/material/system/svg/bookmark_48px.svg
+//ssl.gstatic.com/images/icons/material/system/svg/keyboard_arrow_left_24px.svg
+//ssl.gstatic.com/images/icons/material/system/svg/keyboard_arrow_right_24px.svg
+//ssl.gstatic.com/images/icons/material/system/svg/search_24px.svg
+//ssl.gstatic.com/inputtools/images/lens.svg
+//ssl.gstatic.com/inputtools/images/reset.png
+//ssl.gstatic.com/scribe/blank.gif
+//ssl.gstatic.com/scribe/image-load.gif
+//ssl.gstatic.com/scribe/image-error.gif
+//ssl.gstatic.com/scribe/preview-close.png
+//ssl.gstatic.com/scribe/searching.gif
+//ssl.gstatic.com/scribe/sprite22_103f714a1573d34fb3158a0645aa152e.png
+//ssl.gstatic.com/ui/v1/activityindicator/offline.png
+//ssl.gstatic.com/ui/v1/activityindicator/offline_16.png
+//ssl.gstatic.com/ui/v1/bubble/close-x.png
+//ssl.gstatic.com/ui/v1/button/search.png
+//ssl.gstatic.com/ui/v1/button/search-white.png
+//ssl.gstatic.com/ui/v1/colorpicker/checkmark.png
+//ssl.gstatic.com/ui/v1/dialog/close-x.png
+//ssl.gstatic.com/ui/v1/disclosure/grey-disclosure-arrow.png
+//ssl.gstatic.com/ui/v1/disclosure/grey-disclosure-arrow-up-down.png
+//ssl.gstatic.com/ui/v1/disclosure/light-grey-disclosure-arrow-down.png
+//ssl.gstatic.com/ui/v1/disclosure/small-grey-disclosure-arrow-down.png
+//ssl.gstatic.com/ui/v1/disclosure/small-grey-disclosure-arrow-up-down.png
+//ssl.gstatic.com/ui/v1/icons/common/down_arrow.png
+//ssl.gstatic.com/ui/v1/icons/common/settings.png
+//ssl.gstatic.com/ui/v1/icons/common/x_8px.png
+//ssl.gstatic.com/ui/v1/icons/common/back.png
+//ssl.gstatic.com/ui/v1/icons/common/back_white.png
+//ssl.gstatic.com/ui/v1/icons/common/info_black.svg
+//ssl.gstatic.com/ui/v1/icons/common/info_green.svg
+//ssl.gstatic.com/ui/v1/icons/common/info_white.svg
+//ssl.gstatic.com/ui/v1/menu/checkmark-partial.png
+//ssl.gstatic.com/ui/v1/menu/checkmark-partial_2x.png
+//ssl.gstatic.com/ui/v1/menu/checkmark.png
+//ssl.gstatic.com/ui/v1/menu/checkmark_2x.png
+//ssl.gstatic.com/ui/v1/radiobutton/checked.png
+//ssl.gstatic.com/ui/v1/radiobutton/checked-disabled.png
+//ssl.gstatic.com/ui/v1/radiobutton/checked_focused.png
+//ssl.gstatic.com/ui/v1/radiobutton/unchecked.png
+//ssl.gstatic.com/ui/v1/radiobutton/unchecked-disabled.png
+//ssl.gstatic.com/ui/v1/radiobutton/unchecked_focused.png
+//ssl.gstatic.com/ui/v1/rating/rating-blank.png
+//ssl.gstatic.com/ui/v1/rating/rating-full.png
+//ssl.gstatic.com/ui/v1/rating/rating-half.png
+//ssl.gstatic.com/ui/v1/star/star4.png
+//ssl.gstatic.com/ui/v1/star/star4_2x.png
+//ssl.gstatic.com/ui/v1/star/star-hover4.png
+//ssl.gstatic.com/ui/v1/star/star-hover4_2x.png
+//ssl.gstatic.com/ui/v1/star/star-active4.png
+//ssl.gstatic.com/ui/v1/star/star-active4_2x.png
+//ssl.gstatic.com/ui/v1/star/star-lit4.png
+//ssl.gstatic.com/ui/v1/star/star-lit4_2x.png
+//ssl.gstatic.com/ui/v1/star/star-lit-active4.png
+//ssl.gstatic.com/ui/v1/star/star-lit-active4_2x.png
+//ssl.gstatic.com/ui/v1/star/star-lit-hover4.png
+//ssl.gstatic.com/ui/v1/star/star-lit-hover4_2x.png
+//ssl.gstatic.com/walkthrough/close.png
+//ssl.gstatic.com/walkthrough/hats/logo-google.png
+//ssl.gstatic.com/docs/common/d-icons26.png
+//ssl.gstatic.com/s2/profiles/images/silhouette96.png
+//ssl.gstatic.com/docs/documents/share/images/ess-icons-4.png
+//ssl.gstatic.com/docs/documents/share/images/icons-9.png
+//ssl.gstatic.com/docs/documents/share/images/spinner-1.gif
+//ssl.gstatic.com/docs/documents/share/images/sprite-22.svg
+//ssl.gstatic.com/closure/check-sprite.gif
+//ssl.gstatic.com/docs/common/icons9.png
+//ssl.gstatic.com/docs/common/logo/docs_logo_sm.gif
+//ssl.gstatic.com/docs/common/toastBackFill-0.png
+//ssl.gstatic.com/docs/common/toastBackTop-ltr-1.png
+//ssl.gstatic.com/docs/common/toastBackTop-rtl-1.png
+//ssl.gstatic.com/docs/documents/share/images/icons-7.png
+//ssl.gstatic.com/docs/drawings/images/hsva-sprite-sm.gif
+//ssl.gstatic.com/docs/drawings/images/hsva-sprite-sm.png
+//ssl.gstatic.com/docs/spreadsheets/bulbman.svg
+//ssl.gstatic.com/docs/spreadsheets/cell_chip_comment_left.png
+//ssl.gstatic.com/docs/spreadsheets/cell_chip_comment_right.png
+//ssl.gstatic.com/docs/spreadsheets/cell_chip_note_left.png
+//ssl.gstatic.com/docs/spreadsheets/cell_chip_note_right.png
+//ssl.gstatic.com/docs/spreadsheets/cell_chip_error_left.png
+//ssl.gstatic.com/docs/spreadsheets/cell_chip_error_right.png
+//ssl.gstatic.com/docs/spreadsheets/cursors/openhand_8_8.cur
+//ssl.gstatic.com/docs/spreadsheets/comment_chip_left.png
+//ssl.gstatic.com/docs/spreadsheets/comment_chip_right.png
+//ssl.gstatic.com/docs/spreadsheets/conditionalformat_add_another_rule.png
+//ssl.gstatic.com/docs/spreadsheets/conditionalformat_add_rule.png
+//ssl.gstatic.com/docs/spreadsheets/conditionalformat_drag_handle.png
+//ssl.gstatic.com/docs/spreadsheets/datavalidation-arrow-white.png
+//ssl.gstatic.com/docs/spreadsheets/datavalidation-arrow-black.png
+//ssl.gstatic.com/docs/spreadsheets/explore_icon_white.svg
+//ssl.gstatic.com/docs/spreadsheets/freezebar_horizontal_cover_background.png
+//ssl.gstatic.com/docs/spreadsheets/freezebar_horizontal.png
+//ssl.gstatic.com/docs/spreadsheets/freezebar_vertical_cover_background.png
+//ssl.gstatic.com/docs/spreadsheets/freezebar_active_horizontal.png
+//ssl.gstatic.com/docs/spreadsheets/grid_icon.png
+//ssl.gstatic.com/docs/spreadsheets/icon-dropdn.gif
+//ssl.gstatic.com/docs/spreadsheets/icons1.png
+//ssl.gstatic.com/docs/spreadsheets/insight_icon_green.png
+//ssl.gstatic.com/docs/spreadsheets/insight_icon_grey.png
+//ssl.gstatic.com/docs/spreadsheets/insight_icon_white.png
+//ssl.gstatic.com/docs/spreadsheets/jfk_freezebar_active_horizontal.png
+//ssl.gstatic.com/docs/spreadsheets/jfk_freezebar_active_vertical.png
+//ssl.gstatic.com/docs/spreadsheets/jfk_freezebar_horizontal.png
+//ssl.gstatic.com/docs/spreadsheets/jfk_freezebar_horizontal_hover.png
+//ssl.gstatic.com/docs/spreadsheets/jfk_freezebar_horizontal_hover_ltr.png
+//ssl.gstatic.com/docs/spreadsheets/jfk_freezebar_horizontal_hover_rtl.png
+//ssl.gstatic.com/docs/spreadsheets/jfk_freezebar_horizontal_ltr.png
+//ssl.gstatic.com/docs/spreadsheets/jfk_freezebar_horizontal_rtl.png
+//ssl.gstatic.com/docs/spreadsheets/jfk_freezebar_vertical.png
+//ssl.gstatic.com/docs/spreadsheets/jfk_freezebar_vertical_hover.png
+//ssl.gstatic.com/docs/spreadsheets/jfk_freezebar_vertical_hover_ltr.png
+//ssl.gstatic.com/docs/spreadsheets/jfk_freezebar_vertical_hover_rtl.png
+//ssl.gstatic.com/docs/spreadsheets/jfk_freezebar_vertical_ltr.png
+//ssl.gstatic.com/docs/spreadsheets/jfk_freezebar_vertical_rtl.png
+//ssl.gstatic.com/docs/spreadsheets/MainMenuHorSprite015.gif
+//ssl.gstatic.com/docs/spreadsheets/MainMenuVerSprite007.png
+//ssl.gstatic.com/docs/spreadsheets/ritz_freezebar_horizontal.png
+//ssl.gstatic.com/docs/spreadsheets/ritz_freezebar_horizontal_hover.png
+//ssl.gstatic.com/docs/spreadsheets/ritz_freezebar_vertical.png
+//ssl.gstatic.com/docs/spreadsheets/ritz_freezebar_vertical_hover.png
+//ssl.gstatic.com/docs/spreadsheets/protected_range_background.png
+//ssl.gstatic.com/docs/spreadsheets/protected_range_background_2.png
+//ssl.gstatic.com/docs/spreadsheets/protected_range_background_3.png
+//ssl.gstatic.com/docs/spreadsheets/protected_range_background_4.png
+//ssl.gstatic.com/docs/spreadsheets/protected_range_background_5.png
+//ssl.gstatic.com/docs/spreadsheets/sheets_app_logo.png
+//ssl.gstatic.com/docs/spreadsheets/spinner.gif
+//ssl.gstatic.com/docs/spreadsheets/waffle_sprite52.png
+//ssl.gstatic.com/editor/toolbar-bg.png
+//ssl.gstatic.com/ui/v1/disclosure/dark-grey-disclosure-arrow-down.png
+//ssl.gstatic.com/charts/static/alert.png
+//ssl.gstatic.com/charts/static/mini3.png
+//ssl.gstatic.com/charts/static/stripes.png
+//ssl.gstatic.com/charts/static/thumbs17.png
+//ssl.gstatic.com/charts/static/thumbs18.png
+//ssl.gstatic.com/docs/common/jfk_sprite40.png
+//ssl.gstatic.com/charts/static/table-title-bg.gif
+/static/spreadsheets2/client/js/3469226870-homescreen_binary_i18n_core.js
+/static/spreadsheets2/client/js/1863098302-homescreen_binary_i18n_app.js
+/static/spreadsheets2/client/js/507655745-homescreen_binary_i18n_offline.js
+/static/spreadsheets2/client/js/2193055787-homescreen_binary_i18n_wiz.js
+# 6990be87299793d14cc1c337ac782d732dab9a0e
+/static/spreadsheets2/client/css/576653550-homescreen_css_ltr.css
+# ca081c5d0023a21286487cd58ffa2aee2c933913
+/static/spreadsheets2/client/css/541868512-homescreen_quantum_css_gecko_ltr.css
+# 20fbfe98619bd44384e5f6ddbebb53f536a08fe0
+/static/spreadsheets2/client/css/3543304344-homescreen_quantum_css_ie_ltr.css
+# 8bef2926d6c4f281baf0ba42f3f2143dc1578b4f
+/static/spreadsheets2/client/css/4219756606-homescreen_quantum_css_webkit_ltr.css
+https://docs.google.com/spreadsheets/offline/comment?ouid=u99b19a3c299b8cfb&uc=en&jobset=prod&docosJobset=prod
+https://docs.google.com/spreadsheets/offline/edit?ouid=u99b19a3c299b8cfb&uc=en&jobset=prod&docosJobset=prod
+https://docs.google.com/spreadsheets/offline/view?ouid=u99b19a3c299b8cfb&uc=en&jobset=prod&docosJobset=prod
+/static/spreadsheets2/30fb0a2edc/ritz_offline/ritzcalcworker_offline.nocache.js
+/static/spreadsheets2/30fb0a2edc/ritz_offline/79B81653418448414B6D1540E6ED23D4.cache.js
+/static/spreadsheets2/30fb0a2edc/ritz_offline/0A6EBB20D1213E680DA69392050A87EF.cache.js
+https://docs.google.com/spreadsheets/offline/blank
+/static/spreadsheets2/funcdocs/3066867342-en_US.json
+
+FALLBACK:
+
+NETWORK:
+/comments/u/
+//ssl.gstatic.com/inputtools
+//www.google.com/inputtools
+https://ssl.gstatic.com/docs/common/cleardot.gif
+//ssl.gstatic.com/gb/
+//static.corp.google.com/gb/
+https://docs.google.com/spreadsheets/font/getmetadata
+//themes.googleusercontent.com
+//fonts.gstatic.com
+//www-kixfonts-opensocial.googleusercontent.com
+//talkgadget.google.com
+//lh3.googleusercontent.com
+//lh4.googleusercontent.com
+//lh5.googleusercontent.com
+//lh6.googleusercontent.com
+https://docs.google.com/spreadsheets/onegoogle
+https://docs.google.com/spreadsheets/prefs
+https://docs.google.com/spreadsheets/scripts/config
+https://docs.google.com/spreadsheets/scripts/cancel
+https://docs.google.com/spreadsheets/scripts/invoke
+https://docs.google.com/spreadsheets/scripts/resume
+https://docs.google.com/spreadsheets/scripts/disableitem
+https://docs.google.com/spreadsheets/scripts/enableitem
+https://docs.google.com/spreadsheets/scripts/getitems
+https://docs.google.com/spreadsheets/scripts/lookupstoreitem
+https://docs.google.com/spreadsheets/scripts/installitem
+https://docs.google.com/spreadsheets/scripts/oauthurl
+https://docs.google.com/spreadsheets/scripts/sendissuereport
+https://docs.google.com/spreadsheets/scripts/uninstallitem
+https://docs.google.com/spreadsheets/scripts/libraries
+https://docs.google.com/spreadsheets/scripts/uiready
+https://docs.google.com/spreadsheets/save
+https://docs.google.com/spreadsheets/active
+https://docs.google.com/spreadsheets/chat
+https://docs.google.com/spreadsheets/leave
+https://docs.google.com/spreadsheets/revisions
+https://docs.google.com/spreadsheets/lastviewed
+https://docs.google.com/spreadsheets/hibernatestat
+https://docs.google.com/spreadsheets/bind
+https://docs.google.com/spreadsheets/test
+https://docs.google.com/spreadsheets/publishingsettings
+https://docs.google.com/spreadsheets/publishsettings
+*

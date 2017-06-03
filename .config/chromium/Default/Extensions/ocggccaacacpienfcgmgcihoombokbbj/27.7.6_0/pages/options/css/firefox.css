@@ -1,0 +1,15 @@
+#help-link{
+    //display: none!important;
+}
+
+.settings-parallax-subitem{
+     display: none;
+}
+
+.page-options .row:nth-child(1) > div:nth-child(3) > div:nth-child(2){/* Apps display Link */
+    display: none;
+}
+
+.options-header-right-block {
+    /*top: 8px!important;*/
+}

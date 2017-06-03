@@ -1,0 +1,109 @@
+#clock-container{
+    margin-top: 0px!important;
+}
+
+.ce-countdown--theme-0 {
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    letter-spacing: -6px;
+    font-size: 1150%;
+    font-weight: lighter;
+    padding: 30px 60px;
+    max-width: 970px;
+}
+
+.ce-countdown{ min-width: 650px; }
+.ce-countdown.ce-add-date{ min-width: 710px; }
+.ce-countdown.ce-add-seconds{ min-width: 825px; }
+.ce-countdown.ce-add-date.ce-add-seconds{ min-width: 910px; }
+
+.ce-countdown--theme-0.clock-font-bold {
+    font-size: 1300%;
+}
+
+.ce-countdown--theme-0.clock-font-bold .clock-format-label {
+    font-size: 0.25em;
+}
+
+.ce-countdown--theme-0.clock-format-label-padding {
+    padding: 30px 60px 30px 0;
+}
+
+
+@media (max-width: 900px) {
+    .ce-countdown--theme-0 {
+        font-size: 800%;
+        letter-spacing: -2px;
+        padding: 30px 0;
+        max-width: 650px;
+    }
+
+    .ce-countdown--theme-0.clock-font-bold {
+        font-size: 800%;
+    }
+
+    .ce-countdown--theme-0.clock-format-label-padding {
+        padding: 30px 20px 30px 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .ce-countdown--theme-0 {
+        font-size: 600%;
+        letter-spacing: 2px;
+    }
+
+    .ce-countdown--theme-0 .clock-format-label {
+        display: none !important;
+    }
+
+    .ce-countdown--theme-0.clock-format-label-padding {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .ce-countdown--theme-0,
+    .ce-countdown--theme-0.clock-font-bold {
+        font-size: 500%;
+    }
+
+    .ce-countdown--theme-0 > span {
+        display: block;
+        letter-spacing: 2px;
+    }
+
+    .ce-countdown--theme-0 > span:first-of-type {
+        border-bottom: 1px solid #FFF;
+    }
+
+    .ce-countdown--theme-0 > span:last-of-type {
+         border-top: 1px solid #FFF;
+    }
+
+    .ce-countdown--theme-0 .ce-delimiter {
+        display: none !important;
+    }
+
+    .ce-countdown--theme-0 .clock-format-label {
+        display: none !important;
+    }
+
+    .ce-countdown--theme-0.clock-format-label-padding {
+        padding: 0 0;
+    }
+}
+
+
+.ce-countdown--theme-0 .ce-delimiter {
+    margin: 0 17px 0 10px;
+}
+
+.ce-countdown--theme-0 .clock-format-label {
+    letter-spacing: 1px;
+    font-size: 0.2em;
+    display: inline-block;
+    position: absolute;
+    padding-left: 15px;
+}

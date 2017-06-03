@@ -1,0 +1,108 @@
+[06/02/17, 13:48:34:888] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 13:48:34:889] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 13:48:34:882      ║
+[06/02/17, 13:48:34:889] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 13:48:35:318] info: Store: SET_NETWORK_STATUS online
+[06/02/17, 13:48:35:342] info: Checking network connection to Slack...
+[06/02/17, 13:48:50:599] warn: TeamsDisplay: Unable to handle slack://T09229ZC6/magic-login/191410406736-uB4PRqRYZR because no teams are signed in.
+[06/02/17, 13:48:50:972] warn: Base Component: Attempting to update LoginView when unmounted.
+[06/02/17, 13:48:50:972] warn: Base Component: Attempting to update FullScreenModal when unmounted.
+[06/02/17, 13:48:50:973] warn: Base Component: Attempting to update WebViewContext when unmounted.
+[06/02/17, 13:48:52:834] info: TeamView: Bugsnag user: U2MA294CD
+[06/02/17, 13:48:53:125] warn: Base Component: Attempting to update TeamView when unmounted.
+[06/02/17, 13:48:53:125] warn: Base Component: Attempting to update WebViewContext when unmounted.
+[06/02/17, 13:48:55:818] info: Webapp finished loading
+[06/02/17, 13:49:13:995] info: WebView: Received redirect request from https://slack.com/signin to https://android-united.slack.com/.
+[06/02/17, 13:49:36:210] info: Store: SET_LOGIN_DIALOG
+[06/02/17, 13:49:36:224] warn: Base Component: Attempting to update LoginView when unmounted.
+[06/02/17, 13:49:36:225] warn: Base Component: Attempting to update FullScreenModal when unmounted.
+[06/02/17, 13:49:36:226] warn: Base Component: Attempting to update WebViewContext when unmounted.
+[06/02/17, 13:49:47:196] info: WebView: Received redirect request from https://slack.com/signin to https://denver-devs.slack.com/.
+[06/02/17, 13:50:00:512] info: WebView: Received redirect request from https://slack.com/signin to https://reactivex.slack.com/.
+[06/02/17, 13:50:16:460] info: WebView: Received redirect request from https://slack.com/signin to https://gdgdenver.slack.com/.
+[06/02/17, 13:50:33:197] info: WebView: Received redirect request from https://slack.com/signin to https://hudboyz.slack.com/.
+[06/02/17, 13:50:51:840] info: TeamsDisplay: Instructing team T09229ZC6 to handle the deep link slack://T04067NNM/magic-login/191411544800-DQlkA4iwKx
+[06/02/17, 13:50:52:210] info: TeamsDisplay: Team T09229ZC6 was active for 136900ms
+[06/02/17, 13:50:52:226] warn: Base Component: Attempting to update LoginView when unmounted.
+[06/02/17, 13:50:52:226] warn: Base Component: Attempting to update FullScreenModal when unmounted.
+[06/02/17, 13:50:52:227] warn: Base Component: Attempting to update WebViewContext when unmounted.
+[06/02/17, 13:50:53:670] warn: Base Component: Attempting to update TeamView when unmounted.
+[06/02/17, 13:50:53:671] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[06/02/17, 13:50:53:673] warn: Base Component: Attempting to update WebViewContext when unmounted.
+[06/02/17, 13:50:56:085] info: Webapp finished loading
+[06/02/17, 13:51:06:563] info: TeamsDisplay: Instructing team T09229ZC6 to handle the deep link slack://T040F1EUX/magic-login/192884611766-4a29CbfBXV
+[06/02/17, 13:51:06:829] info: TeamsDisplay: Team T04067NNM was active for 14619ms
+[06/02/17, 13:51:08:389] info: Store: SET_TEAMS_BY_INDEX
+{ '0': 'T09229ZC6', '1': 'T04067NNM', '2': 'T040F1EUX' }
+[06/02/17, 13:51:08:836] warn: Base Component: Attempting to update TeamView when unmounted.
+[06/02/17, 13:51:08:837] warn: Base Component: Attempting to update WebViewContext when unmounted.
+[06/02/17, 13:51:11:518] info: Webapp finished loading
+[06/02/17, 13:51:16:242] info: TeamsDisplay: Instructing team T09229ZC6 to handle the deep link slack://T02AG6QJM/magic-login/191411846592-G5EGmxVURU
+[06/02/17, 13:51:16:525] info: TeamsDisplay: Team T040F1EUX was active for 9697ms
+[06/02/17, 13:51:17:884] warn: Base Component: Attempting to update TeamView when unmounted.
+[06/02/17, 13:51:17:884] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[06/02/17, 13:51:17:885] warn: Base Component: Attempting to update WebViewContext when unmounted.
+[06/02/17, 13:51:18:080] info: Store: SET_TEAMS_BY_INDEX
+{ '0': 'T09229ZC6',
+  '1': 'T04067NNM',
+  '2': 'T040F1EUX',
+  '3': 'T02AG6QJM' }
+[06/02/17, 13:51:20:468] info: Webapp finished loading
+[06/02/17, 13:51:26:387] info: TeamsDisplay: Instructing team T09229ZC6 to handle the deep link slack://T12AS2C06/magic-login/192128583380-ZnxxlmCnGn
+[06/02/17, 13:51:26:661] info: TeamsDisplay: Team T02AG6QJM was active for 10136ms
+[06/02/17, 13:51:28:193] warn: Base Component: Attempting to update TeamView when unmounted.
+[06/02/17, 13:51:28:194] warn: Base Component: Attempting to update WebViewContext when unmounted.
+[06/02/17, 13:51:28:248] info: Store: SET_TEAMS_BY_INDEX
+{ '0': 'T09229ZC6',
+  '1': 'T04067NNM',
+  '2': 'T040F1EUX',
+  '3': 'T02AG6QJM',
+  '4': 'T12AS2C06' }
+[06/02/17, 13:51:30:998] info: Webapp finished loading
+[06/02/17, 13:52:55:735] info: Store: SELECT_TEAM T09229ZC6
+[06/02/17, 13:52:55:775] info: TeamsDisplay: Team T12AS2C06 was active for 89113ms
+[06/02/17, 13:53:44:126] info: Store: SET_LOGIN_DIALOG true
+[06/02/17, 13:53:47:480] info: WebView: Received redirect request from https://slack.com/signin to https://hudboyz.slack.com/.
+[06/02/17, 13:54:02:629] info: TeamsDisplay: Instructing team T09229ZC6 to handle the deep link slack://T4QFBHCVD/magic-login/192175764453-a8PrdAOdiH
+[06/02/17, 13:54:02:880] info: TeamsDisplay: Team T09229ZC6 was active for 67105ms
+[06/02/17, 13:54:02:900] warn: Base Component: Attempting to update LoginView when unmounted.
+[06/02/17, 13:54:02:901] warn: Base Component: Attempting to update FullScreenModal when unmounted.
+[06/02/17, 13:54:02:902] warn: Base Component: Attempting to update WebViewContext when unmounted.
+[06/02/17, 13:54:04:431] warn: Base Component: Attempting to update TeamView when unmounted.
+[06/02/17, 13:54:04:432] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[06/02/17, 13:54:04:432] warn: Base Component: Attempting to update WebViewContext when unmounted.
+[06/02/17, 13:54:04:487] info: Store: SET_TEAMS_BY_INDEX
+{ '0': 'T09229ZC6',
+  '1': 'T04067NNM',
+  '2': 'T040F1EUX',
+  '3': 'T02AG6QJM',
+  '4': 'T12AS2C06',
+  '5': 'T4QFBHCVD' }
+[06/02/17, 13:54:06:879] info: Store: SET_TEAMS_BY_INDEX
+{ '0': 'T4QFBHCVD',
+  '1': 'T09229ZC6',
+  '2': 'T04067NNM',
+  '3': 'T040F1EUX',
+  '4': 'T02AG6QJM',
+  '5': 'T12AS2C06' }
+[06/02/17, 13:54:06:963] info: Webapp finished loading
+[06/02/17, 13:54:06:995] info: Store: SET_TEAMS_BY_INDEX
+{ '0': 'T4QFBHCVD',
+  '1': 'T09229ZC6',
+  '2': 'T04067NNM',
+  '3': 'T040F1EUX',
+  '4': 'T02AG6QJM',
+  '5': 'T12AS2C06' }
+[06/02/17, 13:54:07:575] info: Store: SET_TEAMS_BY_INDEX
+{ '0': 'T4QFBHCVD',
+  '1': 'T09229ZC6',
+  '2': 'T04067NNM',
+  '3': 'T040F1EUX',
+  '4': 'T02AG6QJM',
+  '5': 'T12AS2C06' }
+[06/02/17, 13:54:10:254] info: Store: SET_TEAMS_BY_INDEX
+{ '0': 'T4QFBHCVD',
+  '1': 'T04067NNM',
+  '2': 'T09229ZC6',
+  '3': 'T040F1EUX',
+  '4': 'T02AG6QJM',
+  '5': 'T12AS2C06' }

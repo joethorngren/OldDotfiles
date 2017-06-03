@@ -1,0 +1,28 @@
+{
+	"services": [
+		"trello",
+		"pomello"
+	],
+	"trello": {
+		"listsHeading": "%boardName%: %listName%",
+		"taskListHeading": "%boardName%: %listName%",
+		"taskHeading": "%boardName%: %listName%",
+		"actionsHeading": "Task: %taskName%",
+		"completedTaskHeading": "Task: %taskName%",
+		"shortBreakHeading": "Next: %nextTask%",
+		"longBreakHeading": "Next: %nextTask%",
+		"token": "42ec7abb9a612ce1955061ec354b0ff8ce3f63410f3530fbbd5bab0920f4888b",
+		"currentList": "5713d64fb5da227da39b1e6a",
+		"finishedTutorial": true,
+		"preferences": {
+			"lists": {
+				"5713d64fb5da227da39b1e6a": {
+					"doneList": "5713d6502f8d434ea3c46963"
+				}
+			}
+		}
+	},
+	"pomello": {
+		"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5wb21lbGxvYXBwLmNvbS9hdXRob3JpemUvb2F1dGgvZ29vZ2xlL2NhbGxiYWNrIiwiaWF0IjoxNDk2MzIwNjAzLCJuYmYiOjE0OTYzMjA2MDMsImp0aSI6IjNmNGUwYjFiMjA5OTdiNmI3YzIxMzlmODU3M2QyOTI4Iiwic3ViIjoyNTkwOH0.6uArxDY4JvBNYWI9oDVEZ3Dy10Nhd8K5tQyzK1ZXEyU"
+	}
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>Loading...</title>
+
+    <link rel="icon" href="../../img/icon/icon16.png">
+    <script src="../../vendor/jquery-2.1.3.min.js"></script>
+    
+    <script src="./firefox-preload.js"></script>
+    
+    <script src="../common.js"></script>
+    
+    <script src="../../vendor/q.js"></script>
+    <script src="../../vendor/dexie.min.js"></script>
+    <script src="../../vendor/LargeLocalStorage.min.js"></script>
+        
+    <script src="../../browsers/browser-firefox.js"></script>
+    <script src="../../browsers/datebase-firefox.js"></script>
+    
+    <!--
+    <script src="theme.js"></script>
+    <script src="groups.js"></script>
+    <script src="dials.js"></script>
+    <script src="backend.js"></script>
+    <script src="install.js"></script>
+    -->
+    
+    <link rel="icon" href="../img/icon/icon16.png">
+    <style>
+        .loader {
+            /*$size: 35px;*/
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-left: -17px;
+            margin-top: -17px;
+            background-size: contain;
+            height: 35px;
+            width: 35px;
+            animation: elastic-rotation 1.33s cubic-bezier(0.680, -0.550, 0.265, 1.550) infinite;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9Il94MzhfU0VMRUNUX0xvZ28iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMzEuOSAxNi4zIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAzMS45IDE2LjMiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGQ9Ik0yOS41LDIuNGMxLjYsMS42LDIuNCwzLjUsMi40LDUuOHMtMC44LDQuMi0yLjQsNS44Yy0xLjYsMS42LTMuNSwyLjQtNS44LDIuNGMtMS4zLDAtMi41LTAuNC0zLjgtMS4xYy0xLjItMC43LTIuMS0xLjQtMi42LTJjLTAuNS0wLjYtMC44LTEtMC45LTEuMmMtMC40LTAuNi0wLjMtMS4xLDAuMi0xLjRjMC42LTAuNCwxLjEtMC4zLDEuNSwwLjJjMCwwLjEsMC4yLDAuNCwwLjcsMC45YzAuNCwwLjUsMS4xLDEuMSwyLjEsMS42YzAuOSwwLjYsMS45LDAuOSwyLjgsMC45YzEuNywwLDMuMS0wLjYsNC4zLTEuOGMxLjItMS4yLDEuOC0yLjYsMS44LTQuM3MtMC42LTMuMS0xLjgtNC4zYy0xLjItMS4yLTIuNi0xLjgtNC4zLTEuOGMtMC44LDAtMS43LDAuNC0yLjYsMS4yUzE5LjUsNC43LDE5LDUuNGMtMC41LDAuNy0xLjIsMS44LTIuMiwzLjNjLTAuOCwxLjItMS40LDIuMi0xLjksMi44Yy0wLjUsMC42LTEuMSwxLjQtMS44LDIuM2MtMC44LDAuOS0xLjUsMS41LTIuMywxLjljLTAuOCwwLjQtMS42LDAuNi0yLjYsMC42Yy0yLjMsMC00LjItMC44LTUuOC0yLjRTMCwxMC40LDAsOC4yQzAsNS45LDAuOCw0LDIuNCwyLjRTNS45LDAsOC4yLDBDMTEsMCwxMy4zLDEuNywxNSw1LjJjMC4yLDAuNywwLjEsMS4xLTAuNiwxLjRDMTMuOCw2LjgsMTMuMyw2LjYsMTMsNkwxMi41LDVjLTAuMy0wLjctMC45LTEuMy0xLjctMnMtMS43LTEtMi42LTFDNi42LDIuMSw1LjEsMi43LDQsMy45UzIuMiw2LjUsMi4yLDguMnMwLjYsMy4xLDEuOCw0LjNzMi42LDEuOCw0LjMsMS44YzAuOCwwLDEuNy0wLjQsMi42LTEuMnMxLjYtMS41LDIuMS0yLjFjMC41LTAuNywxLjItMS44LDIuMi0zLjNjMC44LTEuMiwxLjQtMi4yLDEuOS0yLjhzMS4xLTEuNCwxLjgtMi4zczEuNS0xLjUsMi4zLTEuOUMyMS45LDAuMiwyMi43LDAsMjMuNiwwQzI1LjksMCwyNy45LDAuOCwyOS41LDIuNHoiLz48L2c+PC9zdmc+);
+        }
+        
+        @keyframes elastic-rotation {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
+
+    <script>
+        localStorage.setItem("page-show-loading", 1);
+    </script>
+</head>
+
+<body>
+    <!--<img id="loading" src="../img/icon/loading128.png" />-->
+    <div id="loading" class="loader"></div>
+</body>
+
+
+</html>

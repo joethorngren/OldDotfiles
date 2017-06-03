@@ -1,0 +1,45 @@
+{
+  "extName": {
+    "message": "Auto HD For YouTube™",
+    "description": "The name of the extension. Please translate it to whatever is most similar to 'Auto HD'. HD is short for High Definition."
+  },
+  "extDescription": {
+    "message": "Spill YouTube-videoer i HD automatisk.",
+    "description": "The description of the extension. HD is short for High Definition."
+  },
+  "extSettings": {
+    "message": "Auto HD-innstillinger",
+    "description": "When you translate 'Auto HD', please ensure that it is translated the same as in the extension name (above). HD is short for High Definition."
+  },
+  "playQuality": {
+    "message": "Avspillingskvalitet",
+    "description": "The headline of a setting which allows the user to choose the default quality of their YouTube player"
+  },
+  "playerSize": {
+    "message": "Spillerens størrelse",
+    "description": "The headline of a setting which allows the user to choose the default size of their YouTube player"
+  },
+  "hd": {
+    "message": "HD"
+  },
+  "max": {
+    "message": "Maks"
+  },
+  "small": {
+    "message": "Liten"
+  },
+  "medium": {
+    "message": "Medium"
+  },
+  "large": {
+    "message": "Stor"
+  },
+  "rateUs": {
+    "message": "Gi oss fem stjerner",
+    "description": "The label on a button that encourages users to rate the app"
+  },
+  "reportBug": {
+    "message": "Meld fra om feil",
+    "description": "The label on a button that lets users report a problem"
+  }
+}

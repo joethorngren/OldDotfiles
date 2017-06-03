@@ -1,0 +1,1033 @@
+{
+   "add_new_dial_dialog_apply": {
+      "message": "Kaydet"
+   },
+   "add_new_dial_dialog_close": {
+      "message": "İptal"
+   },
+   "add_new_dial_dialog_group_name_require": {
+      "message": "Grup ismi gerekli"
+   },
+   "add_new_dial_dialog_name_require": {
+      "message": "İsim gerekli"
+   },
+   "add_new_dial_dialog_title": {
+      "message": "Yeni erişim ekle"
+   },
+   "add_new_dial_dialog_url_require": {
+      "message": "Url gerekli"
+   },
+   "add_new_dial_field_group": {
+      "message": "Grup"
+   },
+   "add_new_dial_field_groupName": {
+      "message": "İsim"
+   },
+   "add_new_dial_field_name": {
+      "message": "İsim"
+   },
+   "add_new_dial_field_url": {
+      "message": "URL"
+   },
+   "add_new_dial_text_groupName": {
+      "message": "Yeni grup"
+   },
+   "add_new_group_dialog_apply": {
+      "message": "Kaydet"
+   },
+   "add_new_group_dialog_close": {
+      "message": "İptal"
+   },
+   "add_new_group_dialog_name_require": {
+      "message": "İsim gerekli"
+   },
+   "add_new_group_dialog_title": {
+      "message": "Yeni grup ekle"
+   },
+   "add_new_group_field_name": {
+      "message": "İsim"
+   },
+   "add_user_flixel_btn": {
+      "message": "Kendi Canlı Fotoğraflarınızı oluşturun"
+   },
+   "appDesc": {
+      "message": "Canlı yeni sekme sayfası: Tarayıcınızda saatleri, yapılacaklar listesini, yüzlerce canlı fotoğrafı özelleştirin."
+   },
+   "appName": {
+      "message": "Canlı Başlangıç ​​Sayfası - Canlı Duvar Kağıtları"
+   },
+   "appShort": {
+      "message": "Yeni sekme sayfası"
+   },
+   "delete_group_dialog_apply": {
+      "message": "Sil"
+   },
+   "delete_group_dialog_body_1": {
+      "message": "Bu grupta hızlı erişimler var."
+   },
+   "delete_group_dialog_body_2": {
+      "message": "Bu grubu silmek istediğinizden emin misiniz?"
+   },
+   "delete_group_dialog_close": {
+      "message": "İptal"
+   },
+   "delete_group_dialog_title": {
+      "message": "İşleminizi onaylayın"
+   },
+   "edit_dial_dialog_title": {
+      "message": "Hızlı erişimi düzenle"
+   },
+   "options_application_rating_popup_item_already": {
+      "message": "Zaten yaptım"
+   },
+   "options_application_rating_popup_item_awesome": {
+      "message": "Muhteşem!"
+   },
+   "options_application_rating_popup_item_bad": {
+      "message": "Kötü"
+   },
+   "options_application_rating_popup_item_better": {
+      "message": "Daha iyi olabilir"
+   },
+   "options_application_rating_popup_title_mark": {
+      "message": "Canlı Başlangıç Sayfasını Beğendiniz mi? Lütfen puan verin!"
+   },
+   "options_application_rating_popup_title_thanks": {
+      "message": "Lütfen yorumunuzu yazın. Bu bizim için çok önemli. Teşekkürler!"
+   },
+   "options_application_weather_city": {
+      "message": "Değiştirmek için çift tıklayın"
+   },
+   "options_application_weather_error_text_location": {
+      "message": "Lütfen konumunuzu izlemeyi etkinleştirin veya"
+   },
+   "options_application_weather_error_text_location_placeholder": {
+      "message": "Şehrinizi buraya girin"
+   },
+   "options_application_weather_intro_text": {
+      "message": "Hava durumumu göster"
+   },
+   "options_application_weather_location_current": {
+      "message": "Mevcut konumu al"
+   },
+   "options_bookmarks_popup_close": {
+      "message": "Bunu tekrar gösterme"
+   },
+   "options_bookmarks_popup_hide": {
+      "message": "Kapat"
+   },
+   "options_bookmarks_popup_title": {
+      "message": "Yer İşaretleri Çubuğu nasıl etkinleştirilir?"
+   },
+   "options_header_buttons_close_settings": {
+      "description": "#fixed",
+      "message": "AYARLARI KAPATIN"
+   },
+   "options_header_buttons_control_settings": {
+      "description": "#fixed",
+      "message": "Ayarları Yapılandır"
+   },
+   "options_header_buttons_feedback": {
+      "description": "#fixed",
+      "message": "GERİ BİLDİRİM"
+   },
+   "options_header_buttons_help": {
+      "description": "#fixed",
+      "message": "SSS"
+   },
+   "options_header_buttons_select_favorite_bg": {
+      "description": "#fixed",
+      "message": "Favoriler"
+   },
+   "options_header_buttons_select_live_bg": {
+      "description": "#fixed",
+      "message": "Arka Plan Seçin"
+   },
+   "options_header_title": {
+      "description": "#fixed",
+      "message": "Canlı Başlangıç ​​Sayfası - Ayarlar"
+   },
+   "options_meta_title": {
+      "message": "Ayarlar"
+   },
+   "options_random_mode_is_active_notice": {
+      "message": "Not: favoriler için rastgele modu açık"
+   },
+   "options_refresh_themes_list_error": {
+      "message": "Hata, mevcut arka plan listesi açılamıyor. Sayfa yenilemeyi deneyin."
+   },
+   "options_relax_popup_body_bottom_text_1": {
+      "message": "Günlük farkındalık dozunuzu alın."
+   },
+   "options_relax_popup_body_bottom_text_2": {
+      "message": "Zihninizi rahatlatın ve yeniden odaklanın."
+   },
+   "options_relax_popup_body_bottom_text_3": {
+      "message": "Güzel görüntülerin tadını çıkarın."
+   },
+   "options_relax_popup_body_bottom_tip": {
+      "message": "İpucu: Tam Ekran Modu'nu açmak ve kapatmak için F11 tuşuna basın."
+   },
+   "options_relax_popup_body_top_text": {
+      "message": "Meditasyon modu, gün boyu üretken olmanız için size yardımcı olur."
+   },
+   "options_relax_popup_close": {
+      "message": "Bunu tekrar gösterme"
+   },
+   "options_relax_popup_hide": {
+      "message": "Hadi başlayalım"
+   },
+   "options_relax_popup_title": {
+      "message": "Hadi başlayalım"
+   },
+   "options_settings_apps_link_display": {
+      "message": "Uygulamalar bağlantısını göster"
+   },
+   "options_settings_bottom_panel": {
+      "message": "Alt panel"
+   },
+   "options_settings_clock_advanced_href": {
+      "message": "Gelişmiş"
+   },
+   "options_settings_clock_background": {
+      "message": "Arka Plan"
+   },
+   "options_settings_clock_background_dark": {
+      "message": "Karanlık"
+   },
+   "options_settings_clock_background_dark_long": {
+      "message": "Uzun Karanlık"
+   },
+   "options_settings_clock_background_light": {
+      "message": "Işık"
+   },
+   "options_settings_clock_background_light_long": {
+      "message": "Uzun Işık"
+   },
+   "options_settings_clock_background_none": {
+      "message": "Hiçbiri"
+   },
+   "options_settings_clock_background_opacity": {
+      "message": "Arka plan donukluğu"
+   },
+   "options_settings_clock_basic_href": {
+      "message": "Temel"
+   },
+   "options_settings_clock_color_text_ampm_label": {
+      "message": "AM/PM:"
+   },
+   "options_settings_clock_color_text_border_line": {
+      "message": "Sınır hattı:"
+   },
+   "options_settings_clock_color_text_digit_bg": {
+      "message": "Rakam arka planı:"
+   },
+   "options_settings_clock_color_text_done_line": {
+      "message": "Daire bitiş hattı:"
+   },
+   "options_settings_clock_color_text_h": {
+      "message": "Saat renkleri:"
+   },
+   "options_settings_clock_color_text_label": {
+      "message": "Etiketler:"
+   },
+   "options_settings_clock_color_text_time": {
+      "message": "Rakamlar:"
+   },
+   "options_settings_clock_color_text_total_line": {
+      "message": "Daire toplam hattı:"
+   },
+   "options_settings_clock_font_bold": {
+      "message": "Kalın rakam fontu"
+   },
+   "options_settings_clock_format": {
+      "message": "Saat formatı"
+   },
+   "options_settings_clock_format_label": {
+      "message": "AM/PM etiketini göster"
+   },
+   "options_settings_clock_opacity": {
+      "message": "Saat donukluğu"
+   },
+   "options_settings_clock_scheme_dark": {
+      "message": "Karanlık"
+   },
+   "options_settings_clock_scheme_default": {
+      "message": "Varsayılan"
+   },
+   "options_settings_clock_scheme_light": {
+      "message": "Işık"
+   },
+   "options_settings_clock_seconds_show": {
+      "message": "Saniyeleri Göster"
+   },
+   "options_settings_clock_show": {
+      "message": "Saati Göster"
+   },
+   "options_settings_clock_title": {
+      "message": "Saat"
+   },
+   "options_settings_clock_type": {
+      "message": "Saat türü"
+   },
+   "options_settings_clock_type_0": {
+      "message": "Basit"
+   },
+   "options_settings_clock_type_10": {
+      "message": "Pano"
+   },
+   "options_settings_clock_type_3": {
+      "message": "Dijital"
+   },
+   "options_settings_clock_type_5": {
+      "message": "Stil"
+   },
+   "options_settings_clock_type_6": {
+      "message": "Döner"
+   },
+   "options_settings_clock_type_7": {
+      "message": "Kayar"
+   },
+   "options_settings_clock_type_9": {
+      "message": "Daireler"
+   },
+   "options_settings_clock_visible_label": {
+      "message": "Birim etiketini göster"
+   },
+   "options_settings_dials_columns_count": {
+      "message": "Maksimum erişim sütunu"
+   },
+   "options_settings_page_bottom_panel_opacity": {
+      "message": "Panel saydamlığı"
+   },
+   "options_settings_page_top_panel": {
+      "message": "Üst panel"
+   },
+   "options_settings_parallax_enable": {
+      "message": "Paralaks efektini etkinleştir"
+   },
+   "options_settings_parallax_enable_notice": {
+      "message": "(Not: Performansı arttırmak için kapatın)"
+   },
+   "options_settings_parallax_strength": {
+      "message": "Paralaks etkisi gücü"
+   },
+   "options_settings_parallax_subtitle": {
+      "message": "(Dinamik Arka Plan)"
+   },
+   "options_settings_parallax_title": {
+      "message": "Arka plan paralaksı"
+   },
+   "options_settings_popular_group_show": {
+      "message": "Grubu göster"
+   },
+   "options_settings_random_themes_enable_notice": {
+      "message": "Arka planları rastgele olarak göster (sadece indirilenler için)"
+   },
+   "options_settings_relax_enable": {
+      "message": "Meditasyon düğmesini göster"
+   },
+   "options_settings_relax_title": {
+      "message": "Meditasyon"
+   },
+   "options_settings_search_form_display": {
+      "message": "Aramayı Etkinleştir"
+   },
+   "options_settings_search_form_provider": {
+      "message": "%s ile ara"
+   },
+   "options_settings_search_open_type": {
+      "message": "Aramayı aç"
+   },
+   "options_settings_speed_dial_count": {
+      "message": "Hızlı Erişim Sayısı"
+   },
+   "options_settings_speed_dial_count_max": {
+      "message": "maks."
+   },
+   "options_settings_speed_dial_count_max_description": {
+      "message": "Grup için"
+   },
+   "options_settings_speed_dial_generate_type": {
+      "message": "Hızlı erişimler nasıl oluşturulur?"
+   },
+   "options_settings_speed_dial_opacity": {
+      "message": "Hızlı Erişimlerin saydamlığı"
+   },
+   "options_settings_speed_dial_open_type": {
+      "message": "Hızlı Erişimi Aç"
+   },
+   "options_settings_speed_dial_open_type_background": {
+      "message": "Arka plan sekmesi"
+   },
+   "options_settings_speed_dial_open_type_current": {
+      "message": "Geçerli sekme"
+   },
+   "options_settings_speed_dial_open_type_new": {
+      "message": "Yeni sekme"
+   },
+   "options_settings_speed_dial_show": {
+      "message": "Hızlı Erişimleri Göster"
+   },
+   "options_settings_speed_dial_title": {
+      "message": "Hızlı Erişim"
+   },
+   "options_settings_speed_search_opacity": {
+      "message": "Arama formunda donukluk"
+   },
+   "options_settings_speed_search_title": {
+      "message": "Arama formu"
+   },
+   "options_settings_themes_sort_new": {
+      "message": "En yeni"
+   },
+   "options_settings_themes_sort_popular": {
+      "message": "Popüler"
+   },
+   "options_settings_todo_position": {
+      "message": "Varsayılan boyut ve konuma sıfırla"
+   },
+   "options_settings_todo_position_btn": {
+      "message": "Sıfırla"
+   },
+   "options_settings_todo_show": {
+      "message": "Görevleri Göster"
+   },
+   "options_settings_todo_title": {
+      "message": "Görevler"
+   },
+   "options_settings_weather_background_opacity": {
+      "message": "Arka plan donukluğu"
+   },
+   "options_settings_weather_background_show": {
+      "message": "Arka planı göster"
+   },
+   "options_settings_weather_location": {
+      "message": "Mevcut konum"
+   },
+   "options_settings_weather_location_block": {
+      "message": "Lütfen tarayıcınızdan konum izlemeyi etkinleştirin"
+   },
+   "options_settings_weather_location_block_text": {
+      "message": "Üzgünüz, konumunuzu tespit edemedik. Lütfen tarayıcınızdan konum izlemeyi etkinleştirin."
+   },
+   "options_settings_weather_location_cancel": {
+      "message": "İptal"
+   },
+   "options_settings_weather_location_change": {
+      "message": "Değiştir"
+   },
+   "options_settings_weather_location_img_title": {
+      "message": "Mevcut konumu al"
+   },
+   "options_settings_weather_location_placeholder": {
+      "message": "Şehrinizi girin"
+   },
+   "options_settings_weather_location_set": {
+      "message": "Uygula"
+   },
+   "options_settings_weather_location_unknown": {
+      "message": "Bilinmeyen"
+   },
+   "options_settings_weather_opacity": {
+      "message": "Hava durumu donukluğu"
+   },
+   "options_settings_weather_reset_position": {
+      "message": "Varsayılan konumu sıfırlayın"
+   },
+   "options_settings_weather_reset_position_btn": {
+      "message": "Sıfırlayın"
+   },
+   "options_settings_weather_show": {
+      "message": "Hava durumunu göster"
+   },
+   "options_settings_weather_title": {
+      "message": "Hava Durumu"
+   },
+   "options_settings_weather_unit": {
+      "message": "Sıcaklık birimi"
+   },
+   "options_settings_weather_unit_show": {
+      "message": "Sıcaklık birimini göster"
+   },
+   "options_share_social_description": {
+      "message": "Galerimizdeki 1000'den fazla temaya erişim sağlayın\u003Cbr>ve arkadaşlarınıza Canlı Başlangıç Sayfası'ndan bahsedin!"
+   },
+   "options_share_social_popup_btn_unlock": {
+      "description": "#fixed",
+      "message": "Şunun ile aç:"
+   },
+   "options_share_social_popup_text_1": {
+      "message": "Merhaba! Canlı Başlangıç Sayfası'nı kullandığınız için teşekkürler."
+   },
+   "options_share_social_popup_text_2": {
+      "message": "Projemizi desteklemek için sizden ufak bir iyilik istiyoruz.\u003Cbr>Lütfen Canlı Başlangıç Sayfası'nı, bu sosyal ağlardan birinde arkadaşlarınızla paylaşın."
+   },
+   "options_share_social_popup_text_3": {
+      "message": "Paylaştığınızda, 1000'den fazla canlı arka planın geri kalanına da erişebileceksiniz."
+   },
+   "options_share_social_popup_text_4": {
+      "message": "Saygılarımızla, Canlı Başlangıç Sayfası Ekibi."
+   },
+   "options_share_social_popup_title": {
+      "message": "Canlı Başlangıç Sayfası - Chrome için canlı duvar kağıtları"
+   },
+   "options_share_social_title": {
+      "message": "Canlı Başlangıç Sayfası"
+   },
+   "options_share_social_url": {
+      "message": "tr"
+   },
+   "options_speed_dial_generate_type_autopreview_text": {
+      "message": "Otomatik Önizleme + Metin"
+   },
+   "options_speed_dial_generate_type_gallery_autopreview_text": {
+      "message": "Galeri + Otomatik Önizleme + Metin"
+   },
+   "options_speed_dial_generate_type_gallery_text": {
+      "message": "Galeri + Metin"
+   },
+   "options_speed_dial_generate_type_text": {
+      "message": "Metin"
+   },
+   "options_tabs_content_flixel_bg_notice": {
+      "message": "Galeri İçerikleri:"
+   },
+   "options_tabs_content_flixer_load_button": {
+      "message": "DAHA FAZLA YÜKLE"
+   },
+   "options_tabs_content_live_bg_notice": {
+      "message": "Not: Canlı arka plan bilgisayarınızı yavaşlatabilir. Performansı artırmak için düşük kaliteli Canlı arka plan etkinleştirin"
+   },
+   "options_tabs_content_live_theme_notice": {
+      "message": "Pek yakında..."
+   },
+   "options_tabs_content_loader_text": {
+      "message": "YÜKLENİYOR..."
+   },
+   "options_tabs_delete_from_favorite": {
+      "message": "Favorilerinizden çıkarmak istiyor musunuz?"
+   },
+   "options_tabs_delete_from_favorite_close": {
+      "message": "Hayır"
+   },
+   "options_tabs_delete_from_favorite_confirm": {
+      "message": "Evet"
+   },
+   "options_tabs_download_flixer_bg_error": {
+      "message": "Hareketli arka plan indirme sorunu. Lütfen daha sonra tekrar deneyin."
+   },
+   "options_tabs_download_live_bg_error": {
+      "message": "Canlı arka plan indirme sorunu. Lütfen daha sonra tekrar deneyin."
+   },
+   "options_tabs_download_static_bg_error": {
+      "message": "Statik arka plan indiriliyor. Lütfen daha sonra tekrar deneyin."
+   },
+   "options_tabs_favorite_no_bg": {
+      "message": "Öncelikle beğendiğiniz arka planları, Favori olarak işaretlemelisiniz."
+   },
+   "options_tabs_item_buttons_active": {
+      "description": "#fixed",
+      "message": "AKTİF"
+   },
+   "options_tabs_item_buttons_active_resolution_1080p_live_bg": {
+      "message": "En iyi kalite, daha yavaş\n(bazı gecikmeler olabilir)"
+   },
+   "options_tabs_item_buttons_active_resolution_480p_live_bg": {
+      "message": "En iyi performans,\ndüşük kalite"
+   },
+   "options_tabs_item_buttons_active_resolution_720p_live_bg": {
+      "message": "Önerilen.\nİyi performans,\niyi kalite"
+   },
+   "options_tabs_item_buttons_active_theme": {
+      "description": "#fixed",
+      "message": "AKTİF"
+   },
+   "options_tabs_item_buttons_active_title_flixer_bg": {
+      "message": "Aktif hareketli fotoğraf arka planı"
+   },
+   "options_tabs_item_buttons_active_title_live_bg": {
+      "message": "Aktif canlı arka plan"
+   },
+   "options_tabs_item_buttons_active_title_static_bg": {
+      "message": "Aktif statik arka plan"
+   },
+   "options_tabs_item_buttons_active_title_theme": {
+      "message": "Aktif canlı tema"
+   },
+   "options_tabs_item_buttons_control_settings": {
+      "description": "#fixed",
+      "message": "Ayarları Yapılandır"
+   },
+   "options_tabs_item_buttons_disable": {
+      "description": "#fixed",
+      "message": "DEVRE DIŞI BIRAK"
+   },
+   "options_tabs_item_buttons_disable_title_flixel_bg": {
+      "message": "Hareketli fotoğrafı devre dışı bırak"
+   },
+   "options_tabs_item_buttons_disable_title_live_bg": {
+      "message": "Canlı arka planı devre dışı bırak"
+   },
+   "options_tabs_item_buttons_disable_title_static_bg": {
+      "message": "Statik arka planı devre dışı bırak"
+   },
+   "options_tabs_item_buttons_download": {
+      "description": "#fixed",
+      "message": "İndiriliyor"
+   },
+   "options_tabs_item_buttons_download_content": {
+      "description": "#fixed",
+      "message": "İçerik indiriliyor"
+   },
+   "options_tabs_item_buttons_download_flixel": {
+      "description": "#fixed",
+      "message": "Kuruluyor"
+   },
+   "options_tabs_item_buttons_download_flixel_content": {
+      "description": "#fixed",
+      "message": "İçerik kuruluyor"
+   },
+   "options_tabs_item_buttons_enable": {
+      "description": "#fixed",
+      "message": "ETKİNLEŞTİR"
+   },
+   "options_tabs_item_buttons_enable_title_flixer_bg": {
+      "message": "Hareketli fotoğraf arka planını etkinleştir"
+   },
+   "options_tabs_item_buttons_enable_title_live_bg": {
+      "message": "Canlı arka planı etkinleştir"
+   },
+   "options_tabs_item_buttons_enable_title_static_bg": {
+      "message": "Statik arka planı etkinleştir"
+   },
+   "options_tabs_item_buttons_favorite": {
+      "message": "Favorilere ekle"
+   },
+   "options_tabs_item_buttons_favorite_remove": {
+      "message": "Favorilerden çıkar"
+   },
+   "options_tabs_item_buttons_install": {
+      "description": "#fixed",
+      "message": "YÜKLE"
+   },
+   "options_tabs_item_buttons_install_flixer": {
+      "description": "#fixed",
+      "message": "YÜKLE"
+   },
+   "options_tabs_item_buttons_install_select_quality": {
+      "description": "#fixed",
+      "message": "Lütfen Kaliteyi Seçin"
+   },
+   "options_tabs_item_buttons_install_title_flixer_bg": {
+      "message": "İlk olarak, bunu yüklemeniz gerekir"
+   },
+   "options_tabs_item_buttons_install_title_live_bg": {
+      "message": "İlk olarak, bunu yüklemeniz gerekir"
+   },
+   "options_tabs_item_buttons_install_title_static_bg": {
+      "message": "İlk olarak, bunu yüklemeniz gerekir"
+   },
+   "options_tabs_item_buttons_install_title_theme": {
+      "message": "İlk olarak, Chrome Web Mağazası'ndan bu temayı indirmeniz gerekir"
+   },
+   "options_tabs_item_buttons_more_flixel_content_title": {
+      "message": "http://flixel.com adresinden daha fazla arka plan yükle"
+   },
+   "options_tabs_item_buttons_restore": {
+      "description": "#fixed",
+      "message": "TEMAYI YENİLE"
+   },
+   "options_tabs_item_buttons_restore_title": {
+      "message": "Chrome varsayılan temasını yenile"
+   },
+   "options_tabs_item_buttons_view_live_bg": {
+      "description": "#fixed",
+      "message": "TEMAYI GÖRÜNTÜLE"
+   },
+   "options_tabs_item_buttons_view_title_flixel_bg": {
+      "message": "Yeni sekme sayfasında aktif bir hareketli arka plan göster"
+   },
+   "options_tabs_item_buttons_view_title_live_bg": {
+      "message": "Yeni sekme sayfasında aktif canlı bir arka plan göster"
+   },
+   "options_tabs_item_chanel_description_text_flixel_bg": {
+      "message": "Oluşturan"
+   },
+   "options_tabs_item_chanel_description_title_flixel_bg": {
+      "message": "Kanala git"
+   },
+   "options_tabs_item_disable": {
+      "description": "#fixed",
+      "message": "ARKA PLANI DEVRE  DIŞI BIRAK"
+   },
+   "options_tabs_item_note_random_background_on_options_page": {
+      "message": "Not: Sadece Favori olarak işaretlenen arka planlar rastgele olarak gösterilecek."
+   },
+   "options_tabs_item_restore": {
+      "description": "#fixed",
+      "message": "Varsayılan Tema"
+   },
+   "options_tabs_item_tiles_theme_title_live_bg": {
+      "message": "Bu canlı arka plan zaten indirilmiş"
+   },
+   "options_tabs_item_tiles_theme_title_live_bg_button": {
+      "message": "video"
+   },
+   "options_tabs_item_tiles_theme_title_static_bg": {
+      "message": "Bu statik arka plan zaten indirildi"
+   },
+   "options_tabs_item_tiles_theme_title_static_bg_button": {
+      "message": "görüntü"
+   },
+   "options_tabs_title_flixel_bg": {
+      "message": "Canlı Hareketli Fotoğraflar"
+   },
+   "options_tabs_title_live_bg": {
+      "message": "Canlı Arka Planlar"
+   },
+   "options_tabs_title_live_theme": {
+      "message": "Canlı Temalar"
+   },
+   "options_tabs_title_static_bg": {
+      "message": "Statik Arka Planlar"
+   },
+   "page_bottom_notice_settings": {
+      "description": "#fixed",
+      "message": "Canlı arka planı değiştirmek için \u003Cb>ayarlara\u003C/b> tıklayın"
+   },
+   "page_clock_hour_label": {
+      "description": "#fixed",
+      "message": "Saat"
+   },
+   "page_clock_hours_label": {
+      "description": "#fixed",
+      "message": "Saatler"
+   },
+   "page_clock_minute_label": {
+      "description": "#fixed",
+      "message": "Dakika"
+   },
+   "page_clock_minutes_label": {
+      "description": "#fixed",
+      "message": "Dakikalar"
+   },
+   "page_clock_second_label": {
+      "description": "#fixed",
+      "message": "Saniye"
+   },
+   "page_clock_seconds_label": {
+      "description": "#fixed",
+      "message": "Saniyeler"
+   },
+   "page_created_link": {
+      "message": "Oluşturan"
+   },
+   "page_dial_context_menu_copy_url_dial": {
+      "message": "URL'yi kopyala"
+   },
+   "page_dial_context_menu_delete_dial": {
+      "message": "Hızlı Erişimi Gizle"
+   },
+   "page_dial_context_menu_edit_dial": {
+      "message": "Hızlı Erişimi düzenle"
+   },
+   "page_dial_context_menu_gallery_thumb": {
+      "message": "Galeri Küçük Resmi"
+   },
+   "page_dial_context_menu_open_background_thumb": {
+      "message": "Arka plan sekmesinde aç"
+   },
+   "page_dial_context_menu_open_current_thumb": {
+      "message": "Mevcut sekmede aç"
+   },
+   "page_dial_context_menu_open_new_thumb": {
+      "message": "Yeni sekmede aç"
+   },
+   "page_dial_context_menu_refresh_dial": {
+      "message": "Yenile"
+   },
+   "page_dial_context_menu_screen_thumb": {
+      "message": "Ekran Küçük Resmi"
+   },
+   "page_dial_context_menu_text_thumb": {
+      "message": "Metin Küçük Resmi"
+   },
+   "page_dial_thumb_load_gallery_problem": {
+      "message": "Bu internet sitesi için bir resim yok"
+   },
+   "page_dials_default_group_title": {
+      "message": "Varsayılan"
+   },
+   "page_dials_new_group_title": {
+      "message": "Yeni grup ekle"
+   },
+   "page_dials_notification_message": {
+      "message": "Hızlı Erişimi görüntülemek için \u003Cb>Çift tıklayın\u003C/b>"
+   },
+   "page_dials_popular_group_title": {
+      "message": "En çok ziyaret edilen"
+   },
+   "page_done_todo_list_description": {
+      "message": "Aferin!"
+   },
+   "page_done_todo_list_title": {
+      "message": "Tümü tamamlandı"
+   },
+   "page_empty_todo_list_description": {
+      "message": "Başlatmak için bir görev ekleyin"
+   },
+   "page_empty_todo_list_title": {
+      "message": "Yapılacak bir şey yok"
+   },
+   "page_error_flixer_bg_not_found": {
+      "message": "Hareketli arka plan bulunamadı"
+   },
+   "page_error_live_bg_load_problem": {
+      "message": "Canlı arka plan yükleme sorunu"
+   },
+   "page_error_live_bg_not_found": {
+      "message": "Canlı arka plan bulunamadı"
+   },
+   "page_error_static_bg_load_problem": {
+      "message": "Statik arka plan yükleme sorunu"
+   },
+   "page_error_static_bg_not_found": {
+      "message": "Statik arka plan bulunamadı"
+   },
+   "page_error_theme_config_not_found": {
+      "message": "Tema yapılandırması bulunamadı"
+   },
+   "page_footer_description_close": {
+      "message": "Bu mesajı tekrar göstermeyin"
+   },
+   "page_footer_rate_us": {
+      "message": "Bize puan verin!"
+   },
+   "page_footer_settings_link": {
+      "message": "Ayarlar"
+   },
+   "page_footer_themes_link": {
+      "message": "Temalar"
+   },
+   "page_footer_toggle_display_links_title_hide": {
+      "message": "Paneli gizle"
+   },
+   "page_footer_toggle_display_links_title_show": {
+      "message": "Paneli göster"
+   },
+   "page_footer_visible_dials_link_off": {
+      "message": "Hızlı Erişimleri Gizle"
+   },
+   "page_footer_visible_dials_link_on": {
+      "message": "Hızlı Erişimleri Göster"
+   },
+   "page_group_context_menu_delete": {
+      "message": "Grubu Sil"
+   },
+   "page_group_context_menu_rename": {
+      "message": "Yeniden adlandır"
+   },
+   "page_header_bookmarks": {
+      "message": "Yer işareti çubuğunu göster"
+   },
+   "page_header_bookmarks_help_img": {
+      "message": "tr"
+   },
+   "page_header_links_apps": {
+      "message": "Uygulamalar"
+   },
+   "page_header_links_apps_img": {
+      "message": "Chrome Uygulamalar Sayfası"
+   },
+   "page_meta_description": {
+      "message": "Canlı Başlangıç ​​Sayfası - Benim günlük ilham deneyim ..."
+   },
+   "page_meta_keywords": {
+      "message": "Uygulama, canlı, başlangıç, sayfa, tarayıcı"
+   },
+   "page_meta_title": {
+      "message": "Yeni sekme"
+   },
+   "page_new_dial_tooltip": {
+      "message": "Yeni erişim ekle"
+   },
+   "page_privacy_link": {
+      "message": "Gizlilik Politikası"
+   },
+   "page_relax_done_btn": {
+      "message": "Tamam (ESC)"
+   },
+   "page_relax_start_btn": {
+      "message": "Meditasyonu başlat"
+   },
+   "page_relax_start_title": {
+      "message": "Rahatlayın ve yeniden odaklanın. Canlı fotoğrafların tadını çıkarın"
+   },
+   "page_search_form_button_text": {
+      "description": "#fixed",
+      "message": "Arama"
+   },
+   "page_search_placeholder": {
+      "message": "Aramanızı girin ..."
+   },
+   "page_sidebar_add_group": {
+      "message": "Grup ekle"
+   },
+   "page_sidebar_title": {
+      "message": "Erişim Grupları"
+   },
+   "page_sidebar_toggle_button_title_off": {
+      "message": "Kenar çubuğunu gizle"
+   },
+   "page_sidebar_toggle_button_title_on": {
+      "message": "Kenar çubuğunu göster"
+   },
+   "page_speed_dials_close_title": {
+      "message": "Bu sayfada gösterme"
+   },
+   "page_speed_dials_settings_title": {
+      "message": "Ayarlar"
+   },
+   "page_terms_link": {
+      "message": "Kullanım Şartları"
+   },
+   "page_tiles_remove_text": {
+      "message": "Küçük resim kaldırıldı"
+   },
+   "page_tiles_restore_text": {
+      "message": "Geri al"
+   },
+   "page_todo_footer_input": {
+      "description": "#fixed",
+      "message": "Lütfen yeni Görev girin"
+   },
+   "page_todo_footer_input_submit": {
+      "description": "#fixed",
+      "message": "Yeni Ekle"
+   },
+   "page_todo_header_counter_text": {
+      "description": "#fixed",
+      "message": "tamamlandı"
+   },
+   "page_todo_header_toggle": {
+      "description": "#fixed",
+      "message": "Tamamlanan görevler"
+   },
+   "page_todo_link": {
+      "message": "Görevler"
+   },
+   "page_voice_search_form_button_text": {
+      "message": "Video Arama"
+   },
+   "popup_add_user_flixel_body_code": {
+      "message": "\u003Cspan class='popup-add-user-flixel-body-app-name'>LiveStart\u003C/span> kupon kodunu kullanın ve \u003Cspan class='popup-add-user-flixel-body-app-discount'>10%\u003C/span> oranında indirim kazanın!"
+   },
+   "popup_add_user_flixel_body_link_how_create": {
+      "message": "Sinemagraf Videoları Nasıl Oluşturulur"
+   },
+   "popup_add_user_flixel_body_link_how_create_fb": {
+      "message": "Facebook İçin Sinemagraf Video Profilleri Nasıl Oluşturulur"
+   },
+   "popup_add_user_flixel_body_links_text": {
+      "message": "Hızlı Bağlantılar:"
+   },
+   "popup_add_user_flixel_body_text": {
+      "message": "Sinemagraflar, videolar ve hareketsiz fotoğraflar arasında bulunan yepyeni ve heyecan verici bir görsel türüdür. Flixel Cinemagraph Pro, sinemagrafları oluşturmanın en kolay yoludur."
+   },
+   "popup_add_user_flixel_link_cloud": {
+      "message": "Flixel Bulut"
+   },
+   "popup_add_user_flixel_link_iphone": {
+      "message": "iPhone için Flixel"
+   },
+   "popup_add_user_flixel_link_mac": {
+      "message": "Mac için Flixel"
+   },
+   "popup_add_user_flixel_title": {
+      "message": "Flixel ile, kendi Canlı Fotoğraflarınızı oluşturun"
+   },
+   "popup_feedback_dialog_button_submit": {
+      "message": "E-POSTA YOLLA"
+   },
+   "popup_feedback_dialog_field_error_format_email_text": {
+      "message": "Geçersiz e-posta formatı"
+   },
+   "popup_feedback_dialog_field_error_required_email_text": {
+      "message": "E-posta gereklidir"
+   },
+   "popup_feedback_dialog_field_error_required_subject_text": {
+      "message": "Konu gereklidir"
+   },
+   "popup_feedback_dialog_field_error_too_low_subject_text": {
+      "message": "Konu çok kısa. En az 6 karakter"
+   },
+   "popup_feedback_dialog_field_required_text": {
+      "message": "(gerekli)"
+   },
+   "popup_feedback_dialog_label_description": {
+      "message": "Açıklama"
+   },
+   "popup_feedback_dialog_label_email": {
+      "message": "E-posta adresiniz"
+   },
+   "popup_feedback_dialog_label_subject": {
+      "message": "Konu"
+   },
+   "popup_feedback_dialog_success_button_text": {
+      "message": "KAPAT"
+   },
+   "popup_feedback_dialog_success_text": {
+      "message": "Geribildiriminiz için teşekkür ederiz!"
+   },
+   "popup_feedback_dialog_title": {
+      "message": "Bize hatayı veya önerinizi gönderin"
+   },
+   "popup_live_bg_apply": {
+      "description": "#fixed",
+      "message": "ETKİNLEŞTİR"
+   },
+   "popup_live_bg_cancel": {
+      "description": "#fixed",
+      "message": "GÖSTERME"
+   },
+   "popup_live_bg_text": {
+      "description": "#fixed",
+      "message": "Canlı arka plan indiriliyor..."
+   },
+   "popup_live_bg_title": {
+      "description": "#fixed",
+      "message": "CANLI ARKA PLANI İNDİR"
+   },
+   "popup_restore_default_theme_open_settings": {
+      "message": "Chrome ayarlarını açın veya bu linki takip edin"
+   },
+   "popup_restore_default_theme_open_settings_text2": {
+      "message": "ardından \"Varsayılan temaya yenile\" düğmesine tıklayın."
+   },
+   "popup_restore_default_theme_title": {
+      "message": "Chrome varsayılan temasını yenile"
+   },
+   "popup_static_bg_updating": {
+      "description": "#fixed",
+      "message": "Arka Plan Güncelleniyor..."
+   },
+   "popup_welcome_options_body_text1": {
+      "message": "Henüz herhangi bir canlı arka planınız yok gibi görünüyor. Mevcut yüzlerce arka plandan birini seçin ve tadını çıkarın!"
+   },
+   "popup_welcome_options_body_text2": {
+      "message": "Geribildirim düğmesini kullanarak, bizimle her zaman temas kurmaktan çekinmeyin."
+   },
+   "popup_welcome_options_not_show": {
+      "message": "Bu mesajı tekrar gösterme"
+   },
+   "popup_welcome_options_title": {
+      "message": "Canlı Başlangıç ​​Sayfasına Hoşgeldiniz"
+   },
+   "rename_group_dialog_title": {
+      "message": "Grubu yeniden adlandır"
+   },
+   "welcome_options_close": {
+      "message": "Kapat"
+   }
+}

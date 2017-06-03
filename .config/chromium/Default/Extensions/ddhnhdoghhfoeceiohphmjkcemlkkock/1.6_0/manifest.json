@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "js": [ "jQuery.js", "inline.plugin.js", "d3.v3.js", "linq.js", "trelloTransformer.js", "inVis.js", "TrelloDepView.js", "trelloClient.js" ],
+      "matches": [ "https://trello.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Allows you to add and visualise dependencies on cards",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtRfxbnTWEk//akmwd5iL+VaVt5tCzXrQbeCWH+3jZ3fEGQv14iCjbMCBhceWebVmEWXAqSx/VgHVVspZt0FciI3GNAZU58O9f6yVlBgirB7adG/23D9fghx2lpnHzspfMrvSPQUs1JxN1dN4xf1qBaPiBgFdzn8kKWSZEpIyoDjbkT4fhefgIxcqcVosfSVbH5qG1wvefw1hAAFMe23FMhrf4gXc/8YR/QF9inG/H058FOlH0JEyNsxyTOjjWqlLWj4hwoafEubFLDIekXuma2knKnoI3dLyWCId5/z10VKs+lv5XUKg0D1eGAaEPM3rop0irjnzmeB76lI8Kk5jNwIDAQAB",
+   "manifest_version": 2,
+   "name": "Trello Card Dependencies",
+   "permissions": [ "http://trello.com/b*", "https://trello.com/b*", "tabs", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6",
+   "web_accessible_resources": [ "index.html", "icon.png", "inline.plugin.js", "https://ssl.google-analytics.com/ga.js" ]
+}

@@ -1,0 +1,37 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "assist/aes.js", "assist/md5.js", "jsqrcode/grid.js", "jsqrcode/version.js", "jsqrcode/detector.js", "jsqrcode/formatinf.js", "jsqrcode/errorlevel.js", "jsqrcode/bitmat.js", "jsqrcode/datablock.js", "jsqrcode/bmparser.js", "jsqrcode/datamask.js", "jsqrcode/rsdecoder.js", "jsqrcode/gf256poly.js", "jsqrcode/gf256.js", "jsqrcode/decoder.js", "jsqrcode/qrcode.js", "jsqrcode/findpat.js", "jsqrcode/alignpat.js", "jsqrcode/databr.js", "javascript/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/icon19.png",
+         "38": "images/icon38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_extShortName__"
+   },
+   "content_scripts": [ {
+      "css": [ "css/content.css" ],
+      "js": [ "javascript/content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "content_security_policy": "script-src 'self'; font-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; connect-src https://www.google.com/; default-src 'none'",
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjo5++7m6mlJGqKOnlYehr9tjIqahMZBJUG7PLa7dSRk6bDUu2pVodO1TQWviHlrDTLP+zfoVbDBS8v8cjloK5Tn90nzC6a957dPzOfyC1WUNYNDlGM0BCmZKVP/MWB3d0ffOmTwaxh0L47aLH5nTW0AUmuwCWCBEEl4Acuyp7rwLNGlazBpaom1Qb5ckn29gCJVVVIZ6wudmcrG/FPTNJXQbg8N6wObGrgGOaxmowbkzJmIfKTyHlYOKLAjZ7aJi0W6jsy47/aV+ojvn4gO+ka6BcRhUeWgoQxqEky119f3OWiVP46SJVbAi0pkknThUjDvX11lATGjB5EvJZGyotwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "offline_enabled": true,
+   "optional_permissions": [ "clipboardWrite", "https://www.google.com/" ],
+   "permissions": [ "activeTab", "storage" ],
+   "short_name": "__MSG_extShortName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.18",
+   "web_accessible_resources": [ "qr.html", "images/scan.gif" ]
+}

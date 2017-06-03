@@ -1,0 +1,26 @@
+**** BEGIN LOGGING AT Tue May 30 10:50:36 2017
+
+May 30 10:50:36 *	Looking up chat.freenode.net
+May 30 10:50:36 *	Connecting to chat.freenode.net (173.230.128.213:6697)
+May 30 10:50:37 *	* Certification info:
+May 30 10:50:37 *	  Subject:
+May 30 10:50:37 *	    CN=moon.freenode.net
+May 30 10:50:37 *	  Issuer:
+May 30 10:50:37 *	    C=US
+May 30 10:50:37 *	    O=Let's Encrypt
+May 30 10:50:37 *	    CN=Let's Encrypt Authority X3
+May 30 10:50:37 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 30 10:50:37 *	  Sign algorithm sha256WithRSAEncryption
+May 30 10:50:37 *	  Valid since Apr 24 05:04:00 2017 GM to Jul 23 05:04:00 2017 GM
+May 30 10:50:37 *	* Cipher info:
+May 30 10:50:37 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 30 10:50:37 *	Connected. Now logging in.
+May 30 10:50:37 *	*** Looking up your hostname...
+May 30 10:50:37 *	*** Checking Ident
+May 30 10:50:37 *	*** Found your hostname
+May 30 10:50:42 *	*** No Ident response
+May 30 10:50:42 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 30 10:50:42 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 30 10:50:42 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Tue May 30 10:50:42 2017
+

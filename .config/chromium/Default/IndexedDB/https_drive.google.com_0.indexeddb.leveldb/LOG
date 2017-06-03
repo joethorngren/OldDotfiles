@@ -1,0 +1,12 @@
+2017/06/03-16:48:07.229 3885 Reusing MANIFEST /home/dayfun/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2017/06/03-16:48:07.229 3885 Recovering log #25
+2017/06/03-16:48:07.230 3885 Reusing old log /home/dayfun/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000025.log 
+2017/06/03-16:48:10.445 6040 Level-0 table #31: started
+2017/06/03-16:48:10.487 6040 Level-0 table #31: 4094949 bytes OK
+2017/06/03-16:48:10.496 6040 Delete type=0 #25
+2017/06/03-16:48:11.239 6040 Level-0 table #33: started
+2017/06/03-16:48:11.289 6040 Level-0 table #33: 4130421 bytes OK
+2017/06/03-16:48:11.294 6040 Delete type=0 #30
+2017/06/03-16:48:11.971 6040 Level-0 table #35: started
+2017/06/03-16:48:12.009 6040 Level-0 table #35: 4127889 bytes OK
+2017/06/03-16:48:12.025 6040 Delete type=0 #32

@@ -1,0 +1,320 @@
+{
+   "AccountSettingsText": {
+      "message": "إعدادات الحساب"
+   },
+   "AdobeFlashTooltip": {
+      "message": "يمكن أن يقلل Adobe Flash من حمايتك، حيث أنك قد لا تضمن أنه سيحترم إعدادات الوكيل بمتصفحك. من المستحسن حظره."
+   },
+   "AdsTrackersProtection": {
+      "message": "حماية من الإعلانات والمهاجمين والبرمجيات الضارة"
+   },
+   "AuthFailMessage": {
+      "message": "سبب واحد لإمكانية حدوث هذا، وهو إذا قمت بتغيير كلمة مرورك على موقع PIA الإلكتروني أثناء استخدام ملحق PIA الخاص بمتصفح Chrome."
+   },
+   "AuthFailTitle": {
+      "message": "حدث خطأ في المصادقة."
+   },
+   "AutoLoginURL": {
+      "message": "https://ara.privateinternetaccess.com/xpages/sign-in"
+   },
+   "BadResponseError": {
+      "message": "فشل تسجيل الدخول بسبب استجابة غير متوقعة من الخادم. يرجى إعادة المحاولة لاحقًا."
+   },
+   "BlockAdobeFlash": {
+      "message": "حظر Adobe Flash"
+   },
+   "BlockBatteryAccess": {
+      "message": "حظر الوصول للبطارية"
+   },
+   "BlockBatteryAccessTooltip": {
+      "message": "حظر مواقع الويب من الوصول إلى معلومات بطارية حاسوبك."
+   },
+   "BlockCameraAccess": {
+      "message": "حظر الوصول للكاميرا"
+   },
+   "BlockCameraAccessTooltip": {
+      "message": "حظر مواقع الويب من الوصول إلى كاميرا حاسوبك."
+   },
+   "BlockLocationAccess": {
+      "message": "حظر الوصول للموقع"
+   },
+   "BlockLocationAccessTooltip": {
+      "message": "يمنع مواقع الإنترنت من الوصول إلى معلومات عن موقعك الفعلي."
+   },
+   "BlockMicrophoneAccess": {
+      "message": "حظر الوصول للميكروفون"
+   },
+   "BlockMicrophoneAccessTooltip": {
+      "message": "حظر مواقع الويب من الوصول إلى ميكروفون حاسوبك."
+   },
+   "CannotUsePIAMessage": {
+      "message": "لا يمكن استخدام Private Internet Access بسبب وجود ملحق آخر يتحكم في إعدادات وكيل متصفحك."
+   },
+   "ChangeExtensionSettings": {
+      "message": "إعدادات الملحق"
+   },
+   "CloseText": {
+      "message": "إغلاق"
+   },
+   "ConnectionFailMessage": {
+      "message": "قد تكون فقدت الاتصال بالإنترنت، أو انقطع الاتصال مؤقتًا."
+   },
+   "ConnectionFailTitle": {
+      "message": "حدث خطأ أثناء الاتصال بوكيل Private Internet Access."
+   },
+   "CopiedToClipboard": {
+      "message": "تم نسخ سجل التصحيح"
+   },
+   "CopyToClipboard": {
+      "message": "نسخ سجل التصحيح"
+   },
+   "CurrentRegionText": {
+      "message": "المنطقة الحالية"
+   },
+   "DebugLog": {
+      "message": "سجل التصحيح"
+   },
+   "DebugLogIsEmpty": {
+      "message": "سجل تصحيح الأخطاء فارغ."
+   },
+   "DebugMode": {
+      "message": "وضع التصحيح"
+   },
+   "DebugModeTooltip": {
+      "message": "اكتب الرسائل في سجل تصحيح الأخطاء. اضغط مفتاح \"ctrl\" متبوعًا بمفتاح \"d\" لعرض سجل تصحيح الأخطاء."
+   },
+   "Developer": {
+      "message": "المطور"
+   },
+   "JoinText": {
+      "message": "سجّل الدخول لإنشاء حساب VPN"
+   },
+   "JoinURL": {
+      "message": "https://ara.privateinternetaccess.com/pages/buy-vpn"
+   },
+   "LoadingText": {
+      "message": "جارٍ التحميل"
+   },
+   "LoginText": {
+      "message": "تسجيل الدخول"
+   },
+   "LogoutText": {
+      "message": "تسجيل الخروج"
+   },
+   "MaceProtection": {
+      "message": "™PIA MACE"
+   },
+   "MaceTooltip": {
+      "message": "يساعد ™PIA MACE في حماية الخصوصية وأمنك من خلال حظر المحتوى الخبيث والمتتبعين والإعلانات."
+   },
+   "ManageExtensions": {
+      "message": "إدارة الملحقات"
+   },
+   "NoAccountQuestion": {
+      "message": "ليس لديك حساب؟"
+   },
+   "OffText": {
+      "message": "غير مفعل"
+   },
+   "OfflineText": {
+      "message": "غير متصل"
+   },
+   "OnText": {
+      "message": "مفعل"
+   },
+   "PasswordPlaceholder": {
+      "message": "كلمة المرور"
+   },
+   "PleaseWait": {
+      "message": "جارٍ التحميل. يرجى الانتظار."
+   },
+   "PluginLeakProtection": {
+      "message": "حظر الإضافات الأصلية"
+   },
+   "Privacy": {
+      "message": "الخصوصية"
+   },
+   "ProxyBypassList": {
+      "message": "تجاوز القائمة"
+   },
+   "RegionLatency": {
+      "message": "التأخير"
+   },
+   "RegionName": {
+      "message": "الاسم"
+   },
+   "RememberMe": {
+      "message": "تذكرني"
+   },
+   "SaveProxyBypassList": {
+      "message": "حفظ"
+   },
+   "Security": {
+      "message": "الحماية"
+   },
+   "SelectRegionText": {
+      "message": "حدّد منطقة"
+   },
+   "ServerError": {
+      "message": "فشل تسجيل الدخول بسبب خطأ في الخادم. يرجى إعادة المحاولة لاحقًا."
+   },
+   "SortBy": {
+      "message": "فرز حسب:"
+   },
+   "StatusText": {
+      "message": "الحالة"
+   },
+   "SupportText": {
+      "message": "المساعدة والدعم"
+   },
+   "SupportURL": {
+      "message": "https://ara.privateinternetaccess.com/pages/client-support"
+   },
+   "TimeoutError": {
+      "message": "فشل تسجيل الدخول بسبب انتهاء مهلة الاتصال. يرجى التحقق إذا كنت متصلا بشبكة الإنترنت."
+   },
+   "TooManyRequestsError": {
+      "message": "محاولات كثيرة لتسجيل الدخول. يرجى إعادة المحاولة لاحقًا."
+   },
+   "UnknownError": {
+      "message": "فشل تسجيل الدخول بسبب خطأ غير معروف."
+   },
+   "UpgradeChromeMessage": {
+      "message": "لا يمكن استخدام Private Internet Access لأن إصدار Chrome لديك قديم. يرجى ترقية متصفحك إلى Chrome إصدار 48 أو أحدث."
+   },
+   "UseRegionLocale": {
+      "message": "اللغة المحلية وإعدادات اللغة"
+   },
+   "UseRegionLocaleTooltip": {
+      "message": "يتم الحفاظ على سرية اللغة الافتراضية وإعدادات اللغة بمتصفحك من خلال استبدالها بلغة وإعدادات لغة المنطقة الحالية."
+   },
+   "UsernamePlaceholder": {
+      "message": "اسم المستخدم"
+   },
+   "WebRTCLeakProtection": {
+      "message": "حظر اتصالات الويب في الوقت الحقيقي (WebRTC)"
+   },
+   "WebRTCTooltip": {
+      "message": "يمكن أن يقلل WebRTC من حمايتك، حيث أنك قد لا تضمن أنه سيحترم إعدادات الوكيل بمتصفحك. من المستحسن حظره."
+   },
+   "WrongUsernameAndPassword": {
+      "message": "اسم المستخدم و/أو كلمة المرور خطأ."
+   },
+   "aus": {
+      "message": "أستراليا - سيدني"
+   },
+   "aus_melbourne": {
+      "message": "أستراليا - ملبورن"
+   },
+   "brazil": {
+      "message": "البرازيل"
+   },
+   "ca": {
+      "message": "كندا - مونتريال"
+   },
+   "ca_toronto": {
+      "message": "كندا - تورونتو"
+   },
+   "denmark": {
+      "message": "الدانمارك"
+   },
+   "disabled": {
+      "message": "تم التعطيل"
+   },
+   "enabled": {
+      "message": "تم التمكين"
+   },
+   "fi": {
+      "message": "فنلندا"
+   },
+   "france": {
+      "message": "فرنسا"
+   },
+   "germany": {
+      "message": "ألمانيا"
+   },
+   "hk": {
+      "message": "هونغ كونغ"
+   },
+   "in": {
+      "message": "الهند"
+   },
+   "ireland": {
+      "message": "إيرلندا"
+   },
+   "israel": {
+      "message": "إسرائيل"
+   },
+   "italy": {
+      "message": "إيطاليا"
+   },
+   "japan": {
+      "message": "اليابان"
+   },
+   "kr": {
+      "message": "كوريا الجنوبية"
+   },
+   "mexico": {
+      "message": "المكسيك"
+   },
+   "nl": {
+      "message": "هولندا"
+   },
+   "no": {
+      "message": "النرويج"
+   },
+   "nz": {
+      "message": "نيوزيلندا"
+   },
+   "ro": {
+      "message": "رومانيا"
+   },
+   "sg": {
+      "message": "سنغافورة"
+   },
+   "sweden": {
+      "message": "السويد"
+   },
+   "swiss": {
+      "message": "سويسرا"
+   },
+   "turkey": {
+      "message": "تركيا"
+   },
+   "uk": {
+      "message": "المملكة المتحدة - لندن"
+   },
+   "uk_southampton": {
+      "message": "المملكة المتحدة - ساوثهامبتون"
+   },
+   "us1": {
+      "message": "الولايات المتحدة - وسط غرب"
+   },
+   "us2": {
+      "message": "الولايات المتحدة - شرق"
+   },
+   "us3": {
+      "message": "الولايات المتحدة - غرب"
+   },
+   "us_california": {
+      "message": "الولايات المتحدة - كاليفورنيا"
+   },
+   "us_chicago": {
+      "message": "الولايات المتحدة - شيكاغو"
+   },
+   "us_florida": {
+      "message": "الولايات المتحدة - فلوريدا"
+   },
+   "us_new_york_city": {
+      "message": "الولايات المتحدة - مدينة نيويورك"
+   },
+   "us_seattle": {
+      "message": "الولايات المتحدة - سياتل"
+   },
+   "us_silicon_valley": {
+      "message": "الولايات المتحدة - وادي السيليكون"
+   },
+   "us_south_west": {
+      "message": "الولايات المتحدة - تكساس"
+   }
+}

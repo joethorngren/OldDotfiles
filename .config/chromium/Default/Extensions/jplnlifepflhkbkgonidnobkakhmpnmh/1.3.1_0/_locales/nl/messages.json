@@ -1,0 +1,320 @@
+{
+   "AccountSettingsText": {
+      "message": "Accountinstellingen"
+   },
+   "AdobeFlashTooltip": {
+      "message": "Adobe Flash kan uw veiligheid aantasten, aangezien het mogelijk de proxy-instellingen van uw browser niet respecteert. We raden u aan het te blokkeren."
+   },
+   "AdsTrackersProtection": {
+      "message": "Bescherming tegen advertenties, trackers en malware"
+   },
+   "AuthFailMessage": {
+      "message": "Dit kan zich mogelijk voordoen wanneer u uw wachtwoord hebt gewijzigd op de PIA-website terwijl u de PIA-extensie voor Chrome gebruikte."
+   },
+   "AuthFailTitle": {
+      "message": "Er is een authenticatiefout opgetreden."
+   },
+   "AutoLoginURL": {
+      "message": "https://nld.privateinternetaccess.com/xpages/sign-in"
+   },
+   "BadResponseError": {
+      "message": "Inloggen is mislukt wegens een onverwacht serverantwoord. Probeer het later opnieuw."
+   },
+   "BlockAdobeFlash": {
+      "message": "Adobe Flash blokkeren"
+   },
+   "BlockBatteryAccess": {
+      "message": "Batterijtoegang blokkeren"
+   },
+   "BlockBatteryAccessTooltip": {
+      "message": "Geef websites geen toegang tot informatie over de batterij van uw computer."
+   },
+   "BlockCameraAccess": {
+      "message": "Cameratoegang blokkeren"
+   },
+   "BlockCameraAccessTooltip": {
+      "message": "Geef websites geen toegang tot de camera van uw computer."
+   },
+   "BlockLocationAccess": {
+      "message": "Locatietoegang blokkeren"
+   },
+   "BlockLocationAccessTooltip": {
+      "message": "Geef websites geen toegang tot informatie over uw fysieke locatie."
+   },
+   "BlockMicrophoneAccess": {
+      "message": "Microfoontoegang blokkeren"
+   },
+   "BlockMicrophoneAccessTooltip": {
+      "message": "Geef websites geen toegang tot de microfoon van uw computer."
+   },
+   "CannotUsePIAMessage": {
+      "message": "Private Internet Access kan niet worden gebruikt omdat een andere extensie de proxyinstellingen van uw browser beheert."
+   },
+   "ChangeExtensionSettings": {
+      "message": "Extensie-instellingen"
+   },
+   "CloseText": {
+      "message": "Sluiten"
+   },
+   "ConnectionFailMessage": {
+      "message": "Mogelijk hebt u geen internetverbinding meer of is deze tijdelijk onderbroken."
+   },
+   "ConnectionFailTitle": {
+      "message": "Er is een verbindingsfout opgetreden tijdens de communicatie met een proxy van Private Internet Access."
+   },
+   "CopiedToClipboard": {
+      "message": "Debuglogboek gekopieerd"
+   },
+   "CopyToClipboard": {
+      "message": "Debuglogboek kopiëren"
+   },
+   "CurrentRegionText": {
+      "message": "Huidige regio"
+   },
+   "DebugLog": {
+      "message": "Debuglogboek"
+   },
+   "DebugLogIsEmpty": {
+      "message": "Het debuglogboek is leeg."
+   },
+   "DebugMode": {
+      "message": "Debug-modus"
+   },
+   "DebugModeTooltip": {
+      "message": "Schrijf berichten in het debuglogboek. Druk op de 'ctrl'-toets gevolgd door de 'd'-toets om het debuglogboek weer te geven."
+   },
+   "Developer": {
+      "message": "Ontwikkelaar"
+   },
+   "JoinText": {
+      "message": "MELD U AAN VOOR EEN VPN-ACCOUNT"
+   },
+   "JoinURL": {
+      "message": "https://nld.privateinternetaccess.com/pages/buy-vpn/"
+   },
+   "LoadingText": {
+      "message": "Aan het laden"
+   },
+   "LoginText": {
+      "message": "Inloggen"
+   },
+   "LogoutText": {
+      "message": "Uitloggen"
+   },
+   "MaceProtection": {
+      "message": "PIA MACE™"
+   },
+   "MaceTooltip": {
+      "message": "PIA MACE™ beschermt uw privacy en veiligheid door schadelijke content, trackers en advertenties te blokkeren."
+   },
+   "ManageExtensions": {
+      "message": "Extensies beheren"
+   },
+   "NoAccountQuestion": {
+      "message": "Geen account?"
+   },
+   "OffText": {
+      "message": "Uit"
+   },
+   "OfflineText": {
+      "message": "OFFLINE"
+   },
+   "OnText": {
+      "message": "Aan"
+   },
+   "PasswordPlaceholder": {
+      "message": "Wachtwoord"
+   },
+   "PleaseWait": {
+      "message": "Bezig met laden. Een ogenblikje graag."
+   },
+   "PluginLeakProtection": {
+      "message": "Native invoegtoepassingen blokkeren"
+   },
+   "Privacy": {
+      "message": "Privacy"
+   },
+   "ProxyBypassList": {
+      "message": "Bypasslijst"
+   },
+   "RegionLatency": {
+      "message": "Latentie"
+   },
+   "RegionName": {
+      "message": "Naam"
+   },
+   "RememberMe": {
+      "message": "Mij onthouden"
+   },
+   "SaveProxyBypassList": {
+      "message": "Opslaan"
+   },
+   "Security": {
+      "message": "Veiligheid"
+   },
+   "SelectRegionText": {
+      "message": "Selecteer een regio"
+   },
+   "ServerError": {
+      "message": "Inloggen is mislukt wegens een serverfout. Probeer het later opnieuw."
+   },
+   "SortBy": {
+      "message": "Sorteren op:"
+   },
+   "StatusText": {
+      "message": "Status"
+   },
+   "SupportText": {
+      "message": "Hulp en ondersteuning"
+   },
+   "SupportURL": {
+      "message": "https://nld.privateinternetaccess.com/pages/client-support/"
+   },
+   "TimeoutError": {
+      "message": "Inloggen mislukt vanwege een time-out. Controleer uw internetverbinding."
+   },
+   "TooManyRequestsError": {
+      "message": "Te veel mislukte inlogpogingen. Probeer het later opnieuw."
+   },
+   "UnknownError": {
+      "message": "Inloggen is mislukt wegens een onbekende fout."
+   },
+   "UpgradeChromeMessage": {
+      "message": "Private Internet Access kan niet worden gebruikt omdat uw versie van Chrome is verouderd. Werk uw browser bij naar Chrome v48 of hoger."
+   },
+   "UseRegionLocale": {
+      "message": "Privé-instellingen voor locatie en taal"
+   },
+   "UseRegionLocaleTooltip": {
+      "message": "Houd de standaardinstellingen voor locatie en taal van uw browser privé door ze te vervangen door de instellingen voor locatie en taal van de huidige regio."
+   },
+   "UsernamePlaceholder": {
+      "message": "Gebruikersnaam"
+   },
+   "WebRTCLeakProtection": {
+      "message": "WebRTC blokkeren"
+   },
+   "WebRTCTooltip": {
+      "message": "WebRTC kan uw veiligheid aantasten, aangezien het mogelijk de proxy-instellingen van uw browser niet respecteert. We raden u aan het te blokkeren."
+   },
+   "WrongUsernameAndPassword": {
+      "message": "Gebruikersnaam en/of wachtwoord is onjuist."
+   },
+   "aus": {
+      "message": "Sydney (Australië)"
+   },
+   "aus_melbourne": {
+      "message": "Melbourne (Australië)"
+   },
+   "brazil": {
+      "message": "Brazilië"
+   },
+   "ca": {
+      "message": "Montreal (Canada)"
+   },
+   "ca_toronto": {
+      "message": "Toronto (Canada)"
+   },
+   "denmark": {
+      "message": "Denemarken"
+   },
+   "disabled": {
+      "message": "uitgeschakeld"
+   },
+   "enabled": {
+      "message": "ingeschakeld"
+   },
+   "fi": {
+      "message": "Finland"
+   },
+   "france": {
+      "message": "Frankrijk"
+   },
+   "germany": {
+      "message": "Duitsland"
+   },
+   "hk": {
+      "message": "Hongkong"
+   },
+   "in": {
+      "message": "India"
+   },
+   "ireland": {
+      "message": "Ierland"
+   },
+   "israel": {
+      "message": "Israël"
+   },
+   "italy": {
+      "message": "Italië"
+   },
+   "japan": {
+      "message": "Japan"
+   },
+   "kr": {
+      "message": "Zuid-Korea"
+   },
+   "mexico": {
+      "message": "Mexico"
+   },
+   "nl": {
+      "message": "Nederland"
+   },
+   "no": {
+      "message": "Noorwegen"
+   },
+   "nz": {
+      "message": "Nieuw-Zeeland"
+   },
+   "ro": {
+      "message": "Roemenië"
+   },
+   "sg": {
+      "message": "Singapore"
+   },
+   "sweden": {
+      "message": "Zweden"
+   },
+   "swiss": {
+      "message": "Zwitserland"
+   },
+   "turkey": {
+      "message": "Turkije"
+   },
+   "uk": {
+      "message": "VK Londen"
+   },
+   "uk_southampton": {
+      "message": "VK Southampton"
+   },
+   "us1": {
+      "message": "VS Midwesten"
+   },
+   "us2": {
+      "message": "VS Oosten"
+   },
+   "us3": {
+      "message": "VS Westen"
+   },
+   "us_california": {
+      "message": "VS Californië"
+   },
+   "us_chicago": {
+      "message": "VS Chicago"
+   },
+   "us_florida": {
+      "message": "VS Florida"
+   },
+   "us_new_york_city": {
+      "message": "VS New York (stad)"
+   },
+   "us_seattle": {
+      "message": "VS Seattle"
+   },
+   "us_silicon_valley": {
+      "message": "VS Silicon Valley"
+   },
+   "us_south_west": {
+      "message": "VS Texas"
+   }
+}

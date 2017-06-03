@@ -1,0 +1,320 @@
+{
+   "AccountSettingsText": {
+      "message": "Ajustes de cuenta"
+   },
+   "AdobeFlashTooltip": {
+      "message": "Adobe Flash puede disminuir la seguridad, ya que no garantiza el respeto a los ajustes proxy del navegador. Se recomienda bloquearlo."
+   },
+   "AdsTrackersProtection": {
+      "message": "Protección contra anuncios, rastreadores y malware"
+   },
+   "AuthFailMessage": {
+      "message": "Una razón que podría causar esto es haber cambiado la contraseña en el sitio web de PIA mientras se usaba la extensión de Chrome PIA."
+   },
+   "AuthFailTitle": {
+      "message": "Ha ocurrido un error de autenticación."
+   },
+   "AutoLoginURL": {
+      "message": "https://mex.privateinternetaccess.com/xpages/sign-in"
+   },
+   "BadResponseError": {
+      "message": "No se pudo iniciar sesión debido a una respuesta inesperada del servidor. Vuelve a intentarlo más tarde."
+   },
+   "BlockAdobeFlash": {
+      "message": "Bloquear Adobe Flash"
+   },
+   "BlockBatteryAccess": {
+      "message": "Bloquea el acceso a la batería"
+   },
+   "BlockBatteryAccessTooltip": {
+      "message": "Bloquea los sitios web para impedir su acceso a la información sobre la batería de tu equipo."
+   },
+   "BlockCameraAccess": {
+      "message": "Bloquea el acceso a la cámara"
+   },
+   "BlockCameraAccessTooltip": {
+      "message": "Bloquea los sitios web para impedir su acceso a la cámara de tu equipo."
+   },
+   "BlockLocationAccess": {
+      "message": "Bloquea acceso a la ubicación"
+   },
+   "BlockLocationAccessTooltip": {
+      "message": "Bloquea el acceso de los sitios web a la información sobre tu ubicación física."
+   },
+   "BlockMicrophoneAccess": {
+      "message": "Bloquea el acceso al micrófono"
+   },
+   "BlockMicrophoneAccessTooltip": {
+      "message": "Bloquea los sitios web para impedir su acceso al micrófono de tu equipo."
+   },
+   "CannotUsePIAMessage": {
+      "message": "No se puede usar Private Internet Access debido a que otra extensión está controlando los ajustes de proxy de sus navegadores."
+   },
+   "ChangeExtensionSettings": {
+      "message": "Ajustes de extensión"
+   },
+   "CloseText": {
+      "message": "Cerrar"
+   },
+   "ConnectionFailMessage": {
+      "message": "Es posible que haya perdido conectividad a internet o que la conexión se haya interrumpido de forma temporal."
+   },
+   "ConnectionFailTitle": {
+      "message": "Se ha producido un error de conexión al comunicar con un proxy de Private Internet Access."
+   },
+   "CopiedToClipboard": {
+      "message": "Registro de depuración copiado"
+   },
+   "CopyToClipboard": {
+      "message": "Copiar registro de depuración"
+   },
+   "CurrentRegionText": {
+      "message": "Región actual"
+   },
+   "DebugLog": {
+      "message": "Registro de depuración"
+   },
+   "DebugLogIsEmpty": {
+      "message": "El registro de depuración está vacío."
+   },
+   "DebugMode": {
+      "message": "Modo de depuración"
+   },
+   "DebugModeTooltip": {
+      "message": "Escribe mensajes en el registro de depuración. Pulsa la tecla \"Ctrl\" seguida la tecla \"d\" para mostrar el registro de depuración."
+   },
+   "Developer": {
+      "message": "Desarrollador"
+   },
+   "JoinText": {
+      "message": "REGISTRAR UNA CUENTA DE VPN"
+   },
+   "JoinURL": {
+      "message": "https://mex.privateinternetaccess.com/pages/buy-vpn/"
+   },
+   "LoadingText": {
+      "message": "Cargando"
+   },
+   "LoginText": {
+      "message": "Iniciar sesión"
+   },
+   "LogoutText": {
+      "message": "Cerrar sesión"
+   },
+   "MaceProtection": {
+      "message": "PIA MACE™"
+   },
+   "MaceTooltip": {
+      "message": "PIA MACE™ bloquea contenido malicioso, rastreadores y publicidad para ayudar a proyeger su privacidad y su seguridad."
+   },
+   "ManageExtensions": {
+      "message": "Administrar extensiones"
+   },
+   "NoAccountQuestion": {
+      "message": "¿No tiene una cuenta?"
+   },
+   "OffText": {
+      "message": "No"
+   },
+   "OfflineText": {
+      "message": "SIN CONEXIÓN"
+   },
+   "OnText": {
+      "message": "Sí"
+   },
+   "PasswordPlaceholder": {
+      "message": "Contraseña"
+   },
+   "PleaseWait": {
+      "message": "Cargando. Espera."
+   },
+   "PluginLeakProtection": {
+      "message": "Bloquear complementos nativos"
+   },
+   "Privacy": {
+      "message": "Privacidad"
+   },
+   "ProxyBypassList": {
+      "message": "Lista de omisiones"
+   },
+   "RegionLatency": {
+      "message": "Latencia"
+   },
+   "RegionName": {
+      "message": "Nombre"
+   },
+   "RememberMe": {
+      "message": "Recordarme"
+   },
+   "SaveProxyBypassList": {
+      "message": "Guardar"
+   },
+   "Security": {
+      "message": "Seguridad"
+   },
+   "SelectRegionText": {
+      "message": "Seleccione una región"
+   },
+   "ServerError": {
+      "message": "No se pudo iniciar sesión debido a un error del servidor. Vuelve a intentarlo más tarde."
+   },
+   "SortBy": {
+      "message": "Ordenar por:"
+   },
+   "StatusText": {
+      "message": "Estado"
+   },
+   "SupportText": {
+      "message": "Ayuda y soporte"
+   },
+   "SupportURL": {
+      "message": "https://mex.privateinternetaccess.com/pages/client-support/"
+   },
+   "TimeoutError": {
+      "message": "Error en el inicio de sesión por haber agotado el tiempo de conexión. Comprueba si estás conectado a Internet."
+   },
+   "TooManyRequestsError": {
+      "message": "Demasiados intentos de inicio de sesión erróneos. Vuelva a intentarlo más tarde."
+   },
+   "UnknownError": {
+      "message": "No se pudo iniciar sesión debido a un error desconocido."
+   },
+   "UpgradeChromeMessage": {
+      "message": "No se puede usar Private Internet Access debido a que su versión de Chrome está obsoleta. Actualice su navegador a Chrome v48 o posterior."
+   },
+   "UseRegionLocale": {
+      "message": "Configuración regional y de idioma privada"
+   },
+   "UseRegionLocaleTooltip": {
+      "message": "La configuración regional y de idioma de tu navegador se mantienen privadas sustituyéndoas por la configuración regional y de idioma de la región actual."
+   },
+   "UsernamePlaceholder": {
+      "message": "Nombre de usuario"
+   },
+   "WebRTCLeakProtection": {
+      "message": "Bloquear WebRTC"
+   },
+   "WebRTCTooltip": {
+      "message": "WebRTC puede disminuir la seguridad, ya que no garantiza el respeto a los ajustes proxy del navegador. Se recomienda bloquearlo."
+   },
+   "WrongUsernameAndPassword": {
+      "message": "Nombre de usuario y/o contraseña incorrectos."
+   },
+   "aus": {
+      "message": "Australia Sydney"
+   },
+   "aus_melbourne": {
+      "message": "Australia Melbourne"
+   },
+   "brazil": {
+      "message": "Brasil"
+   },
+   "ca": {
+      "message": "Canadá Montreal"
+   },
+   "ca_toronto": {
+      "message": "Canadá Toronto"
+   },
+   "denmark": {
+      "message": "Dinamarca"
+   },
+   "disabled": {
+      "message": "deshabilitado"
+   },
+   "enabled": {
+      "message": "habilitado"
+   },
+   "fi": {
+      "message": "Finlandia"
+   },
+   "france": {
+      "message": "Francia"
+   },
+   "germany": {
+      "message": "Alemania"
+   },
+   "hk": {
+      "message": "Hong Kong"
+   },
+   "in": {
+      "message": "India"
+   },
+   "ireland": {
+      "message": "Irlanda"
+   },
+   "israel": {
+      "message": "Israel"
+   },
+   "italy": {
+      "message": "Italia"
+   },
+   "japan": {
+      "message": "Japón"
+   },
+   "kr": {
+      "message": "Corea del Sur"
+   },
+   "mexico": {
+      "message": "México"
+   },
+   "nl": {
+      "message": "Países Bajos"
+   },
+   "no": {
+      "message": "Noruega"
+   },
+   "nz": {
+      "message": "Nueva Zelanda"
+   },
+   "ro": {
+      "message": "Rumanía"
+   },
+   "sg": {
+      "message": "Singapur"
+   },
+   "sweden": {
+      "message": "Suecia"
+   },
+   "swiss": {
+      "message": "Suiza"
+   },
+   "turkey": {
+      "message": "Turquía"
+   },
+   "uk": {
+      "message": "Reino Unido Londres"
+   },
+   "uk_southampton": {
+      "message": "Reino Unido Southampton"
+   },
+   "us1": {
+      "message": "EE. UU. Medio Oeste"
+   },
+   "us2": {
+      "message": "EE. UU. Este"
+   },
+   "us3": {
+      "message": "EE. UU. Oeste"
+   },
+   "us_california": {
+      "message": "EE. UU. California"
+   },
+   "us_chicago": {
+      "message": "EE. UU. Chicago"
+   },
+   "us_florida": {
+      "message": "EE. UU. Florida"
+   },
+   "us_new_york_city": {
+      "message": "EE. UU. New York"
+   },
+   "us_seattle": {
+      "message": "EE. UU. Seattle"
+   },
+   "us_silicon_valley": {
+      "message": "EE. UU. Silicon Valley"
+   },
+   "us_south_west": {
+      "message": "EE. UU. Texas"
+   }
+}

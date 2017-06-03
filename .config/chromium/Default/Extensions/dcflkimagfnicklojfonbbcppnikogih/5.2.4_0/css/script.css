@@ -1,0 +1,75 @@
+#SPYT_rateMsg {
+    position: absolute;
+    top: 30px;
+    right: 120px;
+    padding: 10px;
+    z-index: 999999999;
+    background: #ffebcf;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #555;
+    text-align: center;
+    color: #b47b29;
+	
+	font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+	font-size: 11px;
+	font-weight: normal;	
+}
+
+#SPYT_rateMsg .SPYT_close {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	padding: 1px 4px 2px;
+	color: rgb(180, 123, 41);
+	display: block;
+	border: 1px solid rgb(180, 123, 41);
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	border-radius: 4px;
+	
+	font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+	font-size: 9px;
+
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#SPYT_rateMsg .SPYT_strong1 {
+    padding: 0px;
+	font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+	font-size: 9px;
+	font-weight: bold;
+}
+#SPYT_rateMsg .SPYT_strong2 {
+	font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+	font-size: 8px;
+}
+
+#SPYT_rateMsg .SPYT_action {
+	position:relative;
+}
+#SPYT_rateMsg .SPYT_action  a{
+	font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+	font-size: 9px;
+	margin: 2px 5px;
+	font-weight: bold;
+	color: rgb(213, 149, 58);
+	text-decoration: none;
+}
+
+#SPYT_rateMsg .SPYT_dontshow {
+    float: right;
+    margin: 0px 0px 0px 0px;
+	background: #fff;
+}
+
+#SPYT_rateMsg .SPYT_dontshowL {
+    float: right;
+    margin: 0px 5px 0px 0px;
+	font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+	font-size: 8px;
+}
+

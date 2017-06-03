@@ -1,0 +1,45 @@
+{
+  "extName": {
+    "message": "YouTube™自动高清播放",
+    "description": "The name of the extension. Please translate it to whatever is most similar to 'Auto HD'. HD is short for High Definition."
+  },
+  "extDescription": {
+    "message": "自动以高清格式播放YouTube视频。",
+    "description": "The description of the extension. HD is short for High Definition."
+  },
+  "extSettings": {
+    "message": "自动高清播放设置",
+    "description": "When you translate 'Auto HD', please ensure that it is translated the same as in the extension name (above). HD is short for High Definition."
+  },
+  "playQuality": {
+    "message": "播放质量",
+    "description": "The headline of a setting which allows the user to choose the default quality of their YouTube player"
+  },
+  "playerSize": {
+    "message": "播放器尺寸",
+    "description": "The headline of a setting which allows the user to choose the default size of their YouTube player"
+  },
+  "hd": {
+    "message": "高清"
+  },
+  "max": {
+    "message": "最大"
+  },
+  "small": {
+    "message": "小"
+  },
+  "medium": {
+    "message": "中"
+  },
+  "large": {
+    "message": "大"
+  },
+  "rateUs": {
+    "message": "给我们5星评价",
+    "description": "The label on a button that encourages users to rate the app"
+  },
+  "reportBug": {
+    "message": "报告错误",
+    "description": "The label on a button that lets users report a problem"
+  }
+}

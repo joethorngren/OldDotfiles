@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<link href="/libs/bootstrap.min.css" rel="stylesheet"></link>
+		<link href="/libs/bootstrap-theme.min.css" rel="stylesheet"></link>
+		<script src="/libs/jquery.js"></script>
+		<script src="/libs/bootstrap.min.js"></script>
+		<script src="settings.js"></script>
+		<title data-translate="extSettings">AutoHD</title>
+		<style>
+			body{
+				width:300px;
+				height:100px;
+				font-family:"Lucida Grande",tahoma,verdana,arial,sans-serif;
+				font-size:13px;
+				padding:20px;
+				text-align:center;
+			}
+			label
+			{
+				cursor:pointer;
+			}
+			.title
+			{
+				font-size:15px;
+				color:#888;
+			}
+			.subtitle
+			{
+				font-weight:bold;
+				margin-top:10px;
+			}
+			.footer
+			{
+				margin-bottom:20px;
+			}
+			h3
+			{
+				margin-top:0px;
+			}
+		</style>
+	</head>
+	<body>
+		<h3 data-translate="extSettings"></h3>
+		<div class="well">
+			<h4 data-translate="playQuality"></h4>
+			<select id="qualitySelect" class="form-control">
+				<option value="highres" data-translate="hd, ,max, (2k/4k)"></option>
+				<option value="hd1080" data-translate="hd, (1080)" selected></option>
+				<option value="hd720" data-translate="hd, (720)"></option>
+				<option value="large" data-translate="large, (480)"></option>
+				<option value="medium" data-translate="medium, (360)"></option>
+				<option value="small" data-translate="small, (240)"></option>
+			</select>
+		</div>
+		<div class="well">
+			<h4 data-translate="playerSize"></h4>
+			<select id="sizeSelect" class="form-control">
+				<option value="0" data-translate="small" selected></option>
+				<option value="1" data-translate="large"></option>
+			</select>
+		</div>
+		<div class="footer">
+			<button class="btn btn-success" id="rateButton" data-translate="rateUs"></button>
+			<button class="btn btn-warning" id="reportButton" data-translate="reportBug"></button>
+		</div>
+  </body>
+</html>

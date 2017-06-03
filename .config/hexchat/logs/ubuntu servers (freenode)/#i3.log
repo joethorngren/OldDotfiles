@@ -1,0 +1,2127 @@
+**** BEGIN LOGGING AT Tue May 30 10:20:00 2017
+
+May 30 10:20:00 *	Now talking on #i3
+May 30 10:20:00 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 30 10:20:00 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+May 30 10:23:08 *	MarkusDBX has quit (Ping timeout: 240 seconds)
+May 30 10:24:54 *	MarkusDBX (~MarkusDBX@100-235-47-212.rev.cloud.scaleway.com) has joined
+May 30 10:27:40 *	ChrisLane (~irc@cpc110389-king13-2-0-cust114.19-1.cable.virginm.net) has joined
+May 30 10:29:12 <f8l>	xmaka, okraits: I use NetBSD. How can I help you?
+May 30 10:30:44 *	jezza (~Jezza@62.112.9.166) has joined
+May 30 10:31:23 *	MarkusDBX has quit (Ping timeout: 260 seconds)
+May 30 10:32:24 <dayFun>	Hey All- I'm trying to debug an issue after i3 initially starts: everything seems to work okay, except my cursor shows a loading/spinning icon for 20 or so seconds after it boots.  
+May 30 10:32:24 <dayFun>	I've double checked my config file and there doesn't seem to be an issue.  When I check the logs, the main thing that jumps out at me: "handlers.c:handle_motion_notify:207 - MotionNotify for an unknown container, checking if it crosses screen boundaries."
+May 30 10:32:33 *	MarkusDBX (~MarkusDBX@100-235-47-212.rev.cloud.scaleway.com) has joined
+May 30 10:32:48 <dayFun>	Anyone have any thoughts?
+May 30 10:33:57 *	callumstyan (~callum@216.251.135.74) has joined
+May 30 10:38:41 *	MarkusDBX has quit (Ping timeout: 255 seconds)
+May 30 10:39:21 *	ayjay_t (ajp@71-88-60-246.static.nwtn.ct.charter.com) has joined
+May 30 10:40:17 *	MarkusDBX (~MarkusDBX@100-235-47-212.rev.cloud.scaleway.com) has joined
+May 30 10:40:25 MarkusDBX!*@* added to ignore list.
+May 30 10:44:24 <f8l>	Do you have any ‘exec’ lines in your configuration?
+May 30 10:45:13 *	CcxWrk has quit (Read error: Connection reset by peer)
+May 30 10:45:46 *	CcxWrk (~ccx@asterix.te2000.cz) has joined
+May 30 10:45:47 <f8l>	A better question: Are you acquainted with --no-startup-id option?
+May 30 10:46:04 *	MarkusDBX has quit (Ping timeout: 260 seconds)
+May 30 10:46:58 *	MarkusDBX (~MarkusDBX@100-235-47-212.rev.cloud.scaleway.com) has joined
+May 30 10:46:59 <dayFun>	@f8l, yeah, I was commenting lines out to try and find my problem, right now I only have 2 uncommented: "exec_always /home/dayfun/.screenlayout/1x2x1.sh exec --no-startup-id nm-applet"
+May 30 10:48:49 <f8l>	You probably need a --no-startup-id option for that script as well.
+May 30 10:49:36 <f8l>	The rule is, more or less, that everything that has no GUI should be executed with that option.
+**** BEGIN LOGGING AT Tue May 30 10:50:51 2017
+
+May 30 10:50:51 *	Now talking on #i3
+May 30 10:50:51 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 30 10:50:51 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+May 30 10:51:24 *	Received a CTCP VERSION from f8l
+May 30 10:51:38 <dayFun>	@f8l, that did it! Thanks a lot!
+May 30 10:51:55 <f8l>	You are welcome.
+May 30 10:52:07 *	MarkusDBX has quit (Ping timeout: 246 seconds)
+May 30 10:52:28 <dayFun>	so that took care of my cursor showing the loading dialog, but my i3-debug-log is still peppered with "05/30/2017 10:50:07 AM - handlers.c:handle_motion_notify:207 - MotionNotify for an unknown container, checking if it crosses screen boundaries."
+May 30 10:53:29 <f8l>	I can’t help with this one without diving into the code. Sorry.
+May 30 10:53:40 *	MarkusDBX (~MarkusDBX@100-235-47-212.rev.cloud.scaleway.com) has joined
+May 30 10:53:46 <dayFun>	No worries, thanks anyway!
+May 30 10:53:52 MarkusDBX!*@* added to ignore list.
+May 30 10:55:56 <f8l>	I don’t have any of these in my log, but I have a single screen, so I probably shouldn’t. I wouldn’t worry about the message much. It’s a debug log after all.
+May 30 10:56:25 <dayFun>	Yeah, I don't think it's causing any issues, just trying to understand everything... 
+May 30 10:56:48 <f8l>	s/screen/display/
+May 30 10:56:50 *	silverhom (~silverhom@c83-252-236-239.bredband.comhem.se) has joined
+May 30 10:58:55 *	MarkusDBX has quit (Ping timeout: 240 seconds)
+May 30 10:59:17 <callumstyan>	I think i3 is using xedgewarp
+May 30 10:59:44 <callumstyan>	that message looks like i3 checking if they mouse pointer should be drawn on multiple outputs after a motion event
+May 30 11:01:14 *	MarkusDBX (~MarkusDBX@100-235-47-212.rev.cloud.scaleway.com) has joined
+May 30 11:04:33 *	kw21 (~kw21@D978E830.cm-3-1d.dynamic.ziggo.nl) has joined
+May 30 11:06:34 *	BenG83 (~BenG83@HSI-KBW-082-212-041-008.hsi.kabelbw.de) has joined
+May 30 11:06:40 *	MarkusDBX has quit (Ping timeout: 245 seconds)
+May 30 11:07:57 *	MarkusDBX (~MarkusDBX@100-235-47-212.rev.cloud.scaleway.com) has joined
+May 30 11:07:59 *	linux_dream (~isaac@unaffiliated/linux-dream/x-5839402) has joined
+May 30 11:11:27 *	kremfloete has quit (Quit: kremfloete)
+May 30 11:12:13 *	kremfloete (~kremfloet@84-52-239.231.3p.ntebredband.no) has joined
+**** BEGIN LOGGING AT Tue May 30 11:13:24 2017
+
+May 30 11:13:24 *	Now talking on #i3
+May 30 11:13:24 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 30 11:13:24 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+May 30 11:13:35 *	MarkusDBX has quit (Ping timeout: 260 seconds)
+May 30 11:14:44 *	MarkusDBX (~MarkusDBX@100-235-47-212.rev.cloud.scaleway.com) has joined
+**** BEGIN LOGGING AT Tue May 30 11:27:08 2017
+
+May 30 11:27:08 *	Now talking on #i3
+May 30 11:27:08 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 30 11:27:08 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+May 30 11:28:20 *	MarkusDBX (~MarkusDBX@100-235-47-212.rev.cloud.scaleway.com) has joined
+May 30 11:29:51 <callumstyan>	lol
+May 30 11:33:55 *	MarkusDBX has quit (Ping timeout: 240 seconds)
+May 30 11:35:07 *	MarkusDBX (~MarkusDBX@100-235-47-212.rev.cloud.scaleway.com) has joined
+May 30 11:35:40 *	robattila256 (~robattila@S0106f0f24908d2a3.vf.shawcable.net) has joined
+May 30 11:36:30 *	aarobc (uid151482@gateway/web/irccloud.com/x-dxnglgauiadtfdod) has joined
+May 30 11:36:37 *	d3Meq has quit (Ping timeout: 268 seconds)
+May 30 11:38:53 *	m0u has quit (Ping timeout: 246 seconds)
+May 30 11:40:27 *	MarkusDBX has quit (Ping timeout: 240 seconds)
+**** BEGIN LOGGING AT Tue May 30 15:35:21 2017
+
+May 30 15:35:21 *	Now talking on #i3
+May 30 15:35:21 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 30 15:35:21 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+**** ENDING LOGGING AT Tue May 30 15:36:57 2017
+
+**** BEGIN LOGGING AT Tue May 30 15:36:57 2017
+
+May 30 15:37:03 <freem_>	well, to be clear, I think netbsd is a whole distrib, while linux is only a kernel, and that gnu/linux target something that can be usable by anyone even if it means the code is not clean, unlike netbsd
+May 30 15:37:26 <freem_>	I hope this is clearer
+May 30 15:43:34 *	adminseodwn (~archer@gateway/tor-sasl/remcwo9o) has joined
+**** BEGIN LOGGING AT Tue May 30 15:47:13 2017
+
+May 30 15:47:13 *	Now talking on #i3
+May 30 15:47:13 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 30 15:47:13 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+May 30 15:54:10 *	firc74f6f379 has quit (Ping timeout: 245 seconds)
+May 30 15:54:21 *	silverhom has quit (Quit: Leaving)
+May 30 15:54:31 *	PrymalDark has quit (Ping timeout: 260 seconds)
+May 30 15:58:04 *	7F1AA9YLG (~ksjk1998@2602:306:36d0:8ad0:2cbb:e3fc:9f27:1682) has joined
+May 30 16:00:07 *	im0nde (~im0nde@xdsl-78-34-142-73.netcologne.de) has joined
+May 30 16:04:57 *	callumstyan has quit (Ping timeout: 240 seconds)
+May 30 16:07:12 *	garphy`aw is now known as garphy
+May 30 16:08:11 *	hexec has quit (Quit: WeeChat 1.8)
+May 30 16:08:45 *	im0nde has quit (Ping timeout: 245 seconds)
+May 30 16:10:27 *	im0nde (~im0nde@xdsl-78-34-142-73.netcologne.de) has joined
+May 30 16:13:40 *	diegs_ has quit (Ping timeout: 260 seconds)
+May 30 16:17:04 *	freem_ has quit (Ping timeout: 260 seconds)
+May 30 16:20:00 *	garphy is now known as garphy`aw
+May 30 16:22:21 *	sortaddsort (~archer@gateway/tor-sasl/remcwo9o) has joined
+May 30 16:22:32 *	sortaddsort has quit (Remote host closed the connection)
+May 30 16:30:17 *	Jesin has quit (Quit: Leaving)
+May 30 16:36:25 *	Achylles has quit (Ping timeout: 240 seconds)
+May 30 16:48:32 *	Irishluck83 (~Irishluck@50.44.168.78) has joined
+May 30 16:53:22 *	rouji (~rouji@x0.at) has joined
+May 30 16:54:02 *	diegs_ (~diegs_@unaffiliated/diegs/x-9438211) has joined
+May 30 17:00:21 *	PrymalDark (~Unknown@gateway/vpn/privateinternetaccess/prymaldark) has joined
+May 30 17:01:35 *	eper3z (~edward@unaffiliated/eper3z) has joined
+May 30 17:04:18 *	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined
+May 30 17:07:02 *	mandje has quit (Ping timeout: 255 seconds)
+May 30 17:11:06 *	Celmor (~Celmor@unaffiliated/celmor) has joined
+May 30 17:17:05 *	Cryptic1911 (~Cryptic19@24-177-6-111.dhcp.nwtn.ct.charter.com) has joined
+May 30 17:17:59 *	Introoter has quit (Quit: Connection closed for inactivity)
+May 30 17:18:05 *	Achylles (~Achylles@201-43-233-223.dsl.telesp.net.br) has joined
+May 30 17:20:29 *	yourname_ (~yourname@178-117-186-168.access.telenet.be) has joined
+May 30 17:21:27 *	yourname_ has quit (Client Quit)
+May 30 17:21:42 *	yourname_ (~yourname@178-117-186-168.access.telenet.be) has joined
+May 30 17:22:02 *	yourname_ has quit (Client Quit)
+May 30 17:22:41 *	yourname_ (~yourname@178-117-186-168.access.telenet.be) has joined
+May 30 17:25:10 *	yourname_ has quit (Client Quit)
+May 30 17:25:27 *	yourname_ (~yourname@178-117-186-168.access.telenet.be) has joined
+May 30 17:26:06 *	robattila256 (~robattila@S0106f0f24908d2a3.vf.shawcable.net) has joined
+May 30 17:28:25 *	jagob has quit (Remote host closed the connection)
+May 30 17:30:34 *	yourname_ has quit (Quit: leaving)
+May 30 17:30:48 *	yourname_ (~yourname@178-117-186-168.access.telenet.be) has joined
+May 30 17:31:31 *	notis has quit (Remote host closed the connection)
+May 30 17:31:38 *	yourname_ has quit (Client Quit)
+May 30 17:31:52 *	yourname_ (~yourname@178-117-186-168.access.telenet.be) has joined
+May 30 17:33:23 *	yourname_ has quit (Client Quit)
+May 30 17:33:39 *	Improvotter (~Improvott@178-117-186-168.access.telenet.be) has joined
+May 30 17:33:45 *	kajzer has quit (Quit: WeeChat 1.8)
+May 30 17:33:52 *	Improvotter has quit (Client Quit)
+May 30 17:34:08 *	Improvotter (~Improvott@178-117-186-168.access.telenet.be) has joined
+May 30 17:34:24 <Improvotter>	Sorry for the constant join/rejoin if it annoyed anyone.
+May 30 17:40:36 *	jezza has quit (Quit: Leaving)
+May 30 17:41:06 *	jezza (~Jezza@62.112.9.166) has joined
+May 30 17:42:50 *	sortaddsort (~archer@gateway/tor-sasl/remcwo9o) has joined
+May 30 17:42:57 *	jezza_ (~Jezza@185.183.104.138) has joined
+May 30 17:43:22 *	jezza_ has quit (Client Quit)
+May 30 17:43:49 *	adminseodwn has quit (Remote host closed the connection)
+May 30 17:53:55 *	Cryptic1911 (~Cryptic19@24-177-6-111.dhcp.nwtn.ct.charter.com) has left ("Leaving")
+May 30 17:56:44 *	venmx (~pactadmin@185.69.145.13) has joined
+May 30 18:01:42 *	brogon_ has quit (Quit: WeeChat 1.8)
+May 30 18:04:11 *	Jesin (~Jesin@pool-72-83-231-252.washdc.fios.verizon.net) has joined
+May 30 18:04:12 *	Improvotter has quit (Remote host closed the connection)
+May 30 18:06:13 *	im0nde has quit (Read error: Connection reset by peer)
+May 30 18:07:23 *	xlaech (~xlaech@p82142-ipbffx02marunouchi.tokyo.ocn.ne.jp) has joined
+May 30 18:10:08 *	Celmor has quit ()
+May 30 18:11:34 *	kajzer (~kajzer@unaffiliated/kajzer) has joined
+May 30 18:13:46 *	kw21 has quit (Ping timeout: 245 seconds)
+May 30 18:15:04 *	venmx has quit (Ping timeout: 255 seconds)
+May 30 18:15:49 *	alefir (~alefir@unaffiliated/alefir) has joined
+May 30 18:19:03 *	jezza has quit (Remote host closed the connection)
+May 30 18:33:26 *	somis has quit (Quit: WeeChat 1.8)
+May 30 18:57:56 *	ponyrider (~cf2iqx@unaffiliated/ponyrider) has joined
+May 30 18:58:15 *	7F1AA9YLG has quit (Remote host closed the connection)
+May 30 18:59:54 *	Irishluck83 has quit (Changing host)
+May 30 18:59:54 *	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has joined
+May 30 19:03:56 *	solenodic has quit (Quit: WeeChat 1.8)
+May 30 19:17:05 *	globetrotterdk has quit (Ping timeout: 240 seconds)
+May 30 19:17:54 *	coredump has quit (Quit: WeeChat 1.4)
+May 30 19:18:07 *	coredump (~coredump@74.50.61.180) has joined
+May 30 19:19:31 *	xlaech has quit (Remote host closed the connection)
+May 30 19:21:26 *	coredump has quit (Client Quit)
+May 30 19:21:51 *	coredump (~coredump@74.50.61.180) has joined
+May 30 19:22:59 *	globetrotterdk (~androirc@109.57.47.161.mobile.3.dk) has joined
+May 30 19:23:54 *	kalbasit has quit (Quit: ZNC 1.6.5 - http://znc.in)
+May 30 19:25:23 *	Jesperhead (~archer@cpe-72-191-36-156.satx.res.rr.com) has joined
+May 30 19:26:08 *	PatrolDoom has quit (Ping timeout: 246 seconds)
+May 30 19:26:31 *	darlan (~darlan@200.135.91.100) has joined
+May 30 19:31:09 *	coredump has quit (Quit: WeeChat 1.4)
+May 30 19:31:19 *	coredump (~coredump@74.50.61.180) has joined
+May 30 19:33:04 *	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined
+May 30 19:35:00 <Jesperhead>	im having a problem with i3status (i think pystatus wrapper is being used)... i have had this problem before but i forgot the steps i was given (from this channel) to resolve...
+May 30 19:35:16 <Jesperhead>	"error: status_command process exited unexpectedly (exit 1)"
+May 30 19:35:47 *	prg318 has quit (Quit: ZNC 1.6.5 - http://znc.in)
+May 30 19:35:55 <Jesperhead>	python ./.config/i3/py-config.py seems to display data correctly
+May 30 19:36:22 <Jesperhead>	(the same file is used int ./.config/i3/config
+May 30 19:36:57 <Jesperhead>	sorry, correction to the paths i have listed: ~./.config/i3/<filename>
+May 30 19:37:15 *	brainwash_ (~tuturu@unaffiliated/brainwash) has joined
+May 30 19:37:47 *	brainwash has quit (Ping timeout: 255 seconds)
+May 30 19:37:48 *	brainwash_ is now known as brainwash
+May 30 19:38:22 <Jesperhead>	annndddd i just refresh i3 and everything is back to normal.. i tried like 5 times earlier
+May 30 19:38:33 <Jesperhead>	thanks me! you're welcome me!
+May 30 19:38:43 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:929b:b85b:fed8:4490) has joined
+May 30 19:39:30 *	Jesperhead (~archer@cpe-72-191-36-156.satx.res.rr.com) has left
+May 30 19:42:38 *	GG_Phyduck has quit (Ping timeout: 260 seconds)
+May 30 19:42:58 *	coredump has quit (Quit: WeeChat 1.4)
+May 30 19:43:09 *	coredump (~coredump@74.50.61.180) has joined
+May 30 19:46:30 *	darlan has quit (Quit: Communi 3.5.0 - http://communi.github.com)
+May 30 19:47:06 *	Achylles has quit (Ping timeout: 245 seconds)
+May 30 19:50:54 <cliff>	Jesperhead:  Anytime!  Glad I could help!  ;)  You tried i3blocks instead of i3status?  Not a huge change...but I like the per stat interval setting...not that I even look at it all that often outside of checking the time.  But still.
+May 30 19:54:40 *	yazdmich is now known as BytesAndCoffee
+May 30 20:00:08 *	asdil12 has quit (Read error: Connection reset by peer)
+May 30 20:00:35 *	GG_Phyduck (~GG_Phyduc@ip565834ea.direct-adsl.nl) has joined
+May 30 20:04:18 *	kalbasit has quit (Quit: ZNC 1.6.5 - http://znc.in)
+May 30 20:08:23 *	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined
+May 30 20:09:11 *	brainwash_ (~tuturu@unaffiliated/brainwash) has joined
+May 30 20:10:00 *	asdil12 (~asdil12@port-92-194-38-68.dynamic.qsc.de) has joined
+May 30 20:10:15 *	brainwash has quit (Ping timeout: 260 seconds)
+May 30 20:10:15 *	brainwash_ is now known as brainwash
+**** BEGIN LOGGING AT Tue May 30 20:14:47 2017
+
+May 30 20:14:47 *	Now talking on #i3
+May 30 20:14:47 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 30 20:14:47 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:40:49 2017)
+May 30 20:15:23 *	netvor (amahdal@nat/redhat/x-dyldykwqummxywaq) has joined
+May 30 20:15:35 *	ohaither has quit (Ping timeout: 240 seconds)
+May 30 20:22:52 *	prg318 (~prg@deadcodersociety/prg318) has joined
+May 30 20:22:57 *	netvor has quit (Quit: WeeChat 1.6)
+May 30 20:25:51 *	mitz has quit (Quit: ZNC - http://znc.in)
+May 30 20:27:31 *	PatrolDoom has quit (Ping timeout: 245 seconds)
+May 30 20:28:09 *	xlaech (~xlaech@p82142-ipbffx02marunouchi.tokyo.ocn.ne.jp) has joined
+May 30 20:28:33 *	solenodic (~solenodic@unaffiliated/solenodic) has joined
+May 30 20:30:13 <xlaech>	Is it possible to let i3 start programs (via dmenu) in the desktop i started them? When i e.g. start chrome (which takes some time to load) on workspace 1 and then switch to workspace 2, it will open on workspace 2
+May 30 20:30:48 *	darlan (~darlan@189.34.16.194) has joined
+**** BEGIN LOGGING AT Tue May 30 20:32:00 2017
+
+May 30 20:32:00 *	Now talking on #i3
+May 30 20:32:00 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 30 20:32:00 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+May 30 20:33:01 *	darlan has quit (Client Quit)
+May 30 20:33:07 *	Irishluck83 has quit (Ping timeout: 268 seconds)
+**** BEGIN LOGGING AT Tue May 30 20:38:31 2017
+
+May 30 20:38:31 *	Now talking on #i3
+May 30 20:38:31 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 30 20:38:31 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+May 30 20:39:35 *	tasse has quit (Ping timeout: 240 seconds)
+May 30 20:41:30 *	tasse (~tasse@x4db3f9af.dyn.telefonica.de) has joined
+May 30 20:42:45 *	thebardian (~thebardia@50.38.103.33) has joined
+May 30 20:47:54 *	ohaither (~manjaro-i@x55b63a6b.dyn.telefonica.de) has joined
+May 30 20:53:16 <cliff>	What is the popup notification handler in i3 and how do I interact with it?  Is it dunst?  If so, where is it configured as it might pertain to i3?
+May 30 20:53:38 *	bobman743 has quit (Read error: Connection reset by peer)
+May 30 20:54:43 <LordRyan>	cliff: check your .config/i3/config - i personally set mine to notify-osd
+May 30 20:54:52 <LordRyan>	it might also depend on display manager or login utility you use?
+May 30 20:56:06 <cliff>	LordRyan.  I can't find anything referencing 'notify' or notif or osd or dunst in my config.
+May 30 20:56:21 <LordRyan>	cliff: are you sure you have one running?
+May 30 20:56:43 <cliff>	I get notifications...and I like the look of them.
+May 30 20:56:57 <LordRyan>	oh. hm.
+May 30 20:57:05 <LordRyan>	what's the output of `ps axvf` ?
+May 30 20:57:55 <cliff>	http://imgur.com/a/wrfNS
+May 30 20:58:04 <cliff>	hold
+May 30 20:59:27 *	prg318 has quit (Read error: Connection reset by peer)
+May 30 21:00:01 *	prg318 (~prg@deadcodersociety/prg318) has joined
+May 30 21:01:39 <cliff>	ps axvf:
+May 30 21:01:45 <cliff>	https://pastebin.com/AraTMVwa
+May 30 21:02:25 <cliff>	Sorry...someone decided they were going to go to the bathroom on my doorstep and I disliked the idea.  Talk about a pop up notification.
+May 30 21:02:47 *	alefir has quit (Quit: I guess its time to go)
+May 30 21:03:34 <squigz>	lmfao
+May 30 21:03:38 <squigz>	just..
+May 30 21:03:40 <squigz>	what?
+May 30 21:03:42 <squigz>	really?
+May 30 21:04:13 <cliff>	Yeah...My room is right above my front door...and there is a bar on the corner.
+May 30 21:04:34 <LordRyan>	yeah, you're running dunst
+May 30 21:04:43 <LordRyan>	don't know what started it tho
+May 30 21:04:59 <cliff>	That's what's confusing me...
+May 30 21:06:00 <cliff>	Well...to get me started with it in scripts, is 'notify-send' what I should be looking at?
+May 30 21:06:12 <squigz>	https://github.com/dunst-project/dunst
+May 30 21:06:14 <squigz>	not really
+May 30 21:06:27 <squigz>	I mean, to send them, yes. But to style them, look at that
+May 30 21:06:36 <squigz>	And I believe dunst is packaged with i3 in some distros
+May 30 21:07:13 *	Irishluck83 (~Irishluck@50.44.168.78) has joined
+May 30 21:08:42 *	Irishluck83 has quit (Changing host)
+May 30 21:08:42 *	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has joined
+May 30 21:09:15 <cliff>	kjjjkjjjjHoly awesome.  Ctrl-grave.  I like it.
+May 30 21:09:48 <Irishluck83>	did you get chrome to work
+May 30 21:10:11 *	thebardian has quit (Quit: WeeChat 1.8)
+May 30 21:11:07 <cliff>	Chrome was working.  I was just trying to do to much on startup.  There was no point.  I'm just new/enthralled with i3 and am basically kicking every corner I can find.
+May 30 21:12:54 <Irishluck83>	that is the only way to learn. i feel
+May 30 21:13:03 *	solenodic has quit (Ping timeout: 260 seconds)
+May 30 21:13:50 <cliff>	i3/chrome seem to disagree with me opening all my everyday tabs as .desktop apps on seperate workspaces on boot.  Chrome is happy as long as I start up a base instance of it first, then just manually launch all the .desktop 'apps' via mod-d
+May 30 21:17:46 *	indeedwatson has quit (Ping timeout: 255 seconds)
+May 30 21:18:31 *	prg318 has quit (Quit: ZNC 1.6.5 - http://znc.in)
+May 30 21:19:53 *	prg318 (~prg@deadcodersociety/prg318) has joined
+May 30 21:24:27 *	BenG83 has quit (Quit: Leaving)
+May 30 21:29:30 *	solenodic (~solenodic@unaffiliated/solenodic) has joined
+May 30 21:42:46 *	chel has quit (Ping timeout: 246 seconds)
+May 30 21:42:52 <cliff>	hmm.  How is the config file interpreted?  Inline or block?  I only see two blocks in the defualt-ish config that is mine, mode and bar.
+May 30 21:43:04 *	robattila256 has quit (Quit: WeeChat 1.8)
+May 30 21:43:27 <Irishluck83>	you using i3-blocks
+May 30 21:44:41 <cliff>	I mean...if I were to throw an 'exec sleep 5' after calling to exec google-chrome, might my chrome .desktop apps have a better chance at getting a start?
+May 30 21:44:50 *	hringriin__ (~hringriin@pD9E2F433.dip0.t-ipconnect.de) has joined
+May 30 21:45:20 <cliff>	And yes, I am using i3blocks for the status bar.
+May 30 21:45:35 *	holden- has quit (Ping timeout: 272 seconds)
+May 30 21:46:29 <cliff>	I tried exec-always sleep 5 at the top of config did a shift+mod+e, but it did not sleep.  Did not throw an error either.
+May 30 21:46:47 <Irishluck83>	cliff: are you using the default configs? if not then your a -c in your config so i3block -c /path/
+May 30 21:47:34 <cliff>	I have that.
+May 30 21:48:03 *	hringriin_ has quit (Ping timeout: 260 seconds)
+May 30 21:48:11 <cliff>	status_command i3blocks -c /home/cliff/.config/i3/i3blocks.conf
+May 30 21:49:19 <cliff>	hrm...what I meant is, is the config file executed line by line?
+May 30 21:50:39 <Irishluck83>	i think so. but don't know for sure
+May 30 21:51:16 *	spider_x (~spider@unaffiliated/spider-x/x-5292382) has joined
+May 30 21:55:59 *	ponyrider has quit (Quit: WeeChat 1.8)
+May 30 21:57:34 *	ulili (~quassel@p5DC94E36.dip0.t-ipconnect.de) has joined
+May 30 22:00:05 *	diegs_ has quit (Ping timeout: 240 seconds)
+May 30 22:00:51 *	ulilili has quit (Ping timeout: 260 seconds)
+May 30 22:03:10 *	nelder (~noname@unaffiliated/nelder) has joined
+**** BEGIN LOGGING AT Tue May 30 22:04:34 2017
+
+May 30 22:04:34 *	Now talking on #i3
+May 30 22:04:34 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 30 22:04:34 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:40:49 2017)
+May 30 22:04:35 *	Irishluck83 has quit (Ping timeout: 245 seconds)
+May 30 22:08:52 *	mstruebing (~mstruebin@p200300E3DBCC2D702AD244FFFEEFAF20.dip0.t-ipconnect.de) has joined
+May 30 22:10:48 *	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has joined
+**** BEGIN LOGGING AT Tue May 30 22:19:45 2017
+
+May 30 22:19:45 *	Now talking on #i3
+May 30 22:19:45 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 30 22:19:45 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+May 30 22:24:20 <cliff>	xlaech, mine do start in the origin workspace...but my system is very quick.
+May 30 22:25:51 <cliff>	let me install something like gimp and try with that.
+May 30 22:27:24 <occultus>	i just tried a bunch of stuff and it's hit or miss
+May 30 22:28:44 <occultus>	gimp - slow, started-on. chromium - slow, switched-to. file manager - slow-ish, started-on. texstudio - splash on started on, then reappears on switched-to
+May 30 22:30:07 <cliff>	ah.  got it to happen with simcity under wine(duh).
+May 30 22:31:12 <cliff>	And yeah...can't kill that now...and fans all just ramped up.
+May 30 22:31:20 <occultus>	hehe
+May 30 22:32:58 <cliff>	My ignorant solution is to assign that wm class or instance to a specific workspce.
+May 30 22:35:37 <cliff>	But yeah... 'Called in ws[FOO], therefore open in ws[FOO] would be nice...though I imagine there is more to it when using a multi-headed system.
+May 30 22:40:13 <occultus>	cliff: i3 is supposed to try, i'd guess it's the individual app not respecting it properly
+May 30 22:48:18 <cliff>	Yeah.  It definitely tries.  It's really difficult to beat it to a new workspace...even with friggin simcity4
+May 30 22:48:28 *	mstruebing has quit (Quit: WeeChat 1.8)
+May 30 22:53:50 <cliff>	created a shell file basically consisting of "sleep 15 ; /usr/bin/terminology" and mod+d'd it in my $terminals and flipped over to an unused workspace 7.  New terminolgy opened in ws7.
+May 30 22:54:45 <cliff>	Not sure I would ever ever call it a 'bug', but it's interesting.
+May 30 22:56:46 *	alex`` has quit (Ping timeout: 255 seconds)
+May 30 22:58:32 <cliff>	Heh...it would almost be fun to create startup scripts for certain apps that ask you what workspace to open in, enter just says 'current'.
+May 30 23:00:06 <cliff>	Possibly with an orientation argument.
+May 30 23:08:01 *	robattila256 (~robattila@S0106f0f24908d2a3.vf.shawcable.net) has joined
+May 30 23:12:16 <occultus>	cliff: i think the sleep would interfere with i3's startup placement
+May 30 23:12:49 <xlaech>	Hm then i prob. assign them to specific workspaces as well...
+May 30 23:13:33 <xlaech>	It's not a hugh problem... But since my current system is a little bit slow (that's why i installed i3 in the first place) i have to wait for them atm
+May 30 23:15:23 *	Tyranic-Moron has quit (Ping timeout: 246 seconds)
+May 30 23:22:09 *	Tyranic-Moron (~SG@tyranicmoron.uk) has joined
+May 30 23:22:58 <cliff>	I would just wait.  I have all instances 'google-chrome' to one workspace, but it let's me assign all my chrome-app instances to others.  So I have things like soundcloud or 99%Invisible fire up in $sounds, hangouts in $comms and just straight up google-chrome in ws2 and reassign manually.
+May 30 23:24:08 *	cliff total i3 noob.
+May 30 23:25:58 <occultus>	i only have one or two manual assignments -- weechat on chat, pianobar on scratchpad
+May 30 23:26:11 <occultus>	i've tried assigning other stuff but it just ends up bothering me later
+May 30 23:26:46 <cliff>	I might be reaching that point myself.  This is like day 4 for me with any kind of tiling manager.
+May 30 23:27:37 <cliff>	I've gotten really quick rebuilding my terminal workspaces and this tmux/irssi window.
+May 30 23:31:59 *	mstruebing (~mstruebin@p200300E3DBCC2D702AD244FFFEEFAF20.dip0.t-ipconnect.de) has joined
+May 30 23:32:00 *	mstruebing has quit (Client Quit)
+May 30 23:54:54 *	ohaither has quit (Ping timeout: 240 seconds)
+May 30 23:56:54 *	daktak has quit (Quit: No Ping reply in 180 seconds.)
+May 30 23:58:18 *	daktak (~quassel@220-245-14-175.static.tpgi.com.au) has joined
+May 31 00:11:39 <xlaech>	I would just do the starup assignments
+May 31 00:12:04 <xlaech>	I spend 2 min every morning at work, customizing irc, slack, mail, etc..
+May 31 00:20:47 <okraits>	at work I suspend my machine from Monday to Thursday and shut it down only on Friday
+May 31 00:23:24 *	garphy`aw is now known as garphy
+May 31 00:26:29 <okraits>	IMO the flexibility of the manual tiling of i3 has the cost of some keystrokes to customize the layout
+May 31 00:26:59 <okraits>	but hey, you want it, you got it :)
+May 31 00:27:28 <xlaech>	+1 I actually miss the tilling a lot on win/mac
+May 31 00:27:42 <xlaech>	but i haven't found a replacement, that is actually usable
+May 31 00:28:16 *	hubcaps (~hubcaps@unaffiliated/hubcaps) has joined
+May 31 00:28:21 <okraits>	if I would want less effort to customize the layout, then I would probably use something like dwm
+May 31 00:28:24 *	hubcaps (~hubcaps@unaffiliated/hubcaps) has left
+May 31 00:28:56 <okraits>	less keystrokes, less layout options
+May 31 00:29:17 <okraits>	but also less possibilities
+May 31 00:29:48 <okraits>	no custom window sizes, no custom layouts (without extending the src)
+May 31 00:30:18 <xlaech>	I don't think, that i3 is that complicated. On "userfriendly" distros, it comes precustomized
+May 31 00:30:39 <xlaech>	mint actually asked me on startup if i wanted to use <Mod1> or <Mod4>
+May 31 00:30:58 <okraits>	i3's default config is already precustomized and sane :)
+May 31 00:31:00 <xlaech>	the startup config is easy to use and contains all a beginner might need
+May 31 00:31:05 <xlaech>	+1
+May 31 00:31:18 <okraits>	xlaech: that's i3's wizard
+May 31 00:31:30 <xlaech>	<3 i3's wizard
+May 31 00:31:41 <okraits>	:)
+May 31 00:31:50 <xlaech>	http://weknowmemes.com/wp-content/uploads/2012/08/the-wizard-will-now-install-your-software.jpg
+May 31 00:32:01 <okraits>	well, for a tiling wm, it's easy to configure and to use
+May 31 00:32:29 <okraits>	but I guess it can be pretty overwhelming for a tiling wm newbie with all the options and possibilities
+May 31 00:32:59 <okraits>	heh :)
+May 31 00:36:01 <xlaech>	Well i guess so. But i don't think a complete newb would install himself a unix and a tiling wm ;)
+May 31 00:36:26 <okraits>	Oh, well...
+May 31 00:37:23 <okraits>	People these days install Arch Linux and i3 after a week with Ubuntu or so - having no clue what a window manager is and what it does do and what it doesn't do
+May 31 00:39:59 *	skontar (skontar@nat/redhat/x-jdhormvbjhxeehze) has joined
+May 31 00:41:06 <okraits>	Not that it's the rule, but IMO the unix knowledge level of new i3 users has decreased over the years
+May 31 00:44:16 *	qball (~qball@unaffiliated/qball) has joined
+May 31 00:44:16 *	ChanServ gives channel operator status to qball
+May 31 00:44:32 *	qball removes channel operator status from qball
+May 31 00:45:11 <okraits>	morning qball
+May 31 00:45:18 <eyeoh>	ok
+May 31 00:49:52 <xlaech>	Maybe because it is easier to get into... and the doc also much better.
+May 31 00:51:20 *	thebardian (~thebardia@50.38.103.33) has joined
+May 31 00:53:53 *	tesseract (tesseract@nat/redhat/x-ccbyghmqyzyfwsqe) has joined
+May 31 00:56:13 *	enhydra has quit (Ping timeout: 272 seconds)
+May 31 01:04:56 *	enhydra (kalan@wikimedia/Kalan) has joined
+May 31 01:05:06 *	Xenguy has quit (Quit: leaving)
+May 31 01:06:02 <st6>	okraits: it's just that you have become more of a wizard or just older
+May 31 01:06:05 *	stargater (~stargater@x4db9dd20.dyn.telefonica.de) has joined
+May 31 01:07:06 *	felixsanz has quit (Quit: Bye)
+May 31 01:07:44 *	felixsanz (~felixsanz@unaffiliated/felixsanz) has joined
+May 31 01:07:48 <st6>	socrates was written to have said that the youth today doesn't know as much :-D
+May 31 01:09:08 *	bfernando (~bruno@ram94-h02-176-184-0-117.dsl.sta.abo.bbox.fr) has joined
+May 31 01:11:40 *	venmx (~pactadmin@185.69.145.13) has joined
+May 31 01:12:03 *	hardbot (~hardbot@81-66-238-48.rev.numericable.fr) has joined
+May 31 01:16:16 *	venmx has quit (Ping timeout: 255 seconds)
+May 31 01:19:15 *	aviau has quit (Read error: Connection reset by peer)
+May 31 01:19:28 *	aviau (~aviau@modemcable140.100-178-173.mc.videotron.ca) has joined
+May 31 01:21:11 *	bfernando has quit (Quit: Quitte)
+May 31 01:23:50 *	enhydra has quit (Ping timeout: 246 seconds)
+May 31 01:24:47 *	HcsOmot (a135f50a@gateway/web/freenode/ip.161.53.245.10) has joined
+**** BEGIN LOGGING AT Wed May 31 01:25:10 2017
+
+May 31 01:25:10 *	Now talking on #i3
+May 31 01:25:10 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 31 01:25:10 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+May 31 01:25:25 *	Irishluck83 has quit (Ping timeout: 268 seconds)
+May 31 01:25:38 *	felixsanz has quit (Quit: Bye)
+May 31 01:26:19 <HcsOmot>	hi all
+May 31 01:26:19 *	felixsanz (~felixsanz@unaffiliated/felixsanz) has joined
+May 31 01:26:21 <Eyo>	hello!
+May 31 01:26:50 *	Celmor (~Celmor@unaffiliated/celmor) has joined
+May 31 01:27:04 <thebardian>	hello world
+May 31 01:27:07 *	jolange has quit (Ping timeout: 260 seconds)
+May 31 01:27:16 <Celmor>	hi
+May 31 01:27:21 <Eyo>	hello!
+May 31 01:27:32 <thebardian>	Can someone tell me, I have a function set to a bindsym it works great...
+May 31 01:27:43 <thebardian>	I want to execute it also from a script with i3-msg
+May 31 01:27:47 <thebardian>	How do I?
+May 31 01:28:34 <thebardian>	mode "$mode_system" { ...
+May 31 01:28:56 <thebardian>	So I want to execute it from terminal, I try i3-msg mode_system
+May 31 01:29:13 <Celmor>	try sending the part after 'bindsym <key kombination>' via i3-msg to that socket
+May 31 01:29:26 <thebardian>	bindsym $mod+Escape mode "$mode_system"
+May 31 01:29:37 <thebardian>	so what do you recommend I try Celmor?
+May 31 01:29:59 <Celmor>	try sending 'mode "$mode_system"'
+May 31 01:30:00 <thebardian>	i3-msg mode "$mode_system"
+May 31 01:30:20 <Celmor>	more lik as a single string
+May 31 01:30:33 <Celmor>	wrap it in single quotes like I did
+May 31 01:30:34 <thebardian>	[{"success":true}]
+May 31 01:30:36 <thebardian>	outputs
+May 31 01:30:38 <thebardian>	^
+May 31 01:30:46 <Celmor>	but did it do what you expected?
+May 31 01:30:47 <thebardian>	But does nothing?
+May 31 01:30:54 <thebardian>	No :(
+May 31 01:31:06 <Celmor>	did you wrap the whole string in single quotes?
+May 31 01:31:06 <thebardian>	It's supposed to launch my shutdown/reboot/logout menu
+May 31 01:31:19 <thebardian>	i3-msg 'mode "$mode_system"'
+May 31 01:31:30 <Celmor>	then it probably doesn't recognize $mode_system
+May 31 01:31:50 <thebardian>	The keybind works great!
+May 31 01:32:04 <thebardian>	bindsym $mod+Escape mode "$mode_system"
+May 31 01:32:10 <Celmor>	don't have that much experience with i3 'syntax' but I would try to execute the { ... part instead of referring to it via $mode_system
+May 31 01:32:12 <thebardian>	just how to execute it from terminal im lost.
+May 31 01:32:44 <thebardian>	Thanks for the idea.
+May 31 01:33:47 <thebardian>	I don't think that will work.
+May 31 01:34:08 <thebardian>	Maybe someone else will chime in. Thanks
+May 31 01:34:58 <HcsOmot>	I just stumbled upon something that may be a bug, but aren't sure. i'm using i3-gaps, i3 version 4.12 (2016-03-06, branch "4.12"), Chromium 58.0.3029.110 Built on Ubuntu , running on Ubuntu 16.04. In chromium I have bookmarks bar always showing. When I open a bookmarks 'folder' to show all bookmarks from it, and try to lock screen, screen locks, but just for a short moment, and then automatically unlocks. was hoping someone here might t
+May 31 01:37:05 <thebardian>	found answer to my previous question here: https://www.reddit.com/r/i3wm/comments/5jqihd/i3msg_mode_mode_system/?st=j3coh9j6&sh=f6fbfe46
+May 31 01:38:47 *	qwertyzxcvbn (~qwertyzxc@5.197.121.177) has joined
+May 31 01:39:08 <HcsOmot>	this is what I use for screen locking: https://hastebin.com/ivefuxajoh.bash
+May 31 01:43:05 *	mandje (~mandje@2001:985:8762:1:b4eb:5668:a731:bc2b) has joined
+May 31 01:46:37 <brainwash>	HcsOmot: could be this https://github.com/i3/i3lock/issues/95
+May 31 01:46:46 *	Celmor has quit (Read error: Connection reset by peer)
+May 31 01:48:02 <brainwash>	HcsOmot: try to get a debug log
+May 31 01:48:08 <brainwash>	--debug
+May 31 01:54:20 *	solevis (c351e312@gateway/web/cgi-irc/kiwiirc.com/ip.195.81.227.18) has joined
+May 31 01:56:26 *	JesusFreak (~patrick@86.47.248.149) has joined
+May 31 01:58:01 *	Amnesia (~Amnesia@unaffiliated/amnesia) has joined
+May 31 01:58:13 <Amnesia>	question, does anyone over here know if i3bar supports named pipes?
+May 31 01:59:36 *	hardbot has quit (Ping timeout: 245 seconds)
+May 31 02:01:06 <okraits>	Amnesia: What do you want to do?
+May 31 02:01:24 <Amnesia>	okraits: I want some input string to be displayed on my statusbar
+May 31 02:02:39 <okraits>	Amnesia: Well, i3bar uses a json protocol which you can use to send input to it
+May 31 02:02:55 <okraits>	Amnesia: which statusline generator do you use?
+May 31 02:03:49 <Amnesia>	i3status
+May 31 02:04:37 *	aarobc has quit (Quit: Connection closed for inactivity)
+May 31 02:04:49 <okraits>	Amnesia: you can easily add additional output to i3status: https://i3wm.org/i3status/manpage.html#_external_scripts_programs_with_i3status
+May 31 02:05:14 <Amnesia>	noice!, tyvm
+May 31 02:05:42 <okraits>	Amnesia: I recommend the python wrapper: https://github.com/i3/i3status/blob/master/contrib/wrapper.py
+May 31 02:05:59 <Amnesia>	gracias
+May 31 02:06:48 <okraits>	you're welcome
+May 31 02:07:30 *	thebardian has quit (Quit: WeeChat 1.8)
+May 31 02:07:55 *	jozwior has quit (Remote host closed the connection)
+May 31 02:11:06 *	jozwior (~jozwior@213.189.47.210) has joined
+May 31 02:11:26 *	jozwior has quit (Read error: Connection reset by peer)
+May 31 02:11:54 *	jozwior (~jozwior@213.189.47.210) has joined
+May 31 02:12:20 <okraits>	st6: Not really :)
+May 31 02:12:32 <Amnesia>	okraits: is there also some way to do it with two instances of i3status?
+May 31 02:12:42 <Amnesia>	(cause I've got one instance running, that reads ~/.i3status.conf)
+May 31 02:12:44 <okraits>	st6: Older yes, but I was already experienced when I switched to i3
+May 31 02:13:08 *	xlaech has quit (Remote host closed the connection)
+May 31 02:13:13 <okraits>	Amnesia: Do you explicitly want two instances?
+May 31 02:13:23 <Amnesia>	okraits: atm, yes
+May 31 02:13:40 <okraits>	Amnesia: You have two monitors?
+May 31 02:13:59 <Amnesia>	no
+May 31 02:14:14 *	stargater has quit (Ping timeout: 246 seconds)
+May 31 02:14:21 *	bad63r (~bad63r@93-86-34-124.dynamic.isp.telekom.rs) has joined
+May 31 02:14:31 <Amnesia>	It's just that the config file contains system stuff, and I'd like to add some (dynamic) stuff to it
+May 31 02:17:11 *	hardbot (~hardbot@81-66-238-48.rev.numericable.fr) has joined
+May 31 02:17:43 <okraits>	I'd like to make sure that I understand what you're trying to do
+May 31 02:18:05 <okraits>	You would like to add some output to the output of i3status, right?
+May 31 02:20:15 <Amnesia>	correct
+May 31 02:20:35 <okraits>	But why do you need a second i3status instance?
+May 31 02:21:34 <Amnesia>	currently I've got "        status_command i3status -c ~/.i3/i3status.conf
+May 31 02:21:41 <Amnesia>	 in my i3 config
+May 31 02:21:50 <Amnesia>	and I'd like another script to append to that
+May 31 02:22:01 <okraits>	you need:
+May 31 02:22:18 <Amnesia>	 (instead of having to change the status_command value to a wrapper that adds something to i3status's output)
+May 31 02:22:46 *	solenodic has quit (Quit: WeeChat 1.8)
+May 31 02:22:47 <okraits>	status_command i3status -c ~/.i3/i3status.conf | /path/to/wrapper.py
+May 31 02:23:51 <okraits>	you mean you want to append the additional output on one machine and not append it on another machine?
+May 31 02:24:52 <Amnesia>	no, I was just wondering if there was a way to use a named pipe, which I can throw stuff into, to get it displayed:D
+May 31 02:25:40 <okraits>	not for i3status I think, but you can add that functionality to wrapper.py
+May 31 02:25:44 <Amnesia>	ack
+May 31 02:26:22 <okraits>	that's the advantage of the json protocol, you can easily extend the output of i3status
+May 31 02:27:26 <Amnesia>	check
+May 31 02:34:36 <Amnesia>	okraits: implemented it myself, tyvm for your help <3
+May 31 02:35:31 *	armin (~armin@engine.vpn.blue) has joined
+May 31 02:38:54 *	stfn has quit (Remote host closed the connection)
+May 31 02:39:29 *	lahol (~lahol@sirius.mathematik.tu-chemnitz.de) has joined
+May 31 02:40:02 *	stfn (~stfn@unaffiliated/stfn) has joined
+May 31 02:41:41 <okraits>	Amnesia: you're welcome
+May 31 02:44:01 *	hardbot has quit (Ping timeout: 255 seconds)
+May 31 02:45:34 *	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has joined
+May 31 02:52:35 *	Zaunei (~quassel@2a01:4f8:161:4347:51:10:0:88) has joined
+May 31 02:53:19 *	firef1y_ (~firef1y@unaffiliated/firef1y) has joined
+May 31 02:54:10 *	qball_ (~qball@ipd50a4049.speed.planet.nl) has joined
+May 31 02:55:33 *	bubbathevtog_ (~quassel@pool-64-222-104-210.burl.east.myfairpoint.net) has joined
+May 31 02:56:15 *	ballessay_ (~ballessay@84-75-195-77.dclient.hispeed.ch) has joined
+May 31 02:56:48 *	sECuRE_ (~sECuRE@midna.zekjur.net) has joined
+May 31 02:56:48 *	sECuRE has quit (Disconnected by services)
+May 31 02:56:48 *	ChanServ gives channel operator status to sECuRE_
+May 31 02:56:57 *	svg_ (~svg@hydargos.ginsys.net) has joined
+May 31 02:56:59 *	kajzer_ (~kajzer@unaffiliated/kajzer) has joined
+May 31 02:57:00 *	sECuRE_ is now known as sECuRE
+May 31 02:57:16 *	stfn1 (~stfn@unaffiliated/stfn) has joined
+May 31 02:59:09 *	tunekey has quit (Ping timeout: 268 seconds)
+May 31 02:59:54 *	wosctlup_ (~wosid@unaffiliated/wosctlup) has joined
+May 31 02:59:55 *	rouji_ (~rouji@x0.at) has joined
+May 31 02:59:56 *	prg318_ (~prg@deadcodersociety/prg318) has joined
+May 31 02:59:56 *	eremitah_ (~int@unaffiliated/eremitah) has joined
+May 31 02:59:57 *	ParkerR_ (ParkerR@znc.withg.org) has joined
+May 31 03:00:01 *	shell- (~shell@tonatiuh.pc-spinnt.de) has joined
+May 31 03:00:06 *	Irishluck83_ (~Irishluck@50.44.168.78) has joined
+May 31 03:00:30 *	gardar- (~gardar@bnc.giraffi.net) has joined
+May 31 03:00:30 *	stumpje_ (~stumpje@29-19-ftth.onsnetstudenten.nl) has joined
+May 31 03:01:03 *	Irishluck83 has quit (*.net *.split)
+May 31 03:01:03 *	stfn has quit (*.net *.split)
+May 31 03:01:03 *	prg318 has quit (*.net *.split)
+May 31 03:01:03 *	kajzer has quit (*.net *.split)
+May 31 03:01:03 *	rouji has quit (*.net *.split)
+May 31 03:01:03 *	amayer has quit (*.net *.split)
+May 31 03:01:03 *	ParkerR has quit (*.net *.split)
+May 31 03:01:04 *	eremitah has quit (*.net *.split)
+May 31 03:01:04 *	svg has quit (*.net *.split)
+May 31 03:01:04 *	BubbatheVTOG has quit (*.net *.split)
+May 31 03:01:04 *	qball has quit (*.net *.split)
+May 31 03:01:04 *	ballessay has quit (*.net *.split)
+May 31 03:01:04 *	stumpje has quit (*.net *.split)
+May 31 03:01:04 *	isene has quit (*.net *.split)
+May 31 03:01:04 *	steven has quit (*.net *.split)
+May 31 03:01:04 *	gardar has quit (*.net *.split)
+May 31 03:01:04 *	wosctlup has quit (*.net *.split)
+May 31 03:01:04 *	s-hell has quit (*.net *.split)
+May 31 03:01:04 *	raid has quit (*.net *.split)
+May 31 03:01:04 *	garphy has quit (*.net *.split)
+May 31 03:01:04 *	gringao has quit (*.net *.split)
+May 31 03:01:04 *	holst1 has quit (*.net *.split)
+May 31 03:01:04 *	firef1y has quit (*.net *.split)
+May 31 03:01:04 *	Zaunei_ has quit (*.net *.split)
+May 31 03:01:04 *	Amnesia has quit (*.net *.split)
+May 31 03:01:04 *	endre has quit (*.net *.split)
+May 31 03:01:07 *	svg_ is now known as svg
+May 31 03:01:07 *	eremitah_ is now known as eremitah
+May 31 03:01:08 *	Irishluck83_ is now known as Irishluck83
+May 31 03:01:08 *	Irishluck83 has quit (Changing host)
+May 31 03:01:08 *	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has joined
+May 31 03:01:14 *	ayjay_t has quit (Read error: Connection reset by peer)
+May 31 03:01:18 *	rouji_ is now known as rouji
+May 31 03:01:24 *	stfn1 is now known as stfn
+May 31 03:01:25 *	ayjay_t (ajp@71-88-60-246.static.nwtn.ct.charter.com) has joined
+May 31 03:01:57 *	raid (macbookpro@irc.coding4coffee.org) has joined
+May 31 03:02:27 *	steven (~steven@unaffiliated/steven) has joined
+May 31 03:02:40 *	garphy` (~garphy@frank.zone84.net) has joined
+May 31 03:03:38 *	syndikate has quit (Ping timeout: 260 seconds)
+May 31 03:05:37 *	felixsanz has quit (Quit: Bye)
+May 31 03:06:00 *	syndikate (~syndikate@188.166.218.60) has joined
+May 31 03:06:08 *	bad63r has quit (Quit: leaving)
+May 31 03:06:22 *	felixsanz (~felixsanz@unaffiliated/felixsanz) has joined
+May 31 03:07:38 *	isene (~Geir_Isen@128.199.49.139) has joined
+May 31 03:07:49 *	gringao (~gringao@112.97.117.78.rev.sfr.net) has joined
+May 31 03:08:04 *	holst1 (holst@zoidberg.farscape.se) has joined
+May 31 03:08:39 *	amayer (~amayer@mail.weberadvertising.com) has joined
+May 31 03:09:22 *	emdete (~m@total-communication.vfnet.de) has joined
+**** BEGIN LOGGING AT Wed May 31 11:12:58 2017
+
+May 31 11:12:58 *	Now talking on #i3
+May 31 11:12:58 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 31 11:12:58 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:40:49 2017)
+May 31 11:16:58 *	diegs_ (~diegs_@unaffiliated/diegs/x-9438211) has joined
+May 31 11:18:09 *	callumstyan has quit (Ping timeout: 272 seconds)
+May 31 11:19:28 *	callumstyan (~callum@216.251.135.74) has joined
+May 31 11:19:46 *	hardbot has quit (Remote host closed the connection)
+May 31 11:20:56 *	notis (~notis@178.128.16.229.dsl.dyn.forthnet.gr) has joined
+May 31 11:22:56 *	PatrolDoom has quit (Ping timeout: 245 seconds)
+May 31 11:23:14 *	jagob (~jacob@d40a9e34.rev.stofanet.dk) has joined
+May 31 11:23:39 *	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has joined
+May 31 11:27:26 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:929b:b85b:fed8:4490) has joined
+May 31 11:28:35 *	alex`` (~alex@2a01cb000bb310000e31f98b4cdf4eae.ipv6.abo.wanadoo.fr) has joined
+May 31 11:32:32 *	nelder (~noname@unaffiliated/nelder) has joined
+May 31 11:38:46 *	aarobc (uid151482@gateway/web/irccloud.com/x-tbtqxpzpbnlelgtu) has joined
+May 31 11:40:30 *	PatrolDoom has quit (Quit: WeeChat 1.8)
+May 31 11:40:53 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:929b:b85b:fed8:4490) has joined
+May 31 11:41:32 *	Improvotter has quit (Quit: Lost terminal)
+May 31 11:42:53 *	PatrolDoom has quit (Read error: Connection reset by peer)
+May 31 11:43:08 *	fraksken1work (~fraksken@box.rebru.be) has joined
+May 31 11:43:20 *	fraksken1work has quit (Client Quit)
+May 31 11:44:22 *	fraksken_work has quit (Quit: leaving)
+May 31 11:44:58 *	cookiebow (~master@193.180.119.136) has joined
+May 31 11:47:05 *	schelcj has quit (Ping timeout: 240 seconds)
+May 31 11:49:41 *	schelcj (~schelcj@75-133-50-3.dhcp.trcy.mi.charter.com) has joined
+May 31 12:00:39 *	cliff has quit (Ping timeout: 258 seconds)
+May 31 12:02:32 *	m0u (~m0u@250.red-79-159-194.dynamicip.rima-tde.net) has joined
+May 31 12:02:32 *	m0u has quit (Changing host)
+May 31 12:02:32 *	m0u (~m0u@unaffiliated/m0u) has joined
+May 31 12:02:37 *	cliff (~cliff@c-67-188-43-4.hsd1.ca.comcast.net) has joined
+May 31 12:02:41 *	datasmurf has quit (Quit: WeeChat 1.7.1)
+May 31 12:05:08 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:929b:b85b:fed8:4490) has joined
+May 31 12:06:22 *	datasmurf (~datasmurf@unaffiliated/datasmurf) has joined
+May 31 12:06:26 *	datasmurf has quit (Client Quit)
+May 31 12:06:28 *	PatrolDoom has quit (Client Quit)
+May 31 12:06:29 *	robattila256 (~robattila@S0106f0f24908d2a3.vf.shawcable.net) has joined
+May 31 12:07:37 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:929b:b85b:fed8:4490) has joined
+May 31 12:07:45 *	datasmurf (~datasmurf@unaffiliated/datasmurf) has joined
+May 31 12:07:49 *	datasmurf has quit (Client Quit)
+May 31 12:08:25 *	datasmurf (~datasmurf@unaffiliated/datasmurf) has joined
+May 31 12:09:55 *	ParkerR_ is now known as ParkerR
+May 31 12:09:55 *	ParkerR has quit (Changing host)
+May 31 12:09:55 *	ParkerR (ParkerR@unaffiliated/parkerr) has joined
+May 31 12:10:38 *	solenodic (~solenodic@unaffiliated/solenodic) has joined
+May 31 12:14:24 *	marcosmoyano has quit (Ping timeout: 240 seconds)
+May 31 12:16:40 *	marcosmoyano (~user@192.237.145.61) has joined
+May 31 12:20:28 *	kalbasit has quit (Ping timeout: 260 seconds)
+May 31 12:20:35 *	Introoter has quit (Quit: Connection closed for inactivity)
+May 31 12:20:50 *	PatrolDoom has quit (Ping timeout: 255 seconds)
+May 31 12:21:48 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:b69e:47:99d7:c456) has joined
+May 31 12:21:57 *	ralpheeee has quit (Quit: WeeChat 1.8)
+May 31 12:23:04 *	frakturfreak (~frakturfr@unaffiliated/frakturfreak) has joined
+May 31 12:25:08 *	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined
+May 31 12:26:12 *	fraksken_work (~fraksken@unaffiliated/fraksken-work/x-6239810) has joined
+May 31 12:33:54 *	GitHub52 (~GitHub52@192.30.252.45) has joined
+May 31 12:33:54 -GitHub52/#i3-	[i3] Airblader closed pull request #2796: Add a link to the ocaml-i3ipc library (next...next) https://git.io/vHBZk
+May 31 12:33:54 *	GitHub52 (~GitHub52@192.30.252.45) has left
+May 31 12:33:58 *	GitHub93 (~GitHub93@192.30.252.41) has joined
+May 31 12:33:58 -GitHub93/#i3-	[i3] Airblader pushed 2 new commits to next: https://git.io/vHBbr
+May 31 12:33:58 -GitHub93/#i3-	i3/next b2ee718 Armaël Guéneau: Add a link to the ocaml-i3ipc library
+May 31 12:33:58 -GitHub93/#i3-	i3/next d3901fe Ingo Bürk: Merge pull request #2796 from Armael/next...
+May 31 12:33:58 *	GitHub93 (~GitHub93@192.30.252.41) has left
+May 31 12:34:57 *	fwilson has quit (Ping timeout: 240 seconds)
+May 31 12:36:38 *	Phaqui2 has quit (Quit: Phaqui2)
+May 31 12:36:54 *	MtotheM (~MtotheM@h-4-126.a392.priv.bahnhof.se) has joined
+May 31 12:37:36 *	joephelius (~joe@port-92-205-115-203.dynamic.qsc.de) has joined
+May 31 12:37:38 <MtotheM>	I've edited my config file for i3, but it loads defaults regardless, where exactly do i need to put the file for it to read it?
+May 31 12:37:54 *	Phaqui (~phaqui@36.124.189.109.customer.cdi.no) has joined
+May 31 12:38:12 <MtotheM>	It was created in etc/i3/config initially
+May 31 12:38:39 <callumstyan>	~/.config/i3/config
+May 31 12:38:57 *	raedah (~x@71.19.252.32) has joined
+May 31 12:39:57 *	Introoter (uid189461@gateway/web/irccloud.com/x-pofiloksuriygpdp) has joined
+May 31 12:40:10 <raedah>	how well is i3 working with qubes at this point?
+May 31 12:40:53 <MtotheM>	callumstyan, thanks, i'll give that a try
+May 31 12:42:20 <MtotheM>	callumstyan, Yay, it worked perfectly, thanks again
+May 31 12:42:27 *	fwilson (~fwilson@tjctf/organizer/fwilson) has joined
+May 31 12:42:35 <callumstyan>	no problem
+May 31 12:45:47 *	kw21 (~kw21@D978E830.cm-3-1d.dynamic.ziggo.nl) has joined
+May 31 12:46:31 *	linux_dream (~isaac@unaffiliated/linux-dream/x-5839402) has joined
+May 31 12:47:57 <nimaje>	raedah: well, why should it not work? i3 is a simple x wm
+May 31 12:53:58 *	brogon_ (~brogon@unaffiliated/brogon) has joined
+May 31 13:01:31 *	spider_x has quit (Quit: WeeChat 1.4)
+May 31 13:03:54 <raedah>	nimaje: i can just install it and check it out, but im thinking about the integration with qubes
+May 31 13:12:48 *	AndChat-79476 (~AndChat79@2607:fb90:4ac:ce2d:40bf:af18:c856:f6ce) has joined
+May 31 13:12:49 <nimaje>	raedah: well, probably you want some little changes to the default bindings for better integration, something like that https://github.com/QubesOS/qubes-desktop-linux-i3/blob/qubes-3.1/i3-settings-qubes/qubes-i3-sensible-terminal
+May 31 13:13:35 *	felixsanz has quit (Quit: Bye)
+May 31 13:14:19 *	felixsanz (~felixsanz@unaffiliated/felixsanz) has joined
+May 31 13:16:43 *	boomboxnation has quit (Ping timeout: 255 seconds)
+May 31 13:19:45 *	ksjk1998 has quit (Remote host closed the connection)
+May 31 13:20:35 *	Amado has quit (Ping timeout: 240 seconds)
+May 31 13:21:05 *	Realmkeeper (~holoirc@171.49.235.250) has joined
+May 31 13:21:06 *	Amado (~Amado@189.158.250.106) has joined
+May 31 13:21:18 *	Realmkeeper has quit (Client Quit)
+May 31 13:22:51 <raedah>	cool
+May 31 13:24:44 *	datasmurf has quit (Ping timeout: 255 seconds)
+May 31 13:25:41 *	nelder has quit (Ping timeout: 268 seconds)
+May 31 13:29:37 *	datasmurf (~datasmurf@unaffiliated/datasmurf) has joined
+May 31 13:29:42 *	boomboxnation (~AndChat79@c-67-188-43-4.hsd1.ca.comcast.net) has joined
+May 31 13:29:54 <nimaje>	raedah: well, the other stuff in that repo seems like it was well-meant, but the implementation, doesn't look good  (I just searched 'qubes i3wm')
+May 31 13:30:35 <callumstyan>	best bet is to try it out yourself and let us know how it goes
+May 31 13:30:47 <callumstyan>	never heard seen anyone else mention that distro here before :)
+May 31 13:33:01 *	AndChat-79476 has quit (Ping timeout: 246 seconds)
+May 31 13:35:59 <nimaje>	well, I have seen it mentioned here, someone has writen a wrapper (afaik around dmenu) to start programs on the current dom/vm (what ever it is called), like that qubes-i3-sensible-terminal does it for terminals
+May 31 13:39:17 *	m0u has quit (Quit: leaving)
+May 31 13:45:58 *	marcosmoyano has quit (Ping timeout: 246 seconds)
+May 31 13:55:20 *	im0nde (~im0nde@xdsl-78-34-135-27.netcologne.de) has joined
+May 31 14:02:04 *	PatrolDoom has quit (Quit: WeeChat 1.8)
+May 31 14:04:33 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:b69e:47:99d7:c456) has joined
+May 31 14:05:57 *	diegs_ has quit (Ping timeout: 240 seconds)
+May 31 14:06:13 *	MtotheM has quit (Ping timeout: 255 seconds)
+May 31 14:12:59 *	azamatms has quit (Quit: ZNC 1.7.x-nightly-20170324-aefc97d0 - http://znc.in)
+May 31 14:12:59 *	azamat (~azamat@box.azam.at) has joined
+May 31 14:13:07 *	bnwilson_ has quit (Ping timeout: 249 seconds)
+May 31 14:16:25 *	linux_dream has quit (Quit: WeeChat 1.8)
+**** BEGIN LOGGING AT Wed May 31 14:18:13 2017
+
+May 31 14:18:13 *	Now talking on #i3
+May 31 14:18:13 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 31 14:18:13 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:40:49 2017)
+May 31 14:19:57 *	nelder (~noname@unaffiliated/nelder) has joined
+May 31 14:20:08 *	diegs_ (~diegs_@unaffiliated/diegs/x-9438211) has joined
+May 31 14:21:27 *	im0nde has quit (Ping timeout: 240 seconds)
+May 31 14:24:53 *	im0nde (~im0nde@xdsl-78-34-135-27.netcologne.de) has joined
+May 31 14:30:57 *	Irishluck83 has quit (Ping timeout: 240 seconds)
+May 31 14:35:24 *	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has joined
+May 31 14:39:54 *	Irishluck83 has quit (Ping timeout: 240 seconds)
+May 31 14:43:54 *	im0nde has quit (Quit: im0nde)
+May 31 14:46:57 *	HardlySeen has quit (Quit: leaving)
+May 31 14:49:19 *	frakturfreak has quit (Ping timeout: 246 seconds)
+May 31 14:51:55 *	eremitah has quit (Quit: quit)
+May 31 14:52:45 *	eremitah (~int@unaffiliated/eremitah) has joined
+**** BEGIN LOGGING AT Wed May 31 14:58:43 2017
+
+May 31 14:58:43 *	Now talking on #i3
+May 31 14:58:43 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 31 14:58:43 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+May 31 14:58:44 <llinguini>	Hey, anybody here use i3-gnome on arch?
+May 31 14:58:53 <llinguini>	*used
+**** BEGIN LOGGING AT Wed May 31 15:00:53 2017
+
+May 31 15:00:53 *	Now talking on #i3
+May 31 15:00:53 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 31 15:00:53 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:40:49 2017)
+May 31 15:02:13 <callumstyan>	ohaither, I have a thinkpad x260, love it
+May 31 15:02:58 <MtotheM_>	Is there anyway to make links clickable in the default i3 terminal?
+May 31 15:03:23 <ohaither>	callumstyan, nice. I've seen a lot of people into the x200 and t60, any specific reason behind?
+May 31 15:04:16 <callumstyan>	no clue to be honest
+May 31 15:04:27 <callumstyan>	I wanted something a bit smaller than the T line
+May 31 15:04:41 <callumstyan>	and a coworker had an x260
+May 31 15:05:05 <ohaither>	callumstyan, gotcha. I'm googling the specs
+May 31 15:05:29 <nimaje>	MtotheM_: there is no default i3 terminal, only a script testing for diffrent terminals and executing the first found
+May 31 15:05:45 <MtotheM_>	oh, i'm sorry
+**** BEGIN LOGGING AT Wed May 31 15:06:23 2017
+
+May 31 15:06:23 *	Now talking on #i3
+May 31 15:06:23 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 31 15:06:23 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:40:49 2017)
+May 31 15:06:25 <ohaither>	probably :P
+May 31 15:06:30 <callumstyan>	but I think with any thinkpad + mainstream distro you'll be fine
+May 31 15:06:44 <callumstyan>	if you wanted to setup debian or arch from scratch you might have a bit more work to do
+May 31 15:07:09 <callumstyan>	I just got mine, updated the bios, and from there you can just install ubuntu and never think about it again if you wanted
+May 31 15:07:15 <ohaither>	I went manjaro because of that, arch based without so much trouble
+May 31 15:07:38 <ohaither>	in fact I'm using it now on my MB under VBox
+May 31 15:08:03 <ohaither>	regular bios update? or you went some libreboot or something?
+May 31 15:08:17 <ohaither>	I'm just getting into this, sorry if dumb questions
+May 31 15:09:02 <callumstyan>	whatever the thinkpad instructions were for bios updates
+May 31 15:09:13 <callumstyan>	you'll find better info about this in other irc channels though :)
+May 31 15:09:33 <nimaje>	MtotheM_: some (most?) terminals support clickable links, but as that is terminal dependend you first need to find out what terminal you use
+May 31 15:09:56 <ohaither>	fair enough, just felt like finding ppl to chat in general involving i3
+May 31 15:10:07 <ohaither>	so... let's talk i3 :P
+May 31 15:11:17 <ohaither>	any way to change the border of the active window? I know it's possible to change the gaps, but haven't found a solution for the color. I find it has a lack of contrast and it's a bit difficult for me to know in which window I'm at the moment
+May 31 15:11:55 <ohaither>	I went through the manual but only saw the kind of border, nothing about the color
+May 31 15:12:17 <ohaither>	so maybe there's a 3rd party package or something
+May 31 15:13:01 *	AndChat-79476 (~AndChat79@2607:fb90:4ac:ce2d:b95:bf82:9ac9:cb04) has joined
+May 31 15:13:33 <nimaje>	ohaither: there are two paragraphs about colors in the userguide one about i3s colors and one about i3bars colors (to lazy to search the link)
+May 31 15:14:33 <ohaither>	nimaje, I'll double check. The color I'm looking to change is not in the bars, but on the actual border of the terminals. The ones that appear with $mod+Return
+May 31 15:15:53 *	mandje has quit (Ping timeout: 255 seconds)
+May 31 15:15:55 *	boomboxnation has quit (Ping timeout: 260 seconds)
+May 31 15:16:29 <nimaje>	ohaither: yes I know what you mean, but how could you not find that paragraph https://i3wm.org/docs/userguide.html#_changing_colors?
+May 31 15:16:43 <llinguini>	Hey, so I want to add a default configuration for multiple monitors to be different, to do that I just add "exec xrandr <params> to the i3 config, right?
+May 31 15:16:46 *	ksjk1998 (~ksjk1998@2602:306:36d0:8ad0:7ba9:6406:38de:6051) has joined
+May 31 15:16:55 *	boomboxnation (~AndChat79@c-67-188-43-4.hsd1.ca.comcast.net) has joined
+May 31 15:17:06 <callumstyan>	ohaither, I have some examples of that in my dotfiles: https://github.com/cstyan/dotfiles/blob/master/dotfiles/i3-config#L23-L27
+May 31 15:17:20 *	globetrotterdk has quit (Ping timeout: 260 seconds)
+May 31 15:17:32 <ohaither>	nimaje, my apologies, I did a search for 'border' instead of 'color'. Sorry
+May 31 15:17:44 <ohaither>	In fact, I was just double checking
+May 31 15:18:18 <ohaither>	the thing is that I did try changing client focused and it didn't change the color after reloading the config and opening new windows
+May 31 15:18:30 <ohaither>	I'll try restarting i3 instead
+May 31 15:18:55 <nimaje>	llinguini: well, there or in another file in the x startup sequence (e.g. .xinitrc if you use startx/xinit)
+May 31 15:19:29 <ohaither>	thanks callumstyan
+May 31 15:19:40 *	globetrotterdk (~androirc@109.57.47.161.mobile.3.dk) has joined
+May 31 15:19:43 <callumstyan>	no problem
+May 31 15:20:24 <ohaither>	callumstyan, "# bg is the one that actually changes the visible border around an i3 container" was key! I was aiming at border
+May 31 15:20:35 *	AndChat-79476 has quit (Ping timeout: 260 seconds)
+May 31 15:20:45 <llinguini>	Also, for some reason, everything in i3 just appears bigger
+May 31 15:21:02 <llinguini>	as in, it seems like the resolution is incorrect
+May 31 15:21:20 <callumstyan>	yep! I had the same issue as you when I first started using i3
+May 31 15:21:20 <llinguini>	but that's not the case as xrandr reports the correct resolution,
+May 31 15:21:24 <callumstyan>	Note that for the window decorations, the color around the child window is the "child_border", and "border" color is only the two thin lines around the titlebar.
+May 31 15:22:05 <llinguini>	and when I run gnome, with the same gtk theme, everything appears normal
+May 31 15:22:46 <ohaither>	callumstyan, gotcha!
+May 31 15:29:08 *	Introoter has quit ()
+May 31 15:30:38 *	holden- (~username@unaffiliated/holden-) has joined
+May 31 15:34:16 *	stargater (~stargater@x4db9e74f.dyn.telefonica.de) has joined
+May 31 15:37:16 *	stargate1 has quit (Ping timeout: 246 seconds)
+May 31 15:38:54 *	alex`` has quit (Quit: WeeChat 1.8)
+May 31 15:43:20 *	llinguini has quit (Ping timeout: 255 seconds)
+May 31 15:44:50 *	alex`` (~alex@LFbn-1-2654-168.w86-245.abo.wanadoo.fr) has joined
+May 31 15:58:05 *	nelder has quit (Ping timeout: 272 seconds)
+May 31 16:04:23 *	globetrotterdk has quit (Ping timeout: 240 seconds)
+May 31 16:04:37 *	globetrotterdk (~androirc@109.57.47.161.mobile.3.dk) has joined
+May 31 16:07:07 *	Phaqui has quit (Read error: Connection reset by peer)
+May 31 16:08:54 *	Phaqui (~phaqui@36.124.189.109.customer.cdi.no) has joined
+May 31 16:12:56 *	inara has quit (Ping timeout: 268 seconds)
+May 31 16:13:06 *	inara (~inara@68.ip-149-56-14.net) has joined
+May 31 16:15:59 *	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has joined
+May 31 16:16:43 *	silverhom has quit (Quit: Leaving)
+May 31 16:16:43 *	curiousx (~curiousx@unaffiliated/curiousx) has joined
+May 31 16:19:41 *	amayer_ (~amayer@mail.weberadvertising.com) has joined
+May 31 16:20:40 *	adminseodwn has quit (Remote host closed the connection)
+May 31 16:22:12 *	amayer has quit (Ping timeout: 260 seconds)
+May 31 16:27:13 *	Xenguy (~Xenguy@unaffiliated/xenguy) has joined
+May 31 16:31:26 *	jagob has quit (Remote host closed the connection)
+May 31 16:33:59 <MtotheM_>	What is your guys favorite terminal?
+May 31 16:36:10 <occultus>	they're all awful
+May 31 16:36:44 <cliff>	I'm using terminology...I haven't tried all that many.  Can't tell you why in particular I use it...
+May 31 16:37:02 <occultus>	anything vte (gnome/xfce/termite) has emoji scroll issues, urxvt makes you specify font fallbacks manually, and st has to be recompiled to change settings
+May 31 16:38:36 <cliff>	Does any emulator support some kind of keyboard only text selection and yanking?
+May 31 16:43:22 <Xenguy>	MtotheM_: I am sticking with 'roxterm' because I like it so much, even tho I found out it is going to be unmaintained, due to the bloody annoying issues associated with GTK3 : -/
+May 31 16:44:08 <Xenguy>	cliff: screen (and probably tmux) ?
+May 31 16:46:24 <occultus>	cliff: termite (i think) has Ctrl+Shift+Space to enter vim keybinding select/yank mode
+May 31 16:54:03 *	curiousx has quit (Quit: leaving)
+May 31 16:55:26 *	untitled1 has quit (Quit: WeeChat 1.8)
+May 31 16:57:24 <cliff>	Yeah...I was thinking of trying screen or tmux as my default 'overshell'...
+May 31 16:57:59 <cliff>	There is more than one advantage to doing that of course....
+May 31 16:59:13 <cliff>	tmux is new to me.  I got lost comparing the two and never moved on to trying to configure one or the other as a default operating environment.
+May 31 17:00:39 <Xenguy>	A lot of folks seem to favor the new kid on the block, tmux, but screen has worked for me for years, so I just stick with it, as I know if well enough now
+May 31 17:00:53 <Xenguy>	Either should work for your requirement though
+May 31 17:01:02 <cliff>	Yeah...I didn't really see the point...
+May 31 17:09:57 *	kalbasit has quit (Ping timeout: 240 seconds)
+May 31 17:15:48 *	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined
+May 31 17:18:24 <cliff>	Neither supports any kind of scaling if I wanted to run all my emulator containers under one uber-screen/tmux, right?
+May 31 17:23:35 *	azamat is now known as azamatms
+May 31 17:23:54 *	notis has quit (Remote host closed the connection)
+May 31 17:27:49 *	PatrolDoom has quit (Ping timeout: 255 seconds)
+May 31 17:52:03 *	kalbasit has quit (Ping timeout: 260 seconds)
+May 31 17:53:25 *	alefir (~alefir@unaffiliated/alefir) has joined
+May 31 17:53:56 *	alefir has quit (Client Quit)
+May 31 17:54:55 *	alefir (~alefir@unaffiliated/alefir) has joined
+May 31 17:57:20 *	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined
+May 31 17:58:12 *	AndChat-79476 (~AndChat79@2607:fb90:4a8:816f:54d8:d1c2:30a3:b06b) has joined
+May 31 18:02:34 *	boomboxnation has quit (Ping timeout: 268 seconds)
+May 31 18:06:32 *	inddwtsn (~yama@host177.190-230-74.telecom.net.ar) has joined
+May 31 18:06:53 *	xlaech (~xlaech@p82142-ipbffx02marunouchi.tokyo.ocn.ne.jp) has joined
+May 31 18:11:17 *	thebardian (~thebardia@172-223-202-140.dhcp.chtrptr.net) has joined
+May 31 18:11:59 <thebardian>	I am trying to create a simple i3blocks button to launch a program. It works, but on click, the button label gets appended to with output from the program launched. How do I stop this?
+May 31 18:15:54 *	Improvotter (~Improvott@178-117-186-168.access.telenet.be) has joined
+May 31 18:18:40 *	venmx (~pactadmin@185.69.145.14) has joined
+May 31 18:18:53 <Xenguy>	cliff: "scaling" ?
+May 31 18:19:49 *	Xenguy hopes we're not OT here...
+May 31 18:20:58 *	Improvotter has quit (Quit: leaving)
+May 31 18:21:13 *	Improvotter (~Improvott@178-117-186-168.access.telenet.be) has joined
+May 31 18:23:14 *	boomboxnation (~AndChat79@c-67-188-43-4.hsd1.ca.comcast.net) has joined
+May 31 18:23:36 <MtotheM_>	I've seen people have music information in their bars, how does that work?
+May 31 18:23:43 <squigz>	black magic
+May 31 18:24:07 <MtotheM_>	That's very helpful
+May 31 18:24:26 <squigz>	That's why I'm here
+May 31 18:26:03 *	Improvotter has quit (Client Quit)
+May 31 18:26:18 *	Improvotter (~Improvott@178-117-186-168.access.telenet.be) has joined
+May 31 18:26:19 *	AndChat-79476 has quit (Ping timeout: 246 seconds)
+May 31 18:27:15 <thebardian>	I am trying to create a simple i3blocks button to launch a program. It works, but on click, the button label gets appended to with output from the program launched. How do I stop this?
+May 31 18:32:39 *	mandje (~mandje@2001:985:8762:1:b4eb:5668:a731:bc2b) has joined
+May 31 18:35:53 *	venmx has quit (Ping timeout: 240 seconds)
+May 31 18:37:17 *	somis has quit (Quit: WeeChat 1.8)
+May 31 18:38:29 *	indeedwatson has quit (Quit: Connection closed for inactivity)
+May 31 18:38:58 <xlaech>	@squiqz +1 xD
+May 31 18:39:32 <xlaech>	@MtotheM_ what bar do you use?
+May 31 18:40:11 <MtotheM_>	xlaech, the default one
+May 31 18:40:24 <thebardian>	i3bar
+May 31 18:40:46 <cliff>	Mtothem, it depends on what media player you are using.  Then you need to discover how to pull out the 'now playing' information out via the terminal.  Once you have that you can craft a script to pull and format that information to your liking for the status bar.  I use clementine for local files and public radio streams, so if I wanted the now playing my info I would start with '$ qdbus org.mpris.clementine
+May 31 18:40:52 <cliff>	/Player org.freedesktop.MediaPlayer.GetMetadata
+May 31 18:41:11 *	kajzer_ has quit (Quit: WeeChat 1.8)
+May 31 18:41:20 <xlaech>	https://i3wm.org/docs/userguide.html#status_command
+May 31 18:41:26 <xlaech>	That's what you probably need
+May 31 18:41:43 <MtotheM_>	Thanks, i'll look into it
+May 31 18:41:50 <xlaech>	As long, as your music player has a cmd interface, you can just output in on the bar
+May 31 18:44:20 *	kajzer (~kajzer@unaffiliated/kajzer) has joined
+May 31 18:51:19 *	^_andrea_^ has quit (Quit: Leaving)
+May 31 18:54:57 *	kw21 has quit (Ping timeout: 240 seconds)
+May 31 18:55:02 *	ZyX-I has quit (Ping timeout: 258 seconds)
+May 31 18:55:38 *	callumstyan has quit (Ping timeout: 260 seconds)
+May 31 18:55:41 *	anonnumberanon is now known as danonnumberanon
+May 31 18:58:03 *	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru) has joined
+May 31 18:59:47 <thebardian>	I am trying to create a simple i3blocks button to launch a program. It works, but on click, the button label gets appended to with output from the program launched. How do I stop this?
+May 31 19:03:57 *	felixsanz has quit (Ping timeout: 240 seconds)
+May 31 19:07:56 *	danonnumberanon is now known as anonnumberanon
+**** BEGIN LOGGING AT Wed May 31 19:09:08 2017
+
+May 31 19:09:08 *	Now talking on #i3
+May 31 19:09:08 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+May 31 19:09:08 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:38:49 2017)
+May 31 19:11:37 *	felixsanz (~felixsanz@unaffiliated/felixsanz) has joined
+May 31 19:12:21 <xlaech>	@MtotheM_ I just played a bit with it (haven't used it either before)... This will not really help you, since i3 only allows one cmd. I was able to get the information, but i lost the output from i3
+May 31 19:12:22 <xlaech>	https://i3wm.org/i3status/manpage.html#_external_scripts_programs_with_i3status
+May 31 19:12:35 <xlaech>	this explains how to pipe them together
+May 31 19:13:03 <MtotheM_>	xlaech, thanks!
+May 31 19:15:53 *	holden- has quit (Ping timeout: 240 seconds)
+May 31 19:19:28 <cliff>	@thebardian it has to be asked...why not just bindsym the app?  If nothing else...depending on the application add a '-q' if it supports some kind of quiet or a '2> /dev/null'
+May 31 19:21:05 <xlaech>	#!/bin/sh
+May 31 19:21:12 <xlaech>	i3status | while true
+May 31 19:21:13 <xlaech>	do
+May 31 19:21:19 <xlaech>	    read line
+May 31 19:21:34 <xlaech>	    echo "$(uname) | $line" || exit 1
+May 31 19:21:36 <xlaech>	done
+May 31 19:21:37 <xlaech>	...
+May 31 19:21:40 <squigz>	Please do not do that.
+May 31 19:21:43 <xlaech>	works like a charm ;)
+May 31 19:21:57 <xlaech>	@squigz ok sorry
+May 31 19:21:59 <squigz>	Use a pastebin for anything longer than 2 or 3 lines
+May 31 19:22:01 <squigz>	:)
+May 31 19:23:43 <Irishluck83>	hi squigz
+May 31 19:23:47 <Eyo>	hello!
+May 31 19:24:05 <squigz>	Hey Irishluck83 :)
+May 31 19:28:42 <Irishluck83>	what is going on
+May 31 19:30:51 <Xenguy>	top o' the mornin' to ya
+May 31 19:30:59 <thebardian>	@cliff In answer, bindsym is great, but sometimes you just want a button. I want to click my volume i3block button and open my volume control manager. And I want to click my wifi button and open wicd-gtk. You know?
+May 31 19:32:21 <thebardian>	I am trying 2> /dev/null and it's not getting picked up. Strangely
+May 31 19:33:13 <Xenguy>	It's systemd again <yawn>
+May 31 19:33:18 <Improvotter>	This is awesome: https://github.com/rockowitz/ddcutil/
+May 31 19:33:20 <Xenguy>	hehe
+May 31 19:35:34 *	brainwash_ (~tuturu@unaffiliated/brainwash) has joined
+May 31 19:36:56 *	manjaroi3_ (~manjaro-i@x4db40344.dyn.telefonica.de) has joined
+May 31 19:37:56 *	brainwash has quit (Ping timeout: 245 seconds)
+May 31 19:37:56 *	brainwash_ is now known as brainwash
+May 31 19:40:32 *	ohaither has quit (Ping timeout: 260 seconds)
+May 31 19:41:15 *	MtotheM_ has quit (Read error: Connection reset by peer)
+May 31 19:43:53 *	alefir has quit (Ping timeout: 240 seconds)
+May 31 19:46:22 *	A-train has quit (Quit: Leaving)
+May 31 19:46:36 *	thebardian has quit (Quit: WeeChat 1.8)
+May 31 19:47:05 *	Irishluck83 has quit (Ping timeout: 240 seconds)
+May 31 19:54:00 *	callumstyan (~callum@S0106a84e3fc07df3.vc.shawcable.net) has joined
+May 31 20:02:05 *	asdil12 has quit (Ping timeout: 240 seconds)
+May 31 20:09:35 *	asdil12 (~asdil12@port-92-194-80-218.dynamic.qsc.de) has joined
+May 31 20:09:36 *	diegs_ has quit (Ping timeout: 268 seconds)
+May 31 20:11:35 *	schelcj has quit (Ping timeout: 240 seconds)
+May 31 20:13:55 *	manjaroi3_ is now known as ohaither
+May 31 20:15:44 *	schelcj (~schelcj@75-133-50-3.dhcp.trcy.mi.charter.com) has joined
+May 31 20:17:53 *	circle (~circle@110-175-158-36.static.tpgi.com.au) has joined
+May 31 20:17:53 *	circle has quit (Changing host)
+May 31 20:17:53 *	circle (~circle@unaffiliated/circle) has joined
+May 31 20:19:22 *	stormanka has quit (Ping timeout: 246 seconds)
+May 31 20:19:52 *	Improvotter has quit (Remote host closed the connection)
+May 31 20:25:22 *	diegs_ (~diegs_@unaffiliated/diegs/x-9438211) has joined
+May 31 20:28:01 *	ksjk1998 has quit (Remote host closed the connection)
+May 31 20:33:19 *	Irishluck83 (~Irishluck@50.44.168.78) has joined
+May 31 20:33:19 *	Irishluck83 has quit (Changing host)
+May 31 20:33:19 *	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has joined
+May 31 20:34:55 *	firc108ddb9e (~ksjk1998@2602:306:36d0:8ad0:ac02:f600:ef29:2ff2) has joined
+May 31 20:37:06 *	tasse has quit (Ping timeout: 245 seconds)
+May 31 20:38:13 *	ayjay_t has quit (Read error: Connection reset by peer)
+May 31 20:38:40 *	ayjay_t (ajp@71-88-60-246.static.nwtn.ct.charter.com) has joined
+May 31 20:40:13 *	tasse (~tasse@x4db49aa6.dyn.telefonica.de) has joined
+May 31 20:52:05 *	ayjay_t has quit (Read error: Connection reset by peer)
+May 31 20:52:48 *	ayjay_t (ajp@71-88-60-246.static.nwtn.ct.charter.com) has joined
+May 31 20:57:58 *	ponyrider (~cf2iqx@unaffiliated/ponyrider) has joined
+May 31 21:02:36 *	linuxmodder has quit (Disconnected by services)
+May 31 21:03:24 *	linuxmodder__ (linuxmodde@gateway/shell/on2pro/x-yatvbdbaluifioih) has joined
+May 31 21:03:26 *	isidore (~isidore@ACaen-651-1-77-204.w90-62.abo.wanadoo.fr) has joined
+May 31 21:04:27 *	stargater has quit (Ping timeout: 240 seconds)
+May 31 21:07:03 *	nelder (~noname@unaffiliated/nelder) has joined
+May 31 21:09:02 *	firc108ddb9e has quit (Remote host closed the connection)
+May 31 21:09:47 *	isidore has quit (Quit: WeeChat 1.8)
+May 31 21:11:07 *	joephelius_ (~joe@port-92-205-84-166.dynamic.qsc.de) has joined
+May 31 21:11:40 *	ayjay_t has quit (Read error: Connection reset by peer)
+May 31 21:12:02 *	ayjay_t (ajp@71-88-60-246.static.nwtn.ct.charter.com) has joined
+May 31 21:13:06 *	Majora320 (~Majora320@unaffiliated/majora320) has joined
+May 31 21:14:45 *	joephelius has quit (Ping timeout: 272 seconds)
+May 31 21:16:01 <Majora320>	I'm having some trouble getting a command to work in my i3 config
+May 31 21:16:09 <Majora320>	I have the line
+May 31 21:16:17 <Majora320>	bindsym Print exec scrot "$HOME/Pictures/Screenshots/%a, %b %d %I:%M:%S %P.png" -e 'notify-send "Screenshot saved to $f"'
+May 31 21:16:40 <Majora320>	But when I try it it fails because of the comma
+May 31 21:16:50 <Majora320>	How do I properly quote this line?
+May 31 21:17:55 <Irishluck83>	can't you just elminate the comma and just use a space?
+May 31 21:18:19 <Majora320>	I could
+May 31 21:18:24 <Majora320>	But I want a comma in there, damn it
+May 31 21:18:42 <Majora320>	And i3 should be able to execute arbitrary commands in exec lines
+May 31 21:23:37 *	ksjk1998 (~ksjk1998@2602:306:36d0:8ad0:785d:91af:a9a4:d687) has joined
+May 31 21:26:23 *	diegs_ has quit (Ping timeout: 240 seconds)
+May 31 21:26:57 *	isidore (~isidore@ACaen-651-1-77-204.w90-62.abo.wanadoo.fr) has joined
+May 31 21:30:21 *	firc5e1fe915 (~ksjk1998@2602:306:36d0:8ad0:785d:91af:a9a4:d687) has joined
+May 31 21:30:21 *	ksjk1998 has quit (Read error: Connection reset by peer)
+May 31 21:31:37 *	isidore has quit (Client Quit)
+May 31 21:33:35 <cliff>	Majora320, it works fine if you just make it into a bash shell script.
+May 31 21:33:57 <cliff>	Rather...it works as you desire.
+May 31 21:34:36 <Majora320>	Good idea, I suppose
+May 31 21:36:36 *	Majora320 (~Majora320@unaffiliated/majora320) has left ("WeeChat 1.8")
+May 31 21:40:43 *	diegs_ (~diegs_@unaffiliated/diegs/x-9438211) has joined
+May 31 21:43:00 *	BubbatheVTOG (~quassel@pool-70-105-249-94.port.east.myfairpoint.net) has joined
+May 31 21:43:21 *	bubbathevtog_ has quit (Ping timeout: 245 seconds)
+May 31 21:44:27 *	hringriin___ (~hringriin@pD9E2F1F4.dip0.t-ipconnect.de) has joined
+May 31 21:45:19 *	azamatms has quit (Quit: ZNC 1.7.x-nightly-20170324-aefc97d0 - http://znc.in)
+May 31 21:47:56 *	hringriin__ has quit (Ping timeout: 260 seconds)
+May 31 21:49:06 *	azamatms (~azamat@unaffiliated/rog1121) has joined
+May 31 21:52:10 <cliff>	I have no idea how the config file interpreter works, but I would generally avoid special characters.  Hell...I avoid them everywhere.
+May 31 21:53:12 <cliff>	And you default sorting is going to be a hot mess....
+May 31 21:54:13 *	spider_x (~spider@unaffiliated/spider-x/x-5292382) has joined
+May 31 21:56:25 *	ulilili (~quassel@p5DC95D64.dip0.t-ipconnect.de) has joined
+May 31 21:59:07 *	isidore (~isidore@ACaen-651-1-77-204.w90-62.abo.wanadoo.fr) has joined
+May 31 21:59:35 *	ulili has quit (Ping timeout: 240 seconds)
+May 31 22:13:27 *	cwre has quit (Ping timeout: 240 seconds)
+May 31 22:14:36 *	Irishluck83 has quit (Ping timeout: 245 seconds)
+May 31 22:18:12 *	cwre (~bounced@ip156.ip-167-114-23.net) has joined
+May 31 22:22:13 *	isidore has quit (Quit: WeeChat 1.8)
+May 31 22:27:32 *	inddwtsn has quit (Quit: WeeChat 1.8)
+May 31 22:30:05 *	tunekey has quit (Ping timeout: 240 seconds)
+May 31 22:35:19 *	alex`` has quit (Quit: WeeChat 1.8)
+May 31 22:41:55 *	linuxmodder__ has quit (Quit: ZNC@2ProShells (check out @ https://icanhazshell.com))
+May 31 22:42:08 *	linuxmodder__ (linuxmodde@gateway/shell/on2pro/x-svtiudfgwpwdhcur) has joined
+May 31 22:43:29 *	chel has quit (Ping timeout: 240 seconds)
+May 31 22:47:27 *	alex`` (~alex@2a01cb000bb310000e31f98b4cdf4eae.ipv6.abo.wanadoo.fr) has joined
+May 31 22:47:27 *	diegs_ has quit (Ping timeout: 240 seconds)
+May 31 22:48:45 *	graspepper (~graspeppe@185.86.106.183) has joined
+May 31 22:50:23 *	solenodic has quit (Ping timeout: 255 seconds)
+May 31 22:54:42 *	AndChat-79476 (~AndChat79@2607:fb90:4ac:e8e2:41fa:ad69:a20:8c2b) has joined
+May 31 22:57:57 *	boomboxnation has quit (Ping timeout: 268 seconds)
+May 31 23:00:45 *	nujikl123 has quit (Ping timeout: 258 seconds)
+May 31 23:05:57 *	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has joined
+May 31 23:09:02 *	craigger has quit (Quit: bye)
+May 31 23:09:06 *	boomboxnation (~AndChat79@c-67-188-43-4.hsd1.ca.comcast.net) has joined
+May 31 23:09:49 *	firc5e1fe915 has quit (Ping timeout: 240 seconds)
+May 31 23:11:05 *	ZyX-I has quit (Ping timeout: 240 seconds)
+May 31 23:12:37 *	AndChat-79476 has quit (Ping timeout: 246 seconds)
+May 31 23:24:03 *	linuxmodder__ has quit (Quit: ZNC@2ProShells (check out @ https://icanhazshell.com))
+May 31 23:32:38 *	venmx (~pactadmin@185.69.145.14) has joined
+May 31 23:33:53 *	Vonter has quit (Ping timeout: 260 seconds)
+May 31 23:37:25 *	venmx has quit (Ping timeout: 268 seconds)
+May 31 23:39:16 *	ohaither has quit (Ping timeout: 268 seconds)
+May 31 23:50:10 *	callumstyan has quit (Remote host closed the connection)
+Jun 01 00:02:40 *	Neko` has quit (Quit: WeeChat 1.8)
+Jun 01 00:06:23 *	lukaso666 (~lukaso666@a01-nat.satkol.pl) has joined
+Jun 01 00:07:47 *	m0u (~m0u@unaffiliated/m0u) has joined
+Jun 01 00:09:22 *	johnny56 has quit (Ping timeout: 264 seconds)
+Jun 01 00:20:00 *	Vonter (~Vonter@106.51.225.220) has joined
+Jun 01 00:21:21 *	skontar (skontar@nat/redhat/x-ssuezakcxvslhujz) has joined
+Jun 01 00:44:56 *	jolange (~user@uh2ulnmpc29.desy.de) has joined
+Jun 01 00:51:37 *	tesseract (~tesseract@2a00:1028:83a2:66c6:5ee0:c5ff:fe71:efb2) has joined
+Jun 01 01:05:55 *	ponyrider has quit (Read error: Connection reset by peer)
+Jun 01 01:06:19 *	ponyrider (~cf2iqx@unaffiliated/ponyrider) has joined
+Jun 01 01:13:40 *	johnny56 (~johnny56@unaffiliated/johnny56) has joined
+Jun 01 01:19:42 *	michaelrose (~michael@75-172-1-48.tukw.qwest.net) has joined
+Jun 01 01:21:16 *	Vonter has quit (Ping timeout: 245 seconds)
+Jun 01 01:22:02 *	justan0theruser (~justanoth@unaffiliated/justanotheruser) has joined
+Jun 01 01:23:23 *	justanotheruser has quit (Ping timeout: 240 seconds)
+Jun 01 01:23:29 *	Vonter (~Vonter@49.207.52.66) has joined
+Jun 01 01:28:30 *	aarobc has quit (Quit: Connection closed for inactivity)
+Jun 01 01:36:16 *	tuxi3 (~conny@a89-183-16-144.net-htp.de) has joined
+Jun 01 01:54:15 *	lahol (~lahol@sirius.mathematik.tu-chemnitz.de) has joined
+Jun 01 02:03:39 *	bfernando (~bruno@185.23.92.11) has joined
+Jun 01 02:10:02 *	JesusFreak (~patrick@86.47.248.149) has joined
+Jun 01 02:27:28 *	skontar has quit (Remote host closed the connection)
+Jun 01 02:32:32 *	skontar (skontar@nat/redhat/x-uushvqslxbfgdetj) has joined
+Jun 01 02:33:13 *	irc-52251 (~weechat@gateway/tor-sasl/irc-5225225) has joined
+Jun 01 02:33:53 *	irc-5225225 has quit (Ping timeout: 248 seconds)
+Jun 01 02:34:01 *	irc-52251 is now known as irc-5225225
+Jun 01 02:36:34 *	emdete (~m@total-communication.vfnet.de) has joined
+Jun 01 02:43:20 *	im0nde (~im0nde@nat079040.nat.FH-Koeln.DE) has joined
+Jun 01 02:45:36 *	im0nde_ (~im0nde@nat079036.nat.FH-Koeln.DE) has joined
+Jun 01 02:48:08 *	im0nde has quit (Ping timeout: 260 seconds)
+Jun 01 02:48:11 *	im0nde_ is now known as im0nde
+Jun 01 02:50:08 *	ohaither (~manjaro-i@x4db40344.dyn.telefonica.de) has joined
+Jun 01 02:53:11 *	Xenguy has quit (Quit: leaving)
+Jun 01 02:58:33 *	jezza (~Jezza@62.112.9.166) has joined
+Jun 01 02:59:31 *	somis (~somis@149.56.153.183) has joined
+Jun 01 03:07:49 *	Ferus has quit (Remote host closed the connection)
+Jun 01 03:08:58 *	Ferus (ferus@qutebrowser/user/Ferus) has joined
+Jun 01 03:12:12 *	BenG83 (~BenG83@141.19.159.100) has joined
+Jun 01 03:15:27 *	GG_Phyduck_Away is now known as GG_Phyduck
+Jun 01 03:18:08 *	im0nde has quit (Ping timeout: 255 seconds)
+Jun 01 03:19:57 *	im0nde (~im0nde@nat079040.nat.FH-Koeln.DE) has joined
+Jun 01 03:22:37 *	tuxi3 has quit (Quit: Leaving)
+Jun 01 03:25:47 *	m0u has quit (Ping timeout: 255 seconds)
+Jun 01 03:30:06 *	xlaech has quit (Remote host closed the connection)
+Jun 01 03:33:04 *	venmx (~pactadmin@185.69.145.14) has joined
+Jun 01 03:37:56 *	venmx has quit (Ping timeout: 260 seconds)
+Jun 01 03:47:05 *	Tatsh has quit (Ping timeout: 240 seconds)
+Jun 01 03:52:01 *	someguyfromhell (5d577da8@gateway/web/cgi-irc/kiwiirc.com/ip.93.87.125.168) has joined
+Jun 01 03:53:03 <someguyfromhell>	Is there a variable in i3status for WiFi strength in dBm?
+Jun 01 03:54:06 *	Tatsh (~cartexqui@ec2-54-148-122-16.us-west-2.compute.amazonaws.com) has joined
+Jun 01 04:02:53 *	michaelrose has quit (Ping timeout: 240 seconds)
+Jun 01 04:03:53 *	nimaje is now known as Guest38399
+Jun 01 04:03:53 *	Guest38399 has quit (Killed (weber.freenode.net (Nickname regained by services)))
+Jun 01 04:03:59 *	nimaje (~nimaje@p5485E3CC.dip0.t-ipconnect.de) has joined
+Jun 01 04:08:45 *	someguyfromhell_ (~androirc@212.200.65.178) has joined
+Jun 01 04:09:10 *	someguyfromhell has quit (Quit: Leaving)
+Jun 01 04:09:24 *	someguyfromhell_ is now known as someguyfromhell
+Jun 01 04:10:27 *	globetrotterdk has quit (Ping timeout: 240 seconds)
+Jun 01 04:10:51 *	nona (~nona@catv-89-132-115-162.catv.broadband.hu) has joined
+Jun 01 04:10:53 *	cookiebow has quit (Ping timeout: 240 seconds)
+Jun 01 04:11:04 *	globetrotterdk (~androirc@109.57.47.161.mobile.3.dk) has joined
+Jun 01 04:11:34 *	solenodic (~solenodic@unaffiliated/solenodic) has joined
+Jun 01 04:14:31 *	cookiebow (~master@193.180.119.136) has joined
+Jun 01 04:15:26 *	Achylles (~Achylles@2804:431:d724:1a85:fdbb:eac8:2dcd:9dfb) has joined
+Jun 01 04:18:31 *	someguyfromhell has quit (Ping timeout: 246 seconds)
+Jun 01 04:25:41 <throstur>	how od I change the font that i3 uses? specifically the size and such? I tried changing xresources and xrdb it but it only changed terminal
+Jun 01 04:26:34 <brainwash>	throstur: https://i3wm.org/docs/userguide.html#fonts
+Jun 01 04:26:41 <throstur>	thanks
+Jun 01 04:27:02 <brainwash>	:)
+Jun 01 04:27:32 <throstur>	brainwash: doesn't seem to affect the status bar, which is what I was actually interested in (sorry)
+Jun 01 04:28:02 <throstur>	but i found that in there too, thanks!
+Jun 01 04:28:49 <brainwash>	ah cool
+Jun 01 04:30:07 <ohaither>	anybody in here successfully using gestures on a trackpad? I'm specifically interested in 2 fingers rotation and tiptap. I'm checking libinput-gestures but probably won't be able to use it under VBox?
+Jun 01 04:31:03 *	nona has quit (Remote host closed the connection)
+Jun 01 04:31:04 <ohaither>	also, any recommended way to re-map keys? something like Alt+Ctrl = Delete
+Jun 01 04:32:29 <throstur>	ohaither: you should change your keymappings with an xorg.conf.d config file
+Jun 01 04:32:59 <throstur>	ohaither: hopefully there is an option that does what you want already, eg. I use Option "XKbOptions" "caps:escape,altwin:swap_lalt_lwin"
+Jun 01 04:33:20 <ohaither>	throstur: I'll look into it, thanks!
+Jun 01 04:33:51 <ohaither>	throstur, by any chance do you know if it's possible to map the Fn key ?
+Jun 01 04:33:54 <throstur>	ohaither: I don't know if alt+ctrl -> delete is something that many people would use though so don't know about that
+Jun 01 04:34:17 <throstur>	ohaither: the Fn key (as far as my knowledge goes) only works at a hardware level, i.e. it acts as a switch for other keys at the hardware level, and as such produces no keycode
+Jun 01 04:34:35 <throstur>	ohaither: you can check whether it does inded produce a keycode (highly unlikely) using a terminal tool that echoes all keystrokes
+Jun 01 04:34:54 <throstur>	ohaither: but what you *can* do, is remap fn and ctrl in BIOS
+Jun 01 04:35:22 <ohaither>	throstur, sure, it was just an example. I'm actually trying to achieve Cmd+Fn = Foward Delete. I do it with Karabiner under OSX 10.11 and I have a quite strong muscle memory on it... would prefer not having to give up on it
+Jun 01 04:35:54 <throstur>	do you use the same hardware? if it works on $placeholder it works on linux
+Jun 01 04:36:26 <ohaither>	yes, same hardware, but actually running manjaro-i3 under VBox, if it makes any difference
+Jun 01 04:38:31 <ohaither>	throstur, I might be confused, but I think manjaro-i3 doesn't use xorg but Wayland. Does it make any difference?
+Jun 01 04:39:26 *	nona (~nona@catv-89-132-115-162.catv.broadband.hu) has joined
+Jun 01 04:39:33 <throstur>	ohaither: I know about neither tbh
+Jun 01 04:39:47 <ohaither>	np, thanks anyways :)
+Jun 01 04:39:56 <throstur>	ohaither: basically you need to figure out what your keyboard is doing on a hardware level to change the behavior on the software level
+Jun 01 04:40:09 <throstur>	once you know this it's just a matter of connecting the dots so to speak
+Jun 01 04:41:24 <ohaither>	sure thing, I've been digging into this since Monday. Totally looking forward to ditch the MB and move to i3 fulltime on a ThinkPad
+Jun 01 04:41:54 <throstur>	I can really recommend that setup
+Jun 01 04:42:12 <throstur>	the pointing stick (red dot mouse) REALLY synergizes with 99% keyboard use
+Jun 01 04:42:21 <throstur>	and i3 supports that soooo well
+Jun 01 04:42:37 <ohaither>	I know! I had 2 or 3 thinkpads in the past, I love the 'clit' :P
+Jun 01 04:43:44 <throstur>	hehe... we call it that too
+Jun 01 04:43:59 <throstur>	most underrated piece of hardware in computing today
+Jun 01 04:44:23 <ohaither>	what I do like about the MB's trackpad, and honestly was one of the main reasons why I switched few years ago, is the gestures I configured with BetterTouchTool and how smooth it behaves
+Jun 01 04:44:49 <ohaither>	exactly, ppl don't know what they're missing
+Jun 01 05:05:09 *	ralpheeee (~ralpheeee@gateway/vpn/privateinternetaccess/ralpheeee) has joined
+Jun 01 05:08:54 *	untitled1 (~edge563@unaffiliated/edge563) has joined
+Jun 01 05:18:35 *	numerobis (~urbain@2001:630:12:10c0:e6d0:2c7d:48fa:6b9f) has joined
+Jun 01 05:19:59 <numerobis>	Hi! Is it possible to change the colors of windows (title, border, ..) in i3 depending on the application. (In my case, I would like the browser windows, active or inactive, to have a different color from the rest.) Thanks!
+Jun 01 05:21:06 <okraits>	numerobis: No, that's not possible - the colors are defined for all windows, depending on the state
+Jun 01 05:21:18 <numerobis>	Thanks!
+Jun 01 05:21:39 *	bnwilson_ (~bnwilson@107-1-97-172-ip-static.hfc.comcastbusiness.net) has joined
+Jun 01 05:30:36 *	robattila256 has quit (Ping timeout: 258 seconds)
+Jun 01 05:38:47 *	Vonter has quit (Ping timeout: 268 seconds)
+Jun 01 05:40:06 *	Vonter (~Vonter@106.51.23.83) has joined
+Jun 01 05:45:49 *	MessedUpHare (~MessedUpH@213.205.198.206) has joined
+Jun 01 05:47:37 *	HardlySeen (~Gathering@unaffiliated/gatheringknowleg) has joined
+Jun 01 05:48:08 *	tuxlovesyou has quit (Ping timeout: 260 seconds)
+Jun 01 06:07:19 *	nona has quit (Remote host closed the connection)
+Jun 01 06:07:51 *	wyvenspur (~476b943@tor-relay.zwiebeltoralf.de) has joined
+Jun 01 06:07:58 *	wyvenspur has quit (Client Quit)
+Jun 01 06:11:03 *	ponyrider has quit (Quit: WeeChat 1.8)
+Jun 01 06:11:38 *	ralpheeee has quit (Quit: WeeChat 1.8)
+Jun 01 06:11:58 *	ralpheeee (~ralpheeee@gateway/vpn/privateinternetaccess/ralpheeee) has joined
+Jun 01 06:14:53 *	Vonter has quit (Ping timeout: 240 seconds)
+Jun 01 06:17:07 *	Vonter (~Vonter@49.207.51.180) has joined
+Jun 01 06:24:45 *	MessedUpHare has quit (Remote host closed the connection)
+Jun 01 06:25:03 *	MessedUpHare (~MessedUpH@213.205.198.206) has joined
+Jun 01 06:29:21 *	wsdjeg (~wsdjeg@114.225.182.15) has joined
+Jun 01 06:33:03 *	venmx (~pactadmin@185.69.145.14) has joined
+Jun 01 06:36:51 *	ralpheeee has quit (Quit: WeeChat 1.8)
+Jun 01 06:37:06 *	im0nde has quit (Ping timeout: 245 seconds)
+Jun 01 06:37:46 *	im0nde (~im0nde@nat079039.nat.FH-Koeln.DE) has joined
+Jun 01 06:37:56 *	venmx has quit (Ping timeout: 255 seconds)
+Jun 01 06:38:24 <nimaje>	ohaither: well, they can't run i3 on Wayland, as i3 only supports X and will not support Wayland (there is at least sway as i3 alternative for wayland), also that Xwayland thing can't let you run a X-WM on wayland :)
+Jun 01 06:38:26 *	enhydra has quit (Remote host closed the connection)
+Jun 01 06:39:55 *	kajzer has quit (Ping timeout: 260 seconds)
+Jun 01 06:40:22 *	im0nde_ (~im0nde@nat079055.nat.FH-Koeln.DE) has joined
+Jun 01 06:41:42 *	kajzer (~kajzer@unaffiliated/kajzer) has joined
+Jun 01 06:42:26 *	im0nde has quit (Ping timeout: 255 seconds)
+Jun 01 06:42:28 *	im0nde_ is now known as im0nde
+Jun 01 06:43:10 *	m0u (~m0u@250.red-79-159-194.dynamicip.rima-tde.net) has joined
+Jun 01 06:43:10 *	m0u has quit (Changing host)
+Jun 01 06:43:10 *	m0u (~m0u@unaffiliated/m0u) has joined
+Jun 01 06:44:04 <ohaither>	nimaje, ah, I see. I was confused because Wayland came with manjaro-i3
+Jun 01 06:46:35 *	im0nde has quit (Ping timeout: 240 seconds)
+Jun 01 06:48:21 *	ralpheeee (~ralpheeee@gateway/vpn/privateinternetaccess/ralpheeee) has joined
+Jun 01 06:52:07 *	nujikl123 (~quest1@unaffiliated/nujikl123) has joined
+Jun 01 06:53:44 *	netvor_ has quit (Quit: gone)
+Jun 01 06:54:01 *	eremitah has quit (Ping timeout: 268 seconds)
+Jun 01 06:55:14 *	eremitah (~int@unaffiliated/eremitah) has joined
+Jun 01 06:56:21 *	Achylles has quit (Remote host closed the connection)
+Jun 01 06:56:27 *	firc78562a05 (~ksjk1998@2602:306:36d0:8ad0:785d:91af:a9a4:d687) has joined
+Jun 01 07:01:26 *	MessedUpHare has quit (Quit: Leaving)
+Jun 01 07:01:27 *	mtothem (~mtothem@h-4-126.a392.priv.bahnhof.se) has joined
+Jun 01 07:01:46 *	mtothem is now known as MtotheM
+Jun 01 07:01:55 *	skontar_ (skontar@nat/redhat/x-bljpmdfgjwvktjol) has joined
+Jun 01 07:02:04 *	chel (~chel@CPE60a44cef53f0-CMc8fb26477c91.cpe.net.cable.rogers.com) has joined
+Jun 01 07:02:27 *	Improvotter (~Improvott@178-117-186-168.access.telenet.be) has joined
+Jun 01 07:03:23 *	skontar has quit (Ping timeout: 240 seconds)
+Jun 01 07:04:31 *	Achylles (~Achylles@200-153-230-42.dsl.telesp.net.br) has joined
+Jun 01 07:04:38 <Improvotter>	Is it possible to make it so when I click a link somewhere, that it automatically goes to the workspace of the browser where it is opened? Or is this not i3's job?
+Jun 01 07:04:59 <Improvotter>	Currently, it just sets the browser and the workspace it's in to urgent.
+Jun 01 07:07:03 <MtotheM>	Improvotter: you can do "assign [Class="Firefox"] $workspace2" for example
+Jun 01 07:07:04 *	MessedUpHare (~MessedUpH@213.205.198.206) has joined
+Jun 01 07:07:09 <MtotheM>	That forces it to launch in workspace 2
+Jun 01 07:08:24 *	ralpheeee has quit (Quit: Leaving)
+Jun 01 07:08:47 <MtotheM>	https://pastebin.com/FkkrZU4f
+Jun 01 07:08:56 *	ralpheeee (~ralpheeee@gateway/vpn/privateinternetaccess/ralpheeee) has joined
+Jun 01 07:11:13 <Improvotter>	MtotheM: yes, that's what I have for Chrome. But if a link is opened, it's opened in firefox in that workspace but my workspace doesn't change to that workspace.
+Jun 01 07:11:24 <Improvotter>	in the browser*
+Jun 01 07:12:00 <okraits>	Improvotter: This might be the solution: http://i3wm.org/docs/userguide.html#focus_on_window_activation
+Jun 01 07:12:05 <nimaje>	Improvotter: use focus_on_window_activation
+Jun 01 07:12:19 <MtotheM>	Yeah you want to use focus for that
+Jun 01 07:13:25 <Improvotter>	okraits: thanks! That works :)
+Jun 01 07:14:41 <okraits>	Improvotter: You're welcome :)
+Jun 01 07:15:15 *	MessedUpHare has quit (Ping timeout: 258 seconds)
+Jun 01 07:16:06 *	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru) has joined
+Jun 01 07:19:34 *	nelder has quit (Quit: Leaving)
+Jun 01 07:21:47 *	nelder (~noname@unaffiliated/nelder) has joined
+Jun 01 07:25:46 *	bfernando has quit (Ping timeout: 246 seconds)
+Jun 01 07:27:24 *	bfernando (~bruno@185.23.92.11) has joined
+Jun 01 07:27:57 *	gloat has quit (Ping timeout: 240 seconds)
+Jun 01 07:29:33 *	ralpheeee has quit (Quit: WeeChat 1.8)
+Jun 01 07:30:52 *	datasmurf has quit (Read error: No route to host)
+Jun 01 07:31:26 *	datasmurf (~datasmurf@unaffiliated/datasmurf) has joined
+Jun 01 07:35:00 *	ralpheeee (~ralpheeee@gateway/vpn/privateinternetaccess/ralpheeee) has joined
+Jun 01 07:35:13 *	datasmurf has quit (Read error: No route to host)
+Jun 01 07:35:47 *	datasmurf (~datasmurf@unaffiliated/datasmurf) has joined
+Jun 01 07:41:08 *	datasmurf has quit (Read error: Connection reset by peer)
+Jun 01 07:42:39 *	datasmurf (~datasmurf@unaffiliated/datasmurf) has joined
+Jun 01 07:52:30 *	skontar_ has quit (Remote host closed the connection)
+Jun 01 07:54:27 *	MtotheM has quit (Ping timeout: 268 seconds)
+Jun 01 08:03:13 *	BenG83_ (~BenG83@141.19.87.21) has joined
+Jun 01 08:04:33 *	wsdjeg has quit (Ping timeout: 272 seconds)
+Jun 01 08:06:47 *	BenG83 has quit (Ping timeout: 268 seconds)
+Jun 01 08:08:17 *	fitouf (~fitouf@132.208.12.88) has joined
+Jun 01 08:10:08 *	im0nde (~im0nde@loiacono2.fo.FH-Koeln.DE) has joined
+Jun 01 08:13:52 *	ralpheeee has quit (Quit: WeeChat 1.8)
+Jun 01 08:21:06 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:b69e:47:99d7:c456) has joined
+Jun 01 08:21:06 *	ralpheeee (~ralpheeee@pd95c7ee2.dip0.t-ipconnect.de) has joined
+Jun 01 08:36:22 *	ralpheeee has quit (Ping timeout: 255 seconds)
+Jun 01 08:41:27 *	emdete has quit (Ping timeout: 240 seconds)
+Jun 01 08:41:36 *	tuxlovesyou (~supremeov@andrewssh.com) has joined
+Jun 01 08:48:39 *	ralpheeee (~ralpheeee@gateway/vpn/privateinternetaccess/ralpheeee) has joined
+Jun 01 08:48:58 *	lahol has quit (Quit: leaving)
+Jun 01 08:52:06 *	ZyX-I has quit (Ping timeout: 240 seconds)
+Jun 01 08:52:27 *	lukaso666 has quit (Ping timeout: 240 seconds)
+Jun 01 08:52:49 <numerobis>	i/close
+Jun 01 08:52:51 *	numerobis (~urbain@2001:630:12:10c0:e6d0:2c7d:48fa:6b9f) has left ("WeeChat 1.8")
+Jun 01 08:55:20 *	indeedwatson (~yama@181.92.145.183) has joined
+Jun 01 09:00:25 *	algoban (~al@221.pool85-48-41.dynamic.orange.es) has joined
+Jun 01 09:04:35 *	diegs_ (~diegs_@unaffiliated/diegs/x-9438211) has joined
+Jun 01 09:12:43 *	ralpheeee has quit (Quit: WeeChat 1.8)
+Jun 01 09:22:48 *	im0nde has quit (Ping timeout: 260 seconds)
+Jun 01 09:24:28 *	im0nde (~im0nde@loiacono2.fo.FH-Koeln.DE) has joined
+Jun 01 09:25:17 *	fitouf has quit (Quit: WeeChat 1.8)
+Jun 01 09:25:51 *	iconz (~iconz@host86-143-191-206.range86-143.btcentralplus.com) has joined
+Jun 01 09:26:58 *	fitouf (~fitouf@132.208.12.88) has joined
+Jun 01 09:27:28 *	fitouf has quit (Client Quit)
+Jun 01 09:27:34 *	wsdjeg (~wsdjeg@114.225.182.15) has joined
+Jun 01 09:29:09 *	nujikl123 has quit (Quit: WeeChat 1.7.1)
+Jun 01 09:29:20 *	iconz has quit (Client Quit)
+Jun 01 09:30:07 *	iconz (~iconz@host86-143-191-206.range86-143.btcentralplus.com) has joined
+Jun 01 09:34:12 *	ralpheeee (~ralpheeee@gateway/vpn/privateinternetaccess/ralpheeee) has joined
+Jun 01 09:40:35 *	ralpheeee has quit (Quit: WeeChat 1.8)
+Jun 01 09:40:36 *	holden- (~username@unaffiliated/holden-) has joined
+Jun 01 09:57:05 *	callumstyan (~callum@S0106a84e3fc07df3.vc.shawcable.net) has joined
+Jun 01 09:57:56 *	PatrolDoom has quit (Ping timeout: 245 seconds)
+Jun 01 10:00:05 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:929b:b85b:fed8:4490) has joined
+Jun 01 10:02:03 *	Zaunei (~quassel@2a01:4f8:161:4347:51:10:0:88) has left
+Jun 01 10:09:58 *	PatrolDoom has quit (Ping timeout: 255 seconds)
+Jun 01 10:10:11 *	Neko` (~Neko`@unaffiliated/chiaki) has joined
+Jun 01 10:10:41 *	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru) has joined
+Jun 01 10:11:27 *	im0nde has quit (Ping timeout: 240 seconds)
+Jun 01 10:16:43 *	diegs_ has quit (Ping timeout: 260 seconds)
+Jun 01 10:18:34 *	ralpheeee (~ralpheeee@gateway/vpn/privateinternetaccess/ralpheeee) has joined
+Jun 01 10:18:48 *	chel has quit (Ping timeout: 260 seconds)
+Jun 01 10:21:08 *	kalbasit has quit (Ping timeout: 260 seconds)
+Jun 01 10:23:03 *	tunekey (~tunekey@unaffiliated/tunekey) has joined
+Jun 01 10:23:06 *	Amado has quit (Ping timeout: 240 seconds)
+Jun 01 10:24:53 *	wsdjeg has quit (Ping timeout: 260 seconds)
+Jun 01 10:27:12 *	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined
+Jun 01 10:28:26 *	Improvotter has quit (Remote host closed the connection)
+Jun 01 10:28:49 *	bfernando has quit (Quit: Quitte)
+Jun 01 10:31:40 *	baldfat (~mtelesha@64-121-42-48.c3-0.tlg-ubr1.atw-tlg.pa.cable.rcn.com) has joined
+Jun 01 10:31:40 *	baldfat has quit (Changing host)
+Jun 01 10:31:40 *	baldfat (~mtelesha@unaffiliated/mtelesha) has joined
+Jun 01 10:38:50 *	iconz has quit (Quit: leaving)
+Jun 01 10:40:25 *	JesusFreak has quit (Quit: WeeChat 1.8)
+Jun 01 10:41:23 *	BenG83_ has quit (Quit: Leaving)
+Jun 01 10:43:49 *	ayjay_t has quit (Read error: Connection reset by peer)
+Jun 01 10:44:14 *	ayjay_t (ajp@71-88-60-246.static.nwtn.ct.charter.com) has joined
+Jun 01 10:47:16 *	silverhom (~silverhom@c83-252-236-239.bredband.comhem.se) has joined
+Jun 01 10:50:22 *	ralpheeee has quit (Quit: WeeChat 1.8)
+Jun 01 10:52:44 *	xyzzy[m] (xyzzychatz@gateway/shell/matrix.org/x-kpptchkyvoygjbxu) has joined
+Jun 01 10:54:35 *	tesseract has quit (Quit: Leaving)
+Jun 01 10:54:49 *	adminseodwn (~archer@gateway/tor-sasl/remcwo9o) has joined
+Jun 01 10:55:57 *	ZyX-I has quit (Ping timeout: 240 seconds)
+Jun 01 10:57:29 *	diegs_ (~diegs_@unaffiliated/diegs/x-9438211) has joined
+Jun 01 10:58:46 *	choru (~choru@78-56-154-238.static.zebra.lt) has joined
+Jun 01 11:03:29 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:929b:b85b:fed8:4490) has joined
+Jun 01 11:03:34 *	PatrolDoom has quit (Client Quit)
+Jun 01 11:04:24 *	kw21 (~kw21@D978E830.cm-3-1d.dynamic.ziggo.nl) has joined
+Jun 01 11:05:12 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:929b:b85b:fed8:4490) has joined
+Jun 01 11:05:45 *	PatrolDoom has quit (Client Quit)
+Jun 01 11:06:00 *	DoomPatrol (~NilesCaul@2602:306:367a:a5f0:929b:b85b:fed8:4490) has joined
+Jun 01 11:06:20 *	DoomPatrol has quit (Client Quit)
+Jun 01 11:06:37 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:929b:b85b:fed8:4490) has joined
+Jun 01 11:09:01 *	notis (~notis@178.128.16.229.dsl.dyn.forthnet.gr) has joined
+Jun 01 11:11:24 *	xyzzy31 (~user@2a02:908:4c4:b9e0:e1b1:8816:9da7:976e) has joined
+Jun 01 11:11:27 *	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru) has joined
+Jun 01 11:12:58 *	kalbasit has quit (Ping timeout: 255 seconds)
+Jun 01 11:15:45 *	callumstyan has quit (Remote host closed the connection)
+Jun 01 11:16:08 *	linux_dream (~isaac@unaffiliated/linux-dream/x-5839402) has joined
+Jun 01 11:19:45 *	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined
+Jun 01 11:21:00 *	xyzzy31 has quit (Quit: WeeChat 1.8)
+Jun 01 11:30:21 *	callumstyan (~callum@S0106a84e3fc07df3.vc.shawcable.net) has joined
+Jun 01 11:31:47 *	alexpbrown (~alex.brow@38.97.68.126) has joined
+Jun 01 11:37:00 *	chainsaw10 (~chainsaw1@unaffiliated/chainsaw10) has joined
+Jun 01 11:38:22 <chainsaw10>	Has anyone had issues with virtualbox and i3? Virtualbox doesn't seem to want to draw its whole area, leaving me with about a third of its area -- and scrollbars.
+Jun 01 11:38:35 <qball>	yeah known
+Jun 01 11:38:52 <qball>	not sure if there is a solution, it is annoying enough
+Jun 01 11:38:55 *	qball removes channel operator status from qball
+Jun 01 11:39:22 <chainsaw10>	I had it mostly working by toggling fullscreen, and that jogged it into working, but I apparently did something to annoy it, and that doesn't work anymore.
+Jun 01 11:41:16 <nimaje>	chainsaw10: that is a bug in qt https://bugreports.qt.io/browse/QTBUG-57608 no idea if they work on it
+Jun 01 11:41:30 *	PatrolDoom has quit (Quit: WeeChat 1.8)
+Jun 01 11:41:48 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:929b:b85b:fed8:4490) has joined
+Jun 01 11:41:53 *	janemba has quit (Ping timeout: 260 seconds)
+Jun 01 11:42:04 <ScottE>	Does disabling hardware acceleration in graphics settings for the VM help? Are the guest extensions (whatever they are called) installed? Worth checking, but hardly educated advice. :-)
+Jun 01 11:42:08 *	fitouf (~fitouf@132.208.12.88) has joined
+Jun 01 11:44:06 <chainsaw10>	Thanks for the bug link. Kinda frustrating there's no easy fix; I was hoping someone found a workaround.
+Jun 01 11:44:27 <chainsaw10>	I'll fiddle with hardware acceleration for a few min, just in case that works
+Jun 01 11:44:31 <chainsaw10>	I do have the guest additions
+Jun 01 11:44:33 <netvor>	hi guys, can i enable/disable a particular bar?  my custom bar is called 'clementine' and "bar mode clementine invisible" throws syntax error
+Jun 01 11:45:50 <netvor>	oh I got it
+Jun 01 11:46:10 <netvor>	it's "i3-msg bar mode invisible clementine" :)
+Jun 01 11:46:46 <chainsaw10>	ScottE, disabling 2d video acceleration seems to help. If I double tap Mod+F real quick, I'm able to trick it into working somewhat decently. Thanks for the suggestion!
+Jun 01 11:48:44 <ScottE>	OK, good chainsaw10! Glad it helped, it was a random guess but I vaguely remember seeing something like it before
+**** BEGIN LOGGING AT Thu Jun  1 14:26:50 2017
+
+Jun 01 14:26:50 *	Now talking on #i3
+Jun 01 14:26:50 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+Jun 01 14:26:50 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+Jun 01 14:27:21 <squigz>	lol
+Jun 01 14:27:24 <squigz>	It's always morning
+Jun 01 14:27:46 <freem_>	no, not when one leaves. I likes the idea of elastic time
+Jun 01 14:27:51 <freem_>	like*
+Jun 01 14:27:52 <qball>	w*nker
+Jun 01 14:28:04 <squigz>	No swearing, qball
+Jun 01 14:28:09 <squigz>	lmfao
+Jun 01 14:28:29 <xmaka>	hu !
+Jun 01 14:28:57 <qball>	I am watching london irish
+Jun 01 14:29:17 <freem_>	london or irish?
+Jun 01 14:29:34 <qball>	https://www.youtube.com/watch?v=GUaykGQw9mc&list=PLPCjFYK2syzpVewTD8svMA_wghHfw-a77&index=3
+Jun 01 14:29:41 <squigz>	qball: Sorry, I can't abuse you in #rofi so I gotta do it here
+Jun 01 14:29:43 <ZyX-I>	Is Eyo only doubling greetings?
+Jun 01 14:29:51 <squigz>	Eyo responds to greetings
+Jun 01 14:30:04 <freem_>	oh, it's a video... I thought it was a case of great strabism for a time
+Jun 01 14:30:06 <qball>	Hello
+Jun 01 14:30:08 <squigz>	Some users want a response to their greetings before they will ask their question
+Jun 01 14:30:10 <Eyo>	hello!
+Jun 01 14:30:22 <ZyX-I>	squigz: I mean, it is the *only* purpose of the bot?
+Jun 01 14:30:27 <squigz>	I think so
+Jun 01 14:30:53 <freem_>	a bot to let people think geeks are polite, nice idea!
+Jun 01 14:32:30 <ZyX-I>	Why it does not use a capital letter?
+Jun 01 14:32:47 <callumstyan>	capital H would be too polite
+Jun 01 14:32:55 <squigz>	exactly
+Jun 01 14:33:03 *	adminseodwn has quit (Quit: Leaving)
+Jun 01 14:33:03 <squigz>	What else do you want, a smiley?
+Jun 01 14:33:05 <squigz>	lol
+Jun 01 14:33:06 <callumstyan>	has to be nice, but still casual
+Jun 01 14:33:09 <callumstyan>	otherwise people will catch on
+Jun 01 14:33:30 <freem_>	true
+Jun 01 14:33:40 <squigz>	It took me am embarassingly long time to catch on that Eyo is a bot...
+Jun 01 14:33:42 *	emdete (~m@total-communication.vfnet.de) has joined
+Jun 01 14:33:58 <freem_>	(damn, I just love irc)
+Jun 01 14:34:38 <qball>	squigz still haven't found out I am a bot.
+Jun 01 14:34:41 <ZyX-I>	I normally follow all English rules I know. Up to using proper “quotes”. Still have not setup mdash for some reason though.
+Jun 01 14:34:54 *	adminseodwn (~archer@gateway/tor-sasl/remcwo9o) has joined
+Jun 01 14:35:14 <qball>	English rules? what rules?
+Jun 01 14:35:16 <ZyX-I>	Was never confused as a bot so far.
+Jun 01 14:36:07 <qball>	hello
+Jun 01 14:36:12 <Eyo>	hello!
+Jun 01 14:36:41 <ZyX-I>	Language rules.  Though I just realized, I should write more space after sentence ends and I almost never do this.
+Jun 01 14:36:53 *	ohaither has quit (Ping timeout: 260 seconds)
+Jun 01 14:36:57 <qball>	What english language rules?
+Jun 01 14:37:05 <squigz>	1 space is fine.
+Jun 01 14:38:35 <callumstyan>	pretty sure the 2 spaces after a period thing is dead
+Jun 01 14:39:10 <freem_>	ZyX-I: I guess someone should invent and IRC client that translate LaTeX into irc in real time
+Jun 01 14:40:07 *	venmx has quit (Ping timeout: 260 seconds)
+Jun 01 14:40:11 <freem_>	on the other hand, wouldn't it be a pain to write latex stuff for instant messages?
+Jun 01 14:40:30 <ZyX-I>	callumstyan: Vim help still uses that.  Have not seen it in other places.  Not sure about LaTeX, but this system is supposed to do proper spacing automatically.
+Jun 01 14:41:00 <callumstyan>	ah you mean language parsing rules
+Jun 01 14:41:30 <callumstyan>	I thought we were talking about like, actually writing English sentences for papers or some shit
+Jun 01 14:41:43 <freem_>	Proper typography, I think. Depending on headers. I've no clue about the proper typo' in my native language, so in english, it's obviously worse
+Jun 01 14:41:56 <ZyX-I>	callumstyan: These are typography rules.  Though I know Russian ones better.  Typography applies to every place where text is displayed, not only paper.
+Jun 01 14:42:13 *	mstruebing (~mstruebin@p200300E3DBCC2DDC3AB1DBFFFEB33649.dip0.t-ipconnect.de) has joined
+Jun 01 14:42:30 *	pylbrecht has quit (Quit: Segmentation fault (core dumped))
+Jun 01 14:42:38 <callumstyan>	I was called out in university for writing papers and using 2 spaces after a period
+Jun 01 14:42:44 <callumstyan>	1 space is the standard now apparently
+Jun 01 14:42:45 <freem_>	really?
+Jun 01 14:43:03 <freem_>	I mean, 2 spaces was the english norm?
+Jun 01 14:43:22 <freem_>	maybe it's about the length of the spaces?
+Jun 01 14:44:04 <callumstyan>	yeah, I was taught 2 spaces in highschool
+Jun 01 14:44:15 <callumstyan>	and then it was 1 in university
+Jun 01 14:44:54 <ZyX-I>	freem_: It should be a “length of the space between sentences”, but as in most places you write text you can’t actually define this value you have to emulate.
+Jun 01 14:45:21 <qball>	hmm
+Jun 01 14:45:33 <freem_>	Oh. I've read here or there that there are unicode characters that are actually just spaces with different size?
+Jun 01 14:45:44 *	PatrolDoom has quit (Ping timeout: 255 seconds)
+Jun 01 14:46:16 <freem_>	or unbreakable spaces? (sorry for bad orthograph, please correct me if possible)
+Jun 01 14:46:51 <ZyX-I>	callumstyan: You are unlucky.  When I was asking my supervisor of studies about following Russian national standards he advised to scratch that.
+Jun 01 14:47:51 <ZyX-I>	freem_: Unicode has many weird spaces.  I used U+FEFF ZERO-WIDTH NO-BREAK SPACE to bypass some chat’s anti-harrassment system.
+Jun 01 14:48:07 <freem_>	huhu
+Jun 01 14:48:19 <freem_>	nice trick
+Jun 01 14:48:52 <ZyX-I>	freem_: Basically there are spaces of different length, unbreakable spaces, zero-width spaces (AFAIR there is also a breakable zero-width one).
+Jun 01 14:49:27 <freem_>	I wonder what might be the purpose of 0-width space?
+Jun 01 14:49:33 <freem_>	wasting ram?
+Jun 01 14:50:54 <ZyX-I>	freem_: Bypass anti-harassment system?  The chat I was talking about has (had? Not playing that anymore) some problems even with numbers 89 and 64.
+Jun 01 14:51:45 <freem_>	I doubt unicode guys had that kind of things in mind... if they had, then, I might start questionning that standard someday
+Jun 01 14:52:27 *	frakturfreak has quit (Quit: WeeChat 1.8)
+Jun 01 14:52:30 <ZyX-I>	freem_: They have a pile of poo.  I would really more like to see powerline symbols imported then that.
+Jun 01 14:52:37 <freem_>	poo?
+Jun 01 14:52:56 <freem_>	powerline symbols?
+Jun 01 14:53:18 <ZyX-I>	U+1F4A9 PILE OF POO emoji.
+Jun 01 14:53:50 <qball>	💩
+Jun 01 14:53:58 <freem_>	ah. Emojis. Well. Yes. That's pretty stupid for sure, especially since emojis where first combinations of caracters
+Jun 01 14:54:09 <freem_>	-.-
+Jun 01 14:54:31 <qball>	💩
+Jun 01 14:54:33 <qball>	hmm
+Jun 01 14:54:44 <freem_>	ok, I'll probably start to question the standard sooner or later.
+Jun 01 14:54:58 <freem_>	still, what could be powerline symbols?
+Jun 01 14:54:58 <ZyX-I>	freem_: Powerline symbols are that: https://github.com/powerline/powerline, see screenshots (arrows and > there).  BTW, have i3 bar support there, though it appeared to start working only after I switched to i3 myself.
+Jun 01 14:55:46 <freem_>	ah. Yes. Much more useful than crappy emoticrap
+Jun 01 14:55:49 <ZyX-I>	freem_: These are in private use area, so unless you have powerline fonts (some fonts like terminus have adopted the glyphs into upstream) it is pointless.
+Jun 01 14:56:07 <ZyX-I>	* I mean, pointless to post these symbols here.
+Jun 01 14:56:16 <freem_>	understood
+Jun 01 14:56:40 <qball>	🍵
+Jun 01 14:57:08 <nimaje>	well, zero-width space is for "that is normally together, but if you need to break it, break it here" (not sure for what the ZERO-WIDTH NO-BREAK SPACE is)
+Jun 01 14:57:21 *	alex`` has quit (Quit: WeeChat 1.8)
+Jun 01 14:57:26 *	chainsaw10 has quit (Ping timeout: 255 seconds)
+Jun 01 14:57:42 <ZyX-I>	freem_: And back to zero-width spaces: they should be useful for two things: state “line may be broken here if needed” and state “line must not be broken here”.
+Jun 01 14:57:49 <freem_>	oh, it's an advice for the soft... still seems useless to me
+Jun 01 14:58:26 <freem_>	will you write that char between every other real ones? duh!
+Jun 01 14:59:11 *	Irishluck83 has quit (Ping timeout: 245 seconds)
+Jun 01 15:00:15 <ZyX-I>	freem_: To get a perfect view of LaTeX files you sometimes need to give such hints.  Except that LaTeX has its own means for stating “this should not be broken” and “this may be broken here” and I did not see other places where somebody will bother.
+Jun 01 15:01:11 *	linux_dream has quit (Quit: WeeChat 1.8)
+Jun 01 15:01:22 *	BenG (~BenG83@HSI-KBW-082-212-041-008.hsi.kabelbw.de) has joined
+Jun 01 15:01:30 <freem_>	ok
+Jun 01 15:01:32 <ZyX-I>	freem_: But like SOFT HYPHEN these are supposed to be placed automatically (e.g. by a javascript or server-side).
+Jun 01 15:01:46 *	BenG is now known as Guest68573
+Jun 01 15:02:07 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:b69e:47:99d7:c456) has joined
+Jun 01 15:03:36 *	AndChat-79476 (~AndChat79@172.56.38.22) has joined
+Jun 01 15:03:36 *	boomboxnation has quit (Read error: Connection reset by peer)
+Jun 01 15:03:48 <freem_>	I want a server that put poo piles between each buzwords in all fucking documents of the worls!
+Jun 01 15:03:50 <freem_>	world*
+Jun 01 15:03:57 <freem_>	that would be SO USEFUL!
+Jun 01 15:04:21 *	boomboxnation (~AndChat79@c-67-188-43-4.hsd1.ca.comcast.net) has joined
+Jun 01 15:04:23 *	AndChat-79476 has quit (Read error: Connection reset by peer)
+Jun 01 15:07:59 *	AndChat-79476 (~AndChat79@c-67-188-43-4.hsd1.ca.comcast.net) has joined
+Jun 01 15:07:59 *	boomboxnation has quit (Read error: Connection reset by peer)
+Jun 01 15:08:00 <qball>	🎅🎅
+Jun 01 15:09:51 *	boomboxnation (~AndChat79@2607:fb90:4a1:a483:1b9c:b885:7d2f:93ec) has joined
+Jun 01 15:09:51 *	AndChat-79476 has quit (Read error: Connection reset by peer)
+Jun 01 15:10:41 *	AndChat-79476 (~AndChat79@c-67-188-43-4.hsd1.ca.comcast.net) has joined
+Jun 01 15:14:04 *	boomboxnation has quit (Ping timeout: 246 seconds)
+Jun 01 15:16:41 *	alex`` (~alex@2a01cb000bb310000e31f98b4cdf4eae.ipv6.abo.wanadoo.fr) has joined
+Jun 01 15:21:04 *	holden- has quit (Remote host closed the connection)
+Jun 01 15:22:58 *	firc78562a05 has quit (Read error: No route to host)
+Jun 01 15:23:27 *	mstruebing has quit (Quit: WeeChat 1.8)
+Jun 01 15:23:36 *	ksjk1998 (~ksjk1998@2602:306:36d0:8ad0:785d:91af:a9a4:d687) has joined
+Jun 01 15:27:26 *	alexpbrown has quit (Remote host closed the connection)
+Jun 01 15:33:38 *	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has joined
+Jun 01 15:35:11 *	silverhom has quit (Quit: Leaving)
+Jun 01 15:35:13 *	emdete has quit (Ping timeout: 260 seconds)
+Jun 01 15:35:46 *	ARI__ (5228c453@gateway/web/freenode/ip.82.40.196.83) has joined
+Jun 01 15:41:20 *	mstruebing (~mstruebin@p200300E3DBCC2DDC3AB1DBFFFEB33649.dip0.t-ipconnect.de) has joined
+Jun 01 15:45:55 *	cliff has quit (Ping timeout: 246 seconds)
+Jun 01 15:47:35 *	ZyX-I has quit (Ping timeout: 240 seconds)
+Jun 01 15:49:12 *	ballessay has quit (Remote host closed the connection)
+Jun 01 15:56:51 *	hoxbug has quit (Remote host closed the connection)
+Jun 01 15:57:48 *	hoxbug (~hoxbug@unaffiliated/hoxbug) has joined
+Jun 01 15:59:54 *	mstruebing has quit (Quit: WeeChat 1.8)
+Jun 01 16:01:03 *	boomboxnation (~AndChat79@2607:fb90:4a1:a483:c4c:c159:e66d:38b7) has joined
+Jun 01 16:01:03 *	AndChat-79476 has quit (Read error: Connection reset by peer)
+Jun 01 16:01:58 *	cliff (~AndChat79@c-67-188-43-4.hsd1.ca.comcast.net) has joined
+Jun 01 16:04:16 *	AndChat-79476 (~AndChat79@2607:fb90:4a1:a483:943a:521:4b8c:4c41) has joined
+Jun 01 16:04:16 *	cliff has quit (Read error: Connection reset by peer)
+Jun 01 16:05:13 *	cliff (~AndChat79@c-67-188-43-4.hsd1.ca.comcast.net) has joined
+Jun 01 16:05:24 *	boomboxnation has quit (Ping timeout: 258 seconds)
+Jun 01 16:07:18 *	cliff has quit (Read error: Connection reset by peer)
+Jun 01 16:07:28 *	boomboxnation (~AndChat79@c-67-188-43-4.hsd1.ca.comcast.net) has joined
+Jun 01 16:08:22 *	cliff (~cliff@c-67-188-43-4.hsd1.ca.comcast.net) has joined
+Jun 01 16:08:51 *	AndChat-79476 has quit (Ping timeout: 258 seconds)
+Jun 01 16:11:36 *	globetrotterdk has quit (Read error: Connection reset by peer)
+**** BEGIN LOGGING AT Thu Jun  1 17:31:20 2017
+
+Jun 01 17:31:20 *	Now talking on #i3
+Jun 01 17:31:20 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+Jun 01 17:31:20 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:40:49 2017)
+Jun 01 17:36:51 *	BOHverkill (~BOHverkil@holarse/core/bohverkill) has joined
+Jun 01 17:37:41 *	chel (~chel@CPE60a44cef53f0-CMc8fb26477c91.cpe.net.cable.rogers.com) has joined
+Jun 01 17:40:00 *	llinguini (~llinguini@c-98-215-1-225.hsd1.il.comcast.net) has joined
+Jun 01 17:41:07 *	cliff (~AndChat79@2607:fb90:4a1:a483:eb0:80c:8535:48fb) has joined
+Jun 01 17:42:22 *	stumpje has quit (Ping timeout: 240 seconds)
+Jun 01 17:42:35 *	boomboxnation has quit (Ping timeout: 240 seconds)
+Jun 01 17:47:56 *	somis has quit (Quit: WeeChat 1.8)
+Jun 01 17:49:16 *	stumpje (~stumpje@29-19-ftth.onsnetstudenten.nl) has joined
+Jun 01 17:53:52 *	venmx has quit (Ping timeout: 240 seconds)
+Jun 01 17:54:03 *	stumpje has quit (Ping timeout: 260 seconds)
+Jun 01 17:56:07 *	mandje has quit (Ping timeout: 260 seconds)
+Jun 01 17:56:22 *	BOHverkill has quit (Ping timeout: 240 seconds)
+Jun 01 17:56:45 *	stumpje (~stumpje@29-19-ftth.onsnetstudenten.nl) has joined
+Jun 01 18:00:40 *	boomboxnation (~AndChat79@c-67-188-43-4.hsd1.ca.comcast.net) has joined
+Jun 01 18:03:06 *	BOHverkill (~BOHverkil@holarse/core/bohverkill) has joined
+Jun 01 18:03:30 *	Improvotter (~Improvott@178-117-186-168.access.telenet.be) has joined
+Jun 01 18:03:36 *	Guest68573 has quit (Quit: Leaving)
+Jun 01 18:04:20 *	holden- has quit (Quit: Leaving)
+Jun 01 18:04:31 *	cliff has quit (Ping timeout: 260 seconds)
+Jun 01 18:05:13 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:b69e:47:99d7:c456) has joined
+Jun 01 18:05:27 *	holden- (~username@unaffiliated/holden-) has joined
+Jun 01 18:07:35 *	Ferus has quit (Quit: WeeChat 1.8)
+Jun 01 18:09:37 *	BenG83_ (~BenG83@HSI-KBW-082-212-041-008.hsi.kabelbw.de) has joined
+Jun 01 18:11:16 *	diegs_ (~diegs_@unaffiliated/diegs/x-9438211) has joined
+Jun 01 18:11:20 *	cliff (~AndChat79@2607:fb90:4a1:a483:95aa:3f7e:6d4f:eec0) has joined
+Jun 01 18:13:01 *	hardbot (~hardbot@2a02-8420-4d45-cf00-7c70-5259-4643-4c44.rev.sfr.net) has joined
+Jun 01 18:13:16 *	boomboxnation has quit (Read error: No route to host)
+Jun 01 18:14:21 *	boomboxnation (~AndChat79@c-67-188-43-4.hsd1.ca.comcast.net) has joined
+Jun 01 18:14:51 *	globetrotterdk (~androirc@77.241.134.218.mobile.3.dk) has joined
+Jun 01 18:18:03 *	cliff has quit (Ping timeout: 260 seconds)
+Jun 01 18:20:12 *	steven_ (~steven@p54B9949F.dip0.t-ipconnect.de) has joined
+Jun 01 18:20:25 *	xlaech (~xlaech@p82142-ipbffx02marunouchi.tokyo.ocn.ne.jp) has joined
+Jun 01 18:23:40 *	stivo has quit (Ping timeout: 260 seconds)
+Jun 01 18:26:40 *	Introoter has quit (Quit: Connection closed for inactivity)
+Jun 01 18:29:39 *	ayjay_t has quit (Read error: Connection reset by peer)
+Jun 01 18:29:49 *	ayjay_t (ajp@71-88-60-246.static.nwtn.ct.charter.com) has joined
+Jun 01 18:31:16 *	ayjay_t has quit (Read error: Connection reset by peer)
+Jun 01 18:31:58 *	chel has quit (Ping timeout: 266 seconds)
+Jun 01 18:34:49 *	ayjay_t (ajp@71-88-60-246.static.nwtn.ct.charter.com) has joined
+Jun 01 18:36:52 *	llinguini has quit (Ping timeout: 240 seconds)
+Jun 01 18:42:41 *	ayjay_t has quit (Read error: Connection reset by peer)
+Jun 01 18:43:01 *	ayjay_t (ajp@71-88-60-246.static.nwtn.ct.charter.com) has joined
+Jun 01 19:04:38 *	ayjay_t has quit (Read error: Connection reset by peer)
+Jun 01 19:04:49 *	ayjay_t (ajp@71-88-60-246.static.nwtn.ct.charter.com) has joined
+Jun 01 19:07:01 *	globetrotterdk has quit (Read error: Connection reset by peer)
+Jun 01 19:07:12 *	globetrotterdk (~androirc@109.57.222.129.mobile.3.dk) has joined
+Jun 01 19:13:35 *	justan0theruser has quit (Ping timeout: 260 seconds)
+Jun 01 19:14:35 *	justanotheruser (~justanoth@unaffiliated/justanotheruser) has joined
+Jun 01 19:16:22 *	cliff (~AndChat79@2607:fb90:4a1:a483:78cf:f0e3:7afb:c031) has joined
+Jun 01 19:16:24 *	boomboxnation has quit (Read error: Connection reset by peer)
+Jun 01 19:30:43 *	cliff has quit (Quit: Bye)
+Jun 01 19:30:52 *	boomboxnation (~AndChat79@2607:fb90:4a1:a483:78cf:f0e3:7afb:c031) has joined
+Jun 01 19:32:30 *	ayjay_t has quit (Read error: Connection reset by peer)
+Jun 01 19:32:41 *	ayjay_t (ajp@71-88-60-246.static.nwtn.ct.charter.com) has joined
+Jun 01 19:34:40 *	brainwash_ (~tuturu@unaffiliated/brainwash) has joined
+Jun 01 19:34:52 *	brainwash has quit (Ping timeout: 240 seconds)
+Jun 01 19:34:56 *	brainwash_ is now known as brainwash
+Jun 01 19:36:50 *	Irishluck83 has quit (Ping timeout: 268 seconds)
+Jun 01 20:04:05 *	asdil12 has quit (Ping timeout: 240 seconds)
+Jun 01 20:10:24 *	asdil12 (~asdil12@port-92-194-114-171.dynamic.qsc.de) has joined
+Jun 01 20:12:31 *	jezza has quit (Remote host closed the connection)
+Jun 01 20:13:28 *	solenodic has quit (Quit: WeeChat 1.8)
+Jun 01 20:19:23 *	holden- has quit (Ping timeout: 260 seconds)
+Jun 01 20:22:27 *	kremfloete has quit (Ping timeout: 240 seconds)
+Jun 01 20:22:40 *	Improvotter has quit (Remote host closed the connection)
+Jun 01 20:26:47 *	kremfloete (~kremfloet@84-52-239.231.3p.ntebredband.no) has joined
+Jun 01 20:32:08 *	PatrolDoom has quit (Quit: WeeChat 1.8)
+Jun 01 20:32:51 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:b69e:47:99d7:c456) has joined
+Jun 01 20:35:38 <boomboxnation>	Is there a way to change the orientation of the status bar on one output in a multi headed environment?  I'd like my workspace 'tabs' in the upper right of the monitor to the left of my laptop.  I frequently don't notice urgency on my left hand monitor cause it's way outside my active field of view.
+Jun 01 20:36:57 *	tasse has quit (Ping timeout: 240 seconds)
+Jun 01 20:37:55 <Ipsilon>	I don't believe this is possible (if I am understanding correctly) using i3bar
+Jun 01 20:38:03 <Ipsilon>	but other bars may allow it
+Jun 01 20:39:03 *	tasse (~tasse@x4db375f8.dyn.telefonica.de) has joined
+Jun 01 20:39:35 <Ipsilon>	don't quote me here, but I think yabar allows you to put its "widgets' in any order
+Jun 01 20:40:21 <callumstyan>	workspace indicator location isn't configurable in i3bar
+Jun 01 20:40:28 *	hardbot has quit (Ping timeout: 240 seconds)
+Jun 01 20:41:26 <boomboxnation>	Yeah...I basically want them closer to the upper left of my 'working' screen.  Maybe I can find a way to just turn something red on the bar on my main monitor if there is an urgency anywhere at all.  That's doable.
+Jun 01 20:42:22 <callumstyan>	you could just hack i3bar in your own branch
+Jun 01 20:42:30 <Ipsilon>	or you can dael that on a per-app basis
+Jun 01 20:42:34 <Ipsilon>	*deal with
+Jun 01 20:42:39 <callumstyan>	or add a feature request
+Jun 01 20:42:44 <Ipsilon>	make the app send a notification
+Jun 01 20:42:45 <callumstyan>	or search for an existing feature request
+Jun 01 20:43:11 <Ipsilon>	ultimately I don't think your solution is the ideal one from a UX standpoint
+Jun 01 20:43:36 <boomboxnation>	I'll just switch back to 4:3 monitors.  😋
+Jun 01 20:43:56 <Ipsilon>	I don't u....forget it
+Jun 01 20:44:18 <boomboxnation>	Heh.
+Jun 01 20:51:06 *	venmx (~pactadmin@85.255.235.29) has joined
+Jun 01 20:51:17 *	ksjk1998 has quit (Remote host closed the connection)
+Jun 01 20:55:37 *	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has joined
+Jun 01 20:56:22 *	venmx has quit (Ping timeout: 240 seconds)
+Jun 01 20:56:52 *	llinguini (~llinguini@c-98-215-1-225.hsd1.il.comcast.net) has joined
+Jun 01 20:57:44 *	Irishluck83 has quit (Client Quit)
+Jun 01 20:58:03 *	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has joined
+Jun 01 21:10:26 *	joephelius (~joe@port-92-205-9-88.dynamic.qsc.de) has joined
+Jun 01 21:14:05 *	joephelius_ has quit (Ping timeout: 255 seconds)
+Jun 01 21:26:44 *	Irishluck83 has quit (Quit: WeeChat 1.4)
+Jun 01 21:27:05 *	Irishluck83_ (~Irishluck@50.44.168.78) has joined
+Jun 01 21:27:18 *	Irishluck83_ is now known as Irishluck83
+Jun 01 21:27:18 *	Irishluck83 has quit (Changing host)
+Jun 01 21:27:18 *	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has joined
+Jun 01 21:30:20 *	llinguini has quit (Ping timeout: 260 seconds)
+Jun 01 21:42:41 *	hringriin (~hringriin@pD9E2F20F.dip0.t-ipconnect.de) has joined
+Jun 01 21:45:27 *	hringriin___ has quit (Ping timeout: 240 seconds)
+Jun 01 21:48:47 *	Neko` has quit (Quit: WeeChat 1.8)
+Jun 01 21:51:28 *	schelcj has quit (Ping timeout: 260 seconds)
+Jun 01 21:53:25 *	schelcj (~schelcj@75-133-50-3.dhcp.trcy.mi.charter.com) has joined
+Jun 01 21:54:08 *	spider_x (~spider@unaffiliated/spider-x/x-5292382) has joined
+Jun 01 21:55:12 *	ulili (~quassel@p50810BA4.dip0.t-ipconnect.de) has joined
+Jun 01 21:55:45 *	nelder (~noname@unaffiliated/nelder) has joined
+Jun 01 21:58:20 *	ulilili has quit (Ping timeout: 260 seconds)
+Jun 01 22:03:02 *	indeedwatson has quit (Ping timeout: 240 seconds)
+Jun 01 22:17:10 *	backnforth has quit (Ping timeout: 268 seconds)
+Jun 01 22:23:51 *	aviau has quit (Read error: Connection reset by peer)
+Jun 01 22:24:01 *	aviau (~aviau@modemcable140.100-178-173.mc.videotron.ca) has joined
+Jun 01 22:54:28 *	alex`` has quit (Quit: WeeChat 1.8)
+Jun 01 22:55:09 *	hoxbug (~hoxbug@unaffiliated/hoxbug) has joined
+Jun 01 23:05:13 *	feneco has quit (Quit: Connection closed for inactivity)
+Jun 01 23:23:33 *	boomboxnation has quit (Quit: Bye)
+Jun 01 23:23:51 *	boomboxnation (~AndChat79@c-67-188-43-4.hsd1.ca.comcast.net) has joined
+Jun 01 23:24:45 *	cliff (~AndChat79@2607:fb90:4a1:a483:a5c6:da5c:3f9c:a5f2) has joined
+Jun 01 23:28:18 *	boomboxnation has quit (Ping timeout: 260 seconds)
+Jun 01 23:28:27 *	cliff has quit (Client Quit)
+Jun 01 23:29:13 *	enckse has quit (Ping timeout: 272 seconds)
+Jun 01 23:30:39 *	enckse (~enckse@znc.epiphyte.network) has joined
+Jun 01 23:32:41 *	diegs_ has quit (Ping timeout: 255 seconds)
+Jun 01 23:50:27 *	mandje (~mandje@2001:985:8762:1:c0e4:7340:779c:9230) has joined
+Jun 01 23:51:36 *	BubbatheVTOG has quit (Quit: No Ping reply in 180 seconds.)
+Jun 01 23:54:59 *	fcw (~fwilson@tjctf/organizer/fwilson) has joined
+Jun 01 23:55:07 *	fwilson has quit (Read error: Connection reset by peer)
+Jun 01 23:55:07 *	bubbathevtog_ (~quassel@pool-70-105-249-94.port.east.myfairpoint.net) has joined
+Jun 01 23:57:00 *	steven_ is now known as stivo
+Jun 01 23:58:21 *	PrymalDark has quit (Ping timeout: 272 seconds)
+Jun 01 23:59:56 *	PrymalDark (~Unknown@gateway/vpn/privateinternetaccess/prymaldark) has joined
+Jun 02 00:01:12 *	venmx (~pactadmin@85.255.235.29) has joined
+Jun 02 00:06:13 *	venmx has quit (Ping timeout: 260 seconds)
+Jun 02 00:12:04 *	Xenguy has quit (Quit: leaving)
+Jun 02 00:16:21 *	aarobc has quit (Quit: Connection closed for inactivity)
+Jun 02 00:21:43 *	skontar (skontar@nat/redhat/x-kmlveblwowjjptay) has joined
+Jun 02 00:31:44 *	tunekey has quit (Remote host closed the connection)
+Jun 02 00:32:13 *	tunekey (~tunekey@unaffiliated/tunekey) has joined
+Jun 02 00:33:22 *	michaelrose has quit (Ping timeout: 240 seconds)
+Jun 02 00:40:26 *	tunekey has quit (Ping timeout: 245 seconds)
+Jun 02 00:41:06 *	jagob (~jacob@d40a9e34.rev.stofanet.dk) has joined
+Jun 02 00:53:02 *	hoxbug has quit (Remote host closed the connection)
+Jun 02 00:57:13 *	michaelrose (~michael@75-172-1-48.tukw.qwest.net) has joined
+Jun 02 00:58:10 *	ponyrider (~cf2iqx@unaffiliated/ponyrider) has joined
+Jun 02 01:02:48 *	callumstyan has quit (Ping timeout: 260 seconds)
+Jun 02 01:04:06 *	tesseract (~tesseract@2a00:1028:83a2:66c6:5ee0:c5ff:fe71:efb2) has joined
+Jun 02 01:04:29 *	BenG83_ has quit (Ping timeout: 255 seconds)
+Jun 02 01:14:19 *	ponyrider has quit (Ping timeout: 260 seconds)
+Jun 02 01:14:44 *	ponyrider (~cf2iqx@unaffiliated/ponyrider) has joined
+Jun 02 01:17:22 *	im0nde (~im0nde@loiacono2.fo.FH-Koeln.DE) has joined
+Jun 02 01:23:52 *	ohaither (~manjaro-i@x4db38a96.dyn.telefonica.de) has joined
+Jun 02 01:27:52 *	ponyrider has quit (Ping timeout: 260 seconds)
+Jun 02 01:30:09 *	ponyrider (~cf2iqx@unaffiliated/ponyrider) has joined
+Jun 02 01:32:31 *	lahol (~lahol@sirius.mathematik.tu-chemnitz.de) has joined
+Jun 02 01:37:20 *	jagob has quit (Remote host closed the connection)
+Jun 02 01:43:44 *	copypasteque (~copypaste@LPuteaux-657-1-20-34.w193-248.abo.wanadoo.fr) has joined
+Jun 02 01:45:57 *	emdete (~m@total-communication.vfnet.de) has joined
+Jun 02 01:47:22 *	ponyrider has quit (Ping timeout: 240 seconds)
+Jun 02 01:49:41 *	ponyrider (~cf2iqx@unaffiliated/ponyrider) has joined
+Jun 02 01:52:03 *	tuxi3 (~conny@a89-183-19-233.net-htp.de) has joined
+Jun 02 02:02:34 *	tuxi3 has quit (Quit: Leaving)
+Jun 02 02:04:11 <ponyrider>	i/relaod
+Jun 02 02:10:21 *	JesusFreak (~patrick@86.47.248.149) has joined
+Jun 02 02:18:19 *	ponyrider has quit (Ping timeout: 272 seconds)
+Jun 02 02:26:06 *	ponyrider (~cf2iqx@120.17.12.195) has joined
+Jun 02 02:29:11 *	ponyrider has quit (Changing host)
+Jun 02 02:29:11 *	ponyrider (~cf2iqx@unaffiliated/ponyrider) has joined
+Jun 02 02:38:17 *	ponyrider has quit (Ping timeout: 258 seconds)
+Jun 02 02:41:07 *	CPrompt^ has quit (Remote host closed the connection)
+Jun 02 02:51:47 *	somis (~somis@149.56.153.183) has joined
+Jun 02 02:57:52 *	ohaither has quit (Ping timeout: 240 seconds)
+Jun 02 02:58:42 *	insecta (~olli@a91-156-37-141.elisa-laajakaista.fi) has joined
+Jun 02 03:05:31 *	Introoter (uid189461@gateway/web/irccloud.com/x-tfyrfdmwmxajqzin) has joined
+Jun 02 03:10:33 *	michaelrose has quit (Ping timeout: 260 seconds)
+Jun 02 03:24:22 *	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru) has joined
+Jun 02 03:31:48 *	xlaech has quit (Remote host closed the connection)
+Jun 02 03:37:01 *	skontar has quit (Remote host closed the connection)
+Jun 02 03:38:08 *	tuxdeepin (~Manjaro-D@a89-183-19-233.net-htp.de) has joined
+Jun 02 03:54:27 *	MtotheM_ (~MtotheM@h-4-126.a392.priv.bahnhof.se) has joined
+Jun 02 03:56:05 *	ballessay (~ballessay@84-75-195-77.dclient.hispeed.ch) has joined
+Jun 02 04:02:46 *	skontar (skontar@nat/redhat/x-xsrlgrisuqpfjyte) has joined
+Jun 02 04:04:37 *	nimaje has quit (Killed (wilhelm.freenode.net (Nickname regained by services)))
+Jun 02 04:04:44 *	nimaje (~nimaje@p5485E55A.dip0.t-ipconnect.de) has joined
+Jun 02 04:09:58 *	tuxdeepin has quit (Quit: Leaving)
+Jun 02 04:13:45 *	algoban (~al@221.pool85-48-41.dynamic.orange.es) has joined
+Jun 02 04:15:13 *	ohaither (~manjaro-i@x4db38a96.dyn.telefonica.de) has joined
+Jun 02 04:16:38 *	MtotheM_ has quit (Read error: Connection reset by peer)
+Jun 02 04:35:11 *	robattila256 has quit (Ping timeout: 268 seconds)
+Jun 02 04:38:37 *	endre (endre@end.re) has joined
+Jun 02 04:39:32 *	skontar_ (skontar@nat/redhat/x-rcdwamgmrppsbdsk) has joined
+Jun 02 04:39:38 *	skontar has quit (Read error: Connection reset by peer)
+Jun 02 04:51:58 *	hardbot (~hardbot@85.254.25.93.rev.sfr.net) has joined
+Jun 02 04:55:54 *	PatrolDoom has quit (Quit: WeeChat 1.8)
+Jun 02 04:57:24 *	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:b69e:47:99d7:c456) has joined
+Jun 02 05:12:11 *	tuxi3 (~conny@a89-183-19-233.net-htp.de) has joined
+Jun 02 05:17:42 *	tuxi3 has quit (Quit: Leaving)
+Jun 02 05:23:18 *	bnwilson_ (~bnwilson@107-1-97-172-ip-static.hfc.comcastbusiness.net) has joined
+Jun 02 05:31:12 *	HardlySeen (~Gathering@unaffiliated/gatheringknowleg) has joined
+Jun 02 05:38:21 *	ZyX-I has quit (Ping timeout: 245 seconds)
+Jun 02 05:39:59 *	Chinggis6 (~chinggis@62.212.231.123) has joined
+Jun 02 05:39:59 *	Chinggis6 has quit (Changing host)
+Jun 02 05:39:59 *	Chinggis6 (~chinggis@unaffiliated/chinggis6) has joined
+Jun 02 05:43:28 *	anchnk (500c6eca@gateway/web/freenode/ip.80.12.110.202) has joined
+Jun 02 05:43:55 <anchnk>	hi, I am using i3 as a window manager and I would like to know what would be the cleanest way to use dunst instead of notify-osd as dbus'notification client ?
+Jun 02 05:44:03 <anchnk>	is it to kill the notify-osd daemon and then launch dunst process or can i replace notify-osd ?
+Jun 02 05:46:34 <brainwash>	why is notify-osd running in the first place?
+Jun 02 05:46:48 <anchnk>	I think it's by default in ubuntu
+Jun 02 05:47:05 <brainwash>	can't you simply remove it?
+Jun 02 05:47:10 <brainwash>	the package
+Jun 02 05:47:57 <anchnk>	yeah I could do that but I thought I could switch between the two when I would like to
+Jun 02 05:51:41 <okraits>	I also searched at one point but I don't know if you can define the notification daemon to be used at some place
+Jun 02 05:51:57 <okraits>	I would also suggest to uninstall the daemon you don't want
+Jun 02 05:52:25 <brainwash>	you could move /usr/share/dbus-1/services/org.freedesktop.Notifications.service somewhere else
+Jun 02 05:52:47 <brainwash>	this way notify-osd won't be activated via dbus anymore
+Jun 02 05:53:13 <brainwash>	move this file back to restore notify-osd functionality
+Jun 02 05:54:10 <anchnk>	awesome that will do it
+Jun 02 05:54:40 <okraits>	the only issue here might be package updates :)
+Jun 02 06:03:57 *	venmx (~pactadmin@85.255.235.29) has joined
+Jun 02 06:06:31 *	copypasteque has quit (Quit: WeeChat 1.8)
+Jun 02 06:08:48 *	venmx has quit (Ping timeout: 240 seconds)
+Jun 02 06:13:17 *	emdete has quit (Ping timeout: 272 seconds)
+Jun 02 06:13:27 *	im0nde has quit (Ping timeout: 240 seconds)
+Jun 02 06:19:51 *	^andrea^ (~^andrea^@64.53.90.146.dyn.plus.net) has joined
+Jun 02 06:20:23 *	lukaso666 (~lukaso666@a01-nat.satkol.pl) has joined
+Jun 02 06:21:04 *	wsdjeg (~wsdjeg@114.225.182.15) has joined
+Jun 02 06:23:07 *	nona (~nona@catv-89-132-115-162.catv.broadband.hu) has joined
+Jun 02 06:26:09 *	emdete (~m@total-communication.vfnet.de) has joined
+Jun 02 06:26:42 *	ohaither has quit (Quit: leaving)
+Jun 02 06:28:07 *	im0nde (~im0nde@nat079014.nat.FH-Koeln.DE) has joined
+Jun 02 06:31:42 *	ksjk1998 (~ksjk1998@2602:306:36d0:8ad0:785d:91af:a9a4:d687) has joined
+Jun 02 06:32:58 *	kalbasit has quit (Ping timeout: 260 seconds)
+Jun 02 06:37:39 *	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined
+Jun 02 06:39:23 *	im0nde has quit (Ping timeout: 260 seconds)
+Jun 02 06:40:29 *	im0nde (~im0nde@nat079038.nat.FH-Koeln.DE) has joined
+Jun 02 06:42:01 *	amayer_ has quit (Quit: Leaving)
+Jun 02 06:42:07 *	BenG83 (~BenG83@p5093a28f.dip0.t-ipconnect.de) has joined
+**** BEGIN LOGGING AT Fri Jun  2 06:45:44 2017
+
+Jun 02 06:45:44 *	Now talking on #i3
+Jun 02 06:45:44 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+Jun 02 06:45:44 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+Jun 02 06:45:59 *	jagob (~jacob@d40a9e34.rev.stofanet.dk) has joined
+Jun 02 06:47:58 *	im0nde has quit (Ping timeout: 255 seconds)
+Jun 02 06:51:06 *	amayer (~amayer@mail.weberadvertising.com) has joined
+Jun 02 06:53:44 *	Alina-malina has quit (Excess Flood)
+Jun 02 06:54:03 *	Alina-malina (~Alina-mal@37.157.223.80) has joined
+Jun 02 06:56:20 *	Alina-malina has quit (Changing host)
+Jun 02 06:56:20 *	Alina-malina (~Alina-mal@unaffiliated/alina-malina) has joined
+Jun 02 06:57:36 *	JesusFreak has quit (Remote host closed the connection)
+Jun 02 06:59:32 *	darlan (~darlan@inf58-187.inf.ufsc.br) has joined
+Jun 02 07:00:27 *	chel (~chel@CPE60a44cef53f0-CMc8fb26477c91.cpe.net.cable.rogers.com) has joined
+Jun 02 07:00:51 *	BenG83 has quit (Ping timeout: 245 seconds)
+Jun 02 07:04:52 *	nona has quit (Ping timeout: 240 seconds)
+Jun 02 07:04:54 *	ponyrider (~cf2iqx@unaffiliated/ponyrider) has joined
+Jun 02 07:08:15 *	amayer has quit (Quit: Leaving)
+Jun 02 07:08:35 *	amayer (~amayer@mail.weberadvertising.com) has joined
+Jun 02 07:09:54 *	choru (~choru@78-56-154-238.static.zebra.lt) has joined
+Jun 02 07:11:40 *	darlan has quit (Quit: Communi 3.5.0 - http://communi.github.com)
+Jun 02 07:27:58 *	A-train (~aaron@199.46.97.113) has joined
+Jun 02 07:29:03 *	CPrompt^ (~CPrompt^@cpe-45-36-165-193.triad.res.rr.com) has joined
+Jun 02 07:31:37 *	chel has quit (Ping timeout: 255 seconds)
+Jun 02 07:42:17 *	ponyrider has quit (Quit: WeeChat 1.8)
+Jun 02 07:45:52 *	emdete has quit (Ping timeout: 240 seconds)
+Jun 02 07:46:56 *	zabow (~zabow@94-39-243-75.adsl-ull.clienti.tiscali.it) has joined
+Jun 02 07:47:19 *	zabow has quit (Client Quit)
+Jun 02 07:48:59 *	jolange has quit (Ping timeout: 240 seconds)
+Jun 02 07:49:43 *	ponyrider (~cf2iqx@unaffiliated/ponyrider) has joined
+Jun 02 07:50:50 *	ChrisLane has quit (Ping timeout: 255 seconds)
+Jun 02 07:51:35 *	holden- (~username@unaffiliated/holden-) has joined
+Jun 02 07:53:34 *	alexpbrown (~alex.brow@38.97.68.126) has joined
+Jun 02 07:58:38 *	azamatms has quit (Remote host closed the connection)
+Jun 02 08:03:00 *	amayer has quit (Quit: Leaving)
+Jun 02 08:03:20 *	amayer (~amayer@mail.weberadvertising.com) has joined
+Jun 02 08:03:26 *	amayer has quit (Remote host closed the connection)
+Jun 02 08:04:09 *	amayer (~amayer@mail.weberadvertising.com) has joined
+Jun 02 08:04:26 *	ponyrider has quit (Read error: Connection reset by peer)
+Jun 02 08:08:54 *	amayer has quit (Client Quit)
+Jun 02 08:09:15 *	amayer (~amayer@mail.weberadvertising.com) has joined
+Jun 02 08:11:34 *	indeedwatson (uid108674@gateway/web/irccloud.com/x-taijhxchdsbyztvy) has joined
+Jun 02 08:24:06 *	Realmkeeper (~holoirc@122.175.76.204) has joined
+Jun 02 08:24:14 *	Realmkeeper has quit (Remote host closed the connection)
+Jun 02 08:28:57 *	GitHub71 (~GitHub71@192.30.252.42) has joined
+Jun 02 08:28:57 -GitHub71/#i3-	[i3] hwangcc23 opened pull request #2799: Add compilation instructions to the hacking howto (next...add_compilation_inst) https://git.io/vHzBZ
+Jun 02 08:28:57 *	GitHub71 (~GitHub71@192.30.252.42) has left
+Jun 02 08:30:44 *	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru) has joined
+Jun 02 08:37:28 *	ChrisLane (~irc@cpc110389-king13-2-0-cust114.19-1.cable.virginm.net) has joined
+Jun 02 08:41:06 *	MessedUpHare (~MessedUpH@79.141.36.77) has joined
+Jun 02 08:45:05 *	neoo has quit (Ping timeout: 240 seconds)
+Jun 02 08:45:08 *	lahol has quit (Quit: leaving)
+Jun 02 08:51:20 *	BartPejl (~Yeki@trelawney.emi.u-bordeaux1.fr) has joined
+Jun 02 08:57:35 *	nona_ (~nona@business-89-134-89-5.business.broadband.hu) has joined
+Jun 02 09:03:19 *	nona_ has quit (Ping timeout: 260 seconds)
+Jun 02 09:10:19 *	im0nde (~im0nde@2a03:2260:11e:301:c54:224a:62b3:ef25) has joined
+Jun 02 09:10:52 *	MessedUpHare has quit (Ping timeout: 245 seconds)
+Jun 02 09:14:42 *	vrederv (~vrederv@80-108-13-139.cable.dynamic.surfer.at) has joined
+Jun 02 09:15:30 *	Chinggis6 has quit (Quit: WeeChat 1.8)
+Jun 02 09:15:55 <vrederv>	Does i3 properly trigger the resize event for windows? Cause when I resize urxvt its content gets messed up even though urxvt does reflow-on-resize.
+Jun 02 09:16:51 <vrederv>	It doesn't happen in floating mode (while it gets also messed up there it gets messed up in another way).
+Jun 02 09:21:00 <vrederv>	Interestingly it doesn't happen with termite ...
+Jun 02 09:21:38 <vrederv>	I am wondering if urxvt just doesn't understand a resize signal or if VTE is polling the window size.
+Jun 02 09:21:49 *	skontar_ has quit (Remote host closed the connection)
+Jun 02 09:22:07 *	Hund has quit (Changing host)
+Jun 02 09:22:07 *	Hund (~Hund@ubuntu/member/hund) has joined
+Jun 02 09:24:34 *	im0nde has quit (Ping timeout: 255 seconds)
+Jun 02 09:29:34 *	cliff (~cliff@c-67-188-43-4.hsd1.ca.comcast.net) has joined
+Jun 02 09:29:50 *	cliff is now known as cliff_
+Jun 02 09:31:23 *	vrederv has quit (Quit: Lost terminal)
+Jun 02 09:42:36 *	BenG83 (~BenG83@HSI-KBW-082-212-041-008.hsi.kabelbw.de) has joined
+Jun 02 09:44:14 *	alex`` (~alex@2a01cb000bb310000e31f98b4cdf4eae.ipv6.abo.wanadoo.fr) has joined
+Jun 02 09:46:16 *	tzuntzai_ (~tzuntzai@cpe-76-186-161-144.tx.res.rr.com) has joined
+Jun 02 09:46:37 *	tzuntzai_ has quit (Client Quit)
+Jun 02 09:47:22 *	tzuntzai (~tzuntzai@cpe-76-186-161-144.tx.res.rr.com) has joined
+Jun 02 09:58:58 *	fraksken_work has quit (Ping timeout: 246 seconds)
+Jun 02 10:00:42 *	tesseract has quit (Quit: Leaving)
+Jun 02 10:00:53 *	fraksken_work (~fraksken@unaffiliated/fraksken-work/x-6239810) has joined
+Jun 02 10:05:48 *	venmx (~pactadmin@85.255.235.29) has joined
+Jun 02 10:06:54 *	ARI__ (5228c453@gateway/web/freenode/ip.82.40.196.83) has joined
+Jun 02 10:07:58 *	kw21 (~kw21@D978E830.cm-3-1d.dynamic.ziggo.nl) has joined
+Jun 02 10:08:22 *	stormanka has quit (Ping timeout: 240 seconds)
+Jun 02 10:08:38 <ARI__>	Hi, I am having an issue with configuring a dual-monitor setup on my PC. Please see this question I posted on stackexchange for all the details. https://unix.stackexchange.com/questions/368640/i3wm-multi-monitor-error-while-moving-displays
+Jun 02 10:08:50 <ARI__>	hope you can help
+Jun 02 10:09:45 *	netvor_ (~amahdal@unaffiliated/netvor) has joined
+Jun 02 10:10:27 *	venmx has quit (Ping timeout: 240 seconds)
+Jun 02 10:10:52 *	stormanka (~stormanka@185.86.106.183) has joined
+Jun 02 10:12:11 *	wsdjeg has quit (Remote host closed the connection)
+Jun 02 10:12:55 *	ARI___ (5228c453@gateway/web/freenode/ip.82.40.196.83) has joined
+Jun 02 10:13:13 *	m0u (~m0u@250.red-79-159-194.dynamicip.rima-tde.net) has joined
+Jun 02 10:13:13 *	m0u has quit (Changing host)
+Jun 02 10:13:13 *	m0u (~m0u@unaffiliated/m0u) has joined
+Jun 02 10:15:35 *	ARI__ has quit (Ping timeout: 260 seconds)
+Jun 02 10:17:40 <xmaka>	ARI__, if i understand it right you could try xrandr --output DVI-D-1 --right-of DVI-I-1 --mode auto
+Jun 02 10:18:30 <xmaka>	to be exact $(xrandr --output DVI-D-1 --right-of DVI-I-1 --mode auto)
+Jun 02 10:19:33 <xmaka>	or changed outputs, i'm a bit confused, one option should work
+Jun 02 10:19:34 <ARI___>	thanks , i'll try this
+Jun 02 10:21:33 <xmaka>	if i understand it right you didn't switched the devices lgically. it seems you only 'corrected' a not present offset
+Jun 02 10:27:40 <ARI___>	xrandr: cannot find mode auto
+Jun 02 10:27:41 <ARI___>	:(
+Jun 02 10:28:59 <nimaje>	ARI___: try '--auto' instead of '--mode auto'
+Jun 02 10:29:24 *	callumstyan (~callum@S0106a84e3fc07df3.vc.shawcable.net) has joined
+Jun 02 10:31:01 <ARI___>	nothing seems to be changing
+Jun 02 10:31:50 <xmaka>	ARI___, type $(xrandr --auto) to get in 'standard'
+Jun 02 10:32:22 <xmaka>	and maybe use --verbose to get more informations
+Jun 02 10:33:28 *	callumstyan has quit (Ping timeout: 240 seconds)
+Jun 02 10:33:47 <ARI___>	i'm trying this on my terminal $(xrandr --output DVI-D-1 --right-of DVI-I-1 --auto)
+Jun 02 10:34:46 *	im0nde (~im0nde@2a03:2260:11e:301:c54:224a:62b3:ef25) has joined
+Jun 02 10:35:20 <nimaje>	ARI___: well, 'xrandr --output DVI-I-1 --auto --output DVI-D-1 --auto --right-of DVI-I-1' should be more correct
+Jun 02 10:36:59 <ARI___>	xrandr --output DVI-I-1 --auto --output DVI-D-1 --auto --right-of DVI-I-1 --verbose
+Jun 02 10:37:08 <ARI___>	crtc 0:    1920x1080  60.00 +0+0 "DVI-I-1"
+Jun 02 10:37:15 <ARI___>	crtc 1:    1920x1080  60.00 +1920+0 "DVI-D-1"
+Jun 02 10:38:26 *	silverhom (~silverhom@c83-252-236-239.bredband.comhem.se) has joined
+Jun 02 10:41:20 *	lukaso666 has quit (Ping timeout: 260 seconds)
+Jun 02 10:43:21 <ARI___>	looks like the outputs haven't switched
+Jun 02 10:44:11 <nimaje>	ARI___: seems like someone here swapped the positions and the others didn't check use --left-of instead of --right-of
+Jun 02 10:44:34 <ARI___>	cool
+Jun 02 10:44:58 <ARI___>	awesome! worked!
+Jun 02 10:45:12 <ARI___>	i wonder how that happened
+Jun 02 10:49:05 *	im0nde has quit (Quit: im0nde)
+Jun 02 10:56:55 <BiW>	is there a way to get i3lock to trigger a command when it's unlocked?  I've got a raspi with screen showing graphs, and I can get it to turn the pi screen off when my desktop screensaver kicks in, but can't find a way to do something when it unlocks
+Jun 02 10:59:14 <nimaje>	BiW: well you could do 'i3lock -n; <your command called after unlock>'
+Jun 02 10:59:54 <BiW>	ah, that's an idea
+**** BEGIN LOGGING AT Fri Jun  2 11:01:59 2017
+
+Jun 02 11:01:59 *	Now talking on #i3
+Jun 02 11:01:59 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+Jun 02 11:01:59 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+Jun 02 11:02:01 *	fcw is now known as fwilson
+Jun 02 11:02:57 *	hays_ (~quassel@c-73-213-111-1.hsd1.dc.comcast.net) has joined
+Jun 02 11:02:57 *	hays_ has quit (Changing host)
+Jun 02 11:02:57 *	hays_ (~quassel@fsf/member/hays) has joined
+Jun 02 11:04:55 *	hays has quit (Ping timeout: 268 seconds)
+Jun 02 11:06:18 *	anchnk has quit (Quit: Page closed)
+Jun 02 11:09:52 <BiW>	nimaje: yea, that looks like it does the trick, thanks :)
+Jun 02 11:10:04 *	callumstyan (~callum@216.251.135.74) has joined
+Jun 02 11:16:28 *	callumstyan has quit (Ping timeout: 260 seconds)
+Jun 02 11:19:12 *	craigger (~cwhipp@97-117-231-50.phnx.qwest.net) has joined
+Jun 02 11:24:13 *	ARI___ has quit (Quit: Page closed)
+Jun 02 11:25:52 *	callumstyan (~callum@216.251.135.74) has joined
+Jun 02 11:28:20 *	aarobc (uid151482@gateway/web/irccloud.com/x-glpnyuoadukaykyc) has joined
+Jun 02 11:31:43 *	PatrolDoom has quit (Ping timeout: 260 seconds)
+Jun 02 11:33:22 *	notis (~notis@178.128.16.229.dsl.dyn.forthnet.gr) has joined
+Jun 02 11:35:15 *	tunekey (~tunekey@unaffiliated/tunekey) has joined
+Jun 02 11:39:22 *	kremfloete has quit (Ping timeout: 240 seconds)
+Jun 02 11:42:44 *	kremfloete (~kremfloet@84-52-239.231.3p.ntebredband.no) has joined
+Jun 02 11:45:27 *	schelcj has quit (Ping timeout: 240 seconds)
+Jun 02 11:48:11 *	schelcj (~schelcj@75-133-50-3.dhcp.trcy.mi.charter.com) has joined
+Jun 02 11:51:06 *	cliff_ is now known as boomboxnation
+Jun 02 11:57:10 *	mstruebing (~mstruebin@p200300E3DBCDAE373AB1DBFFFEB33649.dip0.t-ipconnect.de) has joined
+Jun 02 11:58:50 *	notis_ (~notis@178.128.31.228.dsl.dyn.forthnet.gr) has joined
+Jun 02 11:59:58 *	notis has quit (Ping timeout: 240 seconds)
+Jun 02 12:06:23 *	kalbasit has quit (Ping timeout: 258 seconds)
+Jun 02 12:07:23 *	frakturfreak (~frakturfr@unaffiliated/frakturfreak) has joined
+Jun 02 12:09:51 *	datasmurf has quit (Ping timeout: 240 seconds)
+Jun 02 12:09:59 *	lukaso666 (~lukaso666@a01-nat.satkol.pl) has joined
+Jun 02 12:10:25 *	venmx (~pactadmin@85.255.235.29) has joined
+Jun 02 12:10:45 *	diegs_ (~diegs_@unaffiliated/diegs/x-9438211) has joined
+Jun 02 12:12:19 *	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined
+Jun 02 12:21:07 *	datasmurf (~datasmurf@unaffiliated/datasmurf) has joined
+Jun 02 12:24:16 *	tzuntzai has quit (Quit: WeeChat 1.8)
+Jun 02 12:24:46 FiSHLiM plugin unloaded
+Jun 02 12:24:46 Python interface unloaded
+**** ENDING LOGGING AT Fri Jun  2 12:24:46 2017
+
+**** BEGIN LOGGING AT Fri Jun  2 13:37:57 2017
+
+Jun 02 13:37:57 *	Now talking on #i3
+Jun 02 13:37:57 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+Jun 02 13:37:57 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:38:49 2017)
+Jun 02 13:38:25 *	daktak has quit (Quit: No Ping reply in 180 seconds.)
+Jun 02 13:38:36 *	LordCeprius (727d7af7@gateway/web/thelounge/ip.114.125.122.247) has joined
+Jun 02 13:38:53 <Absolute0>	size hints...
+Jun 02 13:39:06 <callumstyan>	Improvotter, sounds like you want a terminal that supports tabs rather than i3 window tabs
+Jun 02 13:39:24 <xyzzy[m]>	Can you try changing the font? Reducing the size, using the non-bold variant or trying another monospace font might help.
+Jun 02 13:39:41 <Improvotter>	callumstyan: nah, why would I need that if i3 does it for me? Even more stuff to learn and that sounds redundant.
+Jun 02 13:39:52 *	daktak (~quassel@220-245-14-175.static.tpgi.com.au) has joined
+Jun 02 13:40:03 <nimaje>	Absolute0: probably that space is not big enought for another row, so urxvt has background color there, can also happen on the right
+Jun 02 13:40:40 <callumstyan>	that's just how I interpreted your question
+Jun 02 13:41:05 <callumstyan>	1 window can not be tabbed, multiple windows can be in a tabbed layout
+Jun 02 13:41:32 <callumstyan>	unless you're using something like a terminal that supports tabs
+Jun 02 13:41:41 <callumstyan>	but it seems someone else provided a solution :)
+Jun 02 13:42:02 <Absolute0>	nimaje: in awesomewm I was able to fix the issue with some code in the config
+Jun 02 13:42:22 <Absolute0>	oh I think it's the title bar
+Jun 02 13:42:28 <Absolute0>	uses up the line
+Jun 02 13:43:05 *	hardbot has quit (Ping timeout: 240 seconds)
+Jun 02 13:44:01 <LordCeprius>	Hey guys, when I press twice mod+enter and it will open 2 terminals
+Jun 02 13:44:18 <LordCeprius>	but my cursor becomes loading and not finished till long time
+Jun 02 13:44:36 <LordCeprius>	so I need to refresh the config to reset that problem. how can I fixed this?
+Jun 02 13:46:09 <LordCeprius>	I read in reddit I have to replace loading cursor with normal cursor. But I don't want it
+Jun 02 13:46:32 <xyzzy[m]>	You could add --no-startup-id to the line where the keybinding for the terminal is defined. This is just a workaround though. I don't know why it doesn't recognize that the application has been started.
+Jun 02 13:48:07 *	mstruebing (~mstruebin@p200300E3DBCDAE1C3AB1DBFFFEB33649.dip0.t-ipconnect.de) has joined
+Jun 02 13:50:43 <LordCeprius>	xyzzy[m]: thats easy, I don't even know this. thanks!
+**** BEGIN LOGGING AT Fri Jun  2 13:58:58 2017
+
+Jun 02 13:58:58 *	Now talking on #i3
+Jun 02 13:58:58 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+Jun 02 13:58:58 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+Jun 02 14:01:22 *	HardlySeen has quit (Quit: leaving)
+Jun 02 14:03:35 <nimaje>	Absolute0: ŵell, I know that some tiling WMs can smartly size windows to minimize that useless space (I don't remember which)
+Jun 02 14:06:00 *	LordCeprius has quit (Quit: Page closed)
+Jun 02 14:06:24 *	emdete (~m@ip-109-47-2-97.web.vodafone.de) has joined
+Jun 02 14:06:58 *	michaelrose has quit (Ping timeout: 240 seconds)
+Jun 02 14:13:21 *	venmx has quit (Ping timeout: 240 seconds)
+Jun 02 14:14:10 *	stargater (~stargater@x4db9e982.dyn.telefonica.de) has joined
+Jun 02 14:14:23 *	bnwilson_ has quit (Ping timeout: 260 seconds)
+Jun 02 14:17:36 *	choru has quit (Quit: WeeChat 1.8)
+Jun 02 14:18:56 *	Guest51619 (~Jicoss@180.190.77.242) has joined
+Jun 02 14:19:03 *	im0nde (~im0nde@2a03:2260:11e:302:7443:194d:3e8a:10cf) has joined
+Jun 02 14:25:02 <Guest51619>	Hi, sorry this is a noobish question, just need some guide what to search for
+Jun 02 14:25:28 <Guest51619>	the display on the desktop , in the lower left corner its some help notes
+Jun 02 14:25:45 <Guest51619>	anywhere i can find how to delete those from the desktop layout?
+Jun 02 14:26:06 *	Celmor (~Celmor@unaffiliated/celmor) has joined
+Jun 02 14:28:21 *	holden- has quit (Ping timeout: 240 seconds)
+Jun 02 14:28:41 <callumstyan>	Guest51619, not sure what help notes you're referring to
+Jun 02 14:28:57 <nimaje>	Guest51619: 'help notes'? In the lower left corner there is usually the mode name if you are not in default mode and the workspace buttons
+Jun 02 14:29:01 <xyzzy[m]>	Guest51619: Can you post a screenshot?
+Jun 02 14:30:29 <Guest51619>	ah ye i will try to explain better
+Jun 02 14:30:45 <Guest51619>	when installing i3 edition from manjaro
+Jun 02 14:31:10 <Guest51619>	on the actual background in the left corner there is notes that are visiable
+Jun 02 14:31:16 <Guest51619>	like how to open an terminal
+Jun 02 14:31:34 <occultus>	Guest51619: i looked up screenshots, is it part of your wallpaper?
+**** BEGIN LOGGING AT Fri Jun  2 14:32:09 2017
+
+Jun 02 14:32:09 *	Now talking on #i3
+Jun 02 14:32:09 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+Jun 02 14:32:09 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+Jun 02 14:32:20 <xyzzy[m]>	I found this on the manjaro forums: https://forum.manjaro.org/uploads/default/original/1X/e16169d2cbc806e9ef5de371b8301dec1ca03caa.png
+Jun 02 14:32:21 <xyzzy[m]>	Looks like conky
+Jun 02 14:32:26 <Guest51619>	ah no its not part of the wallpaper, its edged on the screen, so even if i change wallpapepr
+Jun 02 14:32:45 <Guest51619>	ye exactly
+Jun 02 14:32:55 <occultus>	oh conky does desktop monitoring too?
+Jun 02 14:33:28 <callumstyan>	ew
+Jun 02 14:33:29 <Guest51619>	you see the help notes in the corner and the other stuff in right corner
+Jun 02 14:33:32 *	alexpbrown has quit (Remote host closed the connection)
+**** BEGIN LOGGING AT Fri Jun  2 14:34:07 2017
+
+Jun 02 14:34:07 *	Now talking on #i3
+Jun 02 14:34:07 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+Jun 02 14:34:07 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)
+Jun 02 14:34:18 <occultus>	xyzzy[m]: i thought it was used for a bar
+Jun 02 14:34:28 <xyzzy[m]>	Try 'killall conky'. If that works all you need to do is remove conky from your autostart.
+Jun 02 14:34:55 <Guest51619>	ah ye 2 sec
+Jun 02 14:35:17 <Guest51619>	thanks man that did the trick
+Jun 02 14:35:57 <Guest51619>	didnt know what started it, so this did really help alot
+Jun 02 14:35:59 <Guest51619>	ye for sure
+Jun 02 14:39:37 *	mstruebing has quit (Ping timeout: 245 seconds)
+Jun 02 14:40:28 *	Celmor (~Celmor@unaffiliated/celmor) has left
+Jun 02 14:43:17 *	nupupun has quit (Quit: WeeChat 1.8)
+Jun 02 14:44:23 *	Guest51619 has quit (Quit: leaving)
+Jun 02 14:44:30 *	im0nde has quit (Ping timeout: 255 seconds)
+Jun 02 14:47:49 *	im0nde (~im0nde@2a03:2260:11e:302:7443:194d:3e8a:10cf) has joined
+Jun 02 14:53:40 *	im0nde has quit (Ping timeout: 246 seconds)
+Jun 02 14:55:15 *	pf_ has quit (Quit: WeeChat 1.8)
+Jun 02 15:04:41 *	m0u has quit (Quit: Lost terminal)
+Jun 02 15:05:05 *	diegs_ (~diegs_@unaffiliated/diegs/x-9438211) has joined
+Jun 02 15:06:55 *	mstruebing (~mstruebin@p200300E3DBCDAE1C3AB1DBFFFEB33649.dip0.t-ipconnect.de) has joined
+Jun 02 15:07:19 *	amayer has quit (Quit: Leaving)
+Jun 02 15:08:42 *	ohaither (~manjaro-i@x4db38a96.dyn.telefonica.de) has joined
+Jun 02 15:09:30 *	solenodic (~solenodic@unaffiliated/solenodic) has joined
+Jun 02 15:17:13 <Improvotter>	This is very odd
+Jun 02 15:17:32 <Improvotter>	I'm in Slack and when I press the thumb button on my MX Master, the toolbar shows and hides :/
+Jun 02 15:17:59 <Improvotter>	It doesn't seem to have a hotkey linked to it afaik and it doesn't happen in other programs
+Jun 02 15:18:04 <Improvotter>	Stupid web apps
+Jun 02 15:18:36 <callumstyan>	are you pressing alt?
+Jun 02 15:19:17 *	silverhom has quit (Quit: Leaving)
+Jun 02 15:29:23 *	Xenguy (~Xenguy@unaffiliated/xenguy) has joined
+Jun 02 15:35:55 <Improvotter>	troelala
+Jun 02 15:36:02 <Improvotter>	Ah well fuck
+Jun 02 15:36:11 <Improvotter>	Now I have to change my password of my account
+Jun 02 15:36:25 <Xenguy>	<evil laugh>
+Jun 02 15:36:25 <Improvotter>	Luckily it's only my local account
+Jun 02 15:36:28 <Improvotter>	haha
+Jun 02 15:36:36 <Improvotter>	My other passwords are 30+ chars ;)
+Jun 02 15:36:53 <Xenguy>	The best I could memorize was 31 char
+Jun 02 15:39:21 *	ZyX-I has quit (Ping timeout: 240 seconds)
+Jun 02 15:41:31 *	linux_dream has quit (Quit: WeeChat 1.8)
+Jun 02 15:45:23 *	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru) has joined
+Jun 02 15:48:59 *	kalbasit has quit (Ping timeout: 272 seconds)
+Jun 02 15:53:45 *	ayjay_t has quit (Read error: Connection reset by peer)
+Jun 02 15:53:46 *	ayjay_t_ (ajp@71-88-60-246.static.nwtn.ct.charter.com) has joined
+Jun 02 15:54:43 *	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined
+Jun 02 15:55:25 *	mstruebing has quit (Quit: WeeChat 1.8)
+Jun 02 15:58:51 *	stargater has quit (Ping timeout: 240 seconds)
+Jun 02 15:59:11 <Improvotter>	Xenguy: you should use an algorithm
+Jun 02 15:59:22 <Improvotter>	Then just generate one in your head per site.
+Jun 02 16:00:11 <squigz>	I don't believe you only use that password locally :P
+Jun 02 16:00:25 <squigz>	I bet it's also your algorithm's master password
+Jun 02 16:01:14 <Improvotter>	squigz: I use that pass for the user, not disk encryption ;)
+Jun 02 16:01:37 <squigz>	And how often do you have to enter your FDE passphrase? :P
+Jun 02 16:01:44 <squigz>	Most people keep their boxes up way too long
+Jun 02 16:02:08 <Improvotter>	I turn mine off daily
+Jun 02 16:02:19 <squigz>	Good
+Jun 02 16:02:36 <squigz>	Even so, use a better password for your local user :P
+Jun 02 16:02:39 <squigz>	That's terrible
+Jun 02 16:02:41 <Improvotter>	I just use a password on my local account to log in quickly
+Jun 02 16:03:07 <squigz>	My 2 main passwords are both 25 character randomly generated
+Jun 02 16:03:19 <Improvotter>	If I have to type "well this is my password for my local account you are never gonna guess it" every time I log in
+Jun 02 16:03:20 <squigz>	memorized
+Jun 02 16:03:35 <Improvotter>	Randomly generated passwords? nty
+Jun 02 16:03:51 <Improvotter>	I generate them in my head for every platform
+Jun 02 16:13:36 *	emdete has quit (Ping timeout: 255 seconds)
+Jun 02 16:14:13 *	MtotheM (~MtotheM@h-4-126.a392.priv.bahnhof.se) has joined
+Jun 02 16:19:48 *	cookiebow has quit (Ping timeout: 260 seconds)
+Jun 02 16:27:58 *	DoomPatrol (~NilesCaul@2602:306:367a:a5f0:b69e:47:99d7:c456) has joined
+Jun 02 16:28:09 *	steven_ (~steven@p54B9949F.dip0.t-ipconnect.de) has joined
+Jun 02 16:28:13 *	stivo has quit (Remote host closed the connection)
+Jun 02 16:28:29 *	ryzendar (~ryzenda@2601:547:1300:6c66:192f:b408:7ca4:aafa) has joined
+Jun 02 16:28:35 *	ryzenda has quit (Remote host closed the connection)
+Jun 02 16:30:09 *	PatrolDoom has quit (Ping timeout: 271 seconds)
+Jun 02 16:30:53 *	kartouch has quit (Ping timeout: 260 seconds)
+Jun 02 16:31:44 *	XBauer (~abe@kote1.ethz.ch) has joined
+Jun 02 16:31:51 *	m8t_ (~m8t@pdpc/supporter/base/m8t) has joined
+Jun 02 16:31:51 *	dh has quit (Disconnected by services)
+Jun 02 16:31:53 *	tsakos_ (tsakos@elite.bshellz.net) has joined
+Jun 02 16:31:56 *	dh__ (dh@bsd.ee) has joined
+Jun 02 16:32:01 *	fraksken1work (~fraksken@78-23-193-246.access.telenet.be) has joined
+Jun 02 16:32:42 *	firef1y (~firef1y@unaffiliated/firef1y) has joined
+Jun 02 16:33:16 *	kartouch (~kartouch@monkeypl0w.digikiwee.xyz) has joined
+Jun 02 16:34:21 *	burroughs has quit (Ping timeout: 240 seconds)
+Jun 02 16:35:21 *	andyrtr has quit (Ping timeout: 240 seconds)
+Jun 02 16:36:27 *	kalbasit has quit (Ping timeout: 240 seconds)
+Jun 02 16:36:44 *	andyrtr (~andyrtr@archlinux/developer/andyrtr) has joined
+Jun 02 16:37:15 *	burroughs (~burroughs@61.60.197.104.bc.googleusercontent.com) has joined
+Jun 02 16:37:33 *	venmx (~pactadmin@85.255.235.29) has joined
+Jun 02 16:40:05 *	m8t has quit (Write error: Broken pipe)
+Jun 02 16:40:06 *	XTaran has quit (Write error: Broken pipe)
+Jun 02 16:40:14 *	lermain has quit (Excess Flood)
+Jun 02 16:40:14 *	rouji has quit (Excess Flood)
+Jun 02 16:40:14 *	simp_ has quit (Excess Flood)
+Jun 02 16:40:22 *	lermain (~qed@unaffiliated/lermain) has joined
+Jun 02 16:40:27 *	fraksken_work has quit (Remote host closed the connection)
+Jun 02 16:40:27 *	firef1y_ has quit (Remote host closed the connection)
+Jun 02 16:40:27 *	docsteel has quit (Remote host closed the connection)
+Jun 02 16:40:30 *	rouji (~rouji@x0.at) has joined
+Jun 02 16:40:31 *	simp (~simp@talvik.eu) has joined
+Jun 02 16:42:33 *	Irishluck83 has quit (Ping timeout: 260 seconds)
+Jun 02 16:43:16 *	DoomPatrol has quit (Ping timeout: 255 seconds)
+Jun 02 16:43:45 *	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined
+Jun 02 16:44:51 *	tsakos has quit (Ping timeout: 260 seconds)
+Jun 02 16:45:08 *	Irishluck83 (~Irishluck@unaffiliated/irishluck83) has joined
+Jun 02 16:45:19 *	docsteel (~docsteel@datenschleuder.net) has joined
+Jun 02 16:47:48 *	nujikl123 has quit (Ping timeout: 260 seconds)
+Jun 02 16:49:12 *	frakturfreak has quit (Quit: WeeChat 1.8)
+Jun 02 16:50:13 *	somis has quit (Quit: WeeChat 1.8)
+Jun 02 16:54:13 *	boomboxnation has quit (Ping timeout: 260 seconds)
+Jun 02 16:57:02 *	Absolute0 has quit (Remote host closed the connection)
+**** BEGIN LOGGING AT Fri Jun  2 22:31:49 2017
+
+Jun 02 22:31:49 *	Now talking on #i3
+Jun 02 22:31:49 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+Jun 02 22:31:49 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:40:49 2017)
+Jun 02 22:42:25 *	ksjk1998 has quit (Remote host closed the connection)
+Jun 02 23:01:26 *	qgTG (~qgTG@unaffiliated/qgtg) has joined
+Jun 02 23:02:07 *	chel has quit (Ping timeout: 245 seconds)
+Jun 02 23:40:48 *	arescorpio has quit (Quit: Leaving.)
+Jun 02 23:41:22 *	diegs_ has quit (Ping timeout: 255 seconds)
+Jun 02 23:45:05 *	ZyX-I has quit (Ping timeout: 240 seconds)
+Jun 02 23:47:12 *	m0u (~m0u@unaffiliated/m0u) has joined
+Jun 02 23:49:42 *	m0u has quit (Client Quit)
+Jun 02 23:53:56 *	cspack (~cspack@gateway/vpn/privateinternetaccess/cspack) has joined
+Jun 02 23:54:02 *	m0u (~m0u@250.red-79-159-194.dynamicip.rima-tde.net) has joined
+Jun 02 23:54:02 *	m0u has quit (Changing host)
+Jun 02 23:54:02 *	m0u (~m0u@unaffiliated/m0u) has joined
+Jun 02 23:55:46 *	mitz (~mitz@KD106167040033.ppp-bb.dion.ne.jp) has joined
+Jun 02 23:56:06 *	mandje (~mandje@2001:985:8762:1:c0e4:7340:779c:9230) has joined
+Jun 03 00:02:15 *	venmx (~pactadmin@85.255.235.29) has joined
+Jun 03 00:02:34 *	ryzendar has quit (Changing host)
+Jun 03 00:02:34 *	ryzendar (~ryzenda@unaffiliated/necrodearia) has joined
+Jun 03 00:06:36 *	daktak has quit (Quit: No Ping reply in 180 seconds.)
+Jun 03 00:06:51 *	venmx has quit (Ping timeout: 240 seconds)
+Jun 03 00:06:53 *	milk has quit (Ping timeout: 255 seconds)
+Jun 03 00:06:54 *	bitonic has quit (Ping timeout: 255 seconds)
+Jun 03 00:07:08 *	bitonic (sid61915@gateway/web/irccloud.com/x-gybwqxoaodghddyf) has joined
+Jun 03 00:07:09 *	StarlitGhost (~SG@tyranicmoron.uk) has joined
+Jun 03 00:08:01 *	daktak (~quassel@220-245-14-175.static.tpgi.com.au) has joined
+Jun 03 00:10:02 *	Tyranic-Moron has quit (Ping timeout: 255 seconds)
+Jun 03 00:10:03 *	leex has quit (Ping timeout: 255 seconds)
+Jun 03 00:10:09 *	leex (~leex@towerofthegolem.hexgolems.com) has joined
+Jun 03 00:13:17 *	milk (~milk@thingsandstuff.org) has joined
+Jun 03 00:17:54 *	viktormadarasz has quit (Ping timeout: 240 seconds)
+Jun 03 00:18:41 *	viktormadarasz (~viktormad@93.186.253.216) has joined
+Jun 03 00:20:23 *	jagob (~jacob@d40a9e34.rev.stofanet.dk) has joined
+Jun 03 00:22:32 *	llinguini (~llinguini@c-98-215-1-225.hsd1.il.comcast.net) has joined
+Jun 03 00:24:31 *	fraksken1work has quit (Quit: leaving)
+Jun 03 00:29:58 *	fraksken_work (~fraksken@unaffiliated/fraksken-work/x-6239810) has joined
+Jun 03 00:30:18 *	michaelrose (~michael@75-172-1-48.tukw.qwest.net) has joined
+Jun 03 00:31:16 *	stargater (~stargater@x4db9e982.dyn.telefonica.de) has joined
+Jun 03 00:34:20 *	viktormadarasz has quit (Ping timeout: 255 seconds)
+Jun 03 00:35:28 *	viktormadarasz (~viktormad@93.186.253.216) has joined
+Jun 03 00:54:34 *	llinguini has quit (Quit: Leaving)
+Jun 03 01:00:05 *	user3 has quit (Ping timeout: 240 seconds)
+Jun 03 01:08:03 *	aarobc has quit (Quit: Connection closed for inactivity)
+**** BEGIN LOGGING AT Sat Jun  3 16:48:14 2017
+
+Jun 03 16:48:14 *	Now talking on #i3
+Jun 03 16:48:14 *	Topic for #i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+Jun 03 16:48:14 *	Topic for #i3 set by sECuRE!~sECuRE@midna.zekjur.net (Sat Apr  1 11:39:12 2017)

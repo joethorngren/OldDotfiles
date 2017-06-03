@@ -1,0 +1,45 @@
+{
+   "extDescription": {
+      "description": "The description of the extension. HD is short for High Definition.",
+      "message": "HD में\nचलाने के लिए यूट्यूब वीडियो स्वतः बनाता है।"
+   },
+   "extName": {
+      "description": "The name of the extension. Please translate it to whatever is most similar to 'Auto HD'. HD is short for High Definition.",
+      "message": "स्वतः HD\nYouTube™ के लिए"
+   },
+   "extSettings": {
+      "description": "When you translate 'Auto HD', please ensure that it is translated the same as in the extension name (above). HD is short for High Definition.",
+      "message": "स्वतः HD सेटिंग्स"
+   },
+   "hd": {
+      "message": "HD"
+   },
+   "large": {
+      "message": "बड़ा"
+   },
+   "max": {
+      "message": "अधि."
+   },
+   "medium": {
+      "message": "मध्यम"
+   },
+   "playQuality": {
+      "description": "The headline of a setting which allows the user to choose the default quality of their YouTube player",
+      "message": "संचालन\nगुणवत्ता"
+   },
+   "playerSize": {
+      "description": "The headline of a setting which allows the user to choose the default size of their YouTube player",
+      "message": "प्लेयर\nआकार"
+   },
+   "rateUs": {
+      "description": "The label on a button that encourages users to rate the app",
+      "message": "हमें 5 स्टार रेट करें"
+   },
+   "reportBug": {
+      "description": "The label on a button that lets users report a problem",
+      "message": "बग\nरिपोर्ट करें"
+   },
+   "small": {
+      "message": "छोटा"
+   }
+}

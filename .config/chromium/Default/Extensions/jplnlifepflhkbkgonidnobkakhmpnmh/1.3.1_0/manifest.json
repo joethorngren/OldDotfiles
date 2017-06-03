@@ -1,0 +1,27 @@
+{
+   "background": {
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icons/icon48red.png",
+      "default_popup": "html/foreground.html"
+   },
+   "content_scripts": [ {
+      "js": [ "js/contentscripts/clientsignin.js" ],
+      "matches": [ "https://www.privateinternetaccess.com/xpages/sign-in", "https://fra.privateinternetaccess.com/xpages/sign-in", "https://deu.privateinternetaccess.com/xpages/sign-in", "https://jpn.privateinternetaccess.com/xpages/sign-in", "https://nld.privateinternetaccess.com/xpages/sign-in", "https://dnk.privateinternetaccess.com/xpages/sign-in", "https://tur.privateinternetaccess.com/xpages/sign-in", "https://mex.privateinternetaccess.com/xpages/sign-in", "https://bra.privateinternetaccess.com/xpages/sign-in", "https://chi.privateinternetaccess.com/xpages/sign-in", "https://cht.privateinternetaccess.com/xpages/sign-in", "https://rus.privateinternetaccess.com/xpages/sign-in", "https://ita.privateinternetaccess.com/xpages/sign-in", "https://tha.privateinternetaccess.com/xpages/sign-in", "https://kor.privateinternetaccess.com/xpages/sign-in", "https://ara.privateinternetaccess.com/xpages/sign-in", "https://pol.privateinternetaccess.com/xpages/sign-in" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "Private Internet Access chrome extension",
+   "icons": {
+      "128": "images/icons/icon128.png",
+      "16": "images/icons/icon16.png",
+      "48": "images/icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhHYSWQOoBrS2ltL1kjQYMqx/do2u4tQ85wtp/zeOkOlTavuXkS4VUgkobdOP40IfOrIjbG0VGuwM7QqNyG1X7ZwP6deJVW5cIlTSv/0HgUAxBGu/saiPoNw9bT69knQIwct+5ZnDyrHmajzIqH5LRkRDaKDWgdFH2zUpbOwvrYDy/kkbdsf0TARQTmd1sDZfSB9Ryp1MNEbt9uMZEe7E88N5mRJpQ7fTnBIWHWB/6OlnqvT4Yo1t+7dAS6/SBozpxm1BEFPVW0WMl2vkYmySLbdcHcew9rZu2nrHl6fOIBuSpeW+3se2k0Lo3c9tz2weCuFYorTV0ikGTIEdsO8DBQIDAQAB",
+   "manifest_version": 2,
+   "name": "Private Internet Access",
+   "permissions": [ "webRequest", "webRequestBlocking", "proxy", "privacy", "contentSettings", "background", "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.1"
+}

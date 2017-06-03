@@ -1,0 +1,16 @@
+{
+   "content_scripts": [ {
+      "css": [ "trellowip.css" ],
+      "js": [ "jquery-1.7.1.min.js", "trellowip.js" ],
+      "matches": [ "https://trello.com/*" ]
+   } ],
+   "description": "Adds work-in-progress limits to Trello lists supporting a Kanban workflow.",
+   "icons": {
+      "128": "trellowipicon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0H7mpLFX/BAVQJKBoUQLCic3dkfhKPsSUoN/WJX1lfS/CKkS4hpR0DPbRFtruO4N1m0ClLZIs2FUuUelV8dxHF1D1G3hXiY88JbfZ13mO72gCXREg3KRIrwKHfSqilh74jKmRJlf330PR+MJplROuQIkEZL75iPTa8gFhleLmMwIDAQAB",
+   "manifest_version": 2,
+   "name": "Kanban WIP for Trello",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.3.3"
+}

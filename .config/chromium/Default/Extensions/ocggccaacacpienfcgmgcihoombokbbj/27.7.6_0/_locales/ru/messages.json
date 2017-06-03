@@ -1,0 +1,2735 @@
+{
+   "add_new_dial_dialog_apply": {
+      "message": "Сохранить"
+   },
+   "add_new_dial_dialog_close": {
+      "message": "Отмена"
+   },
+   "add_new_dial_dialog_group_name_require": {
+      "message": "Название группы не может быть пустым"
+   },
+   "add_new_dial_dialog_name_require": {
+      "message": "Название не может быть пустым"
+   },
+   "add_new_dial_dialog_preview_title": {
+      "message": "Выберите превью"
+   },
+   "add_new_dial_dialog_title": {
+      "message": "Добавить сайт"
+   },
+   "add_new_dial_dialog_url_require": {
+      "message": "Url не может быть пустым"
+   },
+   "add_new_dial_field_group": {
+      "message": "Группа"
+   },
+   "add_new_dial_field_groupName": {
+      "message": "Название"
+   },
+   "add_new_dial_field_name": {
+      "message": "Название"
+   },
+   "add_new_dial_field_url": {
+      "message": "URL"
+   },
+   "add_new_dial_text_groupName": {
+      "message": "Новая группа"
+   },
+   "add_new_group_dialog_apply": {
+      "message": "Сохранить"
+   },
+   "add_new_group_dialog_close": {
+      "message": "Отмена"
+   },
+   "add_new_group_dialog_name_require": {
+      "message": "Название не может быть пустым"
+   },
+   "add_new_group_dialog_title": {
+      "message": "Добавить группу"
+   },
+   "add_new_group_field_name": {
+      "message": "Название"
+   },
+   "add_user_flixel_btn": {
+      "message": "Создайте свои живые фото"
+   },
+   "appDesc": {
+      "message": "Приложение, которое украсит вашу стартовую страницу в браузере с помощью шикарных \"живых\" обоев."
+   },
+   "appName": {
+      "message": "Live Start Page - живые обои"
+   },
+   "appShort": {
+      "message": "Визуальные закладки"
+   },
+   "auth_already_have_an_account": {
+      "message": "У Вас уже есть аккаунт?"
+   },
+   "auth_banner_passcode_head": {
+      "message": "Защитите Ваши данные"
+   },
+   "auth_banner_passcode_text": {
+      "message": "от нежелательных посетителей с помощью Пин-Кода!"
+   },
+   "auth_billing": {
+      "message": "Биллинг"
+   },
+   "auth_bottom_text": {
+      "message": "Удобное и красивое расширение для браузера, где есть всё для продуктивной работы и отдыха."
+   },
+   "auth_bottom_text_OLD": {
+      "message": "Премиум пользователи LiveStartPage первыми получат доступ к новым разработкам, функциям и эксклюзивным Живым Фонам!"
+   },
+   "auth_cancel": {
+      "message": "Назад"
+   },
+   "auth_change_default_search_engine": {
+      "message": "Изменение поисковой системы"
+   },
+   "auth_change_default_search_engine_help": {
+      "message": "Пользуйтесь привычным для Вас поисковиком: Google, Yandex, а может быть Bing? Решение за Вами!"
+   },
+   "auth_change_default_search_engine_short": {
+      "message": "Поиск в: "
+   },
+   "auth_customize_clocks_size": {
+      "message": "Настраивайте размер часов"
+   },
+   "auth_d_all_features": {
+      "message": "Все Премиум Возможности"
+   },
+   "auth_d_close": {
+      "message": "Закрыть"
+   },
+   "auth_d_come_back": {
+      "message": "Вы можете вернуться позже"
+   },
+   "auth_d_get_premium": {
+      "message": "Премиум аккаунт!"
+   },
+   "auth_d_not_now": {
+      "message": "Не сейчас"
+   },
+   "auth_d_sign_in": {
+      "message": "Войти"
+   },
+   "auth_detailed_relax": {
+      "message": "Уроки Медитации и Звуки природы"
+   },
+   "auth_detailed_relax_help": {
+      "message": "Уроки Медитации и Звуки природы"
+   },
+   "auth_detailed_weather": {
+      "message": "Прогноз погоды на неделю"
+   },
+   "auth_detailed_weather_help": {
+      "message": "Погода напрямую влияет на наши планы, и важно знать ее не только на сегодня, но и на будущее. Получите подробный прогноз погоды и вероятность осадков на ближайшие часы и дни!"
+   },
+   "auth_discovered_1": {
+      "message": "Вы обнаружили Премиум"
+   },
+   "auth_discovered_2": {
+      "message": "функцию!"
+   },
+   "auth_discovered_3": {
+      "message": "Обновитесь до LiveStartPage Премиум"
+   },
+   "auth_discovered_4": {
+      "message": "для использования."
+   },
+   "auth_dont_have_an_account": {
+      "message": "У Вас еще нет аккаунта?"
+   },
+   "auth_email": {
+      "message": "Email"
+   },
+   "auth_email_is_required": {
+      "message": "Введите корректный email."
+   },
+   "auth_high_priority_support": {
+      "message": "Приоритетная поддержка"
+   },
+   "auth_high_priority_support_help": {
+      "message": "Центр поддержки пользователей быстро отрегирует на Ваши вопросы и возможные проблемы."
+   },
+   "auth_high_priority_weather": {
+      "message": "Прогноз погоды на неделю"
+   },
+   "auth_incredible_start_page": {
+      "message": "Шикарная стартовая страница с живыми обоями"
+   },
+   "auth_login": {
+      "message": "Войти"
+   },
+   "auth_login_is_required": {
+      "message": "Введите пароль"
+   },
+   "auth_login_or_email": {
+      "message": "Логин или Email"
+   },
+   "auth_logout": {
+      "message": "Выход из аккаунта"
+   },
+   "auth_more_features_coming": {
+      "message": "Будут и другие возможности ;)"
+   },
+   "auth_more_features_coming_help": {
+      "message": "Премиум пользователи LiveStartPage первыми получат доступ к новым разработкам, функциям и эксклюзивным Живым Фонам!"
+   },
+   "auth_or": {
+      "message": "ИЛИ"
+   },
+   "auth_password": {
+      "message": "Пароль"
+   },
+   "auth_password_is_required": {
+      "message": "Введите пароль"
+   },
+   "auth_password_is_required_min_8": {
+      "message": "Пароль должен содержать не менее 8 символов"
+   },
+   "auth_passwords_isnt_same": {
+      "message": "Пароли не совпадают"
+   },
+   "auth_plan_choice": {
+      "message": "Выберите тарифный план:"
+   },
+   "auth_plan_month_en": {
+      "message": "DOLLAR1.99 в месяц"
+   },
+   "auth_plan_month_ru": {
+      "message": "50 ROUBLE в месяц"
+   },
+   "auth_plan_year_en": {
+      "message": "DOLLAR9.99 в год"
+   },
+   "auth_plan_year_ru": {
+      "message": "500 ROUBLE в год"
+   },
+   "auth_premium_pricing_en": {
+      "message": "DOLLAR1.99 в месяц ИЛИ DOLLAR9.99 в год"
+   },
+   "auth_premium_pricing_ru": {
+      "message": "50 ROUBLE в месяц ИЛИ 500 ROUBLE в год"
+   },
+   "auth_pro_feature": {
+      "message": "Премиум функция"
+   },
+   "auth_pro_message": {
+      "message": "Вы используете премиум аккаунт!"
+   },
+   "auth_protect": {
+      "message": "Защитите данные от нежелательных посетителей с помощью Пин-Кода!"
+   },
+   "auth_protect_help": {
+      "message": "С функцией «Power Off» список ваших сайтов, задач и прочая личная информация находится под надёжной защитой. Задайте ПИН-код блокировки, и никто не увидит Ваши данные в Ваше отсутствие. Идеальная защита от посторонних глаз!"
+   },
+   "auth_register": {
+      "message": "Создать аккаунт"
+   },
+   "auth_register_trial_1": {
+      "message": "Создайте бесплатно"
+   },
+   "auth_register_trial_2": {
+      "message": "Премиум аккаунт на 14 дней"
+   },
+   "auth_register_trial_3": {
+      "message": " "
+   },
+   "auth_restore_password": {
+      "message": "Восстановить пароль"
+   },
+   "auth_retype_password": {
+      "message": "Повторите пароль"
+   },
+   "auth_sign_in": {
+      "message": "Вход"
+   },
+   "auth_sign_up": {
+      "message": "Зарегистрироваться"
+   },
+   "auth_synchronize_dials": {
+      "message": "Синхронизация закладок и групп в Speed Dial"
+   },
+   "auth_synchronize_dials_help": {
+      "message": "Синхронизируйте группы и сайты в визуальных закладках между различными компьютерами и браузерами. Например, добавив новые закладки в Chrome на одном компьютере, вы сможете сразу увидеть их в Firefox на другом."
+   },
+   "auth_synchronize_tasks": {
+      "message": "Синхронизация задач"
+   },
+   "auth_synchronize_tasks_help": {
+      "message": "Ваши задачи всегда с вами! Создавайте и редактируйте список задач на своем компьютере и получите к нему доступ из любого браузера, где есть Live Start Page."
+   },
+   "auth_terms_and_conditions": {
+      "message": "Условиями и Правилами"
+   },
+   "auth_to_enter_your_login": {
+      "message": "ввести Ваш логин или email"
+   },
+   "auth_to_restore_password": {
+      "message": "Для восстановления пароля Вам необходимо"
+   },
+   "auth_trial_activate_btn": {
+      "message": "Активируйте триал (14 дней)"
+   },
+   "auth_trial_activate_failed": {
+      "message": "Не удалось активировать триал-версию"
+   },
+   "auth_trial_activated": {
+      "message": "Триал-версия активирована на 14 дней!"
+   },
+   "auth_trial_will_expire": {
+      "message": "Дней до окончания триала: N"
+   },
+   "auth_trial_will_expire_title": {
+      "message": "Нажмите для покупки Премиум версии"
+   },
+   "auth_username_float_title": {
+      "message": "Управление учетной записью"
+   },
+   "auth_using_facebook": {
+      "message": "Войти через Facebook"
+   },
+   "auth_using_google": {
+      "message": "Войти через Google"
+   },
+   "auth_you_agree": {
+      "message": "Нажимая “зарегистрироваться”, Вы соглашаетесь с"
+   },
+   "auth_your_login": {
+      "message": "Ваш логин"
+   },
+   "auto_download_videos": {
+      "message": "Автозагрузка видео"
+   },
+   "backup_confirm_create_btn_db": {
+      "message": "Использовать БД аддона"
+   },
+   "backup_confirm_create_btn_file": {
+      "message": "Экспортировать в файл"
+   },
+   "backup_confirm_create_note": {
+      "message": "* Примечание: База данных аддона не всегда обеспечивает сохранность данных. Например, если вы переустановите браузер или аддон, то база данных будет потеряна. Вы можете использовать оба варианта резервного копирования!"
+   },
+   "backup_confirm_create_title": {
+      "message": "Как сохранить резервную копию?"
+   },
+   "backup_confirm_line_1": {
+      "message": "В результате неизвестных причин/действий других программ некоторые дилы повредились и идет их восстановление. Это займет некоторое время."
+   },
+   "backup_confirm_line_2": {
+      "message": "Но не беспокойтесь! Сейчас всё будет работать!"
+   },
+   "backup_confirm_recovery_attention": {
+      "message": "Это действие нельзя отменить!"
+   },
+   "backup_confirm_recovery_btn_db": {
+      "message": "Из БД аддона"
+   },
+   "backup_confirm_recovery_btn_file": {
+      "message": "Из файла (*.lsp)"
+   },
+   "backup_confirm_recovery_file_parse_error": {
+      "message": "Не удалось распознать данные из файла"
+   },
+   "backup_confirm_recovery_text": {
+      "message": "Пожалуйста, подтвердите восстановление данных из бэкапа."
+   },
+   "backup_confirm_recovery_title": {
+      "message": "Какую копию Вы хотите восстановить?"
+   },
+   "backup_confirm_title": {
+      "message": "Идет восстановление дилов..."
+   },
+   "backup_enable": {
+      "message": "Включить бэкап данных"
+   },
+   "backup_modal_description": {
+      "message": "Похоже, что база данных повреждена. Происходит автоматическое восстановление. Вы можете управлять резервными копиями на"
+   },
+   "backup_modal_settings_link": {
+      "message": "странице Настроек"
+   },
+   "backup_restore_file_error": {
+      "message": "Ошибка восстановления"
+   },
+   "backup_settings_create": {
+      "message": "Создать новую копию"
+   },
+   "backup_settings_done": {
+      "message": "Готово! Обновить все страницы аддона"
+   },
+   "backup_settings_item": {
+      "message": "записей"
+   },
+   "backup_settings_last_date": {
+      "message": "Бэкап"
+   },
+   "backup_settings_last_never": {
+      "message": "Не создавался"
+   },
+   "backup_settings_last_restored": {
+      "message": "(Восстановлен)"
+   },
+   "backup_settings_navi": {
+      "message": "Бэкап"
+   },
+   "backup_settings_restore": {
+      "message": "Восстановить копию"
+   },
+   "backup_settings_title": {
+      "message": "Резервное копирование"
+   },
+   "backup_table_dials": {
+      "message": "Сайты"
+   },
+   "backup_table_groups": {
+      "message": "Группы"
+   },
+   "backup_table_images": {
+      "message": "Изображения"
+   },
+   "backup_table_settings": {
+      "message": "Настройки"
+   },
+   "backup_table_storage": {
+      "message": "Параметры"
+   },
+   "backup_table_todo_items": {
+      "message": "Задачи"
+   },
+   "backup_why": {
+      "message": "Зачем это нужно?"
+   },
+   "bba_addons": {
+      "message": "Плагины"
+   },
+   "bba_bookmarks": {
+      "message": "Закладки"
+   },
+   "bba_downloads": {
+      "message": "Загрузки"
+   },
+   "bba_history": {
+      "message": "Журнал"
+   },
+   "bba_hystory": {
+      "message": "Журнал"
+   },
+   "bba_restore": {
+      "message": "Предыдущая сессия. Число вкладок"
+   },
+   "bba_session": {
+      "message": "Прошлая сессия"
+   },
+   "bba_settings": {
+      "message": "Настройки"
+   },
+   "bba_sync": {
+      "message": "Синхронизация"
+   },
+   "become_premium": {
+      "message": "Премиум"
+   },
+   "bg_video_pause": {
+      "message": "Пауза «живого» фона"
+   },
+   "bg_video_play": {
+      "message": "Воспроизведение «живого» фона"
+   },
+   "cancel": {
+      "message": "Отмена"
+   },
+   "cant_add_new_group_with_no_dials": {
+      "message": "Не могу создать новую группу без сайтов"
+   },
+   "choose_color_scheme": {
+      "message": "Выберите цветовую схему"
+   },
+   "clock_date_format": {
+      "message": "Формат даты"
+   },
+   "clock_date_separator": {
+      "message": "Разделитель даты"
+   },
+   "confirm": {
+      "message": "Подтвердить"
+   },
+   "context_menu_add": {
+      "message": "Добавить в группу по умолчанию"
+   },
+   "context_menu_all": {
+      "message": "Сохранить все вкладки как новую группу"
+   },
+   "dash": {
+      "message": "тире (-)"
+   },
+   "date": {
+      "message": "Дата"
+   },
+   "delete_group_dialog_apply": {
+      "message": "Удалить"
+   },
+   "delete_group_dialog_body_1": {
+      "message": "В группе есть сайты."
+   },
+   "delete_group_dialog_body_2": {
+      "message": "Вы уверенны что хотите удалить группу?"
+   },
+   "delete_group_dialog_close": {
+      "message": "Отмена"
+   },
+   "delete_group_dialog_title": {
+      "message": "Подтвердите действие"
+   },
+   "dial_saved_to_folder": {
+      "message": "Сохранено в папку [name]"
+   },
+   "dialog_pick_user_pics_not_found_enter_in": {
+      "message": "Когда вы найдете изображение, скопируйте его URL и вставьте в данную форму:"
+   },
+   "dialog_pick_user_pics_not_found_title": {
+      "message": "Вы можете искать логотип для {host} на данных ресурсах и добавлять их в нашу галерею."
+   },
+   "dlg_confirm_disable_quick_preview_text": {
+      "message": "Вы действительно хотите отключить виджет \"Быстрый просмотр\"?"
+   },
+   "dlg_confirm_disable_quick_preview_title": {
+      "message": "Подтвердите отключение виджета"
+   },
+   "dot": {
+      "message": "точка (.)"
+   },
+   "edit_dial_dialog_title": {
+      "message": "Редактировать сайт"
+   },
+   "engine_modal_close": {
+      "message": "Закрыть"
+   },
+   "engine_modal_save": {
+      "message": "Сохранить"
+   },
+   "engine_modal_title": {
+      "message": "Выберите поисковую систему"
+   },
+   "error_auth_network": {
+      "message": "Ошибка авторизации. Нет соединения с сервером."
+   },
+   "error_sync_network": {
+      "message": "Не удалось запустить синхронизацию. Нет соединения с сервером."
+   },
+   "extrime": {
+      "message": "Огромный"
+   },
+   "focus_background_opacity": {
+      "message": "Прозрачность фона"
+   },
+   "focus_font_size": {
+      "message": "Размер шрифта"
+   },
+   "focus_header": {
+      "message": "Цель дня"
+   },
+   "focus_hint_add": {
+      "message": "Новая задача"
+   },
+   "focus_hint_done": {
+      "message": "Сделано"
+   },
+   "focus_hint_move": {
+      "message": "Переместить"
+   },
+   "focus_hint_not_done": {
+      "message": "Не сделано"
+   },
+   "focus_hint_remove": {
+      "message": "Удалить"
+   },
+   "focus_hint_settings": {
+      "message": "Настройки"
+   },
+   "focus_message": {
+      "message": "Приветствие"
+   },
+   "focus_question": {
+      "message": "Какая у Вас цель на сегодня?"
+   },
+   "focus_select_color": {
+      "message": "Цвет шрифта"
+   },
+   "focus_show": {
+      "message": "Показывать Текущую Цель"
+   },
+   "focus_show_background": {
+      "message": "Показать фон"
+   },
+   "focus_status_done": {
+      "message": "Отлично! | Замечательно! | Хорошая работа! | Так держать!"
+   },
+   "focus_status_load": {
+      "message": "Загружаю..."
+   },
+   "focus_status_new": {
+      "message": "Новая задача | Добавим задачу"
+   },
+   "focus_status_save": {
+      "message": "Сохраняю..."
+   },
+   "focus_title": {
+      "message": "Текущая Цель"
+   },
+   "good": {
+      "message": "Хорошо"
+   },
+   "group_sponsoredst": {
+      "message": "Покупки и Путешествия"
+   },
+   "label_new": {
+      "message": "(Новое)"
+   },
+   "language": {
+      "message": "ru"
+   },
+   "large": {
+      "message": "Большой"
+   },
+   "login_error": {
+      "message": "Ошибка авторизации!"
+   },
+   "login_success": {
+      "message": "Вы успешно авторизовались"
+   },
+   "medium": {
+      "message": "Средний"
+   },
+   "menu_float_contact_us": {
+      "message": "Напишите нам"
+   },
+   "menu_float_get_pro": {
+      "message": "Премиум Функции"
+   },
+   "menu_float_get_pro_buy": {
+      "message": "Приобрести Премиум"
+   },
+   "menu_float_login": {
+      "message": "Войти"
+   },
+   "menu_float_logout": {
+      "message": "Выход"
+   },
+   "menu_float_passcode": {
+      "message": "Включить защиту паролем"
+   },
+   "menu_float_pause": {
+      "message": "Пауза видео"
+   },
+   "menu_float_play": {
+      "message": "Возобновить видео"
+   },
+   "menu_float_settings": {
+      "message": "Меню настроек"
+   },
+   "menu_float_settings_link": {
+      "message": "Настройки"
+   },
+   "menu_float_sync": {
+      "message": "Синхронизация"
+   },
+   "menu_float_themes_link": {
+      "message": "Выбрать тему"
+   },
+   "menu_float_weather_forecast": {
+      "message": "Погода на неделю"
+   },
+   "more_themes_button": {
+      "message": "Добавить Новую Тему"
+   },
+   "move_clock": {
+      "message": "Переместить часы"
+   },
+   "navi_active_bg_desc": {
+      "message": "LiveStartPage имеет несколько режимов фонов. Выберите тот, который Вам понравится."
+   },
+   "navi_active_bg_name": {
+      "message": "Конфигурировать Активный фон"
+   },
+   "navi_active_bg_title": {
+      "message": "Текущий активный фон"
+   },
+   "navi_active_mode_message": {
+      "message": "(Активный режим)"
+   },
+   "navi_cant_disable_active": {
+      "message": "Вы не можете отключить этот режим, так как он сейчас активен."
+   },
+   "navi_downloaded_desc": {
+      "message": "Все Ваши Загруженные фоны"
+   },
+   "navi_downloaded_disabled": {
+      "message": "Сначала Вам необходимо скачать как минимум один [name]"
+   },
+   "navi_downloaded_title": {
+      "message": "Загруженные фоны"
+   },
+   "navi_exit": {
+      "message": "Выход"
+   },
+   "navi_favorites_desc": {
+      "message": "Все Ваши Избранные фоны"
+   },
+   "navi_favorites_disabled": {
+      "message": "Сначала Вам необходимо добавить в избранное как минимум один [name]"
+   },
+   "navi_favorites_title": {
+      "message": "Избранные фоны"
+   },
+   "navi_randomize_downloaded": {
+      "message": "Случайные Загруженные"
+   },
+   "navi_randomize_favorites": {
+      "message": "Случайные Избранные"
+   },
+   "navi_show_downloaded": {
+      "message": "Показывать Загруженное"
+   },
+   "navi_show_favorites": {
+      "message": "Показывать Избранные"
+   },
+   "navi_show_live_backgrounds": {
+      "message": "Показывать Живые Фоны"
+   },
+   "navi_show_live_themes": {
+      "message": "Показывать Живые Темы"
+   },
+   "navi_show_wallpapers": {
+      "message": "Показывать Статичные Фоны"
+   },
+   "navi_singular_bg_any": {
+      "message": "Живой или Статичный фон"
+   },
+   "navi_singular_bg_live": {
+      "message": "Живой фон"
+   },
+   "navi_singular_bg_static": {
+      "message": "Статичный фон"
+   },
+   "navi_singular_bg_theme": {
+      "message": "Live Theme"
+   },
+   "navi_tab_live_backgrounds": {
+      "message": "Живые фоны"
+   },
+   "navi_tab_live_themes": {
+      "message": "Живые Темы"
+   },
+   "navi_tab_static_wallpapers": {
+      "message": "Статичные фоны"
+   },
+   "navi_view_all_downloaded": {
+      "message": "Показать все Загруженные"
+   },
+   "navi_view_all_favorites": {
+      "message": "Показать все Избранные"
+   },
+   "navi_view_live_backgrounds": {
+      "message": "Показать все Живые фоны"
+   },
+   "navi_view_live_themes": {
+      "message": "Показать все Живые Темы"
+   },
+   "navi_view_wallpapers": {
+      "message": "Показать все Статичные фоны"
+   },
+   "newtab_auto_title": {
+      "message": "Автоматически"
+   },
+   "newtab_disable_page_mod": {
+      "message": "Отключить виджет"
+   },
+   "newtab_getting_title": {
+      "message": "Получение заголовка..."
+   },
+   "off": {
+      "message": "Выкл"
+   },
+   "ok": {
+      "message": "Да"
+   },
+   "old_options_relax_popup_body_bottom_text_1": {
+      "message": "Получите ежедневный заряд внимания."
+   },
+   "old_options_relax_popup_body_bottom_text_2": {
+      "message": "Расслабьтесь и восстановите фокус."
+   },
+   "old_options_relax_popup_body_bottom_text_3": {
+      "message": "Наслаждайтесь красивыми сценами."
+   },
+   "on": {
+      "message": "Вкл"
+   },
+   "open_groups_dials_current": {
+      "message": "Открыть все сайты в текущем окне"
+   },
+   "open_groups_dials_new": {
+      "message": "Открыть все сайты в новом окне"
+   },
+   "open_player": {
+      "message": "Открыть Плеер"
+   },
+   "option_auto": {
+      "message": "Автоматически"
+   },
+   "option_ddmmyyyy": {
+      "message": "дд/мм/гггг"
+   },
+   "option_mmddyyyy": {
+      "message": "мм/дд/гггг"
+   },
+   "options_add_to_favorite_dialog": {
+      "message": "Пожалуйста, скачайте тему перед тем как добавить ее в избранные"
+   },
+   "options_application_rating_popup_item_already": {
+      "message": "Уже голосовал"
+   },
+   "options_application_rating_popup_item_awesome": {
+      "message": "Круто!"
+   },
+   "options_application_rating_popup_item_bad": {
+      "message": "Плохо"
+   },
+   "options_application_rating_popup_item_better": {
+      "message": "Так себе"
+   },
+   "options_application_rating_popup_title_mark": {
+      "message": "Нравится Live Start Page? Проголосуй!"
+   },
+   "options_application_rating_popup_title_thanks": {
+      "message": "Пожалуйста, оставьте свой отзыв. Спасибо!"
+   },
+   "options_application_weather_city": {
+      "message": "Двойной клик, чтобы изменить"
+   },
+   "options_application_weather_error_text_location": {
+      "message": "Пожалуйста, разрешите определить Ваше местоположение или "
+   },
+   "options_application_weather_error_text_location_placeholder": {
+      "message": "Введите свой город здесь"
+   },
+   "options_application_weather_intro_text": {
+      "message": "Показать погоду"
+   },
+   "options_application_weather_location_current": {
+      "message": "Получить текущее местоположение"
+   },
+   "options_bookmarks_popup_close": {
+      "message": "Не показывать снова"
+   },
+   "options_bookmarks_popup_hide": {
+      "message": "Закрыть"
+   },
+   "options_bookmarks_popup_title": {
+      "message": "Как включить панель закладок"
+   },
+   "options_clock_size": {
+      "message": "Размер часов"
+   },
+   "options_clock_size_large": {
+      "message": "Большие"
+   },
+   "options_clock_size_medium": {
+      "message": "Средние"
+   },
+   "options_clock_size_small": {
+      "message": "Маленькие"
+   },
+   "options_header_buttons_close_settings": {
+      "message": "Закрыть настройки"
+   },
+   "options_header_buttons_control_settings": {
+      "message": "Настройки"
+   },
+   "options_header_buttons_feedback": {
+      "message": "Отзывы"
+   },
+   "options_header_buttons_help": {
+      "message": "FAQ"
+   },
+   "options_header_buttons_select_favorite_bg": {
+      "message": "Избранные"
+   },
+   "options_header_buttons_select_live_bg": {
+      "message": "Выбрать фон"
+   },
+   "options_header_title": {
+      "message": "Live Start Page - Настройки"
+   },
+   "options_meta_title": {
+      "message": "Настройки"
+   },
+   "options_quick_preview": {
+      "message": "Виджет \"Быстрый просмотр\""
+   },
+   "options_random_mode_is_active_notice": {
+      "message": "Примечание: включен режим отображения случайного фона"
+   },
+   "options_random_mode_is_active_notice_downloaded": {
+      "message": "Примечание: включен режим отображения случайного фона для избранных фонов"
+   },
+   "options_random_mode_is_active_notice_favorites": {
+      "message": "Примечание: включен режим отображения случайного фона для избранных фонов"
+   },
+   "options_refresh_themes_list_error": {
+      "message": "Ошибка, невозможно загрузить список доступных фонов. Попробуйте Обновить страницу."
+   },
+   "options_relax_popup_body_bottom_text_1": {
+      "message": "Получите заряд внимания. Расслабьтесь и восстановите фокус."
+   },
+   "options_relax_popup_body_bottom_text_2": {
+      "message": "Для достижения наилучшего результата, мы рекомендуем медитировать два раза в день. Утром и вечером по 15-20 минут. Вы можете выбрать простую медитацию, например звуки природы, или прослушать расслабляющую сессию, записанную профессионалами."
+   },
+   "options_relax_popup_body_bottom_text_3": {
+      "message": "Мы также рекомендуем Вам прочитать нашу статью о медитации:"
+   },
+   "options_relax_popup_body_bottom_text_4": {
+      "message": "Нажмите, чтобы узнать больше о медитации"
+   },
+   "options_relax_popup_body_bottom_text_5": {
+      "message": "Мы рекомендуем Вам использовать наушники."
+   },
+   "options_relax_popup_body_bottom_tip": {
+      "message": "Подсказка: Нажмите F11 что бы выйти из полноэкранного режима."
+   },
+   "options_relax_popup_body_top_text": {
+      "message": "Режим медитации поможет Вам быть продуктивными весь день."
+   },
+   "options_relax_popup_close": {
+      "message": "Не показывать снова"
+   },
+   "options_relax_popup_hide": {
+      "message": "Начать медитацию"
+   },
+   "options_relax_popup_title": {
+      "message": "Режим медитации"
+   },
+   "options_settings_apps_link_display": {
+      "message": "Отобразить ссылку Приложения"
+   },
+   "options_settings_bottom_panel": {
+      "message": "Нижняя панель"
+   },
+   "options_settings_clock_advanced_href": {
+      "message": "Дополнительные"
+   },
+   "options_settings_clock_background": {
+      "message": "Фон"
+   },
+   "options_settings_clock_background_dark": {
+      "message": "Темный фон"
+   },
+   "options_settings_clock_background_dark_long": {
+      "message": "Широкий темный фон"
+   },
+   "options_settings_clock_background_light": {
+      "message": "Светлый фон"
+   },
+   "options_settings_clock_background_light_long": {
+      "message": "Широкий светлый фон"
+   },
+   "options_settings_clock_background_none": {
+      "message": "Нет фона"
+   },
+   "options_settings_clock_background_opacity": {
+      "message": "Прозрачность фона"
+   },
+   "options_settings_clock_basic_href": {
+      "message": "Основные"
+   },
+   "options_settings_clock_color_text_ampm_label": {
+      "message": "AM/PM:"
+   },
+   "options_settings_clock_color_text_border_line": {
+      "message": "Рамка:"
+   },
+   "options_settings_clock_color_text_digit_bg": {
+      "message": "Фон под цифрами:"
+   },
+   "options_settings_clock_color_text_done_line": {
+      "message": "Заполненная линия круга:"
+   },
+   "options_settings_clock_color_text_h": {
+      "message": "Цветовая схема часов:"
+   },
+   "options_settings_clock_color_text_label": {
+      "message": "Подпись:"
+   },
+   "options_settings_clock_color_text_time": {
+      "message": "Цифры:"
+   },
+   "options_settings_clock_color_text_total_line": {
+      "message": "Общая линия круга:"
+   },
+   "options_settings_clock_date": {
+      "message": "Показывать дату"
+   },
+   "options_settings_clock_font_bold": {
+      "message": "Жирный шрифт"
+   },
+   "options_settings_clock_format": {
+      "message": "Формат времени"
+   },
+   "options_settings_clock_format_label": {
+      "message": "Показывать надпись AM/PM"
+   },
+   "options_settings_clock_opacity": {
+      "message": "Прозрачность часов"
+   },
+   "options_settings_clock_scheme_dark": {
+      "message": "Темная"
+   },
+   "options_settings_clock_scheme_default": {
+      "message": "Стандартная"
+   },
+   "options_settings_clock_scheme_light": {
+      "message": "Светлая"
+   },
+   "options_settings_clock_seconds_show": {
+      "message": "Показать секунды"
+   },
+   "options_settings_clock_show": {
+      "message": "Отобразить блок"
+   },
+   "options_settings_clock_title": {
+      "message": "Часы"
+   },
+   "options_settings_clock_type": {
+      "message": "Тип часов"
+   },
+   "options_settings_clock_type_0": {
+      "message": "Простые"
+   },
+   "options_settings_clock_type_10": {
+      "message": "Борд"
+   },
+   "options_settings_clock_type_3": {
+      "message": "Цифровые"
+   },
+   "options_settings_clock_type_5": {
+      "message": "Стильные"
+   },
+   "options_settings_clock_type_6": {
+      "message": "Вращаются"
+   },
+   "options_settings_clock_type_7": {
+      "message": "Двигаются вверх"
+   },
+   "options_settings_clock_type_9": {
+      "message": "Круги"
+   },
+   "options_settings_clock_visible_label": {
+      "message": "Показывать единицу измерения"
+   },
+   "options_settings_dials_advanced_href": {
+      "message": "Дополнительные"
+   },
+   "options_settings_dials_basic_href": {
+      "message": "Основные"
+   },
+   "options_settings_dials_columns_count": {
+      "message": "Колонок для дилов"
+   },
+   "options_settings_dials_display_background": {
+      "message": "Отображать стандартный фон дилов"
+   },
+   "options_settings_dials_display_borders": {
+      "message": "Отображать рамки у дилов"
+   },
+   "options_settings_dials_size_slider": {
+      "message": "Размер дилов"
+   },
+   "options_settings_images_add": {
+      "message": "Загрузить новый фон"
+   },
+   "options_settings_images_sort_gallery": {
+      "message": "Галерея"
+   },
+   "options_settings_images_sort_your": {
+      "message": "Ваши загрузки"
+   },
+   "options_settings_page_bottom_panel_opacity": {
+      "message": "Прозрачность нижней панели"
+   },
+   "options_settings_page_common": {
+      "message": "Разное"
+   },
+   "options_settings_page_common_hint": {
+      "message": "Если Вы установили тему для Chrome от LiveStartPage или посетили одну из промо-страниц на сайте livestartpage.com (example: \u003Ca href=https://goo.gl/8c3b25 target=_blank>https://goo.gl/8c3b25\u003C/a> ), аддон автоматически загрузит соответствующее видео."
+   },
+   "options_settings_page_top_panel": {
+      "message": "Верхняя панель"
+   },
+   "options_settings_parallax_enable": {
+      "message": "Отображать эффект"
+   },
+   "options_settings_parallax_enable_notice": {
+      "message": "(При включении снижается производительность)"
+   },
+   "options_settings_parallax_navi": {
+      "message": "Parallax"
+   },
+   "options_settings_parallax_strength": {
+      "message": "Сила эффекта"
+   },
+   "options_settings_parallax_subtitle": {
+      "message": "(Динамический фон)"
+   },
+   "options_settings_parallax_title": {
+      "message": "Parallax эффект для фона"
+   },
+   "options_settings_popular_group_show": {
+      "message": "Отобразить группу"
+   },
+   "options_settings_random_button_text": {
+      "message": "Случайный фон"
+   },
+   "options_settings_random_themes_enable_notice": {
+      "message": "Отображать случайный фон (только установленные)"
+   },
+   "options_settings_random_themes_enable_notice_downloaded": {
+      "message": "Установленные"
+   },
+   "options_settings_random_themes_enable_notice_favorites": {
+      "message": "Избранные"
+   },
+   "options_settings_random_themes_enable_notice_short": {
+      "message": "Случайный фон"
+   },
+   "options_settings_random_themes_enable_notice_short_OLD": {
+      "message": "Отображать случайный фон"
+   },
+   "options_settings_relax_enable": {
+      "message": "Отобразить кнопку медитации"
+   },
+   "options_settings_relax_title": {
+      "message": "Медитация"
+   },
+   "options_settings_search_form_display": {
+      "message": "Отобразить поиск"
+   },
+   "options_settings_search_form_navi": {
+      "message": "Поиск"
+   },
+   "options_settings_search_form_provider": {
+      "message": "Поиск в"
+   },
+   "options_settings_search_form_provider_more": {
+      "message": "Другие"
+   },
+   "options_settings_search_open_type": {
+      "message": "Открыть результаты в"
+   },
+   "options_settings_speed_dial_count": {
+      "message": "Количество сайтов"
+   },
+   "options_settings_speed_dial_count_max": {
+      "message": "макс."
+   },
+   "options_settings_speed_dial_count_max_description": {
+      "message": "Для группы"
+   },
+   "options_settings_speed_dial_customs": {
+      "message": "Предлагать варианты превью"
+   },
+   "options_settings_speed_dial_generate_type": {
+      "message": "Как генерировать дилы"
+   },
+   "options_settings_speed_dial_navi": {
+      "message": "Закладки"
+   },
+   "options_settings_speed_dial_opacity": {
+      "message": "Прозрачность блока"
+   },
+   "options_settings_speed_dial_open_type": {
+      "message": "Открыть сайт в"
+   },
+   "options_settings_speed_dial_open_type_background": {
+      "message": "Фоновой вкладке"
+   },
+   "options_settings_speed_dial_open_type_current": {
+      "message": "Текущей вкладке"
+   },
+   "options_settings_speed_dial_open_type_incognito": {
+      "message": "В приватном окне"
+   },
+   "options_settings_speed_dial_open_type_new": {
+      "message": "Новой вкладке"
+   },
+   "options_settings_speed_dial_show": {
+      "message": "Отобразить блок"
+   },
+   "options_settings_speed_dial_title": {
+      "message": "Визуальные закладки"
+   },
+   "options_settings_speed_search_opacity": {
+      "message": "Прозрачность формы"
+   },
+   "options_settings_speed_search_title": {
+      "message": "Форма поиска"
+   },
+   "options_settings_themes_sort_downloaded": {
+      "message": "Загруженные"
+   },
+   "options_settings_themes_sort_featured": {
+      "message": "Лучшие"
+   },
+   "options_settings_themes_sort_new": {
+      "message": "Новые"
+   },
+   "options_settings_themes_sort_popular": {
+      "message": "Популярные"
+   },
+   "options_settings_themes_sort_search": {
+      "message": "Поиск темы"
+   },
+   "options_settings_todo_opacity": {
+      "message": "Прозрачность виджета"
+   },
+   "options_settings_todo_position": {
+      "message": "Восстановить позицию и размер по умолчанию"
+   },
+   "options_settings_todo_position_btn": {
+      "message": "Восстановить"
+   },
+   "options_settings_todo_show": {
+      "message": "Отобразить блок"
+   },
+   "options_settings_todo_title": {
+      "message": "Задачи"
+   },
+   "options_settings_weather_background_opacity": {
+      "message": "Прозрачность фона"
+   },
+   "options_settings_weather_background_show": {
+      "message": "Отобразить фон"
+   },
+   "options_settings_weather_location": {
+      "message": "Текущее положение"
+   },
+   "options_settings_weather_location_block": {
+      "message": "Пожалуйста, разрешите определить Ваше местоположение в Вашем браузере"
+   },
+   "options_settings_weather_location_block_text": {
+      "message": "Мы не можем определить Ваше местоположение. Пожалуйста, разрешите определить Ваше местоположение в Вашем браузере."
+   },
+   "options_settings_weather_location_cancel": {
+      "message": "Отменить"
+   },
+   "options_settings_weather_location_change": {
+      "message": "Изменить"
+   },
+   "options_settings_weather_location_img_title": {
+      "message": "Установить текущее местоположение"
+   },
+   "options_settings_weather_location_placeholder": {
+      "message": "Введите Ваш город"
+   },
+   "options_settings_weather_location_set": {
+      "message": "Применить"
+   },
+   "options_settings_weather_location_unknown": {
+      "message": "Не установлено"
+   },
+   "options_settings_weather_opacity": {
+      "message": "Прозрачность виджета"
+   },
+   "options_settings_weather_reset_position": {
+      "message": "Восстановить позицию по умолчанию"
+   },
+   "options_settings_weather_reset_position_btn": {
+      "message": "Восстановить"
+   },
+   "options_settings_weather_show": {
+      "message": "Отобразить блок"
+   },
+   "options_settings_weather_title": {
+      "message": "Погода"
+   },
+   "options_settings_weather_unit": {
+      "message": "Температура в"
+   },
+   "options_settings_weather_unit_show": {
+      "message": "Отобразить единицу измерения"
+   },
+   "options_share_desc": {
+      "message": "Великолепное видео!"
+   },
+   "options_share_desc_1": {
+      "message": "Вау! Живая тема [Theme_Name] прямо в моем браузере! [LINK] #ЖивыеОбои #ThemeName"
+   },
+   "options_share_desc_2": {
+      "message": "Только что скачал тему [Theme_Name] в свой браузер. Это реально класс! [LINK] #ЖивыеОбои #ThemeName"
+   },
+   "options_share_desc_3": {
+      "message": "[Theme_Name]. Теперь у меня есть такие обои, причем живые. [LINK] #ЖивыеОбои #ThemeName"
+   },
+   "options_share_desc_4": {
+      "message": "Наконец то! [Theme_Name] в моем любимом браузер. Причем, это не простые обои, а живые! [LINK] #ЖивыеОбои #ThemeName"
+   },
+   "options_share_hint": {
+      "message": "Выберите один из вариантов:"
+   },
+   "options_share_modal_title": {
+      "message": "Покажите Вашим друзьям это великолепное видео!"
+   },
+   "options_share_social_description": {
+      "message": "Получить доступ к 1000+ дополнительным темам\u003Cbr>и рассказать друзьям о Live Start Page!"
+   },
+   "options_share_social_popup_btn_unlock": {
+      "message": "Разблокировать c"
+   },
+   "options_share_social_popup_text_1": {
+      "message": "Привет! Спасибо, что используете расширение Live Start Page."
+   },
+   "options_share_social_popup_text_2": {
+      "message": "Расскажите своим друзьям про Live Start Page в социальных сетях."
+   },
+   "options_share_social_popup_text_3": {
+      "message": "Как только вы расскажите друзьям, сможете получить бесплатный\u003Cbr>доступ к полному списку 1000+ видео тем!"
+   },
+   "options_share_social_popup_text_4": {
+      "message": "С уважением, Live Start Page Team."
+   },
+   "options_share_social_popup_title": {
+      "message": "Live Start Page - приложение, которое украсит мою стартовую страницу в браузере с помощью шикарных живых обоев."
+   },
+   "options_share_social_text_1": {
+      "message": "Мое лучшее лекарство от стресса - [LINK] #ЖивыеОбои #LiveStartPage"
+   },
+   "options_share_social_text_2": {
+      "message": "Live Start Page вдохнул новую жизнь в мой браузер - [LINK] #ЖивыеОбои #LiveStartPage"
+   },
+   "options_share_social_text_3": {
+      "message": "Настоящие живые обои в моем браузере. И это не фантастика - [LINK] #ЖивыеОбои #LiveStartPage"
+   },
+   "options_share_social_text_4": {
+      "message": "Эти живые обои не только приносят удовольствие, но и помогают в работе - [LINK] #ЖивыеОбои #LiveStartPage"
+   },
+   "options_share_social_text_5": {
+      "message": "Когда мне нужно расслабится, то я просто смотрю на живые обои и это помогает - [LINK] #ЖивыеОбои #LiveStartPage"
+   },
+   "options_share_social_title": {
+      "message": "Live Start Page"
+   },
+   "options_share_social_url": {
+      "message": "ru"
+   },
+   "options_share_this_video": {
+      "message": "Поделитесь этим видео со своими друзьями"
+   },
+   "options_share_title": {
+      "message": "Великолепное видео!"
+   },
+   "options_speed_dial_generate_type_autopreview_text": {
+      "message": "Авто-Превью + Текст"
+   },
+   "options_speed_dial_generate_type_gallery_autopreview_text": {
+      "message": "Галерея + Авто-Превью + Текст"
+   },
+   "options_speed_dial_generate_type_gallery_text": {
+      "message": "Галерея + Текст"
+   },
+   "options_speed_dial_generate_type_text": {
+      "message": "Текст"
+   },
+   "options_tabs_content_flixel_bg_notice": {
+      "message": "Галерея предоставлена компанией"
+   },
+   "options_tabs_content_flixer_load_button": {
+      "message": "ЗАГРУЗИТЬ ЕЩЕ"
+   },
+   "options_tabs_content_live_bg_notice": {
+      "message": "Примечание: Живой фон может снизить производительность вашего компьютера. Активируйте живой фон с низким разрешением, чтобы увеличить производительность."
+   },
+   "options_tabs_content_live_theme_notice": {
+      "message": "Скоро будет..."
+   },
+   "options_tabs_content_loader_text": {
+      "message": "ЗАГРУЗКА..."
+   },
+   "options_tabs_delete_from_favorite": {
+      "message": "Вы хотите удалить из избранных?"
+   },
+   "options_tabs_delete_from_favorite_close": {
+      "message": "Нет"
+   },
+   "options_tabs_delete_from_favorite_confirm": {
+      "message": "Да"
+   },
+   "options_tabs_delete_image": {
+      "message": "Удалить фон?"
+   },
+   "options_tabs_delete_theme": {
+      "message": "Удалить видео?"
+   },
+   "options_tabs_delete_theme_close": {
+      "message": "Нет"
+   },
+   "options_tabs_delete_theme_confirm": {
+      "message": "Да"
+   },
+   "options_tabs_download_flixer_bg_error": {
+      "message": "Не удалось скачать статичный живой фото-фон. Пожалуйста, попробуйте еще раз."
+   },
+   "options_tabs_download_live_bg_error": {
+      "message": "Не удалось скачать живой фон. Пожалуйста, попробуйте еще раз."
+   },
+   "options_tabs_download_no_live_backgrounds": {
+      "message": "Сперва, необходимо добавить в избранные Живой фон, который Вам понравился"
+   },
+   "options_tabs_download_no_live_themes": {
+      "message": "Сперва, необходимо скачать Живую Тему, которая Вам понравилась"
+   },
+   "options_tabs_download_no_walpapers": {
+      "message": "Сперва, необходимо скачать Статичный фон, который Вам понравился"
+   },
+   "options_tabs_download_static_bg_error": {
+      "message": "Не удалось скачать статичный фон. Пожалуйста, попробуйте еще раз."
+   },
+   "options_tabs_favorite_no_bg": {
+      "message": "Сперва, необходимо добавить в избранные фон, который Вам понравился"
+   },
+   "options_tabs_favorite_no_live_backgrounds": {
+      "message": "Сперва, необходимо скачать Живой фон, который Вам понравился"
+   },
+   "options_tabs_favorite_no_live_themes": {
+      "message": "Сперва, необходимо добавить в избранные Живую Тему, которая Вам понравилась"
+   },
+   "options_tabs_favorite_no_walpapers": {
+      "message": "Сперва, необходимо добавить в избранные Статичный фон, который Вам понравился"
+   },
+   "options_tabs_item_buttons_active": {
+      "message": "АКТИВНЫЙ"
+   },
+   "options_tabs_item_buttons_active_resolution_1080p_live_bg": {
+      "message": "Лучшее качество,\nвозможно снижение производительности"
+   },
+   "options_tabs_item_buttons_active_resolution_480p_live_bg": {
+      "message": "Лучшая производительность,\nнизкое качество"
+   },
+   "options_tabs_item_buttons_active_resolution_720p_live_bg": {
+      "message": "Рекомендуем.\nХорошая производительность,\nхорошое качество"
+   },
+   "options_tabs_item_buttons_active_theme": {
+      "message": "АКТИВНАЯ"
+   },
+   "options_tabs_item_buttons_active_title_flixer_bg": {
+      "message": "Активный живой фото-фон"
+   },
+   "options_tabs_item_buttons_active_title_live_bg": {
+      "message": "Активный живой фон"
+   },
+   "options_tabs_item_buttons_active_title_static_bg": {
+      "message": "Активный статичный фон"
+   },
+   "options_tabs_item_buttons_active_title_theme": {
+      "message": "Активная живая тема"
+   },
+   "options_tabs_item_buttons_control_delete": {
+      "message": "Удалить тему"
+   },
+   "options_tabs_item_buttons_control_settings": {
+      "message": "Настройки темы"
+   },
+   "options_tabs_item_buttons_disable": {
+      "message": "ОТКЛЮЧИТЬ"
+   },
+   "options_tabs_item_buttons_disable_title_flixel_bg": {
+      "message": "Отключить живой фото-фон"
+   },
+   "options_tabs_item_buttons_disable_title_live_bg": {
+      "message": "Отключить живой фон"
+   },
+   "options_tabs_item_buttons_disable_title_static_bg": {
+      "message": "Отключить статичный фон"
+   },
+   "options_tabs_item_buttons_download": {
+      "message": "Скачивается"
+   },
+   "options_tabs_item_buttons_download_content": {
+      "message": "Скачивается контент"
+   },
+   "options_tabs_item_buttons_download_flixel": {
+      "message": "Установка контента"
+   },
+   "options_tabs_item_buttons_download_flixel_content": {
+      "message": "Установка контента"
+   },
+   "options_tabs_item_buttons_enable": {
+      "message": "ВКЛЮЧИТЬ"
+   },
+   "options_tabs_item_buttons_enable_title_flixer_bg": {
+      "message": "Включить живой фото-фон"
+   },
+   "options_tabs_item_buttons_enable_title_live_bg": {
+      "message": "Включить живой фон"
+   },
+   "options_tabs_item_buttons_enable_title_static_bg": {
+      "message": "Включить статичный фон"
+   },
+   "options_tabs_item_buttons_favorite": {
+      "message": "Добавить в избранные"
+   },
+   "options_tabs_item_buttons_favorite_remove": {
+      "message": "Удалить из избранных"
+   },
+   "options_tabs_item_buttons_install": {
+      "message": "УСТАНОВИТЬ"
+   },
+   "options_tabs_item_buttons_install_flixer": {
+      "message": "УСТАНОВИТЬ"
+   },
+   "options_tabs_item_buttons_install_select_quality": {
+      "message": "Выберите качество фона"
+   },
+   "options_tabs_item_buttons_install_title_flixer_bg": {
+      "message": "Сперва установите этот фон"
+   },
+   "options_tabs_item_buttons_install_title_live_bg": {
+      "message": "Сперва нужно скачать этот фон"
+   },
+   "options_tabs_item_buttons_install_title_static_bg": {
+      "message": "Сперва нужно скачать этот фон"
+   },
+   "options_tabs_item_buttons_install_title_theme": {
+      "message": "Сперва нужно скачать данную тему с Chrome Webstore"
+   },
+   "options_tabs_item_buttons_more_flixel_content_title": {
+      "message": "Загрузить больше фонов с http://flixel.com"
+   },
+   "options_tabs_item_buttons_restore": {
+      "message": "ВОССТАНОВИТЬ ТЕМУ"
+   },
+   "options_tabs_item_buttons_restore_title": {
+      "message": "Восстановить стандартную тему Chrome"
+   },
+   "options_tabs_item_buttons_view_live_bg": {
+      "message": "ПОСМОТРЕТЬ"
+   },
+   "options_tabs_item_buttons_view_title_flixel_bg": {
+      "message": "Посмотреть активный живой фото-фон в новой вкладке"
+   },
+   "options_tabs_item_buttons_view_title_live_bg": {
+      "message": "Посмотреть активный живой фон в новой вкладке"
+   },
+   "options_tabs_item_chanel_description_text_flixel_bg": {
+      "message": "Создано"
+   },
+   "options_tabs_item_chanel_description_text_flixel_bg_handmade": {
+      "message": "Анимация"
+   },
+   "options_tabs_item_chanel_description_title_flixel_bg": {
+      "message": "Перейти на канал"
+   },
+   "options_tabs_item_disable": {
+      "message": "ОТКЛЮЧИТЬ ФОН"
+   },
+   "options_tabs_item_note_random_background_on_options_page": {
+      "message": "Примечание: только фоны, добавленные в избранные, будут показаны"
+   },
+   "options_tabs_item_note_random_background_on_options_page_downloaded": {
+      "message": "Примечание: Все загруженные фоны будут показаны"
+   },
+   "options_tabs_item_restore": {
+      "message": "Стандартная тема"
+   },
+   "options_tabs_item_tiles_theme_title_live_bg": {
+      "message": "Живой фон уже загружен для данной темы"
+   },
+   "options_tabs_item_tiles_theme_title_live_bg_button": {
+      "message": "видео"
+   },
+   "options_tabs_item_tiles_theme_title_static_bg": {
+      "message": "Статичный фон уже загружен для данной темы"
+   },
+   "options_tabs_item_tiles_theme_title_static_bg_button": {
+      "message": "изображение"
+   },
+   "options_tabs_title_flixel_bg": {
+      "message": "Живой фон"
+   },
+   "options_tabs_title_live_bg": {
+      "message": "Живой фон (OLD)"
+   },
+   "options_tabs_title_live_theme": {
+      "message": "Живая тема"
+   },
+   "options_tabs_title_static_bg": {
+      "message": "Статичный фон"
+   },
+   "or": {
+      "message": "Или"
+   },
+   "other_browser_chrome": {
+      "message": "Установите LiveStartPapge в Google Chrome"
+   },
+   "other_browser_firefox": {
+      "message": "Установите LiveStartPapge в Firefox"
+   },
+   "other_browser_opera": {
+      "message": "Установите LiveStartPapge в Opera"
+   },
+   "page_bottom_notice_settings": {
+      "message": "Нажмите \u003Cb>настройки\u003C/b>, чтобы изменить фон"
+   },
+   "page_clock_hour_label": {
+      "message": "Час"
+   },
+   "page_clock_hours_label": {
+      "message": "Час"
+   },
+   "page_clock_minute_label": {
+      "message": "Минута"
+   },
+   "page_clock_minutes_label": {
+      "message": "Мин"
+   },
+   "page_clock_second_label": {
+      "message": "Секунда"
+   },
+   "page_clock_seconds_label": {
+      "message": "Сек"
+   },
+   "page_created_link": {
+      "message": "Автор"
+   },
+   "page_created_link_handmade": {
+      "message": "Анимировано"
+   },
+   "page_dial_context_menu_copy_url_dial": {
+      "message": "Копировать URL"
+   },
+   "page_dial_context_menu_delete_dial": {
+      "message": "Не показывать сайт"
+   },
+   "page_dial_context_menu_dials_size": {
+      "message": "Изменить размер"
+   },
+   "page_dial_context_menu_edit_dial": {
+      "message": "Редактировать"
+   },
+   "page_dial_context_menu_gallery_thumb": {
+      "message": "Превью из галереи"
+   },
+   "page_dial_context_menu_open_background_thumb": {
+      "message": "Открыть в фоновой вкладке"
+   },
+   "page_dial_context_menu_open_current_thumb": {
+      "message": "Открыть в текущей вкладке"
+   },
+   "page_dial_context_menu_open_incognito_thumb": {
+      "message": "Открыть в приватном окне"
+   },
+   "page_dial_context_menu_open_new_thumb": {
+      "message": "Открыть в новой вкладке"
+   },
+   "page_dial_context_menu_refresh_dial": {
+      "message": "Обновить"
+   },
+   "page_dial_context_menu_screen_thumb": {
+      "message": "Превью сайта"
+   },
+   "page_dial_context_menu_text_thumb": {
+      "message": "Текстовое превью"
+   },
+   "page_dial_thumb_load_gallery_problem": {
+      "message": "Нет изображения для сайта"
+   },
+   "page_dials_default_group_title": {
+      "message": "Группа по умолчанию"
+   },
+   "page_dials_new_group_title": {
+      "message": "Добавить группу"
+   },
+   "page_dials_notification_message": {
+      "message": "\u003Cb>Двойной клик\u003C/b>, чтобы показать Закладки"
+   },
+   "page_dials_popular_group_title": {
+      "message": "Популярные сайты"
+   },
+   "page_done_todo_list_description": {
+      "message": "Желаем удачи!"
+   },
+   "page_done_todo_list_title": {
+      "message": "Все задачи выполнены"
+   },
+   "page_empty_todo_list_description": {
+      "message": "Добавьте задачу"
+   },
+   "page_empty_todo_list_title": {
+      "message": "Нет задач"
+   },
+   "page_error_flixer_bg_not_found": {
+      "message": "Motion background not found"
+   },
+   "page_error_live_bg_load_problem": {
+      "message": "Не удалось загрузить живой фон"
+   },
+   "page_error_live_bg_not_found": {
+      "message": "Живой фон не найден"
+   },
+   "page_error_static_bg_load_problem": {
+      "message": "Не удалось загрузить статичный фон"
+   },
+   "page_error_static_bg_not_found": {
+      "message": "Статичный фон не найден"
+   },
+   "page_error_theme_config_not_found": {
+      "message": "Настройки темы не найдены"
+   },
+   "page_footer_description_close": {
+      "message": "Не показывать сообщение"
+   },
+   "page_footer_rate_us": {
+      "message": "Оцените нас!"
+   },
+   "page_footer_settings_link": {
+      "message": "Настройки"
+   },
+   "page_footer_themes_link": {
+      "message": "Выбрать фон"
+   },
+   "page_footer_toggle_display_links_title_hide": {
+      "message": "Cвернуть панель"
+   },
+   "page_footer_toggle_display_links_title_show": {
+      "message": "Показать панель"
+   },
+   "page_footer_visible_dials_link_off": {
+      "message": "Скрыть сайты (или двойной клик на пустом месте)"
+   },
+   "page_footer_visible_dials_link_on": {
+      "message": "Показать сайты (или двойной клик на пустом месте)"
+   },
+   "page_group_context_menu_add_dial": {
+      "message": "Добавить сайт"
+   },
+   "page_group_context_menu_delete": {
+      "message": "Удалить"
+   },
+   "page_group_context_menu_rename": {
+      "message": "Переименовать"
+   },
+   "page_header_bookmarks": {
+      "message": "Показать панель закладок"
+   },
+   "page_header_bookmarks_help_img": {
+      "message": "ru"
+   },
+   "page_header_links_apps": {
+      "message": "Приложения"
+   },
+   "page_header_links_apps_img": {
+      "message": "Chrome приложения"
+   },
+   "page_meta_description": {
+      "message": "Приложение, которое украсит мою стартовую страницу в браузере с помощью шикарных \"живых\" обоев."
+   },
+   "page_meta_keywords": {
+      "message": "Приложение, браузер, стартовая, страница, живые, обои"
+   },
+   "page_meta_title": {
+      "message": "Новая вкладка"
+   },
+   "page_new_dial_tooltip": {
+      "message": "Добавить сайт"
+   },
+   "page_privacy_link": {
+      "message": "Конфиденциальность"
+   },
+   "page_relax_done_btn": {
+      "message": "Завершить (ESC)"
+   },
+   "page_relax_start_btn": {
+      "message": "Начать медитацию"
+   },
+   "page_relax_start_title": {
+      "message": "Расслабьтесь и восстановите свою концентрацию! Наслаждайтесь живыми фотографиями"
+   },
+   "page_search_form_button_text": {
+      "message": "Найти"
+   },
+   "page_search_placeholder": {
+      "message": "Введите Ваш поиск..."
+   },
+   "page_sidebar_add_group": {
+      "message": "Добавить группу"
+   },
+   "page_sidebar_title": {
+      "message": "Группы"
+   },
+   "page_sidebar_toggle_button_title_off": {
+      "message": "Скрыть панель"
+   },
+   "page_sidebar_toggle_button_title_on": {
+      "message": "Показать панель"
+   },
+   "page_speed_dials_close_title": {
+      "message": "Не отображать на странице"
+   },
+   "page_speed_dials_search_title": {
+      "message": "Поиск на"
+   },
+   "page_speed_dials_settings_title": {
+      "message": "Настройки"
+   },
+   "page_terms_link": {
+      "message": "Условия"
+   },
+   "page_tiles_remove_text": {
+      "message": "Сайт удален"
+   },
+   "page_tiles_restore_text": {
+      "message": "Отменить"
+   },
+   "page_todo_footer_input": {
+      "message": "Добавить задачу"
+   },
+   "page_todo_footer_input_submit": {
+      "message": "Добавить"
+   },
+   "page_todo_header_counter_text": {
+      "message": "выполнено"
+   },
+   "page_todo_header_toggle": {
+      "message": "Выполненные"
+   },
+   "page_todo_link": {
+      "message": "Задачи"
+   },
+   "page_voice_search_form_button_text": {
+      "message": "Поиск голосом"
+   },
+   "panel_back": {
+      "message": "\u003C Назад"
+   },
+   "panel_contact_us": {
+      "message": "Напишите нам"
+   },
+   "panel_group_name": {
+      "message": "Название группы:"
+   },
+   "panel_login": {
+      "message": "Войти"
+   },
+   "panel_logout": {
+      "message": "Выход"
+   },
+   "panel_new_tab": {
+      "message": "Открыть LSP"
+   },
+   "panel_save_all_opened_tabs": {
+      "message": "Сохранить все вкладки"
+   },
+   "panel_save_current_tab": {
+      "message": "Сохранить эту вкладку"
+   },
+   "panel_save_done": {
+      "message": "Готово!"
+   },
+   "panel_save_some_opened_tabs": {
+      "message": "Выбрать и сохранить"
+   },
+   "panel_save_tabs": {
+      "message": "Сохранить вкладки"
+   },
+   "panel_select_theme": {
+      "message": "Выбрать тему"
+   },
+   "panel_select_unselect": {
+      "message": "Выбрать все / снять выделение"
+   },
+   "panel_set_as_new_tab": {
+      "message": "стартовая страница"
+   },
+   "panel_settings": {
+      "message": "Настройки"
+   },
+   "passcode_email_body": {
+      "message": "\u003C!DOCTYPE html>\u003Chtml>\u003Chead>\u003C/head>\u003Cbody>\u003Cp style='font-size:30px;'>Live Start Page!\u003C/p>\u003Cp>Вы можете сбросить Пин-Код, введя следующий код в поле ввода на главной странице аддона: \u003Cmark style='padding:2px 4px; border:1px dashed gray'>\u003Cstrong>[code]\u003C/strong>\u003C/mark>\u003C/p>\u003Cp>Или скопируйте эту ссылку в браузер, где установлен аддон Live Start Page:\u003C/p>\u003C/td>\u003C/tr>\u003C/table>\u003C/body>\u003C/html>"
+   },
+   "passcode_email_subject": {
+      "message": "Live Start Page. Код восстановления"
+   },
+   "passcode_newtab_forgot": {
+      "message": "Забыли Пин-Код?"
+   },
+   "passcode_newtab_head": {
+      "message": "Введите код разблокировки"
+   },
+   "passcode_newtab_question": {
+      "message": "Хотите сбросить Пин-Код через Ваш email"
+   },
+   "passcode_newtab_unlock": {
+      "message": "Разблок."
+   },
+   "passcode_settings_navi": {
+      "message": "Пин-Код"
+   },
+   "passcode_settings_pass_btn_cancel": {
+      "message": "Отмена"
+   },
+   "passcode_settings_pass_btn_change": {
+      "message": "Изменить ПИН"
+   },
+   "passcode_settings_pass_btn_changed": {
+      "message": "Изменено!"
+   },
+   "passcode_settings_pass_btn_delete": {
+      "message": "Удалить ПИН"
+   },
+   "passcode_settings_pass_btn_deleted": {
+      "message": "Удалено!"
+   },
+   "passcode_settings_pass_btn_done": {
+      "message": "ГОТОВО!"
+   },
+   "passcode_settings_pass_btn_restore": {
+      "message": "Сбросить Пин-Код"
+   },
+   "passcode_settings_pass_btn_set": {
+      "message": "Установить ПИН"
+   },
+   "passcode_settings_pass_current": {
+      "message": "Текущий Пин-Код"
+   },
+   "passcode_settings_pass_current_wrong": {
+      "message": "Неверный Пин-Код!"
+   },
+   "passcode_settings_pass_doesnt_match": {
+      "message": "Пин-Коды не совпадают"
+   },
+   "passcode_settings_pass_email": {
+      "message": "Email восстановления:"
+   },
+   "passcode_settings_pass_email_input": {
+      "message": "Email"
+   },
+   "passcode_settings_pass_have_set": {
+      "message": "Вы установили Пин-Код!"
+   },
+   "passcode_settings_pass_new": {
+      "message": "Новый Пин-Код"
+   },
+   "passcode_settings_pass_please": {
+      "message": "Пожалуйста, введите"
+   },
+   "passcode_settings_pass_repeat": {
+      "message": "Повторите Пин-Код:"
+   },
+   "passcode_settings_pass_repeat_input": {
+      "message": "Повторите"
+   },
+   "passcode_settings_pass_restore_success": {
+      "message": "Следуйте инструкции в письме"
+   },
+   "passcode_settings_pass_restore_text": {
+      "message": "Если Вы забыли Пин-Код, вы можете восстановить его через email: "
+   },
+   "passcode_settings_pass_set": {
+      "message": "Установить ПИН:"
+   },
+   "passcode_settings_pass_set_input": {
+      "message": "Пин-Код"
+   },
+   "passcode_settings_pass_wrong_email": {
+      "message": "Пожалуйста, введите корректный email"
+   },
+   "passcode_settings_promo_btn": {
+      "message": "Включить защиту"
+   },
+   "passcode_settings_tab_basic_h": {
+      "message": "Пин-Код"
+   },
+   "passcode_settings_tab_change_h": {
+      "message": "Изменить"
+   },
+   "passcode_settings_tab_restore_h": {
+      "message": "Восстановить"
+   },
+   "passcode_settings_title": {
+      "message": "Защитите ваши данные Пин-Кодом"
+   },
+   "passcode_successfully_cleared": {
+      "message": "Вы воспользовались кодом восстановления. Пин-Код успешно удален."
+   },
+   "pick_url_from": {
+      "message": "Выбрать из"
+   },
+   "pick_url_opened": {
+      "message": "Открытых вкладок"
+   },
+   "pick_url_popular": {
+      "message": "Популярных"
+   },
+   "pick_url_visited": {
+      "message": "Часто посещаемых"
+   },
+   "popup_add_user_flixel_body_code": {
+      "message": "Используйте код \u003Cspan class='popup-add-user-flixel-body-app-name'>LiveStart\u003C/span> что бы получить \u003Cspan class='popup-add-user-flixel-body-app-discount'>10%\u003C/span> скидку!"
+   },
+   "popup_add_user_flixel_body_link_how_create": {
+      "message": "Как создать Cinemagraph Video"
+   },
+   "popup_add_user_flixel_body_link_how_create_fb": {
+      "message": "Как создать Cinemagraph Video Profiles для Facebook"
+   },
+   "popup_add_user_flixel_body_links_text": {
+      "message": "Ссылки:"
+   },
+   "popup_add_user_flixel_body_text": {
+      "message": "Cinemagraphs - новая захватывающая визуальная среда, которая позволит Вам делать живые фото-фоны. Flixel Cinemagraph Pro это самый простой способ в мире создания подобных фонов."
+   },
+   "popup_add_user_flixel_link_cloud": {
+      "message": "Flixel Cloud"
+   },
+   "popup_add_user_flixel_link_iphone": {
+      "message": "Flixel для iPhone"
+   },
+   "popup_add_user_flixel_link_mac": {
+      "message": "Flixel для Mac"
+   },
+   "popup_add_user_flixel_title": {
+      "message": "Создайте свои живые Фото с Flixel"
+   },
+   "popup_feedback_dialog_button_submit": {
+      "message": "ОТПРАВИТЬ ПИСЬМО"
+   },
+   "popup_feedback_dialog_field_error_format_email_text": {
+      "message": "Неверный формат поля 'Ваш Email'"
+   },
+   "popup_feedback_dialog_field_error_required_email_text": {
+      "message": "Поле 'Ваш Email' не должно быть пустым"
+   },
+   "popup_feedback_dialog_field_error_required_subject_text": {
+      "message": "Поле 'Темы письма' не должно быть пустым"
+   },
+   "popup_feedback_dialog_field_error_too_low_subject_text": {
+      "message": "Поле 'Темы письма' должно быть минимум 6 символов"
+   },
+   "popup_feedback_dialog_field_required_text": {
+      "message": "(обязательно)"
+   },
+   "popup_feedback_dialog_label_description": {
+      "message": "Описание проблемы/предложения"
+   },
+   "popup_feedback_dialog_label_email": {
+      "message": "Ваш email"
+   },
+   "popup_feedback_dialog_label_subject": {
+      "message": "Тема письма"
+   },
+   "popup_feedback_dialog_success_button_text": {
+      "message": "Закрыть"
+   },
+   "popup_feedback_dialog_success_text": {
+      "message": "Спасибо за поддержку!"
+   },
+   "popup_feedback_dialog_title": {
+      "message": "Сообщите нам о проблемах или Ваших предложениях"
+   },
+   "popup_live_bg_apply": {
+      "message": "ПОДТВЕРДИТЬ"
+   },
+   "popup_live_bg_cancel": {
+      "message": "НЕ ПОКАЗЫВАТЬ"
+   },
+   "popup_live_bg_text": {
+      "message": "Идет загрузка живого фона..."
+   },
+   "popup_live_bg_title": {
+      "message": "ЗАГРУЗИТЬ ЖИВОЙ ФОН"
+   },
+   "popup_restore_default_theme_open_settings": {
+      "message": "Откройте Настройки Chrome или перейдите по ссылке"
+   },
+   "popup_restore_default_theme_open_settings_text2": {
+      "message": "и нажмите кнопку \"Восстановить тему по умолчанию\"."
+   },
+   "popup_restore_default_theme_title": {
+      "message": "Восстановить тему по умолчанию Chrome"
+   },
+   "popup_static_bg_updating": {
+      "message": "Идет загрузка фона..."
+   },
+   "popup_welcome_options_body_text1": {
+      "message": "У вас еще не установлен живой фон. Выберите любой из доступных фонов и наслаждайтесь!"
+   },
+   "popup_welcome_options_body_text2": {
+      "message": "Вы можете связаться с нами, используя кнопку Отзывы."
+   },
+   "popup_welcome_options_not_show": {
+      "message": "Не показывать это сообщение"
+   },
+   "popup_welcome_options_title": {
+      "message": "Добро пожаловать в Live Start Page"
+   },
+   "preload_modal_break": {
+      "message": "Не загружать"
+   },
+   "preload_modal_button": {
+      "message": "Закрыть и загрузить в фоновом режиме"
+   },
+   "preload_modal_done": {
+      "message": "Готово!"
+   },
+   "preload_modal_note": {
+      "message": "Вы можете загрузить сотни других тем из нашей галереи!"
+   },
+   "preload_modal_status": {
+      "message": "Мы устанавливаем Вашу тему. Пожалуйста, подождите..."
+   },
+   "preload_modal_text": {
+      "message": "Добро пожаловать в LiveStartPage"
+   },
+   "preload_modal_title": {
+      "message": "Установка темы"
+   },
+   "preview_back": {
+      "message": "\u003C Назад"
+   },
+   "preview_best": {
+      "message": "Популярные"
+   },
+   "preview_local_image": {
+      "message": "Локальный файл"
+   },
+   "preview_maxsize_text": {
+      "message": "Максимальный размер превью 512KB"
+   },
+   "preview_maxsize_title": {
+      "message": "Внимание"
+   },
+   "preview_mode_auto": {
+      "message": "Авто"
+   },
+   "preview_mode_custom": {
+      "message": "Вручную"
+   },
+   "preview_mode_text": {
+      "message": "Текст"
+   },
+   "preview_mode_title": {
+      "message": "Превью"
+   },
+   "preview_new": {
+      "message": "Новые"
+   },
+   "preview_order": {
+      "message": "Сортировка"
+   },
+   "preview_show_more": {
+      "message": "Показать Еще"
+   },
+   "preview_url_image": {
+      "message": "URL"
+   },
+   "preview_violation_button": {
+      "message": "Не подходящее"
+   },
+   "preview_violation_status": {
+      "message": "Спасибо!"
+   },
+   "preview_violation_title": {
+      "message": "Пожаловаться на изображение"
+   },
+   "queue_over_dialog_ok": {
+      "message": "Закрыть"
+   },
+   "queue_over_dialog_text": {
+      "message": "Уже загружается файлов: #. Пожалуйста, дождитесь окончания загрузки."
+   },
+   "read_faq": {
+      "message": "Читать FAQ"
+   },
+   "register_error": {
+      "message": "Ошибка регистрации!"
+   },
+   "register_success": {
+      "message": "Вы успешно зарегистрировались"
+   },
+   "relax_auto_shuffle": {
+      "message": "Смена фона медитации"
+   },
+   "relax_auto_shuffle_video": {
+      "message": "Случайные Видео"
+   },
+   "relax_exit_and_keep_playing": {
+      "message": "Завершить, оставив плеер"
+   },
+   "relax_sounds": {
+      "message": "Звуки"
+   },
+   "relax_space_bar_hint": {
+      "message": "Нажмите пробел для паузы или воспроизведения"
+   },
+   "rename_group_dialog_title": {
+      "message": "Переименовать группу"
+   },
+   "restore_email": {
+      "message": "Ваш email"
+   },
+   "restore_error": {
+      "message": "Ошибка восстановления пароля!"
+   },
+   "restore_success": {
+      "message": "Инструкция по восстановлению будет выслана на Ваш электронный адрес"
+   },
+   "search_no_themes_found": {
+      "message": "Темы не найдены"
+   },
+   "search_settings_button": {
+      "message": "Настройка поисковой системы"
+   },
+   "search_themes_found": {
+      "message": "Найдено тем: [N]"
+   },
+   "selected_txt": {
+      "message": "(Активно)"
+   },
+   "server_code_24": {
+      "message": "Пользователь уже существует"
+   },
+   "server_code_4": {
+      "message": "Этот аккаунт уже создан. Попробуйте авторизоваться."
+   },
+   "server_code_6": {
+      "message": "Неверный пароль"
+   },
+   "server_code_7": {
+      "message": "Пользователь не существует"
+   },
+   "server_code_9": {
+      "message": "Ошибка сервера"
+   },
+   "settings_block_main_header": {
+      "message": "Основные"
+   },
+   "settings_search_engine_label": {
+      "message": "Показывать логотип поисковика"
+   },
+   "settings_show_lsp_as_new_tab": {
+      "message": "Сделать LiveStartPage стартовой страницей"
+   },
+   "slash": {
+      "message": "слеш (/)"
+   },
+   "small": {
+      "message": "Маленький"
+   },
+   "social_group_fb": {
+      "message": "Facebook"
+   },
+   "social_group_ok": {
+      "message": "OK Группа"
+   },
+   "social_group_twitter": {
+      "message": "Twitter"
+   },
+   "social_group_vk": {
+      "message": "VK Группа"
+   },
+   "social_share_fb": {
+      "message": "Поделиться в Facebook"
+   },
+   "social_share_ok": {
+      "message": "Поделиться в Одноклассниках"
+   },
+   "social_share_twitter": {
+      "message": "Поделиться в Twitter"
+   },
+   "social_share_vk": {
+      "message": "Поделиться Вконтакте"
+   },
+   "space": {
+      "message": "пробел"
+   },
+   "subscribe_disable": {
+      "message": "Больше не показывать"
+   },
+   "subscribe_follow": {
+      "message": "Читать"
+   },
+   "subscribe_text": {
+      "message": "Пожалуйста, подпишитесь на Live Start Page в соцсетях, чтобы первыми получать обновления и узновать об интересных функциях!"
+   },
+   "subscribe_title": {
+      "message": "Подпишитесь на LiveStartPage"
+   },
+   "sync_button_footer": {
+      "message": "Синхронизируйте Ваши данные"
+   },
+   "sync_decide_btn_client": {
+      "message": "Данные компьютера"
+   },
+   "sync_decide_btn_client_hint": {
+      "message": "Будут использованы данные с компьютера (Внимание: Данные на сервере будут перезаписаны)."
+   },
+   "sync_decide_btn_merge": {
+      "message": "Объединить данные"
+   },
+   "sync_decide_btn_merge_hint": {
+      "message": "Данные с Сервера и Компьютера будут объединены. (Сервер имеет больший приоритет)."
+   },
+   "sync_decide_btn_recomended": {
+      "message": "(Рекомендуется)"
+   },
+   "sync_decide_btn_server": {
+      "message": "Данные сервера"
+   },
+   "sync_decide_btn_server_hint": {
+      "message": "Будут использованы данные с сервера (Внимание: Данные на компьютере будут перезаписаны)."
+   },
+   "sync_decide_clean": {
+      "message": "Перед началом синхронизации,"
+   },
+   "sync_decide_confirm_cancel": {
+      "message": "Отмена"
+   },
+   "sync_decide_confirm_client": {
+      "message": "Данные на сервере LiveStartPage будут перезаписаны данными находящимися на этом компьютере"
+   },
+   "sync_decide_confirm_merge": {
+      "message": "Данные на сервере LiveStartPage будут объединены с данными в этом браузере"
+   },
+   "sync_decide_confirm_server": {
+      "message": "Данные на этом компьютере будут перезаписаны данными с сервера LiveStartPage"
+   },
+   "sync_decide_confirm_start": {
+      "message": "Синхронизировать"
+   },
+   "sync_decide_confirm_title": {
+      "message": "Пожалуйста, подтвердите Ваш выбор!"
+   },
+   "sync_decide_data": {
+      "message": "Похоже, что Вы авторизовались под новым аккаунтом,"
+   },
+   "sync_decide_footer_text": {
+      "message": "Синхронизируйте Ваши настройки, задачи, закладки и т.д..."
+   },
+   "sync_decide_title": {
+      "message": "Настройка синхронизации"
+   },
+   "sync_decide_variant": {
+      "message": "пожалуйста, выберите один из следующих вариантов:"
+   },
+   "sync_link_text": {
+      "message": "Синхронизация"
+   },
+   "sync_login_button": {
+      "message": "Войти"
+   },
+   "sync_login_email": {
+      "message": "Введите Ваш e-mail"
+   },
+   "sync_login_login": {
+      "message": "Войти в аккаунт"
+   },
+   "sync_login_pass": {
+      "message": "Введите Ваш пароль"
+   },
+   "sync_login_register": {
+      "message": "Создать аккаунт"
+   },
+   "sync_login_restore": {
+      "message": "Восстановить пароль"
+   },
+   "sync_manual": {
+      "message": "Ручная Синхронизация"
+   },
+   "sync_modal_close": {
+      "message": "Закрыть"
+   },
+   "sync_reg_email": {
+      "message": "Email"
+   },
+   "sync_reg_pass": {
+      "message": "Пароль"
+   },
+   "sync_reg_subscribe": {
+      "message": "Подписаться на рассылку"
+   },
+   "sync_reg_terms": {
+      "message": "условиями использования"
+   },
+   "sync_reg_txt": {
+      "message": "Нажимая «Зарегистрироваться» вы соглашаетесь с"
+   },
+   "sync_register_button": {
+      "message": "Зарегистрироваться"
+   },
+   "sync_restore_button": {
+      "message": "Восстановить пароль"
+   },
+   "sync_status_err": {
+      "message": "Ошибка синхронизации"
+   },
+   "sync_status_ok": {
+      "message": "Синхронизация завершена"
+   },
+   "terms_of_service": {
+      "message": "Условия использования"
+   },
+   "themes_search_button_text": {
+      "message": "Найти"
+   },
+   "themes_search_text": {
+      "message": "Введите название темы..."
+   },
+   "time_min": {
+      "message": "Мин"
+   },
+   "time_sec": {
+      "message": "Сек"
+   },
+   "tour_start_back": {
+      "message": "Назад"
+   },
+   "tour_start_button": {
+      "message": "Да, хорошо!"
+   },
+   "tour_start_close": {
+      "message": "Закрыть"
+   },
+   "tour_start_head": {
+      "message": "Быстрые подсказки"
+   },
+   "tour_start_next": {
+      "message": "Далее"
+   },
+   "tour_start_relax": {
+      "message": "Используйте эту кнопку для запуска медитации"
+   },
+   "tour_start_tip_dials": {
+      "message": "Показать или скрыть сайты"
+   },
+   "tour_start_tip_group_click": {
+      "message": "Нажмите чтобы Показать/Скрыть эту панель"
+   },
+   "tour_start_tip_group_organize": {
+      "message": "Организуйте закладки (Ссылки) в Группах"
+   },
+   "tour_start_tip_settings": {
+      "message": "Доступ к настройкам и установка новых тем"
+   },
+   "tour_start_tip_tasks": {
+      "message": "Показать или скрыть задачи"
+   },
+   "tree_also_available": {
+      "message": "LSP доступен"
+   },
+   "tree_backgrounds": {
+      "message": "Выбрать фон"
+   },
+   "tree_bg_active": {
+      "message": "Активный фон"
+   },
+   "tree_bg_downloaded": {
+      "message": "Загруженные"
+   },
+   "tree_bg_favorites": {
+      "message": "Избранные"
+   },
+   "tree_bg_live": {
+      "message": "Живой фон"
+   },
+   "tree_bg_static": {
+      "message": "Статичные фон"
+   },
+   "tree_bg_themes": {
+      "message": "Живая тема"
+   },
+   "tree_faq": {
+      "message": "Обратная связь"
+   },
+   "tree_follow_us": {
+      "message": "Подпишитесь"
+   },
+   "tree_for_chrome": {
+      "message": "LSP для Chrome"
+   },
+   "tree_for_firefox": {
+      "message": "LSP для Firefox"
+   },
+   "tree_for_opera": {
+      "message": "LSP для Opera"
+   },
+   "tree_greeting": {
+      "message": "Помните, Жизнь Прекрасна!"
+   },
+   "tree_settings": {
+      "message": "Настройки"
+   },
+   "tree_tell": {
+      "message": "Расскажите друзьям"
+   },
+   "upload_image_dialog_apply": {
+      "message": "Загрузить"
+   },
+   "upload_image_dialog_choise": {
+      "message": "Выберите файл"
+   },
+   "upload_image_dialog_close": {
+      "message": "Отмена"
+   },
+   "upload_image_dialog_error_file": {
+      "message": "Пожалуйста, выберите локальный файл или введите URL!"
+   },
+   "upload_image_dialog_error_title": {
+      "message": "Пожалуйста, введите название темы!"
+   },
+   "upload_image_dialog_error_url": {
+      "message": "Пожалуйста, введите корректный URL изображения!"
+   },
+   "upload_image_dialog_or": {
+      "message": "или"
+   },
+   "upload_image_dialog_placeholder": {
+      "message": "Название изображения"
+   },
+   "upload_image_dialog_title": {
+      "message": "Загрузите собственный фон"
+   },
+   "upload_image_name": {
+      "message": "Название"
+   },
+   "upload_image_progress_text": {
+      "message": "Загрузка..."
+   },
+   "upload_image_url": {
+      "message": "URL"
+   },
+   "vals_randomize_both": {
+      "message": "Живые и Статичные фоны"
+   },
+   "vals_randomize_disabled": {
+      "message": "Выключено"
+   },
+   "vals_randomize_images": {
+      "message": "Статичные фоны"
+   },
+   "vals_randomize_video": {
+      "message": "Живые фоны"
+   },
+   "vk_our_group": {
+      "message": "Группа"
+   },
+   "volume": {
+      "message": "Громкость"
+   },
+   "weather": {
+      "message": "Погода"
+   },
+   "weather_advanced": {
+      "message": "Погода на неделю"
+   },
+   "weather_cant_load": {
+      "message": "Не удалось обновить данные погоды. Пожалуйста, попробуйте позднее."
+   },
+   "weather_close": {
+      "message": "Закрыть"
+   },
+   "weather_forecast_cooming_soon": {
+      "message": "Погода на неделю - Скоро будет ;)"
+   },
+   "weather_humidity": {
+      "message": "Влажность"
+   },
+   "weather_km_h": {
+      "message": "км/ч"
+   },
+   "weather_kmh": {
+      "message": "км/ч"
+   },
+   "weather_loading": {
+      "message": "Загрузка"
+   },
+   "weather_max": {
+      "message": "Макс"
+   },
+   "weather_min": {
+      "message": "Мин"
+   },
+   "weather_mp_h": {
+      "message": "миль/ч"
+   },
+   "weather_mph": {
+      "message": "миль/ч"
+   },
+   "weather_not_found": {
+      "message": "Не удалось найти"
+   },
+   "weather_pp": {
+      "message": "Вероятность осадков"
+   },
+   "weather_pp_mini": {
+      "message": "Осадки"
+   },
+   "weather_pp_short": {
+      "message": "Осадки"
+   },
+   "weather_precipitation_probability": {
+      "message": "Вероятность осадков"
+   },
+   "weather_settings": {
+      "message": "Настройки погоды"
+   },
+   "weather_sun": {
+      "message": "Солнце"
+   },
+   "weather_sunrise": {
+      "message": "Восход"
+   },
+   "weather_sunset": {
+      "message": "Закат"
+   },
+   "weather_temperature": {
+      "message": "Температура"
+   },
+   "weather_wind": {
+      "message": "Ветер"
+   },
+   "week_0": {
+      "message": "Воскресение"
+   },
+   "week_1": {
+      "message": "Понедельник"
+   },
+   "week_2": {
+      "message": "Вторник"
+   },
+   "week_3": {
+      "message": "Среда"
+   },
+   "week_4": {
+      "message": "Четверг"
+   },
+   "week_5": {
+      "message": "Пятница"
+   },
+   "week_6": {
+      "message": "Суббота"
+   },
+   "week_7": {
+      "message": "Воскресение"
+   },
+   "week_today": {
+      "message": "Сегодня"
+   },
+   "welcome_clock": {
+      "message": "Красивые часы"
+   },
+   "welcome_enable_speed_dial": {
+      "message": "Включить визуальные закладки"
+   },
+   "welcome_focus": {
+      "message": "Задача на день"
+   },
+   "welcome_options_close": {
+      "message": "Закрыть"
+   },
+   "welcome_skip": {
+      "message": "Закрыть тур"
+   },
+   "welcome_slide_1_1": {
+      "message": "Добро пожаловать в"
+   },
+   "welcome_slide_1_2": {
+      "message": "Место, где Вы можете повысить продуктивность, медитировать, восстановить концентрацию или просто наслаждаться красивыми живыми обоями."
+   },
+   "welcome_slide_2_1": {
+      "message": "Медитации для расслабления и фокусировки"
+   },
+   "welcome_slide_2_2": {
+      "message": "Профессиональные сессии медитаций"
+   },
+   "welcome_slide_2_3": {
+      "message": "Звуки природы"
+   },
+   "welcome_slide_2_4": {
+      "message": "Музыка для медитации"
+   },
+   "welcome_slide_2_5": {
+      "message": "Вдохновляющая музыка"
+   },
+   "welcome_slide_2_6": {
+      "message": "Живые обои"
+   },
+   "welcome_slide_2_7": {
+      "message": "и многое другое..."
+   },
+   "welcome_slide_3_1": {
+      "message": "Визуальные закладки"
+   },
+   "welcome_slide_3_2": {
+      "message": "Быстрый доступ к Вашим любимым сайтам с помощью ссылок,"
+   },
+   "welcome_slide_3_3": {
+      "message": "организованных в виде красивых визуальных закладок и групп."
+   },
+   "welcome_slide_3_hint_1": {
+      "message": "Виджет с визуальными закладками (Ваши любимые и наиболее посещаемые сайты)"
+   },
+   "welcome_slide_3_hint_2": {
+      "message": "Вы можете раскладывать сайты по категориям в группы, например: Рецепты, Фильмы, Здоровье и т.д. Каждый сайт имеет отдельную визуальную закладку с заголовком, ссылкой и изображеием. Это поможет Вам быстрее найти необходимый сайт среди других."
+   },
+   "welcome_slide_3_hint_3": {
+      "message": "Также, вы можете добавить собственную картинку для закладки или выбрать красивую тему оформления закладок из галереи."
+   },
+   "welcome_slide_4_1": {
+      "message": "... и кое-что для продуктивности и фокусировки"
+   },
+   "welcome_slide_4_1_1": {
+      "message": "Вы можете сконфигурировать все эти опции позже в настройках LiveStartPage"
+   },
+   "welcome_slide_5_1_1": {
+      "message": "Сотни Живых и Статичный фонов для Вас!"
+   },
+   "welcome_slide_clock_hint_1": {
+      "message": "ЧАСЫ"
+   },
+   "welcome_slide_clock_hint_2": {
+      "message": "Выбирайте один из множества видов цифровых часов. Настраивайте цвета, стиль, формат времени и т.д."
+   },
+   "welcome_slide_focus_hint_1": {
+      "message": "Задача на день"
+   },
+   "welcome_slide_focus_hint_2": {
+      "message": "Расставляйте приоритеты! Фокусируйтесь на самой важной задаче дня."
+   },
+   "welcome_slide_relax_hint_1": {
+      "message": "МЕДИТАЦИЯ"
+   },
+   "welcome_slide_relax_hint_2": {
+      "message": "Режим медитации позволит вам забыть обо всех происходящем и расслабиться по настоящему. Наполните свой разум. Расслабьтесь и восстановите свою концентрацию."
+   },
+   "welcome_slide_todo_hint_1": {
+      "message": "СПИСОК ЗАДАЧ"
+   },
+   "welcome_slide_todo_hint_2": {
+      "message": "С нашим списком задач вы не пропустите ни одного важного дела. Будьте всегда в курсе происходящего!"
+   },
+   "welcome_slide_weather_hint_1": {
+      "message": "ПОГОДА"
+   },
+   "welcome_slide_weather_hint_2": {
+      "message": "Прогноз погоды в вашем городе и просмотр погоды по всему миру. Автопоиск по вашему местоположению, отображение по Цельсию и Фаренгейту"
+   },
+   "welcome_start": {
+      "message": "Готово!"
+   },
+   "welcome_todo": {
+      "message": "Список задач"
+   },
+   "welcome_weather": {
+      "message": "Погода на неделю"
+   }
+}

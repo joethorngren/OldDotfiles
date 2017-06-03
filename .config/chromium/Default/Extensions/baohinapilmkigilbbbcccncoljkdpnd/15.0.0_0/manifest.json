@@ -1,0 +1,35 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "scripts/landing.js", "scripts/cj-basics.js", "scripts/cj-extensions.js", "scripts/services.js", "scripts/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/toolbar/default-19.png",
+         "38": "images/toolbar/default-38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Shortcuts for Google™"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://apis.google.com https://plus.google.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "Choose from 500+ Google™ shortcuts to show up as buttons in a space-saving popup.",
+   "icons": {
+      "128": "images/extension/icon-128.png",
+      "16": "images/extension/icon-16.png",
+      "32": "images/extension/icon-32.png",
+      "48": "images/extension/icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCirIGGJhMj+r8G1hrgpzzKeyUHm4HIvcmyIhFi+JQXKb4b6NsG6T/fyj5upW2WpSA5LrVFM2Gv1c8MthH9bXtPezCAM87FVQx+r567ah8zq/V+qu0JDnHBDGjCX0o2bjl+CFwpXMCaVP1Q1+4aeiLID4IDKmRq/68tJichiS/ZgQIDAQAB",
+   "manifest_version": 2,
+   "name": "Shortcuts for Google™",
+   "options_page": "options.html",
+   "options_ui": {
+      "chrome_style": false,
+      "open_in_tab": false,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "15.0.0"
+}

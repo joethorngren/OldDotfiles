@@ -1,0 +1,30 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "img/grey-19.png",
+         "38": "img/grey-38.png"
+      },
+      "default_title": "CouponSumo"
+   },
+   "content_scripts": [ {
+      "js": [ "common.js", "content-script.js" ],
+      "matches": [ "*://*/*" ]
+   } ],
+   "description": "CouponSumo coupon codes finder notifies you of online coupons while you’re browsing the web.",
+   "icons": {
+      "128": "img/orange-128.png",
+      "16": "img/orange-16.png",
+      "48": "img/orange-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxey9cUYAx/E8TgT28iLuXzLVSl8fkzQVff61GnufDjF7I5g4nC7GWir9KRJPFQpo5PPfP5g99GOLoDa9+yRIG6wjZRe2Z7Aopj2/MGMiso/zGqfV+25GHRgf26+rCN8WiFMNErJtHZ6khTjGMOCbyY6NwOUzkd9lgoMt8Vt5edbW0YVMM88cxnwF0aF77PM4FdVC3os4hyRmh2bxrV3fE+yHKcmmXWUwO8BpQdQpXfHLc+M7rSvbJIUAk2Gd7DJ4IEJtwSH0tvn9V3rigL/1I/6+zsKDC8XaH+berg53KenjJKikbAvCAKKapWMYbMHBwIPFEafSMkoUdvmvl9GerQIDAQAB",
+   "manifest_version": 2,
+   "name": "CouponSumo - Coupon Codes Finder",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.0",
+   "web_accessible_resources": [ "img/close.png", "img/close36.png", "img/ajax-loader.gif" ]
+}

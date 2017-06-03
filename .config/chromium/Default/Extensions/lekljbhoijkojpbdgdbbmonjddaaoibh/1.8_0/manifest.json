@@ -1,0 +1,33 @@
+{
+   "author": "Stelios Petrakis",
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/events.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/icon-19.png",
+         "38": "icons/icon-76.png"
+      },
+      "default_title": "TubeLister"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Alt+Shift+T"
+         }
+      }
+   },
+   "description": "Generate a YouTube playlist from your opened tabs.",
+   "homepage_url": "http://stelabouras.com",
+   "icons": {
+      "16": "icons/icon-16.png",
+      "256": "icons/icon-256.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArOaAmz9VjvB652SpAKU69PPYykAh/PQ2G7G6Oj6waCh3494tOP46yduepI7h9KESBaoXR+0OHtDBKEjmv57f4B8D2zzKR4M6JSfEEaQJ+sajEWVjRNGn5ZasQ5V/JmFqyS/5b+4at6DtBukM08N+r1ycG2WIw5pfFBHrHlS3vdtxtMsqSdIXoE2WFM7hcHN/Gt6U4Uy+53TW8q9uMqwBOsywX1cA5B+/MaCTcQmm/3WFnixXm/65D6O6dJgHif0GzyLWzJFxb4TlAraQjjnT4TllevGnZz8k5QKXMTqaKcEDZmP8hi95ED29QBzwMB98p6RxPxGpPyDz3U4KEx+S1wIDAQAB",
+   "manifest_version": 2,
+   "name": "TubeLister",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.8"
+}

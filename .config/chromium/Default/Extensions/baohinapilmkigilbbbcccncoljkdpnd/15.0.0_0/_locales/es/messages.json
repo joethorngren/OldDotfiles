@@ -1,0 +1,455 @@
+{
+   "cj_i18n_00003": {
+      "message": "Reciente"
+   },
+   "cj_i18n_00004": {
+      "message": "Favoritos"
+   },
+   "cj_i18n_00061": {
+      "message": "Explorar"
+   },
+   "cj_i18n_00065": {
+      "message": "Portafolios"
+   },
+   "cj_i18n_00081": {
+      "message": "Recordatorios"
+   },
+   "cj_i18n_00111": {
+      "message": "Sitios Clásicos"
+   },
+   "cj_i18n_00112": {
+      "message": "Sitios Clásicos"
+   },
+   "cj_i18n_00153": {
+      "message": "Tendencia"
+   },
+   "cj_i18n_00161": {
+      "message": "Acerca de mí"
+   },
+   "cj_i18n_00177": {
+      "message": "Administrador"
+   },
+   "cj_i18n_00181": {
+      "message": "Album Archivo"
+   },
+   "cj_i18n_00183": {
+      "message": "Alertas"
+   },
+   "cj_i18n_00190": {
+      "message": "Marcadores"
+   },
+   "cj_i18n_00192": {
+      "message": "Listas tendencias"
+   },
+   "cj_i18n_00195": {
+      "message": "Tendencia en Busquedas"
+   },
+   "cj_i18n_00218": {
+      "message": "Libros"
+   },
+   "cj_i18n_00219": {
+      "message": "Música"
+   },
+   "cj_i18n_00221": {
+      "message": "Kiosco"
+   },
+   "cj_i18n_00223": {
+      "message": "Tienda de Google"
+   },
+   "cj_i18n_00240": {
+      "message": "Usuarios"
+   },
+   "cj_i18n_00241": {
+      "message": "Aplicaciones"
+   },
+   "cj_i18n_00243": {
+      "message": "Migración Datos"
+   },
+   "cj_i18n_00244": {
+      "message": "Dominios"
+   },
+   "cj_i18n_00246": {
+      "message": "Dispositivos"
+   },
+   "cj_i18n_00247": {
+      "message": "Soporte"
+   },
+   "cj_i18n_00248": {
+      "message": "Grupos"
+   },
+   "cj_i18n_00249": {
+      "message": "Perfil Compañia"
+   },
+   "cj_i18n_00250": {
+      "message": "Seguridad"
+   },
+   "cj_i18n_00251": {
+      "message": "Facturación"
+   },
+   "cj_i18n_00268": {
+      "message": "Nuevo evento"
+   },
+   "cj_i18n_00276": {
+      "message": "Busqueda Personalizada"
+   },
+   "cj_i18n_00285": {
+      "message": "Play Libros"
+   },
+   "cj_i18n_00287": {
+      "message": "Usar Optimización-Móvil"
+   },
+   "cj_i18n_00288": {
+      "message": "Usar AMP"
+   },
+   "cj_i18n_00292": {
+      "message": "Colecciones"
+   },
+   "cj_i18n_00293": {
+      "message": "Comunidades"
+   },
+   "cj_i18n_00294": {
+      "message": "Perfil"
+   },
+   "cj_i18n_00295": {
+      "message": "Personas"
+   },
+   "cj_i18n_00298": {
+      "message": "Configuración"
+   },
+   "cj_i18n_00300": {
+      "message": "Suspendidos"
+   },
+   "cj_i18n_00301": {
+      "message": "Terminados"
+   },
+   "cj_i18n_00302": {
+      "message": "Calendario"
+   },
+   "cj_i18n_00307": {
+      "message": "Viajes"
+   },
+   "cj_i18n_00309": {
+      "message": "Guardados"
+   },
+   "cj_i18n_00314": {
+      "message": "Contactos"
+   },
+   "cj_i18n_00343": {
+      "message": "Desarrolladores"
+   },
+   "cj_i18n_00391": {
+      "message": "Documentos"
+   },
+   "cj_i18n_00393": {
+      "message": "Hoja Cálculo"
+   },
+   "cj_i18n_00400": {
+      "message": "Albumes"
+   },
+   "cj_i18n_00406": {
+      "message": "Búsqueda avanzada"
+   },
+   "cj_i18n_00407": {
+      "message": "Diapositivas"
+   },
+   "cj_i18n_00408": {
+      "message": "Formularios"
+   },
+   "cj_i18n_00409": {
+      "message": "Dibujos"
+   },
+   "cj_i18n_00412": {
+      "message": "Finanzas"
+   },
+   "cj_i18n_00414": {
+      "message": "Vuelos"
+   },
+   "cj_i18n_00415": {
+      "message": "Fuentes"
+   },
+   "cj_i18n_00418": {
+      "message": "Grupos"
+   },
+   "cj_i18n_00419": {
+      "message": "Mi cuenta"
+   },
+   "cj_i18n_00423": {
+      "message": "Mapas"
+   },
+   "cj_i18n_00424": {
+      "message": "Play Peliculas"
+   },
+   "cj_i18n_00426": {
+      "message": "Play Kiosco"
+   },
+   "cj_i18n_00427": {
+      "message": "Patentes"
+   },
+   "cj_i18n_00428": {
+      "message": "Centro de pagos"
+   },
+   "cj_i18n_00429": {
+      "message": "Fotos"
+   },
+   "cj_i18n_00431": {
+      "message": "Play Música"
+   },
+   "cj_i18n_00432": {
+      "message": "Guardar"
+   },
+   "cj_i18n_00433": {
+      "message": "Académico"
+   },
+   "cj_i18n_00434": {
+      "message": "Búsqueda"
+   },
+   "cj_i18n_00438": {
+      "message": "Ayuda"
+   },
+   "cj_i18n_00439": {
+      "message": "Tareas"
+   },
+   "cj_i18n_00440": {
+      "message": "Traductor"
+   },
+   "cj_i18n_00441": {
+      "message": "Tendencias"
+   },
+   "cj_i18n_00442": {
+      "message": "Acortador enlaces"
+   },
+   "cj_i18n_00444": {
+      "message": "Consola de busqueda"
+   },
+   "cj_i18n_00449": {
+      "message": "Cartera Wallet"
+   },
+   "cj_i18n_00450": {
+      "message": "Sobre Google"
+   },
+   "cj_i18n_00460": {
+      "message": "Libros"
+   },
+   "cj_i18n_00464": {
+      "message": "Extensiones"
+   },
+   "cj_i18n_00465": {
+      "message": "Temas"
+   },
+   "cj_i18n_00467": {
+      "message": "Encuestas"
+   },
+   "cj_i18n_00468": {
+      "message": "Nueva encuesta"
+   },
+   "cj_i18n_00470": {
+      "message": "Menu"
+   },
+   "cj_i18n_00476": {
+      "message": "Nuevo correo"
+   },
+   "cj_i18n_00480": {
+      "message": "Peliculas"
+   },
+   "cj_i18n_00481": {
+      "message": "Cuenta"
+   },
+   "cj_i18n_00484": {
+      "message": "Eventos"
+   },
+   "cj_i18n_00487": {
+      "message": "Medio Ambiente"
+   },
+   "cj_i18n_00488": {
+      "message": "Imágenes"
+   },
+   "cj_i18n_00495": {
+      "message": "Mis dispositivos"
+   },
+   "cj_i18n_00496": {
+      "message": "Archivo de noticias"
+   },
+   "cj_i18n_00502": {
+      "message": "Foros Productos"
+   },
+   "cj_i18n_00509": {
+      "message": "Vídeos"
+   },
+   "cj_i18n_00516": {
+      "message": "Añadir esto"
+   },
+   "cj_i18n_00520": {
+      "message": "Administrador Dispositivos Android"
+   },
+   "cj_i18n_00521": {
+      "message": "Mis suscripciones"
+   },
+   "cj_i18n_00522": {
+      "message": "Feedback"
+   },
+   "cj_i18n_00537": {
+      "message": "Google Viajes"
+   },
+   "cj_i18n_00538": {
+      "message": "Herramientas de Planeación"
+   },
+   "cj_i18n_00549": {
+      "message": "Gafas"
+   },
+   "cj_i18n_00550": {
+      "message": "Lista de deseos"
+   },
+   "cj_i18n_00554": {
+      "message": "Mi Negocio"
+   },
+   "cj_i18n_00555": {
+      "message": "Añadir localizacion"
+   },
+   "cj_i18n_00556": {
+      "message": "Apps Moviles"
+   },
+   "cj_i18n_00560": {
+      "message": "Operadores"
+   },
+   "cj_i18n_00562": {
+      "message": "Diseño"
+   },
+   "cj_i18n_00566": {
+      "message": "Verificacion en 2 pasos"
+   },
+   "cj_i18n_00570": {
+      "message": "Emprendedores"
+   },
+   "cj_i18n_00572": {
+      "message": "Anuncios"
+   },
+   "cj_i18n_00575": {
+      "message": "Soluciones para Negocios"
+   },
+   "cj_i18n_00576": {
+      "message": "Play Kiosco Producción"
+   },
+   "cj_i18n_00577": {
+      "message": "Base Datos Spectrum"
+   },
+   "cj_i18n_00578": {
+      "message": "Centro de Seguridad"
+   },
+   "cj_i18n_00580": {
+      "message": "Admob"
+   },
+   "cj_i18n_00581": {
+      "message": "Aplicaciones Seguridad"
+   },
+   "cj_i18n_00585": {
+      "message": "Producción"
+   },
+   "cj_i18n_00589": {
+      "message": "Calculadora"
+   },
+   "cj_i18n_00593": {
+      "message": "Academia Creadores YouTube"
+   },
+   "cj_i18n_00595": {
+      "message": "Nuevo hangout"
+   },
+   "cj_i18n_00596": {
+      "message": "Contacta con Google"
+   },
+   "cj_i18n_00597": {
+      "message": "Plataforma en la nube"
+   },
+   "cj_i18n_00601": {
+      "message": "Investigar"
+   },
+   "cj_i18n_00603": {
+      "message": "Sincronizar"
+   },
+   "cj_i18n_00604": {
+      "message": "Alertas"
+   },
+   "cj_i18n_00605": {
+      "message": "DNS Publicas"
+   },
+   "cj_i18n_00607": {
+      "message": "Nuevo Documento"
+   },
+   "cj_i18n_00608": {
+      "message": "Nueva Hoja de Cálculo"
+   },
+   "cj_i18n_00609": {
+      "message": "Nueva Presentación"
+   },
+   "cj_i18n_00613": {
+      "message": "Tablets Android"
+   },
+   "cj_i18n_00614": {
+      "message": "Telefonos Android"
+   },
+   "cj_i18n_00615": {
+      "message": "Projecto Fi"
+   },
+   "cj_i18n_00618": {
+      "message": "Apps Reloj"
+   },
+   "cj_i18n_00619": {
+      "message": "Migrar a Outlook"
+   },
+   "cj_i18n_00620": {
+      "message": "Asistente"
+   },
+   "cj_i18n_00621": {
+      "message": "Tendencias YouTube"
+   },
+   "cj_i18n_00622": {
+      "message": "Estudio Creador YouTube"
+   },
+   "cj_i18n_00623": {
+      "message": "Transmisión en vivo"
+   },
+   "cj_i18n_00624": {
+      "message": "Comunidad"
+   },
+   "cj_i18n_00625": {
+      "message": "Canal"
+   },
+   "cj_i18n_00626": {
+      "message": "Crear"
+   },
+   "cj_i18n_00631": {
+      "message": "Nuevo formulario"
+   },
+   "cj_i18n_00633": {
+      "message": "Nueva direccion"
+   },
+   "cj_i18n_00634": {
+      "message": "Mis contribuciones"
+   },
+   "cj_i18n_00636": {
+      "message": "Buscador de Santa"
+   },
+   "cj_i18n_00650": {
+      "message": "Comunidad de Traductores"
+   },
+   "cj_i18n_00689": {
+      "message": "Mi actividad"
+   },
+   "cj_i18n_00692": {
+      "message": "Favoritos"
+   },
+   "cj_i18n_00693": {
+      "message": "Diversidad"
+   },
+   "cj_i18n_00736": {
+      "message": "Guias locales"
+   },
+   "cj_i18n_00820": {
+      "message": "Errores Chromium"
+   },
+   "cj_i18n_00821": {
+      "message": "Archivo"
+   },
+   "cj_i18n_00822": {
+      "message": "Configuración"
+   }
+}

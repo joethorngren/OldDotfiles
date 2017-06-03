@@ -1,0 +1,77 @@
+#mv-clock-wrap{
+    height: 98px;
+}
+
+#clock-container{
+    margin-top: -50px!important;
+}
+
+.ce-countdown--theme-7 {
+    background: none;
+    padding: 80px 10px;
+    line-height: 0.98em;
+    min-height: 98px;
+    
+}
+.ce-countdown{ min-width: 590px; }
+.ce-countdown.ce-add-date{ min-width: 625px; }
+.ce-countdown.ce-add-seconds{ min-width: 850px; }
+.ce-countdown.ce-add-date.ce-add-seconds{ min-width: 850px; }
+.ce-countdown--theme-7.clock-font-bold {
+    font-weight: 800;
+    line-height: 0.94em;
+    font-size: 98px;
+}
+
+.ce-countdown--theme-7.clock-font-bold .clock-format-label {
+    font-weight: 800;
+    position: relative;
+    top: 6px;
+}
+
+.ce-countdown--theme-7.clock-format-label-padding {
+    padding: 80px 50px 80px 20px;
+}
+
+.ce-countdown--theme-7 .clock-format-label {
+    font-size: 0.7em;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+
+.ce-digits {
+    line-height: 82px;
+}
+
+.clock-font-bold  .ce-digits {
+    line-height: inherit;
+}
+
+.ce-digits-container {
+    overflow-y: hidden;
+}
+
+@media (max-width: 900px) {
+    .ce-countdown--theme-7,
+    .ce-countdown--theme-7.clock-font-bold {
+        font-size: 65px;
+        max-width: 680px;
+    }
+}
+
+@media (max-width: 700px) {
+    .ce-countdown--theme-7,
+    .ce-countdown--theme-7.clock-font-bold {
+        font-size: 65px;
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 600px) {
+    .ce-countdown--theme-7,
+    .ce-countdown--theme-7.clock-font-bold {
+        font-size: 3em;
+    }
+}
+

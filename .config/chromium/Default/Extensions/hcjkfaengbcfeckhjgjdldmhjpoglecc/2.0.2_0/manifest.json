@@ -1,0 +1,32 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/events.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "css/trello-pro.css" ],
+      "js": [ "lib/jquery-3.0.0.min.js", "js/config.js", "js/trello-pro.js", "js/donate.js" ],
+      "matches": [ "*://trello.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Ultimate FREE tweaks for Trello users! Your Trello boards on steroids!",
+   "icons": {
+      "128": "img/128x128.png",
+      "16": "img/16x16.png",
+      "24": "img/24x24.png",
+      "256": "img/256x256.png",
+      "32": "img/32x32.png",
+      "48": "img/48x48.png",
+      "512": "img/512x512.png",
+      "64": "img/64x64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhimznCcJXCqq8wxQMziU9MiFILouMJzmCPkjdizw6YlqhudNvPxhpSWRHFSVIfpFI7z2DYa/FSzaA5UuElYOHEXJgKRZ2aEeS7f3rtINH4AaWiekP3N+kxzpnUVjDD0wl/frbKFtBSBzucC3xU/5bRIuirUo23+PeAy+8QG/RsyWPLTmgpRoPq9ij/htvRdQiUj4mwVhnOCpDxDIzPFE3XnP6eFXGSGDlkkORQuo9rVcrgUN0Pdjb9raW/5/6jO3iFNCuN2KHNhXVdv2NKjSRVzfsZnZKIRTsdYoK3HhF/RxTuqA6MpwmIC+vV/ObAaPyxKA48nr3hZdWALddxmnSwIDAQAB",
+   "manifest_version": 2,
+   "name": "Pro for Trello, FREE Trello tweaks",
+   "permissions": [ "*://trello.com/*", "tabs", "storage" ],
+   "short_name": "Pro for Trello",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.2",
+   "web_accessible_resources": [ "img/*", "css/*", "tmpl/*", "docs/*", "lib/*" ]
+}

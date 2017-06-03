@@ -1,0 +1,320 @@
+{
+   "AccountSettingsText": {
+      "message": "Hesap Ayarları"
+   },
+   "AdobeFlashTooltip": {
+      "message": "Adobe Flash, tarayıcınızın vekil sunucu ayarlarına riayet etmeyi garantilemediği için güvenlik seviyenizi düşürebilir. Onu engellemeniz önerilir."
+   },
+   "AdsTrackersProtection": {
+      "message": "Reklam, İzleyici ve Kötü Amaçlı Yazılım Koruması"
+   },
+   "AuthFailMessage": {
+      "message": "PIA Chrome uzantısını kullanırken PIA sitesinden şifrenizi değiştirdiyseniz bu sorun meydana gelebilir."
+   },
+   "AuthFailTitle": {
+      "message": "Bir kimlik doğrulama hatası meydana geldi."
+   },
+   "AutoLoginURL": {
+      "message": "https://tur.privateinternetaccess.com/xpages/sign-in"
+   },
+   "BadResponseError": {
+      "message": "Beklenmeyen bir sunucu yanıtı nedeniyle oturum açılamadı. Lütfen daha sonra tekrar deneyin."
+   },
+   "BlockAdobeFlash": {
+      "message": "Adobe Flash'ı engelleyin"
+   },
+   "BlockBatteryAccess": {
+      "message": "Bataryaya erişimi engelleyin"
+   },
+   "BlockBatteryAccessTooltip": {
+      "message": "Web sitelerinin bilgisayarınızın batarya bilgilerine erişmesine engel olun."
+   },
+   "BlockCameraAccess": {
+      "message": "Kameraya erişimi engelleyin"
+   },
+   "BlockCameraAccessTooltip": {
+      "message": "Web sitelerinin bilgisayarınızın kamerasına erişmesine engel olun."
+   },
+   "BlockLocationAccess": {
+      "message": "Konuma erişimi engelleyin"
+   },
+   "BlockLocationAccessTooltip": {
+      "message": "İnternet sitelerinin fiziksel konumunuz hakkındaki bilgilere erişmesine engel olun."
+   },
+   "BlockMicrophoneAccess": {
+      "message": "Mikrofona erişimi engelleyin"
+   },
+   "BlockMicrophoneAccessTooltip": {
+      "message": "Web sitelerinin bilgisayarınızın mikrofonuna erişmesine engel olun."
+   },
+   "CannotUsePIAMessage": {
+      "message": "Başka bir uzantı tarayıcınızın vekil sunucu ayarlarını kontrol ettiği için Private Internet Access kullanılamıyor."
+   },
+   "ChangeExtensionSettings": {
+      "message": "Uzantı Ayarları"
+   },
+   "CloseText": {
+      "message": "Kapat"
+   },
+   "ConnectionFailMessage": {
+      "message": "İnternet bağlantısı kesilmiş ya da geçici olarak kesintiye uğramış olabilir."
+   },
+   "ConnectionFailTitle": {
+      "message": "Bir Private Internet Access vekil sunucusuyla iletişim kurulurken bir bağlantı hatası meydana geldi."
+   },
+   "CopiedToClipboard": {
+      "message": "Hata ayıklama günlüğü kopyalandı"
+   },
+   "CopyToClipboard": {
+      "message": "Hata ayıklama günlüğünü kopyala"
+   },
+   "CurrentRegionText": {
+      "message": "Mevcut Bölge"
+   },
+   "DebugLog": {
+      "message": "Hata Ayıklama Günlüğü"
+   },
+   "DebugLogIsEmpty": {
+      "message": "Hata ayıklama günlüğü boş."
+   },
+   "DebugMode": {
+      "message": "Hata ayıklama modu"
+   },
+   "DebugModeTooltip": {
+      "message": "Mesajları hata ayıklama günlüğüne yazın. Hata ayıklama günlüğünü açmak önce 'ctrl' tuşuna ve ardından 'd' tuşuna basın."
+   },
+   "Developer": {
+      "message": "Geliştirici"
+   },
+   "JoinText": {
+      "message": "BİR VPN HESABI AÇIN"
+   },
+   "JoinURL": {
+      "message": "https://tur.privateinternetaccess.com/pages/buy-vpn/"
+   },
+   "LoadingText": {
+      "message": "Yükleniyor"
+   },
+   "LoginText": {
+      "message": "Oturum aç"
+   },
+   "LogoutText": {
+      "message": "Oturumu kapat"
+   },
+   "MaceProtection": {
+      "message": "PIA MACE™"
+   },
+   "MaceTooltip": {
+      "message": "PIA MACE™ zararlı içerikleri, izleyici unsurları ve reklamları engelleyerek gizliliğinizin ve güvenliğinizin korunmasına yardımcı olur."
+   },
+   "ManageExtensions": {
+      "message": "Uzantıları Yönet"
+   },
+   "NoAccountQuestion": {
+      "message": "Bir hesabınız yok mu?"
+   },
+   "OffText": {
+      "message": "Kapalı"
+   },
+   "OfflineText": {
+      "message": "ÇEVRİM DIŞI"
+   },
+   "OnText": {
+      "message": "Açık"
+   },
+   "PasswordPlaceholder": {
+      "message": "Şifre"
+   },
+   "PleaseWait": {
+      "message": "Yükleniyor. Lütfen bekleyin."
+   },
+   "PluginLeakProtection": {
+      "message": "Yerel eklentileri engelle"
+   },
+   "Privacy": {
+      "message": "Gizlilik"
+   },
+   "ProxyBypassList": {
+      "message": "Atlama Listesi"
+   },
+   "RegionLatency": {
+      "message": "Gecikme"
+   },
+   "RegionName": {
+      "message": "İsim"
+   },
+   "RememberMe": {
+      "message": "Beni hatırla"
+   },
+   "SaveProxyBypassList": {
+      "message": "Kaydet"
+   },
+   "Security": {
+      "message": "Güvenlik"
+   },
+   "SelectRegionText": {
+      "message": "Bir bölge seçin"
+   },
+   "ServerError": {
+      "message": "Bir sunucu hatası nedeniyle oturum açılamadı. Lütfen daha sonra tekrar deneyin."
+   },
+   "SortBy": {
+      "message": "Sıralama türü:"
+   },
+   "StatusText": {
+      "message": "Durum"
+   },
+   "SupportText": {
+      "message": "Yardım ve Destek"
+   },
+   "SupportURL": {
+      "message": "https://tur.privateinternetaccess.com/pages/client-support/"
+   },
+   "TimeoutError": {
+      "message": "Bağlantının süresi dolduğu için giriş başarısız oldu. Lütfen İnternet'a bağlı olup olmadığınızı kontrol edin."
+   },
+   "TooManyRequestsError": {
+      "message": "Çok sayıda başarısız oturum açma girişiminde bulunuldu. Lütfen daha sonra tekrar deneyin."
+   },
+   "UnknownError": {
+      "message": "Bilinmeyen bir hata nedeniyle oturum açılamadı."
+   },
+   "UpgradeChromeMessage": {
+      "message": "Chrome tarayıcınızın sürümü eski olduğu için Private Internet Access kullanılamıyor. Lütfen tarayıcınızı Chrome v48 veya üstü sürüme güncelleyin."
+   },
+   "UseRegionLocale": {
+      "message": "Gizli yerel ve dil ayarları"
+   },
+   "UseRegionLocaleTooltip": {
+      "message": "Tarayıcınızın varsayılan yerel ve dil ayarları, mevcut bölgenin yerel ve dil ayarlarıyla değiştirilerek gizli tutulur."
+   },
+   "UsernamePlaceholder": {
+      "message": "Kullanıcı Adı"
+   },
+   "WebRTCLeakProtection": {
+      "message": "WebRTC'yi engelle"
+   },
+   "WebRTCTooltip": {
+      "message": "WebRTC, tarayıcınızın vekil sunucu ayarlarına riayet etmeyi garantilemediği için güvenlik seviyenizi düşürebilir. Onu engellemeniz önerilir."
+   },
+   "WrongUsernameAndPassword": {
+      "message": "Kullanıcı adı ve/veya şifre hatalı."
+   },
+   "aus": {
+      "message": "Avustralya Sidney"
+   },
+   "aus_melbourne": {
+      "message": "Avustralya Melbourne"
+   },
+   "brazil": {
+      "message": "Brezilya"
+   },
+   "ca": {
+      "message": "Kanada Montreal"
+   },
+   "ca_toronto": {
+      "message": "Kanada Toronto"
+   },
+   "denmark": {
+      "message": "Danimarka"
+   },
+   "disabled": {
+      "message": "devre dışı"
+   },
+   "enabled": {
+      "message": "etkin"
+   },
+   "fi": {
+      "message": "Finlandiya"
+   },
+   "france": {
+      "message": "Fransa"
+   },
+   "germany": {
+      "message": "Almanya"
+   },
+   "hk": {
+      "message": "Hong Kong"
+   },
+   "in": {
+      "message": "Hindistan"
+   },
+   "ireland": {
+      "message": "İrlanda"
+   },
+   "israel": {
+      "message": "İsrail"
+   },
+   "italy": {
+      "message": "İtalya"
+   },
+   "japan": {
+      "message": "Japonya"
+   },
+   "kr": {
+      "message": "Güney Kore"
+   },
+   "mexico": {
+      "message": "Meksika"
+   },
+   "nl": {
+      "message": "Hollanda"
+   },
+   "no": {
+      "message": "Norveç"
+   },
+   "nz": {
+      "message": "Yeni Zelanda"
+   },
+   "ro": {
+      "message": "Romanya"
+   },
+   "sg": {
+      "message": "Singapur"
+   },
+   "sweden": {
+      "message": "İsveç"
+   },
+   "swiss": {
+      "message": "İsviçre"
+   },
+   "turkey": {
+      "message": "Türkiye"
+   },
+   "uk": {
+      "message": "Birleşik Krallık Londra"
+   },
+   "uk_southampton": {
+      "message": "Birleşik Kralllık Southampton"
+   },
+   "us1": {
+      "message": "ABD Orta Batı"
+   },
+   "us2": {
+      "message": "ABD Doğu"
+   },
+   "us3": {
+      "message": "ABD Batı"
+   },
+   "us_california": {
+      "message": "ABD Kaliforniya"
+   },
+   "us_chicago": {
+      "message": "ABD Şikago"
+   },
+   "us_florida": {
+      "message": "ABD Florida"
+   },
+   "us_new_york_city": {
+      "message": "ABD New York City"
+   },
+   "us_seattle": {
+      "message": "ABD Seattle"
+   },
+   "us_silicon_valley": {
+      "message": "ABD Silikon Vadisi"
+   },
+   "us_south_west": {
+      "message": "ABD Teksas"
+   }
+}

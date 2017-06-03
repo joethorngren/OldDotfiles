@@ -1,0 +1,320 @@
+{
+   "AccountSettingsText": {
+      "message": "Настройки учетной записи"
+   },
+   "AdobeFlashTooltip": {
+      "message": "Adobe Flash может снижать степень безопасности, т.к. соблюдение им настроек прокси в браузере не гарантируется. Рекомендуется блокировать его."
+   },
+   "AdsTrackersProtection": {
+      "message": "Защита от рекламы, трекеров и вредоносного ПО"
+   },
+   "AuthFailMessage": {
+      "message": "Одна из возможных причин этого: вы сменили пароль на веб-сайте PIA, используя расширения PIA для Chrome."
+   },
+   "AuthFailTitle": {
+      "message": "Произошла ошибка аутентификации."
+   },
+   "AutoLoginURL": {
+      "message": "https://rus.privateinternetaccess.com/xpages/sign-in"
+   },
+   "BadResponseError": {
+      "message": "Не удалось выполнить вход: непредвиденный ответ сервера. Повторите попытку позже."
+   },
+   "BlockAdobeFlash": {
+      "message": "Блокировать Adobe Flash"
+   },
+   "BlockBatteryAccess": {
+      "message": "Блокировать доступ к батарее"
+   },
+   "BlockBatteryAccessTooltip": {
+      "message": "Блокировка доступа к информации о батарее вашего компьютера для веб-сайтов."
+   },
+   "BlockCameraAccess": {
+      "message": "Блокировать доступ к камере"
+   },
+   "BlockCameraAccessTooltip": {
+      "message": "Блокировка доступа к камере компьютера для веб-сайтов."
+   },
+   "BlockLocationAccess": {
+      "message": "Блокировать доступ к местоположению"
+   },
+   "BlockLocationAccessTooltip": {
+      "message": "Блокировка доступа веб-сайтов к информации о вашем физическом местоположении."
+   },
+   "BlockMicrophoneAccess": {
+      "message": "Блокировать доступ к микрофону"
+   },
+   "BlockMicrophoneAccessTooltip": {
+      "message": "Блокировка доступа к микрофону компьютера для веб-сайтов."
+   },
+   "CannotUsePIAMessage": {
+      "message": "Использование Private Internet Access невозможно: настройками прокси ваших браузеров управляет другое расширение."
+   },
+   "ChangeExtensionSettings": {
+      "message": "Настройки расширения"
+   },
+   "CloseText": {
+      "message": "Закрыть"
+   },
+   "ConnectionFailMessage": {
+      "message": "Возможно, у вас исчезла возможность соединения с Интернетом, или ваше интернет-соединение разорвано."
+   },
+   "ConnectionFailTitle": {
+      "message": "При попытке обмена данными с прокси Private Internet Access произошла ошибка соединения."
+   },
+   "CopiedToClipboard": {
+      "message": "Журнал отладки скопирован"
+   },
+   "CopyToClipboard": {
+      "message": "Копировать журнал отладки"
+   },
+   "CurrentRegionText": {
+      "message": "Текущий регион"
+   },
+   "DebugLog": {
+      "message": "Журнал отладки"
+   },
+   "DebugLogIsEmpty": {
+      "message": "Журнал отладки пустой."
+   },
+   "DebugMode": {
+      "message": "Режим отладки"
+   },
+   "DebugModeTooltip": {
+      "message": "Запись сообщений в журнал отладки. Нажмите «ctrl», а затем клавишу «d», чтобы отобразить журнал отладки."
+   },
+   "Developer": {
+      "message": "Разработчик"
+   },
+   "JoinText": {
+      "message": "ЗАРЕГИСТРИРОВАТЬ УЧЕТНУЮ ЗАПИСЬ VPN"
+   },
+   "JoinURL": {
+      "message": "https://rus.privateinternetaccess.com/pages/buy-vpn/"
+   },
+   "LoadingText": {
+      "message": "Загрузка..."
+   },
+   "LoginText": {
+      "message": "Вход"
+   },
+   "LogoutText": {
+      "message": "Выход"
+   },
+   "MaceProtection": {
+      "message": "PIA MACE™"
+   },
+   "MaceTooltip": {
+      "message": "PIA MACE™ помогает обеспечить вам конфиденциальность и безопасность, блокируя вредоносный контент, трекеры и рекламу."
+   },
+   "ManageExtensions": {
+      "message": "Управление расширениями"
+   },
+   "NoAccountQuestion": {
+      "message": "Нет учетной записи?"
+   },
+   "OffText": {
+      "message": "Выкл."
+   },
+   "OfflineText": {
+      "message": "НЕ В СЕТИ"
+   },
+   "OnText": {
+      "message": "Вкл."
+   },
+   "PasswordPlaceholder": {
+      "message": "Пароль"
+   },
+   "PleaseWait": {
+      "message": "Выполняется загрузка. Ожидайте."
+   },
+   "PluginLeakProtection": {
+      "message": "Блокировать собственные плагины"
+   },
+   "Privacy": {
+      "message": "Конфиденциальность"
+   },
+   "ProxyBypassList": {
+      "message": "Список обходов"
+   },
+   "RegionLatency": {
+      "message": "Латентность"
+   },
+   "RegionName": {
+      "message": "Имя"
+   },
+   "RememberMe": {
+      "message": "Запомнить меня"
+   },
+   "SaveProxyBypassList": {
+      "message": "Сохранить"
+   },
+   "Security": {
+      "message": "Безопасность"
+   },
+   "SelectRegionText": {
+      "message": "Выберите регион"
+   },
+   "ServerError": {
+      "message": "Не удалось выполнить вход: ошибка сервера. Повторите попытку позже."
+   },
+   "SortBy": {
+      "message": "Упорядочить по:"
+   },
+   "StatusText": {
+      "message": "Статус"
+   },
+   "SupportText": {
+      "message": "Справка и поддержка"
+   },
+   "SupportURL": {
+      "message": "https://rus.privateinternetaccess.com/pages/client-support/"
+   },
+   "TimeoutError": {
+      "message": "Не удалось выполнить вход: превышен интервал ожидания соединения. Проверьте, подключены ли вы к Интернету."
+   },
+   "TooManyRequestsError": {
+      "message": "Слишком много неудачных попыток входа. Повторите попытку позже."
+   },
+   "UnknownError": {
+      "message": "Не удалось выполнить вход: неизвестная ошибка."
+   },
+   "UpgradeChromeMessage": {
+      "message": "Использование Private Internet Access невозможно: ваша версия Chrome устарела. Обновите Chrome до версии 48 или более поздней."
+   },
+   "UseRegionLocale": {
+      "message": "Конфиденциальные национальные и языковые настройки"
+   },
+   "UseRegionLocaleTooltip": {
+      "message": "Обеспечение конфиденциальности используемых по умолчанию национальных и языковых настроек браузера путем замены их национальными и языковыми настройками текущего региона."
+   },
+   "UsernamePlaceholder": {
+      "message": "Имя пользователя"
+   },
+   "WebRTCLeakProtection": {
+      "message": "Блокировать WebRTC"
+   },
+   "WebRTCTooltip": {
+      "message": "WebRTC может снижать степень безопасности, т.к. соблюдение им настроек прокси в браузере не гарантируется. Рекомендуется блокировать его."
+   },
+   "WrongUsernameAndPassword": {
+      "message": "Неверное сочетание имени пользователя и пароля."
+   },
+   "aus": {
+      "message": "Австралия, Сидней"
+   },
+   "aus_melbourne": {
+      "message": "Австралия, Мельбурн"
+   },
+   "brazil": {
+      "message": "Бразилия"
+   },
+   "ca": {
+      "message": "Канада, Монреаль"
+   },
+   "ca_toronto": {
+      "message": "Канада, Торонто"
+   },
+   "denmark": {
+      "message": "Дания"
+   },
+   "disabled": {
+      "message": "отключено"
+   },
+   "enabled": {
+      "message": "активировано"
+   },
+   "fi": {
+      "message": "Финляндия"
+   },
+   "france": {
+      "message": "Франция"
+   },
+   "germany": {
+      "message": "Германия"
+   },
+   "hk": {
+      "message": "Гонконг"
+   },
+   "in": {
+      "message": "Индия"
+   },
+   "ireland": {
+      "message": "Ирландия"
+   },
+   "israel": {
+      "message": "Израиль"
+   },
+   "italy": {
+      "message": "Италия"
+   },
+   "japan": {
+      "message": "Япония"
+   },
+   "kr": {
+      "message": "Южная Корея"
+   },
+   "mexico": {
+      "message": "Мексика"
+   },
+   "nl": {
+      "message": "Нидерланды"
+   },
+   "no": {
+      "message": "Норвегия"
+   },
+   "nz": {
+      "message": "Новая Зеландия"
+   },
+   "ro": {
+      "message": "Румыния"
+   },
+   "sg": {
+      "message": "Сингапур"
+   },
+   "sweden": {
+      "message": "Швеция"
+   },
+   "swiss": {
+      "message": "Швейцария"
+   },
+   "turkey": {
+      "message": "Турция"
+   },
+   "uk": {
+      "message": "Великобритания, Лондон"
+   },
+   "uk_southampton": {
+      "message": "Великобритания, Саутхэмптон"
+   },
+   "us1": {
+      "message": "США, Средний Запад"
+   },
+   "us2": {
+      "message": "США, Восток"
+   },
+   "us3": {
+      "message": "США, Запад"
+   },
+   "us_california": {
+      "message": "США, Калифорния"
+   },
+   "us_chicago": {
+      "message": "США, Чикаго"
+   },
+   "us_florida": {
+      "message": "США, Флорида"
+   },
+   "us_new_york_city": {
+      "message": "США, г. Нью-Йорк"
+   },
+   "us_seattle": {
+      "message": "США, Сиэттл"
+   },
+   "us_silicon_valley": {
+      "message": "США, Кремниевая Долина"
+   },
+   "us_south_west": {
+      "message": "США, Техас"
+   }
+}

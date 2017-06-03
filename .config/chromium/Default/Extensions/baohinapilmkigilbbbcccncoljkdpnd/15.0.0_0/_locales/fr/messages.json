@@ -1,0 +1,344 @@
+{
+   "cj_i18n_00003": {
+      "message": "Récents"
+   },
+   "cj_i18n_00004": {
+      "message": "Suivis"
+   },
+   "cj_i18n_00061": {
+      "message": "Explorer"
+   },
+   "cj_i18n_00065": {
+      "message": "Portefeuilles"
+   },
+   "cj_i18n_00081": {
+      "message": "Rappels"
+   },
+   "cj_i18n_00111": {
+      "message": "Google Sites - Version classique"
+   },
+   "cj_i18n_00153": {
+      "message": "Populaire"
+   },
+   "cj_i18n_00161": {
+      "message": "À propos de moi"
+   },
+   "cj_i18n_00183": {
+      "message": "Alertes"
+   },
+   "cj_i18n_00190": {
+      "message": "Favoris"
+   },
+   "cj_i18n_00192": {
+      "message": "Meilleurs classements"
+   },
+   "cj_i18n_00194": {
+      "message": "Correler"
+   },
+   "cj_i18n_00195": {
+      "message": "Recherches populaires"
+   },
+   "cj_i18n_00216": {
+      "message": "Applications"
+   },
+   "cj_i18n_00218": {
+      "message": "Livres"
+   },
+   "cj_i18n_00219": {
+      "message": "Musique"
+   },
+   "cj_i18n_00221": {
+      "message": "Kiosque"
+   },
+   "cj_i18n_00240": {
+      "message": "Utilisateurs"
+   },
+   "cj_i18n_00241": {
+      "message": "Applis"
+   },
+   "cj_i18n_00243": {
+      "message": "Migration des données"
+   },
+   "cj_i18n_00244": {
+      "message": "Domaines"
+   },
+   "cj_i18n_00246": {
+      "message": "Gestion d'appareil"
+   },
+   "cj_i18n_00248": {
+      "message": "Groupes"
+   },
+   "cj_i18n_00249": {
+      "message": "Profil d'entreprise"
+   },
+   "cj_i18n_00250": {
+      "message": "Sécutité"
+   },
+   "cj_i18n_00251": {
+      "message": "Facturation"
+   },
+   "cj_i18n_00268": {
+      "message": "Nouvel événement"
+   },
+   "cj_i18n_00276": {
+      "message": "Recherche personnalisée"
+   },
+   "cj_i18n_00285": {
+      "message": "Play Livres"
+   },
+   "cj_i18n_00293": {
+      "message": "Communautés"
+   },
+   "cj_i18n_00294": {
+      "message": "Profil"
+   },
+   "cj_i18n_00295": {
+      "message": "Personnes"
+   },
+   "cj_i18n_00298": {
+      "message": "Paramètres"
+   },
+   "cj_i18n_00300": {
+      "message": "Suspendu"
+   },
+   "cj_i18n_00301": {
+      "message": "Fait"
+   },
+   "cj_i18n_00302": {
+      "message": "Agenda"
+   },
+   "cj_i18n_00307": {
+      "message": "Voyages"
+   },
+   "cj_i18n_00309": {
+      "message": "Enregistré"
+   },
+   "cj_i18n_00343": {
+      "message": "Développeurs"
+   },
+   "cj_i18n_00393": {
+      "message": "Tableaux"
+   },
+   "cj_i18n_00405": {
+      "message": "Modèles"
+   },
+   "cj_i18n_00406": {
+      "message": "Recherche avancée"
+   },
+   "cj_i18n_00407": {
+      "message": "Présentations"
+   },
+   "cj_i18n_00408": {
+      "message": "Formulaires"
+   },
+   "cj_i18n_00409": {
+      "message": "Dessins"
+   },
+   "cj_i18n_00410": {
+      "message": "Mes Cartes"
+   },
+   "cj_i18n_00414": {
+      "message": "Vols"
+   },
+   "cj_i18n_00415": {
+      "message": "Polices"
+   },
+   "cj_i18n_00418": {
+      "message": "Groupes"
+   },
+   "cj_i18n_00419": {
+      "message": "Mon compte"
+   },
+   "cj_i18n_00424": {
+      "message": "Play Films"
+   },
+   "cj_i18n_00425": {
+      "message": "Actualités"
+   },
+   "cj_i18n_00426": {
+      "message": "Play Kiosque"
+   },
+   "cj_i18n_00427": {
+      "message": "Brevets"
+   },
+   "cj_i18n_00428": {
+      "message": "Centre de Payment"
+   },
+   "cj_i18n_00431": {
+      "message": "Play Musique"
+   },
+   "cj_i18n_00432": {
+      "message": "Enregistrer"
+   },
+   "cj_i18n_00434": {
+      "message": "Recherche"
+   },
+   "cj_i18n_00438": {
+      "message": "Support"
+   },
+   "cj_i18n_00439": {
+      "message": "Liste de tâches"
+   },
+   "cj_i18n_00440": {
+      "message": "Traduction"
+   },
+   "cj_i18n_00442": {
+      "message": "Réducteur URL"
+   },
+   "cj_i18n_00444": {
+      "message": "Console de Recherche"
+   },
+   "cj_i18n_00450": {
+      "message": "A propos de Google"
+   },
+   "cj_i18n_00451": {
+      "message": "Double-Cliquer pour Publishers"
+   },
+   "cj_i18n_00454": {
+      "message": "Explorateur de l'API"
+   },
+   "cj_i18n_00460": {
+      "message": "Livres"
+   },
+   "cj_i18n_00461": {
+      "message": "Experiences Chrome"
+   },
+   "cj_i18n_00473": {
+      "message": "Politique et elections"
+   },
+   "cj_i18n_00476": {
+      "message": "Nouveau Courriel"
+   },
+   "cj_i18n_00477": {
+      "message": "Outils de saisie"
+   },
+   "cj_i18n_00480": {
+      "message": "Films"
+   },
+   "cj_i18n_00481": {
+      "message": "Compte"
+   },
+   "cj_i18n_00484": {
+      "message": "Événements"
+   },
+   "cj_i18n_00485": {
+      "message": "À découvrir"
+   },
+   "cj_i18n_00486": {
+      "message": "Demandes du gouvernement"
+   },
+   "cj_i18n_00487": {
+      "message": "Environnement"
+   },
+   "cj_i18n_00489": {
+      "message": "Archive de photos LIFE"
+   },
+   "cj_i18n_00494": {
+      "message": "Lune"
+   },
+   "cj_i18n_00495": {
+      "message": "Mes appareils"
+   },
+   "cj_i18n_00496": {
+      "message": "Archives d'actualités"
+   },
+   "cj_i18n_00498": {
+      "message": "Alertes Publiques"
+   },
+   "cj_i18n_00500": {
+      "message": "Paramètres de recherche"
+   },
+   "cj_i18n_00501": {
+      "message": "Ciel"
+   },
+   "cj_i18n_00502": {
+      "message": "Forums du produit"
+   },
+   "cj_i18n_00505": {
+      "message": "Outil de traduction"
+   },
+   "cj_i18n_00507": {
+      "message": "Boutiques de confiance"
+   },
+   "cj_i18n_00509": {
+      "message": "Vidéos"
+   },
+   "cj_i18n_00514": {
+      "message": "Recherche de tableaux"
+   },
+   "cj_i18n_00515": {
+      "message": "AdWords Express"
+   },
+   "cj_i18n_00516": {
+      "message": "Ajouter ceci"
+   },
+   "cj_i18n_00517": {
+      "message": "Envoyer ceci"
+   },
+   "cj_i18n_00518": {
+      "message": "Localiser ceci"
+   },
+   "cj_i18n_00519": {
+      "message": "Url réduite"
+   },
+   "cj_i18n_00520": {
+      "message": "Gérer les appareils Android"
+   },
+   "cj_i18n_00521": {
+      "message": "Mes abonnements"
+   },
+   "cj_i18n_00522": {
+      "message": "Retour d'opinions"
+   },
+   "cj_i18n_00530": {
+      "message": "Recherche de personnes"
+   },
+   "cj_i18n_00534": {
+      "message": "Partenaires"
+   },
+   "cj_i18n_00537": {
+      "message": "Astuces Google"
+   },
+   "cj_i18n_00539": {
+      "message": "Centre de partenaires des livres Google Play"
+   },
+   "cj_i18n_00546": {
+      "message": "Ajouter un contact"
+   },
+   "cj_i18n_00547": {
+      "message": "Nouveau moteur de recherche"
+   },
+   "cj_i18n_00548": {
+      "message": "Suivez Votre Monde"
+   },
+   "cj_i18n_00550": {
+      "message": "Liste de voeux"
+   },
+   "cj_i18n_00551": {
+      "message": "Démos OAuth 2.0"
+   },
+   "cj_i18n_00555": {
+      "message": "Ajouter Localisation"
+   },
+   "cj_i18n_00559": {
+      "message": "Editeur"
+   },
+   "cj_i18n_00560": {
+      "message": "Carrière"
+   },
+   "cj_i18n_00561": {
+      "message": "Stockage Drive"
+   },
+   "cj_i18n_00566": {
+      "message": "Vérification en deux étapes"
+   },
+   "cj_i18n_00572": {
+      "message": "Publicité"
+   },
+   "cj_i18n_00574": {
+      "message": "Google pour l'Education"
+   },
+   "cj_i18n_00822": {
+      "message": "Configuration"
+   }
+}

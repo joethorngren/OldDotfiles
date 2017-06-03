@@ -1,0 +1,16 @@
+**** BEGIN LOGGING AT Tue May 30 10:19:33 2017
+
+May 30 10:19:33 *	Connecting to chat.freenode.net (195.154.200.232:6697)
+May 30 10:19:34 *	* Certification info:
+May 30 10:19:34 *	  Subject:
+May 30 10:19:34 *	    CN=barjavel.freenode.net
+May 30 10:19:34 *	  Issuer:
+May 30 10:19:34 *	    C=US
+May 30 10:19:34 *	    O=Let's Encrypt
+May 30 10:19:34 *	    CN=Let's Encrypt Authority X3
+May 30 10:19:34 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 30 10:19:34 *	  Sign algorithm sha256WithRSAEncryption
+May 30 10:19:34 *	  Valid since May 15 05:02:00 2017 GM to Aug 13 05:02:00 2017 GM
+May 30 10:19:34 *	* Cipher info:
+May 30 10:19:34 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 30 10:19:34 *	Connected. Now logging in.

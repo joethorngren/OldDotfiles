@@ -1,0 +1,167 @@
+[06/02/17, 13:49:02:109] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 13:49:02:110] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 13:49:02:104      ║
+[06/02/17, 13:49:02:111] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 13:49:13:873] info: Window is unloading, winssb is no longer accessible
+[06/02/17, 13:49:13:999] info: Window is unloading, winssb is no longer accessible
+[06/02/17, 13:49:14:562] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 13:49:14:563] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 13:49:14:557      ║
+[06/02/17, 13:49:14:564] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 13:49:19:931] info: Window is unloading, winssb is no longer accessible
+[06/02/17, 13:49:20:384] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 13:49:20:385] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 13:49:20:381      ║
+[06/02/17, 13:49:20:385] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 13:58:46:913] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 13:58:46:915] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 13:58:46:905      ║
+[06/02/17, 13:58:46:916] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 13:58:47:484] info: updateSuspendResume: true
+[06/02/17, 13:58:49:838] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T02AG6QJM' }
+[06/02/17, 13:58:50:241] info: Store: SELECT_CHANNEL C02AG6QJV
+[06/02/17, 13:58:50:253] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 13:58:51:267] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 13:58:56:246] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/02/17, 13:59:03:518] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/02/17, 14:31:58:174] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 14:31:58:184] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 14:31:58:148      ║
+[06/02/17, 14:31:58:185] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 14:31:59:041] info: updateSuspendResume: true
+[06/02/17, 14:32:01:413] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: undefined }
+[06/02/17, 14:32:01:887] info: Store: SELECT_CHANNEL C02AG6QJV
+[06/02/17, 14:32:03:418] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 14:32:03:493] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 14:32:08:237] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/02/17, 14:32:16:083] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/02/17, 14:33:53:299] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 14:33:53:300] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 14:33:53:290      ║
+[06/02/17, 14:33:53:301] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 14:33:54:065] info: updateSuspendResume: true
+[06/02/17, 14:33:56:988] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: undefined }
+[06/02/17, 14:33:57:581] info: Store: SELECT_CHANNEL C02AG6QJV
+[06/02/17, 14:33:59:439] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 14:33:59:502] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 14:34:04:068] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/02/17, 14:34:11:957] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/02/17, 22:31:35:162] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 22:31:35:172] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 22:31:35:144      ║
+[06/02/17, 22:31:35:173] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 22:31:35:989] info: updateSuspendResume: true
+[06/02/17, 22:31:38:680] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T02AG6QJM' }
+[06/02/17, 22:31:39:236] info: Store: SELECT_CHANNEL C02AG6QJV
+[06/02/17, 22:31:39:250] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 22:31:40:651] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 22:31:45:278] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/02/17, 22:31:52:973] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/03/17, 16:48:04:151] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/03/17, 16:48:04:152] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/03/17, 16:48:04:142      ║
+[06/03/17, 16:48:04:153] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/03/17, 16:48:04:743] info: updateSuspendResume: true
+[06/03/17, 16:48:06:412] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T02AG6QJM' }
+[06/03/17, 16:48:06:659] info: Store: SELECT_CHANNEL C02AG6QJV
+[06/03/17, 16:48:06:665] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T02AG6QJM' }
+[06/03/17, 16:48:07:388] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg' },
+  teamId: 'T02AG6QJM' }
+[06/03/17, 16:48:12:661] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/03/17, 16:48:19:710] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages

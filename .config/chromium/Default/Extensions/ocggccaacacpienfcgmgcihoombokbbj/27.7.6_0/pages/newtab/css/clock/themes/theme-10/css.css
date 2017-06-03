@@ -1,0 +1,105 @@
+#clock-container{
+    margin-top: 0px!important;
+}
+
+.ce-countdown--theme-10 {
+    background: none;
+    padding: 80px 60px 40px;
+}
+
+.ce-countdown{ min-width: 610px; }
+.ce-countdown.ce-add-date{ min-width: auto; }
+.ce-countdown.ce-add-seconds{ min-width: 750px; }
+.ce-countdown.ce-add-date.ce-add-seconds{ min-width: 770px; }
+
+.ce-countdown--theme-10.clock-font-bold div.digits div.digits-inner div.flip-wrap div.up div.inn,
+.ce-countdown--theme-10.clock-font-bold div.digits div.digits-inner div.flip-wrap div.down div.inn {
+    font-size: 140px;
+}
+
+.ce-countdown--theme-10.clock-font-bold div.digits {
+    width: 75px;
+}
+
+.ce-countdown--theme-10 .clock-format-label {
+    font-size: 3em;
+    padding-left: 21px;
+    display: inline-block;
+    position: absolute;
+}
+
+.ce-countdown--theme-10.clock-format-label-padding {
+    padding: 80px 90px 40px 60px;
+}
+
+.ce-countdown--theme-10 .ce-unit-wrap {
+    float: left;
+    margin-left: 0;
+}
+
+.ce-countdown--theme-10 .ce-unit-wrap + .ce-unit-wrap {
+    float: left;
+    margin-left: 3.75em;
+}
+
+.ce-countdown--theme-10 div.digits div.digits-inner div.flip-wrap div.up div.inn {
+    background-color: #191919;
+}
+
+.ce-countdown--theme-10 div.digits div.digits-inner div.flip-wrap div.up:after {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.ce-countdown--theme-10 div.play div.digits-inner.before .up .shadow,
+.ce-countdown--theme-10 div.play div.digits-inner.active .up .shadow,
+.ce-countdown--theme-10 div.play div.digits-inner.before .down .shadow,
+.ce-countdown--theme-10 div.play div.digits-inner.active .down .shadow {
+    display: none;
+}
+
+.ce-countdown--theme-10 .clock-format-label {
+    font-size: 2.5em;
+    padding-left: 24px;
+    display: inline-block;
+    position: absolute;
+}
+
+@media (max-width: 900px) {
+    .ce-countdown--theme-10.clock-font-bold div.digits div.digits-inner div.flip-wrap div.up div.inn,
+    .ce-countdown--theme-10.clock-font-bold div.digits div.digits-inner div.flip-wrap div.down div.inn {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    .ce-countdown--theme-10.clock-format-label-padding {
+        padding: 80px 10px 80px 30px;
+    }
+
+    .ce-countdown--theme-10 {
+
+    }
+
+    .ce-countdown--theme-10.clock-font-bold div.digits div.digits-inner div.flip-wrap div.up div.inn,
+    .ce-countdown--theme-10.clock-font-bold div.digits div.digits-inner div.flip-wrap div.down div.inn {
+        font-size: 30px;
+    }
+
+    .ce-countdown--theme-10 .ce-unit-wrap {
+        float: none;
+        display: inline-block;
+    }
+
+    .ce-countdown--theme-10 .ce-unit-wrap + .ce-unit-wrap {
+        float: none;
+        margin-left: auto;
+        padding-top: 30px;
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .ce-countdown--theme-10 .clock-format-label {
+        display: none !important;
+    }
+}

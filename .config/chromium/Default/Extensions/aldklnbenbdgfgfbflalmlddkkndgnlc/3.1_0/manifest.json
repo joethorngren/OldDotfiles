@@ -1,0 +1,29 @@
+{
+   "author": "Natalie Perna",
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "commands": {
+      "_execute_page_action": {
+         "suggested_key": {
+            "default": "Ctrl+Shift+L",
+            "mac": "MacCtrl+Shift+L"
+         }
+      }
+   },
+   "description": "Allow Trello lists to be displayed vertically or in a grid.",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx56M9lAocA6lCAGEbI925kpndXu/paucWF2gRAQFWpwqvqaWFqJ1wG6R1oEl8gVZyEuRh4kIGKGUhap00PYIrtjhnZ0SZpHJ+1ZsmOJL4sb+VCjRZqHFms9sT5fQXOYTjU2EYwmyDmkeOYbme3wBJrsLwWy8VzZ3+6c+PP+9s6KrSRlEHFzEWl8pWNN+xyaVIq6Pen9Gtcvj42ZsPU0SN/x4lTkR7OyQw0sLr14DJdzPHPdJMYoz/I67EJH2vM8/tbh+uMxHsUKCYcUfPtiyy89/8OXQeOxZ/mw3tfigjH1+HA+MDeUNcvUz52cCv/XNG9db8dqlBpmyqc886KkBGwIDAQAB",
+   "manifest_version": 2,
+   "name": "List Layouts for Trello",
+   "page_action": {
+      "default_title": "List Layouts for Trello"
+   },
+   "permissions": [ "*://trello.com/b/*", "tabs", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1",
+   "web_accessible_resources": [ "css/layout.css" ]
+}

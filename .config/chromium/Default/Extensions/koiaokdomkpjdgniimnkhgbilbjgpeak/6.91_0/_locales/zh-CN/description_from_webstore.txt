@@ -1,0 +1,5 @@
+自动设置以高清格式播放视频。用户可以选择1080P、720P和适用于特定视频的其他多种规格。
+
+请将建议和错误报告至http://www.autohdforyoutube.com
+
+YouTube™是Google™的商标。此拓展程序未获得Google™或YouTube™认可。

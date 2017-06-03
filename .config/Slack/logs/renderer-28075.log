@@ -1,0 +1,18 @@
+[06/02/17, 14:33:51:301] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 14:33:51:303] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 14:33:51:288      ║
+[06/02/17, 14:33:51:304] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 14:33:52:112] info: TeamsDisplay: T09229ZC6 usage: 0
+[06/02/17, 14:33:52:112] info: TeamsDisplay: T04067NNM usage: 0
+[06/02/17, 14:33:52:113] info: TeamsDisplay: T040F1EUX usage: 0
+[06/02/17, 14:33:52:113] info: TeamsDisplay: T02AG6QJM usage: 0
+[06/02/17, 14:33:52:114] info: TeamsDisplay: T12AS2C06 usage: 0
+[06/02/17, 14:33:52:114] info: TeamsDisplay: T4QFBHCVD usage: 0
+[06/02/17, 14:33:52:122] info: Store: SET_NETWORK_STATUS online
+[06/02/17, 14:33:52:242] info: Checking network connection to Slack...
+[06/02/17, 14:33:52:278] info: TeamView: Bugsnag user: U4QFBHD0F
+[06/02/17, 14:33:58:273] info: Webapp finished loading
+[06/02/17, 14:33:59:982] info: Webapp finished loading
+[06/02/17, 14:34:00:447] info: Webapp finished loading
+[06/02/17, 14:34:01:366] info: Webapp finished loading
+[06/02/17, 14:34:01:424] info: Webapp finished loading
+[06/02/17, 14:34:01:505] info: Webapp finished loading

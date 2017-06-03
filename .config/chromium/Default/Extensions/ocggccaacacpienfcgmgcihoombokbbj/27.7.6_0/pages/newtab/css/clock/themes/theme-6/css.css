@@ -1,0 +1,41 @@
+#clock-container{
+    margin-top: 0px!important;
+}
+
+.ce-countdown--theme-6 {
+    background: none;
+    color: #FFFFFF;
+    padding: 100px 40px 65px;
+}
+
+.ce-countdown{ min-width: 550px; }
+.ce-countdown.ce-add-date{ min-width: 610px; }
+.ce-countdown.ce-add-seconds{ min-width: 845px; }
+.ce-countdown.ce-add-date.ce-add-seconds{ min-width: 910px; }
+
+.ce-countdown--theme-6.clock-font-bold .ce-hours,
+.ce-countdown--theme-6.clock-font-bold .ce-minutes,
+.ce-countdown--theme-6.clock-font-bold .ce-seconds {
+    font-weight: 400;
+}
+
+.ce-countdown--theme-6.clock-font-bold .clock-format-label {
+    font-size: 25px;
+}
+
+.ce-countdown--theme-6.clock-format-label-padding {
+    padding: 100px 85px 65px 40px;
+}
+
+.ce-countdown--theme-6 .ce-flip-wrap .ce-flip-front, .ce-countdown--theme-6 .ce-flip-wrap .ce-flip-back {
+    background: rgba(0,0,0,0.65);
+    border-radius: 5px;
+}
+
+.ce-countdown--theme-6 .clock-format-label {
+    padding-left: 25px;
+    letter-spacing: 1px;
+    font-size: 23px;
+    display: inline-block;
+    position: absolute;
+}

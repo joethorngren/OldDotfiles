@@ -1,0 +1,254 @@
+{
+   "cj_i18n_00003": {
+      "message": "Recentes"
+   },
+   "cj_i18n_00004": {
+      "message": "Com estrela"
+   },
+   "cj_i18n_00061": {
+      "message": "Explorar"
+   },
+   "cj_i18n_00065": {
+      "message": "Portifólios"
+   },
+   "cj_i18n_00081": {
+      "message": "Lembretes"
+   },
+   "cj_i18n_00111": {
+      "message": "Sites Clássicos"
+   },
+   "cj_i18n_00153": {
+      "message": "Em alta"
+   },
+   "cj_i18n_00161": {
+      "message": "Sobre mim"
+   },
+   "cj_i18n_00177": {
+      "message": "Administrador"
+   },
+   "cj_i18n_00181": {
+      "message": "Arquivo do álbum"
+   },
+   "cj_i18n_00183": {
+      "message": "Alertas"
+   },
+   "cj_i18n_00190": {
+      "message": "Favoritos"
+   },
+   "cj_i18n_00192": {
+      "message": "Top Charts"
+   },
+   "cj_i18n_00194": {
+      "message": "Correlacionar"
+   },
+   "cj_i18n_00219": {
+      "message": "Músicas"
+   },
+   "cj_i18n_00268": {
+      "message": "Novo evento"
+   },
+   "cj_i18n_00292": {
+      "message": "Coleções"
+   },
+   "cj_i18n_00293": {
+      "message": "Comunidades"
+   },
+   "cj_i18n_00294": {
+      "message": "Perfil"
+   },
+   "cj_i18n_00295": {
+      "message": "Pessoas"
+   },
+   "cj_i18n_00298": {
+      "message": "Configurações"
+   },
+   "cj_i18n_00302": {
+      "message": "Agenda"
+   },
+   "cj_i18n_00314": {
+      "message": "Contatos"
+   },
+   "cj_i18n_00343": {
+      "message": "Desenvolvedores"
+   },
+   "cj_i18n_00391": {
+      "message": "Documentos"
+   },
+   "cj_i18n_00393": {
+      "message": "Planilhas"
+   },
+   "cj_i18n_00406": {
+      "message": "Pesquisa Avançada"
+   },
+   "cj_i18n_00408": {
+      "message": "Formulários"
+   },
+   "cj_i18n_00412": {
+      "message": "Finanças"
+   },
+   "cj_i18n_00414": {
+      "message": "Voos"
+   },
+   "cj_i18n_00415": {
+      "message": "Fontes"
+   },
+   "cj_i18n_00418": {
+      "message": "Grupos"
+   },
+   "cj_i18n_00419": {
+      "message": "Minha conta"
+   },
+   "cj_i18n_00425": {
+      "message": "Notícias"
+   },
+   "cj_i18n_00427": {
+      "message": "Patentes"
+   },
+   "cj_i18n_00429": {
+      "message": "Fotos"
+   },
+   "cj_i18n_00431": {
+      "message": "Play Música"
+   },
+   "cj_i18n_00433": {
+      "message": "Acadêmico"
+   },
+   "cj_i18n_00434": {
+      "message": "Pesquisa"
+   },
+   "cj_i18n_00439": {
+      "message": "Tarefas"
+   },
+   "cj_i18n_00440": {
+      "message": "Tradutor"
+   },
+   "cj_i18n_00443": {
+      "message": "Voz"
+   },
+   "cj_i18n_00450": {
+      "message": "Sobre o Google"
+   },
+   "cj_i18n_00452": {
+      "message": "Planejador de Exibição"
+   },
+   "cj_i18n_00453": {
+      "message": "Minha Central de Clientes"
+   },
+   "cj_i18n_00460": {
+      "message": "Livros"
+   },
+   "cj_i18n_00461": {
+      "message": "Experimentos do Chrome"
+   },
+   "cj_i18n_00471": {
+      "message": "Terra"
+   },
+   "cj_i18n_00477": {
+      "message": "Ferramentas de Inserção de Texto"
+   },
+   "cj_i18n_00480": {
+      "message": "Filmes"
+   },
+   "cj_i18n_00484": {
+      "message": "Eventos"
+   },
+   "cj_i18n_00485": {
+      "message": "Postagens interessantes"
+   },
+   "cj_i18n_00486": {
+      "message": "Requisições do Governo"
+   },
+   "cj_i18n_00488": {
+      "message": "Imagens"
+   },
+   "cj_i18n_00489": {
+      "message": "LIFE arquivo de fotos"
+   },
+   "cj_i18n_00492": {
+      "message": "Marte"
+   },
+   "cj_i18n_00493": {
+      "message": "Central do Comerciante"
+   },
+   "cj_i18n_00494": {
+      "message": "Lua"
+   },
+   "cj_i18n_00495": {
+      "message": "Meus Dispositivos"
+   },
+   "cj_i18n_00496": {
+      "message": "Últimas Notícias"
+   },
+   "cj_i18n_00498": {
+      "message": "Alertas Públicos"
+   },
+   "cj_i18n_00499": {
+      "message": "Explorador de Dados Públicos"
+   },
+   "cj_i18n_00500": {
+      "message": "Configurações de Pesquisa"
+   },
+   "cj_i18n_00501": {
+      "message": "Céu"
+   },
+   "cj_i18n_00506": {
+      "message": "Relatório de Transparência"
+   },
+   "cj_i18n_00507": {
+      "message": "Lojas de Confiança"
+   },
+   "cj_i18n_00509": {
+      "message": "Vídeos"
+   },
+   "cj_i18n_00513": {
+      "message": "Gerenciador de Tags"
+   },
+   "cj_i18n_00514": {
+      "message": "Pesquisa de Tabelas"
+   },
+   "cj_i18n_00517": {
+      "message": "Enviar isso por email"
+   },
+   "cj_i18n_00518": {
+      "message": "Mapear isso"
+   },
+   "cj_i18n_00519": {
+      "message": "Encurtar URL"
+   },
+   "cj_i18n_00520": {
+      "message": "Gerenciador de Dispositivos Android"
+   },
+   "cj_i18n_00522": {
+      "message": "Relatórios de Feedback"
+   },
+   "cj_i18n_00523": {
+      "message": "Planejador de Palavras-chave"
+   },
+   "cj_i18n_00526": {
+      "message": "Galeria de Dispositivos Android"
+   },
+   "cj_i18n_00532": {
+      "message": "Fiber - Minha Fiber"
+   },
+   "cj_i18n_00534": {
+      "message": "Parceiros"
+   },
+   "cj_i18n_00535": {
+      "message": "Instituto Cultural"
+   },
+   "cj_i18n_00537": {
+      "message": "Dicas do Google"
+   },
+   "cj_i18n_00538": {
+      "message": "Ferramentas de Planejamento"
+   },
+   "cj_i18n_00539": {
+      "message": "Central de Parceiros do Play Books"
+   },
+   "cj_i18n_00544": {
+      "message": "Um dia de Google"
+   },
+   "cj_i18n_00546": {
+      "message": "Adicionar Contato"
+   }
+}

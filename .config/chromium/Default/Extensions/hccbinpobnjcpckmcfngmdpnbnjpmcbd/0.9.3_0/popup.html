@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+    <head>
+        <title>AppJump</title>       
+        <script type="text/javascript" src="/lib/jquery.min.js"></script>        
+        <script type="text/javascript" src="/lib/jquery-ui-1.8.21.custom.min.js"></script>
+        <script type="text/javascript" src="popup.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'>
+        <style>
+            body{
+                width:400px;
+                
+                padding-right:15px;
+
+                overflow-x: hidden;
+                overflow-y: scroll;
+
+                font-family: tahoma, arial, serif;
+            }
+            #header {
+                background-image: url(/header_small.png);
+                width:160px;
+                height:29px;
+                margin-top:8px;
+                margin-bottom:16px;
+                cursor: pointer;
+            }
+            #groupList {
+                padding: 10px 0px;
+                font-weight: bold;
+                width: 400px;
+
+            }
+            .groupLabel{
+                position: relative;
+                top:0px;
+                padding:3px 12px;
+                margin-right: 5px;
+                -webkit-border-radius: 3px;
+                cursor: pointer;
+                background-color: #fafafa;
+                display: inline-block;
+                font-family: 'Molengo', arial, serif;
+                
+                text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
+                
+                -webkit-transition-property: top;
+                -webkit-transition-duration: 0.1s;
+                -webkit-transition-timing-function: ease-in-out;
+
+                text-decoration: none;
+            }
+
+            .groupLabel:hover{
+                top:-5px;
+
+            }
+            .groupLabel a {
+                text-decoration: none;
+            }
+            .selected {
+                background-color: #eaeaea;
+            }
+            #appList {
+                border: 1px solid #999999;
+                
+                padding: 10px 10px;
+
+                font-weight: bold;
+                font-size: 14px;
+                min-height:330px;
+
+
+
+                -webkit-border-radius: 3px;
+                -webkit-box-shadow: inset 0px 2px 5px rgba(0,0,0,0.3);
+                
+               
+                background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(242,246,246)), to(rgb(208,210,210)));
+            }
+            .appItem {
+                position:relative;
+                display:inline-block;
+                width:170px;
+                padding: 5px;
+
+                height:44px;
+                max-height: 44px;
+                min-height: 44px;
+                cursor: pointer;
+                text-shadow: 1px 1px 1px rgba(255,255,255,0.2);
+                background-color: rgba(0,0,0,0.0);
+
+                -webkit-transition-property: background-color;
+                -webkit-transition-duration: 0.3s;
+                -webkit-transition-timing-function: ease-out;
+            }
+            .appItem img {
+                position: absolute;
+
+            }
+            .appItem:hover {
+                -webkit-border-radius: 5px;
+                background-color: rgba(0,0,0,0.1);
+                text-shadow: 0px 0px 6px rgba(255,255,255,1.0);
+            }
+            .appItemLabel {
+                position:absolute;
+                padding: 7px 5px 2px 57px;
+
+                max-height: 32px;
+                min-height: 32px;
+                line-height: 16px;
+                overflow: hidden;
+                
+            }
+            #manageLink {
+                position: absolute;
+                right: 5px;
+                top: 8px;
+                padding: 8px;
+                font-size: 12px;
+                text-decoration: none;
+                text-align: right;
+                color: #aaaaaa;
+            }
+            #manageLink:hover {
+                color: black;
+                
+            }
+            #searchBox {
+                position:absolute;
+                top:16px;
+                left:180px;
+                opacity:0.5;
+                width:100px;
+                border:1px solid rgba(0,0,0,0.33);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header" title="View AppJump Homepage"></div>
+        <div id="groupList">
+        </div>
+        <div id="appList">
+        </div>        
+        <a id="manageLink" href="options.html" target="_weblauncher">Manage Apps &<br>Extensions</a>
+        <input type="input" id="searchBox"/>
+    </body>
+</html>

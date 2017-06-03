@@ -1,0 +1,865 @@
+**** BEGIN LOGGING AT Tue May 30 10:06:54 2017
+
+May 30 10:06:54 Do At plugin loaded
+May 30 10:06:54 Checksum plugin loaded
+May 30 10:06:54 Sysinfo plugin loaded
+May 30 10:06:54 Python interface loaded
+May 30 10:06:54 Perl interface loaded
+May 30 10:06:54 FiSHLiM plugin loaded
+**** BEGIN LOGGING AT Tue May 30 10:19:33 2017
+
+May 30 10:19:33 Do At plugin loaded
+May 30 10:19:33 Checksum plugin loaded
+May 30 10:19:33 Sysinfo plugin loaded
+May 30 10:19:33 Python interface loaded
+May 30 10:19:33 Perl interface loaded
+May 30 10:19:33 FiSHLiM plugin loaded
+May 30 10:19:33 *	Looking up chat.freenode.net
+**** BEGIN LOGGING AT Tue May 30 10:50:36 2017
+
+May 30 10:50:36 Do At plugin loaded
+May 30 10:50:36 Checksum plugin loaded
+May 30 10:50:36 Sysinfo plugin loaded
+May 30 10:50:36 Python interface loaded
+May 30 10:50:36 Perl interface loaded
+May 30 10:50:36 FiSHLiM plugin loaded
+**** BEGIN LOGGING AT Tue May 30 11:13:06 2017
+
+May 30 11:13:06 Do At plugin loaded
+May 30 11:13:06 Checksum plugin loaded
+May 30 11:13:06 Sysinfo plugin loaded
+May 30 11:13:06 Python interface loaded
+May 30 11:13:06 Perl interface loaded
+May 30 11:13:06 FiSHLiM plugin loaded
+May 30 11:13:06 *	Looking up chat.freenode.net
+May 30 11:13:06 *	Connecting to chat.freenode.net (149.56.134.238:6697)
+May 30 11:13:07 *	* Certification info:
+May 30 11:13:07 *	  Subject:
+May 30 11:13:07 *	    CN=cherryh.freenode.net
+May 30 11:13:07 *	  Issuer:
+May 30 11:13:07 *	    C=US
+May 30 11:13:07 *	    O=Let's Encrypt
+May 30 11:13:07 *	    CN=Let's Encrypt Authority X3
+May 30 11:13:07 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 30 11:13:07 *	  Sign algorithm sha256WithRSAEncryption
+May 30 11:13:07 *	  Valid since Apr 24 05:02:00 2017 GM to Jul 23 05:02:00 2017 GM
+May 30 11:13:07 *	* Cipher info:
+May 30 11:13:07 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 30 11:13:07 *	Connected. Now logging in.
+May 30 11:13:07 *	*** Looking up your hostname...
+May 30 11:13:07 *	*** Checking Ident
+May 30 11:13:07 *	*** Found your hostname
+May 30 11:13:15 *	*** No Ident response
+May 30 11:13:15 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 30 11:13:15 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 30 11:13:15 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Tue May 30 11:13:15 2017
+
+**** BEGIN LOGGING AT Tue May 30 11:26:53 2017
+
+May 30 11:26:53 Do At plugin loaded
+May 30 11:26:53 Checksum plugin loaded
+May 30 11:26:53 Sysinfo plugin loaded
+May 30 11:26:53 Python interface loaded
+May 30 11:26:53 Perl interface loaded
+May 30 11:26:53 FiSHLiM plugin loaded
+May 30 11:26:53 *	Looking up chat.freenode.net
+May 30 11:26:53 *	Connecting to chat.freenode.net (139.162.227.51:6697)
+May 30 11:26:54 *	* Certification info:
+May 30 11:26:54 *	  Subject:
+May 30 11:26:54 *	    CN=niven.freenode.net
+May 30 11:26:54 *	  Issuer:
+May 30 11:26:54 *	    C=US
+May 30 11:26:54 *	    O=Let's Encrypt
+May 30 11:26:54 *	    CN=Let's Encrypt Authority X3
+May 30 11:26:54 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 30 11:26:54 *	  Sign algorithm sha256WithRSAEncryption
+May 30 11:26:54 *	  Valid since Apr 24 05:06:00 2017 GM to Jul 23 05:06:00 2017 GM
+May 30 11:26:54 *	* Cipher info:
+May 30 11:26:54 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 30 11:26:54 *	Connected. Now logging in.
+May 30 11:26:54 *	*** Looking up your hostname...
+May 30 11:26:54 *	*** Checking Ident
+May 30 11:26:54 *	*** Found your hostname
+May 30 11:26:59 *	*** No Ident response
+May 30 11:26:59 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 30 11:26:59 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 30 11:27:00 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Tue May 30 11:27:00 2017
+
+**** BEGIN LOGGING AT Tue May 30 11:41:32 2017
+
+May 30 11:41:32 Do At plugin loaded
+May 30 11:41:32 Checksum plugin loaded
+May 30 11:41:32 Sysinfo plugin loaded
+May 30 11:41:32 Python interface loaded
+May 30 11:41:32 Perl interface loaded
+May 30 11:41:32 FiSHLiM plugin loaded
+**** BEGIN LOGGING AT Tue May 30 11:42:45 2017
+
+May 30 11:42:45 Do At plugin loaded
+May 30 11:42:45 Checksum plugin loaded
+May 30 11:42:45 Sysinfo plugin loaded
+May 30 11:42:45 Python interface loaded
+May 30 11:42:45 Perl interface loaded
+May 30 11:42:45 FiSHLiM plugin loaded
+May 30 15:35:08 *	Looking up chat.freenode.net
+May 30 15:35:08 *	Connecting to chat.freenode.net (81.18.73.123:6697)
+May 30 15:35:09 *	* Certification info:
+May 30 15:35:09 *	  Subject:
+May 30 15:35:09 *	    CN=hobana.freenode.net
+May 30 15:35:09 *	  Issuer:
+May 30 15:35:09 *	    C=US
+May 30 15:35:09 *	    O=Let's Encrypt
+May 30 15:35:09 *	    CN=Let's Encrypt Authority X3
+May 30 15:35:09 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 30 15:35:09 *	  Sign algorithm sha256WithRSAEncryption
+May 30 15:35:09 *	  Valid since May 22 05:11:00 2017 GM to Aug 20 05:11:00 2017 GM
+May 30 15:35:09 *	* Cipher info:
+May 30 15:35:09 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 30 15:35:09 *	Connected. Now logging in.
+May 30 15:35:09 *	*** Looking up your hostname...
+May 30 15:35:09 *	*** Checking Ident
+May 30 15:35:09 *	*** Found your hostname
+May 30 15:35:14 *	*** No Ident response
+May 30 15:35:15 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 30 15:35:15 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 30 15:35:15 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Tue May 30 15:35:15 2017
+
+**** BEGIN LOGGING AT Tue May 30 15:46:57 2017
+
+May 30 15:46:57 Do At plugin loaded
+May 30 15:46:57 Checksum plugin loaded
+May 30 15:46:57 Sysinfo plugin loaded
+May 30 15:46:57 Python interface loaded
+May 30 15:46:57 Perl interface loaded
+May 30 15:46:57 FiSHLiM plugin loaded
+May 30 15:46:57 *	Looking up chat.freenode.net
+May 30 15:46:57 *	Connecting to chat.freenode.net (38.229.70.22:6697)
+May 30 15:46:58 *	* Certification info:
+May 30 15:46:58 *	  Subject:
+May 30 15:46:58 *	    CN=card.freenode.net
+May 30 15:46:58 *	  Issuer:
+May 30 15:46:58 *	    C=US
+May 30 15:46:58 *	    O=Let's Encrypt
+May 30 15:46:58 *	    CN=Let's Encrypt Authority X3
+May 30 15:46:58 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 30 15:46:58 *	  Sign algorithm sha256WithRSAEncryption
+May 30 15:46:58 *	  Valid since Apr 17 05:02:00 2017 GM to Jul 16 05:02:00 2017 GM
+May 30 15:46:58 *	* Cipher info:
+May 30 15:46:58 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 30 15:46:58 *	Connected. Now logging in.
+May 30 15:46:58 *	*** Looking up your hostname...
+May 30 15:46:58 *	*** Checking Ident
+May 30 15:46:58 *	*** Found your hostname
+May 30 15:47:07 *	*** No Ident response
+May 30 15:47:07 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 30 15:47:07 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 30 15:47:07 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Tue May 30 15:47:07 2017
+
+**** BEGIN LOGGING AT Tue May 30 20:14:33 2017
+
+May 30 20:14:33 Do At plugin loaded
+May 30 20:14:33 Checksum plugin loaded
+May 30 20:14:33 Sysinfo plugin loaded
+May 30 20:14:33 Python interface loaded
+May 30 20:14:33 Perl interface loaded
+May 30 20:14:33 FiSHLiM plugin loaded
+May 30 20:14:33 *	Looking up chat.freenode.net
+May 30 20:14:34 *	Connecting to chat.freenode.net (185.30.166.38:6697)
+May 30 20:14:35 *	* Certification info:
+May 30 20:14:35 *	  Subject:
+May 30 20:14:35 *	    CN=orwell.freenode.net
+May 30 20:14:35 *	  Issuer:
+May 30 20:14:35 *	    C=US
+May 30 20:14:35 *	    O=Let's Encrypt
+May 30 20:14:35 *	    CN=Let's Encrypt Authority X3
+May 30 20:14:35 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 30 20:14:35 *	  Sign algorithm sha256WithRSAEncryption
+May 30 20:14:35 *	  Valid since May 22 05:06:00 2017 GM to Aug 20 05:06:00 2017 GM
+May 30 20:14:35 *	* Cipher info:
+May 30 20:14:35 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 30 20:14:35 *	Connected. Now logging in.
+May 30 20:14:35 *	*** Looking up your hostname...
+May 30 20:14:35 *	*** Checking Ident
+May 30 20:14:35 *	*** Found your hostname
+May 30 20:14:40 *	*** No Ident response
+May 30 20:14:40 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 30 20:14:40 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 30 20:14:41 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Tue May 30 20:14:41 2017
+
+**** BEGIN LOGGING AT Tue May 30 20:31:47 2017
+
+May 30 20:31:47 Do At plugin loaded
+May 30 20:31:47 Checksum plugin loaded
+May 30 20:31:47 Sysinfo plugin loaded
+May 30 20:31:47 Python interface loaded
+May 30 20:31:47 Perl interface loaded
+May 30 20:31:47 FiSHLiM plugin loaded
+May 30 20:31:47 *	Looking up chat.freenode.net
+May 30 20:31:47 *	Connecting to chat.freenode.net (38.229.70.22:6697)
+May 30 20:31:48 *	* Certification info:
+May 30 20:31:48 *	  Subject:
+May 30 20:31:48 *	    CN=card.freenode.net
+May 30 20:31:48 *	  Issuer:
+May 30 20:31:48 *	    C=US
+May 30 20:31:48 *	    O=Let's Encrypt
+May 30 20:31:48 *	    CN=Let's Encrypt Authority X3
+May 30 20:31:48 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 30 20:31:48 *	  Sign algorithm sha256WithRSAEncryption
+May 30 20:31:48 *	  Valid since Apr 17 05:02:00 2017 GM to Jul 16 05:02:00 2017 GM
+May 30 20:31:48 *	* Cipher info:
+May 30 20:31:48 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 30 20:31:48 *	Connected. Now logging in.
+May 30 20:31:48 *	*** Looking up your hostname...
+May 30 20:31:48 *	*** Checking Ident
+May 30 20:31:48 *	*** Found your hostname
+May 30 20:31:54 *	*** No Ident response
+May 30 20:31:54 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 30 20:31:54 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 30 20:31:54 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Tue May 30 20:31:54 2017
+
+**** BEGIN LOGGING AT Tue May 30 20:38:16 2017
+
+May 30 20:38:16 Do At plugin loaded
+May 30 20:38:16 Checksum plugin loaded
+May 30 20:38:16 Sysinfo plugin loaded
+May 30 20:38:16 Python interface loaded
+May 30 20:38:16 Perl interface loaded
+May 30 20:38:16 FiSHLiM plugin loaded
+May 30 20:38:16 *	Looking up chat.freenode.net
+May 30 20:38:16 *	Connecting to chat.freenode.net (81.18.73.123:6697)
+May 30 20:38:17 *	* Certification info:
+May 30 20:38:17 *	  Subject:
+May 30 20:38:17 *	    CN=hobana.freenode.net
+May 30 20:38:17 *	  Issuer:
+May 30 20:38:17 *	    C=US
+May 30 20:38:17 *	    O=Let's Encrypt
+May 30 20:38:17 *	    CN=Let's Encrypt Authority X3
+May 30 20:38:17 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 30 20:38:17 *	  Sign algorithm sha256WithRSAEncryption
+May 30 20:38:17 *	  Valid since May 22 05:11:00 2017 GM to Aug 20 05:11:00 2017 GM
+May 30 20:38:17 *	* Cipher info:
+May 30 20:38:17 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 30 20:38:17 *	Connected. Now logging in.
+May 30 20:38:17 *	*** Looking up your hostname...
+May 30 20:38:17 *	*** Checking Ident
+May 30 20:38:17 *	*** Found your hostname
+May 30 20:38:25 *	*** No Ident response
+May 30 20:38:25 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 30 20:38:25 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 30 20:38:25 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Tue May 30 20:38:25 2017
+
+**** BEGIN LOGGING AT Tue May 30 22:04:20 2017
+
+May 30 22:04:20 Do At plugin loaded
+May 30 22:04:20 Checksum plugin loaded
+May 30 22:04:20 Sysinfo plugin loaded
+May 30 22:04:20 Python interface loaded
+May 30 22:04:20 Perl interface loaded
+May 30 22:04:20 FiSHLiM plugin loaded
+May 30 22:04:20 *	Looking up chat.freenode.net
+May 30 22:04:20 *	Connecting to chat.freenode.net (185.30.166.37:6697)
+May 30 22:04:21 *	* Certification info:
+May 30 22:04:21 *	  Subject:
+May 30 22:04:21 *	    CN=verne.freenode.net
+May 30 22:04:21 *	  Issuer:
+May 30 22:04:21 *	    C=US
+May 30 22:04:21 *	    O=Let's Encrypt
+May 30 22:04:21 *	    CN=Let's Encrypt Authority X3
+May 30 22:04:21 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 30 22:04:21 *	  Sign algorithm sha256WithRSAEncryption
+May 30 22:04:21 *	  Valid since May 22 05:05:00 2017 GM to Aug 20 05:05:00 2017 GM
+May 30 22:04:21 *	* Cipher info:
+May 30 22:04:21 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 30 22:04:21 *	Connected. Now logging in.
+May 30 22:04:21 *	*** Looking up your hostname...
+May 30 22:04:21 *	*** Checking Ident
+May 30 22:04:21 *	*** Found your hostname
+May 30 22:04:28 *	*** No Ident response
+May 30 22:04:28 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 30 22:04:28 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 30 22:04:28 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Tue May 30 22:04:28 2017
+
+**** BEGIN LOGGING AT Tue May 30 22:19:31 2017
+
+May 30 22:19:31 Do At plugin loaded
+May 30 22:19:31 Checksum plugin loaded
+May 30 22:19:31 Sysinfo plugin loaded
+May 30 22:19:31 Python interface loaded
+May 30 22:19:31 Perl interface loaded
+May 30 22:19:31 FiSHLiM plugin loaded
+May 30 22:19:31 *	Looking up chat.freenode.net
+May 30 22:19:31 *	Connecting to chat.freenode.net (139.162.227.51:6697)
+May 30 22:19:32 *	* Certification info:
+May 30 22:19:32 *	  Subject:
+May 30 22:19:32 *	    CN=niven.freenode.net
+May 30 22:19:32 *	  Issuer:
+May 30 22:19:32 *	    C=US
+May 30 22:19:32 *	    O=Let's Encrypt
+May 30 22:19:32 *	    CN=Let's Encrypt Authority X3
+May 30 22:19:32 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 30 22:19:32 *	  Sign algorithm sha256WithRSAEncryption
+May 30 22:19:32 *	  Valid since Apr 24 05:06:00 2017 GM to Jul 23 05:06:00 2017 GM
+May 30 22:19:32 *	* Cipher info:
+May 30 22:19:32 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 30 22:19:32 *	Connected. Now logging in.
+May 30 22:19:32 *	*** Looking up your hostname...
+May 30 22:19:32 *	*** Checking Ident
+May 30 22:19:33 *	*** Found your hostname
+May 30 22:19:39 *	*** No Ident response
+May 30 22:19:39 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 30 22:19:39 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 30 22:19:39 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Tue May 30 22:19:39 2017
+
+**** BEGIN LOGGING AT Wed May 31 01:24:57 2017
+
+May 31 01:24:57 Do At plugin loaded
+May 31 01:24:57 Checksum plugin loaded
+May 31 01:24:57 Sysinfo plugin loaded
+May 31 01:24:57 Python interface loaded
+May 31 01:24:57 Perl interface loaded
+May 31 01:24:57 FiSHLiM plugin loaded
+May 31 01:24:57 *	Looking up chat.freenode.net
+May 31 01:24:57 *	Connecting to chat.freenode.net (64.86.243.181:6697)
+May 31 01:24:58 *	* Certification info:
+May 31 01:24:58 *	  Subject:
+May 31 01:24:58 *	    CN=karatkievich.freenode.net
+May 31 01:24:58 *	  Issuer:
+May 31 01:24:58 *	    C=US
+May 31 01:24:58 *	    O=Let's Encrypt
+May 31 01:24:58 *	    CN=Let's Encrypt Authority X3
+May 31 01:24:58 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 31 01:24:58 *	  Sign algorithm sha256WithRSAEncryption
+May 31 01:24:58 *	  Valid since May 22 05:08:00 2017 GM to Aug 20 05:08:00 2017 GM
+May 31 01:24:58 *	* Cipher info:
+May 31 01:24:58 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 31 01:24:58 *	Connected. Now logging in.
+May 31 01:24:58 *	*** Looking up your hostname...
+May 31 01:24:58 *	*** Checking Ident
+May 31 01:24:58 *	*** Found your hostname
+May 31 01:25:04 *	*** No Ident response
+May 31 01:25:04 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 31 01:25:04 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 31 01:25:04 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Wed May 31 01:25:04 2017
+
+**** BEGIN LOGGING AT Wed May 31 11:12:41 2017
+
+May 31 11:12:41 Do At plugin loaded
+May 31 11:12:41 Checksum plugin loaded
+May 31 11:12:41 Sysinfo plugin loaded
+May 31 11:12:41 Python interface loaded
+May 31 11:12:41 Perl interface loaded
+May 31 11:12:41 FiSHLiM plugin loaded
+May 31 11:12:41 *	Looking up chat.freenode.net
+May 31 11:12:41 *	Connecting to chat.freenode.net (185.30.166.37:6697)
+May 31 11:12:42 *	* Certification info:
+May 31 11:12:42 *	  Subject:
+May 31 11:12:42 *	    CN=verne.freenode.net
+May 31 11:12:42 *	  Issuer:
+May 31 11:12:42 *	    C=US
+May 31 11:12:42 *	    O=Let's Encrypt
+May 31 11:12:42 *	    CN=Let's Encrypt Authority X3
+May 31 11:12:42 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 31 11:12:42 *	  Sign algorithm sha256WithRSAEncryption
+May 31 11:12:42 *	  Valid since May 22 05:05:00 2017 GM to Aug 20 05:05:00 2017 GM
+May 31 11:12:42 *	* Cipher info:
+May 31 11:12:42 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 31 11:12:42 *	Connected. Now logging in.
+May 31 11:12:42 *	*** Looking up your hostname...
+May 31 11:12:42 *	*** Checking Ident
+May 31 11:12:42 *	*** Found your hostname
+May 31 11:12:51 *	*** No Ident response
+May 31 11:12:51 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 31 11:12:51 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 31 11:12:51 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Wed May 31 11:12:51 2017
+
+**** BEGIN LOGGING AT Wed May 31 14:17:56 2017
+
+May 31 14:17:56 Do At plugin loaded
+May 31 14:17:56 Checksum plugin loaded
+May 31 14:17:56 Sysinfo plugin loaded
+May 31 14:17:56 Python interface loaded
+May 31 14:17:56 Perl interface loaded
+May 31 14:17:57 FiSHLiM plugin loaded
+May 31 14:17:57 *	Looking up chat.freenode.net
+May 31 14:17:57 *	Connecting to chat.freenode.net (185.30.166.37:6697)
+May 31 14:17:58 *	* Certification info:
+May 31 14:17:58 *	  Subject:
+May 31 14:17:58 *	    CN=verne.freenode.net
+May 31 14:17:58 *	  Issuer:
+May 31 14:17:58 *	    C=US
+May 31 14:17:58 *	    O=Let's Encrypt
+May 31 14:17:58 *	    CN=Let's Encrypt Authority X3
+May 31 14:17:58 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 31 14:17:58 *	  Sign algorithm sha256WithRSAEncryption
+May 31 14:17:58 *	  Valid since May 22 05:05:00 2017 GM to Aug 20 05:05:00 2017 GM
+May 31 14:17:58 *	* Cipher info:
+May 31 14:17:58 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 31 14:17:58 *	Connected. Now logging in.
+May 31 14:17:58 *	*** Looking up your hostname...
+May 31 14:17:58 *	*** Checking Ident
+May 31 14:17:58 *	*** Found your hostname
+May 31 14:18:06 *	*** No Ident response
+May 31 14:18:07 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 31 14:18:07 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 31 14:18:07 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Wed May 31 14:18:07 2017
+
+**** BEGIN LOGGING AT Wed May 31 14:58:27 2017
+
+May 31 14:58:27 Do At plugin loaded
+May 31 14:58:27 Checksum plugin loaded
+May 31 14:58:27 Sysinfo plugin loaded
+May 31 14:58:27 Python interface loaded
+May 31 14:58:27 Perl interface loaded
+May 31 14:58:27 FiSHLiM plugin loaded
+May 31 14:58:27 *	Looking up chat.freenode.net
+May 31 14:58:27 *	Connecting to chat.freenode.net (149.56.134.238:6697)
+May 31 14:58:28 *	* Certification info:
+May 31 14:58:28 *	  Subject:
+May 31 14:58:28 *	    CN=cherryh.freenode.net
+May 31 14:58:28 *	  Issuer:
+May 31 14:58:28 *	    C=US
+May 31 14:58:28 *	    O=Let's Encrypt
+May 31 14:58:28 *	    CN=Let's Encrypt Authority X3
+May 31 14:58:28 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 31 14:58:28 *	  Sign algorithm sha256WithRSAEncryption
+May 31 14:58:28 *	  Valid since Apr 24 05:02:00 2017 GM to Jul 23 05:02:00 2017 GM
+May 31 14:58:28 *	* Cipher info:
+May 31 14:58:28 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 31 14:58:28 *	Connected. Now logging in.
+May 31 14:58:28 *	*** Looking up your hostname...
+May 31 14:58:28 *	*** Checking Ident
+May 31 14:58:28 *	*** Found your hostname
+May 31 14:58:37 *	*** No Ident response
+May 31 14:58:37 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 31 14:58:37 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 31 14:58:37 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Wed May 31 14:58:37 2017
+
+**** BEGIN LOGGING AT Wed May 31 15:00:37 2017
+
+May 31 15:00:37 Do At plugin loaded
+May 31 15:00:37 Checksum plugin loaded
+May 31 15:00:37 Sysinfo plugin loaded
+May 31 15:00:37 Python interface loaded
+May 31 15:00:37 Perl interface loaded
+May 31 15:00:37 FiSHLiM plugin loaded
+May 31 15:00:37 *	Looking up chat.freenode.net
+May 31 15:00:37 *	Connecting to chat.freenode.net (185.30.166.38:6697)
+May 31 15:00:38 *	* Certification info:
+May 31 15:00:38 *	  Subject:
+May 31 15:00:38 *	    CN=orwell.freenode.net
+May 31 15:00:38 *	  Issuer:
+May 31 15:00:38 *	    C=US
+May 31 15:00:38 *	    O=Let's Encrypt
+May 31 15:00:38 *	    CN=Let's Encrypt Authority X3
+May 31 15:00:38 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 31 15:00:38 *	  Sign algorithm sha256WithRSAEncryption
+May 31 15:00:38 *	  Valid since May 22 05:06:00 2017 GM to Aug 20 05:06:00 2017 GM
+May 31 15:00:38 *	* Cipher info:
+May 31 15:00:38 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 31 15:00:38 *	Connected. Now logging in.
+May 31 15:00:38 *	*** Looking up your hostname...
+May 31 15:00:38 *	*** Checking Ident
+May 31 15:00:38 *	*** Found your hostname
+May 31 15:00:46 *	*** No Ident response
+May 31 15:00:46 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 31 15:00:46 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 31 15:00:46 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Wed May 31 15:00:46 2017
+
+**** BEGIN LOGGING AT Wed May 31 15:06:08 2017
+
+May 31 15:06:08 Do At plugin loaded
+May 31 15:06:08 Checksum plugin loaded
+May 31 15:06:08 Sysinfo plugin loaded
+May 31 15:06:08 Python interface loaded
+May 31 15:06:08 Perl interface loaded
+May 31 15:06:08 FiSHLiM plugin loaded
+May 31 15:06:08 *	Looking up chat.freenode.net
+May 31 15:06:08 *	Connecting to chat.freenode.net (185.30.166.38:6697)
+May 31 15:06:09 *	* Certification info:
+May 31 15:06:09 *	  Subject:
+May 31 15:06:09 *	    CN=orwell.freenode.net
+May 31 15:06:09 *	  Issuer:
+May 31 15:06:09 *	    C=US
+May 31 15:06:09 *	    O=Let's Encrypt
+May 31 15:06:09 *	    CN=Let's Encrypt Authority X3
+May 31 15:06:09 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 31 15:06:09 *	  Sign algorithm sha256WithRSAEncryption
+May 31 15:06:09 *	  Valid since May 22 05:06:00 2017 GM to Aug 20 05:06:00 2017 GM
+May 31 15:06:09 *	* Cipher info:
+May 31 15:06:09 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 31 15:06:09 *	Connected. Now logging in.
+May 31 15:06:09 *	*** Looking up your hostname...
+May 31 15:06:09 *	*** Checking Ident
+May 31 15:06:09 *	*** Found your hostname
+May 31 15:06:16 *	*** No Ident response
+May 31 15:06:16 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 31 15:06:16 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 31 15:06:16 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Wed May 31 15:06:16 2017
+
+**** BEGIN LOGGING AT Wed May 31 19:08:52 2017
+
+May 31 19:08:52 Do At plugin loaded
+May 31 19:08:52 Checksum plugin loaded
+May 31 19:08:52 Sysinfo plugin loaded
+May 31 19:08:52 Python interface loaded
+May 31 19:08:52 Perl interface loaded
+May 31 19:08:52 FiSHLiM plugin loaded
+May 31 19:08:52 *	Looking up chat.freenode.net
+May 31 19:08:52 *	Connecting to chat.freenode.net (164.132.77.237:6697)
+May 31 19:08:53 *	* Certification info:
+May 31 19:08:53 *	  Subject:
+May 31 19:08:53 *	    CN=wilhelm.freenode.net
+May 31 19:08:53 *	  Issuer:
+May 31 19:08:53 *	    C=US
+May 31 19:08:53 *	    O=Let's Encrypt
+May 31 19:08:53 *	    CN=Let's Encrypt Authority X3
+May 31 19:08:53 *	  Public key algorithm: rsaEncryption (4096 bits)
+May 31 19:08:53 *	  Sign algorithm sha256WithRSAEncryption
+May 31 19:08:53 *	  Valid since May 22 05:03:00 2017 GM to Aug 20 05:03:00 2017 GM
+May 31 19:08:53 *	* Cipher info:
+May 31 19:08:53 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+May 31 19:08:53 *	Connected. Now logging in.
+May 31 19:08:53 *	*** Looking up your hostname...
+May 31 19:08:53 *	*** Checking Ident
+May 31 19:08:53 *	*** Found your hostname
+May 31 19:09:01 *	*** No Ident response
+May 31 19:09:01 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+May 31 19:09:01 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+May 31 19:09:02 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Wed May 31 19:09:02 2017
+
+**** BEGIN LOGGING AT Thu Jun  1 14:26:36 2017
+
+Jun 01 14:26:36 Do At plugin loaded
+Jun 01 14:26:36 Checksum plugin loaded
+Jun 01 14:26:36 Sysinfo plugin loaded
+Jun 01 14:26:36 Python interface loaded
+Jun 01 14:26:36 Perl interface loaded
+Jun 01 14:26:36 FiSHLiM plugin loaded
+Jun 01 14:26:36 *	Looking up chat.freenode.net
+Jun 01 14:26:36 *	Connecting to chat.freenode.net (38.229.70.22:6697)
+Jun 01 14:26:37 *	* Certification info:
+Jun 01 14:26:37 *	  Subject:
+Jun 01 14:26:37 *	    CN=card.freenode.net
+Jun 01 14:26:37 *	  Issuer:
+Jun 01 14:26:37 *	    C=US
+Jun 01 14:26:37 *	    O=Let's Encrypt
+Jun 01 14:26:37 *	    CN=Let's Encrypt Authority X3
+Jun 01 14:26:37 *	  Public key algorithm: rsaEncryption (4096 bits)
+Jun 01 14:26:37 *	  Sign algorithm sha256WithRSAEncryption
+Jun 01 14:26:37 *	  Valid since Apr 17 05:02:00 2017 GM to Jul 16 05:02:00 2017 GM
+Jun 01 14:26:37 *	* Cipher info:
+Jun 01 14:26:37 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Jun 01 14:26:37 *	Connected. Now logging in.
+Jun 01 14:26:37 *	*** Looking up your hostname...
+Jun 01 14:26:37 *	*** Checking Ident
+Jun 01 14:26:37 *	*** Found your hostname
+Jun 01 14:26:44 *	*** No Ident response
+Jun 01 14:26:44 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Jun 01 14:26:44 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+Jun 01 14:26:44 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Thu Jun  1 14:26:44 2017
+
+**** BEGIN LOGGING AT Thu Jun  1 17:31:06 2017
+
+Jun 01 17:31:06 Do At plugin loaded
+Jun 01 17:31:06 Checksum plugin loaded
+Jun 01 17:31:06 Sysinfo plugin loaded
+Jun 01 17:31:06 Python interface loaded
+Jun 01 17:31:06 Perl interface loaded
+Jun 01 17:31:06 FiSHLiM plugin loaded
+Jun 01 17:31:06 *	Looking up chat.freenode.net
+Jun 01 17:31:06 *	Connecting to chat.freenode.net (185.30.166.38:6697)
+Jun 01 17:31:07 *	* Certification info:
+Jun 01 17:31:07 *	  Subject:
+Jun 01 17:31:07 *	    CN=orwell.freenode.net
+Jun 01 17:31:07 *	  Issuer:
+Jun 01 17:31:07 *	    C=US
+Jun 01 17:31:07 *	    O=Let's Encrypt
+Jun 01 17:31:07 *	    CN=Let's Encrypt Authority X3
+Jun 01 17:31:07 *	  Public key algorithm: rsaEncryption (4096 bits)
+Jun 01 17:31:07 *	  Sign algorithm sha256WithRSAEncryption
+Jun 01 17:31:07 *	  Valid since May 22 05:06:00 2017 GM to Aug 20 05:06:00 2017 GM
+Jun 01 17:31:07 *	* Cipher info:
+Jun 01 17:31:07 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Jun 01 17:31:07 *	Connected. Now logging in.
+Jun 01 17:31:07 *	*** Looking up your hostname...
+Jun 01 17:31:07 *	*** Checking Ident
+Jun 01 17:31:07 *	*** Found your hostname
+Jun 01 17:31:13 *	*** No Ident response
+Jun 01 17:31:13 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Jun 01 17:31:13 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+Jun 01 17:31:13 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Thu Jun  1 17:31:13 2017
+
+**** BEGIN LOGGING AT Fri Jun  2 06:45:30 2017
+
+Jun 02 06:45:30 Do At plugin loaded
+Jun 02 06:45:30 Checksum plugin loaded
+Jun 02 06:45:30 Sysinfo plugin loaded
+Jun 02 06:45:30 Python interface loaded
+Jun 02 06:45:30 Perl interface loaded
+Jun 02 06:45:30 FiSHLiM plugin loaded
+Jun 02 06:45:30 *	Looking up chat.freenode.net
+Jun 02 06:45:30 *	Connecting to chat.freenode.net (81.18.73.123:6697)
+Jun 02 06:45:32 *	* Certification info:
+Jun 02 06:45:32 *	  Subject:
+Jun 02 06:45:32 *	    CN=hobana.freenode.net
+Jun 02 06:45:32 *	  Issuer:
+Jun 02 06:45:32 *	    C=US
+Jun 02 06:45:32 *	    O=Let's Encrypt
+Jun 02 06:45:32 *	    CN=Let's Encrypt Authority X3
+Jun 02 06:45:32 *	  Public key algorithm: rsaEncryption (4096 bits)
+Jun 02 06:45:32 *	  Sign algorithm sha256WithRSAEncryption
+Jun 02 06:45:32 *	  Valid since May 22 05:11:00 2017 GM to Aug 20 05:11:00 2017 GM
+Jun 02 06:45:32 *	* Cipher info:
+Jun 02 06:45:32 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Jun 02 06:45:32 *	Connected. Now logging in.
+Jun 02 06:45:32 *	*** Looking up your hostname...
+Jun 02 06:45:32 *	*** Checking Ident
+Jun 02 06:45:32 *	*** Found your hostname
+Jun 02 06:45:38 *	*** No Ident response
+Jun 02 06:45:38 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Jun 02 06:45:38 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+Jun 02 06:45:38 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Fri Jun  2 06:45:38 2017
+
+**** BEGIN LOGGING AT Fri Jun  2 11:01:46 2017
+
+Jun 02 11:01:46 Do At plugin loaded
+Jun 02 11:01:46 Checksum plugin loaded
+Jun 02 11:01:46 Sysinfo plugin loaded
+Jun 02 11:01:46 Python interface loaded
+Jun 02 11:01:46 Perl interface loaded
+Jun 02 11:01:46 FiSHLiM plugin loaded
+Jun 02 11:01:46 *	Looking up chat.freenode.net
+Jun 02 11:01:46 *	Connecting to chat.freenode.net (64.86.243.181:6697)
+Jun 02 11:01:47 *	* Certification info:
+Jun 02 11:01:47 *	  Subject:
+Jun 02 11:01:47 *	    CN=karatkievich.freenode.net
+Jun 02 11:01:47 *	  Issuer:
+Jun 02 11:01:47 *	    C=US
+Jun 02 11:01:47 *	    O=Let's Encrypt
+Jun 02 11:01:47 *	    CN=Let's Encrypt Authority X3
+Jun 02 11:01:47 *	  Public key algorithm: rsaEncryption (4096 bits)
+Jun 02 11:01:47 *	  Sign algorithm sha256WithRSAEncryption
+Jun 02 11:01:47 *	  Valid since May 22 05:08:00 2017 GM to Aug 20 05:08:00 2017 GM
+Jun 02 11:01:47 *	* Cipher info:
+Jun 02 11:01:47 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Jun 02 11:01:47 *	Connected. Now logging in.
+Jun 02 11:01:47 *	*** Looking up your hostname...
+Jun 02 11:01:47 *	*** Checking Ident
+Jun 02 11:01:47 *	*** Found your hostname
+Jun 02 11:01:53 *	*** No Ident response
+Jun 02 11:01:53 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Jun 02 11:01:53 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+Jun 02 11:01:53 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Fri Jun  2 11:01:53 2017
+
+**** BEGIN LOGGING AT Fri Jun  2 13:37:42 2017
+
+Jun 02 13:37:42 Do At plugin loaded
+Jun 02 13:37:42 Checksum plugin loaded
+Jun 02 13:37:42 Sysinfo plugin loaded
+Jun 02 13:37:42 Python interface loaded
+Jun 02 13:37:42 Perl interface loaded
+Jun 02 13:37:42 FiSHLiM plugin loaded
+Jun 02 13:37:42 *	Looking up chat.freenode.net
+Jun 02 13:37:42 *	Connecting to chat.freenode.net (164.132.77.237:6697)
+Jun 02 13:37:43 *	* Certification info:
+Jun 02 13:37:43 *	  Subject:
+Jun 02 13:37:43 *	    CN=wilhelm.freenode.net
+Jun 02 13:37:43 *	  Issuer:
+Jun 02 13:37:43 *	    C=US
+Jun 02 13:37:43 *	    O=Let's Encrypt
+Jun 02 13:37:43 *	    CN=Let's Encrypt Authority X3
+Jun 02 13:37:43 *	  Public key algorithm: rsaEncryption (4096 bits)
+Jun 02 13:37:43 *	  Sign algorithm sha256WithRSAEncryption
+Jun 02 13:37:43 *	  Valid since May 22 05:03:00 2017 GM to Aug 20 05:03:00 2017 GM
+Jun 02 13:37:43 *	* Cipher info:
+Jun 02 13:37:43 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Jun 02 13:37:43 *	Connected. Now logging in.
+Jun 02 13:37:43 *	*** Looking up your hostname...
+Jun 02 13:37:43 *	*** Checking Ident
+Jun 02 13:37:43 *	*** Found your hostname
+Jun 02 13:37:50 *	*** No Ident response
+Jun 02 13:37:50 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Jun 02 13:37:50 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+Jun 02 13:37:50 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Fri Jun  2 13:37:50 2017
+
+**** BEGIN LOGGING AT Fri Jun  2 13:58:44 2017
+
+Jun 02 13:58:44 Do At plugin loaded
+Jun 02 13:58:44 Checksum plugin loaded
+Jun 02 13:58:44 Sysinfo plugin loaded
+Jun 02 13:58:44 Python interface loaded
+Jun 02 13:58:44 Perl interface loaded
+Jun 02 13:58:44 FiSHLiM plugin loaded
+Jun 02 13:58:44 *	Looking up chat.freenode.net
+Jun 02 13:58:44 *	Connecting to chat.freenode.net (149.56.134.238:6697)
+Jun 02 13:58:45 *	* Certification info:
+Jun 02 13:58:45 *	  Subject:
+Jun 02 13:58:45 *	    CN=cherryh.freenode.net
+Jun 02 13:58:45 *	  Issuer:
+Jun 02 13:58:45 *	    C=US
+Jun 02 13:58:45 *	    O=Let's Encrypt
+Jun 02 13:58:45 *	    CN=Let's Encrypt Authority X3
+Jun 02 13:58:45 *	  Public key algorithm: rsaEncryption (4096 bits)
+Jun 02 13:58:45 *	  Sign algorithm sha256WithRSAEncryption
+Jun 02 13:58:45 *	  Valid since Apr 24 05:02:00 2017 GM to Jul 23 05:02:00 2017 GM
+Jun 02 13:58:45 *	* Cipher info:
+Jun 02 13:58:45 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Jun 02 13:58:45 *	Connected. Now logging in.
+Jun 02 13:58:45 *	*** Looking up your hostname...
+Jun 02 13:58:45 *	*** Checking Ident
+Jun 02 13:58:45 *	*** Found your hostname
+Jun 02 13:58:52 *	*** No Ident response
+Jun 02 13:58:52 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Jun 02 13:58:52 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+Jun 02 13:58:52 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Fri Jun  2 13:58:52 2017
+
+**** BEGIN LOGGING AT Fri Jun  2 14:31:55 2017
+
+Jun 02 14:31:55 Do At plugin loaded
+Jun 02 14:31:55 Checksum plugin loaded
+Jun 02 14:31:55 Sysinfo plugin loaded
+Jun 02 14:31:55 Python interface loaded
+Jun 02 14:31:55 Perl interface loaded
+Jun 02 14:31:55 FiSHLiM plugin loaded
+Jun 02 14:31:55 *	Looking up chat.freenode.net
+Jun 02 14:31:55 *	Connecting to chat.freenode.net (38.229.70.22:6697)
+Jun 02 14:31:56 *	* Certification info:
+Jun 02 14:31:56 *	  Subject:
+Jun 02 14:31:56 *	    CN=card.freenode.net
+Jun 02 14:31:56 *	  Issuer:
+Jun 02 14:31:56 *	    C=US
+Jun 02 14:31:56 *	    O=Let's Encrypt
+Jun 02 14:31:56 *	    CN=Let's Encrypt Authority X3
+Jun 02 14:31:56 *	  Public key algorithm: rsaEncryption (4096 bits)
+Jun 02 14:31:56 *	  Sign algorithm sha256WithRSAEncryption
+Jun 02 14:31:56 *	  Valid since Apr 17 05:02:00 2017 GM to Jul 16 05:02:00 2017 GM
+Jun 02 14:31:56 *	* Cipher info:
+Jun 02 14:31:56 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Jun 02 14:31:56 *	Connected. Now logging in.
+Jun 02 14:31:56 *	*** Looking up your hostname...
+Jun 02 14:31:56 *	*** Checking Ident
+Jun 02 14:31:56 *	*** Found your hostname
+Jun 02 14:32:02 *	*** No Ident response
+Jun 02 14:32:02 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Jun 02 14:32:02 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+Jun 02 14:32:03 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Fri Jun  2 14:32:03 2017
+
+**** BEGIN LOGGING AT Fri Jun  2 14:33:50 2017
+
+Jun 02 14:33:50 Do At plugin loaded
+Jun 02 14:33:50 Checksum plugin loaded
+Jun 02 14:33:50 Sysinfo plugin loaded
+Jun 02 14:33:50 Python interface loaded
+Jun 02 14:33:50 Perl interface loaded
+Jun 02 14:33:50 FiSHLiM plugin loaded
+Jun 02 14:33:50 *	Looking up chat.freenode.net
+Jun 02 14:33:50 *	Connecting to chat.freenode.net (94.125.182.252:6697)
+Jun 02 14:33:51 *	* Certification info:
+Jun 02 14:33:51 *	  Subject:
+Jun 02 14:33:51 *	    CN=adams.freenode.net
+Jun 02 14:33:51 *	  Issuer:
+Jun 02 14:33:51 *	    C=US
+Jun 02 14:33:51 *	    O=Let's Encrypt
+Jun 02 14:33:51 *	    CN=Let's Encrypt Authority X3
+Jun 02 14:33:51 *	  Public key algorithm: rsaEncryption (4096 bits)
+Jun 02 14:33:51 *	  Sign algorithm sha256WithRSAEncryption
+Jun 02 14:33:51 *	  Valid since May 22 05:09:00 2017 GM to Aug 20 05:09:00 2017 GM
+Jun 02 14:33:51 *	* Cipher info:
+Jun 02 14:33:51 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Jun 02 14:33:51 *	Connected. Now logging in.
+Jun 02 14:33:51 *	*** Looking up your hostname...
+Jun 02 14:33:51 *	*** Checking Ident
+Jun 02 14:33:51 *	*** Found your hostname
+Jun 02 14:34:00 *	*** No Ident response
+Jun 02 14:34:01 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Jun 02 14:34:01 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+Jun 02 14:34:01 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Fri Jun  2 14:34:01 2017
+
+**** BEGIN LOGGING AT Fri Jun  2 22:31:31 2017
+
+Jun 02 22:31:31 Do At plugin loaded
+Jun 02 22:31:31 Checksum plugin loaded
+Jun 02 22:31:31 Sysinfo plugin loaded
+Jun 02 22:31:31 Python interface loaded
+Jun 02 22:31:31 Perl interface loaded
+Jun 02 22:31:31 FiSHLiM plugin loaded
+Jun 02 22:31:31 *	Looking up chat.freenode.net
+Jun 02 22:31:32 *	Connecting to chat.freenode.net (185.30.166.38:6697)
+Jun 02 22:31:33 *	* Certification info:
+Jun 02 22:31:33 *	  Subject:
+Jun 02 22:31:33 *	    CN=orwell.freenode.net
+Jun 02 22:31:33 *	  Issuer:
+Jun 02 22:31:33 *	    C=US
+Jun 02 22:31:33 *	    O=Let's Encrypt
+Jun 02 22:31:33 *	    CN=Let's Encrypt Authority X3
+Jun 02 22:31:33 *	  Public key algorithm: rsaEncryption (4096 bits)
+Jun 02 22:31:33 *	  Sign algorithm sha256WithRSAEncryption
+Jun 02 22:31:33 *	  Valid since May 22 05:06:00 2017 GM to Aug 20 05:06:00 2017 GM
+Jun 02 22:31:33 *	* Cipher info:
+Jun 02 22:31:33 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Jun 02 22:31:33 *	Connected. Now logging in.
+Jun 02 22:31:33 *	*** Looking up your hostname...
+Jun 02 22:31:33 *	*** Checking Ident
+Jun 02 22:31:33 *	*** Found your hostname
+Jun 02 22:31:42 *	*** No Ident response
+Jun 02 22:31:42 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Jun 02 22:31:42 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+Jun 02 22:31:42 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Fri Jun  2 22:31:43 2017
+
+**** BEGIN LOGGING AT Sat Jun  3 16:48:01 2017
+
+Jun 03 16:48:01 Do At plugin loaded
+Jun 03 16:48:01 Checksum plugin loaded
+Jun 03 16:48:01 Sysinfo plugin loaded
+Jun 03 16:48:01 Python interface loaded
+Jun 03 16:48:01 Perl interface loaded
+Jun 03 16:48:01 FiSHLiM plugin loaded
+Jun 03 16:48:01 *	Looking up chat.freenode.net
+Jun 03 16:48:01 *	Connecting to chat.freenode.net (193.10.255.100:6697)
+Jun 03 16:48:02 *	* Certification info:
+Jun 03 16:48:02 *	  Subject:
+Jun 03 16:48:02 *	    CN=wolfe.freenode.net
+Jun 03 16:48:02 *	  Issuer:
+Jun 03 16:48:02 *	    C=US
+Jun 03 16:48:02 *	    O=Let's Encrypt
+Jun 03 16:48:02 *	    CN=Let's Encrypt Authority X3
+Jun 03 16:48:02 *	  Public key algorithm: rsaEncryption (4096 bits)
+Jun 03 16:48:02 *	  Sign algorithm sha256WithRSAEncryption
+Jun 03 16:48:02 *	  Valid since May 22 05:12:00 2017 GM to Aug 20 05:12:00 2017 GM
+Jun 03 16:48:02 *	* Cipher info:
+Jun 03 16:48:02 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Jun 03 16:48:02 *	Connected. Now logging in.
+Jun 03 16:48:02 *	*** Looking up your hostname...
+Jun 03 16:48:02 *	*** Checking Ident
+Jun 03 16:48:02 *	*** Found your hostname
+Jun 03 16:48:07 *	*** No Ident response
+Jun 03 16:48:07 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Jun 03 16:48:07 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+Jun 03 16:48:07 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+**** ENDING LOGGING AT Sat Jun  3 16:48:08 2017
+

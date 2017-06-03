@@ -1,0 +1,3 @@
+Automáticamente define videos para reproducirse en HD. Los usuarios pueden elegir 1080p, 720p y otros tamaños disponibles para cada vídeo en particular.
+
+Por favor envíe sus sugerencias y reportes de errores a http://www.autohdforyoutube.com

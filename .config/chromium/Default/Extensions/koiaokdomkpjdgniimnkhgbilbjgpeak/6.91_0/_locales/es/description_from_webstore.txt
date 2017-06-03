@@ -1,0 +1,5 @@
+Automáticamente define vídeos para reproducirse en HD. Los usuarios pueden elegir 1080p, 720p y otros tamaños disponibles para cada vídeo en particular.
+
+Por favor envíe sus sugerencias y reportes de errores a http://www.autohdforyoutube.com
+
+YouTube™ es una marca registrada de Google™. Esta extensión no está patrocinada por Google™ o YouTube™.

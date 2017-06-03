@@ -1,0 +1,32 @@
+[06/02/17, 13:51:18:248] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[06/02/17, 13:51:18:250] info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 13:51:18:244      ║
+[06/02/17, 13:51:18:250] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[06/02/17, 13:51:18:461] info: updateSuspendResume: true
+[06/02/17, 13:51:19:431] info: Store: SET_TEAM_IDLE_TIMEOUT
+{ timeout: 43200, teamId: 'T02AG6QJM' }
+[06/02/17, 13:51:20:040] info: Store: SELECT_CHANNEL C02AG6QJV
+[06/02/17, 13:51:20:045] info: Store: UPDATE_TEAM_THEME
+{ theme: 
+   { column_bg: '#4D394B',
+     menu_bg: '#3E313C',
+     active_item: '#4C9689',
+     active_item_text: '#FFFFFF',
+     hover_item: '#3E313C',
+     text_color: '#FFFFFF',
+     active_presence: '#38978D',
+     badge: '#EB4D5C' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 13:51:20:356] info: Store: UPDATE_TEAM_ICONS
+{ icons: 
+   { image_34: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_34.jpg',
+     image_44: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_44.jpg',
+     image_68: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_68.jpg',
+     image_88: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_88.jpg',
+     image_102: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_102.jpg',
+     image_132: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg',
+     image_original: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_original.jpg',
+     image_230: 'https://s3-us-west-2.amazonaws.com/slack-files2/avatars/2014-10-29/2899965909_3e40fa5b3155ddc2d06f_132.jpg' },
+  teamId: 'T02AG6QJM' }
+[06/02/17, 13:51:26:045] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages
+[06/02/17, 13:51:27:651] info: Unloading spellchecker
+[06/02/17, 13:51:32:470] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages

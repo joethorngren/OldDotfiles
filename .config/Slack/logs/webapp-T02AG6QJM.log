@@ -1,0 +1,272 @@
+info: ╔════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 13:51:16:522      ║
+info: ╚════════════════════════════════════════════════════════════════════════════════╝
+info: 2017/6/2 13:51:17.532  booted! pri:0 version:1496432357 start_ms:1496433077527 (5ms ago)
+info: 2017/6/2 13:51:17.747  _onDOMReady
+info: 2017/6/2 13:51:17.748  session_load_count_client: 1
+info: 2017/6/2 13:51:17.750  Connecting to: wss://mpmulti-bozi.slack-msgs.com/?flannel=1&token=REDACTED&start_args=%3Fagent%3Dwebapp_c822c7fb283156cb47457cb9441cf6901e4e1a9c%26simple_latest%3Dtrue%26no_unreads%3Dtrue%26no_users%3Dtrue%26no_bots%3Dtrue%26cache_ts%3D0%26no_members%3D1%26presence_sub%3Dtrue%26mpim_aware%3Dtrue%26only_relevant_ims%3Dtrue%26canonical_avatars%3Dtrue%26eac_cache_ts%3Dtrue&version_uid=c822c7fb283156cb47457cb9441cf6901e4e1a9c&_x_connection_log=&batch_presence_aware=1&no_annotations=1
+info: 2017/6/2 13:51:17.754  Initializing provisional MS connection and fetching rtm.start over the socket
+warn: 2017/6/2 13:51:17.756  storage_version: does not match TS.storage.version:0.85 so flushing all our keys: is_compressed
+info: 2017/6/2 13:51:17.756  _disabled:false
+info: 2017/6/2 13:51:17.757  Setting calling_rtm_start to true
+info: 2017/6/2 13:51:17.758  Starting incremental boot
+info: ╔════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 13:51:17:877      ║
+info: ╚════════════════════════════════════════════════════════════════════════════════╝
+info: 2017/6/2 13:51:18.930  booted! pri:0 version:1496432357 start_ms:1496433078925 (4ms ago)
+info: 2017/6/2 13:51:19.108  _onDOMReady
+info: 2017/6/2 13:51:19.108  session_load_count_client: 1
+info: 2017/6/2 13:51:19.110  Connecting to: wss://mpmulti-ih9b.slack-msgs.com/?flannel=1&token=REDACTED&start_args=%3Fagent%3Dwebapp_c822c7fb283156cb47457cb9441cf6901e4e1a9c%26simple_latest%3Dtrue%26no_unreads%3Dtrue%26no_users%3Dtrue%26no_bots%3Dtrue%26cache_ts%3D0%26no_members%3D1%26presence_sub%3Dtrue%26mpim_aware%3Dtrue%26only_relevant_ims%3Dtrue%26canonical_avatars%3Dtrue%26eac_cache_ts%3Dtrue&version_uid=c822c7fb283156cb47457cb9441cf6901e4e1a9c&_x_connection_log=&batch_presence_aware=1&no_annotations=1
+info: 2017/6/2 13:51:19.114  Initializing provisional MS connection and fetching rtm.start over the socket
+warn: 2017/6/2 13:51:19.116  TS.storage.fetchLastEventTS() is empty so flushing channel data
+info: 2017/6/2 13:51:19.117  _disabled:false
+info: 2017/6/2 13:51:19.118  Setting calling_rtm_start to true
+info: 2017/6/2 13:51:19.118  Starting incremental boot
+info: 2017/6/2 13:51:19.552  TS.model.supports_user_bot_caching:true
+TS.storage.isUsingMemberBotCache():false
+args.cache_ts:undefined
+api args: {"canonical_avatars":true,"include_full_users":true,"count":49,"ignore_replies":true,"no_members":true,"token":"REDACTED","_attempts":1}
+members from LS:0, from updated_users in rtm.start:51 (slackbot will always be here)
+bots from LS:0, from updated_bots in rtm.start:0
+info: 2017/6/2 13:51:19.554  open channels/groups/ims:1 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/6/2 13:51:19.800  Provisional WebSocket received a message of type hello
+info: 2017/6/2 13:51:19.806  Got rtm.start data but need to fetch 2 members
+info: 2017/6/2 13:51:19.859  Got 2 members for rtm.start :tada:
+info: 2017/6/2 13:51:19.860  Setting calling_rtm_start to false (after rtm.start from Flannel)
+info: 2017/6/2 13:51:19.869  Provisional WebSocket received a message of type reconnect_url
+info: 2017/6/2 13:51:20.420  Finalizing incremental boot
+warn: 2017/6/2 13:51:20.420  1117ms from first html to login_sig.dispatch()
+info: 2017/6/2 13:51:20.342  User id: U4BPH9196, team id: T02AG6QJM
+info: 2017/6/2 13:51:20.343  TS.model.supports_user_bot_caching:true
+TS.storage.isUsingMemberBotCache():false
+args.cache_ts:undefined
+api args: {}
+members from LS:0, from updated_users in rtm.start:2 (slackbot will always be here)
+bots from LS:0, from updated_bots in rtm.start:0
+info: 2017/6/2 13:51:20.348  open channels/groups/ims:7 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/6/2 13:51:20.349  Completed incremental boot
+info: 2017/6/2 13:51:20.433  C02AG6QJV HAS MORE
+info: 2017/6/2 13:51:20.439  Finalizing provisional MS connection
+info: 2017/6/2 13:51:20.440  MS WS connected!
+info: 2017/6/2 13:51:20.440  Hello msg recvd, since_last_pong_ms:1496433080440
+info: 2017/6/2 13:51:20.440  host_id: flannel215-1215, server_version: build-id:780-5f2d49aa43f695f63d69081d6a511a0b2bc797c1-build-slave34-2017-05-23T17:41:43-0700 golang:go1.8
+info: 2017/6/2 13:51:20.444  Hiding the reconnection banner because we are connected
+info: 2017/6/2 13:51:20.468  User id: U4BPH9196, team id: T02AG6QJM
+info: 2017/6/2 13:51:20.540  Finished processing users.counts
+info: 2017/6/2 13:51:20.540  0 IMs with unreads, 0 total dm_count
+info: ╔════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 13:58:45:895      ║
+info: ╚════════════════════════════════════════════════════════════════════════════════╝
+info: 2017/6/2 13:58:49.480  booted! pri:0 version:1496432357 start_ms:1496433529012 (30ms ago)
+info: 2017/6/2 13:58:49.567  _onDOMReady
+info: 2017/6/2 13:58:49.569  session_load_count_client: 1
+info: 2017/6/2 13:58:49.606  Connecting to: wss://mpmulti-mgdh.slack-msgs.com/?flannel=1&token=REDACTED&start_args=%3Fagent%3Dwebapp_c822c7fb283156cb47457cb9441cf6901e4e1a9c%26simple_latest%3Dtrue%26no_unreads%3Dtrue%26no_users%3Dtrue%26no_bots%3Dtrue%26cache_ts%3D0%26no_members%3D1%26presence_sub%3Dtrue%26mpim_aware%3Dtrue%26only_relevant_ims%3Dtrue%26canonical_avatars%3Dtrue%26eac_cache_ts%3Dtrue&version_uid=c822c7fb283156cb47457cb9441cf6901e4e1a9c&_x_connection_log=&batch_presence_aware=1&no_annotations=1
+info: 2017/6/2 13:58:49.611  Initializing provisional MS connection and fetching rtm.start over the socket
+info: 2017/6/2 13:58:49.614  _disabled:false
+info: 2017/6/2 13:58:49.616  Setting calling_rtm_start to true
+info: 2017/6/2 13:58:49.616  Starting incremental boot
+info: 2017/6/2 13:58:50.600  TS.model.supports_user_bot_caching:true
+TS.storage.isUsingMemberBotCache():false
+args.cache_ts:undefined
+api args: {"canonical_avatars":true,"include_full_users":true,"count":49,"ignore_replies":true,"channel":"C02AG6QJV","no_members":true,"token":"REDACTED","_attempts":1}
+members from LS:0, from updated_users in rtm.start:51 (slackbot will always be here)
+bots from LS:0, from updated_bots in rtm.start:0
+info: 2017/6/2 13:58:50.630  open channels/groups/ims:1 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/6/2 13:58:50.245  Finalizing incremental boot
+warn: 2017/6/2 13:58:50.247  1235ms from first html to login_sig.dispatch()
+info: 2017/6/2 13:58:51.310  User id: U4BPH9196, team id: T02AG6QJM
+info: 2017/6/2 13:58:51.490  Provisional WebSocket received a message of type hello
+info: 2017/6/2 13:58:51.550  Got rtm.start data but need to fetch 2 members
+info: 2017/6/2 13:58:51.560  Provisional WebSocket received a message of type reconnect_url
+info: 2017/6/2 13:58:51.216  Got 2 members for rtm.start :tada:
+info: 2017/6/2 13:58:51.216  Setting calling_rtm_start to false (after rtm.start from Flannel)
+info: 2017/6/2 13:58:51.218  TS.model.supports_user_bot_caching:true
+TS.storage.isUsingMemberBotCache():false
+args.cache_ts:undefined
+api args: {}
+members from LS:0, from updated_users in rtm.start:2 (slackbot will always be here)
+bots from LS:0, from updated_bots in rtm.start:0
+info: 2017/6/2 13:58:51.237  open channels/groups/ims:7 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/6/2 13:58:51.239  Completed incremental boot
+info: 2017/6/2 13:58:51.440  C02AG6QJV HAS MORE
+info: 2017/6/2 13:58:51.458  Finalizing provisional MS connection
+info: 2017/6/2 13:58:51.459  MS WS connected!
+info: 2017/6/2 13:58:51.460  Hello msg recvd, since_last_pong_ms:1496433531460
+info: 2017/6/2 13:58:51.460  host_id: flannel215-1215, server_version: build-id:780-5f2d49aa43f695f63d69081d6a511a0b2bc797c1-build-slave34-2017-05-23T17:41:43-0700 golang:go1.8
+info: 2017/6/2 13:58:51.469  Hiding the reconnection banner because we are connected
+info: 2017/6/2 13:58:51.514  User id: U4BPH9196, team id: T02AG6QJM
+info: 2017/6/2 13:58:51.765  Finished processing users.counts
+info: 2017/6/2 13:58:51.765  0 IMs with unreads, 0 total dm_count
+info: ╔════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 14:31:57:075      ║
+info: ╚════════════════════════════════════════════════════════════════════════════════╝
+info: 2017/6/2 14:32:00.492  booted! pri:0 version:1496434750 start_ms:1496435520484 (7ms ago)
+info: 2017/6/2 14:32:01.231  _onDOMReady
+info: 2017/6/2 14:32:01.239  session_load_count_client: 1
+info: 2017/6/2 14:32:01.245  Connecting to: wss://mpmulti-kxt1.slack-msgs.com/?flannel=1&token=REDACTED&start_args=%3Fagent%3Dwebapp_8823071bfd9aa98aa1bb9a05400eca1a263d9232%26simple_latest%3Dtrue%26no_unreads%3Dtrue%26no_users%3Dtrue%26no_bots%3Dtrue%26cache_ts%3D0%26no_members%3D1%26presence_sub%3Dtrue%26mpim_aware%3Dtrue%26only_relevant_ims%3Dtrue%26canonical_avatars%3Dtrue%26eac_cache_ts%3Dtrue&version_uid=8823071bfd9aa98aa1bb9a05400eca1a263d9232&_x_connection_log=&batch_presence_aware=1&no_annotations=1
+info: 2017/6/2 14:32:01.258  Initializing provisional MS connection and fetching rtm.start over the socket
+info: 2017/6/2 14:32:01.261  _disabled:false
+info: 2017/6/2 14:32:01.265  Setting calling_rtm_start to true
+info: 2017/6/2 14:32:01.266  Starting incremental boot
+info: 2017/6/2 14:32:01.644  TS.model.supports_user_bot_caching:true
+TS.storage.isUsingMemberBotCache():false
+args.cache_ts:undefined
+api args: {"canonical_avatars":true,"include_full_users":true,"count":49,"ignore_replies":true,"channel":"C02AG6QJV","no_members":true,"token":"REDACTED","_attempts":1}
+members from LS:0, from updated_users in rtm.start:51 (slackbot will always be here)
+bots from LS:0, from updated_bots in rtm.start:0
+info: 2017/6/2 14:32:01.658  open channels/groups/ims:1 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/6/2 14:32:01.890  Finalizing incremental boot
+warn: 2017/6/2 14:32:01.895  1411ms from first html to login_sig.dispatch()
+info: 2017/6/2 14:32:03.108  User id: U4BPH9196, team id: T02AG6QJM
+info: 2017/6/2 14:32:03.180  Provisional WebSocket received a message of type hello
+info: 2017/6/2 14:32:03.195  Got rtm.start data but need to fetch 2 members
+info: 2017/6/2 14:32:03.197  Provisional WebSocket received a message of type reconnect_url
+info: 2017/6/2 14:32:03.448  Got 2 members for rtm.start :tada:
+info: 2017/6/2 14:32:03.455  Setting calling_rtm_start to false (after rtm.start from Flannel)
+info: 2017/6/2 14:32:03.459  TS.model.supports_user_bot_caching:true
+TS.storage.isUsingMemberBotCache():false
+args.cache_ts:undefined
+api args: {}
+members from LS:0, from updated_users in rtm.start:2 (slackbot will always be here)
+bots from LS:0, from updated_bots in rtm.start:0
+info: 2017/6/2 14:32:03.479  open channels/groups/ims:7 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/6/2 14:32:03.480  Completed incremental boot
+info: 2017/6/2 14:32:03.906  C02AG6QJV HAS MORE
+info: 2017/6/2 14:32:03.922  Finalizing provisional MS connection
+info: 2017/6/2 14:32:03.922  MS WS connected!
+info: 2017/6/2 14:32:03.924  Hello msg recvd, since_last_pong_ms:1496435523923
+info: 2017/6/2 14:32:03.924  host_id: flannel215-1215, server_version: build-id:780-5f2d49aa43f695f63d69081d6a511a0b2bc797c1-build-slave34-2017-05-23T17:41:43-0700 golang:go1.8
+info: 2017/6/2 14:32:03.983  Hiding the reconnection banner because we are connected
+info: 2017/6/2 14:32:04.760  User id: U4BPH9196, team id: T02AG6QJM
+info: 2017/6/2 14:32:04.293  Finished processing users.counts
+info: 2017/6/2 14:32:04.293  0 IMs with unreads, 0 total dm_count
+info: ╔════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 14:33:52:048      ║
+info: ╚════════════════════════════════════════════════════════════════════════════════╝
+info: 2017/6/2 14:33:56.610  booted! pri:0 version:1496434750 start_ms:1496435636047 (14ms ago)
+info: 2017/6/2 14:33:56.715  _onDOMReady
+info: 2017/6/2 14:33:56.727  session_load_count_client: 1
+info: 2017/6/2 14:33:56.736  Connecting to: wss://mpmulti-ixho.slack-msgs.com/?flannel=1&token=REDACTED&start_args=%3Fagent%3Dwebapp_8823071bfd9aa98aa1bb9a05400eca1a263d9232%26simple_latest%3Dtrue%26no_unreads%3Dtrue%26no_users%3Dtrue%26no_bots%3Dtrue%26cache_ts%3D0%26no_members%3D1%26presence_sub%3Dtrue%26mpim_aware%3Dtrue%26only_relevant_ims%3Dtrue%26canonical_avatars%3Dtrue%26eac_cache_ts%3Dtrue&version_uid=8823071bfd9aa98aa1bb9a05400eca1a263d9232&_x_connection_log=&batch_presence_aware=1&no_annotations=1
+info: 2017/6/2 14:33:56.743  Initializing provisional MS connection and fetching rtm.start over the socket
+info: 2017/6/2 14:33:56.756  _disabled:false
+info: 2017/6/2 14:33:56.758  Setting calling_rtm_start to true
+info: 2017/6/2 14:33:56.758  Starting incremental boot
+info: 2017/6/2 14:33:57.345  TS.model.supports_user_bot_caching:true
+TS.storage.isUsingMemberBotCache():false
+args.cache_ts:undefined
+api args: {"canonical_avatars":true,"include_full_users":true,"count":49,"ignore_replies":true,"channel":"C02AG6QJV","no_members":true,"token":"REDACTED","_attempts":1}
+members from LS:0, from updated_users in rtm.start:51 (slackbot will always be here)
+bots from LS:0, from updated_bots in rtm.start:0
+info: 2017/6/2 14:33:57.349  open channels/groups/ims:1 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/6/2 14:33:57.597  Finalizing incremental boot
+warn: 2017/6/2 14:33:57.599  1551ms from first html to login_sig.dispatch()
+info: 2017/6/2 14:33:58.878  User id: U4BPH9196, team id: T02AG6QJM
+info: 2017/6/2 14:33:58.905  Provisional WebSocket received a message of type hello
+info: 2017/6/2 14:33:58.915  Got rtm.start data but need to fetch 2 members
+info: 2017/6/2 14:33:58.923  Provisional WebSocket received a message of type reconnect_url
+info: 2017/6/2 14:33:59.464  Got 2 members for rtm.start :tada:
+info: 2017/6/2 14:33:59.467  Setting calling_rtm_start to false (after rtm.start from Flannel)
+info: 2017/6/2 14:33:59.471  TS.model.supports_user_bot_caching:true
+TS.storage.isUsingMemberBotCache():false
+args.cache_ts:undefined
+api args: {}
+members from LS:0, from updated_users in rtm.start:2 (slackbot will always be here)
+bots from LS:0, from updated_bots in rtm.start:0
+info: 2017/6/2 14:33:59.481  open channels/groups/ims:7 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/6/2 14:33:59.488  Completed incremental boot
+info: 2017/6/2 14:33:59.894  C02AG6QJV HAS MORE
+info: 2017/6/2 14:33:59.905  Finalizing provisional MS connection
+info: 2017/6/2 14:33:59.905  MS WS connected!
+info: 2017/6/2 14:33:59.906  Hello msg recvd, since_last_pong_ms:1496435639906
+info: 2017/6/2 14:33:59.907  host_id: flannel215-1215, server_version: build-id:780-5f2d49aa43f695f63d69081d6a511a0b2bc797c1-build-slave34-2017-05-23T17:41:43-0700 golang:go1.8
+info: 2017/6/2 14:33:59.913  Hiding the reconnection banner because we are connected
+info: 2017/6/2 14:33:59.952  User id: U4BPH9196, team id: T02AG6QJM
+info: 2017/6/2 14:34:00.246  Finished processing users.counts
+info: 2017/6/2 14:34:00.246  0 IMs with unreads, 0 total dm_count
+info: 2017/6/2 16:50:48.724  Not signalling message change because it doesn't look like anything has changed for 1496419126.210475 in C02AJB872
+info: ╔════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/02/17, 22:31:34:046      ║
+info: ╚════════════════════════════════════════════════════════════════════════════════╝
+info: 2017/6/2 22:31:37.638  booted! pri:0 version:1496452169 start_ms:1496464297630 (7ms ago)
+info: 2017/6/2 22:31:38.526  _onDOMReady
+info: 2017/6/2 22:31:38.529  session_load_count_client: 1
+info: 2017/6/2 22:31:38.534  _disabled:false
+info: 2017/6/2 22:31:38.536  Setting calling_rtm_start to true
+info: 2017/6/2 22:31:38.536  Starting incremental boot
+info: 2017/6/2 22:31:38.549  Connecting to: wss://mpmulti-4wqu.slack-msgs.com/?flannel=1&token=REDACTED&start_args=%3Fagent%3Dwebapp_5d29f1d74e78ad2fe23bb176b575bec20b144a7e%26simple_latest%3Dtrue%26no_unreads%3Dtrue%26no_users%3Dtrue%26no_bots%3Dtrue%26cache_ts%3D0%26no_members%3D1%26presence_sub%3Dtrue%26mpim_aware%3Dtrue%26only_relevant_ims%3Dtrue%26canonical_avatars%3Dtrue%26eac_cache_ts%3Dtrue&version_uid=5d29f1d74e78ad2fe23bb176b575bec20b144a7e&_x_connection_log=login-0-1496464299&batch_presence_aware=1&no_annotations=1
+info: 2017/6/2 22:31:38.555  Initializing provisional MS connection and fetching rtm.start over the socket
+info: 2017/6/2 22:31:38.884  TS.model.supports_user_bot_caching:true
+TS.storage.isUsingMemberBotCache():false
+args.cache_ts:undefined
+api args: {"canonical_avatars":true,"include_full_users":true,"count":49,"ignore_replies":true,"channel":"C02AG6QJV","no_members":true,"token":"REDACTED","_attempts":1}
+members from LS:0, from updated_users in rtm.start:51 (slackbot will always be here)
+bots from LS:0, from updated_bots in rtm.start:0
+info: 2017/6/2 22:31:38.887  open channels/groups/ims:1 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/6/2 22:31:39.239  Finalizing incremental boot
+warn: 2017/6/2 22:31:39.242  1612ms from first html to login_sig.dispatch()
+info: 2017/6/2 22:31:40.259  User id: U4BPH9196, team id: T02AG6QJM
+info: 2017/6/2 22:31:40.277  Provisional WebSocket received a message of type hello
+info: 2017/6/2 22:31:40.280  Got rtm.start data but need to fetch 2 members
+info: 2017/6/2 22:31:40.282  Provisional WebSocket received a message of type reconnect_url
+info: 2017/6/2 22:31:40.563  Got 2 members for rtm.start :tada:
+info: 2017/6/2 22:31:40.563  Setting calling_rtm_start to false (after rtm.start from Flannel)
+info: 2017/6/2 22:31:40.565  TS.model.supports_user_bot_caching:true
+TS.storage.isUsingMemberBotCache():false
+args.cache_ts:undefined
+api args: {}
+members from LS:0, from updated_users in rtm.start:2 (slackbot will always be here)
+bots from LS:0, from updated_bots in rtm.start:0
+info: 2017/6/2 22:31:40.582  open channels/groups/ims:7 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/6/2 22:31:40.592  Completed incremental boot
+info: 2017/6/2 22:31:40.894  C02AG6QJV HAS MORE
+info: 2017/6/2 22:31:40.905  Finalizing provisional MS connection
+info: 2017/6/2 22:31:40.906  MS WS connected!
+info: 2017/6/2 22:31:40.907  Hello msg recvd, since_last_pong_ms:1496464300907
+info: 2017/6/2 22:31:40.907  host_id: flannel215-1215, server_version: build-id:780-5f2d49aa43f695f63d69081d6a511a0b2bc797c1-build-slave34-2017-05-23T17:41:43-0700 golang:go1.8
+info: 2017/6/2 22:31:40.919  Hiding the reconnection banner because we are connected
+info: 2017/6/2 22:31:40.969  User id: U4BPH9196, team id: T02AG6QJM
+info: 2017/6/2 22:31:41.185  Finished processing users.counts
+info: 2017/6/2 22:31:41.185  0 IMs with unreads, 0 total dm_count
+info: ╔════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 2.6.2, linux 4.8.0-53-generic on x64 at 06/03/17, 16:48:03:132      ║
+info: ╚════════════════════════════════════════════════════════════════════════════════╝
+info: 2017/6/3 16:48:05.836  booted! pri:0 version:1496473871 start_ms:1496530085829 (6ms ago)
+info: 2017/6/3 16:48:06.270  _onDOMReady
+info: 2017/6/3 16:48:06.273  session_load_count_client: 1
+info: 2017/6/3 16:48:06.276  _disabled:false
+info: 2017/6/3 16:48:06.278  Setting calling_rtm_start to true
+info: 2017/6/3 16:48:06.278  Starting incremental boot
+info: 2017/6/3 16:48:06.288  Connecting to: wss://mpmulti-xiu6.slack-msgs.com/?flannel=1&token=REDACTED&start_args=%3Fagent%3Dwebapp_af1dcc212f779381926267de62c743098c2203e1%26simple_latest%3Dtrue%26no_unreads%3Dtrue%26no_users%3Dtrue%26no_bots%3Dtrue%26cache_ts%3D0%26no_members%3D1%26presence_sub%3Dtrue%26mpim_aware%3Dtrue%26only_relevant_ims%3Dtrue%26canonical_avatars%3Dtrue%26eac_cache_ts%3Dtrue&version_uid=af1dcc212f779381926267de62c743098c2203e1&_x_connection_log=login-0-1496530086&batch_presence_aware=1&no_annotations=1
+info: 2017/6/3 16:48:06.292  Initializing provisional MS connection and fetching rtm.start over the socket
+info: 2017/6/3 16:48:06.569  TS.model.supports_user_bot_caching:true
+TS.storage.isUsingMemberBotCache():false
+args.cache_ts:undefined
+api args: {"canonical_avatars":true,"include_full_users":true,"count":49,"ignore_replies":true,"channel":"C02AG6QJV","no_members":true,"token":"REDACTED","_attempts":1}
+members from LS:0, from updated_users in rtm.start:51 (slackbot will always be here)
+bots from LS:0, from updated_bots in rtm.start:0
+info: 2017/6/3 16:48:06.572  open channels/groups/ims:1 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/6/3 16:48:06.661  Finalizing incremental boot
+warn: 2017/6/3 16:48:06.662  833ms from first html to login_sig.dispatch()
+info: 2017/6/3 16:48:07.187  User id: U4BPH9196, team id: T02AG6QJM
+info: 2017/6/3 16:48:07.204  Provisional WebSocket received a message of type hello
+info: 2017/6/3 16:48:07.206  Got rtm.start data but need to fetch 2 members
+info: 2017/6/3 16:48:07.208  Provisional WebSocket received a message of type reconnect_url
+info: 2017/6/3 16:48:07.340  Got 2 members for rtm.start :tada:
+info: 2017/6/3 16:48:07.341  Setting calling_rtm_start to false (after rtm.start from Flannel)
+info: 2017/6/3 16:48:07.343  TS.model.supports_user_bot_caching:true
+TS.storage.isUsingMemberBotCache():false
+args.cache_ts:undefined
+api args: {}
+members from LS:0, from updated_users in rtm.start:2 (slackbot will always be here)
+bots from LS:0, from updated_bots in rtm.start:0
+info: 2017/6/3 16:48:07.379  open channels/groups/ims:7 initial_msgs_cnt:42 subsequent_msgs_cnt:84 special_initial_msgs_cnt:84
+info: 2017/6/3 16:48:07.380  Completed incremental boot
+info: 2017/6/3 16:48:07.650  C02AG6QJV HAS MORE
+info: 2017/6/3 16:48:07.660  Finalizing provisional MS connection
+info: 2017/6/3 16:48:07.660  MS WS connected!
+info: 2017/6/3 16:48:07.662  Hello msg recvd, since_last_pong_ms:1496530087662
+info: 2017/6/3 16:48:07.662  host_id: flannel215-1215, server_version: build-id:780-5f2d49aa43f695f63d69081d6a511a0b2bc797c1-build-slave34-2017-05-23T17:41:43-0700 golang:go1.8
+info: 2017/6/3 16:48:07.672  Hiding the reconnection banner because we are connected
+info: 2017/6/3 16:48:07.708  User id: U4BPH9196, team id: T02AG6QJM
+info: 2017/6/3 16:48:07.895  Finished processing users.counts
+info: 2017/6/3 16:48:07.895  0 IMs with unreads, 0 total dm_count

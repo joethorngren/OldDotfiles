@@ -1,0 +1,24 @@
+{
+   "content_scripts": [ {
+      "css": [ "CSS/YouTubePlus.css" ],
+      "exclude_matches": [ "*://www.youtube.com/live_chat*", "*://www.youtube.com/embed/*", "*://www.youtube.com/tv*" ],
+      "js": [ "JS/YouTubePlus.user.js" ],
+      "matches": [ "*://www.youtube.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "YouTube with more freedom",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtu9foCI46lqWLzw3+Xx0vQG5gSF3d0VE/PUwHr7MSygHLXPtyrGAvnF/y7PEYD44xr4Y4zMr5MCJ6hJzmE8SPxQnFUS4ArE2syvM69KUCGKo9Eg7o627lHyGFB9OjKjaoo+GoGr1GyLESwbTTfH4f72inCtYXum+jRgjRb+xf2dep85DmmTzjONh0cfEbUTKN9eFH3hB7Q4mSE85gSl9HLq3GXkxAnMQBco+uTVhQTs6KSSKomJgpOmAB62lwzlOmAu9+yTFS5SAFEKy3ep9n0rY9CjM74GuJlYCnR76w07KAkiDcpjHP02p4pV7qpg7jb6sL0snal71trjm4g7uPwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "42",
+   "name": "Particle for YouTube",
+   "options_page": "html/options.html",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.8.7"
+}

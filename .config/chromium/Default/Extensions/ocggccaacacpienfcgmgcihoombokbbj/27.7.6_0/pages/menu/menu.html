@@ -1,0 +1,79 @@
+<head>
+    <script src="../../vendor/head.min.js"></script>
+    <script src="./js/menu-route.js"></script>
+    
+    <link rel="stylesheet" href="../../vendor/jquery-ui/css/jquery-ui.css" />
+    <link rel="stylesheet" href="../../vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style/menu.css" />
+</head>
+
+<body>
+    <ul id="menuPanel">
+        <li id="menuPanelNewTab">
+            <i><img src="/img/icon/icon24.png"></i>
+            <span class='a' lang="panel_new_tab"></span>
+            <span id="setAsWrap" class='mp-right mp-mini hide'>
+                <label>
+                    <input type="checkbox" id="setAsNewTab" lang="settings_show_lsp_as_new_tab">
+                    <span lang="panel_set_as_new_tab"></span>
+                </label>
+            </span>
+        </li>
+        <li id="menuPanelSaveAllTabs">
+            <i><img src="./img/tabs_all.png"></i>
+            <span class='a' lang="panel_save_all_opened_tabs"></span>
+        </li>
+        <li id="menuPanelSaveSomeTabs">
+            <i><img src="./img/tabs_check.png"></i>
+            <span class='a' lang="panel_save_some_opened_tabs"></span>
+        </li>
+        
+        <li id="menuPanelSaveCurrentTab">
+            <i><img src="./img/tab.png"></i>
+            <span class='a' lang="panel_save_current_tab"></span>
+        </li>
+        <li id="menuPanelSelectTheme">
+            <i><img src="./img/theme.png"></i>
+            <span class='a' lang="panel_select_theme"></span>
+        </li>
+        <li id="menuPanelSettings">
+            <i><img src="./img/settings.png"></i>
+            <span class='a' lang="panel_settings"></span>
+        </li>
+        <li id="menuPanelGetPRO" class='hide'>
+            <i><img src="./img/star.png"></i>
+            <span class='a' lang="menu_float_get_pro"></span>
+        </li>
+        
+        <li id="menuPanelContactUs">
+            <i><img src="./img/mail.png"></i>
+            <span class='a' lang="panel_contact_us"></span>
+        </li>
+        <li id="menuPanelLogout" class='hide'>
+            <i><img src="./img/logout.png"></i>
+            <span class='a' lang="panel_logout"></span>
+            <span class='username mini'></span>
+        </li>
+        <li id="menuPanelLogin" class='hide0'>
+            <i><img src="./img/login.png"></i>
+            <span class='a' lang="panel_login"></span>
+        </li>
+    </ul>
+    
+    
+    <div id="saveSomeTabsWrap">
+        <div id="newGroupName" class="center">
+            <span lang="panel_group_name"></span>
+        </div>
+        
+        <div id="tabsSwitch" lang="panel_select_unselect"></div>
+        <div id="tabsListWrap">
+            <ul id="tabsList"></ul>
+        </div>
+        
+        <div class="center">
+            <span class="backButton" lang="panel_back"></span>
+            <button id="newGroupSubmit" class="btn btn-success"><span lang="panel_save_tabs"></span> (<n></n>) <span class="done" lang="panel_save_done"></span></button>
+        </div>
+    </div>
+</body>

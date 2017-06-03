@@ -1,0 +1,502 @@
+T 1496381013 24*	boomboxnation has quit (Quit: Bye)
+T 1496381031 23*	boomboxnation (~AndChat79@c-67-188-43-4.hsd1.ca.comcast.net23) has joined
+T 1496381085 23*	cliff (~AndChat79@2607:fb90:4a1:a483:a5c6:da5c:3f9c:a5f223) has joined
+T 1496381298 24*	boomboxnation has quit (Ping timeout: 260 seconds)
+T 1496381307 24*	cliff has quit (Client Quit)
+T 1496381353 24*	enckse has quit (Ping timeout: 272 seconds)
+T 1496381439 23*	enckse (~enckse@znc.epiphyte.network23) has joined
+T 1496381561 24*	diegs_ has quit (Ping timeout: 255 seconds)
+T 1496382627 23*	mandje (~mandje@2001:985:8762:1:c0e4:7340:779c:923023) has joined
+T 1496382696 24*	BubbatheVTOG has quit (Quit: No Ping reply in 180 seconds.)
+T 1496382899 23*	fcw (~fwilson@tjctf/organizer/fwilson23) has joined
+T 1496382907 24*	fwilson has quit (Read error: Connection reset by peer)
+T 1496382907 23*	bubbathevtog_ (~quassel@pool-70-105-249-94.port.east.myfairpoint.net23) has joined
+T 1496383020 24*	28steven_ is now known as 18stivo
+T 1496383101 24*	PrymalDark has quit (Ping timeout: 272 seconds)
+T 1496383196 23*	PrymalDark (~Unknown@gateway/vpn/privateinternetaccess/prymaldark23) has joined
+T 1496383272 23*	venmx (~pactadmin@85.255.235.2923) has joined
+T 1496383573 24*	venmx has quit (Ping timeout: 260 seconds)
+T 1496383924 24*	Xenguy has quit (Quit: leaving)
+T 1496384181 24*	aarobc has quit (Quit: Connection closed for inactivity)
+T 1496384503 23*	skontar (skontar@nat/redhat/x-kmlveblwowjjptay23) has joined
+T 1496385104 24*	tunekey has quit (Remote host closed the connection)
+T 1496385133 23*	tunekey (~tunekey@unaffiliated/tunekey23) has joined
+T 1496385202 24*	michaelrose has quit (Ping timeout: 240 seconds)
+T 1496385626 24*	tunekey has quit (Ping timeout: 245 seconds)
+T 1496385666 23*	jagob (~jacob@d40a9e34.rev.stofanet.dk23) has joined
+T 1496386382 24*	hoxbug has quit (Remote host closed the connection)
+T 1496386633 23*	michaelrose (~michael@75-172-1-48.tukw.qwest.net23) has joined
+T 1496386690 23*	ponyrider (~cf2iqx@unaffiliated/ponyrider23) has joined
+T 1496386968 24*	callumstyan has quit (Ping timeout: 260 seconds)
+T 1496387046 23*	tesseract (~tesseract@2a00:1028:83a2:66c6:5ee0:c5ff:fe71:efb223) has joined
+T 1496387069 24*	BenG83_ has quit (Ping timeout: 255 seconds)
+T 1496387659 24*	ponyrider has quit (Ping timeout: 260 seconds)
+T 1496387684 23*	ponyrider (~cf2iqx@unaffiliated/ponyrider23) has joined
+T 1496387842 23*	im0nde (~im0nde@loiacono2.fo.FH-Koeln.DE23) has joined
+T 1496388232 23*	ohaither (~manjaro-i@x4db38a96.dyn.telefonica.de23) has joined
+T 1496388472 24*	ponyrider has quit (Ping timeout: 260 seconds)
+T 1496388609 23*	ponyrider (~cf2iqx@unaffiliated/ponyrider23) has joined
+T 1496388751 23*	lahol (~lahol@sirius.mathematik.tu-chemnitz.de23) has joined
+T 1496389040 24*	jagob has quit (Remote host closed the connection)
+T 1496389424 23*	copypasteque (~copypaste@LPuteaux-657-1-20-34.w193-248.abo.wanadoo.fr23) has joined
+T 1496389557 23*	emdete (~m@total-communication.vfnet.de23) has joined
+T 1496389642 24*	ponyrider has quit (Ping timeout: 240 seconds)
+T 1496389781 23*	ponyrider (~cf2iqx@unaffiliated/ponyrider23) has joined
+T 1496389923 23*	tuxi3 (~conny@a89-183-19-233.net-htp.de23) has joined
+T 1496390554 24*	tuxi3 has quit (Quit: Leaving)
+T 1496390651 18<28ponyrider18>	i/relaod
+T 1496391021 23*	JesusFreak (~patrick@86.47.248.14923) has joined
+T 1496391499 24*	ponyrider has quit (Ping timeout: 272 seconds)
+T 1496391966 23*	ponyrider (~cf2iqx@120.17.12.19523) has joined
+T 1496392151 24*	ponyrider has quit (Changing host)
+T 1496392151 23*	ponyrider (~cf2iqx@unaffiliated/ponyrider23) has joined
+T 1496392697 24*	ponyrider has quit (Ping timeout: 258 seconds)
+T 1496392867 24*	CPrompt^ has quit (Remote host closed the connection)
+T 1496393507 23*	somis (~somis@149.56.153.18323) has joined
+T 1496393872 24*	ohaither has quit (Ping timeout: 240 seconds)
+T 1496393922 23*	insecta (~olli@a91-156-37-141.elisa-laajakaista.fi23) has joined
+T 1496394331 23*	Introoter (uid189461@gateway/web/irccloud.com/x-tfyrfdmwmxajqzin23) has joined
+T 1496394633 24*	michaelrose has quit (Ping timeout: 260 seconds)
+T 1496395462 23*	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru23) has joined
+T 1496395908 24*	xlaech has quit (Remote host closed the connection)
+T 1496396221 24*	skontar has quit (Remote host closed the connection)
+T 1496396288 23*	tuxdeepin (~Manjaro-D@a89-183-19-233.net-htp.de23) has joined
+T 1496397267 23*	MtotheM_ (~MtotheM@h-4-126.a392.priv.bahnhof.se23) has joined
+T 1496397365 23*	ballessay (~ballessay@84-75-195-77.dclient.hispeed.ch23) has joined
+T 1496397766 23*	skontar (skontar@nat/redhat/x-xsrlgrisuqpfjyte23) has joined
+T 1496397877 24*	nimaje has quit (Killed (wilhelm.freenode.net (Nickname regained by services)))
+T 1496397884 23*	nimaje (~nimaje@p5485E55A.dip0.t-ipconnect.de23) has joined
+T 1496398198 24*	tuxdeepin has quit (Quit: Leaving)
+T 1496398425 23*	algoban (~al@221.pool85-48-41.dynamic.orange.es23) has joined
+T 1496398513 23*	ohaither (~manjaro-i@x4db38a96.dyn.telefonica.de23) has joined
+T 1496398598 24*	MtotheM_ has quit (Read error: Connection reset by peer)
+T 1496399711 24*	robattila256 has quit (Ping timeout: 268 seconds)
+T 1496399917 23*	endre (endre@end.re23) has joined
+T 1496399972 23*	skontar_ (skontar@nat/redhat/x-rcdwamgmrppsbdsk23) has joined
+T 1496399978 24*	skontar has quit (Read error: Connection reset by peer)
+T 1496400718 23*	hardbot (~hardbot@85.254.25.93.rev.sfr.net23) has joined
+T 1496400954 24*	PatrolDoom has quit (Quit: WeeChat 1.8)
+T 1496401044 23*	PatrolDoom (~NilesCaul@2602:306:367a:a5f0:b69e:47:99d7:c45623) has joined
+T 1496401931 23*	tuxi3 (~conny@a89-183-19-233.net-htp.de23) has joined
+T 1496402262 24*	tuxi3 has quit (Quit: Leaving)
+T 1496402598 23*	bnwilson_ (~bnwilson@107-1-97-172-ip-static.hfc.comcastbusiness.net23) has joined
+T 1496403072 23*	HardlySeen (~Gathering@unaffiliated/gatheringknowleg23) has joined
+T 1496403501 24*	ZyX-I has quit (Ping timeout: 245 seconds)
+T 1496403599 23*	Chinggis6 (~chinggis@62.212.231.12323) has joined
+T 1496403599 24*	Chinggis6 has quit (Changing host)
+T 1496403599 23*	Chinggis6 (~chinggis@unaffiliated/chinggis623) has joined
+T 1496403808 23*	anchnk (500c6eca@gateway/web/freenode/ip.80.12.110.20223) has joined
+T 1496403835 18<27anchnk18>	hi, I am using i3 as a window manager and I would like to know what would be the cleanest way to use dunst instead of notify-osd as dbus'notification client ?
+T 1496403843 18<27anchnk18>	is it to kill the notify-osd daemon and then launch dunst process or can i replace notify-osd ?
+T 1496403994 18<26brainwash18>	why is notify-osd running in the first place?
+T 1496404008 18<27anchnk18>	I think it's by default in ubuntu
+T 1496404025 18<26brainwash18>	can't you simply remove it?
+T 1496404030 18<26brainwash18>	the package
+T 1496404077 18<27anchnk18>	yeah I could do that but I thought I could switch between the two when I would like to
+T 1496404301 18<19okraits18>	I also searched at one point but I don't know if you can define the notification daemon to be used at some place
+T 1496404317 18<19okraits18>	I would also suggest to uninstall the daemon you don't want
+T 1496404345 18<26brainwash18>	you could move /usr/share/dbus-1/services/org.freedesktop.Notifications.service somewhere else
+T 1496404367 18<26brainwash18>	this way notify-osd won't be activated via dbus anymore
+T 1496404393 18<26brainwash18>	move this file back to restore notify-osd functionality
+T 1496404450 18<27anchnk18>	awesome that will do it
+T 1496404480 18<19okraits18>	the only issue here might be package updates :)
+T 1496405037 23*	venmx (~pactadmin@85.255.235.2923) has joined
+T 1496405191 24*	copypasteque has quit (Quit: WeeChat 1.8)
+T 1496405328 24*	venmx has quit (Ping timeout: 240 seconds)
+T 1496405597 24*	emdete has quit (Ping timeout: 272 seconds)
+T 1496405607 24*	im0nde has quit (Ping timeout: 240 seconds)
+T 1496405991 23*	^andrea^ (~^andrea^@64.53.90.146.dyn.plus.net23) has joined
+T 1496406023 23*	lukaso666 (~lukaso666@a01-nat.satkol.pl23) has joined
+T 1496406064 23*	wsdjeg (~wsdjeg@114.225.182.1523) has joined
+T 1496406187 23*	nona (~nona@catv-89-132-115-162.catv.broadband.hu23) has joined
+T 1496406369 23*	emdete (~m@total-communication.vfnet.de23) has joined
+T 1496406402 24*	ohaither has quit (Quit: leaving)
+T 1496406487 23*	im0nde (~im0nde@nat079014.nat.FH-Koeln.DE23) has joined
+T 1496406702 23*	ksjk1998 (~ksjk1998@2602:306:36d0:8ad0:785d:91af:a9a4:d68723) has joined
+T 1496406778 24*	kalbasit has quit (Ping timeout: 260 seconds)
+T 1496407059 23*	kalbasit (~kalbasit@unaffiliated/kalbasit23) has joined
+T 1496407163 24*	im0nde has quit (Ping timeout: 260 seconds)
+T 1496407229 23*	im0nde (~im0nde@nat079038.nat.FH-Koeln.DE23) has joined
+T 1496407321 24*	amayer_ has quit (Quit: Leaving)
+T 1496407327 23*	BenG83 (~BenG83@p5093a28f.dip0.t-ipconnect.de23) has joined
+T 1496407544 19*	Now talking on 22#i3
+T 1496407544 22*	Topic for 22#i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+T 1496407544 22*	Topic for 22#i3 set by 26sECuRE!~sECuRE@midna.zekjur.net (24Sat Apr  1 11:39:12 2017)
+T 1496407559 23*	jagob (~jacob@d40a9e34.rev.stofanet.dk23) has joined
+T 1496407678 24*	im0nde has quit (Ping timeout: 255 seconds)
+T 1496407866 23*	amayer (~amayer@mail.weberadvertising.com23) has joined
+T 1496408024 24*	Alina-malina has quit (Excess Flood)
+T 1496408043 23*	Alina-malina (~Alina-mal@37.157.223.8023) has joined
+T 1496408180 24*	Alina-malina has quit (Changing host)
+T 1496408180 23*	Alina-malina (~Alina-mal@unaffiliated/alina-malina23) has joined
+T 1496408256 24*	JesusFreak has quit (Remote host closed the connection)
+T 1496408372 23*	darlan (~darlan@inf58-187.inf.ufsc.br23) has joined
+T 1496408427 23*	chel (~chel@CPE60a44cef53f0-CMc8fb26477c91.cpe.net.cable.rogers.com23) has joined
+T 1496408451 24*	BenG83 has quit (Ping timeout: 245 seconds)
+T 1496408692 24*	nona has quit (Ping timeout: 240 seconds)
+T 1496408694 23*	ponyrider (~cf2iqx@unaffiliated/ponyrider23) has joined
+T 1496408895 24*	amayer has quit (Quit: Leaving)
+T 1496408915 23*	amayer (~amayer@mail.weberadvertising.com23) has joined
+T 1496408994 23*	choru (~choru@78-56-154-238.static.zebra.lt23) has joined
+T 1496409100 24*	darlan has quit (Quit: Communi 3.5.0 - http://communi.github.com)
+T 1496410078 23*	A-train (~aaron@199.46.97.11323) has joined
+T 1496410143 23*	CPrompt^ (~CPrompt^@cpe-45-36-165-193.triad.res.rr.com23) has joined
+T 1496410297 24*	chel has quit (Ping timeout: 255 seconds)
+T 1496410937 24*	ponyrider has quit (Quit: WeeChat 1.8)
+T 1496411152 24*	emdete has quit (Ping timeout: 240 seconds)
+T 1496411216 23*	zabow (~zabow@94-39-243-75.adsl-ull.clienti.tiscali.it23) has joined
+T 1496411239 24*	zabow has quit (Client Quit)
+T 1496411339 24*	jolange has quit (Ping timeout: 240 seconds)
+T 1496411383 23*	ponyrider (~cf2iqx@unaffiliated/ponyrider23) has joined
+T 1496411450 24*	ChrisLane has quit (Ping timeout: 255 seconds)
+T 1496411495 23*	holden- (~username@unaffiliated/holden-23) has joined
+T 1496411614 23*	alexpbrown (~alex.brow@38.97.68.12623) has joined
+T 1496411918 24*	azamatms has quit (Remote host closed the connection)
+T 1496412180 24*	amayer has quit (Quit: Leaving)
+T 1496412200 23*	amayer (~amayer@mail.weberadvertising.com23) has joined
+T 1496412206 24*	amayer has quit (Remote host closed the connection)
+T 1496412249 23*	amayer (~amayer@mail.weberadvertising.com23) has joined
+T 1496412266 24*	ponyrider has quit (Read error: Connection reset by peer)
+T 1496412534 24*	amayer has quit (Client Quit)
+T 1496412555 23*	amayer (~amayer@mail.weberadvertising.com23) has joined
+T 1496412694 23*	indeedwatson (uid108674@gateway/web/irccloud.com/x-taijhxchdsbyztvy23) has joined
+T 1496413446 23*	Realmkeeper (~holoirc@122.175.76.20423) has joined
+T 1496413454 24*	Realmkeeper has quit (Remote host closed the connection)
+T 1496413737 23*	GitHub71 (~GitHub71@192.30.252.4223) has joined
+T 1496413737 -18GitHub71/22#i3-	[i3] hwangcc23 opened pull request #2799: Add compilation instructions to the hacking howto (next...add_compilation_inst) https://git.io/vHzBZ
+T 1496413737 24*	GitHub71 (~GitHub71@192.30.252.4224) has left
+T 1496413844 23*	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru23) has joined
+T 1496414248 23*	ChrisLane (~irc@cpc110389-king13-2-0-cust114.19-1.cable.virginm.net23) has joined
+T 1496414466 23*	MessedUpHare (~MessedUpH@79.141.36.7723) has joined
+T 1496414705 24*	neoo has quit (Ping timeout: 240 seconds)
+T 1496414708 24*	lahol has quit (Quit: leaving)
+T 1496415080 23*	BartPejl (~Yeki@trelawney.emi.u-bordeaux1.fr23) has joined
+T 1496415455 23*	nona_ (~nona@business-89-134-89-5.business.broadband.hu23) has joined
+T 1496415799 24*	nona_ has quit (Ping timeout: 260 seconds)
+T 1496416219 23*	im0nde (~im0nde@2a03:2260:11e:301:c54:224a:62b3:ef2523) has joined
+T 1496416252 24*	MessedUpHare has quit (Ping timeout: 245 seconds)
+T 1496416482 23*	vrederv (~vrederv@80-108-13-139.cable.dynamic.surfer.at23) has joined
+T 1496416530 24*	Chinggis6 has quit (Quit: WeeChat 1.8)
+T 1496416555 18<20vrederv18>	Does i3 properly trigger the resize event for windows? Cause when I resize urxvt its content gets messed up even though urxvt does reflow-on-resize.
+T 1496416611 18<20vrederv18>	It doesn't happen in floating mode (while it gets also messed up there it gets messed up in another way).
+T 1496416860 18<20vrederv18>	Interestingly it doesn't happen with termite ...
+T 1496416898 18<20vrederv18>	I am wondering if urxvt just doesn't understand a resize signal or if VTE is polling the window size.
+T 1496416909 24*	skontar_ has quit (Remote host closed the connection)
+T 1496416927 24*	Hund has quit (Changing host)
+T 1496416927 23*	Hund (~Hund@ubuntu/member/hund23) has joined
+T 1496417074 24*	im0nde has quit (Ping timeout: 255 seconds)
+T 1496417374 23*	cliff (~cliff@c-67-188-43-4.hsd1.ca.comcast.net23) has joined
+T 1496417390 24*	28cliff is now known as 18cliff_
+T 1496417483 24*	vrederv has quit (Quit: Lost terminal)
+T 1496418156 23*	BenG83 (~BenG83@HSI-KBW-082-212-041-008.hsi.kabelbw.de23) has joined
+T 1496418254 23*	alex`` (~alex@2a01cb000bb310000e31f98b4cdf4eae.ipv6.abo.wanadoo.fr23) has joined
+T 1496418376 23*	tzuntzai_ (~tzuntzai@cpe-76-186-161-144.tx.res.rr.com23) has joined
+T 1496418397 24*	tzuntzai_ has quit (Client Quit)
+T 1496418442 23*	tzuntzai (~tzuntzai@cpe-76-186-161-144.tx.res.rr.com23) has joined
+T 1496419138 24*	fraksken_work has quit (Ping timeout: 246 seconds)
+T 1496419242 24*	tesseract has quit (Quit: Leaving)
+T 1496419253 23*	fraksken_work (~fraksken@unaffiliated/fraksken-work/x-623981023) has joined
+T 1496419548 23*	venmx (~pactadmin@85.255.235.2923) has joined
+T 1496419614 23*	ARI__ (5228c453@gateway/web/freenode/ip.82.40.196.8323) has joined
+T 1496419678 23*	kw21 (~kw21@D978E830.cm-3-1d.dynamic.ziggo.nl23) has joined
+T 1496419702 24*	stormanka has quit (Ping timeout: 240 seconds)
+T 1496419718 18<26ARI__18>	Hi, I am having an issue with configuring a dual-monitor setup on my PC. Please see this question I posted on stackexchange for all the details. https://unix.stackexchange.com/questions/368640/i3wm-multi-monitor-error-while-moving-displays
+T 1496419730 18<26ARI__18>	hope you can help
+T 1496419785 23*	netvor_ (~amahdal@unaffiliated/netvor23) has joined
+T 1496419827 24*	venmx has quit (Ping timeout: 240 seconds)
+T 1496419852 23*	stormanka (~stormanka@185.86.106.18323) has joined
+T 1496419931 24*	wsdjeg has quit (Remote host closed the connection)
+T 1496419975 23*	ARI___ (5228c453@gateway/web/freenode/ip.82.40.196.8323) has joined
+T 1496419993 23*	m0u (~m0u@250.red-79-159-194.dynamicip.rima-tde.net23) has joined
+T 1496419993 24*	m0u has quit (Changing host)
+T 1496419993 23*	m0u (~m0u@unaffiliated/m0u23) has joined
+T 1496420135 24*	ARI__ has quit (Ping timeout: 260 seconds)
+T 1496420260 18<29xmaka18>	ARI__, if i understand it right you could try xrandr --output DVI-D-1 --right-of DVI-I-1 --mode auto
+T 1496420310 18<29xmaka18>	to be exact $(xrandr --output DVI-D-1 --right-of DVI-I-1 --mode auto)
+T 1496420373 18<29xmaka18>	or changed outputs, i'm a bit confused, one option should work
+T 1496420374 18<20ARI___18>	thanks , i'll try this
+T 1496420493 18<29xmaka18>	if i understand it right you didn't switched the devices lgically. it seems you only 'corrected' a not present offset
+T 1496420860 18<20ARI___18>	xrandr: cannot find mode auto
+T 1496420861 18<20ARI___18>	:(
+T 1496420939 18<28nimaje18>	ARI___: try '--auto' instead of '--mode auto'
+T 1496420964 23*	callumstyan (~callum@S0106a84e3fc07df3.vc.shawcable.net23) has joined
+T 1496421061 18<20ARI___18>	nothing seems to be changing
+T 1496421110 18<29xmaka18>	ARI___, type $(xrandr --auto) to get in 'standard'
+T 1496421142 18<29xmaka18>	and maybe use --verbose to get more informations
+T 1496421208 24*	callumstyan has quit (Ping timeout: 240 seconds)
+T 1496421227 18<20ARI___18>	i'm trying this on my terminal $(xrandr --output DVI-D-1 --right-of DVI-I-1 --auto)
+T 1496421286 23*	im0nde (~im0nde@2a03:2260:11e:301:c54:224a:62b3:ef2523) has joined
+T 1496421320 18<28nimaje18>	ARI___: well, 'xrandr --output DVI-I-1 --auto --output DVI-D-1 --auto --right-of DVI-I-1' should be more correct
+T 1496421419 18<20ARI___18>	xrandr --output DVI-I-1 --auto --output DVI-D-1 --auto --right-of DVI-I-1 --verbose
+T 1496421428 18<20ARI___18>	crtc 0:    1920x1080  60.00 +0+0 "DVI-I-1"
+T 1496421435 18<20ARI___18>	crtc 1:    1920x1080  60.00 +1920+0 "DVI-D-1"
+T 1496421506 23*	silverhom (~silverhom@c83-252-236-239.bredband.comhem.se23) has joined
+T 1496421680 24*	lukaso666 has quit (Ping timeout: 260 seconds)
+T 1496421801 18<20ARI___18>	looks like the outputs haven't switched
+T 1496421851 18<28nimaje18>	ARI___: seems like someone here swapped the positions and the others didn't check use --left-of instead of --right-of
+T 1496421874 18<20ARI___18>	cool
+T 1496421898 18<20ARI___18>	awesome! worked!
+T 1496421912 18<20ARI___18>	i wonder how that happened
+T 1496422145 24*	im0nde has quit (Quit: im0nde)
+T 1496422615 18<27BiW18>	is there a way to get i3lock to trigger a command when it's unlocked?  I've got a raspi with screen showing graphs, and I can get it to turn the pi screen off when my desktop screensaver kicks in, but can't find a way to do something when it unlocks
+T 1496422754 18<28nimaje18>	BiW: well you could do 'i3lock -n; <your command called after unlock>'
+T 1496422794 18<27BiW18>	ah, that's an idea
+T 1496422919 19*	Now talking on 22#i3
+T 1496422919 22*	Topic for 22#i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+T 1496422919 22*	Topic for 22#i3 set by 26sECuRE!~sECuRE@midna.zekjur.net (24Sat Apr  1 11:39:12 2017)
+T 1496422921 24*	28fcw is now known as 18fwilson
+T 1496422977 23*	hays_ (~quassel@c-73-213-111-1.hsd1.dc.comcast.net23) has joined
+T 1496422977 24*	hays_ has quit (Changing host)
+T 1496422977 23*	hays_ (~quassel@fsf/member/hays23) has joined
+T 1496423095 24*	hays has quit (Ping timeout: 268 seconds)
+T 1496423178 24*	anchnk has quit (Quit: Page closed)
+T 1496423392 18<27BiW18>	nimaje: yea, that looks like it does the trick, thanks :)
+T 1496423404 23*	callumstyan (~callum@216.251.135.7423) has joined
+T 1496423788 24*	callumstyan has quit (Ping timeout: 260 seconds)
+T 1496423952 23*	craigger (~cwhipp@97-117-231-50.phnx.qwest.net23) has joined
+T 1496424253 24*	ARI___ has quit (Quit: Page closed)
+T 1496424352 23*	callumstyan (~callum@216.251.135.7423) has joined
+T 1496424500 23*	aarobc (uid151482@gateway/web/irccloud.com/x-glpnyuoadukaykyc23) has joined
+T 1496424703 24*	PatrolDoom has quit (Ping timeout: 260 seconds)
+T 1496424802 23*	notis (~notis@178.128.16.229.dsl.dyn.forthnet.gr23) has joined
+T 1496424915 23*	tunekey (~tunekey@unaffiliated/tunekey23) has joined
+T 1496425162 24*	kremfloete has quit (Ping timeout: 240 seconds)
+T 1496425364 23*	kremfloete (~kremfloet@84-52-239.231.3p.ntebredband.no23) has joined
+T 1496425527 24*	schelcj has quit (Ping timeout: 240 seconds)
+T 1496425691 23*	schelcj (~schelcj@75-133-50-3.dhcp.trcy.mi.charter.com23) has joined
+T 1496425866 24*	28cliff_ is now known as 18boomboxnation
+T 1496426230 23*	mstruebing (~mstruebin@p200300E3DBCDAE373AB1DBFFFEB33649.dip0.t-ipconnect.de23) has joined
+T 1496426330 23*	notis_ (~notis@178.128.31.228.dsl.dyn.forthnet.gr23) has joined
+T 1496426398 24*	notis has quit (Ping timeout: 240 seconds)
+T 1496426783 24*	kalbasit has quit (Ping timeout: 258 seconds)
+T 1496426843 23*	frakturfreak (~frakturfr@unaffiliated/frakturfreak23) has joined
+T 1496426991 24*	datasmurf has quit (Ping timeout: 240 seconds)
+T 1496426999 23*	lukaso666 (~lukaso666@a01-nat.satkol.pl23) has joined
+T 1496427025 23*	venmx (~pactadmin@85.255.235.2923) has joined
+T 1496427045 23*	diegs_ (~diegs_@unaffiliated/diegs/x-943821123) has joined
+T 1496427139 23*	kalbasit (~kalbasit@unaffiliated/kalbasit23) has joined
+T 1496427667 23*	datasmurf (~datasmurf@unaffiliated/datasmurf23) has joined
+T 1496427856 24*	tzuntzai has quit (Quit: WeeChat 1.8)
+T 1496427886 FiSHLiM plugin unloaded
+T 1496427886 Python interface unloaded
+T 1496432277 19*	Now talking on 22#i3
+T 1496432277 22*	Topic for 22#i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+T 1496432277 22*	Topic for 22#i3 set by 26sECuRE!~sECuRE@midna.zekjur.net (24Sat Apr  1 11:38:49 2017)
+T 1496432305 24*	daktak has quit (Quit: No Ping reply in 180 seconds.)
+T 1496432316 23*	LordCeprius (727d7af7@gateway/web/thelounge/ip.114.125.122.24723) has joined
+T 1496432333 18<27Absolute018>	size hints...
+T 1496432346 18<19callumstyan18>	Improvotter, sounds like you want a terminal that supports tabs rather than i3 window tabs
+T 1496432364 18<29xyzzy[m]18>	Can you try changing the font? Reducing the size, using the non-bold variant or trying another monospace font might help.
+T 1496432381 18<28Improvotter18>	callumstyan: nah, why would I need that if i3 does it for me? Even more stuff to learn and that sounds redundant.
+T 1496432392 23*	daktak (~quassel@220-245-14-175.static.tpgi.com.au23) has joined
+T 1496432403 18<28nimaje18>	Absolute0: probably that space is not big enought for another row, so urxvt has background color there, can also happen on the right
+T 1496432440 18<19callumstyan18>	that's just how I interpreted your question
+T 1496432465 18<19callumstyan18>	1 window can not be tabbed, multiple windows can be in a tabbed layout
+T 1496432492 18<19callumstyan18>	unless you're using something like a terminal that supports tabs
+T 1496432501 18<19callumstyan18>	but it seems someone else provided a solution :)
+T 1496432522 18<27Absolute018>	nimaje: in awesomewm I was able to fix the issue with some code in the config
+T 1496432542 18<27Absolute018>	oh I think it's the title bar
+T 1496432548 18<27Absolute018>	uses up the line
+T 1496432585 24*	hardbot has quit (Ping timeout: 240 seconds)
+T 1496432641 18<28LordCeprius18>	Hey guys, when I press twice mod+enter and it will open 2 terminals
+T 1496432658 18<28LordCeprius18>	but my cursor becomes loading and not finished till long time
+T 1496432676 18<28LordCeprius18>	so I need to refresh the config to reset that problem. how can I fixed this?
+T 1496432769 18<28LordCeprius18>	I read in reddit I have to replace loading cursor with normal cursor. But I don't want it
+T 1496432792 18<29xyzzy[m]18>	You could add --no-startup-id to the line where the keybinding for the terminal is defined. This is just a workaround though. I don't know why it doesn't recognize that the application has been started.
+T 1496432887 23*	mstruebing (~mstruebin@p200300E3DBCDAE1C3AB1DBFFFEB33649.dip0.t-ipconnect.de23) has joined
+T 1496433043 18<28LordCeprius18>	xyzzy[m]: thats easy, I don't even know this. thanks!
+T 1496433538 19*	Now talking on 22#i3
+T 1496433538 22*	Topic for 22#i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+T 1496433538 22*	Topic for 22#i3 set by 26sECuRE!~sECuRE@midna.zekjur.net (24Sat Apr  1 11:39:12 2017)
+T 1496433682 24*	HardlySeen has quit (Quit: leaving)
+T 1496433815 18<28nimaje18>	Absolute0: ŵell, I know that some tiling WMs can smartly size windows to minimize that useless space (I don't remember which)
+T 1496433960 24*	LordCeprius has quit (Quit: Page closed)
+T 1496433984 23*	emdete (~m@ip-109-47-2-97.web.vodafone.de23) has joined
+T 1496434018 24*	michaelrose has quit (Ping timeout: 240 seconds)
+T 1496434401 24*	venmx has quit (Ping timeout: 240 seconds)
+T 1496434450 23*	stargater (~stargater@x4db9e982.dyn.telefonica.de23) has joined
+T 1496434463 24*	bnwilson_ has quit (Ping timeout: 260 seconds)
+T 1496434656 24*	choru has quit (Quit: WeeChat 1.8)
+T 1496434736 23*	Guest51619 (~Jicoss@180.190.77.24223) has joined
+T 1496434743 23*	im0nde (~im0nde@2a03:2260:11e:302:7443:194d:3e8a:10cf23) has joined
+T 1496435102 18<29Guest5161918>	Hi, sorry this is a noobish question, just need some guide what to search for
+T 1496435128 18<29Guest5161918>	the display on the desktop , in the lower left corner its some help notes
+T 1496435145 18<29Guest5161918>	anywhere i can find how to delete those from the desktop layout?
+T 1496435166 23*	Celmor (~Celmor@unaffiliated/celmor23) has joined
+T 1496435301 24*	holden- has quit (Ping timeout: 240 seconds)
+T 1496435321 18<19callumstyan18>	Guest51619, not sure what help notes you're referring to
+T 1496435337 18<28nimaje18>	Guest51619: 'help notes'? In the lower left corner there is usually the mode name if you are not in default mode and the workspace buttons
+T 1496435341 18<29xyzzy[m]18>	Guest51619: Can you post a screenshot?
+T 1496435429 18<29Guest5161918>	ah ye i will try to explain better
+T 1496435445 18<29Guest5161918>	when installing i3 edition from manjaro
+T 1496435470 18<29Guest5161918>	on the actual background in the left corner there is notes that are visiable
+T 1496435476 18<29Guest5161918>	like how to open an terminal
+T 1496435494 18<19occultus18>	Guest51619: i looked up screenshots, is it part of your wallpaper?
+T 1496435529 19*	Now talking on 22#i3
+T 1496435529 22*	Topic for 22#i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+T 1496435529 22*	Topic for 22#i3 set by 26sECuRE!~sECuRE@midna.zekjur.net (24Sat Apr  1 11:39:12 2017)
+T 1496435540 18<29xyzzy[m]18>	I found this on the manjaro forums: https://forum.manjaro.org/uploads/default/original/1X/e16169d2cbc806e9ef5de371b8301dec1ca03caa.png
+T 1496435541 18<29xyzzy[m]18>	Looks like conky
+T 1496435546 18<29Guest5161918>	ah no its not part of the wallpaper, its edged on the screen, so even if i change wallpapepr
+T 1496435565 18<29Guest5161918>	ye exactly
+T 1496435575 18<19occultus18>	oh conky does desktop monitoring too?
+T 1496435608 18<19callumstyan18>	ew
+T 1496435609 18<29Guest5161918>	you see the help notes in the corner and the other stuff in right corner
+T 1496435612 24*	alexpbrown has quit (Remote host closed the connection)
+T 1496435647 19*	Now talking on 22#i3
+T 1496435647 22*	Topic for 22#i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+T 1496435647 22*	Topic for 22#i3 set by 26sECuRE!~sECuRE@midna.zekjur.net (24Sat Apr  1 11:39:12 2017)
+T 1496435658 18<19occultus18>	xyzzy[m]: i thought it was used for a bar
+T 1496435668 18<29xyzzy[m]18>	Try 'killall conky'. If that works all you need to do is remove conky from your autostart.
+T 1496435695 18<29Guest5161918>	ah ye 2 sec
+T 1496435717 18<29Guest5161918>	thanks man that did the trick
+T 1496435757 18<29Guest5161918>	didnt know what started it, so this did really help alot
+T 1496435759 18<29Guest5161918>	ye for sure
+T 1496435977 24*	mstruebing has quit (Ping timeout: 245 seconds)
+T 1496436028 24*	Celmor (~Celmor@unaffiliated/celmor24) has left
+T 1496436197 24*	nupupun has quit (Quit: WeeChat 1.8)
+T 1496436263 24*	Guest51619 has quit (Quit: leaving)
+T 1496436270 24*	im0nde has quit (Ping timeout: 255 seconds)
+T 1496436469 23*	im0nde (~im0nde@2a03:2260:11e:302:7443:194d:3e8a:10cf23) has joined
+T 1496436820 24*	im0nde has quit (Ping timeout: 246 seconds)
+T 1496436915 24*	pf_ has quit (Quit: WeeChat 1.8)
+T 1496437481 24*	m0u has quit (Quit: Lost terminal)
+T 1496437505 23*	diegs_ (~diegs_@unaffiliated/diegs/x-943821123) has joined
+T 1496437615 23*	mstruebing (~mstruebin@p200300E3DBCDAE1C3AB1DBFFFEB33649.dip0.t-ipconnect.de23) has joined
+T 1496437639 24*	amayer has quit (Quit: Leaving)
+T 1496437722 23*	ohaither (~manjaro-i@x4db38a96.dyn.telefonica.de23) has joined
+T 1496437770 23*	solenodic (~solenodic@unaffiliated/solenodic23) has joined
+T 1496438233 18<28Improvotter18>	This is very odd
+T 1496438252 18<28Improvotter18>	I'm in Slack and when I press the thumb button on my MX Master, the toolbar shows and hides :/
+T 1496438279 18<28Improvotter18>	It doesn't seem to have a hotkey linked to it afaik and it doesn't happen in other programs
+T 1496438284 18<28Improvotter18>	Stupid web apps
+T 1496438316 18<19callumstyan18>	are you pressing alt?
+T 1496438357 24*	silverhom has quit (Quit: Leaving)
+T 1496438963 23*	Xenguy (~Xenguy@unaffiliated/xenguy23) has joined
+T 1496439355 18<28Improvotter18>	troelala
+T 1496439362 18<28Improvotter18>	Ah well fuck
+T 1496439371 18<28Improvotter18>	Now I have to change my password of my account
+T 1496439385 18<20Xenguy18>	<evil laugh>
+T 1496439385 18<28Improvotter18>	Luckily it's only my local account
+T 1496439388 18<28Improvotter18>	haha
+T 1496439396 18<28Improvotter18>	My other passwords are 30+ chars ;)
+T 1496439413 18<20Xenguy18>	The best I could memorize was 31 char
+T 1496439561 24*	ZyX-I has quit (Ping timeout: 240 seconds)
+T 1496439691 24*	linux_dream has quit (Quit: WeeChat 1.8)
+T 1496439923 23*	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru23) has joined
+T 1496440139 24*	kalbasit has quit (Ping timeout: 272 seconds)
+T 1496440425 24*	ayjay_t has quit (Read error: Connection reset by peer)
+T 1496440426 23*	ayjay_t_ (ajp@71-88-60-246.static.nwtn.ct.charter.com23) has joined
+T 1496440483 23*	kalbasit (~kalbasit@unaffiliated/kalbasit23) has joined
+T 1496440525 24*	mstruebing has quit (Quit: WeeChat 1.8)
+T 1496440731 24*	stargater has quit (Ping timeout: 240 seconds)
+T 1496440751 18<28Improvotter18>	Xenguy: you should use an algorithm
+T 1496440762 18<28Improvotter18>	Then just generate one in your head per site.
+T 1496440811 18<19squigz18>	I don't believe you only use that password locally :P
+T 1496440825 18<19squigz18>	I bet it's also your algorithm's master password
+T 1496440874 18<28Improvotter18>	squigz: I use that pass for the user, not disk encryption ;)
+T 1496440897 18<19squigz18>	And how often do you have to enter your FDE passphrase? :P
+T 1496440904 18<19squigz18>	Most people keep their boxes up way too long
+T 1496440928 18<28Improvotter18>	I turn mine off daily
+T 1496440939 18<19squigz18>	Good
+T 1496440956 18<19squigz18>	Even so, use a better password for your local user :P
+T 1496440959 18<19squigz18>	That's terrible
+T 1496440961 18<28Improvotter18>	I just use a password on my local account to log in quickly
+T 1496440987 18<19squigz18>	My 2 main passwords are both 25 character randomly generated
+T 1496440999 18<28Improvotter18>	If I have to type "well this is my password for my local account you are never gonna guess it" every time I log in
+T 1496441000 18<19squigz18>	memorized
+T 1496441015 18<28Improvotter18>	Randomly generated passwords? nty
+T 1496441031 18<28Improvotter18>	I generate them in my head for every platform
+T 1496441616 24*	emdete has quit (Ping timeout: 255 seconds)
+T 1496441653 23*	MtotheM (~MtotheM@h-4-126.a392.priv.bahnhof.se23) has joined
+T 1496441988 24*	cookiebow has quit (Ping timeout: 260 seconds)
+T 1496442478 23*	DoomPatrol (~NilesCaul@2602:306:367a:a5f0:b69e:47:99d7:c45623) has joined
+T 1496442489 23*	steven_ (~steven@p54B9949F.dip0.t-ipconnect.de23) has joined
+T 1496442493 24*	stivo has quit (Remote host closed the connection)
+T 1496442509 23*	ryzendar (~ryzenda@2601:547:1300:6c66:192f:b408:7ca4:aafa23) has joined
+T 1496442515 24*	ryzenda has quit (Remote host closed the connection)
+T 1496442609 24*	PatrolDoom has quit (Ping timeout: 271 seconds)
+T 1496442653 24*	kartouch has quit (Ping timeout: 260 seconds)
+T 1496442704 23*	XBauer (~abe@kote1.ethz.ch23) has joined
+T 1496442711 23*	m8t_ (~m8t@pdpc/supporter/base/m8t23) has joined
+T 1496442711 24*	dh has quit (Disconnected by services)
+T 1496442713 23*	tsakos_ (tsakos@elite.bshellz.net23) has joined
+T 1496442716 23*	dh__ (dh@bsd.ee23) has joined
+T 1496442721 23*	fraksken1work (~fraksken@78-23-193-246.access.telenet.be23) has joined
+T 1496442762 23*	firef1y (~firef1y@unaffiliated/firef1y23) has joined
+T 1496442796 23*	kartouch (~kartouch@monkeypl0w.digikiwee.xyz23) has joined
+T 1496442861 24*	burroughs has quit (Ping timeout: 240 seconds)
+T 1496442921 24*	andyrtr has quit (Ping timeout: 240 seconds)
+T 1496442987 24*	kalbasit has quit (Ping timeout: 240 seconds)
+T 1496443004 23*	andyrtr (~andyrtr@archlinux/developer/andyrtr23) has joined
+T 1496443035 23*	burroughs (~burroughs@61.60.197.104.bc.googleusercontent.com23) has joined
+T 1496443053 23*	venmx (~pactadmin@85.255.235.2923) has joined
+T 1496443205 24*	m8t has quit (Write error: Broken pipe)
+T 1496443206 24*	XTaran has quit (Write error: Broken pipe)
+T 1496443214 24*	lermain has quit (Excess Flood)
+T 1496443214 24*	rouji has quit (Excess Flood)
+T 1496443214 24*	simp_ has quit (Excess Flood)
+T 1496443222 23*	lermain (~qed@unaffiliated/lermain23) has joined
+T 1496443227 24*	fraksken_work has quit (Remote host closed the connection)
+T 1496443227 24*	firef1y_ has quit (Remote host closed the connection)
+T 1496443227 24*	docsteel has quit (Remote host closed the connection)
+T 1496443230 23*	rouji (~rouji@x0.at23) has joined
+T 1496443231 23*	simp (~simp@talvik.eu23) has joined
+T 1496443353 24*	Irishluck83 has quit (Ping timeout: 260 seconds)
+T 1496443396 24*	DoomPatrol has quit (Ping timeout: 255 seconds)
+T 1496443425 23*	kalbasit (~kalbasit@unaffiliated/kalbasit23) has joined
+T 1496443491 24*	tsakos has quit (Ping timeout: 260 seconds)
+T 1496443508 23*	Irishluck83 (~Irishluck@unaffiliated/irishluck8323) has joined
+T 1496443519 23*	docsteel (~docsteel@datenschleuder.net23) has joined
+T 1496443668 24*	nujikl123 has quit (Ping timeout: 260 seconds)
+T 1496443752 24*	frakturfreak has quit (Quit: WeeChat 1.8)
+T 1496443813 24*	somis has quit (Quit: WeeChat 1.8)
+T 1496444053 24*	boomboxnation has quit (Ping timeout: 260 seconds)
+T 1496444222 24*	Absolute0 has quit (Remote host closed the connection)
+T 1496464309 19*	Now talking on 22#i3
+T 1496464309 22*	Topic for 22#i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+T 1496464309 22*	Topic for 22#i3 set by 26sECuRE!~sECuRE@midna.zekjur.net (24Sat Apr  1 11:40:49 2017)
+T 1496464945 24*	ksjk1998 has quit (Remote host closed the connection)
+T 1496466086 23*	qgTG (~qgTG@unaffiliated/qgtg23) has joined
+T 1496466127 24*	chel has quit (Ping timeout: 245 seconds)
+T 1496468448 24*	arescorpio has quit (Quit: Leaving.)
+T 1496468482 24*	diegs_ has quit (Ping timeout: 255 seconds)
+T 1496468705 24*	ZyX-I has quit (Ping timeout: 240 seconds)
+T 1496468832 23*	m0u (~m0u@unaffiliated/m0u23) has joined
+T 1496468982 24*	m0u has quit (Client Quit)
+T 1496469236 23*	cspack (~cspack@gateway/vpn/privateinternetaccess/cspack23) has joined
+T 1496469242 23*	m0u (~m0u@250.red-79-159-194.dynamicip.rima-tde.net23) has joined
+T 1496469242 24*	m0u has quit (Changing host)
+T 1496469242 23*	m0u (~m0u@unaffiliated/m0u23) has joined
+T 1496469346 23*	mitz (~mitz@KD106167040033.ppp-bb.dion.ne.jp23) has joined
+T 1496469366 23*	mandje (~mandje@2001:985:8762:1:c0e4:7340:779c:923023) has joined
+T 1496469735 23*	venmx (~pactadmin@85.255.235.2923) has joined
+T 1496469754 24*	ryzendar has quit (Changing host)
+T 1496469754 23*	ryzendar (~ryzenda@unaffiliated/necrodearia23) has joined
+T 1496469996 24*	daktak has quit (Quit: No Ping reply in 180 seconds.)
+T 1496470011 24*	venmx has quit (Ping timeout: 240 seconds)
+T 1496470013 24*	milk has quit (Ping timeout: 255 seconds)
+T 1496470014 24*	bitonic has quit (Ping timeout: 255 seconds)
+T 1496470028 23*	bitonic (sid61915@gateway/web/irccloud.com/x-gybwqxoaodghddyf23) has joined
+T 1496470029 23*	StarlitGhost (~SG@tyranicmoron.uk23) has joined
+T 1496470081 23*	daktak (~quassel@220-245-14-175.static.tpgi.com.au23) has joined
+T 1496470202 24*	Tyranic-Moron has quit (Ping timeout: 255 seconds)
+T 1496470203 24*	leex has quit (Ping timeout: 255 seconds)
+T 1496470209 23*	leex (~leex@towerofthegolem.hexgolems.com23) has joined
+T 1496470397 23*	milk (~milk@thingsandstuff.org23) has joined
+T 1496470674 24*	viktormadarasz has quit (Ping timeout: 240 seconds)
+T 1496470721 23*	viktormadarasz (~viktormad@93.186.253.21623) has joined
+T 1496470823 23*	jagob (~jacob@d40a9e34.rev.stofanet.dk23) has joined
+T 1496470952 23*	llinguini (~llinguini@c-98-215-1-225.hsd1.il.comcast.net23) has joined
+T 1496471071 24*	fraksken1work has quit (Quit: leaving)
+T 1496471398 23*	fraksken_work (~fraksken@unaffiliated/fraksken-work/x-623981023) has joined
+T 1496471418 23*	michaelrose (~michael@75-172-1-48.tukw.qwest.net23) has joined
+T 1496471476 23*	stargater (~stargater@x4db9e982.dyn.telefonica.de23) has joined
+T 1496471660 24*	viktormadarasz has quit (Ping timeout: 255 seconds)
+T 1496471728 23*	viktormadarasz (~viktormad@93.186.253.21623) has joined
+T 1496472874 24*	llinguini has quit (Quit: Leaving)
+T 1496473205 24*	user3 has quit (Ping timeout: 240 seconds)
+T 1496473683 24*	aarobc has quit (Quit: Connection closed for inactivity)
+T 1496530094 19*	Now talking on 22#i3
+T 1496530094 22*	Topic for 22#i3 is: i3 v4.13 released | i3status 2.11 released | i3lock 2.8 released | http://code.i3wm.org/ | http://i3wm.org/ | http://faq.i3wm.org/ | https://bintray.com/i3/i3-autobuild/i3-wm#statistics | paste at http://p.nnev.de/ | file upload at https://transfer.sh/
+T 1496530094 22*	Topic for 22#i3 set by 26sECuRE!~sECuRE@midna.zekjur.net (24Sat Apr  1 11:39:12 2017)
