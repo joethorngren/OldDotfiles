@@ -232,6 +232,8 @@ bar {
 bar {
         output "HDMI-0"
         output "HDMI-1"
+	tray_output "HDMI-0"
+        tray_output "HDMI-1"
         font pango: System San Francisco Display 12
         status_command i3status
         colors {
@@ -270,10 +272,12 @@ exec_always nitrogen --restore
 
 exec --no-startup-id nm-applet
 exec --no-startup-id compton -f
+exec --no-startup-id shutter --min_at_startup
 
 exec i3-msg 'workspace "2:   Chrome"; exec chromium-browser;'
 exec i3-msg 'workspace "3:   Slack"; exec slack; exec hexchat'
 
+assign [class="^crx_knipolnnllmklapflnccelgolnpehhpl"] → $workspace3
 assign [class="^[sS]lack"] → $workspace3
 assign [class="^jetbrains-studio$" instance="^sun-awt-X11-X(DialogPeer|FramePeer)$"] → $workspace1
 
@@ -291,7 +295,6 @@ assign [class="^jetbrains-studio$" instance="^sun-awt-X11-X(DialogPeer|FramePeer
 
 # exec_always clipit -n
 # exec --no-startup-id nm-applet
-# exec --no-startup-id shutter --min_at_startup
 # exec pulseaudio --start
 
 # Switch between keyboard layouts

@@ -1,7 +1,10 @@
-
 [Default Applications]
 text/html=chromium-browser.desktop
 x-scheme-handler/http=chromium-browser.desktop
 x-scheme-handler/https=chromium-browser.desktop
 x-scheme-handler/about=chromium-browser.desktop
 x-scheme-handler/unknown=chromium-browser.desktop
+
+[Added Associations]
+application/x-font-otf=org.gnome.font-viewer.desktop;
+application/x-font-ttf=org.gnome.font-viewer.desktop;
